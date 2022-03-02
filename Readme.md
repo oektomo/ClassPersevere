@@ -9,3 +9,7 @@ Workflow pembuatan tugas:
 4. buat tugas di dalam branch anda.
 5. commit ke akun github anda
 6. pull request ke akun github oektomo
+
+Format nama Tugas Tipe Data:
+
+"tugas1_percy33.ipynb"
