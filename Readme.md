@@ -2,13 +2,15 @@
 
 Di sini anda akan menemukan Tugas anda dan bisa melakukan pengumpulan tugas.
 
-Workflow pembuatan tugas:
+### Workflow pembuatan tugas:
 1. fork repository dari akun oektomo ke akun github anda
 2. clone repository dari akun github anda ke github lokal (komputer anda)
-3. bikin branch "percy33"
+3. bikin branch "percy33" sesuaikan nomormu percyXX
 4. buat tugas di dalam branch anda.
 5. commit ke akun github anda
 6. pull request ke akun github oektomo
+
+https://opensource.com/article/19/7/create-pull-request-github
 
 ### Format nama Tugas Tipe Data:
 
