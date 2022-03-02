@@ -1,0 +1,7 @@
+body {
+  background-color: lightblue;
+  background-image: url(/background/cookingMama.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: bottom center;
+}
