@@ -1,0 +1,57 @@
+#Implementasi Subfields dari Artificial Intelligence
+
+- Data Science
+
+ Data science merupakan bidang yang melibatkan mempersiapkan data untuk pengolahan seperti membersihkan data, 'manipulasi' data,
+menyimpulkan isi data. Umumnya, data science melibatkan mengolah data untuk diolah lebih lanjut supaya dapat memperoleh informasi
+dari kumpulan data tersebut.
+
+Contoh implementasi data science:
+- Melakukan regresi linear terhadap data orang yang terpapar COVID-19 menggunakan data historis untuk memprediksi kasus di masa depan
+Regresi merupakan proses memperkirakan hubungan antara variable 'dependent' dan independent' yang secara matematis direpresentasikan
+sebagai Y=a+bX. Dengan data seperti tanggal dan jumlah orang yang terpapar COVID-19 per hari maka dapat dicari relasi antar variabel-
+nya. Setelah mengetahui korelasinya, kita dapat mengguanakan bentuk matematisnya untuk mencari value saat dipoint lain.
+
+- Implementasi Clustering untuk customer segmentation e-Commerce
+Clustering merupakan membagi data menjadi beberapa grup berdasar kemiripan yang mereka miliki. Contohnya suatu e-Commerce memiliki data
+tentang usia dan pendapatan pelangganya dapat melakukan clustering untuk mencari kelompok mana yang belanja paling banyak di platform mereka.
+Sehingga di masa depan, dapat melakukan suatu event yang menargetkan cluster tersebut.
+
+
+
+
+- Computer Vision
+ Computer vision bertujuan agar mesin atau komputer dapat memahami dan mengetahui objek apa yang terdapat dalam foto atau video.
+
+Contoh implementasi computer vision:
+- Identifikasi wajah untuk keamanan hp
+Banyak HP sekarang menggunakan 'facial recognition' untuk membuka HP mereka. Umumnya, wajah pemilik HP akan dicari karakteristik
+utamanya seperti jarak antara mata atau ke dahi maupun dagu dan ke tempat-tempat lain. Kumpulan jarak-jarak ini menjadi kunci untuk membuka HP
+nantinya.
+
+- Pencari parkiran kosong menggunakan CCTV
+Implementasi ini banyak diusulkan dalam pembangunan smart city yang memanfaatkan Deep Convolutional Neural Network. Implementasi ini sangat scalable,
+ekonomis dan effisien karena hanya membutuhkan kamera dan bisa dimanfaatkan dimana saja seperti parkiran pusat berbelanja, kampus, dll. Pelatihan dapat
+dilakukan terhadap mesin untuk mengidentifikasi objek mobil dan garis-garis pembatas parkiran mobil.
+
+
+
+
+
+
+- Natural Language Processing (NLP)
+NLP bertujuan agar mesin dapat memahami bahasa manusia.
+
+Contoh implementasi NLP:
+- Sentiment Analysis
+Sentiment analysis dapat memberikan informasi dari pengguna sosial media. Implementasinya sudah beragam dari untuk memperoleh feedback, program pengiklanan
+dan lain-lain. Sentiment analysis menjadi lebih mudah khususnya dengan banyaknya media untuk memperoleh data. Contohnya dengan Twitter Developer API yang
+memungkinkan kita untuk mengunduh 'Tweets' dari Twitter yang mengandung 'hashtag' (#) atau kata tertentu dan filter-filter lainya. Dengan kemudahan ini, perusahaan
+dapat melakukan analysis dengan engagement yang mereka dapat dari media sosial Twitter misalnya.
+
+- Autocorrection
+Auto correction sudah sering kita temui mulai dari keyboard HP kita atau text editor seperti Google Docs. Secara umum, model autocorrection pertama mengidentifikasi
+sebuah kata dengan kamus bawaan. Jika tidak ada dikamus, maka akan dilabelkan sebagai kata salah. Kemudian ada mekanisme pemberi usulan kata-kata yang benar berdasar
+operasi terhadap karakter yang ada dalam kata yang salah. Terdapat juga mekanisme yang menggunakan probabilitas dari kata yang diusulkan tadi.
+
+
