@@ -7,3 +7,7 @@
 ### Format nama Tugas Operator dan flow control:
 
 "Folder tugas2_percy26"
+
+### Format nama Tugas Aplikasi AI:
+
+"Folder tugas3_percy26"
