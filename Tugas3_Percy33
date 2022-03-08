@@ -1,0 +1,11 @@
+Contoh bidang Data Sciene :
+1.	Aplikasi kecantikan untuk mendeteksi permasalahan kulit wajah. dalam pemakaiannya pengguna cukup merekam wajah pada fitur aplikasi dan nantinya AI akan bekerja menganalisis data, hasil analisis data berupa penjelasan mengenai kondisi kulit wajah dan sebuah saran rekomendasi produk yang digunakan.
+2.	Aplikasi pendeteksi warna rambut. Sebelum kita memilih warna apa yang cocok dirambut kita sebelum rambut kita dicat, maka dapat menggunakan aplikasi pendeteksi warna rambut. dengan penerapan data sciene dan AI  fitur ini akan mendeteksi rambut agar kita lebih mudah dalam memilih warna  yang telah disediakan oleh pengembang.
+
+Contoh bidang Computer Vision :
+1.	Aplikasi scanQR pembayaran pada handphone. ketika kode scanQR dideteksi oleh komputer, kode yang telah discan akan mengirimkan sebuah perintah khusus berupa pembayaran.
+2.	Aplikasi sensor parkir pada mobil. pada saat kita mengundurkan mobil, maka kita akan mengetahui ada benda keras atau tidak, pada saat ada benda keras maka alarm akan berbunyi.
+
+Contoh bidang Natural Language Processing :
+1.	Aplikasi Gojek. Pada penamaan lokasi, saat kita memesan Gojek diKampus maka akan muncul lagi pilihan titik jemput yang lebih mendetail seperti parkiran motor atau loby.
+2.	Aplikasi Google Translate. pada saat kita ingin menerjemahkan sesuatu, aplikasi ini dapat  menerjemahkan bukan lagi perkata tapi sesuai konteks dan grammer.
