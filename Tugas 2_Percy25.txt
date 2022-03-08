@@ -1,0 +1,38 @@
+1. Computer Vision 
+Berikut ini beberapa contoh dari aplikasi computer vision pada sebuah sistem yaitu:
+-Pemeriksaan otomatis, misalnya, dalam aplikasi manufaktur.
+-Membantu manusia dalam tugas identifikasi, misalnya, sistem identifikasi spesies.
+-Mengontrol proses, misalnya, robot industri.
+-Mendeteksi kejadian, misalnya, untuk pengawasan visual atau penghitungan orang.
+-Interaksi, misalnya, sebagai masukan ke perangkat untuk interaksi komputer-manusia.
+-Memodel objek atau lingkungan, misalnya, analisis citra medis atau pemodelan topografi.
+-Navigasi, misalnya, oleh kendaraan otonom atau robot seluler.
+-Mengatur informasi, misalnya, untuk mengindeks basis data gambar dan urutan gambar.
+- salah satu bidang aplikasi yang paling menonjol adalah medical computer vision  atau pemrosesan gambar medis. Area ini ditandai dengan ekstraksi informasi dari data gambar untuk tujuan membuat diagnosis medis pasien. Secara umum, data gambar berupa gambar mikroskop, gambar X-ray, gambar angiografi, gambar ultrasonik, dan gambar tomografi. 
+Contoh informasi yang dapat diekstraksi dari data gambar tersebut adalah deteksi tumor, arteriosklerosis atau perubahan maligna lainnya. Proses ini juga dapat berupa pengukuran dimensi organ, aliran darah, dll. Area aplikasi ini juga mendukung penelitian medis dengan memberikan informasi baru, misalnya, tentang struktur otak, atau tentang kualitas perawatan medis. Aplikasi computer vision di bidang medis juga termasuk peningkatan gambar yang ditafsirkan oleh manusia, misalnya gambar ultrasonik atau gambar X-ray, untuk mengurangi pengaruh kebisingan.
+
+2. Data Science 
+-  E-Commerce
+Saat ini orang-orang lebih banyak berbelanja secara digital atau biasa kita kenal dengan marketplace. Hampir semua orang menggunakan marketplace, penjual online secara otomatis akan menyesuaikan etalasenya berdasarkan profil data pembeli. Dengan mengubah tata letak halaman dan menyesuaikan produk jualannya secara otomatis dan real-time. Beberapa online shop juga menyesuaikan harga berdasarkan profil penghasilan konsumen, atau disebut dengan harga yang dipersonalisasi. Teknologi ini merupakan salah satu aplikasi penerapan ilmu Data Science.
+- Fraud Detection
+Mendeteksi penipuan adalah bagian terpenting dari segala industri keuangan. Data Science dan AI adalah kedua ilmu yang sering digunakan disini. Bahkan kerusakan dan gangguan kecil akan dapat menyebabkan kerugian finansial. Analisis prediksi real-time membantu dalam peningkatan deteksi penipuan dan juga keamanan cyber. Dengan bantuan Data Science, perusahaan dapat menyediakan layanan keuangan yang lebih efektif. Teknologi ini membantu untuk mengidentifikasi potensi transaksi penipuan yang dilakukan di setiap aktivitas. Dan ini juga akan membantu untuk memblokir sesi atau akun jika terdeteksi ada aktivitas keuangan yang tidak biasa.
+
+- Dynamic Pricing
+Penetapan dynamic pricing sangat berguna dalam industri travel. Penetapan harga dinamis ini digunakan oleh perusahaan dengan menggunakan data untuk mensegmentasikan pelanggan atau konsumen secara akurat. Setiap kelompok pelanggan kemudian dapat ditawari produk dengan harga berbeda. Penawaran ini didasari pada informasi yang dihasilkan oleh Data Science dan berbagai faktor lainnya.
+
+Salah satu contoh perusahaan yang menerapkannya adalah Airbnb. Airbnb menggunakan ilmu Data Science dan algoritma dynamic pricing yang berfokus pada harga. Algoritma ini memperhitungkan berbagai macam kategori. Seperti lead time, review properti dan fasilitas yang disediakan. Algoritma ini juga dapat digunakan oleh pemilik properti untuk menentukan biaya per malam secara otomatis.
+
+3. Natural Language Processing
+- Chatbots
+Dalam dunia bisnis, layanan dan pengalaman pelanggan merupakan hal penting yang perlu diprioritaskan. Ketika perusahaan memproduksi banyak produk atau memberikan sebuah layanan, belum tentu pelanggan merasa puas dengan hasil yang diterima. Tentunya, perusahaan harus menyediakan sarana tempat pengaduan, seperti Chatbot. Chatbots memungkinkan perusahaan mendapatkan tujuan pengalaman pelanggan yang lancar.
+Chatbot bertujuan untuk membantu perusahaan untuk berinteraksi dengan pelanggan. Banyak perusahaan menggunakan chatbot pada aplikasi atau web mereka,  guna menangani keluhan atau menjawab pertanyaan dasar pelanggan selama 24 jam setiap harinya.
+- Speech Recognition
+Teknologi speech recognition memungkinkan komputer untuk mengubah suara ke format yang dapat dibaca oleh mesin. Speech recognition banyak ditemukan di kehidupan sehari-hari seperti asisten virtual (Siri, Alexa), menerjemahkan ucapan, dan lain sebagainya.
+- Search engine
+NLP memiliki peran dalam mesin pencarian Google, Yahoo, dan lain sebagainya. Pada saat mencari sesuatu di google search engine, maka secara otomatis search engine akan menampilkan beberapa kalimat yang relevan sesuai dengan apa yang dicari.
+- Text Extraction
+Ekstraksi teks sering kali disebut sebagai ekstraksi kata kunci. Dengan ekstraksi teks informasi tertentu dalam teks seperti perusahaan, nama, tempat, dan lainnya dapat dideteksi secara otomatis. Teknologi ini juga menyaring tiket dukungan yang masuk dan mengidentifikasi data tertentu tanpa membuka dan membaca setiap tiket.
+- Recruitment
+Dalam memilih karyawan yang tepat untuk sebuah perusahaan, HR perlu melakukan peninjauan ribuan resume untuk sebuah posisi. Dengan menggunakan bahasa alami, perekrut dapat menyaring kandidat secara otomatis. Teknologi ini dapat mengekstraksi informasi seperti keterampilan, nama, lokasi, dan pendidikan.
+- Proofreading
+Fitur proofreading terdapat dalam Microsoft Word atau Google Docs. Fitur ini sangat bermanfaat, terutama bagi seseorang yang berprofesi sebagai penulis. Dalam pekerjaannya, penulis harus mengecek ulang secara manual untuk memastikan tidak ada typo pada tulisan yang sudah dibuat. Dengan teknologi ini, komputer dapat langsung membaca dan memberitahu ketika terdapat kesalahan yang harus dibetulkan, dengan memberi garis merah di bawah tulisan tersebut.
