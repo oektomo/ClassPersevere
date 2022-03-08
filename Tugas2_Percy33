@@ -1,0 +1,325 @@
+print(10 + 5) 
+15
+
+a = 33
+b = 200
+if b > a:
+  print("b lebih besar dari a")
+b lebih besar dari a
+
+a = 33
+b = 33
+if b > a:
+  print("b lebih besar dari a")
+elif a == b:
+  print("a sama dengan b")
+a sama dengan b
+
+a = 200
+b = 33
+if b > a:
+  print("b lebih besar dari a")
+elif a == b:
+  print("a sama dengan b")
+else:
+  print("a lebih besar dari b")
+a lebih besar dari b
+
+a = 200
+b = 33
+if b > a:
+  print("b lebih besar dari a")
+else:
+  print("b tidak lebih besar dari a")
+b tidak lebih besar dari a
+
+if a > b: print("a lebih besar dari b")
+a lebih besar dari b
+
+a = 2
+b = 330
+print("A") if a > b else print("B") 
+B
+
+a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Kedua kondisi tersebut benar")
+Kedua kondisi tersebut benar
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("Setidaknya salah satu syaratnya adalah benar")
+Setidaknya salah satu syaratnya adalah benar
+
+x = 41
+
+if x > 10:
+  print("Di atas sepuluh,")
+  if x > 20:
+    print("dan diatas 20!")
+  else:
+    print("tapi tidak diatas 20.") 
+Di atas sepuluh,
+dan diatas 20!
+
+a = 33
+b = 200
+
+if b > a:
+  pass
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+1
+2
+3
+4
+5
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1 
+1
+2
+3
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+1
+2
+3
+4
+5
+6
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i tidak lebih dari 6")
+1
+2
+3
+4
+5
+i tidak lebih dari 6
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+apple
+banana
+cherry
+
+for x in "banana":
+  print(x)
+b
+a
+n
+a
+n
+a
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+apple
+banana
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+apple
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+apple
+cherry
+
+ for x in range(6):
+  print(x) 
+0
+1
+2
+3
+4
+5
+
+for x in range(2, 6):
+  print(x)
+2
+3
+4
+5
+
+for x in range(2, 30, 3):
+  print(x)
+2
+5
+8
+11
+14
+17
+20
+23
+26
+29
+
+for x in range(6):
+  print(x)
+else:
+  print("Akhirnya selesai!") 
+0
+1
+2
+3
+4
+5
+Akhirnya selesai!
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Akhirnya Selesai!") 
+0
+1
+2
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y) 
+red apple
+red banana
+red cherry
+big apple
+big banana
+big cherry
+tasty apple
+tasty banana
+
+for x in [0, 1, 2]:
+  pass
+
+def my_function():
+  print("Hallo saya eka") 
+
+def my_function():
+  print("Hallo saya eka")
+
+my_function()
+Hallo saya eka
+
+def my_function(fname):
+  print(fname + " shaw")
+
+my_function("Eka")
+my_function("Mendes")
+my_function("Laki") 
+Eka shaw
+Mendes shaw
+Laki shaw
+
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Eka", "Setiawan")
+Eka Setiawan
+
+def my_function(*kids):
+  print("Anak kecil itu adalah " + kids[2])
+
+my_function("Eka", "Tobi", "Lindi")
+Anak kecil itu adalah Lindi
+Anak kecil itu adalah Lindi
+
+def my_function(child3, child2, child1):
+  print("Anak kecil itu adalah " + child3)
+
+my_function(child1 = "Eka", child2 = "Tobi", child3 = "Lindi") 
+Anak kecil itu adalah Lindi
+
+def my_function(**kid):
+  print("Nama akhir dia adalah " + kid["lname"])
+
+my_function(fname = "eka", lname = "setiawan") 
+Nama akhir dia adalah setiawan
+
+def my_function(country = "Indonesia"):
+  print("Saya dari " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil") 
+Saya dari Sweden
+Saya dari India
+Saya dari Indonesia
+Saya dari Brazil
+
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+apple
+banana
+cherry
+
+def my_function(x):
+  return 5 * x
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9)) 
+apple
+banana
+cherry
+
+def myfunction():
+  pass
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nContoh")
+tri_recursion(6)
+Contoh
+1
+3
+6
+10
+15
+21
+21
