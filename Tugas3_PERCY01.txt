@@ -1,0 +1,21 @@
+Nama : Eka Novita Sari
+PERCY01
+
+
+-Contoh Data Science
+1. Asisten Virtual
+Seperti siri di iphone, google now di android. Asisten virtual ini dapat membantu untuk memasang alarm, mencari sesuatu di google, serta menanyakan cuaca hanya dengan ucapan.
+2. Filter Pesan Spam
+Biasa digunakan untuk spam filtering dimana mesin akan menentukan apakah pesan tersebut termasuk sebagai pesan spam atau bukan.
+
+-Contoh Computer Vision
+1. Image Segmentation
+Proses membagi gambar ke dalam wilayah yang berbeda berdasarkan karakteristik piksel untuk mengidentifikasi objek atau batas untuk menyederhanakan gambar dan menganalisisnya dengan efisien.
+2. Facial Recognition
+Untuk mengidentifikasi atau mengkonfirmasi identitas individu menggunakan wajah. Sistem pengenalan wajah ini dapat digunakan untuk mengidentifikasi orang dalam foto, video, atau secara real time, selain itu juga bisa menjadi keamanan biometrik.
+
+-Contoh Natural Language Processing
+1. Chatbots
+Biasa digunakan untuk merespon semua keluhan pelanggan selama 24 jam di setiap harinya. Dengan mengandalkan chatbots tuntutan pelanggan yang ingin segera dilayani dapat di atasi.
+2. Search Engine
+Alat penelusuran yang biasanya terdapat di google, yahoo, opera, dan lain-lain. Search engine secara otomatis akan menampilkan kata yang dicari dengan relevan, hal ini dapat mempermudah mencari sesuatu dan belajar.
