@@ -11,3 +11,7 @@
 ### Format nama Tugas Aplikasi AI:
 
 "Folder tugas3_percy26"
+
+### Format nama Tugas The 4Ws of Problem Scoping + Hipotesis
+
+"Folder tugas4_percy26"
