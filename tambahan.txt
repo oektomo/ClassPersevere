@@ -1,0 +1,41 @@
+[33mcommit 06d3ce21df1ee8de9877f48d31f7b3aac441cc04[m[33m ([m[1;36mHEAD -> [m[1;32mpercy31[m[33m, [m[1;31morigin/percy40[m[33m, [m[1;31morigin/percy39[m[33m, [m[1;31morigin/percy38[m[33m, [m[1;31morigin/percy37[m[33m, [m[1;31morigin/percy36[m[33m, [m[1;31morigin/percy35[m[33m, [m[1;31morigin/percy34[m[33m, [m[1;31morigin/percy33[m[33m, [m[1;31morigin/percy32[m[33m, [m[1;31morigin/percy31[m[33m, [m[1;31morigin/percy30[m[33m, [m[1;31morigin/percy29[m[33m, [m[1;31morigin/percy28[m[33m, [m[1;31morigin/percy27[m[33m, [m[1;31morigin/percy26[m[33m, [m[1;31morigin/percy25[m[33m, [m[1;31morigin/percy24[m[33m, [m[1;31morigin/percy23[m[33m, [m[1;31morigin/percy22[m[33m, [m[1;31morigin/percy21[m[33m, [m[1;31morigin/percy20[m[33m, [m[1;31morigin/percy19[m[33m, [m[1;31morigin/percy18[m[33m, [m[1;31morigin/percy17[m[33m, [m[1;31morigin/percy16[m[33m, [m[1;31morigin/percy15[m[33m, [m[1;31morigin/percy14[m[33m, [m[1;31morigin/percy13[m[33m, [m[1;31morigin/percy12[m[33m, [m[1;31morigin/percy11[m[33m, [m[1;31morigin/percy10[m[33m, [m[1;31morigin/percy09[m[33m, [m[1;31morigin/percy08[m[33m, [m[1;31morigin/percy07[m[33m, [m[1;31morigin/percy06[m[33m, [m[1;31morigin/percy05[m[33m, [m[1;31morigin/percy04[m[33m, [m[1;31morigin/percy03[m[33m, [m[1;31morigin/percy02[m[33m, [m[1;31morigin/percy01[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 10:42:03 2022 +0700
+
+    perbaiki workflow pembuatan tugas, tambah command kasar dari tutorial github
+
+[33mcommit 39b5e6a9565898a90e1371b0c3e0c19bc9941b4e[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 10:13:42 2022 +0700
+
+    perbaiki workflow pembuatan dan pengumpulan tugas, tambah format nama tugas
+
+[33mcommit 34331e28f26e4e59cc1e4e715f60720064a4798e[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 08:58:03 2022 +0700
+
+    menambah file minggu 2 hari 1
+
+[33mcommit cf12b7c99631bcd6c94e2c1c461e0ca7ebac1569[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 08:53:43 2022 +0700
+
+    tambah nama tugas1 di readme.md
+
+[33mcommit 2999492db9be1ce6d4e3ed62538a4cd1e953f9b2[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 08:49:31 2022 +0700
+
+    update workflow pembuatan tugas di readme.md
+
+[33mcommit 3353022542cc4f5306799ec2f68434656585ec06[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 08:45:38 2022 +0700
+
+    menambah Readme dan .gitignore
+
+[33mcommit 21ef10c35367da5bb0d0f7d7d25db23c97bd62dd[m
+Author: oetomo <oektomo@gmail.com>
+Date:   Wed Mar 2 08:22:53 2022 +0700
+
+    commit pertama
