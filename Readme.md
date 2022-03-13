@@ -15,3 +15,7 @@
 ### Format nama Tugas The 4Ws of Problem Scoping + Hipotesis
 
 "Folder tugas4_percy26"
+
+### Format nama Tugas Friday
+
+"Folder tugas5_percy26"
