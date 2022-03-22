@@ -1,5 +1,12 @@
 ﻿# Tugas 1 Reinforcement Learning
 
+# Anggota
+1. Don Rui Tornado Rosa (Persevere)
+2. Fernando (Better)
+3. Finder Normandia (Visioner)
+4. M. Naufal Dzakki Rauf (Atlas)
+5. Priskila Ayunda P. (Alan Turing)
+
 ## 1. Cari dan tuliskan satu contoh/implementasi RL dibidang anda!
 
 Autonomous cars atau mobil tanpa pengemudi.
