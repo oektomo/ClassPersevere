@@ -1,0 +1,114 @@
+Mon, 28 Feb
+
+Hari libur sehingga tidak ada agenda materi/self study. Hanya menonton video yang di share melalui Discord Kelas Persevere.
+
+Tue, 1 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+NLP merupakan AI yang belum dewasa meskipun pemanfaatannya sudah banyak. Contoh NLP adalah Google Asisstant, Cortana. Riset di NLP juga belum sebanyak riset Computer Vision.
+Karu grafis tidak mesti untuk menampilkan gambar namun juga untuk memproses data lainnya.
+AI Winter adalah periode berkurangnya minat terhadap penelitian dan pengembangan AI. Hal ini pernah terjadi 2 kali tahun 74 dan 90-an.
+
+Father of AI adalah John McCarthy, beliau membuat bahasa pemrograman simbolik bernama list. Bahasa pemrograman simbolik secara matematis sangat berguna.
+Tes Turing digunakan untuk menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan mengintrogasinya bersama dengan rekan manusianya. Kriteria mesin turing: jika terdapat sebuah computer dan 2 manusia diletakkan pada tempat terpisah, salah satu manusia harus bisa menebak mana chat dari manusia maupun computer. Jika manusia tidak bisa membedakan mana chat dari manusia maupun kompuuter, maka turing test lolos. Sophia adalah AI yang sudah lolos turing test.
+Konsep Agen.
+Agen adalah segala sesuatu yang dapat dilihat sebagai memahami lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui akuator. Agen manusia : mata, telinga, dan organ lain untuk sensor: tangan, kaki, mulut dan bagian tubuh lainnya untuk actuator. Agen robot : kamera dan pencari jangkauan inframerah untuk sensor dan berbagai motor untuk actuator.
+Konsep kecerdasan buatan disebut jaringan saraf tiruan (JST) / Artificial Neural Network (ANN). 
+
+Python merupakan bahasa pemrograman open-source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas. Python memiliki sintaks elegan yang alami untuk dibaca dan mudah untuk ditulis. Open source : source codenya terbuka dan dapat didistribusikan secara bebas.
+
+Compiler VS Interpreter.
+Banyak bahasa pemrograman mengharuskan kita untuk mengkompikasi (menerjemahkan) program ke dalam bentuk yang dimengerti mesin. Python merupakan bahasa yang langsung diinterpretasi / dimengerti oleh mesin tanpa kompilasi.
+Contoh bahasa yang di compile : C, C++
+Interpreter : Java, python, matlab, html
+
+Perusahaan besar yang menggunakan python : Youtube, Google, NSA, NASA, Netflix
+Python dipilih karena; sederhana dan elegan, powerful, free, dukungan komunitas
+
+Kemudian, dilanjutkan self study untuk mengenal sintaks umum di bahasa pemrograman python melalui website w3school. Telah dipelajari dan dipraktekkan melalui code editor yang tersedia di web tentang syntax, comments, variables, data types, numbers, casting, strings, boolean, operators.
+
+SESI 2
+Pada sesi 2 mempelajari data types dan primitive data types di python, sequence (list, tuple, string), dictionary dan set, type convension-primitive dan type convension-non primitive.
+
+Perbedaan Jupyter Notebook dan Spyder yaitu; Jupyter untuk menulis catatan serta melakukan analisis data dalam file yang sama, sedangkan spyder merupakan IDE untuk scientific programing.
+Kita dapat menulis catatan dalam jupyter notebook dengan kode markdown. Saat menggunakan markdown, # digunakan untuk menandai heading, tapi saat menggunakan opsi code, # digunakan untuk comment
+
+Data structures merupakan cara untuk mengatur dan menyimpan data. Tipe data variabel menentukan operasi mana yang dapat diterapkan padanya.
+Tipe data primitive; struktur data dasar, blok bangunan untuk manipulasi data dan berisi nilai data yang murni dan sederhana. Tipe data primitive terdiri dari; numbers (integer, float, complex), string, dan Boolean.
+Tipe data non-promitive; berasal dari primitive data, digunakan untuk menyimpan kumpulan nilai.
+
+LIST
+List is mutable; list memiliki berbagai metode yang tersedia yang dapat digunakan untuk memanipulasi list itu sendiri seperti append(), insert(), remove(), dsb.
+-	Dapat didefinisikan menggunakan tanda kurung siku []
+-	Bisa berubah
+-	Implikasi dari iterasi memakan waktu dalam list
+-	Kurang hemat memori
+-	Kesalahan dan perubahan yang tidak terduga dapat dengan mudah terjadi dalam list
+
+TUPLE
+Tuple tidak mendukung modifikasi sehingga merupakan objek yang tidak dapat diubah
+-	Dapat didefinisikan menggunakan tanda kurung ()
+-	Tidak bisa berubah
+-	Implikasi dari iterasi jauh lebih cepat
+-	Lebih hemat memori
+-	Kesalahan dan perubahan yang tidak terduga jarang terjadi dalam tuple
+
+STRING
+-	Kumpulan abjad, kata, atau karakter
+-	Merupakan primitive data types tapi mendukuing banyak fungsi dari koleksi (list dan tuple)
+-	Dibuat dengan melampirkan urutan karakter dalam sepasang tanda kutip
+-	Tidak dapat diubah, powerful
+
+DICTIONARY
+-	Dideklarasi dengan symbol {}
+-	Bisa berubah (mutable) yaitu kita dapat memodifikasi baik menambahkan, mengurangi atau mengubah elemen dictionary setelah pembuatan
+
+SET
+-	Bersifat iterable
+-	Bisa berubah (mutable)
+-	Kumpulan value yang dipisahkan dengan koma dan diapit dalam tanda kurung kurawal {}
+-	Tidak berurutan, bisa berubah dan tidak mendukung pengulangan elemen
+-	Terutama digunakan untuk operasi teori himpunan seperti serikat pekerja, persimpangan, dll
+-	Set adalah tipe data yang bisa diubah. Frozenset tidak bisa diubah
+
+TIPE CONVERSION:
+-	Implicit type conversion
+-	Explicit type conversion
+Contoh : list(s) untuk mengubah s menjadi sebuah list
+
+Pada sesi 2 ini, banyak disimulasikan code python menggunakan jupyter notebook.
+Kemudian, dilanjutkan self study untuk mempraktekkan penggunaan  list, tuples, sets, dan dictionaries pada Jupyter notebook.
+
+Wed, 2 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+Pada sesi 1 diperkenalkan mengenai cara penggunaan dan fungsi Github. Github akan digunakan sebagai sarana pengumpulan tugas kelas. Git adalah tools gratis dan dapat digunakan oleh programmer/developer untuk menjalankan sebuah proyek secara bersamaan. GitHub adalah layanan berbasis cloud bagi para programmer/developer untuk menyimpan dan mengelola kode, serta mendokumentasikan dan mengontrol perubahannya. Selain itu, dipelajari materi mengenai python operators serta eksplorasi input function di python. Pada sesi self study pagi, peserta mencoba mengeksplor penggunaan Git dan membuat akun GitHub.
+
+SESI 2
+Pada sesi 2 dipelajari materi mengenai penggunaan control flow, cara menggunakan conditional programming di python serta bagaimana menggunakan list comprehension di python. Pada sesi self study siang, peserta kembali mengeksplorasi GitHub karena belum pernah menggunakan GitHub sebelumnya sehingga merasa perlu belajar lebih banyak.
+
+Thu, 3 Mar
+
+Hari libur nasional sehingga tidak ada agenda materi/self study. Namun, hari ini saya mencoba mengeksplorasi GitHub kembali serta mengumpulkan Tugas 1 di GitHub.
+
+Fri, 4 Mar
+
+Hari ini telah dipelajari cara penggunaan built-in function yang populer di Python, membuat user-defined functions, memahami generators, menggunakan map dan filter functions, string manipulation serta memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di python.
+
+What did you learn this week?
+
+Minggu ini pembelajaran via Ms. Teams hanya dilaksanakan 3 hari karena terdapat libur nasional pada hari Senin dan Kamis. Saat libur hari Senin, saya hanya menonton video tentang AI yang di share di discord. Kemudian di libur hari Kamis saya belajar mandiri mengeksplorasi Git. Di hari Selasa, Rabu, dan Jumat saya telah mempelajari NLP, Konsep agen, compiler vs interpreter, data types dan primitive data types di python, sequence (list, tuple, string), dictionary dan set, type convension-primitive dan type convension-non primitive, mengenal sintaks umum di bahasa pemrograman python melalui website w3school, cara penggunaan dan fungsi Github, penggunaan control flow, cara menggunakan conditional programming di python serta bagaimana menggunakan list comprehension di python, cara penggunaan built-in function yang populer di Python, membuat user-defined functions, memahami generators, menggunakan map dan filter functions, string manipulation serta memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di python.

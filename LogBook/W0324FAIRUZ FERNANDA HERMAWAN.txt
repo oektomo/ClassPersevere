@@ -1,0 +1,40 @@
+Mon, 7 Mar
+
+Mempelajari mengenai cabang cabang di AI seperi Computer Vision,Machine Learning dan Data Science secara umum.
+
+Tue, 8 Mar
+
+Pembahasan mengenai Materi Aljabar Linear,Statistik serta Peluang.dan mencoba mencoding dengan menggunakan Library NumPy
+
+Wed, 9 Mar
+
+kegiatan hari rabu kurang lebih :
+- Mereview materi Aljabar linear,statistik dan probabilitas
+- membahas mengenai Artifical neural network
+- membahas deep learning
+
+Thu, 10 Mar
+
+hari kamis kegiatannya :
+-membahas Project Ai scope yang terdiri dari :
+-Problem Scoping
+- Data Aquisition
+- Data exploration
+- Modelling
+- Evaluation
+- Deployment
+
+Fri, 11 Mar
+
+membahas :
+-Membahas OOP
+-Parent
+-Inharitance
+-Encapsulation
+-Reusability
+-Simplicity
+-Scoping
+
+What did you learn this week?
+
+kurang lebih di minggu ini saya mempelajari mengenai pendalaman mengenai AI seperti ANN (artifical neural network),Membahas matematika seperti Aljabar linear,statistik serta probabilitas,serta live coding tentang library numpy dan Object oriented programming.

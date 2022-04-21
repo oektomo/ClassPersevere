@@ -1,0 +1,29 @@
+Mon, 28 Feb
+
+Libur, namun saya mempelajari materi sistem pakar pada buku AI yang saya download di internet.menurut yang saya tangkap.sistem pakar merupakan sebuah program komputer yang dapat menyelesaikan masalah layaknya seperti seorang Pakar (human expert).
+
+dalam sistem pakar terdapat 3 unsur manusia yaitu
+-pakar
+-perekayasa pengetahuan
+-pemakai
+
+Tue, 1 Mar
+
+Mereview pertemuan  minggu lalu,serta diajarkan materi coding python seperti integer,string,dictionary,list dan set
+
+Wed, 2 Mar
+
+mempelajari github,cara commit,cara membuat branch dan cara
+pull request.
+
+Thu, 3 Mar
+
+Libur nasional,tapi saya mereview materi materi sebelumnya untuk dipelajari kembali
+
+Fri, 4 Mar
+
+belajar membuat fungsi,generator,global variabel dan local variabel serta fungsi lambda pada jupiter notebook
+
+What did you learn this week?
+
+mempelajari berbagai macam fungsi pada python,mempelajari cara mengirim file ipynb ke github,serta menghubungkan google colab dengan akun github.

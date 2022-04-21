@@ -1,0 +1,79 @@
+Mon, 21 Feb
+
+Materi pertama di minggu pertama cukup seru, mulai dari perkenalan hingga penjelasan terkait AI, seperti apa itu AI? Kenapa kita perlu belajar AI? dan masih banyak lagi. Pada intinya AI merupakan suatu alat kecerdasan buatan untuk membantu atau meniru perilaku dan mempermudah manusia. Kedepannya, AI akan semakin berkembang sehingga perlu bagi kita untuk belajar mengenai AI.
+
+Tue, 22 Feb
+
+Hari ini saya belajar mengenai dasar Python. Python pada dasarnya merupakan bahasa pemrogaraman yang mudah dipelajari dan sangat mirip dengan bahasa manusia. Di awal materi ini, saya mempelajari terkait instalasi Python dan Jupyter notebook serta belajar mengenai konsep variabel dalam  Python.
+
+Wed, 23 Feb
+
+Video di Orbit Guru banyak yang lag ketika disetel, cukup buat kesel si :) 
+
+Tapi selain itu materi yang dikasih menarik, mulai pengenalan dengan Python. Python pada intinya merupakan bahasa pemrograman tingkat tinggi yang dinamis dan mudah dipahami dibandingkan bahasa pemrograman lainnya. Python biasa digunakan untuk web deployment, data analysis, machine learning, dan masih banyak lagi.
+
+Ada 4 metode untuk menulis dan menjalankan program Python, yaitu terminal, terminal + text editor, IDE, IDE untuk penelitian dan pengembangan.
+
+Pada materi hari ini juga dikenalkan dengan Jupyter NOtebook yang merupakan salah satu IDE untuk penelitian dan pengembangan.
+
+Thu, 24 Feb
+
+Hari ini saya belajar mengenai data. Data sendiri terbagj menjadi dua jenis, yaitu structured data dan unstructured data. Structured data direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya contohnya data transaksi. Sedangkan unstructured data direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain, contohnya gambar, audio, video, dokumen, dll (Afifanto 2015).
+
+Kualitas data dilihat dari accuracy (keakuratan data), completeness (kelemgkapan data), relevancy (memuat informasi yang dibutuhkan untuk analisa), timelines (data mewakili informasi di waktu tersebut), dan consistency (adanya kekonsistenan) (Mosley 2008).
+
+Cara memperoleh data dapat dilakukan melalui sensus atau survei. Sensus merupakan data yang dikumpulkan dari data populasi sementara survey dikumpulkan dari data sampel. Kelebihan dari sensus yajgu lebih akurat karena mencakup semua elemen dan terhindar dark bias sampel, namun sayangnya dibutuhkan waktu, biaya, dan tenaga yang besar. Sedangka  jika survey dapat menghemat waktu dan biaya, namun karena hasilnya merupakan estimasi maka dapat terjadi bias sampel. Penentuan jumlah sampel harus bisa merepresentasikan kondisi populasi. Salab satu rumus yang dapag digunakan untuk menentukan jumlah sampel yaitu rumus Slovin. Ada banyak teknik penarikan sampel. Secara umum dibagi menjadi dua, yautu probability sampling (simple random sampling, stratified random sampling, cluster sampling, dll) dan non probability sampling (judgmental sampling, voluntary sampling, snowball sampling, dll)
+
+Fri, 25 Feb
+
+Materi hari ini saya mulai mempelajari dasar Python, meliputi beberapa jenis data dalam Python seperti  numeric, string, boolean,  list, dan set. 
+
+1. Numeric
+Tipe data numeric adalah jenis data Python yang bisa ditambah, dikurangi, dikali, maupun dibagi melalui operator. Beberapa tipe datanya meliputi integer (bilangan bulat) dan float (desimal).
+
+2. String
+Tipe data string merupakan tipe data teks. Untuk menyimpannya diperlukan penggunaan tanda kutip ("")
+
+3. Boolean
+Tipe data boolean merupakan tipe data yang hanya menyimpan dua buah nilai yaitu True dan False. Jika True maka bernilai 1 dan jika false maka bernilai 0.
+
+4. List
+Tipe data list dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting dalam list adalah isinya tidak boleh sama jenisnya.
+
+5. Set
+Tipe data set pada intinya mirip dengan list, yaitu digunakan untuk menyimpan banyak nilai. Namun perbedaannya adalah nilai anggota pada set yang sudah dimasukkan tidak bisa diubah lagi dan bersifat unordered (tidak berurut).
+
+What did you learn this week?
+
+Materi pertama di minggu pertama cukup seru, mulai dari perkenalan hingga penjelasan terkait AI, seperti apa itu AI? Kenapa kita perlu belajar AI? dan masih banyak lagi. Pada intinya AI merupakan suatu alat kecerdasan buatan untuk membantu atau meniru perilaku dan mempermudah manusia. Kedepannya, AI akan semakin berkembang sehingga perlu bagi kita untuk belajar mengenai AI.
+
+Materi selanjutnya adalah Python. Python pada intinya merupakan bahasa pemrograman tingkat tinggi yang dinamis dan mudah dipahami dibandingkan bahasa pemrograman lainnya. Python biasa digunakan untuk web deployment, data analysis, machine learning, dan masih banyak lagi.
+
+Ada 4 metode untuk menulis dan menjalankan program Python, yaitu terminal, terminal + text editor, IDE, IDE untuk penelitian dan pengembangan.
+
+Pada materi hari ini juga dikenalkan dengan Jupyter Notebook yang merupakan salah satu IDE untuk penelitian dan pengembangan.
+
+beberapa jenis data dalam Python seperti  numeric, string, boolean,  list, dan set. 
+
+1. Numeric
+Tipe data numeric adalah jenis data Python yang bisa ditambah, dikurangi, dikali, maupun dibagi melalui operator. Beberapa tipe datanya meliputi integer (bilangan bulat) dan float (desimal).
+
+2. String
+Tipe data string merupakan tipe data teks. Untuk menyimpannya diperlukan penggunaan tanda kutip ("")
+
+3. Boolean
+Tipe data boolean merupakan tipe data yang hanya menyimpan dua buah nilai yaitu True dan False. Jika True maka bernilai 1 dan jika false maka bernilai 0.
+
+4. List
+Tipe data list dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku. Hal penting dalam list adalah isinya tidak boleh sama jenisnya.
+
+5. Set
+Tipe data set pada intinya mirip dengan list, yaitu digunakan untuk menyimpan banyak nilai. Namun perbedaannya adalah nilai anggota pada set yang sudah dimasukkan tidak bisa diubah lagi dan bersifat unordered (tidak berurut).
+
+Materi selanjutnya saya belajar mengenai data. Data sendiri terbagi menjadi dua jenis, yaitu structured data dan unstructured data. Structured data direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya contohnya data transaksi. Sedangkan unstructured data direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain, contohnya gambar, audio, video, dokumen, dll (Afifanto 2015).
+
+Kualitas data dilihat dari accuracy (keakuratan data), completeness (kelemgkapan data), relevancy (memuat informasi yang dibutuhkan untuk analisa), timelines (data mewakili informasi di waktu tersebut), dan consistency (adanya kekonsistenan) (Mosley 2008).
+
+Cara memperoleh data dapat dilakukan melalui sensus atau survei. Sensus merupakan data yang dikumpulkan dari data populasi sementara survey dikumpulkan dari data sampel. Kelebihan dari sensus yajgu lebih akurat karena mencakup semua elemen dan terhindar dark bias sampel, namun sayangnya dibutuhkan waktu, biaya, dan tenaga yang besar. Sedangka  jika survey dapat menghemat waktu dan biaya, namun karena hasilnya merupakan estimasi maka dapat terjadi bias sampel. Penentuan jumlah sampel harus bisa merepresentasikan kondisi populasi. Salab satu rumus yang dapag digunakan untuk menentukan jumlah sampel yaitu rumus Slovin. Ada banyak teknik penarikan sampel. Secara umum dibagi menjadi dua, yautu probability sampling (simple random sampling, stratified random sampling, cluster sampling, dll) dan non probability sampling (judgmental sampling, voluntary sampling, snowball sampling, dll)

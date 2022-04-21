@@ -1,0 +1,59 @@
+Mon, 14 Mar
+
+pada pembelajaran kali ini kita diajari tentang modul pandas yang digunakna untuk data wrangling, explanatory, dll...dan juga kita bisa membuat dataframe dari tipe data dictionary. pengolahan data ini sangat penting, karena dalam membuat  model machine learning / pembelajaran mesin yang lain . data akan sangat diperlukan dalam melatih mesin . serta data sendiri yang diambil dari file csv harus diolah terlebih dahulu untuk menghilangkan nilainya yg kosong dengan cara fillna.mean(), hal ini bertujuan untuk menghindari erro dalam pembuatan model
+
+Tue, 15 Mar
+
+pada hari ini , saya belajar mengenai plotting yg lebih advance pada python dengan menggunaknak modul seaborn (seperti scatterplot, multiplot,dan heatmap). dan juga belajar bagaimana caranya untuk mengolah data pertama kali, seperti cleansing data, dan EDA (Exploratory Data Analysis). dengan  memanfaatkan fungsi pada python dan visualisasi data.
+
+Wed, 16 Mar
+
+pada pembelajaran hari rabu ini, kami diajari machine learning (supervised) linier regression oleh coach. dengan memfokuskan pada algoritma linier regression dan cost function yang mana  dapat mrmbantu dalam membuat model linier regression dalam memprediksi dan mengestimasi data output yang dependent dengan data  input independent. dengan belajar fungsi - fungsi penyusun LR, saya jadi lebih mengetahui pengaruh suatu training terhadap keefektifitas an model yng didapat. 
+
+Thu, 17 Mar
+
+pada hari ini saya belajar tentang K-nearest neighbors atau knn yang merupakan algoritma yang berfungsi untuk melakukan klasifikasi suatu data berdasarkan data pembelajaran (train data sets), yang diambil dari k tetangga terdekatnya (nearest neighbors). Dengan k merupakan banyaknya tetangga terdekat.
+
+proses klasifikasi dilakukan dengan mencari jarak  c dengan c-baru(nearest neighbor) dengan memanfaatkan jarak euclidian {akar( (x2-x1)^2 + (y2-y1)^2 )}.
+
+Penentuan nilai k dipertimbangkan berdasarkan banyaknya data yang ada dan ukuran dimensi yang dibentuk oleh data. Semakin banyak data yang ada, angka k yang dipilih sebaiknya semakin rendah. Namun, semakin besar ukuran dimensi data, angka k yang dipilih sebaiknya semakin tinggi.
+
+Fri, 18 Mar
+
+Pada hari jumat ini saya mendalami tentang nerural network, mulai dari pengertian perceptron...dan 3 fungsi utama yang ada dalam NN :
+- active function, adalah fungsi yg akan mengaktifkan perceptron pada neural network dengan rumusan f(z) = sigma (xi.wi+b)
+dimana xi adalah inputan ke - n
+dan w adalah beban layer pada inputan ke n
+dan b adalah bias yang digunakna untuk menggser fungsi aktivasi
+
+- loss function yaitu fungsi yang memberikan feedback terhadap model NN, yang mana dapat merubah nilai w dan b secara berkala. loss function didapatkan dari persamaan MSE = 1/n x sigma (ti-yi)^2
+dimana ti adalah hipotesis prediksi / prediksi yg diinginkan
+dan yi adalah prediksi aktual
+kedua nilai dikaudratkan agar mendapatkan hasil yg positif
+
+- optimizer , taitu adalah fungsi yg merubah w dan b itu sendiri, dengan memanfaatkan loss function dan metode Gradient Descent, dengan cara menelusuri kemiringan / lintasan , dan mencari nilai yg sesuai untuk mendapatkan nilai loss function yg kecil
+
+What did you learn this week?
+
+modul pandas sangat cocok untuk data wrangling, explanatory, dll...dan juga kita bisa membuat dataframe dari tipe data dictionary. pengolahan data ini sangat penting, karena dalam membuat  model machine learning / pembelajaran mesin yang lain . data akan sangat diperlukan dalam melatih mesin . serta data sendiri yang diambil dari file csv harus diolah terlebih dahulu untuk menghilangkan nilainya yg kosong dengan cara fillna.mean(), hal ini bertujuan untuk menghindari erro dalam pembuatan model
+
+machine learning (supervised) linier regression oleh coach. dengan memfokuskan pada algoritma linier regression dan cost function yang mana  dapat mrmbantu dalam membuat model linier regression dalam memprediksi dan mengestimasi data output yang dependent dengan data  input independent. dengan belajar fungsi - fungsi penyusun LR, saya jadi lebih mengetahui pengaruh suatu training terhadap keefektifitas an model yng didapat. 
+
+K-nearest neighbors atau knn yang merupakan algoritma yang berfungsi untuk melakukan klasifikasi suatu data berdasarkan data pembelajaran (train data sets), yang diambil dari k tetangga terdekatnya (nearest neighbors). Dengan k merupakan banyaknya tetangga terdekat.
+
+proses klasifikasi dilakukan dengan mencari jarak  c dengan c-baru(nearest neighbor) dengan memanfaatkan jarak euclidian {akar( (x2-x1)^2 + (y2-y1)^2 )}.
+
+Penentuan nilai k dipertimbangkan berdasarkan banyaknya data yang ada dan ukuran dimensi yang dibentuk oleh data. Semakin banyak data yang ada, angka k yang dipilih sebaiknya semakin rendah. Namun, semakin besar ukuran dimensi data, angka k yang dipilih sebaiknya semakin tinggi.
+
+3 fungsi utama yang ada dalam NN :
+- active function, adalah fungsi yg akan mengaktifkan perceptron pada neural network dengan rumusan f(z) = sigma (xi.wi+b)
+dimana xi adalah inputan ke - n
+dan w adalah beban layer pada inputan ke n
+dan b adalah bias yang digunakna untuk menggser fungsi aktivasi
+
+- loss function yaitu fungsi yang memberikan feedback terhadap model NN, yang mana dapat merubah nilai w dan b secara berkala. loss function didapatkan dari persamaan MSE = 1/n x sigma (ti-yi)^2
+dimana ti adalah hipotesis prediksi / prediksi yg diinginkan
+dan yi adalah prediksi aktual
+kedua nilai dikaudratkan agar mendapatkan hasil yg positif
+
+- optimizer , taitu adalah fungsi yg merubah w dan b itu sendiri, dengan memanfaatkan loss function dan metode Gradient Descent, dengan cara menelusuri kemiringan / lintasan , dan mencari nilai yg sesuai untuk mendapatkan nilai loss function yg kecil

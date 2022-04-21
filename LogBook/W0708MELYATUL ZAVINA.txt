@@ -1,0 +1,83 @@
+Mon, 4 Apr
+
+Hari ini mempelajari domain data science. Dipelajari materi tentang data time series dengan pendekatan statistik.
+Data runtun waktu/time series adalah suatu himpunan data pengamatan yang dibangun dalam runtun waktu. Split data time series tidak bisa dibagi secara acak (random) namun pembagian datanya harus berurutan.
+Pola data time series secara umum :
+-	Stasioner
+-	Trend
+-	Seasonal
+-	Cyclic effect
+Analisis Box Jenkis ARIMA hanya berlaku pada data runtun waktu yang stasioner. Namun data runtun waktu yang tidak stasioner dapat ditransformasi menjadi runtun waktu yang stasioner, sehingga ARIMA juga dapat digunakan untuk data runtun waktu yang tidak stasioner.
+
+Tue, 5 Apr
+
+Hari ini dipelajari materi domain Computer Vision mengenai prinsip kerja image detection, prinsip kerja YOLO (You Only Look Once), serta impelementasi YOLO.
+Classification : setiap image memiliki satu objek, model melakukan prediksi satu label
+Object Detection : setiap image mengandung banyak objek, model mengklasifikasi objek dan mengidentifikasi lokasi.
+Naïve Approach : pendekatan ini lambat karena memeriksa  banyak jendela (window) yang tidak berisi apapun secara real-time
+R-CNN : pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN
+One stage detector unggul di kecepatan, Two stage detector unggul di akurasi.
+Measuring performance IoU : mengukur tumpeng tindih antara 2 boundary box.
+
+Wed, 6 Apr
+
+Hari ini dipelajari topik NLP mengenai materi web embedding dan deep learning untuk NLP. 
+Web embedding dapat menyelesaikan permasalahan dari BoW dan TD-IDF. Setiap kata dapat direpresentasikan pada vector space dalam dimensi tertentu. Kata-kata yang memiliki konteks yang mirip saling berdekatan.
+Karakteristik word embedding yang diinginkan :
+1.	Ukuran fitur yang lebih pendek
+2.	Dense (tidak memiliki banyak nol)
+Zero padding & Truncation
+Zero padding memberikan nilai pada kalimat yang kurang dari Panjang kalimat yang telah diset. Sedangkan truncation memotong kata pada suatu kalimat yang ukurannya lebih dari Panjang kalimat yang telah diset. Setiap token kata dijadikan vocabulary dan diakses dengan Indeks.
+Word2Vec
+-	Word2Vec diperoleh dengan melatih shallow neural network
+-	Shallow merujuk pada istilah pemanfaatan satu hidden laer dari neural network
+-	Kita hanya mengambil weights dari classifier dan dijadikan word embedding
+-	Model dari shallow neural netwok tidak digunakan
+-	Jumlah elemen vector / disebut dimensi dari word embedding dapat ditentukan
+-	Banyaknya elemen vector / dimensi diatur dengan menentukan jumlah hidden layer nantinya.
+Terdapat 2 cara training data dengan word2vec :
+1.	Skip-gram: memperhatikan kata di sekita, memprediksi semantic dari kata pada suatu kalimat
+2.	CBOW: melakukan prediksi suatu kata dengan diberikannya kata-kata disekitarnya, memprediksi satu kata dari semantic (Input) pada suatu kalimat
+Skipgram digunakan jika dataset sedikit. CBOW memiliki waktu training yang lebih singkat. Selain itu, jika memiliki kata-kata berulang banyak seperti ‘saya’ yang berulang maka dapat menggunakan CBOW.
+Word2Vec – semantic
+Setelah proses latihan, selain mendapatkan table embedding sebelumnya, kita juga dapat merepresentasikan embedding dalam bidang 2 dimensi dan memperoleh analogi di dalamnya.
+
+FastText
+Adalah word embedding dari facebook. FasText dapat mengatasi Out of Vocabulary (OOV). Cara kerjanya sama dengan Word2Vec namun kata di-embed dengan special karakter tertentu pada tingkat karakter (n-gram).
+RNN (Recurrent Neural Network)
+Digunakan untuk memperoleh sentence embedding yang lebih baik dengan memanfaatkan looping setiap kata. Intuisi: kalimat terbentuk dari kata-kata, sehingga dengan memperhatikan suatu kata dengan kata lain akan membentuk satu gambaran utuh tentang kalimat.
+LSTM (Long Short-Term Memory)
+Ide utamanya adalah cell state, dimana terdapat mekanisme mengingat informasi yang penting / men-filter / melupakan informasi yang tidak relevan lagi dengan operasi element-wise product. Cell state akan terus membawa informasi yang telah diseleksi pada setiap cell.
+Kita mengajarkan LSTM untuk mengingat-ingat / melupakan informasi yang relevan. Berbeda dengan RNN dimana seluruh informasi kita suruh untuk selalu dibawa untuk setiap cell yang malah mengarah pada long dependency problem.
+
+Thu, 7 Apr
+
+Hari ini mempelajari domain Reinforcement Learnig yaitu tentang  Q Learning dan Deep Q Learning. Peserta mempelajari apa itu Q Learning, bagaimana Q Learning bekerja, begitu pula pada Deep Q Learning.
+Q-Learning merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar berulang-ulang. Konsep dasar :
+-	Terinspirasi dari value iteration
+-	Sample an action
+-	Observe the reward and the next state
+-	Take the action with the highest Q (max Q)
+Action dari setiap step dapat dihitung untuk menentukan action terbaik (best action). Untuk keperluan ini digunakan Q table
+Q-Learning termasuk dalam kategori model free algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q Learning.
+Pada Q Learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action.
+Pada Q-learning dilakukan kterasi :
+-	Policy iteration
+-	Value iteration
+Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode
+Secara prinsip semakin banyak iterasinepisode akan semakin baik Q-table-nya.
+Q-table in dapat dianalogikan seperti ‘memori’ bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+
+Fri, 8 Apr
+
+Hari ini dipelajari materi domain Technical mengenai Flask RESTFul API. Dipelari topik HTTP request dan HTTP response, RESTful API dan disimulasikan proses mendesain RESTful API sederhana untuk project AI dan ML.
+HTTP (Hypertext Transfer Protocol) adalah Bahasa yang umum digunakan pada internet secara global. Web Browser, Server, dan aplikasi berbasis internet berkomunikasi melalui protokol ini. REST adalah arsitektur standar untuk bertukar data melalui Web yang dapat dioperasikan antar sistem komputer. Web service yang menerapkan arsitektur REST disebut RESTful web service atau RESTful API yang memungkinkan sistem untuk mengakses dan memanipulasi data.
+Flask adalah microframework ringan yang dibangun menggunakan bahasa pemrograman python untuk membangun aplikasi berbasis web yang fleksibel, dukungan komunitas yang luas dan memiliki kemampuan scaling untuk melayani jutaan pengguna (client) / bisa disebut sebagai module yang dapat digunakan untuk membangun RESTful API.
+Router atau Endpoint adalah tempat di mana lokasi resource berada menggunakan url tertentu. Resouce dalam hal ini merupakan dokumen yang dikirimkan oleh server kepada client.
+Untuk dapat merender halaman web, kita membutuhkan endpoint dan halaman web dengan format html. File html tersebut harus disimpan terlebih dahulu ke dalam folder templates. Untuk file statis seperti gambar, video dll. dapat disimpan ke dalam folder static.
+
+What did you learn this week?
+
+Pada minggu ke-7 ini telah dipelajari berbagai materi dari 5 domain; data science, NLP, computer vision, reinforcement learning, dan technical.
+Dari domain data science telah dipelajari topik ata time series dengan pendekatan statistik. NLP mempelajari materi web embedding dan deep learning untuk NLP. Computer vision mempelajari prinsip kerja image detection, prinsip kerja YOLO (You Only Look Once), serta impelementasi YOLO. Reinforcement learning mempelajari Q Learning dan Deep Q Learning. Sedangkan technical mempelajari penggunaan HTTP request, HTTP respon, dan Flask RESTFul API.
+Selengkapnya tentang materi dapat dilihat dari laporan harian.

@@ -1,0 +1,83 @@
+Mon, 14 Mar
+
+Hari ini saya belajar tentang data manipulation with pandas, meliputi:
+1. Dasar-dasar preprocessing data
+2. Konsep dasar pandas
+3. Memahami data import export, selection, dan filtering dengan dataframes
+4. Data transformation menggunakan pandas
+
+Tue, 15 Mar
+
+Hari ini saya mempelajari beberapa hal:
+1. Teknik visualisasi data dengan python
+2. Fungsi visualisasi dasar dengan matplotlib
+3. Grafik dan visualisasi seperti lineplot, pie charts, box plot, violin plot, swarmplot dengan matplotlib dan seaborn
+4. Membuat visualisasi untuk data time series
+5. Study Case: Bank Churn Analysis
+
+Wed, 16 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+1. Regression technique dan use case
+2. Gradient descent dengan linear regression
+3. Fungsi dari cost function
+4. Melakukan training model untuk memahami gradient descent di linear regression
+5. Cross validation
+6. K-fold cross validation
+7. Regularisation pada regresi yang terdiri dari 2 tipe: Lasso dan Ridge Regression
+
+Thu, 17 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+1. Konsep decision tree, homogenity, gini index, entropy dan information gain, truncation and pruning
+2. Implementasi decision tree
+3. K-Nearest Neighbor dan imolementasi nya
+
+Fri, 18 Mar
+
+Hari ini saya belajar mengenai hal-hal berikut:
+1. Memahami neural network dan intuisi di belakangnya
+2. Fungsi aktivasi
+3. Gardient descent dan tipenya
+4. Memahami konsep back propagation dan konsep matematika di belakangnya
+5. Penggunaan ANN
+6. Cara menangani overfitting dan underfitting dlam neural network 
+
+What did you learn this week?
+
+Hal-hal yang saya pelajari minggu ini meliputi:
+
+Senin
+1. Dasar-dasar preprocessing data
+2. Konsep dasar pandas
+3. Memahami data import export, selection, dan filtering dengan dataframes
+4. Data transformation menggunakan pandas
+
+Selasa
+1. Teknik visualisasi data dengan python
+2. Fungsi visualisasi dasar dengan matplotlib
+3. Grafik dan visualisasi seperti lineplot, pie charts, box plot, violin plot, swarmplot dengan matplotlib dan seaborn
+4. Membuat visualisasi untuk data time series
+5. Study Case: Bank Churn Analysis
+
+Rabu
+1. Regression technique dan use case
+2. Gradient descent dengan linear regression
+3. Fungsi dari cost function
+4. Melakukan training model untuk memahami gradient descent di linear regression
+5. Cross validation
+6. K-fold cross validation
+7. Regularisation pada regresi yang terdiri dari 2 tipe: Lasso dan Ridge Regression
+
+Kamis
+1. Konsep decision tree, homogenity, gini index, entropy dan information gain, truncation and pruning
+2. Implementasi decision tree
+3. K-Nearest Neighbor dan implementasi nya
+
+Jumat
+1. Memahami neural network dan intuisi di belakangnya
+2. Fungsi aktivasi
+3. Gardient descent dan tipenya
+4. Memahami konsep back propagation dan konsep matematika di belakangnya
+5. Penggunaan ANN
+6. Cara menangani overfitting dan underfitting dlam neural network 

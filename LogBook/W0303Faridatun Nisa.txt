@@ -1,0 +1,103 @@
+Mon, 7 Mar
+
+Hari ini saya belajar mengenai hal-hal berikut:
+1. Artificial Intelligence
+Data merupakan kumpulan fakta di sekitar kita yang kemudian diolah menjadi suatu informasi. Data dapat berasal dari sensors/meters, and activity records from electronic devices, social interactions, business transactions, electronic files, dan broadcastings.
+
+2. AI Landscape
+AI is a collection of algorithms used to buid. Machine learning is an algorithms which use Data to build. Deep learning is an automated featured engineering.
+
+Application of Data Science:
+a. Predicting stock prices, housing prices or any other item prices based on historical data.
+b. predicting whether customer will buy a product or not, customer will churn or not
+c. Classifying the customers in different known groups
+d. Fraud detection from transactional data
+e. etc.
+
+Application of Computer Vision
+a. Face recognition, emotion recognition
+b. Optical character recognition
+c. Document verification, authentication
+d. etc.
+
+Application of NLP
+a. Playing game
+b. Self driving car
+c. Artificial sun environmental control
+d. Warehouse robot control
+e. Education
+f. Social Media
+g. Marketing and Ads
+
+3. Machine Learning
+Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed
+
+4. ML Tools
+ML Cloud Platforms:
+a. Microsoft Azure ML Studio
+b. Amazon Machine Learning
+c. SAP Leonardo Machine Learning
+d. Google ML Platform
+e. IBM Machine learning
+
+Tue, 8 Mar
+
+Hari ini saya belajar tentang matematika untuk AI, pengenalan package NumPy dan Pandas pada Python, serta penjelasan paradigma Machine Learning.
+
+Matematika untuk AI meliputi materi tentang :
+1. Aljabar Linier meliputi matriks, vektor, nilai dan vektor eigen
+2. Kalkulus meliputi fungsi, turunan, dan optimasi
+3. Peluang meliputi konsep dasar peluang, peluang bersyarat, dan teorema bayes
+
+Pengenalan NumPy meliputi  contoh penggunaannya, indexing & slicing, serta operasi matematika lainnya. Pengenalan Pandas meliputi pengenalan dataframe, mengimport data ke dataframe.
+
+Selanjutnya juga dipelajari mengenai paradigma ML, perbandingan pendekatan ML dan traditional programming, segmentasi ML, ML life cycle, ML workflow, kelebihan dan kekurangan ML, serta metrics evaluation.
+
+Wed, 9 Mar
+
+Hari ini saya mempelajari pengantar Artificial Neural Network (ANN) serta Deep Learning (DL). ANN adalah teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. Sementara itu DL digunakan ketika mempunyai data tak terstruktur yang sabgat besar dan banyak. Neural network dapat mengolah data yang tidak memiliki label. Bekerja sangat baik dengan data berbentuk speech, images, dan video.
+
+Untuk melatih DL, bergantung pada faktor-faktor seperti:
+1. Perangkat keras yang tersedia
+2. Pengoptimalan
+3. Jumlah lapisan dalam jaringan saraf
+4. Arsitektur neural network
+5. Ukuran dataset, dan
+6. Banyak lagi
+
+Kekurangan DL  diantaranya:
+1. Jumlah data yang dibutuhkan dalam pelatihan cukup besar sehingga membutuhkan akses ke komputer yang berkekuatan tinggi yang dilengkapi dengan GPU atau TPU
+2. Deep-neural netwaork sulit menentukan tuning terbaik dikarenakan menggunakan teknik Black Box yang dimana bobot akan di update di setiap layernya.
+
+Thu, 10 Mar
+
+Hari ini saya belajar tentang AI Project Cycle, pengantar statistika, serta uji hipotesis
+
+AI Project Cycle meliputi problem scoping, data acquisition, data exploration, modelling, evaluation, dan deployment.
+
+Data terdiri atas data terstruktur, data semi terstruktur, dan data tidak terstruktur. Tidak jarang suatu data mengadung noisy, yaitu sejumlah informasi yang tidak terlalu dibutuhkan, menyimpang, atau tidak diketahui kebenarannya.Beberapa sumber noisy diantaranya random noisy, human error, dan outlier.
+
+Selanjutnya juga dipelajari mengenai pengantar statistika, meliputi konsep populasi dan sampel, sensus dan survey, statistika deskriptif (ukuran pemusatan data seperti mean, median, modus, kuartil serta ukuran penyebaran data seperti range, ragam, standar deviasi) dan statistika inferensial, Selain itu juga dipelajari tentang jenis variabel yaitu kategorik (nominal dan ordinal) serta numerik (interval dan rasio), status multivariat (kovarians dan korelasi). Terakhir juga dipelajari tentang uji hipotesis 
+
+Fri, 11 Mar
+
+Hari ini saya belajar mengenai:
+1. Object Oriented Programming dan inheritance di Python
+2. Membuat custom modules dan packages di Python
+3. Menggunakan built-in modules seperti os, time, dan math
+
+What did you learn this week?
+
+Minggu ini saya telah mempelajari banyak hal yang meliputi:
+1. Artificial Intelligence (AI)
+2. AI landscape (Application of Data Science, Computer Vision, dan Natural Language Processing)
+3. Machine Learning Tools
+4. Matematika untuk AI (Aljabar Linier, Kalkulus, dan Peluang)
+5. Packages NumPy dan Pandas
+6. Artificial Neutral Network 
+7. Deep Learning
+8. AI project Cycle
+9. Statistika
+10. Object oriented Programming dan inheritance di Python
+11. Membuat custom modules dan packages di Python
+12. Menggunakan built-in modules seperti os, time, dan math

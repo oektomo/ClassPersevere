@@ -1,0 +1,152 @@
+Mon, 28 Mar
+
+Mempelajari tentang pengolahan data pada data scient pada google collab serta beberapa review materi kebelakang mengenai DS,kemudian siangnya ada NLP yang kurang lebih membahas mengenai materi sebelumnya disertai beberapa praktik
+
+Tue, 29 Mar
+
+Learning Objectives
+
+- Dimensionality Reduction
+  Konsepnya sama seperti pengurangan size pada compress size
+  kompresi file tidak akan menghilangkan atau mengurangi informasi
+  dalam file tersebut.
+
+  Kata kunci : Pengurangan Data,Compress data,Reduksi dimensi
+  
+  * Feature Selection
+  * feature Extraction
+  * Overvitting (?)
+  
+  Tujuan Dimesionality Reduction => mengurangi Overvitting
+
+- Tecchnique
+  * Feature => backward,forward
+  * Extraction => PCA, LDA
+  * Hands on Coding
+- Conclusion
+
+Siang NLP
+
+- Revew Materi
+- Live demo Coding
+* menggunakan sastrawi,matplotlib,dan numpy
+
+Wed, 30 Mar
+
+Market Basket Analysis
+support  = merupakan presentase dari semua transaksi
+confidence  = merupakan perbandingan antara nilai support dari
+himpunan items yang mendahuluinya
+
+lift Rasio : suatu ukuran dalam mengetahui aturan asosiasi.
+if ratio <1 A dan b kolerasi negatif
+if ratio = 1 A dan b tidak berkoletasi
+if ratio >1 A dan b berkolerasi positif,sering muncul
+
+Recommender system
+pattern mining
+collaborative filtering reccomended
+-Memory Based
+ * User based filtering
+ * Item based filterint
+
+Pearson Correlation
+weightned average
+singular Value Decomposition (SVD)
+s
+-Model Based
+content based filtering
+bagaimana mengetahui kemiripan suatu item
+
+1. vektor yang melambangkan tiap item yang disebut
+item profile dan vektor yang melambangkan user
+disebut user profile
+
+2. Menghitung Kemiripan
+
+menggunakan informasi tentang pengguna atau item
+
+Thu, 31 Mar
+
+PAgi : 
+
+Computer Neural Network
+
+* Y_predicition
+* Y_Target
+* Loss Score
+* Loss function
+
+Prediction
+h1 = I1.w1 + I2.W2
+h2 = I2.w2 + I3.W3
+hn = In.wn + In+1 . Wn+1
+
+I = input
+W = weight
+
+- Library Keras
+
+Siang :
+
+-Mereview tugas kemaren
+- membuat data di Google data studio
+- konsep visualisasi GDS
+- Komponen di GDS
+- Anscombe's Quartet
+- Granulitas Data
+- Fitur Fitur di GDS
+
+- Visualisasi Data adalah Representasi grafis dari informasi dan
+  data.
+- jenis data : statis beranimasi, interaktif
+- Dimensi adalah atribut data ex:nama tanggal dan waktu
+- metrik adalah pengukuran kuantitatif , nilai harga dan total
+  penjualan
+
+Fri, 1 Apr
+
+Pagi :
+- Recap DP dan MC
+- Introduction TDL
+- TD (0)
+- TD control - Sarsa
+- Hands on TD dan SARSA
+
+Siang :
+
+- Pengenalan web scrapping
+fungsi WS:
+* mengumpulkan data
+* mendapatkan data untuk penjualan
+* untuk mencari tahu bisnis yang naik daun
+* data untuk proyek machine Learning
+
+- web scrapping vs web crawling
+- Etika web Scrapping
+
+- Scrapping
+* menggunakanan Urllib 3
+* Selenium (web Scrapping)
+
+Preparation
+* Analyzing robot.txt
+* analyzing sitemap files
+* chechking website's size
+* Analyzing Technology used in website
+* knowing owner ofwebsite
+* Analyzing web page
++ whois
+* HTPP Responce
+
+- Menyimpan data
+* by reference
+* download file
+
+- Kesimpulan
+
+What did you learn this week?
+
+Mempelajari lebih mendalam masing masing bidang seperti NLP,CV,DS dan teknikal.disertai banyak sekali praktik serta tugas per kelompok.untuk lebih memahami kemampuan saya.
+
+

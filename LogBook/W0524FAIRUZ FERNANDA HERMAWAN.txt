@@ -1,0 +1,218 @@
+Mon, 21 Mar
+
+pada data science coach mereview mengenai materi data science,seperti desicion tree, tipe-tipe data,aljabar linear,statistik,kemudian menjelaskan mengenai metode pengambilan suatu data :
+
+- problem scoping
+- data aquisition
+-data exploration
+-Modelling
+-Deployment
+
+kemudian siangnya dilanjut dengan NLP yang membahas mengenai NLP secara umum,ada NLP,NLU dan NLG,speech recognition,text summarization,machine recognition, dsb
+
+Tue, 22 Mar
+
+Introduction
+basic computer vision
+digunakan untuk memproses menganalisa dan memhami citra
+
+-machine learning
+- A.I
+- Control Robotics
+- signal processing
+- Physics
+- Imaging
+- Neurobiology
+- mathematics
+
+Clasifikasi > clasifikasi + localization > object detection > 
+Instance Segmentation
+
+object detection (tensor Flow)
+
+-kalkulus
+-Alajabar Linear
+-ProbStat
+-Sinyal Processing
+
+Case
+
+- Software
+- Enchanement
+-  Filter
+
+Hardware
+- Camera Quality
+- Spek Komputer
+- Lighting
+
+Siang : Reinforment Learning
+
+- Agent ("Subjek Penelitian")
+- Reward("Hasil yang diberikan ke agent"
+- Action("keputusan agent terhadap environment")
+
+tipe tipe environment RL
+
+- Episodic dan non-episodic Environment
+- Single and multi-agent environment
+
+Wed, 23 Mar
+
+- Membuat Dashboard melalui Tableau
+
+- Visualisasi data
+- Macam macam Grafik
+* bar chart  (Categorical)
+* Line chart (time series)
+* Pie chart  (Categorical)
+* Histogram  (Menampilkan distribusi data)
+  var kontinu
+* Scatter Plot (hubungan 2 Variabel Numerik)
+- tableau  (aplikasi)
+- Memasukkan data dalam bentuk CSV
+- Membuat Judul 
+- Demo tableau
+
+Nature Language Processing
+- BoW,Vectorizer, N- gram
+- TF - IDF
+- Feature Selection
+* Metode Filter
+* Metode wrapper
+  Metode yang memmilih fitur penting menggunakan algoritma wrapper
+* Metode hybrid
+  kombinasi metode filter dan wrapper
+
+Filter = Sederhana
+Wrapper = Akurasi tinggi
+Hybrid = Gabungan dari Filter dan wrapper
+word Cloud = Gambar yang menujukkan kata kata
+  
+
+Thu, 24 Mar
+
+Pagi : Computer Vision
+
+- OpenCV
+- Pengolahan Citra/Image Processing
+- Color space
+- Olahan Citra
+- Perbaikan Citra
+- intencity performance opencv
+
+
+instal : pip install opencv-python
+
+support 
+- Programming language ; C++,python,Java
+- OS : Win,Linux,andro,Mac
+- Hardware : AMD, Cuda, OpenCL
+
+Citra digital 
+- Citra memiliki 3 channel yaitu R,G,B
+- tiap kanal memiliki tinggi dan lebar yang sama
+- tiap titik point pada channel memiliki nilai 8 bit
+
+Import Library * Coding *
+
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+
+cv2.__version__
+
+**Tradisional image processing by CV2**
+
+1.cropping
+2.rotation
+3.reisizeing
+4.flipping
+5.Padding
+6.Split color channel
+
+Siang - Mekanikal
+
+mempelajari mengenai github,membuat akun git hub dan cara pengiriman file dari lokal ke github melalui console
+
+Fri, 25 Mar
+
+Reinforment Learning 
+
+Modul Domain AI
+
+Bagian :
+Markov Decision Process (MDP)
+dynamic programming
+
+Markov property
+
+p(st+1|st) = P(st+1|s1,s2,...,st)
+
+- sebuah state memiliki informasi dari sejarah
+
+- ketika state diketahui, sejarah dapat diabaikan
+
+MDP mendikripsikan secara formal lingkungan untuk RL
+Secara spesifik biasanya dibuat saat environment fully
+observable
+
+hampir semua RL dapat diformalisasi menggunakan MDP
+- Optimal control
+- Partially Observable problems
+- bandits problem
+- MDP permainan dadu
+
+Start merupakan himpunan dari states : awal
+
+Faktor diskon (?)
+Markov chain (?)
+konvergensi value iteration (?)
+isEnd : apakah state terakhir
+
+Probablitas ( atau Transistion)
+
+Transition Probablitas P(s,a,S')
+Evaluasi sebuah Policy
+return adalah Gt total reward yang di-diskon
+dari setiap waktu
+evaluasi policy
+
+Siang :
+
+-Introduksi to Pasial data
+ data yang menunjukkan suatu tempat (longitude dan latitude)
+- manfaat spasial data
+* ada dimana mana
+* sangat spesifik
+* Spasial data tidak hanya untuk GIS
+- Remote Sensing Images
+*klasifikasi
+*interpolasi spasial
+
+-Traditional vs Machine Learning Approach
+-HPC for spatial Data Research
+
+- SQL Dasar
+*insert
+*Select
+*Update
+*Delete
+
+SQL bahasa pemrograman aras tinggi yang menjadi Standar
+DBMS. Secara umum,terdapat dua kelompok penggunaan perintah
+SQL
+
+-Data Definition Language (DDL)
+-data Manipulation (DML)
+-tabel agents
+-tabel customer
+-tabel orders
+
+Primary key?
+primary key hanya bisa digunakan satu atribut
+
+What did you learn this week?
+
+mempelajari dengan kelas gabungan mengenai 4 materi utama AI mastery yaitu Computer vision,Reinforcment learning,Data Scient,Natural language processing serta Teknikal dan masing masing berfokus pada materi dan praktik pada minggu minggu sebelumnya.

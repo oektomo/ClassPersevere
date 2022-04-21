@@ -1,0 +1,164 @@
+Mon, 14 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+Hari ini telah dipelajari materi mengenai numpy dan penggunaannya, dasar-dasar preprocessing data, prosedur instalasi dan konsep dasar pada Pandas, data import export, selection dan filtering dengan dataframes, data transformation menggunakan pandas.
+NumPy mendukung lebih luas berbagai type data jika dibandingkan dengan Python. Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analisis data pada Python. Pandas adalah Library Python yang lebih baik dari NumPy dari sisi fungsionalitas, dan menyediakan implementasi DataFrame yang efisien.
+Pandas : Transformasi Data menggunakan map
+Teknik ini diterapkan jika kita perlu melakukan transformasi apa pun berdasarkan nilai dalam array, Seri, atau kolom dalam DataFrame.
+Pandas : Transformasi Data – mengganti nilai
+Kita dapat mengganti nilai sentinel dengan NA menggunakan metode ganti, yang akan menghasilkan seri baru
+Pandas : Data Transformation – discretization & binning
+Data kontinu umumnya disretisasi atau dipisahkan menjadi “bins” Untuk analisis lebih lanjut. Untuk membagi data menjadi bins, Kita bisa menggunakan cut function di pandas, yang akan mengembalikan objek Kategoris khusus.
+
+Data Visualization
+Visualisasi Data digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tabel dan bagan. Ini membantu pengguna dalam menganalisis sejumlah besar data dengan cara yang lebih sederhana. Itu membuat data kompleks lebih mudah diakses, dimengerti, dan dapat digunakan.
+Matplotlib
+Matplotlib adalah salah satu paket Python paling populer yang digunakan untuk visualisasi data. Matplotlib adalah cross-platform library Untuk membuat 2D plots dari data dalam array. Matplotlib ditulis dengan Python dan menggunakan NumPy, ekstensi matematika numerik Python. Matplotlib memberikan sebuah object-oriented API yang membantu dalam menanamkan plot dalam aplikasi menggunakan toolkit Python GUI seperti PyQt, WxPythonotTkinter. 
+Seaborn
+Seaborn adalah library untuk membuat grafik statistik di Python. Seaborn dibangun di atas matplotlib dan terintegrasi dengan structur data di Pandas.
+Banyak dipraktekkan menggunakan data colab mengenai penggunaan code diatas.
+
+Tue, 15 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+HASIL
+Hari ini telah dipelajari materi mengenai teknik visualisasi data dengan python, fungsi visualisasi dasar dengan matplotlib, membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn serta membuat visualisasi untuk time series data. Visualisasi Data digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts. Ini membantu pengguna dalam menganalisis sejumlah besar data dengan cara yang lebih sederhana. Itu membuat data kompleks lebih mudah diakses, dimengerti, dan dapat digunakan. Matplotlib Adalah salah satu paket Python paling populer yang digunakan untuk visualisasi data. Ini adalah cross-platform library Untuk membuat 2D plots dari data di arrays. Matplotlib Ditulis dengan Python dan menggunakan NumPy, Ekstensi Matematika numerik dari Python. Ini memberikan sebuah object-oriented API Yang membantu dalam embedding plots dalam aplikasi menggunakan Python GUI toolkits misalnya PyQt, WxPythonotTkinter. Hal ini dapat digunakan dalam Python dan IPython shells, Jupyter notebook dan server aplikasi web juga. Dipraktekkan cara membuat graph dan plots melalui Jupyter Notebook. 
+
+Wed, 16 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+		
+Hasil :
+SESI 1
+Sesi 1 diawali dengan mengerjakan post test selama 30 menit tentang materi statistika. Kemudian dilanjutkan dengan materi mengenai linear regression. Analisa regression digunakan untuk memprediksi nilai-nilai dari dependent variable Y, berdasarkan relasinya dengan nilai-nilai dari independent variable X (minimal 1), untuk menjelaskan apa pengaruh dari perubahan pada sebuah independent variable terhadap dependent variable melalui estimasi nilai numerik dari hubungan yang ada.
+Dependent variable (Y) : Variable yang ingin diperjelas.
+Independent variable (X) : Variable yang digunakan untuk menjelaskan dependent variable
+Coefficients : Nilai yang memuat penjelasan tentang hubungan terhadap dependent variable yang dihitung dengan regression tool
+Residuals : Porsi dari dependent variable yang tidak dijelaskan oleh model (model melakukan under dan over predictions.
+Dalam penerapannya kita sering mendapati data-data numerik yang disimpan dalam bentuk tabel. Regression analysis sebagai tool yang sangat baik bisa digunakan untuk menganalisa data numerik tersebut. Secara umum, analisa regresi adalah sebuah proses untuk menemukan best fits dari sekumpulan data points.
+Objectives of Linear Regression :
+a.	Menganalisa relasi antara dua variable
+Contoh – relasi antara harga dan area/luas rumah, jumlah jam belajar dengan nilai yang didapat, pendapatan dan pengeluaran dan lain sebagainya
+b.	Memprediksi nilai baru yang memungkin
+Contoh - Berdasarkan area/luas rumah memprediksi harga rumah tersebut di bulan tertentu, berdasarkan jumlah jam belajar mem prediksi kemungkinan nilai yang akan didapat, memprediksi total penjualan di 3 bulan berikutnya dan lain sebagainya.
+Linear Regression adalah Algoritma supervised learning yang belajar dari sekumpulan sampel data latih.
+Linear Regression mengestimasi hubungan antara dependent variable (target/label) dan 1 atau lebih independent variable (predictors). ). Lebih lanjut diterangkan pula mengenai gradien descent.
+
+SESI 2
+Melanjutkan materi linear regression.
+R Squared memiliki 2 rumus : RSS dan TSS.
+RSS : yi dependen, xi independent, alfa gradien, beta konstanta.
+K-FOLD
+Ketika kita mempunyai sejumlah dataset, ada beberapa cara melakukan validasi. Pada holdout method, data dibagi menjadi training dan testing.
+Tipe Cross Validation :
+-	K-Fold
+-	LeaveOneOut
+-	Stratified K-Fold
+
+Kemudian dipelajari Regresi Logistik.
+Logistic regression adalah salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas. Algoritma ini mengestimasi relasi antara dependent variabel (target/label) dan 1 atau lebih independent variable (predictors) dimana dependent variable nya bersifat categorical.
+Logistic regression :
+1.	Mengharapkan relasi linier yang smooth dan predictors
+2.	Logistic regression akan menghasilkan probabilitas dari outcome yang bersifat diskrit (yes or not, 1 atau 0)
+3.	Memiliki sedikit resiko terhadap over-fitting
+4.	Logistic regression digunakan untuk menyelesaikan masalah klasifikasi
+Assumptions :
+1.	Binary logistic regression mengharuskan dependent variable berbentuk binary
+2.	Untuk binary regression, dependent variable semestinya mempresentasikan output yang diharapkan (yes or not, 1 or 0)
+3.	Hanya variables yang bernilai/berdampak yang semestinya dilibatkan
+4.	Independent variable bersifat independent satu sama lain sehingga model hanya memiliki sedikit atau bahkan tidak memiliki masalah multicollinearity
+5.	Logistic regression memerlukan ukuran sample yang cukup besar
+Objective of Logistic Regression
+Binary classification :
+1.	Prediksi apakah spam atau tidak dengan memanfaatkan informasi subjek dan isi email
+2.	Prediksi cerah atau hujan, menggunakan informasi cuaca
+3.	Berdasarkan data historis dari customer bank, memprediksi apakah pihak bank sebaiknya memberikan loan atau tidak
+Logistic regression memakai fungsi sigmoid.
+
+Binary classification dengan sigmoid function kita akan mendapat probability dari 0 sampai 1.
+Tapi kalau dengan softmax function, ada subskrip di rumusnya artinya kita punya rumus seperti di binary tapi banyak. Ouputnya ada banyak probability untuk setiap kelas.
+
+Thu, 17 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+		
+Hasil :
+Hari ini telah dipelajari materi tentang kNN. kNN adalah sebuah metode untuk melakukan klasifikasi terhadap objek berdasarkan dari data yang jaraknya paling dekat dengan objek tersebut.
+KNN yang merupakan singkatan dari K Nearest Neighbor adalah algoritma Supervised Machine Learning yang mengklasifikasikan titik data baru ke dalam kelas target, mengandalkan fitur titik data tetangganya.
+KNN regresi mencoba memprediksi nilai variabel output dengan menggunakan rata-rata lokal.
+KNN classification mencoba untuk memprediksi class, dimana output variable dengan menghitung local probability.
+Cara kerja KNN :
+1.	Instance-based
+2.	Competitive Learning
+3.	Lazy learning
+Beberapa hal penting terkait k-faktor :
+1.	Jika memiliki jumlah sample yang tidak terbatas, semakin besar K akan semakin baik kualitas klasifikasi
+2.	K=1 biasa digunakan untuk efficiency, tapi akan sensitif terhadap "noise"
+3.	Semakin besar K memberikan boundary yang lebih halus
+4.	Relasi untuk menemukan K untuk sampel data yang besar: k= sqrt(n)/2 dimana n adalah jumlah example
+Penggunaan KNN :
+1.	Banking system
+2.	Calculating credit ratings
+3.	Politics
+4.	Speech Recognition, Handwriting Detection, Image Recognition and Video Recognition
+
+Fri, 18 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+		
+Hasil :
+Hari ini telah dipelajari materi mengenai neural networks. Neural Networks atau juga disebut dengan Artificial Neural Networks (ANN) adalah jenis Machine Learning yang sering digabungkan dengan Deep Learning.
+Neural Networks (NN) terinspirasi dan mencoba meniru cara kerja biological neuron dalam otak manusia yang dapat mengirim sinyal satu sama lain.
+ANN merupakan gabungan dari beberapa artificial neuron, disebut sebagai perceptron, yang disusun dalam beberapa lapisan (layer). Bentuk NN yang paling kecil (minimal) hanya tersusun dari satu perceptron atau single perceptron.
+Single perceptron akan memproses input dengan mengalikan nilai input (x) dengan weight (w) lalu dijumlahkan dengan bisa (b).
+Hasil pemrosesan input (z) kemudian akan dilewatkan pada Activation Function (f).
+Output dari single perception adalah hasil dari Activation Function (y).
+Perceptron yang berdiri sendiri tidak terlalu berguna. Namun, ketika sebuah perceptron dihubungkan dengan ratusan atau ribuan perceptron lain, maka akan memberikan hasil/performa yang mampu mengungguli metode Machine Learning lainnya.
+Istilah umum yang sering muncul ketika kita mengembangkan AI antara lain:
+•	Activation Function adalah function yang meniru apakah sebuah biological neuron aktif atau tidak berdasarkan input yang diterima. Contoh paling sederhana dari activation function adalah step function. Step function menentukan output dari sebuah percepteron. Jika z >0 maka output percepteron adalah 1, jika z <=0 maka output percepteron adalah 0.
+•	Loss Function atau disebut juga cost function adalah algoritma yang mengukur/mengkalkulasi seberapa salah sebuah model NN.
+Loss adalah ukuran dari function ini. Kita mengharapkan loss = 0 karena loss merupakan error yang dihasilkan model. Salah satu contoh loss function adalah MSE (Mean Square Error).
+•	Optimizer. NN dilatih dengan cara menyesuaikan weight atau bias. Weight atau bias yang tepat akan menurunkan loss dan meningkatkan performa model. Algoritma yang digunakan untuk menyesuaikan weight dan bias disebut sebagai optimizer.
+Salah satu contoh optimizer adalah Gradient Descent. Gradient Descent memanfaatkan hasil perhitungan turunan parsial pertama loss function dan learning rate untuk meng-update weight atau bias model NN. Gradient Descent dapat kita analogikan seperti orang yang sedang menuruni gunung menuju base camp (titik terendah) saat cuaca sedang berkabut.
+Karena jarak pandang yang terbatas, orang tersebut akan terus mengamati jalur selama perjalanan.
+Ketika yakin berada di jalur yang benar (jalur menurun) orang tersebut mulai bergerak hingga sampai di base camp
+NN dapat dilatih menggunakan algoritma backpropagation. Algoritma ini terdiri dari dua tahapan utama, yakni:
+•	Forward Pass
+•	Backward Pass
+
+Forward Pass adalah tahapan di mana kita memberikan input ke dalam model NN.
+-	Input akan diterima melalui input layer
+-	Input lalu diproses oleh hidden layer
+-	Hasil proses (output) kemudian dikeluarkan melalui output layer
+-	Selanjutnya mengkalkukasi loss berdasarkan t dan y menggunakan loss function.
+
+Backward Pass adalah tahapan mengupdate weight dan bias berdasarkan loss yang didapat dan optimizer yang digunakan.
+Proses berjalan ke arah depan pada forward pass. Sementara, proses berjalan ke arah belakang (mundur) pada backward pass.
+Weight dan bias akan diupdate dari layer paling belakang hingga layer paling depan.
+
+What did you learn this week?
+
+Minggu keempat ini, telah dipelajari mengenai numpy dan penggunaannya, dasar-dasar preprocessing data, prosedur instalasi dan konsep dasar pada Pandas, data import export, selection dan filtering dengan dataframes, data transformation menggunakan pandas, data visualization, teknik visualisasi data dengan python, fungsi visualisasi dasar dengan matplotlib, membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn serta membuat visualisasi untuk time series data, linear regression, logistic regression, K Nearest Neighbors, serta Neural Networks. Selengkapnya tentang materi dapat dilihat pada laporan harian minggu 4.

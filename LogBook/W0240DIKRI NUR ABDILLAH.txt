@@ -1,0 +1,488 @@
+Mon, 28 Feb
+
+Libur maulid nabi jadi Alhamdulilah ☺️
+
+Tue, 1 Mar
+
+Python Home
+print("Hello, World")
+Hello, World
+Python Syntax
+if (5>2):
+print("lima lebih besar dari dua")
+lima lebih besar dari dua
+x = 5
+y = "Hello, World"
+# print x dan y
+print(x , y)
+5 Hello, World
+Python Comment
+# this is comment
+print("hello world") # this is comment too
+hello world
+Python Variabel
+# mengoverwrite variabel
+x = 4 # x is of type integer
+x = "Sally" # x is now of type string
+print(x)
+Sally
+# casting
+x = str(3) # x will be '3' string
+y = int(3) # y will be 3 integer
+z = float(3) # z will be 3.0 desimal
+# melihat tipe data pada python
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+<class 'int'>
+<class 'str'>
+# penggunaan double quotes dan single quotes pada string
+x = "John"
+# is the same as
+x = 'John'
+# case sensitive, jadi huruf kecil dan kapital memliki perbedaan di python
+a = 4
+A = "Sally"
+print(a)
+4
+# legal variabel name pada python
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+John
+John
+John
+John
+John
+John
+# memdefinisikan banyak variabel dengan 1 line
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+Orange
+Banana
+Cherry
+# satu value dengan banyak variabel
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+Orange
+Orange
+Orange
+# unpacking a collection, jika kita punya list(array). maka kita dapat mengassign sa
+# elemen dalam masing2 variabel dengan syarat jumlah variabel nya sama dengan jumlah
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+apple
+banana
+cherry
+# mengkombinasikan variabel dengan teks / variabel lain
+# saat menprint pada terminal
+x = "halo"
+y = " kakak"
+a = 5 ; b = 10
+print(x + y , a + b)
+halo kakak 15
+# Contoh Variabel Global (x) yang bisa digunakna untuk semua fungsi
+x = "awesome"
+def myfunc():
+print("Python is " + x)
+myfunc()
+Python is awesome
+# pada fungsi adalah variabel lokal scope dan pada x = awesome adalah global variabe
+x = "awesome"
+def myfunc():
+x = "fantastic"
+print("Python is " + x)
+myfunc()
+print("Python is " + x)
+Python is fantastic
+Python is awesome
+# pada python kita dapat membuat variabel lokal menjadi variabel global
+# dan merubah variabel global dari variabel scope
+x = "awesome"
+def myfunc():
+global x
+x = "fantastic"
+myfunc()
+print("Python is " + x)
+Python is fantastic
+Python Data Type
+# melihat tipe data python
+a = 5
+b = "wonderfull"
+c = 3.32
+d = [5,2,'who']
+e = (1,2,3)
+f = {1,2,3}
+g = {'a':[1,2,3],
+'b':['soap','tootbrush']}
+h = True
+i = 1j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'list'>
+<class 'tuple'>
+<class 'set'>
+<class 'dict'>
+<class 'bool'>
+<class 'complex'>
+Python Number
+# konversi satuan pada python
+x = 1 # int
+y = 2.8 # float
+z = 1j # complex
+#convert from int to float:
+a = float(x)
+#convert from float to int:
+b = int(y)
+#convert from int to complex:
+c = complex(x)
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+1.0
+2
+(1+0j)
+<class 'float'>
+<class 'int'>
+<class 'complex'>
+# generate random number pada python
+import random
+print(random.randrange(1, 10))
+8
+Python Casting
+# mengkonversi teks menjadi angka dan sebaliknya
+a1 = 5
+b1 = '10'
+print(a1)
+print(b1)
+a2 = str(a1)
+b2 = int(b1)
+print(type(a2))
+print(type(b2))
+5
+10
+<class 'str'>
+<class 'int'>
+Python String
+# format multilateral string
+a = (f"""Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+""")
+print(a)
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+# array in string
+a = "banana"
+print(a[2],"\n")
+for i in a:
+print(i)
+print("\n")
+# panjang string
+a = "helllo, world"
+print(len(a))
+# checking word in string
+a = "pisang di rumah nenek"
+if "makan" in a:
+print(f""" ada 'makan' di variabel a """)
+else:
+print(f""" tidak ada 'makan' didalam variabel a """)
+n 
+b
+a
+n
+a
+n
+a
+13
+ tidak ada 'makan' didalam variabel a 
+# slicing string dan indexing dengan negatif
+b = "Hello, World!"
+a = b[:5]
+c = b[-6:-1]
+print(a)
+print(c)
+Hello
+World
+# modify string
+a = "Hello, World!"
+print(a.upper())
+a = "Hello, World!"
+print(a.lower())
+# strip() akan menghilangkan spasi pada awal kalimat dan akhir kalimat
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
+a = "Hello, World!"
+print(a.replace("Hello", "Oyasumi"))
+# split() merubah string menjadi list
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+HELLO, WORLD!
+hello, world!
+Hello, World!
+Oyasumi, World!
+['Hello', ' World!']
+# format string
+a = 5
+b = "senilai"
+print(f"""variabel a {b} {a}""")
+variabel a senilai 5
+# escape quotes
+a = "they are called themselves a \"guardian\" which is means they are soldier of lu
+print(a)
+they are called themselves a "guardian" which is means they are soldier of lunatia ki
+Python Bool
+a= bool("abc")
+b= bool(123)
+c= bool(["apple", "cherry", "banana"])
+d= bool({})
+e= bool([])
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+True
+True
+True
+False
+False
+# class yang akan mereturn bool akan bernilai false jika mengembalikan nilai 0
+class myclass():
+def __len__(self):
+return 0
+myobj = myclass()
+print(bool(myobj))
+False
+# fungsi yang mengambalikan nilai bool dan pada percabangan
+def kebenaran():
+return True
+if kebenaran() == True:
+print("Kebenaran tak akan kalah")
+else:
+print("Akan tiba waktunya Kebenaran akan menang")
+kebenaran()
+Kebenaran tak akan kalah
+True
+Python Operator
+a = 7%2
+b = 2**3
+c = 5/2
+d = 5//2
+e = 10
+e*= 5
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+1
+8
+2.5
+2
+50
+Python List
+a = ['javascript','python','c++','php','c','hmtl','CSS']
+d = [5,3,6,2,25,6]
+# indexing
+b = a[1]
+print(b,"\n")
+# slicing
+c = a[:3]
+print(c,"\n")
+# panjang list
+print(len(a),"\n")
+# sort list
+e = d.sort()
+print(d)
+python 
+['javascript', 'python', 'c++'] 
+7 
+[2, 3, 5, 6, 6, 25]
+Python Tuple
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5],"\n")
+# join a tuple
+tuple2 = (1, 2, 3)
+print(thistuple + tuple2,"\n")
+# perkalian tuple
+print(tuple2*2,"\n")
+# mencari jumlah elemen pada tuple
+print(thistuple.count("orange"))
+('cherry', 'orange', 'kiwi') 
+('apple', 'banana', 'cherry', 'orange', 'kiwi', 'melon', 'mango', 1, 2, 3) 
+(1, 2, 3, 1, 2, 3) 
+1
+Python Set
+myset = {"apple", "banana", "cherry"}
+# menggunakan constructor/konversi ke sets dan menghitung panjang elemen sets
+set_baru = set(["avanza","toyota","suzuki"])
+print(f"""tipe data adalah {type(set_baru)} dengan panjang {len(set_baru)} \n""")
+# looping set dan cek elemen
+for i in set_baru:
+print(i)
+if "avanza" in set_baru:
+print("\nBenar\n")
+else:
+print("\nSalah\n")
+# menambah dan mengurangi elemen sets
+myset.add("monas")
+print(myset,"\n")
+myset.remove("apple")
+print(myset,"\n")
+# method union() -> menggabungkan elemen ; update() -> menambahkan elemen
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
+set3 = set1.union(set2)
+print(set3)
+sett1 = {"a", "b" , "c"}
+sett2 = {1, 2, 3}
+sett1.update(sett2)
+print(sett1)
+tipe data adalah <class 'set'> dengan panjang 3 
+suzuki
+toyota
+avanza
+Benar
+{'monas', 'apple', 'banana', 'cherry'} 
+{'monas', 'banana', 'cherry'} 
+{1, 2, 3, 'a', 'b', 'c'}
+{1, 2, 3, 'a', 'b', 'c'}
+Python Dictionary
+# mengakses key pada dictionary
+thisdict = {
+"brand": ["Ford","toyota"],
+"model": ["Mustang","avanza"],
+"year": [1964,2010]
+}
+x = thisdict["model"]
+print(x,"\n")
+# method melihat semua keys() ; values()
+print(thisdict.keys())
+print(thisdict.values(),"\n")
+# menambahkan key dan value baru ke variabel dictionary
+thisdict['owner'] = ["and","budi"]
+print(thisdict)
+['Mustang', 'avanza'] 
+dict_keys(['brand', 'model', 'year'])
+dict_values([['Ford', 'toyota'], ['Mustang', 'avanza'], [1964, 2010]]) 
+{'brand': ['Ford', 'toyota'], 'model': ['Mustang', 'avanza'], 'year': [1964, 2010], 
+# method items() akan mengembalikan setiap item didictionary sebagai tuple didalam l
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+x = car.items()
+print(x) #before the change
+car["year"] = 2020
+print(x) #after the change
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2020)])
+# mengecek apakah key ada di dictionary
+thisdict = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+if "model" in thisdict:
+print("Yes, 'model' is one of the keys in the thisdict dictionary")
+Yes, 'model' is one of the keys in the thisdict dictionary
+# merubah nilai dict , tidak harus sama banyaknya value seperti value sebelumnya
+thisdict = {
+"brand": ["Ford","toyota"],
+"model": ["Mustang","avanza"],
+"year": [1964,2010]
+}
+thisdict['year'] = 2000
+print(thisdict)
+{'brand': ['Ford', 'toyota'], 'model': ['Mustang', 'avanza'], 'year': 2000}
+# deleting dictionary dan clear
+thisdict = {
+"brand": ["Ford","toyota"],
+"model": ["Mustang","avanza"],
+"year": [1964,2010]
+}
+thisdict.pop("brand")
+print(thisdict)
+thisdict.clear()
+print(thisdict)
+{'model': ['Mustang', 'avanza'], 'year': [1964, 2010]}
+{}
+# looping
+thisdict = {
+"brand": ["Ford","toyota"],
+"model": ["Mustang","avanza"],
+"year": [1964,2010]
+}
+for x in thisdict.values():
+print(x)
+['Ford', 'toyota']
+['Mustang', 'avanza']
+[1964, 2010]
+# nested dictionary
+myfamily = {
+"child1" : {
+"name" : "Emil",
+"year" : 2004
+},
+"child2" : {
+"name" : "Tobias",
+"year" : 2007
+},
+"child3" : {
+"name" : "Linus",
+"year" : 2011
+}
+}
+print(myfamily)
+{'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}
+
+Wed, 2 Mar
+
+maaf baru ngisi belajar di  github dan bikin akun github  dan belajar ngoding ngoding di jepyter notebook
+
+Thu, 3 Mar
+
+libur hari Nyepi... tapi kita di kasih tugas sama coach kita mengerjakan ngoding di jepyter notebook di kumpulkan besok
+
+Fri, 4 Mar
+
+maaf buu saya baru ngisi laporan Advanced Data Types for Python dan matematika dasar
+
+What did you learn this week?
+
+Alhamdulillah saya belajar bikin akun github dan belajar ngoding di google colab

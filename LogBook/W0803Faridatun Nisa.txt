@@ -1,0 +1,37 @@
+Mon, 11 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+• Arsitektur jaringan RNN, LSTM, GRU
+• Dapat melakukan time series forecasting menggunakan deep learning
+
+Tue, 12 Apr
+
+Hari in saya mempelajari hal-hal berikut:
+
+• Apa itu autoencoder?
+• Properti pada autoencoder
+• Arsitektur pada autoencoder
+• Aplikasi dari autoencoder
+
+Wed, 13 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+▪ konsep transfer learning pada NLP.
+▪ batasan word embedding tradisional.
+▪ mekanisme self-attention pada arsitektur transformer.
+▪ arsitektur dan representasi input BERT.
+▪ Mampu melakukan fine-tuning menggunakan BERT
+
+Thu, 14 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+1. Dasar dari robotika
+2. Kegunaan konsep machine learning untuk robotika
+3. implementasi reinforcement learning pada robotika
+
+Fri, 15 Apr
+
+Libur

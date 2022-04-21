@@ -1,0 +1,108 @@
+Mon, 28 Mar
+
+DS
+• Dimensionality Reduction di AI
+• Tujuan dimensionality reduction
+• Teknik dimensionality reduction
+
+NLP
+Data collection
+ Pre-processing
+ Case Folding
+Filtering
+Stopword
+Stemming
+Feature Extraction
+ BoW
+TF-IDF
+Feature Selection
+Chi-Square
+
+Tue, 29 Mar
+
+CV
+Deep Learning & CNN (L.0 3)
+
+RL
+Sejarah Reinforcement Learning (RL)
+Algoritma RL
+Elements & Environment dari RL
+Aplikasi dari RL
+
+Wed, 30 Mar
+
+pembelajaran mengenal sistem rekoemdasi pada youtube , dengan memanfaatkan teknik rata rata pembobotan, jarak euclidean, jarak manhattan, pearson correlation, dan menggunakan jarak sudut cosinus.
+
+untuk mtode yang digunakan yaitu collavorative filtering, yaitu dengan menggunakan memory based dan model based.
+- memory based menggunakan preferensi rata2 dan rata yg berbobot dengan pearson correlation untuk membuat matriks dan memilih nilai tertinggi
+- untuk model based, yaitu dengan menggunakan model yang dibuat dengan deep learning untuk mempermudah pross komputasi
+
+Thu, 31 Mar
+
+pembelajra mengenai convolutional neural network, yang merupkan pengenalan objek menggunakan metode neural network. dimana dibutuhkan layer - layer yang nantinya akan di update bobotnya (epoch). untuk parameter keberhasilan dari model ini yaitu nilai accuracy diatas 80 , dengan memenihu tiga kriteria yaitu
+1. grafik loss dan dan value loss konvergen
+2. tidak ada grafik yg osilasi
+3. jarak antara value loss dengan loss dekat
+
+Fri, 1 Apr
+
+NLP
+Text representation
+
+Computer Vision
+
+Technical
+Source Code Management
+
+RL
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Technical
+Database - SQL
+
+What did you learn this week?
+
+DS
+• Dimensionality Reduction di AI
+• Tujuan dimensionality reduction
+• Teknik dimensionality reduction
+
+NLP
+Data collection
+ Pre-processing
+ Case Folding
+Filtering
+Stopword
+Stemming
+Feature Extraction
+ BoW
+TF-IDF
+Feature Selection
+Chi-Square
+
+CV
+Deep Learning & CNN (L.0 3)
+
+RL
+Sejarah Reinforcement Learning (RL)
+Algoritma RL
+Elements & Environment dari RL
+Aplikasi dari RL
+
+Apa yang kamu kerjakan hari ini?
+
+pembelajaran mengenal sistem rekoemdasi pada youtube , dengan memanfaatkan teknik rata rata pembobotan, jarak euclidean, jarak manhattan, pearson correlation, dan menggunakan jarak sudut cosinus.
+
+untuk mtode yang digunakan yaitu collavorative filtering, yaitu dengan menggunakan memory based dan model based.
+- memory based menggunakan preferensi rata2 dan rata yg berbobot dengan pearson correlation untuk membuat matriks dan memilih nilai tertinggi
+- untuk model based, yaitu dengan menggunakan model yang dibuat dengan deep learning untuk mempermudah pross komputasi
+
+Apa yang kamu kerjakan hari ini?
+
+pembelajra mengenai convolutional neural network, yang merupkan pengenalan objek menggunakan metode neural network. dimana dibutuhkan layer - layer yang nantinya akan di update bobotnya (epoch). untuk parameter keberhasilan dari model ini yaitu nilai accuracy diatas 80 , dengan memenihu tiga kriteria yaitu
+1. grafik loss dan dan value loss konvergen
+2. tidak ada grafik yg osilasi
+3. jarak antara value loss dengan loss dekat

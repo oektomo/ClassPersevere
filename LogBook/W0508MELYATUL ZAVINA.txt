@@ -1,0 +1,352 @@
+Mon, 21 Mar
+
+#1 DOMAIN DATA SCIENCE
+INTRODUCTION TO DATA SCIENCE
+-	Data science merupakan proses memahami atau memperoleh informasi dari suatu data mentah yang selanjutnya dapat digunakan untuk prediksi atau menentukan kategori.
+-	Data yang bisa diproses pada data science adalah data yang berbentuk tabular, baik data dengan 1 kolom maupun multiple kolom.
+-	Data sience bermanfaat untuk memberikan suatu informasi serta melakukan prediksi
+-	Model atau algoritme pada data science diantaranya regresi, moving average, dan ensemble technique.
+
+3 pilar kemampuan data science :
+1.	Memiliki kemampuan coding pada suatu bahasa pemrograman
+2.	Memiliki kemampuan Analisa statistik/matematika
+3.	Memahami case yang sedang diamati
+
+Manfaat DS :
+1.	Digunakan dalam klasifikasi
+2.	Prediksi
+3.	Untuk mengambil keputusan
+4.	Digunakan dalam analisis kualitiatif
+5.	Digunakan untuk memperoleh informasi
+
+Data Science Project Cycle :
+1.	Problem scoping
+2.	Data acquisition
+3.	Data exploration
+4.	Modeling
+5.	Evaluation
+6.	Deployment
+
+Mathematics for Data Science :
+1.	Statistik dan Teori Probabilitas
+2.	Teori optimasi
+3.	Aljabar linier
+4.	Kalkulus
+
+Data
+1.	Waktu pengumpulan
+a.	Cross section
+b.	Time series
+2.	Skala pengukuran
+a.	Nominal
+b.	Ordinal
+c.	Interval
+d.	Rasio
+3.	Teknik pengumpulan
+a.	Primer
+b.	Sekunder
+
+Data Preprocessing
+1.	Data cleaning : proses memperbaiki/menghilangkan suatu data yang tidak sesuai dengan dataset
+2.	Data transformation : proses mengubah data dari suatu format menjadi format lainnya
+3.	Data reduction : proses mengurangi jumlah data untuk efisiensi storage
+
+Supervised dan Unsupervised Learning
+1.	Supervised Learning : Klasifikasi dan Regresi
+a.	Decision Tree
+b.	Naïve Bayes Classifiers
+c.	Support Vectore Machine
+d.	K-Nearest Neighbors
+e.	Logistic Regression
+f.	Neural Network
+g.	Linear Regression
+h.	Lasso Regression
+i.	Ridge Regression
+2.	Unsupervised Learning : Clustering
+a.	K-Means Clustering
+b.	DBSCAN
+
+Regresi : hubungan dari suatu variabel/fitur/case yang memengaruhi variabel/fitur/case yang lain.
+
+Moving Average
+Merupakan algoritma untuk melihat pergerakan tren.
+
+Decision Tree
+Decision Tree merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical classification tree dan continuous (regression tree)
+Berupa representasi grafis yang memudahkan dalam melakukan interpretasi dan membantu dalam membuat keputusan. Decision tree juga tampak seperti flow chart yang memiliki struktur if-else condition.
+Splitting Criteria :
+-	Information gain (informasi paling tinggi displit dahulu)
+-	Index gini (nilai terkecil displit dahulu)
+
+Ensemble Technique
+Merupakan kumpulan single methods dari beberapa kumpulan method tersebut memunculkan new instance.
+Kriteria keputusan :
+a.	Majority voting (classification)
+b.	Average of prediction (regression)
+
+#DOMAIN NLP
+NLP INTRODUCTION
+NLP adalah cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara computer dan manusia menggunakan bahasa alami.
+Menggunakan library nltk
+NLP tidak sekedar membaca, namun juga memahami apa maksud yang ditulis manusia.
+NLP = NLU + NLG
+NLP : kemampuan computer memahami bahas manusia dalam bentuk tertulis (teks) dan verbal 
+(ucapan).
+NLUnderstanding (NLP yang tugasnya untuk membaca) : bagian NLP yang menggunakan analisis sintaksis dan semantic untuk menentukan makna kalimat
+NLGeneration (NLP yang tugasnya menulis) : bagian NLP untuk menghasilkan respons bahasa manusia berdasarkan beberapa input.
+Sejarah NLP – Era Klasik
+1949 Weaver’s Memorandum : ditemukan penerjemah bahasa Rusia ke Inggris
+1960s Grammar Theories
+1970s Conceptual Ontologies : Konsep yang membuat bahasa lebih dimengerti computer
+1980s Symbolic Models (sudah memperhatikan tanda baca)
+1990s Statistical Methods (Decision Tree, Naïve Bayes
+2003 Neural Language Models
+2008 Multitask learning
+2013 Word Embeddings (Word2Vec)
+2013 NLP Neural Nets
+2014 Seq-to-seq Learning
+2015 Attention (Transformer)
+2018 Pretrained Models
+
+Semua karakter (kata, tanda baca) bisa dianggap sebagai fitur.
+Penerapan NLP : Chatbot, Siri, Cortana, Simisimi, Text-to-speech, Sppech-to-text, Google Asistant
+
+Area Aplikasi NLP :
+1.	Question Answering System (QAS) : kemampuan computer untuk menjawab pertanyaan yang diajukan pengguna. Dapat menemukan jawaban dari database, data tidak terstruktur. Jika ada input suara (sinyal) diubah menjadi teks lalu diubah jadi angka.
+2.	Information Retrieval : kemampuan computer mencari konten yang relevan berdasarkan query (kata kunci) yang diberikan pengguna.
+3.	Text Summarization : kemampuan computer untuk meringkas konten dengan mencari informasi paling penting atau relevan dengan konten asli
+4.	Machine Translation : kemampuan computer menerjemahkan konten dari satu bahasa ke bahasa lain secara otomatis.
+5.	Text Classification : kemampuan computer untuk mengkategorikan konten ke satu atau lebih kategori secara otomatis
+6.	Speech Recognition : kemampuan computer untuk menganai dan menerjemahkan bahasa lisan ke dalam teks secara otomatis
+
+Mesin membaca dengan mengubah teks mencadi vektor.
+
+Susunan Kata dan Artinya
+Semantik : kajian yang mencakup arti dan makna kata sesungguhnya dalam satuan kalimat
+Sintaksis : kajian yang mencakup seluk-beluk tata bahasa (grammar dan cara penulisan) dalam satuan kalimat
+
+Analogi dengan bahasa pemrograman :
+Sintaks berbeda, semantic sama = (5): 2+3 = 3+2
+Sintaks sama, semantic berbeda = (1 dan 1.5)
+Makna dari sebuah kata dapat dengan mudah diketahui manusia, tapi tidak pada computer. Maka, kita perlu mengubahnya teks menjadi angka.
+
+Tue, 22 Mar
+
+Hari ini dipelajari domain baru yaitu Computer Vision  dan Reinforcement Learning.
+
+#CV
+Computer vision adalah bidang AI yang digunakan untuk memproses, menganalisa, dan memahami citra (images). Computer Vision merupakan duplikat atau tiruan dari human vision (penglihatan manusia).
+Data citra berasal dari banyak sumber seperti video, depth image, medical scanner, satellite sensor, dll.
+Komponen computer vision :
+1.	Scene
+2.	Lighting
+3.	Camera
+4.	Computer (scene interpretation)
+Jenis tugas yang dapat dilakukan oleh CV :
+1.	Classification
+2.	Classification + localization
+3.	Object detection
+4.	Instance segmentation
+Metode CV :
+1.	Image acquisition
+2.	Pre-processing
+3.	Feature extraction
+4.	Detection /segmentation
+5.	Recognition an interpretation
+Matematika dalam CV :
+1.	Kalkulus
+2.	Aljabar linier
+3.	Probabilitas dan statistik
+4.	Sinyal processing
+5.	Projektif geometri
+6.	Komputasional geometri
+7.	Teori optimasi
+8.	Teori kendali
+Selebihnya banyak diperlihatkan konsep CV dari google oleh coach.
+
+#RL
+Konsep RL diperkenalkan dengan contoh kasus percobaan marshmallow pada anak, kemudian peserta menentukan reward, action, dan state pada kasus tersebut. Simulasi konsep juga digambarkan pada percobaan antara merpati dan tikus.
+Elemen Utama pada RL :
+1.	Agent : software yang dapat belajar dari environment
+2.	Environment : segala sesuatu diluar agent yang menjadi tempat agent melakukan exploration dan exploitation
+Sub elemen utama :
+1.	Policy
+2.	Reward signal
+3.	Value function
+4.	Model environment (opsional)
+
+Machine learning merupakan irisan dari supervised learning, unsupervised learning, dan reinforcement learning.
+Reward : sistem reward dalam sebuah lingkungan mungkin tidak langsung diberikan (delayed reward). Reward bisa dilihat sebagai umpan balik terhadap agent, karena beberapa mengalami penundaan makan umpan balik seringkali menjadi tertunda. Delayed gratification sering memberikan total reward yang lebih besar.
+Action : semua tindakan yang mungkin telah diketahui.
+
+RL secara formal pada contoh kasus marshmallow :
+1.	Reward (Rt) :
+a.	Bahagia langsung makan marshmallow
+b.	Marshmallow tambahan
+c.	Sabar menunggu (reward negative)
+2.	State (St) :
+a.	Menunggu
+b.	Makan
+3.	Action (At) :
+a.	Langung makan
+b.	Menunggu dengan bengong
+c.	Menunggu dengan fitness
+d.	Menunggu sambal tidur
+e.	Menunggu 5 menit lalu makan
+
+Karakteristik dari RL :
+1.	Tidak ada “kebenaran” pada proses pembelajaran (training), yang ada hanya hadiah (atau hukuman)
+2.	Data yang diperoleh (state and reward) tergantung dari action yang diberikan oleh Agent
+3.	Variabel waktu dan urut-urutan state yang dipilih oleh agent melalui action memiliki pengaruh yang penting
+
+Tipe-tipe Environment RL :
+1.	Deterministic environment (hasil dapat diketahui secara pasti)
+2.	Stochastic environment (hasil tidak pasti)
+3.	Fully observable environment (agent dapat menentukan state sistem setiap saat)
+4.	Partially observable environment (agent tidak dapat menentukan state)
+5.	Discrete environment (state berpindah ke state lainnya terbatas)
+6.	Continuous environment (state berpindah ke state lainnya tidak terbatas)
+7.	Episodic and non-episodic environment (episodic non-sequensial, kalau non-episodic sequensial)
+8.	Single and multi-agent environment (memiliki agent tunggal vs multi agent)
+
+Wed, 23 Mar
+
+Hari ini belajar domain data science dan natural language processing.
+
+#DS
+Materi kali ini mempelajari cara visualisasi data dengan Tableau. Tutorialnya penggunaannya juga didemokan saat kelas.
+Terdapat banyak jenis visualisasi data, diantaranya :
+1.	Pie chart : untuk menunjukkan sebuah komposisi tertentu dari sebuah data
+2.	Histogram : untuk menampilkan distribusi dari sebuah data. Biasanya digunakan untuk melihat estimasi distribusi probabilitas dari variabel yang kontinu. Bisa juga melihat adanya data outlier dari grafik tersebut (jika ada sebuah data nyempil terlalu jauh dari data yang lain)
+3.	Bar chart : menyajikan data kategorikal dalam bentuk batang dengan Panjang batang mewakili nilainya
+4.	Scatter plot : untuk melihat suatu pola hubungan antara 2 variabel numerik
+Tableau memiliki banyak 4 fungsi utama :
+1.	Menerjemahkan data menjadi bentuk visual
+2.	Mengelola metadata
+3.	Mengimpor berbagai ukuran dan range data
+4.	Membuat visualisasi data tanpa coding
+Kelebihan tableau :
+1.	Tools big data for data science
+2.	Pilihan visual interaktiof
+3.	User friendly
+4.	Dapat mengolah banyak sumber data
+5.	Dashboard mobile friendly
+6.	Banyak digunakan perusahaan besar
+Kemudian, peserta diberi tugas kelompok membuat dashboard Tableau. Kelompok saya membuat dashboard dari dataset rating IMDB Film.
+
+#NLP
+Feature extraction (pembobotan kata) adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritma machine learning. Ada dua pembobotan kata yang umum :
+1.	Bag of Word (BoW) / Count Vectorizer
+2.	Term Frequency-Inverse Document Frequency (TF-IDF)
+
+A.	Bag of Word (BoW)
+Merupakan sebuah model yang mempelajari kosa kata dari seluruh dokumen, kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata yang muncul. 
+Kekurangan BoW :
+1.	Ukuran korpus Bo Wakan mengikuti jumlah kata unik dari seluruh dokumen yang kita miliki. Bisa menghasilkan matriks yang besar sekali jika katanya Panjang. Why? Membutuhkan komputasi yang besar
+2.	Memiliki Banyak angka 0 sehingga memunculkan sparse matrix (matrix yang banyak 0 nya/matriks yang renggang). Kondisi ini harus dihindari karena model kita harus menemukan informasi / pola yang sedikit pada korpus yang besar. Tentunya komputasi juga lebih tinggi
+3.	Menghilangkan konteks kata karena tidak memperhatikan urutan kata dalam kalimat.
+
+A.	TF-IDF
+Terdiri dari 2 proses yaitu TF lalu IDF.
+Merupakan ukuran penilaian yang umumnya digunakan dalam pencarian informasi (IR) dan peringkasan teks. Skor TF-IDF akan menunjukkan seberapa penting / relevan suatu istilah (kata) dalam dokumen tertentu.
+Nilai TFIDF = TF*IDF. Dalam dokumen, kata yang sering muncul akan bernilai TF-IDF kecil sedangkan kata yang jarang muncul akan bernilai TF-IDF besar. Semakin kecil nilai TF-IDF menunjukkan kalau kata tersebut sering muncul.
+Di pre-processing TF-IDF kita menghapus kata penghubung karena akan dianggap tidak penting.
+(perhitungan ada di file excel PerhitunganTF-IDF)
+Proses TF : menghitung frekuensi setiap kata (t) yang muncul dalam kalimat (d) dibagi total keseluruhan kata (term) yang terdapat dalam kalimat (d).
+Proses IDF : log dari jumlah seluruh dokumen / kalimat dalam koleksi dibagi jumlah dokumen / kalimat dimana muncul kata (t).
+
+Kekurangan TF-IDF :
+Karena ia berbasis BoW, sehingga TF-IDF pun tidak bisa menangkap makna semantic dari suatu kalimat. Tetapi dia bisa memfilter, mana term yang memiliki informasi lebih relevan pada suatu dokumen.
+
+Feature Filtering (menghapus kata-kata / symbol tidak penting) :
+1.	Menghapus string seperti @username, website, tanda baca, karakter
+2.	Stop word removal (menghapus kata yang sering muncul)
+Feature Selection (Seleksi fitur) adalah memilih kata yang penting untuk diikutkan pada proses machine learning :
+1.	Metode Filter : memberi skor untuk setiap fitur, lalu fitur dengan skor tertinggi dipilih dan diberi peringkat. Metode : chi-square, information gain, query expansion ranking.
+2.	Metode wrapper : memilih fitur penting menggunakan algoritma optimasi dengan algoritma machine learning. Metode : genetic algorithm, particle swarm optimization, iterated greedy metauristic, etc
+3.	Metode hybrid : kombinasi filter dan wrapper. Metode : QER with PSO-AIW, etc
+Word cloud adalah gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks, umunya semakin banyak kata yang digunakan maka semakin besar ukuran kata tersebut dalam gambar. Digunakan untuk visualisasi kata, misal pada sentiment analisis
+Word cloud bisa dibuat dengan Matplotlib.
+
+Thu, 24 Mar
+
+Hari ini belajar domain Computer Vision dan Technical.
+
+#CV
+Dipelajari materi Image processing.
+Image processing merupakan metode (cara) untuk melakukan beberapa operasi pada citra untuk mendapatkan citra yang disempurnakan / mengekstrak informasi yang berguna pada citra.
+Citra adalah fungsi dari intensitas cahaya yang direpresentasikan oleh sekumpulan piksel. Citra dibentuk oleh suatu matrix berukuran m x n.
+
+2 hal yang dapat merepresentasikan image :
+1.	Koordinat (x,y)
+2.	Intensitas f(x,y) yang bisanya bernilai 0-255 atau 8 bit
+Komponen pada pengolahan citra :
+1.	Image
+2.	Ruang warna RGB
+3.	Ruang warna HSL (hue, saturation, lightness)
+4.	Display citra
+Brighness mengacu pada kecerahan/kegelapan pada keseluruhan gambar sedangkan contrast mengacu pada perbedaan kecerahan/kegelapan antar objek/wilayah
+Perbaikan citra (image enhancement) tujuannya untuk menonjolkan aspek tampilan tertentu agar mudah dipahami oleh penglihatan manusia dan mereduksi/menghilangkan aspek tampilan dari suatu citra yang tidak diperlukan (misalnya noise).
+Teknik perbaikan citra :
+1.	Spatial domain : operasi pada piksel secara langsung
+2.	Frequency domain : piksel dioperasikan dalam kelompok / secara tak langsung
+Operasi transofrmasi intensitas pada citra untuk manipulasi kontras citra. Operasi yang umum :
+1.	Image negatives (linear)
+2.	Log transformations : mengganti semua nilai piksel gambar dengan nilai algoritmanya
+3.	Power-law (Gamma) Transformation : mengontrol kecerahan seluruh gambar
+4.	Contrast stretching
+Histogram citra merupakan diagram yang menggambarkan distribusi frekuensi nilai intensitas piksel citra.
+Histogram equalization :
+1.	Hitung distrbusi kumulatif citra
+2.	Hitung hasil normalisasi histogram
+3.   Terapkan histogram normalisasi ke citra
+Dilanjutkan dengan simulasi pemrograman di Google Colab.
+
+#Technical
+Dipelajari materi mengenai source code management, yaitu Git dan GitHub. Pada sesi kali ini lebih banyak praktik di web Git.
+Git adalah software sedangkan Github merupakan service.
+Git Large File Storage (GLFS) untuk mengunggah file besar >25 MB.
+Kenapa harus GitHub? Agar bisa mengetahui perubahan-perubahan yang terjadi pada source code selama masa development sehingga bisa mengontrol versi software kita.
+Branch adalah komponen utama dalam code versioning / SCM, sedangkan merge adalah aktivitas utamanya. 
+
+Collaborators adalah sebuah feature pada penyedia cloud repository sehingga pemilik repository dapat memberikan hak akses kepada temannya untuk berkolaborasi pada repo tersebut.
+3 komponen utama SCM :
+1.	Remote environment : cloud storage
+2.	Local environment : perangkat
+3.	Developer : kita
+Dipelajari pula tetang konsep SCM dan SCM operations diagram.
+Di akhir kelas peserta telah berhasil membuat repository dan diberi tugas untuk membuat branch dan melakukan cloning
+
+Fri, 25 Mar
+
+Hari ini belajar domain Reinforcement Learning dan Technical Spatial Data serta SQL
+
+#Reinforcement Learning
+Pembelajaran diawal dengan pretest dan diakhiri dengan postest. Saat kelas, dipelajari materi mengenai Markov Decision Precess (MDP) dan Dynamic Programming. Markov properties menyatakan bahwa state masa depan hanya ditentukan oleh state masa kini. Hyperparameter adalah parameter yang ditentukan oleh manusia, sedangkan parameter yang menentukan model/algoritma. Ketika hyperparameter nilainya diupdate oleh model, maka disebut parameter.
+Policy adalah fungsi yang outputnya action / tindakan yang kita ambil.
+Return (utility) adalah total reward berdasar jalur yang dilalui yang terdiskon dan nilainya acak
+Jalur adalah urut-urutan state, action, reward
+Value menggambarkan expected return (nilainya fix)
+Expected return : probability*reward (nilainya fix)
+Policy evaluation untuk mencari value karena dengan value kita bisa menilai policy mana yang terbaik
+Value iteration : semua policy dinilai dan mencari policy mana yang punya value tertinggi (policy optimal)
+
+#Technical
+Ada 2 materi yang disampaikan :
+1. Spatial Data
+2. SQL
+
+Pada materi spatial data, diperkenalkan apa itu spatial data, gambaran umum dan hands on coding-nya.
+Spatial data adalah data yang menunjukkan suatu lokasi di bumi (seperti longitude dan latitude) dari objek yang diberikan. Remote sensing berkaitan dengan memperoleh informasi tentang permukaan bumi menggunakan platform yang ditinggikan seperti satelit. Resolusi Remote Sensing Images : resolusi spasial, spektral, temporal, radiometrik.
+Sentinel-2 adalah misi pencitraan multispektral luas beresolusi tinggi, dengan frekuensi kunjungan kembali 5 hari global. Kemudian dilanjutkan dengan praktek hands on coding pada Google Colaboratory untuk memproses data spasial.
+
+Untuk materi SQL, dipelajari syntax untuk mengolah database kemudian mempraktekkannya pada Google Colaboratory. Peserta selanjutnya praktik mandiri mengolah database dengan Google Colaboratory.
+
+What did you learn this week?
+
+Minggu ini dilaksanakan pembelajaran berdasarkan domain. Ada 5 domain yang dipelajari yaitu Data Science, NLP, Computer Vision, Reinforcement Learning, dan Technical.
+Pada domain Data Science telah dipelajari mengenai tipe data, proses pre-processing data, metode Supervised dan Unsupervised dan visualisasi menggunakan Tableau.
+Pada domain NLP telah dipelajari materi pengenalan dan konsep fundamental NLP, area aplikasi NLP, NLP Pipeline,  Text Representation mencakup feature extraction, feature selection dan word cloud.
+Pada domain Computer Vision telah dipelajari materi pengenalan dan konsep CV, komponen dan metode dalam CV, serta proses image processing.
+Pada domain RL telah dipelajari materi pengenalan dan konsep RL, elemen, karakteristik dan tipe RL serta Marjoc Decission Process serta Dynamic Programmic.
+Pada domain technical telah dipelajari penggunaan Git dan GitHub, SQL dan materi pengolahan spatial data.

@@ -1,0 +1,35 @@
+Mon, 11 Apr
+
+pe,belajaran mengenai pengolahan dataseries menggunakan RNN yang taip memorinya akan disimpan, tetapi pada RNN ini sangat boros komputasi karena tiap memoriny akan disimpan dan pengolahan akan secara sequential, oleh sebab itu digunakan juga LSTM (Long Short Term Memory) yang dapat mebgatasi ini. dimana pada LSTM akan di buang memori setelahnya sehingga komputasi jadi lebih kecil
+
+Tue, 12 Apr
+
+Convolutional Neural Network (CNN) telah banyak digunakan untuk pengenalan gambar dengan sukses besar. Namun, ada sejumlah keterbatasan paradigma pengenalan citra berbasis CNN saat ini. Pertama, bidang penerimaan CNN umumnya tetap, yang membatasi kapasitas pengenalannya ketika gambar input sangat besar. Kedua, ia tidak memiliki skalabilitas komputasi untuk menangani gambar dengan ukuran berbeda. Ketiga, sangat berbeda dengan sistem visual manusia untuk pengenalan citra, yang melibatkan pemrosesan maju dan berulang. oleh karena itu (RNN) yang didefinisikan pada skala gambar dengan basis CNN yang disematkan. Pendekatan berbasis RNN ini memudahkan untuk menangani gambar dengan ukuran variabel, dengan menggunakan teknik RNN ​​yang ada, seperti LSTM dan GRU, untuk lebih meningkatkan akurasi pengenalan. 
+
+Wed, 13 Apr
+
+pembelejaran mengenai pengolahan kata menggunakan BERT , yang lebih menghasilkan akurasi yang lebih tinggi dan mengganti seluruh lapisan RNN sehingga tidak harus memproses data secara berurutan. digunakan untuk machine translation yang terdiri dari encoder dan decoder serta mampu mmebaca konteks dari kiri-ke-kanan dan kanan-ke-kiri dengan dipelajari oleh jaringan yang sama.
+
+macam - macam arsitektur BERT ada : BERT small, BERT base, dan BERT large
+
+Thu, 14 Apr
+
+pembelajaran mengenai RNN dan LSTM dalam pembuatan model untuk NLP , dengan menggunakan LSTM akan menghemat komputasi karena memory tidak perlu menyimpan hasil yang telah diolah oleh mesin, dan komputasi tidak berjalan secara sequential
+
+Fri, 15 Apr
+
+Q-learning adalah algoritme pembelajaran penguatan kebijakan yang berusaha menemukan tindakan terbaik untuk diambil mengingat kondisi saat ini. Ini dianggap off-policy karena fungsi q-learning belajar dari tindakan yang berada di luar kebijakan saat ini, seperti mengambil tindakan acak, dan oleh karena itu kebijakan tidak diperlukan. Lebih khusus lagi, q-learning berusaha mempelajari kebijakan yang memaksimalkan total reward.
+
+What did you learn this week?
+
+belajaran mengenai pengolahan dataseries menggunakan RNN yang taip memorinya akan disimpan, tetapi pada RNN ini sangat boros komputasi karena tiap memoriny akan disimpan dan pengolahan akan secara sequential, oleh sebab itu digunakan juga LSTM (Long Short Term Memory) yang dapat mebgatasi ini. dimana pada LSTM akan di buang memori setelahnya sehingga komputasi jadi lebih kecil
+
+Convolutional Neural Network (CNN) telah banyak digunakan untuk pengenalan gambar dengan sukses besar. Namun, ada sejumlah keterbatasan paradigma pengenalan citra berbasis CNN saat ini. Pertama, bidang penerimaan CNN umumnya tetap, yang membatasi kapasitas pengenalannya ketika gambar input sangat besar. Kedua, ia tidak memiliki skalabilitas komputasi untuk menangani gambar dengan ukuran berbeda. Ketiga, sangat berbeda dengan sistem visual manusia untuk pengenalan citra, yang melibatkan pemrosesan maju dan berulang. oleh karena itu (RNN) yang didefinisikan pada skala gambar dengan basis CNN yang disematkan. Pendekatan berbasis RNN ini memudahkan untuk menangani gambar dengan ukuran variabel, dengan menggunakan teknik RNN ​​yang ada, seperti LSTM dan GRU, untuk lebih meningkatkan akurasi pengenalan. 
+
+pembelejaran mengenai pengolahan kata menggunakan BERT , yang lebih menghasilkan akurasi yang lebih tinggi dan mengganti seluruh lapisan RNN sehingga tidak harus memproses data secara berurutan. digunakan untuk machine translation yang terdiri dari encoder dan decoder serta mampu mmebaca konteks dari kiri-ke-kanan dan kanan-ke-kiri dengan dipelajari oleh jaringan yang sama.
+
+macam - macam arsitektur BERT ada : BERT small, BERT base, dan BERT large
+
+pembelajaran mengenai RNN dan LSTM dalam pembuatan model untuk NLP , dengan menggunakan LSTM akan menghemat komputasi karena memory tidak perlu menyimpan hasil yang telah diolah oleh mesin, dan komputasi tidak berjalan secara sequential
+
+Q-learning adalah algoritme pembelajaran penguatan kebijakan yang berusaha menemukan tindakan terbaik untuk diambil mengingat kondisi saat ini. Ini dianggap off-policy karena fungsi q-learning belajar dari tindakan yang berada di luar kebijakan saat ini, seperti mengambil tindakan acak, dan oleh karena itu kebijakan tidak diperlukan. Lebih khusus lagi, q-learning berusaha mempelajari kebijakan yang memaksimalkan total reward

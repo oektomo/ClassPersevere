@@ -1,0 +1,568 @@
+Mon, 21 Feb
+
+Pada pertemuan pertama minggu ini, coach dan peserta kelas Persevere saling memperkenalkan diri dan menceritakan motivasi mengapa mengikuti AI Mastery Program. Kemudian, diadakan pretest untuk mengetahui sejauh mana pengetahuan siswa tentang AI dan sebagai gambaran bagi siswa mengenai materi pembelajaran ke depannya.
+Setelah mengerjakan pretest selama 1 jam, dilanjutkan pengenalan program Orbit, pathway pembelajaran, serta penyampaian materi AI Fundamental.
+-Pathway pembelajaran :
+a. AI Fundamental
+AI merupakan bentuk teknologi yang memungkinkan mesin untuk memiliki kecerdasan selayaknya manusia
+b. Phyton Fundamental
+c. Berkolaborasi dengan Git
+d. ML dan DL
+e. Data Science
+Diperlukan pengetahuan yang mendalam tentang statistika
+f. NLP
+NLP juga mencakup Natural Speak Language, seperti dialek dalam berbahasa.
+NLP masih menjadi open problem yang perlu terus dikembangkan
+g. RL
+Dengan RL, machine learning yang dibuat dapat berkembang tanpa mengulang dari awal
+Pathway: nama AI rilisan terbaru Google
+h. Computer Vision
+i. Deployment
+Di akhir pembelajaran, siswa akan ditugaskan untuk membuat aplikasi
+
+-AI sebenarnya sudah ditemukan sejak tahun 1950-an namun baru terlihat aplikasinya sekarang karena pada abad 19 tsb teknologi masih sangat mahal, pengetahuan masyarakat tentang komputer masih minim, dan komputer juga masih digunakan secara terbatas pada bidang militer dan pemerintahan.
+-Alasan mengapa perlu belajar AI karena lama kelamaan seluruh bidang kehidupan akan berkembang menjadi lebih modern dan dipengaruhi AI, maka agar tetap dapat mengikuti perkembangan dan berpengaruh baik dalam perkembangan tsb kita harus mempelejari AI
+-Kita sudah melewati berbagai era; pertanian, industrialisasi, informasi, hingga era AI seperti saat ini
+-Contoh Penerapan AI : mobil pintar, ojol, algoritma pencarian prediktif google, dsb.
+-Sophia adalah robot AI pertama yang memperoleh status warga negara Arab Saudi pada tahun 2017.
+
+-Perkembangan AI beriringan dengan munculnya dampak sosial. Kita perlu membuat AI yang dapat menyelesaikan masalah sosial yang ada di sekitar kita.
+
+Tue, 22 Feb
+
+Agenda Utama:
+-Self study melalui web Orbit Guru
+-Self study melalui materi GDrive
+-Diskusi di Discord Kelas Persevere
+
+Hasil :
+PYTHON
+Python merupakan bahasa pemrograman yang paling banyak digunakan saat ini. Ada banyak alasan mengapa phyton menjadi sangat popular :
+1.	Mudah digunakan
+2.	Memiliki banyak pustaka / library
+3.	Bersifat open source
+Python didukung oleh program berorientasi objek dan juga bahasa pemrograman tingkat tinggi (high level programming). High level programming adalah bahasa computer yang memakai instruksi berasal dari unsur kata-kata manusia seperti if, else, dsb dalam mengerjakan proses pengcodingannya.
+Guido van Rossum telah membuat dan mengembangkan bahasa pemrograman phton tahun 1990. Versi pengembangan Phyton yang lebih lanjut dilakukan pada tahun 1995 agar Phyton lebih kompatibel untuk digunakan. Selanjutnya pada tahun 2000 Phyton terus dilakukan pembaharuan hingga mencapai versi 3 saat sekarang. Alasan penamaan Phyton: konon berasal dari acara TV favorit Guido adalah Mothy Python Flying Circus.
+Phyton dengan karakteristiknya pada keterbacaan kode sangat ramah bagi semua pengguna.Phyton banyak diaplikasikan di industry dan perusahaan besar
+
+Memilih Code Editor
+Code Editor adalah tempat dimana kita akan menuliskan kode program yang hendak kita buat. Code Editor yang akan digunakan adalah code editor berbasiskan Phyton Notebook yaitu Jupyter dan Google Colab.
+
+Perbedaan Phyton dan Phyton Notebook
+Phyton adalah bahasa pemrograman sedangkan Phyton Notebook adalah tool untuk mengolah data di Phyton.
+
+Phyton banyak diaplikasikan dalam berbagai bidang, salah satunya bidang kecerdasan buatan (AI).
+AI merupakan suatu kecerdasan yang ditambahkan kepada suatu sistem sehingga memungkinkan sebuah mesin untuk melakukan tugas seperti manusia. 
+
+HELO WORLD
+Diawali dengan membuka Anaconda Navigator. Anaconda merupakan distributor dari Jupyter dimana Jupyter merupakan open source yang menggunakan bahasa phyton dengan ekstensinya Iphyton/ipynb.
+Tahun 2018, Google mengadopsi ekstensi ipynb ke dalam sebuah open source milik mereka yaitu Googele Collaboratory / Google Colab.
+
+JupterLab ditargetkan dapat digunakan untuk berbagai bahasa pemograman lain selain phyton. 
+
+MENJALANKAN JUPYTER NOTEBOOK
+-Melalui Anaconda, launch Jupyter Notebook
+-Kita akan diarahkan ke browser
+-Buat folder ‘Belajar Phyton Dasar’
+-Folder tsb ada di Windows C-Users-HP-Belajar Phyton Dasar
+-Kembali ke Anaconda
+-Klik Folder Belajar Phyton Dasar
+-Klik New-Phyton 3
+-Mulai menuliskan algoritma Hello World, dll
+-Run
+
+VARIABEL
+Variabel dapat didefinisikan sebagai tempat penyimpan nilai (value). Dalam running value, nilai yang variabel yang lama akan digantikan dengan variabel baru yang di run.
+
+Menampilkan OFA melalui Jupyter:
+from IPython.display import IFrame
+url = 'https://wikipedia.org'
+IFrame(url, width=800, height=600)
+
+AI :
+1.	Narrow Intelligence
+Contoh: smart speaker, translator,
+2.	General Intelligence
+Konsep yang umum dikenal masyarakat. Seperti super human dan anggapan bahwa AI dapat menggantikan manusia, padahal tidak.
+
+BERKENALAN DENGAN JUPYTER NOTEBOOK
+Jupyter Notebook adalah aplikasis berbasis open source yang dapat digunakan untuk membuat dan membagikan dokumen yang berisi code, persamaan matenatis, visual maupun teks. Jupyter notebook merupakan projek spin off dari IPython yang pada mulanya memiliki proyek tersendiri yaitu Notebook IPython.
+
+Jupyter disajikan dengan kernel IPython shg memungkinkan kita menulis program dengan bahasa Python. Jupyter Notebook merupakan tool yang popular untuk mengolah data dan memungkinkan kita untuk melakukan integrasi antara kode dengan output dalam satu dokumen secara interaktif.
+Jupyter notebook kita diakses melalui browser, saat servis dijalankan kita diarahkan menuju halaman browser pada alamat url http://localhost:888/tree
+Jupyter Notebook sudah otomatis ada saat kita mendownload Anaconda.
+
+Menu Jupyter Notebook salah satunya adalah Cell: untuk menjalankan kode. Ada 2 tipe cell yaitu code cell dan markdown cell. Code cell merupakan tempat dimana kita akan me-running code sedangkan markdown cell merupakan tempat dimana kita bisa membuat teks atau teks yang terformat.
+
+BERKENALAN DENGAN GOOGLE COLAB
+Google Colab merupakan code editor alternatif karena ringan, dapat dijalankan di browser tanpa instalasi. Google Colab memungkinkan kita menulis dan mengeksekusi program di browser kita dengan beberapa keunggulan diantaranya adalah tidak memerlukan konfigurasi dimana kita tidak perlu install, hanya perlu menghubungkan ke google drive. Kemudian kita dapat akses gratis ke GPU.
+Problem pertama yang yang muncul saat membuat program AI adalah kekurangan GPU.
+
+Code untuk menghubungkan GColab dengan GDrive :
+from google.colab import drive
+drive.mount (‘/content/drive’)
+
+Saat terjadi error pada penulisan code, terdapat fitur “search stack overflow” yang memungkinkan kita mengetahui informasi kesalahan error teesebut.
+
+
+NUMBERS DAN TYPE DATA PADA PHYTON
+Number adalah tipe data python yang menyimpan nilai numerik. Tipe data adalah suatu media atau memori pada computer yang dugunakan untk menampung informasi. Beberapa tipe data :
+1.	Boolean (menyatakan true or false)
+2.	String (karakter yang biasanya dikutip tanda petik)
+3.	Integer (bilangan bulat)
+4.	Float (bilangan yang mempunyai koma)
+5.	Hexadecimal (bilangan dalam format heksa / bilangan berbasis 16)
+6.	Complex (tipe data kombinasi bilangan real dan imajiner)
+7.	List [data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah]
+8.	Tuple (data untaian yang menyimpan berbagai tipe data dan isinya tidak bisa diubah-ubah)
+9.	Dictionary (data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk nilai. Contoh {‘nama’:’adi’,’id’;2})
+
+Dilanjutkan percobaan di Google Colab
+x=5
+print(x)
+print(type(x))
+
+Konversi bilangan :
+number=int(input('Masukkan bilangan berbasis 10\n'))
+print("a. Desimal menjadi Heksadesimal")
+print("b. Desimal menjadi Oktal")
+print("c. Desimal menjadi Biner")
+print ("Pilih konversi:")
+choice = input()
+if choice is 'a':
+print("Heksadesimal dari bilangan " + str(number) + " adalah " + hex(number).lstrip("0h").rstrip("L"))
+if choice is 'b':
+  print("Oktal dari bilangan " + str(number) + " adalah " + oct(number).lstrip("0o").rstrip("L"))
+if choice is 'c':
+  print("Biner dari bilangan " + str(number) + " adalah " + bin(number).lstrip("0b").rstrip("L"))
+
+Variabel dan Operator pada Google Colab secara umum digunakan dengancara yang sama.
+
+------------------------------
+AI IN INDUSTRY
+3 persamaan perusahaan besar yang terkenal saat ini :
+1.	Memiliki aplikasi
+2.	Beroperasi dengan mengandalkan internet
+3.	Mereka bukan perusahaan atau industry manufaktur (tidak memproduksi sesuatu)
+Sebenarnya apa yang mereka lakukan dan tawarkan? Mereka hanya memproses data (data processing) dan menawarkan insight/solusi dari permasalahan customer.
+Teknologi yang booming di era 4.0 : AI, blockchain, big data, IoT
+Teknologi-teknologi yang muncul pada Revolusi Industri 4.0 sangat erat kaitannya dengan data, maka Revolusi 4.0 sering disebut juga sebagai “Era of Data” (Era Data).
+Big Data memiliki 3 sifat : Volume, Velocity, Variety
+
+QUIZ
+1.	Kenapa data disebut sebagai minyak mentah yang baru? Karena data saat ini telah menjadi sumber dan bahan baku bagi kelangsungan suatu industry, sama halnya dengan peran minyak mentah pada industry manufaktur. Pengembangan industry dengan teknologi AI juga menyebabkan ketersediaan data menjadi hal yang mutlak diperlukan. Data menjadi sumber daya yang sangat penting.
+Seperti minyak, data yang terkumpul harus diolah lebih lanjut sehingga dapat dimanfaatkan secara maksimal oleh pelaku industry. Namun tidak seperti minyak mentah yang suatu hari akan habis, data justru akan berkembang semakin banyak setiap harinya sehingga inilah yang menjadi salah satu pembeda antara minyak mentah dan data.
+
+2.	Apa perbedaan data dengan big data? Data adalah informasi atau keterangan dari suatu hal yang diperoleh dari sumber tertentu  sedangkan big data adalah kumpulan data yang beraneka ragam, yang volumenya raksasa karena mengalami pertumbuhan yang sangat cepat.
+
+
+REFLEKSI
+Saat mempelajari hal yang sulit, ada kalanya kita harus berpura-pura untuk bisa, berpura-pura untuk menyukai, berpura-pura menjadi master phyton atau AI. Sampai kapan? Sampai saat kita telah menjadi master dalam phyton dan AI.
+Kemudian setelah saya membaca slide self study dari Google Drive, saya semakin menyadari betapa penting dan berharganya data. Hal itu membuat saya semakin semangat belajar tentang data dan merasa bersyukur karena berkesempatan mempelajarinya. Apalagi meningat AI yang masih menjadi tantangan bagi Indonesia karena kurangnya SDM Indonesia yang menguasai bidang tsb.
+
+Wed, 23 Feb
+
+Agenda Utama :
+-Self study melalui web Orbit Guru
+-Self Study melalui materi yang dibagikan di Google Drive
+
+Hasil:
+TIPE DATA STRING
+String merupakan tipe data yang digunakan untuk menyimpan barisan karakter. Pada bahasa pemrograman python, string dapat dibuat dengan menggunakan tanda kutip satu maupun kutip dua
+A = “membuat string”
+Artinya terdapat sebuat variabel bernama A dimana nilai atau value dari variabel A adalah “membuat string”. Tipe data dari variabel A yaitu str atau string.
+
+#mengakses nilai string
+#variabel name
+#value Jhoni Jhoni
+
+#J H O N I  J H O N I
+#0 1 2 3 4 5 6 7 8 9 10
+#J H O N
+
+name = (“Jhoni Jhoni”)
+print (“pertama : “, name[1])
+print (“kedua : “, name[0:4]) #artinya mengambil dari 0 sampai angka sebelum 4 yaitu 3
+
+output :
+pertama : h
+kedua : Jhon
+#Dalam bahasa pemrograman, array di mulai dari 0
+
+#mengakses nilai str
+a = (“Orbit Future Academy”)
+b = (“Pendidikan AI di Indonesia”)
+print (“Belajar AI: “ , b[14:16] , a[0:5])
+Output
+Belajar AI: di Orbit
+
+a = (“Orbit Future Academy”)
+b = (“Pendidikan AI di Indonesia”)
+print (“Belajar AI: “ , b[14:16] , a)
+Output
+Belajar AI: di Orbit Future Academy
+
+#mengupdate string
+message = ‘Hello World’
+#H E L L O
+#0 1 2 3 4
+#:6 array sebelum 6
+#6: array setelah 6
+
+Print (“Updated string :” , message[:6] + “Python”)
+Output:
+Updated string : Hello Python
+
+#penjumlahan string
+a = “Mely”
+b = “atul”
+c = a+b
+print (c)
+Output : Melyatul
+
+#format str
+umur = “tiga enam”
+txt = “umur saya” + umur
+print (txt)
+output : umur saya tiga enam
+
+#gabungan str dan int
+umur = 36
+txt = “umur saya {}”
+print (txt.format(umur))
+output : umur saya 36
+
+LIST
+Setiap elemen yang berurutan akan diberi nomor posisi atau indeksnya. Indeks pertama dalam list adalah 0, indeks kedua adalah satu, dst.
+Struktur data pada python yang mampu menyimpan lebih dari satu data, misalnya array.
+
+#membuat list
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+print (My_List) -> Ayam, bebek, sapi
+print (My_List[1]) -> Bebek
+print (My_List[:2]) -> Ayam, Bebek
+print (My_List[1:]) -> Bebek, sapi
+print (My_List[-2]) -> Bebek
+print (My_List[0:2]) -> ayam, bebek
+
+#mengedit
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+My_List[2] = “badak”
+print (My_List)
+Output:
+[‘ayam’ , ‘bebek’ , ‘badak’]
+
+#Add List Append
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+My_List.append(“manusia”)
+print(My_List)
+Output -> [‘ayam’ , ‘bebek’ , ‘sapi’ , ‘manusia’]
+
+#Add List Insert
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+My_List.insert(1, “manusia”)
+print(My_List)
+Output -> [‘ayam’ , ‘manusia’ , ‘bebek’ , ‘sapi’ , ‘manusia’]
+
+#Extend List
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+New_List = [‘ikan’ , ‘udang’]
+My_List.extend(New_List)
+Print (My_List)
+Output => [‘ayam’ , ‘bebek’ , ‘sapi’ , ‘ikan’ , ‘udang’]
+
+#Remove List
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+My_List.remove(“ayam”)
+print(My_List)
+Output => [‘bebek’ , ‘sapi’]
+
+#Remove List Pop
+My_List = [‘ayam’ , ‘bebek’ , ‘sapi’]
+My_List.pop(1)
+print(My_List)
+Output => [‘ayam’ , ‘sapi’]
+
+TIPE DATA SET
+Set adalah tipe data kolektif yang dapat menyimpan banyak nilai dalam satu variabel dengan ketentuan :
+1.	Nilai anggota yang disimpan harus unik / tidak dapat di duplikat
+2.	Nilai anggota yang dimasukkan tidak dapat diubah lagi
+3.	Set bersifat unordered / tidak berurutan artinya tidak bisa diakses dengan indeks
+Set adalah salah satu dari 4 tipe data bawaan python yang digunakan untuk menyimpan data. Tiga lainnya adalah list, tuple, dan dict.
+Set bersifat tidak terurut dan tidak terindeks serta ditulis dengan kurung kurawal.
+
+TIPE DATA TUPLE
+Tuple merupakan salah satu tipe data yang memuat nilai lebih dari satu. Tuple mirip list, namun bedanya tuple bersifat immutable, artinya setelah kita membuat sebuah tuple dia tidak dapat diubah lagi. Perbedaan lain tuple menggunakan tanda kurung, sedangkan list menggunakan tanda kurung siku.
+Tuple mengizinkan ada data yang bernilai sama
+
+z = (‘Andi’ , ‘Ani’ , ‘Andi’)
+print (z)
+print(len(z)) => 3 #panjang data
+
+var_tup = (“manga”,)   #tuple dengan 1 variabel harus ditambah koma
+print(type(var_tup))  => <class ‘tuple’>
+
+var_tup = (“Mangga” , “Jeruk” , “Apel”)
+var_tup1 = (1, 2, 3, 4)
+var_tup2 = (1, 3, “True”, “Ya”)
+print (var_tup, var_tup1, var_tup2)  => (“Mangga” , “Jeruk” , “Apel”) (1, 2, 3, 4) (1, 3, “True”, “Ya”)
+
+#mengakses tuple
+#tuple dari list
+
+q = tuple(‘orbit’)
+print(q)  => (‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’)
+
+o = q[3]
+print(o)  =>  i
+
+q[3] = ‘a’  #mencoba mengubah i dengan a
+print (q)  => error #karena tuple tidak bisa diubah
+
+c = q * 3
+print(c) => (‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ , ‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ ,‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ )
+
+d = c+q
+print(d)  => (‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ , ‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ ,‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ , ,‘o’ , ‘r’ , ‘b’ , ‘i’ , ‘t’ )
+
+s1 = (1, 2, 3)
+s2 = (2, 3, 4)
+s3 = s1+s1
+print(s3) => (1,2,3,4)
+
+TIPE DATA DICTIONARY
+Dictionary berisi key dan value. Setiap key dipisahkan dari value-nya oleh titik dua (:), item dipisahkan oleh koma, dan semuanya tertutup dalam kurung kurawal. Dictionary kosong tanpa barang hanya ditulis dengan dua kurung kurawal, seperti ini {}.
+Nilai kamus bisa berupa tipe apa pun, namun key harus berupa tipe data yang tidak berubah seperti string, angka, atau tupel.
+
+Kamus ={
+“brand”: “Orbit Future”,
+“model”: “Edutech”
+}
+print(kamus)  => {‘brand’ : ‘Orbit Future’, ‘model’ : ‘Edutech’}
+
+PENGENALAN PYTHON
+Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai “glue language”. Python juga masuk ke dalam Top 5-bahasa pemrograman yang paling mudah dipelajari menurut Springboard. python merupakan bahasa pemrograman paling populer untuk penelitian akademis dan banyak digunakan terutama pada web development dan data analysis. Nama ‘python’ berasal dari sebuah serial komedi BBC dari tahun 1970- an, yakni Monty Python’s Flying Circus. Guido menganggap nama ‘python’ adalah nama yang singkat, unik, dan sedikit misterius
+Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science
+Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program Python, antara lain: 1. Terminal 2. Terminal + Text Editor 3. IDE 4. IDE untuk penelitian dan pengembangan
+
+PENGENALAN JUPYTER NOTEBOOK
+Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Jupyter Notebook tidak hanya bekerja seperti IDE kabanyakan, namun juga mampu digunakan untuk presentasi dan edukasi. Jupyter Notebook mendukung markdown. Hal ini membuat kita dapat menambahkan heading, paragraph, table, dan image ke dalam program kita melalui komponen HTML. Umumnya, program yang ditulis menggunakan Jupyter Notebook akan disimpan dalam file dengan format .ipynb. Tetapi, kita juga menyimpan program yang kita tulis dalam format .py apabila dibutuhkan.
+Google Colab memiliki fungsi yang sama dengan Jupyter Notebook, namun dalam versi online. Collab membutuhkan akses internet dan terhubung dengan Google Drive.
+
+Program adalah urutan instruksi (code) yang menentukan bagaimana cara komputer melakukan komputasi. Programming adalah aktivitas menulis intruksi (code) untuk dijalankan oleh komputer. Code dapat ditulis menggunakan bahasa pemrograman (programming language). Programming language adalah alat/tools yang digunakan untuk menulis code. Programming language tersusun atas serangkaian simbol yang berfungsi menerjemahkan pikiran kita menjadi instruksi yang dapat dipahami komputer. 
+-	Low Level Programming Language
+Dahulu, programming sulit dilakukan, karena menggunakan bahasa pemrograman tingkat rendah (low-level programming language), seperti bahasa assembly. Code lebih dekat ke kode mesin (biner: 0 dan 1) ketika ditulis menggunakan low-level language.
+-	High-Level Programming Language
+Pada saat ini, umumnya code ditulis menggunakan bahasa pemrograman tingkat tinggi (high-level programming language), seperti Python, Java, C, C++, dll. Code lebih dekat ke bahasa manusia (English) ketika ditulis menggunakan high-level language.
+Programming language dibangun di atas abstraksi. Abstraksi adalah konsep untuk mengelola kompleksitas. Ketika menulis program Python, kita tidak perlu tahu bagaimana cara Python berinteraksi dengan operating system (OS), bagaimana cara OS berinteraksi dengan hardware, dan bagaimana cara hardware mengeksekusi binary.
+Semakin tinggi level programming language, maka:
+-	semakin jauh dari kode mesin;
+-	semakin banyak abstraksi di bawahnya; dan
+-	semakin lambat berjalan.
+
+Thu, 24 Feb
+
+DATA, ETICHS, AND BIAS
+Terdapat dua jenis data :
+1.	Structured Data (direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya). Contoh : angka, tanggal, strings
+2.	Unstructured Data (direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain). Contoh : images, audio, video, e-mails
+
+GIGO (Garbage In, Garbage Out) paradigm.
+Jika kita input data yang jelek, maka modelnya bisa jadi jelek sehingga outputnya jelek.
+
+KUANTITATIF VS KUALITATIF
+Data kuantitatif contohnya; 55 mobil, 15 meter.
+Data kualitatif contohnya : itu menyenangkan
+
+KUALITAS DATA
+Menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” kualitas data dilihat dari:
+1.	Accuracy → Keakuratan data/ seberapa besar data bisa dipertanggungjawabkan
+2.	Completeness → Kelengkapan data
+3.	Relevancy → Memuat informasi yang dibutuhkan untuk Analisa
+4.	Timelines → Data mewakili informasi di waktu tersebut (jika membahas saat ini maka data harus yang terkini atau yang lama tapi masih relevan hingga saat ini)
+5.	Consistency → Adanya kekonsistensian (data yang merepresentasikan informasi yang sama meski disimpan di tempat yang berbeda tetaplah sama
+
+CARA MEMPEROLEH DATA (Populasi vs Sampel)
+Populasi adalah sekelompok individu yang menjadi objek pengamatan/penelitian. Sensus adalah aktivitas untuk mengumpulkan informasi tentang setiap individu dalam populasi. Namun kenyataannya, sensus sulit dilakukan karena membutuhkan waktu dan biaya, sehingga dilakukan pengambilan informasi dari sebagian anggota populasi namun dapat merepresentasikan keseluruhannya Sampel adalah himpunan bagian dari populasi yang cukup merepresentasikan keseluruhan populasi.
+
+CARA MEMPEROLEH DATA (Sensus vs Survei)
+Sensus :
+-	Data yang dikumpulkan adalah data populasi
+-	Lebih akurat karena mencakup semua elemen
+-	Terhindar dari bias elemen
+-	Membutuhkan biaya yang besar dan waktu yang lama
+-	Tidak bisa dilakukan untuk populasi yang mendekati “tak hingga”
+Survei :
+-	Data yang dikumpulkan adalah data sampel
+-	Menghemat waktu dan biaya
+-	Hasil merupakan estimasi, bukan yang sebenarnya, sehingga lebih subjektif
+-	Bisa terjadi bias dalam pengumpulan sampel
+
+YANG PERLU DIPERHATIKAN DALAM PENGAMBILAN SAMPEL
+1.	Tujuan penelitian
+2.	Kondisi populasi
+3.	Biaya, waktu, dan tenaga yang tersedia
+4.	Metode Analisa / pemodelan yang akan digunakan
+
+1.	Ukuran sampel
+-	Semakin heterogen populasi, semakin besar sampel yang dibutuhkan
+-	Ada rumus tertentu yang bisa digunakan untuk menghitung minimal sampel (misalnya rumus slovin)
+-	Berdasarkan metode pemodelan yang akan digunakan: misalnya saat pake deep learning butuh data yang lebih banyak dari regresi linier
+
+2.	Kriteria sampel
+-	Disesuaikan dengan tujuan dan metode analisa/ pemodelan yang akan digunakan.
+-	Misalnya: ingin mengetahui pengaruh suatu perlakuan, maka perlu membandingkan sampel yang diberi perlakuan dan yang tidak.
+-	Berdasarkan metode analisa datanya, misalnya jika ingin memodelkan klasifikasi foto kucing atau anjing, maka diperlukan kriteria detail jenis kucing/anjing apa saja yang harus ada pada sampel (kalo hanya 1 jenis anjing saja tentu kurang baik dan menyebabkan overfitting). Tetapi jika hanya menguji signifikansi perbedaan keduanya tidak masalah jika 1 jenis saja
+
+3.	Teknik sampling
+Ada beberapa jenis teknik sampling namun yang paling umum digunakan adalah: Sampel Acak (Random Sampling). Sampel Acak, adalah sampel di mana setiap anggota populasi memiliki kesempatan yang sama untuk muncul dalam sampel.
+
+AI ETHICS
+Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah.
+AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+AI Ethics menjadi penting karena proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan. AI Ethics juga digunakan sebagai pedoman dalam mengembangkan dan menggunakan teknologi A
+
+AI ETHICS PRINCIPLES dalam The Belmont Report
+1.	Respect for persons (menjunjung tinggi martabat manusia, atas dasar sukarela)
+2.	Beneficence (memaksimalkan potensi benefit, meniminalkan potensi bahaya)
+3.	Justice (Meminimalkan kesenjangan potensi benefit dan potensi resiko terhadap populasi, meminimalkan bias individu atau sistem yang akan menggeser potensi risiko ke bagian tertentu dari populasi)
+
+Fri, 25 Feb
+
+Agenda utama :
+Melanjutkan Materi Self Study melalui Web Orbit Guru (sudah sampai materi Minggu 5)
+
+Hasil :
+KONDISI IF
+Kondisi if digunakan untuk mengantisipasi kondisi yang terjadi saat jalannya program dan menentukan tindakan apa yang akan diambil sesuai dengan kondisi.
+IF digunakan untuk mengeksekusi kode jika kondisi bernilai true, jika kondisi bernilai false maka tidak akan dieksekusi
+
+KONDISI IF ELSE
+Kondisi ini tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, namun juga menentukan tindakan apa yang akan diambil jika kondisi tidak sesuai.
+Kondisi if else adalah kondisi dimana jika pernyataan true maka kode dalam if akan dieksekusi, tetapi jika bernilai salah maka kode dalam statement else akan dieksekusi.
+Contoh:
+a = 400
+b = 500
+print (“A”) if a > b else print (“B”)
+
+KONDISI IF ELIF
+Kondisi else if dapat membuat lebih banyak kemungkinan.
+Contoh :
+a = 650
+b = 600
+if b > a;
+ print (“b lebih besar dari a”)
+elif a==b;
+ print (“a dan b sama besar”)
+else;
+ print (“a lebih besar dari b”)
+
+LOOP
+While loop
+i = 0
+while i <=10;  #akan mencetak nilai dari 0 sampai 10 dan perulangannya berhenti di angka 10
+print (i)
+i += 1
+
+i = 1   #loop dimulai dari 1
+while i < 6;
+print (i)
+i += 0.3  #penambahan setiap nilainya itu 0,3
+else;
+print (“I tidak lebih dari 6”) 
+
+i = 1
+while i < 6;
+print (i)
+if (i ==3);
+break  #kita menghentikan loop meski kondisi sedang true
+i += 1
+Ouput : 1 2 3
+
+i = 0
+while i < 6;
+i += 1
+if i ==3;
+continue #loop berhenti di pengulangan ke-n dan dilanjutkan lagi
+print (i)
+Output : 1 2 4 5 6
+
+i = 1
+while i < 6;
+print (i)
+i += 1
+else;
+print (“i is no longer less than 6”)
+
+FOR LOOPS
+#contoh sederhana
+buah = [“nanas”,”apel”,”manga”]
+for makanan in buah;
+print (“saya suka makan”, makanan)
+Output :
+Saya suka makan nanas
+Saya suka makan apel
+Saya suka makan manga
+
+BREAK STATEMENT (bisa menghentikan loop meskipun kondisi masih benar)
+buah = [“nanas”,”apel”,”mangga”]
+for makanan in buah;
+if makanan == “apel”;
+break
+print(makanan)
+Output :
+Nanas
+
+buah = [“nanas”,”apel”,”mangga”]
+for makanan in buah;
+if makanan == “apel”;
+continue
+print(makanan)
+Output :
+Nanas, mangga
+
+for x in range (2,6);
+print (x)
+Output :
+2,3,4,5
+
+PENGENALAN NUMPY
+NumPy (Numerichal python) adalah library python yang fokus pada scientific computing. Numpy memiliki kemampuan untuk membentuk objek N-dimensional array yang mirip dengan list pada python. Kelebihan NumPy array dibanding list pada python adalah konsumsi memori yang lebih kecil serta runtime yang lebih cepat. Numpy juga memudahkan pada Aljabar Linier, terutama operasi Vector (1-d array) dan matrix (2-d array)
+
+List1 = [1,2,3]
+List2 = [2,4,5]
+
+Sum = List1+List 2
+Print(Sum)
+Output :
+[1, 2, 3, 2, 4, 5] #hasilnya malah penggabungan
+
+#NumPy menjadi solusi
+#Harus memanggil NumPy dulu
+
+import numpy as np
+belajar_array = np.array ([1,2,3])
+belajar_array
+Output : array([1,2,3])
+
+NumPy bisa mengerjakan beberapa hal yang sama dengan math
+#contoh menggunakan math
+import math
+Fungsi_math = math.sin(90)
+Print (Fungsi_math)
+
+#contoh menggunakan NumPy
+Import numpy as np
+np.sin(90)
+
+#cek dimensi dengan NumPy
+import numpy as np
+c = np.array ([[1,2,3,4,5],
+		[1,3,5,7]])
+c.ndim
+Output : 2
+
+What did you learn this week?
+
+Minggu 1 diawali dengan perkenalan pada hari pertama program. Kemudian, hari-hari selanjutnya peserta ditugaskan untuk melakukan self study melalui web Orbit Guru maupun membaca materi yang dibagikan Coach di Google Drive.
+Selama minggu pertama ini, setidaknya saya telah belajar tentang AI Fundamental dan AI ethics, mempelajari basic Python, Jupyter Notebook, Google Colab, beberapa tipe data dan kondisi python, serta berkenalan dengan NumPy. Selengkapnya mengenai materi yang telah saya peroleh dapat dibaca pada laporan harian.

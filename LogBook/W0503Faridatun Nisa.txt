@@ -1,0 +1,132 @@
+Mon, 21 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+
+Data Science
+1. Memahami tentang data science dan matematika di balik data science
+2. Data yang terdapat pada data science
+3. Manfaat data science
+4. Data preprocessing meliputi data cleaning, data transformation, dan data reduction
+5. Model/algoritme pada data science meliputi supervised dan unsupervised learning
+
+Natural Language Processing
+1. Introduction to NLP
+2. Text representation
+3.  Text classification
+4. Text summarization
+5. Word embedding technique
+6. Deep learning in NLP
+7. Transfer learning to NLP: Transformer model, BERT & GPT
+8. Speech recognition
+
+Tue, 22 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+
+Computer Vision:
+1. Memahami secara menyeluruh tentang definisi, sejarah, dan aplikasi computer vision
+2. Memahami trend penggunaan computer vision
+
+Reinforcement Learning:
+1. Sejarah Reinforcenent Learning (RL)
+2. Algoritma RL
+3. Elements & Environment dari RL
+4. Aplikasi dari RL
+
+Wed, 23 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+
+Data Science:
+1. Data Visualization with Tableau
+2. Demo Tableau
+
+Natural Language Processing:
+1. Proses feature extraction menggunakan BoW / count
+vectorizer dan TF IDF
+2. Jenis jenis N gram dan pengunaanya
+3. Feature filtering
+4. Jenis jenis feature selection
+5. Word cloud
+
+Thu, 24 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+
+Computer Vision:
+1. Dasar-dasar pengolahan citra dengan pustaka OpenCV seperti load image, write image, dan lain-lain
+2. Representasi matrix dan ruang warna citra
+3. Perbaikan citra seperti contrast , brightness, histogram equalization.
+
+Technical:
+1. Memahami apa itu Git dan Github
+2. Konsep dasar Source Code Management
+3. Operasi SCM (Local dan Remote)
+4. Membuat Local dan Remote Repository untuk berkolaborasi dengan developer lain
+
+Fri, 25 Mar
+
+Hari ini saya mempelajari hal-hal berikut:
+
+Reinforcement Learning:
+1. Mengetahui Markov Decision Proses,
+2.Menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4.Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Technical:
+1. Memahami apa itu SQL
+2. Penggunaan perintah Data Definition Language (DDL)
+3. Penggunaan perintah Data Manipulation Language (DML)
+4. Filtering dan subsetting data dengan beberapa operator
+5. Pengurutan data dan pengelompokan data dengan perintah ORDER BY dan GROUP BY
+
+What did you learn this week?
+
+Minggu ini saya mempelajari hal-hal ini
+
+Data Science:
+1. Memahami tentang data science dan matematika di balik data science
+2. Data yang terdapat pada data science
+3. Manfaat data science
+4. Data preprocessing meliputi data cleaning, data transformation, dan data reduction
+5. Model/algoritme pada data science meliputi supervised dan unsupervised learning
+6.  Data Visualization with Tableau
+7. Demo Tableau
+
+Natural Language Processing:
+1. Introduction to NLP
+2. Proses feature extraction menggunakan BoW / count
+vectorizer dan TF IDF
+3. Jenis jenis N gram dan pengunaanya
+4. Feature filtering
+5. Jenis jenis feature selection
+6. Word cloud
+
+Computer Vision:
+1. Memahami secara menyeluruh tentang definisi, sejarah, dan aplikasi computer vision
+2. Memahami trend penggunaan computer vision
+3. Dasar-dasar pengolahan citra dengan pustaka OpenCV seperti load image, write image, dan lain-lain
+4. Representasi matrix dan ruang warna citra
+5. Perbaikan citra seperti contrast , brightness, histogram equalization.
+
+Reinforcement Learning:
+1. Sejarah Reinforcenent Learning (RL)
+2. Algoritma RL
+3. Elements & Environment dari RL
+4. Aplikasi dari RL
+5. Mengetahui Markov Decision Proses,
+6.Menyusun MDP dalam merumuskan RL secara formal
+7. Menentukan Value sebuah Policy.
+8.Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Technical
+1. Memahami apa itu Git dan Github
+2. Konsep dasar Source Code Management
+3. Operasi SCM (Local dan Remote)
+4. Membuat Local dan Remote Repository untuk berkolaborasi dengan developer lain
+5. Memahami apa itu SQL
+6. Penggunaan perintah Data Definition Language (DDL)
+7. Penggunaan perintah Data Manipulation Language (DML)
+8. Filtering dan subsetting data dengan beberapa operator
+9. Pengurutan data dan pengelompokan data dengan perintah ORDER BY dan GROUP BY

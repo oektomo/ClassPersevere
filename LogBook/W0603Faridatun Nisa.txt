@@ -1,0 +1,171 @@
+Mon, 28 Mar
+
+Hari ini saya mempelajari berbagai hal
+
+1. Data Science (Dimensionality Reduction)
+• Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel 
+predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan 
+fitur tidak menghilangkan informasi yang dimuat pada data tersebut
+• Teknik yang digunakan ada 2, yakni : PCA dan LDA.
+• Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaian.
+
+2. NLP (Hands on)
+
+Tue, 29 Mar
+
+Pada hari selasa saya mempelajari :
+1. Reinforcement Learning (Monte Carlo Prediction)
+-  Monte Carlo bekerja dengan pengalaman dari sample, dan 
+menggunakannya untuk belajar secara langsung tanpa model.
+- Pada first–visit MC, value function dihitung saat pertama kali mengunjungi
+state s pertama dalam setiap episode.
+- Pada every–visit MC, value function dihitung setiap mengunjungi state s 
+dalam setiap episode.
+- Pada on-policy MC, agent berkomitmen untuk selalu eksplorasi dan 
+mencoba mencari policy terbaik.
+- Pada off-policy MC, dilakukan evaluasi atau improvisasi dari policy yang 
+berbeda dalam meng-generate data (behavior policy), sedangkan target 
+policy-nya sama
+
+Wed, 30 Mar
+
+Pada hari rabu saya mempelajari 
+
+- Natural Language Processing  (Text Classification)
+1. Text Classification/ Klasifikasi teks adalah proses pemberian tag atau
+kategori ke teks menurut isinya. Klasifikasi teks dapat digunakan
+untuk mengatur, menyusun, dan mengkategorikan hampir semua hal. 
+2. Macam-macam area implementasi Text Classification, seperti Deteksi
+Spam, analisis sentimen, deteksi/klasifikasi emosi
+3. Dua pendekatan umum Teks Classication, yaitu Machine Learning 
+dan Lexicon
+
+Thu, 31 Mar
+
+Pada hari kamis saya mempelajari 
+
+- Computer vision (Deep learning & CNN)
+• Convolutional Neural Networks (CNNs) adalah kategori Neural
+Network yang telah terbukti sangat efektif di berbagai bidang seperti
+pengenalan dan klasifikasi gambar.
+• CNN telah berhasil mengidentifikasi wajah, objek, dan rambu lalu lintas 
+lebih lanjut dapat digunakan sebagai robot vision dan self driving car.
+• CNN juga digunakan dalam aplikasi smart grid
+• Jika menggunakan Artificial Neural Network standar, jumlah
+neuron yang dibutuhkan untuk memproses data citra akan
+meningkat secara drastis yang dapat menyebabkan overfitting
+• Struktur Convolutional Neural Network memiliki kemiripan
+dengan Artificial Neural Network
+• Topologi CNN memiliki perbedaan dari ANN standar dimana
+neuron disusun menjadi 3 dimensi
+• Convolutional Layer: Tujuan utama dari konvolusi adalah untuk mengekstrak 
+fitur dari citra masukan. Konvolusi mempertahankan hubungan spasial antara 
+input dengan mempelajari fitur input.
+• Stride adalah parameter yang menentukan berapa jumlah pergeseran filter.
+Padding atau zero padding adalah parameter menentukan jumlah pixel (berisi nilai 0)
+yang akan ditambahkan di setiap sisi dari input
+• ReLU singkatan dari rectified linear unit, dan ini 
+merupakan tipe dari fungsi aktivasi
+• Pooling layers akan mengurangi jumlah parameter ketika input terlalu 
+besar.
+
+Fri, 1 Apr
+
+Pada hari jumat saya mempelajari 
+
+- Reinforcement Learning 
+- Technical 
+• Web Scraping adalah praktik pengumpulan data dari situs web untuk mendapatkan informasi yang diinginkan.
+• Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+• Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+• HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+• Menyimpan data dapat menggunakan referensi ataupun mendownload file secara langsung
+• Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+
+What did you learn this week?
+
+Hari senin, saya mempelajari berbagai hal
+1. Data Science (Dimensionality Reduction)
+• Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel 
+predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan 
+fitur tidak menghilangkan informasi yang dimuat pada data tersebut
+• Teknik yang digunakan ada 2, yakni : PCA dan LDA.
+• Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaian.
+
+2. NLP (Hands on)
+
+Pada hari selasa saya mempelajari :
+1. Reinforcement Learning (Monte Carlo Prediction)
+-  Monte Carlo bekerja dengan pengalaman dari sample, dan 
+menggunakannya untuk belajar secara langsung tanpa model.
+- Pada first–visit MC, value function dihitung saat pertama kali mengunjungi
+state s pertama dalam setiap episode.
+- Pada every–visit MC, value function dihitung setiap mengunjungi state s 
+dalam setiap episode.
+- Pada on-policy MC, agent berkomitmen untuk selalu eksplorasi dan 
+mencoba mencari policy terbaik.
+- Pada off-policy MC, dilakukan evaluasi atau improvisasi dari policy yang 
+berbeda dalam meng-generate data (behavior policy), sedangkan target 
+policy-nya sama.
+
+Pada hari rabu saya mempelajari 
+
+- Natural Language Processing  (Text Classification)
+1. Text Classification/ Klasifikasi teks adalah proses pemberian tag atau
+kategori ke teks menurut isinya. Klasifikasi teks dapat digunakan
+untuk mengatur, menyusun, dan mengkategorikan hampir semua hal. 
+2. Macam-macam area implementasi Text Classification, seperti Deteksi
+Spam, analisis sentimen, deteksi/klasifikasi emosi
+3. Dua pendekatan umum Teks Classication, yaitu Machine Learning 
+dan Lexicon
+
+Pada hari kamis saya mempelajari 
+
+- Computer vision (Deep learning & CNN)
+• Convolutional Neural Networks (CNNs) adalah kategori Neural
+Network yang telah terbukti sangat efektif di berbagai bidang seperti
+pengenalan dan klasifikasi gambar.
+• CNN telah berhasil mengidentifikasi wajah, objek, dan rambu lalu lintas 
+lebih lanjut dapat digunakan sebagai robot vision dan self driving car.
+• CNN juga digunakan dalam aplikasi smart grid
+• Jika menggunakan Artificial Neural Network standar, jumlah
+neuron yang dibutuhkan untuk memproses data citra akan
+meningkat secara drastis yang dapat menyebabkan overfitting
+• Struktur Convolutional Neural Network memiliki kemiripan
+dengan Artificial Neural Network
+• Topologi CNN memiliki perbedaan dari ANN standar dimana
+neuron disusun menjadi 3 dimensi
+• Convolutional Layer: Tujuan utama dari konvolusi adalah untuk mengekstrak 
+fitur dari citra masukan. Konvolusi mempertahankan hubungan spasial antara 
+input dengan mempelajari fitur input.
+• Stride adalah parameter yang menentukan berapa jumlah pergeseran filter.
+Padding atau zero padding adalah parameter menentukan jumlah pixel (berisi nilai 0)
+yang akan ditambahkan di setiap sisi dari input
+• ReLU singkatan dari rectified linear unit, dan ini 
+merupakan tipe dari fungsi aktivasi
+• Pooling layers akan mengurangi jumlah parameter ketika input terlalu 
+besar.
+
+- Technical (Google Data Studio)
+• Visualisasi Data adalah representasi grafis dari informasi dan data.
+• Jenis Visualisasi Data dapat berupa statis, beranimasi, dan interaktif.
+• Dimensi adalah atribut data. Contoh : nama, tanggal dan waktu, dan kota
+• Metrik adalah pengukuran kuantitatif. Contoh : nilai, harga, dan total penjualan
+• Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau
+proses pengambilan keputusan.
+• Google Data Studio adalah tool gratis untuk visualisasi data interaktif dari 
+Google yang sepenuhnya dapat disesuaikan oleh pengguna dan mudah
+dibagikan kepada orang lain.
+• Komponen pada Google Data Studio diantaranya adalah report, pages,
+charts, controls, text areas, lines, shapes, dan images
+
+Pada hari jumat saya mempelajari 
+
+- Reinforcement Learning 
+- Technical 
+• Web Scraping adalah praktik pengumpulan data dari situs web untuk mendapatkan informasi yang diinginkan.
+• Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+• Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+• HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+• Menyimpan data dapat menggunakan referensi ataupun mendownload file secara langsung
+• Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.

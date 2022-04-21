@@ -1,0 +1,35 @@
+Mon, 28 Feb
+
+libur memperingati isra miraj
+
+Tue, 1 Mar
+
+Hari ini saya belajar introduction to python melalui https://www.w3schools.com/python/default.asp. Banyak hal-hal mendasar yang dipelajari seperti aturan-aturan beserta syntaxnya, serta beberapa latihan. Saya juga mencobanya langsung mellaui Jupyter Notebook. Materi yang dipelajari meliputi  Python variables, data types, numbers, casting, strings, booleans, operators, lists, tuples, sets, dan dictionaries.
+
+Wed, 2 Mar
+
+Hari saya masih belajar dasar python meliputi operator, lists, tuples, sets, dictionaries, if else, while loop, dan for loop.
+
+operators digunakan untuk mengoperasikan variable. lists digunakan untuk menyimpan multiple items dalam satu variabel. list terurut, dapat diubah, bisa memliki item duplikat, dan dapat diindex. tuples mirip dengan list, hanya tidak dapat diubah. sets mirip dengan list, hanya perbedaannya, sets tida terurut, tidak dapat diubah, dan tidak dapat diindex. dictionaries digunakan untuk menyimpan suatu nilai dengan kata kunci. dictionaries dapat diubah, terurut, tapi tidak bisa memiliki duplikat nilai. if else  digunakan untuk membuat suatu logical mathematics. while loop dan for loop digunakan untuk melakukan suatu pernyataan iteratif.
+
+Thu, 3 Mar
+
+libur memperingati hari raya nyepi
+
+Fri, 4 Mar
+
+Hari Jumat saya belajar mengenai function, lambda function, generator, string manipulation, serta file handling di Python.
+
+ Fungsi pada python adalah kumpulan perintah atau baris kode yang dikelompokkan menjadi satu kesatuan untuk kemudian bisa dipanggil atau digunakan berkali-kali. Sebuah fungsi bisa menerima parameter, bisa mengembalikan suatu nilai, dan bisa dipanggil berkali-kali secara independen.
+
+Lambda expression  adalah sebuah ekspresi untuk membuat fungsi yang singkat dan tidak memiliki nama,.
+
+Generator adalah fungsi yang mengembalikan objek generator dengan memangginya menggunakan metode next() , sehingga untuk setiap panggilan itu mengembalikan nilai atau nilai berikutnya. Fungsi Python normal menggunakan kata kunci return untuk mengembalikan nilai, tetapi generator menggunakan kata kunci yield untuk mengembalikan nilai.
+
+String manipulation yang umumnya digunakan meliputi capitalize(), count(),  encode(). upper(). lower(), strip(), dan masih banyak lagi.
+
+Python mempunyai beberpa functions seperti creating, reading, updating, dan deleting files.
+
+What did you learn this week?
+
+Minggu ini saya belajar introduction  to Python. Materi yang dipelajari meliputi  Python variables, data types, numbers, casting, strings, booleans, operators, lists, tuples, sets, dictionaries, if else, while loop, for loop,  function, lambda function, generator, string manipulation, serta file handling di Python.

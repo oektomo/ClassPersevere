@@ -1,0 +1,202 @@
+Mon, 21 Feb
+
+pada hari ini kita diajari tentang pengenalan Artificial Intelegen..mulai dari pengertian seperti : AI adalah sebuat algoritma yang diimplementasikan di sistem komputer yang mana bisa meniru manusia, mulai dari melihat, mendengar, dan menentukan keputusan dengan berdasarkan logika. serta contoh AI dalam bentuk fisik yaitu robot humanoid Sophia yang memiliki kewarganegaraan..kenapa bisa memiliki kewarganegaraan , karena Sophia dapat berpikir dan merasakan seperti manusia. selanjutnya dilanjutkan dengan belajar mandiri Python..mulai dari pengertian python, tipe data python, inputan user, operator, pengkondisian, comparator, fungsi, dan libarry python yang berguna untuk AI (numpy,pandas, Scipy, Sklearn, Matplotlib, Seaborn)
+
+Tue, 22 Feb
+
+Aplikasi bidang Studi dengan python = AI - kecerdasan yng ditambahkan ke sistem untuk melakukan suatu pekerjaan.
+download python versi Anaconda, lalu setelah itu membuat virtual environment baru didalam anaconda.
+-	belajar python dasar di jupyter notebook
+-	belajar menampilkan teks { print("hello world") }
+-	python merupakan bahasa yang sensitive sehingga penulisan huruf kecil/besar pada command nya sangat berpengaruh
+o	cara mengassign value pada variabel  a = 50,
+o	mengoverwrite value pada pada variabel  a = 50 , a =10 …saat di eksekusi print(a) maka akan menampilkan nilai 10 pada terminal
+o	dan belajar cara menampilkan web apikasi didalam jupyter notebook yang merupakan web aplikasi juga.
+o	Narrow Intelligence = AI diprogram untuk melakukan pekerjaan secara terbatas pada satu masalah saja. Dispesifikasikan seperti AI pada visual = openCV , AI pada suara/bahasa  = NLP
+
+Wed, 23 Feb
+
+DAY - 3 :
+Python adalah bahasa pemrograman tingkat tinggi yang mudah dibaca oleh manusia, karena syntaxnya sendiri sangat simpel dan banyak menggunakan bahasa inggris dalam command code nya. Serta python merupakan bahasa pemrograman yang sangat popular baru – baru ini, karena bahasanya yg open source sehingga membuat bahasa pemrograman python mudah berkembang dengan librarynya yang mana sangat berguna untuk data scientis, machine learning, deep learning, AI, dan juga untuk back end dengan framework django nya.
+Lalu apa itu anaconda, anaconda adalah distribusi Python dan R, dengan kumpulan package yang open source, serta environment yang berguna untuk data science. Modul yang digunakan untuk data science adalah (numpy, matplotlib, pandas, scipy, sklearn, tensorflow, dan keras)
+-	Lalu didalam Anaconda terdapat IDE yang sangat berbeda dengan IDE pada umumnya karena didalamnya kita bisa menambahkan teks, gambar, vidio youtube dan juga menampilkan web aplikasi dengan fitur markdown yang dibuat dengan komponen HTML. 
+
+Lalu yang kedua ada IDE untuk menulisa python yang disediakan oleh google yang bernama google colab, didalam google colab kita bisa menuliskan code di internet, tanpa harus menginstall dulu aplikasi ke dalam laptop/komputer kita, bahkan kita bisa membuka google colab dengan smartphone. Google colab dirancang untuk berjalan secara online dan terhubung dengan google drive kita. Dan juga kita bisa berkolaborasi dengan orang lain menggunakan google colab, sesuai dengan namanya “colab”.
+
+Perbedaan Jupyter dengan Google Colab
+-	Jupyter
+o	Tidak perlu aksek internet
+o	Hanya bisa diakses dengan kompter/laptop
+o	Tidak bisa share kode untuk kolaborasi
+o	Perlu konfigurasi
+o	Terhubung dengan local penyimpanan
+o	Bergantung dengan kualitas/spesifikasi hardware yang kita miliki
+-	Google Colab
+o	Butuh akses internet
+o	Bisa diakses dari berbagai device (asal ada internet)
+o	Bisa share code untuk kolaborasi
+o	Tidak perlu konfigurasi
+o	Terhubung dengan google drive sebagai penyimpanan
+o	Menggunakan hardware yang disediakan oleh google secara gratis
+Python sendiri merupakan bahasa interpreter yang tidak perlu dikompile untuk dijalankan seperti C++ ataupun Java, tetapi python memiliki kekurangan yaitu. Memerlukan waktu yang lama untuk memprosesnya/mengekseskusi programnya karena no compile programming language.
+
+Thu, 24 Feb
+
+Data berdasarkan strukturnya dibedakan menjadi 2 yaitu data terstruktur dan data tak terstruktur, untuk perbedaan antara keduanya yaitu :
+-	Data terstruktur adalah data yang dapat ditampilkan dalam bentuk tabel yang memuat kolom dan baris ataupun dalam bentuk database relasional. Untuk tipe datanya sendiri yaitu berupa angka dan string serta memerlukan penyimpanan yang tidak banyak dan juga lebih mudah untuk diatur dan diamankan.
+
+-	Data takstruktur adalah data yang tidak dapat ditampilkan dalam bentuk tabel dan datanya sendiri acar – acakan. Untuk tipe datanya sendiri yaitu dapat berupa gambar, suara, dan juga video (tidak dalam format angka dan teks satu baris). Untuk penyimpanannya sendiri data takterstruktur memerlukan banyak memori/kapasitas serta lebih sulit untuk diatur dan diamankan.
+
+AI sendiri merupakan kecerdasan buatan yang memerlukan data, untuk menentukan keputusan atau menyelesaikan suatu permasalahan. Data sendiri pada AI nantinya akan diproses untuk sumber pengetahuan bagi sistem mesin dan ditambahkan dengan algoritma machine learning.
+
+Data sendiri dibagi menjadi 2 jenis yaitu data kuantitatif yang memuat angka/integer dan data kualitatif yang memuat tulisan/string :
+Data juga memiliki kualitas yaitu :
+-	Accuracy 	= tingkat keakuratan data untuk dipertanggungjawabkan
+-	Completeness	= yaitu kelengkapan data
+-	Relevancy	= yaitu informasi yang ada sesuai dengan kondisi sebenarnya
+-	Timeline	= yaitu data merepresentasikan informasi waktu berdasarkan peristiwa
+-	Consistency	= yaitu data tidak akan berubah meskipun disimpan dalam tempat lain
+Cara memperoleh data dapat menggunakan teknik random sampling, klasifikasi sampling, clustering sampling.
+o	Populasi yaitu sekelompok individu yang menjadi objek penelitian
+o	Sampel yaitu sebagian dari populasi yang mempresentasikan keseluruhan 
+ populasi tersebut 
+
+Etnis AI yaitu cara berpikir yang dapat membedakan baik dan benar dalam pengambilan keputusan. Etnik AI sendiri mempertimbangkan hal – hal berikut :
+-	Menghormati manusia 
+-	Keadilan
+-	Manfaat
+
+Fri, 25 Feb
+
+Pada hari ke lima, saya belajar konsep dari dari python seperti variabel, assignment variabel, string, dan tipe data pada python. Serta saya juga belajar mengenai pengkondisian / pervabangan pada bahasa pemrograman python yaitu :
+-	If	= yaitu kondisi yang akan dicek pertama kali oleh program ddengan inputan 
+boolean (true/false), untuk if pada program cukup dibuat satu kali karena if akan selalu dicek oleh program
+-	Elif 	= sedangkan elif adalah kondisi percabangan yang dicek apabila kondisi if tidak terpenuhi, pada elif ini bisa kita buat banyak, karena apabila if,atau elif terdeteksi / masuk kondisi benar maka elif yg lain tidak akan dicek.
+-	Else	= selanjutnya ada else, yaitu kondisi apabila semua bernilai false, maka otomatis else akan di eksekusi
+Syntax :
+If x > y :
+		    (perintah)
+		Elif x<y :
+		    (perintah)
+		Else :
+		     (perintah)
+
+Selanjutnya ada loop, yaitu kondisi perulangan pada bahasa pemrograman python. Pada python sendiri loop ada 3 yaitu (while, dan for).
+-	while x > y :
+print(“hello world”)
+x++
+ pada while perlu adanya increment agar perulangan tidak berlangsung infinity
+-	for x in range(1:10) :
+print(“hello world”)
+pada for tidak perlu adanya increment karena perulangan terjadi didalam (in) jangkauan tertentu, pada for kita bisa melooping list, string, dan range. Pada range(1:10) maka perulangan akan terjadi pada index 1 sampai 9.
+-	Python tidak mempunyai syntax do while , tetapi bisa melakukan looping do while dengan cara
+while True :
+	print(“hello world”)
+	x++
+	if x>10 :
+	    break
+Selanjutnya yang saya pelajari yaitu adalah fungsi, penggunaan fungsi ini sangat membantu kita dalam pembuatan program operasi pada python, karena jika operasi yang dilakukan sama , kita tidak perlu menulis operasi itu berulang kali. Cukup dengan memanggil fungsi tersebut dan memberikan parameter nya.
+-	def pejumlahan(nilai_a , nilai_b , nilai_c) :
+  x = nilai_a + nilai_b + nilai_c
+  return x
+	
+	z = penjumlahan(5,10,15)
+	print(z)
+hasil dari program diatas adalah 30
+
+What did you learn this week?
+
+pada hari ini kita diajari tentang pengenalan Artificial Intelegen..mulai dari pengertian seperti : AI adalah sebuat algoritma yang diimplementasikan di sistem komputer yang mana bisa meniru manusia, mulai dari melihat, mendengar, dan menentukan keputusan dengan berdasarkan logika. serta contoh AI dalam bentuk fisik yaitu robot humanoid Sophia yang memiliki kewarganegaraan..kenapa bisa memiliki kewarganegaraan , karena Sophia dapat berpikir dan merasakan seperti manusia. selanjutnya dilanjutkan dengan belajar mandiri Python..mulai dari pengertian python, tipe data python, inputan user, operator, pengkondisian, comparator, fungsi, dan libarry python yang berguna untuk AI (numpy,pandas, Scipy, Sklearn, Matplotlib, Seaborn)
+
+Aplikasi bidang Studi dengan python = AI - kecerdasan yng ditambahkan ke sistem untuk melakukan suatu pekerjaan.
+download python versi Anaconda, lalu setelah itu membuat virtual environment baru didalam anaconda.
+-	belajar python dasar di jupyter notebook
+-	belajar menampilkan teks { print("hello world") }
+-	python merupakan bahasa yang sensitive sehingga penulisan huruf kecil/besar pada command nya sangat berpengaruh
+o	cara mengassign value pada variabel  a = 50,
+o	mengoverwrite value pada pada variabel  a = 50 , a =10 …saat di eksekusi print(a) maka akan menampilkan nilai 10 pada terminal
+o	dan belajar cara menampilkan web apikasi didalam jupyter notebook yang merupakan web aplikasi juga.
+o	Narrow Intelligence = AI diprogram untuk melakukan pekerjaan secara terbatas pada satu masalah saja. Dispesifikasikan seperti AI pada visual = openCV , AI pada suara/bahasa  = NLP
+
+Python adalah bahasa pemrograman tingkat tinggi yang mudah dibaca oleh manusia, karena syntaxnya sendiri sangat simpel dan banyak menggunakan bahasa inggris dalam command code nya. Serta python merupakan bahasa pemrograman yang sangat popular baru – baru ini, karena bahasanya yg open source sehingga membuat bahasa pemrograman python mudah berkembang dengan librarynya yang mana sangat berguna untuk data scientis, machine learning, deep learning, AI, dan juga untuk back end dengan framework django nya.
+Lalu apa itu anaconda, anaconda adalah distribusi Python dan R, dengan kumpulan package yang open source, serta environment yang berguna untuk data science. Modul yang digunakan untuk data science adalah (numpy, matplotlib, pandas, scipy, sklearn, tensorflow, dan keras)
+-	Lalu didalam Anaconda terdapat IDE yang sangat berbeda dengan IDE pada umumnya karena didalamnya kita bisa menambahkan teks, gambar, vidio youtube dan juga menampilkan web aplikasi dengan fitur markdown yang dibuat dengan komponen HTML. 
+
+Lalu yang kedua ada IDE untuk menulisa python yang disediakan oleh google yang bernama google colab, didalam google colab kita bisa menuliskan code di internet, tanpa harus menginstall dulu aplikasi ke dalam laptop/komputer kita, bahkan kita bisa membuka google colab dengan smartphone. Google colab dirancang untuk berjalan secara online dan terhubung dengan google drive kita. Dan juga kita bisa berkolaborasi dengan orang lain menggunakan google colab, sesuai dengan namanya “colab”.
+
+Perbedaan Jupyter dengan Google Colab
+-	Jupyter
+o	Tidak perlu aksek internet
+o	Hanya bisa diakses dengan kompter/laptop
+o	Tidak bisa share kode untuk kolaborasi
+o	Perlu konfigurasi
+o	Terhubung dengan local penyimpanan
+o	Bergantung dengan kualitas/spesifikasi hardware yang kita miliki
+-	Google Colab
+o	Butuh akses internet
+o	Bisa diakses dari berbagai device (asal ada internet)
+o	Bisa share code untuk kolaborasi
+o	Tidak perlu konfigurasi
+o	Terhubung dengan google drive sebagai penyimpanan
+o	Menggunakan hardware yang disediakan oleh google secara gratis
+Python sendiri merupakan bahasa interpreter yang tidak perlu dikompile untuk dijalankan seperti C++ ataupun Java, tetapi python memiliki kekurangan yaitu. Memerlukan waktu yang lama untuk memprosesnya/mengekseskusi programnya karena no compile programming language.
+
+Data berdasarkan strukturnya dibedakan menjadi 2 yaitu data terstruktur dan data tak terstruktur, untuk perbedaan antara keduanya yaitu :
+-	Data terstruktur adalah data yang dapat ditampilkan dalam bentuk tabel yang memuat kolom dan baris ataupun dalam bentuk database relasional. Untuk tipe datanya sendiri yaitu berupa angka dan string serta memerlukan penyimpanan yang tidak banyak dan juga lebih mudah untuk diatur dan diamankan.
+
+-	Data takstruktur adalah data yang tidak dapat ditampilkan dalam bentuk tabel dan datanya sendiri acar – acakan. Untuk tipe datanya sendiri yaitu dapat berupa gambar, suara, dan juga video (tidak dalam format angka dan teks satu baris). Untuk penyimpanannya sendiri data takterstruktur memerlukan banyak memori/kapasitas serta lebih sulit untuk diatur dan diamankan.
+
+AI sendiri merupakan kecerdasan buatan yang memerlukan data, untuk menentukan keputusan atau menyelesaikan suatu permasalahan. Data sendiri pada AI nantinya akan diproses untuk sumber pengetahuan bagi sistem mesin dan ditambahkan dengan algoritma machine learning.
+
+Data sendiri dibagi menjadi 2 jenis yaitu data kuantitatif yang memuat angka/integer dan data kualitatif yang memuat tulisan/string :
+Data juga memiliki kualitas yaitu :
+-	Accuracy 	= tingkat keakuratan data untuk dipertanggungjawabkan
+-	Completeness	= yaitu kelengkapan data
+-	Relevancy	= yaitu informasi yang ada sesuai dengan kondisi sebenarnya
+-	Timeline	= yaitu data merepresentasikan informasi waktu berdasarkan peristiwa
+-	Consistency	= yaitu data tidak akan berubah meskipun disimpan dalam tempat lain
+Cara memperoleh data dapat menggunakan teknik random sampling, klasifikasi sampling, clustering sampling.
+o	Populasi yaitu sekelompok individu yang menjadi objek penelitian
+o	Sampel yaitu sebagian dari populasi yang mempresentasikan keseluruhan 
+ populasi tersebut 
+
+Etnis AI yaitu cara berpikir yang dapat membedakan baik dan benar dalam pengambilan keputusan. Etnik AI sendiri mempertimbangkan hal – hal berikut :
+-	Menghormati manusia 
+-	Keadilan
+-	Manfaat
+
+Pada hari ke lima, saya belajar konsep dari dari python seperti variabel, assignment variabel, string, dan tipe data pada python. Serta saya juga belajar mengenai pengkondisian / pervabangan pada bahasa pemrograman python yaitu :
+-	If	= yaitu kondisi yang akan dicek pertama kali oleh program ddengan inputan 
+boolean (true/false), untuk if pada program cukup dibuat satu kali karena if akan selalu dicek oleh program
+-	Elif 	= sedangkan elif adalah kondisi percabangan yang dicek apabila kondisi if tidak terpenuhi, pada elif ini bisa kita buat banyak, karena apabila if,atau elif terdeteksi / masuk kondisi benar maka elif yg lain tidak akan dicek.
+-	Else	= selanjutnya ada else, yaitu kondisi apabila semua bernilai false, maka otomatis else akan di eksekusi
+Syntax :
+If x > y :
+		    (perintah)
+		Elif x<y :
+		    (perintah)
+		Else :
+		     (perintah)
+
+Selanjutnya ada loop, yaitu kondisi perulangan pada bahasa pemrograman python. Pada python sendiri loop ada 3 yaitu (while, dan for).
+-	while x > y :
+print(“hello world”)
+x++
+ pada while perlu adanya increment agar perulangan tidak berlangsung infinity
+-	for x in range(1:10) :
+print(“hello world”)
+pada for tidak perlu adanya increment karena perulangan terjadi didalam (in) jangkauan tertentu, pada for kita bisa melooping list, string, dan range. Pada range(1:10) maka perulangan akan terjadi pada index 1 sampai 9.
+-	Python tidak mempunyai syntax do while , tetapi bisa melakukan looping do while dengan cara
+while True :
+	print(“hello world”)
+	x++
+	if x>10 :
+	    break
+Selanjutnya yang saya pelajari yaitu adalah fungsi, penggunaan fungsi ini sangat membantu kita dalam pembuatan program operasi pada python, karena jika operasi yang dilakukan sama , kita tidak perlu menulis operasi itu berulang kali. Cukup dengan memanggil fungsi tersebut dan memberikan parameter nya.
+-	def pejumlahan(nilai_a , nilai_b , nilai_c) :
+  x = nilai_a + nilai_b + nilai_c
+  return x
+	
+	z = penjumlahan(5,10,15)
+	print(z)
+hasil dari program diatas adalah 30

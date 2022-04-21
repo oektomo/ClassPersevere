@@ -1,0 +1,78 @@
+Mon, 4 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Tue, 5 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+• Memahami prinsip kerja object detection
+• Memahami prinsip kerja YOLO (You Only Look Once) Algorithm
+• Implementasi YOLO
+
+Wed, 6 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+▪Memahami ide dan alasan dibutuhkannya word embedding
+▪ Memahami intuisi word2vec dengan metode skipgram dan CBOW
+▪ Memahami negative sampling pada Word2Vec
+▪ Memahami Recurrent Neural Network dan batasannya
+▪ Memahami Long short-term memory (LSTM)
+▪ Mengimplementasikan setiap metode dengan python
+
+Thu, 7 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+1. Mengetahui Q Learning,
+2. Memahami bagaimana Q Learning bekerja
+3. Mengetahui Deep Q Learning.
+4. Memahami bagaimana Deep Q Learning Bekerja
+
+Fri, 8 Apr
+
+Hari ini saya mempelajari hal-hal berikut:
+
+1. Memahami HTTP request dan HTTP response
+2. Memahami apa itu RESTful API
+3. Mampu mendesain RESTful API Sederhana untuk project AI dan ML
+
+What did you learn this week?
+
+Minggu ini saya mempelajari hal-hal berikut:
+
+Senin:
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Selasa:
+• Memahami prinsip kerja object detection
+• Memahami prinsip kerja YOLO (You Only Look Once) Algorithm
+• Implementasi YOLO
+
+Rabu:
+▪Memahami ide dan alasan dibutuhkannya word embedding
+▪ Memahami intuisi word2vec dengan metode skipgram dan CBOW
+▪ Memahami negative sampling pada Word2Vec
+▪ Memahami Recurrent Neural Network dan batasannya
+▪ Memahami Long short-term memory (LSTM)
+▪ Mengimplementasikan setiap metode dengan python
+
+Kamis:
+1. Mengetahui Q Learning,
+2. Memahami bagaimana Q Learning bekerja
+3. Mengetahui Deep Q Learning.
+4. Memahami bagaimana Deep Q Learning Bekerja
+
+Jumat:
+1. Memahami HTTP request dan HTTP response
+2. Memahami apa itu RESTful API
+3. Mampu mendesain RESTful API Sederhana untuk project AI dan ML

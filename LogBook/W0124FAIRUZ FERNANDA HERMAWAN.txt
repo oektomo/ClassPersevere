@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+saya belajar mengenai pengetahuan Umum mengenai Artificial Intelegent, serta sejarah awal mengenai A.I 
+
+Tue, 22 Feb
+
+belajar AI mandiri melalui buku yang didapat dari internet, kemudian menginstall anaconda (Aplikasi Python) dan mencoba beberapa fungsi sederhana seperti penjumalahan variabel dan hello world pada jupyternotebook
+
+Wed, 23 Feb
+
+saya mempelajari beberapa cara save serta membuat new folder di jupiter notebook,serta membuat variabel sederhana pada jupiter notebook.
+
+Thu, 24 Feb
+
+memulai hari dengan membaca Modul yang diberikan orbit mengenai Apa itu data,data terstruktur, data tidak terstruktur dan Kode Etik yang terdapat DI AI seperti berguna bagi orang,Adil serta berbenefit
+
+Fri, 25 Feb
+
+mempelajari mengenai beberapa fungsi lainnya pada python,dan mecoba itu semua pada jupiter notebook
+
+What did you learn this week?
+
+mempelajari Apa itu AI,sejarah awal mula AI,siapa penemunya,beserta cara melakukan koding sederhana melalui aplikasi jupiter noteboo

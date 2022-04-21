@@ -1,0 +1,29 @@
+Mon, 14 Mar
+
+kurang lebih membahas fungsi pada Numpy, Pandas,Objek Pandas,Matplotlib dan Seaborn serta mereview beberapa materi sebelumnya
+
+
+Tue, 15 Mar
+
+menjalankan fungsi seaborn secara lanjut,analisis variabel turunan,Exploratory Data Analyst,kemudan di sesi dua menjelaskan tentang bank churn analisis,Domain knowledge,data collection
+
+Wed, 16 Mar
+
+Membahas :
+-Regressi Linear (GLM)
+-K - Fold
+-Regularization
+-conclusion
+-Logistic Regression
+
+Thu, 17 Mar
+
+membahas Algoritma KNN,Mereiew perbedaan Supervised dan Unsupervised Learning,Pengaplikasian KNN, serta pengenalan Decision tree
+
+Fri, 18 Mar
+
+Belajar mengenai Artificial Neuron dan Biological Neuron,Loss function (MSE),threeshold
+
+What did you learn this week?
+
+Mempelajari tentang dasar libary untuk dasar pemograman Mata kuliah kedepannya seperti numpy,pandas, matplotlib dan seaborn.serta diselepi beberapa pengenalan mata kuliah lanjutan seperti data Scientist,Reinforment learning, Computer vision serta  Teknikal

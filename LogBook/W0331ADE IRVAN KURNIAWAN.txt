@@ -1,0 +1,233 @@
+Mon, 7 Mar
+
+1. Penerapan Machine Vision
+1. Aplikasi untuk menghitung jumlah pengunjung / jumlah orang yang keluar dan masuk
+suatu bangunan. cara kerja dari penerapan machine vision ini yaitu dengan menggunakan
+object detection, kita pasang sebuah garis sebagai selection posisi, dimana saat bounding
+objek ini melewati garis mke bawah dikatakan masuk, sedangkan saat menuju ke arah luar
+dikatakan keluar dan jumlah orang masuk berkurang
+2. dengan menggunakan object detection dan plat number detection, kita dapat mendeteksi
+pelanggaran lalu lintas. dengan cara memberikan bounding box pada kendaraan dijalan
+raya, dimana terdapat garis lurus yang merupakan marka jalan, yang mana saat kendaraan
+melewati marka, maka bounding nya akan berwarna merah. lalu dengan menggunakan
+model plat number detection. dapat diterapkan sistem online. bagi pelanggar yang
+melanggar maka akan dikenakan bounty berupa penambahan jumlah pajak kendaraan
+yang dibayarkan.
+2. Penerapan Natural Languange Processing
+1. Personal assisten online seperti Ok google,Cortana, dan Alexa, yang dapat merespon
+petunjuk - petunjuk vokal dan melaksanakan perintah seperti menyetel lagu lewat youtube
+dan mencari informasi lewat penelusuran google
+2. Aplikasi seperti Gojek dan Grab sudah menggunakan NLP sehingga dapat menyebutkan
+nama lokasi/jalan yang natural di telinga manusia. dan juga google voice pada google
+maps yang dapat menyebutkan nama serta jalan dengan bahasa yang menyesuaikan
+settingan ponsel.
+3. Aplikasi Email seperti Gmail, Hotmail, Ymail yang memfilter dan mengklasifikasikan email
+menggunakan NLP sehingga saat ada email masuk ke dalam inbox dapat mendeteksi
+spam dan memindahkannya ke folder spam agar kita tidak perlu membacanya.
+3. Penerapan Data Science
+1. Adanya penyesuaian etelase barang yang dijual pada E-Commerce dengan kebutuhan,
+minat, dan tingakt pendapatan konsumen, contohnya seperti Tokopedia, Shopee, dan
+Bukalapak yang sudah semakin marak bermunculan dan tidak sedikit orang-orang yang
+memilih berbelanja secara online melalui situs sejenis ini. penyesuaian otomatis seperti ini
+berdasarkan data pembeli. Dengan mengubah tata letak halaman dan menyesuaikan
+produk yang dijualnya secara otomatis dan real-time.
+2. Fraud Detection atau mendeteksi penipuan pada industri keuangan, sehingga data science
+dan Artificial Intelligence (AI) adalah kedua ilmu yang sering digunakan untuk melakukan
+proses ini. Fungsi data science lainnya dalam bidang fraud detection adalah dapat
+membantu untuk memblokir sesi atau akun jika terdeteksi terdapat aktivitas keuangan
+yang tidak normal dengan analisis prediksi real - time.
+3. Penetapan harga dinamis pada umumnya digunakan oleh suatu perusahaan dengan
+menggunakan data untuk mensegmentasikan pelanggan atau konsumen secara akurat.
+Sehingga setiap kelompok pelanggan atau konsumen ke depannya akan dapat ditawari
+produk dengan harga yang berbeda. Penggunaan algoritma dynamic pricing pada suatu
+perusahaan biasanya memperhitungkan dari berbagai macam kategori, misalnya saja
+seperti lead time, review properti, dan fasilitas yang telah disediakan
+
+Tue, 8 Mar
+
+belejar mengenai Vektor dan Matriks...serta menjelaskan perbedaan antara jarak euclidean dan mahnhattan. Dan juga mendapatkan pemahaman bahwa data yang digunakan untuk training data pada Data Science/Machine learning merupakan data dengan bentuk Matrik yang berdimensi 2D.
+
+serta mencari nilai eigen value yang berupa vektor dan eigen vektor yang berupa matriks dengan menggunakan python dengan library numpy. serta belajar menslicing elemen array 2d pada python.
+
+Wed, 9 Mar
+
+pada kegiatan kami belajar mengenai statistika advenced yang digunakan untuk mengambil hipotesis terhadap suatu data, dengan menerapakannya pada python dengan memanfaatkan modul scipy. 
+
+pada motode pengujian hipotesis sendiri dibedakakn menjadi 2 yaitu parametrik dan non-parametrik, perbedaan ini didasarkan pada apakah data terdistribusi secara normal / tidak. untuk mengetahui hal tersebut digunakanlah test (Kolmogorov-Smirnov).
+
+pada parametrik sendiri dibedakan lagi menjadi 3 yaitu (2 data yg berhubungan,  2 data yang independent, lebih dari 2 data yang  mana nantinya akan di uji homogenitasnya menggunakan metode bartlet dan levene)
+- untuk 2 data saling dependent menggunakan metode paired sample t-test
+- untuk 2 data saling dependent menggunakan metode independent sample t-test
+- lebih dari 2 data menggunakan metode ANOVA
+
+pada non-parametrik sendiri dibedakan lagi menjadi 3 yaitu (2 data yg berhubungan,  2 data yang independent, lebih dari 2 data)
+- untuk 2 data saling dependent menggunakan metode wilcoxon
+- untuk 2 data saling dependent menggunakan metode mann-whitney
+- lebih dari 2 data menggunakan metode Kruskal Wallis, Friedman
+
+Thu, 10 Mar
+
+C = [60,70,70,70,80,80,80,80,90,100]
+mean = 78
+median = 80
+range = 40
+varian = 128,8888
+std = 11,352
+
+d = [75,75,75,75,80,80,80,80,80,80]
+mean = 78
+median = 80
+range = 5
+var = 6,666
+std = 2,5811
+
+
+dari range dan mean dapat kita ketahui persebaran dan ragam nya
+dari mean dan range. 
+
+jika range nya besar maka data yg tersebar diantara mean ada banyak
+itu yg disebut sebagai keragaman data.
+
+range C > range D
+---> maka data C lebih beragam daripada data D
+
+data yg tersebar dianatara mean berupa standar deviasi, yang digambarkan menjadi bell shaped curve / distribusi kurva normal
+
+Fri, 11 Mar
+
+OOP python atau disebut objek oriented programming python adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku/method digabungkan ke dalam objek individual yang disebut dengan kelas
+
+implementasi menggunakan OOP python
+class Gaji:
+  
+  def  __init__(self,nama,jabatan,gaji,jam):
+    try:
+      self.nama = nama
+      self.jabatan = jabatan
+      self.gaji = gaji
+      self.jam = jam
+      self.lembur = 150000
+      self.total_gaji = 0
+    except Exception as eror:
+      print(eror)
+  
+  def pendapatan(self):
+    self.total_gaji += (self.gaji + (self.lembur*self.jam))
+  
+  def print_gaji(self):
+    print(f" {self.nama} dengan jabatan {self.jabatan} memiliki gaji total {self.total_gaji} ")
+
+andi = Gaji("Andi","IT Support",3000000,4)
+reza = Gaji("Reza","Front End Dev",3500000,5)
+andre = Gaji("Andre","Data Scientis",5000000,3)
+
+andi.pendapatan()
+reza.pendapatan()
+andre.pendapatan()
+
+andi.print_gaji()
+reza.print_gaji()
+andre.print_gaji()
+
+hasil :
+Andi dengan jabatan IT Support memiliki gaji total 3600000 
+ Reza dengan jabatan Front End Dev memiliki gaji total 4250000 
+ Andre dengan jabatan Data Scientis memiliki gaji total 5450000 
+
+What did you learn this week?
+
+1. Penerapan Machine Vision
+1. Aplikasi untuk menghitung jumlah pengunjung / jumlah orang yang keluar dan masuk
+suatu bangunan. cara kerja dari penerapan machine vision ini yaitu dengan menggunakan
+object detection, kita pasang sebuah garis sebagai selection posisi, dimana saat bounding
+objek ini melewati garis mke bawah dikatakan masuk, sedangkan saat menuju ke arah luar
+dikatakan keluar dan jumlah orang masuk berkurang
+2. dengan menggunakan object detection dan plat number detection, kita dapat mendeteksi
+pelanggaran lalu lintas. dengan cara memberikan bounding box pada kendaraan dijalan
+raya, dimana terdapat garis lurus yang merupakan marka jalan, yang mana saat kendaraan
+melewati marka, maka bounding nya akan berwarna merah. lalu dengan menggunakan
+model plat number detection. dapat diterapkan sistem online. bagi pelanggar yang
+melanggar maka akan dikenakan bounty berupa penambahan jumlah pajak kendaraan
+yang dibayarkan.
+2. Penerapan Natural Languange Processing
+1. Personal assisten online seperti Ok google,Cortana, dan Alexa, yang dapat merespon
+petunjuk - petunjuk vokal dan melaksanakan perintah seperti menyetel lagu lewat youtube
+dan mencari informasi lewat penelusuran google
+2. Aplikasi seperti Gojek dan Grab sudah menggunakan NLP sehingga dapat menyebutkan
+nama lokasi/jalan yang natural di telinga manusia. dan juga google voice pada google
+maps yang dapat menyebutkan nama serta jalan dengan bahasa yang menyesuaikan
+settingan ponsel.
+3. Aplikasi Email seperti Gmail, Hotmail, Ymail yang memfilter dan mengklasifikasikan email
+menggunakan NLP sehingga saat ada email masuk ke dalam inbox dapat mendeteksi
+spam dan memindahkannya ke folder spam agar kita tidak perlu membacanya.
+3. Penerapan Data Science
+1. Adanya penyesuaian etelase barang yang dijual pada E-Commerce dengan kebutuhan,
+minat, dan tingakt pendapatan konsumen, contohnya seperti Tokopedia, Shopee, dan
+Bukalapak yang sudah semakin marak bermunculan dan tidak sedikit orang-orang yang
+memilih berbelanja secara online melalui situs sejenis ini. penyesuaian otomatis seperti ini
+berdasarkan data pembeli. Dengan mengubah tata letak halaman dan menyesuaikan
+produk yang dijualnya secara otomatis dan real-time.
+2. Fraud Detection atau mendeteksi penipuan pada industri keuangan, sehingga data science
+dan Artificial Intelligence (AI) adalah kedua ilmu yang sering digunakan untuk melakukan
+proses ini. Fungsi data science lainnya dalam bidang fraud detection adalah dapat
+membantu untuk memblokir sesi atau akun jika terdeteksi terdapat aktivitas keuangan
+yang tidak normal dengan analisis prediksi real - time.
+3. Penetapan harga dinamis pada umumnya digunakan oleh suatu perusahaan dengan
+menggunakan data untuk mensegmentasikan pelanggan atau konsumen secara akurat.
+Sehingga setiap kelompok pelanggan atau konsumen ke depannya akan dapat ditawari
+produk dengan harga yang berbeda. Penggunaan algoritma dynamic pricing pada suatu
+perusahaan biasanya memperhitungkan dari berbagai macam kategori, misalnya saja
+seperti lead time, review properti, dan fasilitas yang telah disediakan
+
+pada kegiatan kami belajar mengenai statistika advenced yang digunakan untuk mengambil hipotesis terhadap suatu data, dengan menerapakannya pada python dengan memanfaatkan modul scipy. 
+
+pada motode pengujian hipotesis sendiri dibedakakn menjadi 2 yaitu parametrik dan non-parametrik, perbedaan ini didasarkan pada apakah data terdistribusi secara normal / tidak. untuk mengetahui hal tersebut digunakanlah test (Kolmogorov-Smirnov).
+
+pada parametrik sendiri dibedakan lagi menjadi 3 yaitu (2 data yg berhubungan,  2 data yang independent, lebih dari 2 data yang  mana nantinya akan di uji homogenitasnya menggunakan metode bartlet dan levene)
+- untuk 2 data saling dependent menggunakan metode paired sample t-test
+- untuk 2 data saling dependent menggunakan metode independent sample t-test
+- lebih dari 2 data menggunakan metode ANOVA
+
+pada non-parametrik sendiri dibedakan lagi menjadi 3 yaitu (2 data yg berhubungan,  2 data yang independent, lebih dari 2 data)
+- untuk 2 data saling dependent menggunakan metode wilcoxon
+- untuk 2 data saling dependent menggunakan metode mann-whitney
+- lebih dari 2 data menggunakan metode Kruskal Wallis, Friedman
+
+OOP python atau disebut objek oriented programming python adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku/method digabungkan ke dalam objek individual yang disebut dengan kelas
+
+implementasi menggunakan OOP python
+class Gaji:
+  
+  def  __init__(self,nama,jabatan,gaji,jam):
+    try:
+      self.nama = nama
+      self.jabatan = jabatan
+      self.gaji = gaji
+      self.jam = jam
+      self.lembur = 150000
+      self.total_gaji = 0
+    except Exception as eror:
+      print(eror)
+  
+  def pendapatan(self):
+    self.total_gaji += (self.gaji + (self.lembur*self.jam))
+  
+  def print_gaji(self):
+    print(f" {self.nama} dengan jabatan {self.jabatan} memiliki gaji total {self.total_gaji} ")
+
+andi = Gaji("Andi","IT Support",3000000,4)
+reza = Gaji("Reza","Front End Dev",3500000,5)
+andre = Gaji("Andre","Data Scientis",5000000,3)
+
+andi.pendapatan()
+reza.pendapatan()
+andre.pendapatan()
+
+andi.print_gaji()
+reza.print_gaji()
+andre.print_gaji()
+
+hasil :
+Andi dengan jabatan IT Support memiliki gaji total 3600000 
+ Reza dengan jabatan Front End Dev memiliki gaji total 4250000 
+ Andre dengan jabatan Data Scientis memiliki gaji total 5450000 

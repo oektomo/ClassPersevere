@@ -1,0 +1,54 @@
+Mon, 11 Apr
+
+Hari ini mempelajari domain Data Science terkait materi time series dengan pendekatan deep learning.
+Model Deep Learning hanya mempelajari fitur, dan dinamika dari data langsung (tanpa mempertimbangkan pengetahuan domain). Berkat ini, Deep learning dapat mempercepat proses data preparation dan dapat mempelajari pola data yang lebih kompleks dengan cara
+yang lebih lengkap.  Metode Deep Learning yang biasa digunakan untuk time
+series forecasting adalah RNN, LSTM, dan GRU. Ketiga metode memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda.
+Pada RNN, ada vanishing gradient, sehingga terbatas hanya bisa melihat
+beberapa step sebelumnya. LSTM mampu menangani penghafalan dan pengingatan kembali untuk jangka panjang, khususnya data yang sangat besar. GRU memiliki parameter yang lebih sedikit dari LSTM, sehingga cocok untuk data yang sedikit, agar tidak terjadi overfitting. Selain itu, GRU memberikan konvergensi yang lebih cepat dan hasilnya bisa disandingkan dengan LSTM.
+Untuk evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik (MAE, MSE, RMSE, MAPE).
+
+Tue, 12 Apr
+
+Hari ini mempelajari domain Computer Vision dengan materi Introduction of Autoencoder & Image Denoising. 
+Autoencoders neural network adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut. Komponen autoencoder yaitu; eoncoder, code, dan decoder. Encoder adalah bagian jaringan yang bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation. Code adalah adalah bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder. Decoder adalah bagian yang bertujuan untuk merekonstruksi masukan dari latent space representation. Properties autoencoders: data-spesifics, lossy, unsupervised.
+Hyperparameters autoencoders: code size, number of layers, loss function, number of node per layers. Kemudian diterangkan implementasi dari autoencoders.
+
+Wed, 13 Apr
+
+Hari ini mempelajari domain Natural Language Processing dengan materi transfer learning untuk NLP, khususnya sequential transfer learning.
+Transfer learning adalah melatih model pada tugas tertentu, lalu model tersebut dapat digunakan untuk tugas yang berbeda. Dalam paradigma transfer learning, pengurangan 
+kebutuhan data dan komputasi dapat dicapai melalui berbagi knowledge.
+Sequential Transfer Learning terdiri dari : 1. Pretraining Step, 2. Adaption / Fine Tuning Step.
+Word Embedding adalah teknik untuk memetakan kata (atau frasa) dari ruang input sparse berdimensi tinggi (BoW atau TF-IDF, dll) ke ruang vektor padat (dense) berdimensi lebih rendah (Word2Vec, FastText, GloVe, dll). Word2Vec mampu menangkap struktur relasional dalam kalimat, kesamaan semantik dan sintaksis, hubungan dengan antar kata.
+Pada pertemuan ini juga dipelajari mekanisme self-attention, dan arsitektur transformer. 
+Transformer merupakan model deep learning yang menggunakan
+mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation).
+Model berbasis Transformer :
+•Bidirectional Encoder Representations from Transformers (BERT) oleh Google
+• Generative Pre-trained Transformer (GPT) oleh OpenAI
+• XLNet oleh Google
+BERT merupakan arsitektur deep learning yang truly bidirectional sehingga mampu membaca konteks dari kiri-ke-kanan dan kanan-ke-kiri dengan dipelajari oleh jaringan yang sama.
+Sedangkan Fine-tuning adalah proses melatih model menggunakan model yang sudah
+dilatih sebelumnya.
+
+Thu, 14 Apr
+
+Hari ini mempelajari domain Reinforcement Learning dengan materi Robotics.
+Dalam materi pengenalan, dipelajari machine learning untuk robotics, turtlebot3 navigation menggunakan DQN. Kemudian dipelajari implementasi SARSA pada robotics, implementasi Q-learning, dan deep Q-Learning.
+
+Fri, 15 Apr
+
+Hari ini merupakan hari libur nasional, namun peserta ditugaskan melakukan self-study domain technical mengenai materi Unit Testing, Refactoring, dan Debugging.
+Unit testing merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program. Setiap komponen akan diuji secara independent untuk mengetahui apakah program yang dibuat sudah sesuai dengan yang diinginkan baik dari segi output maupun logika. Unit testing biasa dilakukan oleh para programmer  yang menuliskan programnya. Untuk melakukan unit testing, pengujian dapat dilakukan secara otomatis dengan menggunakan library tertentu atau API pihak ketiga tertentu. Teknik ini dinamakan dengan test automation.
+Unit testing dapat dilakukan dengan menggunakan Docstring, Library unittest, membuat Test Package.
+
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan. Sederhananya, refactoring merupakan sebuah teknik untuk membuat program kita semakin efisien tanpa mengubah efektifitas. Untuk melakukan refactoring, kita perlu melakukan unit testing terlebih dahulu untuk mengetahui baris program memiliki potensi mengalami bug. Refacatoring dapat dilakukan dengan For-loop Refactoring, multiple Assignment, F-strings, fungsi.
+
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program. Perintah untuk menjalankan debugging: list(l), up(p) and down(d), step(s) and next(n), quit atau exit.
+
+What did you learn this week?
+
+Pada minggu ke-8 ini telah dipelajari berbagai materi dari 5 domain; data science, NLP, computer vision, reinforcement learning, dan technical.
+Dari domain data science telah dipelajari topik data time series dengan pendekatan deep learning. NLP mempelajari materi transfer learning untuk NLP, khususnya sequential transfer learning. Computer vision mempelajari pengenalan autoencoder & image denoising. Reinforcement learning mempelajari materi robotics serta implementasi SARSA, Q-learning, dan deep Q-Learning.. Sedangkan technical mempelajari penggunaan Unit Testing, Refactoring, dan Debugging.
+Selengkapnya tentang materi dapat dilihat dari laporan harian.

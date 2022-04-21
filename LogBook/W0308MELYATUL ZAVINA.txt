@@ -1,0 +1,262 @@
+Mon, 7 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+Sesi 1 diawali dengan penjelasan kembali mengenai cara pengumpulan tugas menggunakan GitHub. Kemudian, dilanjutkan dengan materi mengenai data dan sumber data, sistem dan struktur AI, landscape AI, produk AI dalam kehidupan sehari-hari.
+Self study diisi dengan mengerjakan tugas 3.
+
+SESI 2
+Sesi 2 dipelajari lebih dalam mengenai penggunaan data science. computer vision, NLP,  Reinforcement Learning, machine learning cloud platforms (cloud platform sangat penting dalam AI), serta proses pembelajaran machine learning. Self study diisi dengan mengumpulkan tugas 3 di GitHub.
+
+Materi hari ini sebetulnya menarik, hanya saja saya sedang demam tinggi sehingga kurang fokus menyimak.
+
+Tue, 8 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+MATH FOR AI
+-	Peluang (konsep dasar peluang, peluang bersyarat, teorema Bayes)
+-	Aljabar Linier (matriks, vektor, vektor dan nilai eigen)
+-	Kalkulus (fungsi, turunan, optimasi)
+Matriks adalah kumpulan nilai dari beberapa variabel yang disusun menjadi baris dan kolom.
+Eigen berasal dari bahasa Jerman yang berarti karakteristik. Vektor Eigen adalah vektor yang menjadi karakteristik sebuah matriks dimana arahnya tidak berubah meski dilakukan transformasi.
+Nilai eigen adalah bilangan yang berasosiasi dengan Panjang vektor yang berubah setelah ditransformasi oleh matriks.
+Contoh penerapan invers matriks : pencarian seberapa besar pengaruh jam belajar, jam tidur, dan tingkat gizi terhadap nilai sekolah.
+Pada sesi self study, menonton video Youtube mengenai image compression, non-euclidiean distance, eigen vectors and eigenvalues.
+
+SESI 2
+Melanjutkan materi pagi tadi.
+Kalkulus : fungsi dan gradient.
+Fungsi adalah aturan yang memetakan antara 2 himpunan. Gradient adalah besaran perubahan / kemiringan.
+Kalkulus : turunan dan optimasi.
+Turunan (diferensial) adalah pengembangan dari gradient. Turunan sering digunakan untuk mencari nilai maksimum atau minimum. Titik maksimum/minimum ditemukan dengan menemukan x yang memenuhi f’(x)=0. Nilai maksimum/minimum digunakan untuk memperkecil error atau memaksimalkan jarak 2 kelas yang berbeda.
+Peluang : konsep dasar
+Dalam AI, kita perlu :
+-	Menghitung peluang suatu prediksi
+-	Menghitung peluang error
+-	Memahami distribusi data
+-	Memperkirakan pengaruh suatu variabel terhadap hasil prediksi
+-	Memperkirakan hal lain yang berpotensi memengaruhi performance program
+Selanjutnya dipelajari mengenai operasi matematika dan NumPy, serta mempreaktekkannya di Notebook
+Segmentasi Machine Learning:
+-	Supervised Learning; estimation, prediction/forecasting, classification
+-	Unsupervised Learning; clustering, association
+7 langkah dalam Machine Learning:
+-	Gathering data
+-	Preparing data
+-	Choosing model
+-	Training data
+-	Evaluation
+-	Tuning hyperparameter
+-	Prediction
+Pada sesi self study, menonton video Youtube mengenai penerapan Matematika lain dalam AI
+
+Wed, 9 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+Melatih Model Deep Learning bergantung pada faktor-faktor seperti :
+-	Perangkat keras yang tersedia
+-	Pengoptimalan
+-	Jumlah lapisan dalam jaringan saraf
+-	Artitektur neutral network
+-	Ukuran dataset
+Kita tidak harus selalu menggunakan deep learning karena :
+-	Deep learning sangat boros di komputasional
+-	Untuk melakukan sebuah task, deep learning memproses data yang banyak dengan menggunakan GPU dan memakan waktu cukup lama
+-	Untuk permasalahan dengan data yang tidak memerlukan perhitungan kompleks, penggunaan machine learning dengan komputasi yang lebih ringan sangat disarankan
+-	Deep learning untuk pekerjaan prediksi dengan jumlah data yang lebih kecil bisa tidak seakurat algoritma machine learning.
+Kekurangan deep learning : jumlah data yang dibutuhkan dalam pelatihan cukup besar, sehingga perlu akses ke computer yang berkekuatan tinggi yang dilengkapi GPU atau TPU
+Machine Learning as a service (MLaaS) adalah definisi umum dari berbagai platform berbasis cloud yang mencakup Sebagian besar masalah infrastruktur seperti pra-pemrosesan data, pelatihan model, dan evaluasi model dengan prediksi lebih lanjut. Contoh : aws, google cloud, miscrosoft azure, IBM Cloud.
+Most popular framework deep learning : TensorFlow, PyTorch, DL4J
+
+SESI 2
+Dipelajari mengenai Artificial Neural Network. ANN adalah paradigma pemrosesan informasi yang terinspirasi dari cara kerja sistem saraf (otak) manusia 
+Kelebihan ANN : berguna untuk robotika dan sistem pengenalan pola, keluaran ANN tidak sepenuhnya dibatasi oleh masukan dan hasil yang diberikan kepada mereka, ANN mampu mendebug/mendiagnosis jaringan sendiri, ANN memiliki potensi toleransi kesalahan yang tinggi, sistem non-linier yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal.
+ANN sangat berkaitan dengan matematika. Pada ANN terdapat fungsi aktivasi f((sigma i sampai n kali xi wi)-bias).
+Loss function j = y’ - y
+
+Back-propagation adalah proses memperbarui bobot dari network untuk mereduksi error dalam hasil prediksi
+Gradien-descent adalah proses menyesuaikan parameter model untuk turun melalui loss function
+
+Thu, 10 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+AI PROJECT CYCLE :
+-	Problem scoping
+-	Data acquisition
+-	Data exploration
+-	Modelling
+-	Evaluation
+-	Deployment
+The 4Ws of Problem Scoping :
+-	Who? -mengacu pada siapa yang menghadapi masalah dan siapa pemangku kepentingan dari masalah tersebut
+-	What? -mengacu pada apa masalahnya dan bagaimana Anda tahu tentang masalahnya
+-	Where? -hal ini terkait pada konteks atau situasi atau lokasi masalah
+-	Why? -megapa kita perlu memecahkan masalah dan aapa manfaatnya bagi para pemangku kepentingan setelah menyelesaikan masalah.
+Data Sources : surveys, web scrapping, sensor, cameras, observation, API
+
+3 Sistem akuisisi data :
+-	Manual
+-	Membuat pipeline untuk scraping atau membaca data
+-	Auotamted data acquisition
+Mengapa harus eksplorasi data :
+-	kita ingin ssegera memahami tren, hubungan dan pola yang terkandung dalam data
+-	Membantu kita menentukan strategi model mana yang akan digunakan pada stage selanjutnya
+Akurasi adalah persentasi prediksi yang benar dari semua kemungkinan
+Presisi adalah presentasi dari case yang diprediksi positif yang ternyata positif
+Terdapat confusion matrix yang menghasilkan True positive, true negative, false positive dan false negative.
+Pada sesi self study dikerjakan tugas dari coach mengenai akurasi, presisi, dan recall.
+
+SESI 2
+DATA ANALYTICS WITH PYTHON – BASIC STATISTICS
+3 Jenis Data :
+-	Structured
+Aplikasi database relasional dengan Data structured:  sistem reservasi maskapai penerbangan, control inventaris, transaksi penjualan, aktivitas ATM
+-	Unstrutured
+-	Semi-structured
+Contoh : bahasa markup XML, open standar JSON, NoSQL.
+Aplikasi : insfrastruktur data besar, aplikasi web, linkedin, tenaga penjualan, rekomendasi pembaca di amazon
+Noisy Data berisi sejumah informasi yang tidak terlalu dibutuhkan, menyimpang atau tidak diketahui kebenarannya. Sumber noisy data : random noise, human error, outlier
+Statistika adalah ilmu yang berkaitan dengan pengumpulan, penataan, penyajian, analisis dan interpretasi data menjadi informasi untuk membantu pengambilan keputusan yang efektif.
+Statistik :
+-	Pengukuran dari data seperti mean, median, modus, dll
+-	Penyajian data statistik dapat berbentuk tabel, grafik, diagram, deretan angka dan visualisasi angka
+Pembagian statistik :
+-	Deskriptif: mendeskripsikan dan menganalisis sampel data tanpa melakukan proses penarikan kesimpulan
+-	Inferensial: menganalisa sampel untuk mengestimasi dan membuat kesimpulan mengenai populasi
+
+STATISTIKA DESKRIPTIF
+Bertujuan untuk mendapatkan gambaran karakteristik dari sampel, meringkas dan melihat representasi dari data menggunakan grafik, bagan, dan tabel. Beberapa metodenya;
+-	Ukuran pemusatan (mean, median, mode)
+-	Ukuran penyebaran (untuk mengetahui bagaimana data tersebar di sekitar mean; Range, kuartil dan interquiartile range, varians, standar deviasi)
+-	Visualisasi data
+-	Ekspolasi hubungan data
+
+Mean : hasilnya mudah terpengaruh outlier
+Median : hasilnya tidak mudah terpengaruh outlier
+Range : hasilnya mudah terpengaruh outlier, karena varians mungkin terlalu rendah atau terlalu tinggi
+Varians adalah ukuran seberapa menyebar set data
+
+Jenis variabel / skala pengukuran :
+-	Categorical (Nominal, Ordinal)
+-	Numerical (interval, ratio)
+
+Skala Nominal (kategorik tanpa urutan) :
+-	Data berupa kategorik, namun tidak berurutan
+-	Misalnya data jenis kelamin, misalnya kita mengkodekan 1=LK, 2=PR. Karena 2>1 bukan berarti perempuan diatas laki-laki
+-	Contoh lain: data suku, provinsi, dll
+-	Pada data ini, statistik yang cocok adalah frekuensi dan modus
+Skala Ordinal (kategorik berurutan) :
+-	Data bersifat jategorik, namun memiliki makna urutan
+-	Misalkan kita menkodekan data tingkat dengan: 4=PT, 3=SMA, 2=SMP, 1=SD
+-	4>3>2>1 menunjukkan lulusan PT memang diatas lulusan SMA, dst
+-	Contoh lain: data skala kepuasan, data jabatan
+-	Pada data ini, statistik yang cocok adalah frekuensi, modus, dan median
+Skala Interval (Numerik, 0 tidak mutlak) :
+-	Datanya berupa angka
+-	0 pada data interval tidak menunjukkan 0 yang sesungguhnya
+-	Contoh: data suhu, 0 bukan berarti tidak ada suhu. Tapi suhunya bernilai 0
+-	Statistik yang cocok untuk analisis datanya yaitu frekuensi, mean, median, modus, varian
+Skala Rasio (Numerik, 0 mutlak) :
+-	Data berupa angka
+-	0 bernilai sebenarnya
+-	Misalnya data kecepatan, saat kecepatannya 0 artinya benda tersebut tidak bergerak
+-	Statistik yang cocok; frekuensi, mean, median, modus, varian
+
+
+Kovarians : memberikan ukuran yang menunjukkan sejauh mana dua variabel acak berubah bersama-sama. Namun nilai hubungan ini masih bergantung pada varians data sehingga belum terstandarisasi
+Korelasi : ukuran yang menunjukkan hubungan antara 2 variabel acal. Nilainya terletak antara -1 sampai 1 (sudah terstandarisasi sehingga lebih mudah diinterpretasikan daripada kovarians). Semakin tinggi nilai koefisien korelasinya (tanpa melihat + atau -) maka hubungan antar 2 variabel makin erat.
+Contohnya : hubungan A dan B -0.9 artinya hubungan antara A dan B sangat erat karena nilainya mendekati 1, namun ketika nilai A semakin besar, nilai B semakin kecil. Kemudian, hubungan C dan D 0.2 artinya hubungan C D lemah namun ketika C makin besar, D semakin besar pula.
+
+
+STATISTIK INFERENSIAL
+Terdiri dari pengujian hipotesis dan estimasi.
+Kriteria konstruksi hipotesis :
+-	Harus dapat diuji secara empiris, apakah itu benar atau salah
+-	Harus spesifik
+-	Pernyataan dalam hipotesis tidak boleh bertentangan
+-	Harus menentukan variabel di mana hubungan itu akan dibangun
+-	1 hipotesis menggambarkan 1 masalah saja
+Error Tipe I = Ho benar dan tolak Ho
+Error Tipe II = Ha benar dan terima Ho
+
+Error Tipe I dan Selang Kepercayaan
+-	Peluang terjadinya Error Tipe I disebut juga level signifikansi (alfa)
+-	Lawan dari peluang error Tipe I adalah Confidence Interval (CI) atau Selang Kepercayaan
+-	Jadi, jika selang kepercayaan 95% maka alfa=5%
+-	Bagaimana pemilihan alfa yang tepat?tergantung kasus, tapi umumnya alfa=5%
+-	Semakin tinggi resiko maka alpha harus dipilih yang semakin kecil
+-	Misalnya kasus efek obat, karena menyangkut nyawa maka nilai alfa maksimal 1%
+-	Semakin tinggi subjetivitas suatu kasus maka alfa semakin besar. Misalnya kasus sosial, alfa boleh hingga 10%
+
+P-Value dan Keputusan Hipotesis
+P-Value adalah suatu nilai signifikansi untuk menguji hipotesis. Pengambilan keputusan ini:
+-	Jika p-value ≤ alfa, maka Ho ditolah
+-	Jika p-value > alfa, maka Ho diterima
+Misalkan alfa=0.05 artinya kamu mentolerir adanya peluang terjadinya error tipe I sebesar 5%.
+Saat misalnya kamu dapati nilai p-value = 0.03, maka kamu menolah Ho dengan menerima adanya kemungkinan kesalahan membuat keputusan sebesar 3%.
+
+Distribusi normal adalah distribusi data dimana nilai modus, mean, mediannya mendekati nilai yang sama.
+Uji beda adalah uji statistik untuk menguji pengaruh suatu perlakuan atau perbedaan dari beberapa populasi.
+JIKA data berdistribusi normal, maka statistik yang digunakan adalah parametrik, jika tidka normal maka digunakan statistik non-parametrik.
+Pada Self study dikerjakan latihan mengenai uji hipotesis di Google Collab.
+
+Fri, 11 Mar
+
+Agenda Utama :
+-	Materi Sesi 1
+-	Self Study
+-	Materi Sesi 2
+-	Self Study
+
+Hasil :
+SESI 1
+Sesi 1 mempelajari tentang object oriented programming pada python. OOP (Object-Oriented Programming) adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual. Class adalah kumpulan objek. Class berisi cetak biru atau prototipe di mana objek akan dibuat. Ini adalah entitas logis yang berisi beberapa atribut dan metode. Classes dibuat dengan keyword class. Attributes adalah variables yang dimiliki sebuah class. Attributues selalu bersifat public dan bisa diakses menggunakan operator dot (.).
+OOPs terminology : self keyword
+1.	Self mewakili instance dari kelas
+2.	Methods dari sebuah Class harus memiliki parameter tambahan pertama dalam definisinya. Kita tidak harus memberi nilai untuk parameter ini
+3.	Dengan menggunakan keyword “self” kita dapat mengakses atribut dan metode Class dengan python
+4.	“self” mirip dengan pointer ini di C++ dan reference di java
+Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi property dari kelas lain (yang sudah ada). Kelas yang terbentuk adalah kelas turunan (child class). Demikian pula kelas yang ada adalah kelas dasar (parent class).
+
+SESI 2.
+Python Modules.
+Python modules adalah file dengan ekstensi .py yang berisi kode python yang dapat diimpor ke dalam program python lain. Modul berisi komponen; function definitions, class implementation, variables. Untuk menggunakan modul python, kita dapat menggunakan keyword “import”.
+Python built-in modules.
+Python memiliki banyak fungsi bawaan, selain itu banyak fungsi tersedia sebagai bahan dari perpustakaan yang dibundel dengan distribusi python. Dalam Python ini dikenal sebagai built-in modules. Mayoritas modul python ditulis dalam bahasa C dan terintegrasi dengan python shell. Untuk melihat daftar semua modul yang tersedia, kita dapat menggunalan perintah hel’(modules’).
+Kentungan dari modules :
+1.	Reusability; menggunakan modul python, meningkatkan tingkat penggunaan ulang kode dalam python, fungsi/implementasi kelas yang sama dapat diimpor dalam banyak kode
+2.	Simplicity; modul berfokus pada Sebagian kecil dari masalah, daripada berfokus pada keseluruhan masalah
+3.	Scoping; namespace terpisah ditentukan oleh modul yang membantu menghindari tabrakan antara pengidentifikasi.
+3 contoh modul; os, time, math.
+Kemudian, dipelajari mengenai perbedaan traditional programming dan machine learning. Traditional programming berawal dari data dan aturan kemudian menghasilkan jawaban. Sedangkan pada machine learning approaching berawal dari data dan jawaban kemudian menghasilkan aturan.
+
+What did you learn this week?
+
+Minggu ke-3 dilakukan perubahan media pembelajaran ke Zoom Meeting. Selama minggu ke-3, telah dipelajari mengenai data dan sumber data, sistem dan struktur AI, landscape AI, produk AI dalam kehidupan sehari-hari, penggunaan data science. computer vision, NLP,  Reinforcement Learning, machine learning cloud platforms (cloud platform sangat penting dalam AI), serta proses pembelajaran machine learning, penggguaan peluang, aljabar dan kalkulus dalam AI, AI, ML, dan DL, Artificial Neural Network, Back-propagation , Gradient-descent, AI Project Cycle, basic statistics for data analytics, object oriented programming, dan python modules. selengkapnya tentang materi yang telah diperoleh dapat dibaca pada laporan harian.

@@ -1,0 +1,197 @@
+Mon, 28 Mar
+
+Hari ini telah dipelajari 2 domain yaitu Data Science dan Natural Language Processing (NLP).
+
+#Data Science
+Dipelajari topik dimensionality reduction. Dimensionality reduction atau reduksi dimensi adalah teknik untuk mengurangi dimensi dataset dalam hal ini fitur data. Reduksi dimensi bertujuan untuk menghindari overfitting. Data training dengan fitur yang lebih sedikit akan membuat model machine learning tetap simple.
+Teknik dimensionality reduction :
+1.	PCA (Principal Component Analysis)
+menggunakan operasi matriks sederhana dari aljabar linier dan statistik untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit.
+2.	LDA ( Linear Discriminant Analysis)
+algoritma 
+machine learning untuk klasifikasi yang juga dapat digunakan untuk reduksi dimensi. Cara kerjanya yaitu dengan menghitung statistik ringkasan untuk fitur-fitur input menurut label, seperti mean dan standar deviasi.
+Persamaan :
+Sama-sama menggunakan nilai eigen dan vektor eigen
+Perbedaan :
+PCA → unsupervised learning (tidak menggunakan label) 
+LDA → supervised learning (menggunakan label) 
+PCA → memaksimalkan variance di tiap feature terbaru 
+LDA → feature baru yang memaksimalkan jarak antar kelas
+
+#NLP
+Hari ini disimulasikan proses pada NLP Pipeline mulai dari data acquisition hingga feature engineering menggunakan Google Colab. Sebelum simulasi, peserta diajak mereview kembali materi teori NLP Pipeline yang telah diajarkan sebelumnya. Pada pertemuan kali ini memang difokuskan untuk praktik langsung dengan menyelesaikan kasus SMS spam pada Google Colab.
+Kemudian, peserta diberi tugas mengerjakan NLP pipeline dengan kasus berbeda.
+
+Tue, 29 Mar
+
+Hari ini dipelajari 2 domain yaitu Computer Vision dan Reinforcement Learning.
+
+#Computer Vision
+Pada domain Computer Vision dipelajari materi mengenai Deep Learning dan CNN. Jika menggunakan artificial neural network standar, jumlah neuron yang dibutuhkan untuk memproses data citra akan meningkat secara drastic yang dapat menyebabkan overfitting. Struktur CNN memiliki kemiripan dengan ANN. Topologi CNN memiliki perbedaan dari ANN standar dimana neuron disusun menjadi 3 dimensi.
+CNN memiliki tiga jenis lapisan (layer) untuk membangun arsitektur selain lapisan input :
+-	Convolutional layer (with ReLU activation)
+-	Pooling layer
+-	Fully connected or dense layers
+Convolutional layer; tujuan utama dari konvolusi adalah untuk mengekstral fitur dari citra masukan.
+String adalah parameter yang menentukan berapa jumlah pergeseran filter.
+Padding atau zero padding adalah parameter menentukan jumlah pixel (berisi nilai 0) yang akan ditambahkan di setiap sisi dari input.
+ReLU Layer merupakan tipe fungsi aktivasi f(x)=max(0,x)
+Pooling layers akan megurangi jumlah parameter ketika input terlalu besar, disebut juga downsampling yaitu megurangi dimensi setiap lapisan tetapi masih menyimpan informasi penting. Ada 3 jenis : max pooling, average pooling, sum pooling.
+Loss function dalam NN mengkuantifikasi perbedaan antara hasil yang diharapkan dan hasil yang dihasilkan oleh model.
+Pada pertemuan ini lebih banyak disimulasikan mengenai pemrogaman image thresholding menggunakan Google Colab.
+
+#Reinforcement Learning
+Pada domain Reinforcement Learning, peserta mempelajari Monte Carlo Prediction. 
+Sebelumnya, peserta mereview materi minggu lalu tentang Dynamic Programming. Untuk mengaplikasikan algoritme DP, dibutuhkan pengetahuan tentang model environment. Model tersebut adalah yang terkait matriks probabilitas transisi dan sistem reward-nya. DP = Model-based algorithm. Meskipun matriks probabilitas transisi dapat ditentukan dari pengalaman, butuh sumber daya (waktu, tenaga, uang, dll) yang besar untuk mendapatkan pengalaman yang cukup.
+
+Monte Carlo merupakan model free algorithm.
+Konsep Monte Carlo :
+-	MC tidak mengambil pengetahuan lengkap dari environment.
+-	MC belajar dari experience, episode per episode, baik itu experience aktual, maupun simulasi.
+-	MC belajar dari episode-episode secara utuh dan independent, tidak bootstrapping.
+-	MC didefinisikan untuk jenis episodic environment.
+-	Ide utama dari MC: Value didapatkan dari rata-rata returns.
+-	Dengan semakin banyak returns, nilai rata-ratanya diharapkan konvergen pada expected value.
+-	Seluruh episode dipertimbangkan dalam MC
+-	Hanya satu pilihan setiap perpindahan state di MC, sedangkan DP mempertimbangkan semua probabilitas transisi pada setiap perpindahan state
+-	Estimasi-estimasi untuk semua state adalah independent di MC, tidak bootstrap
+-	Waktu yang dibutuhkan untuk mengestimasi suatu state tidak bergantung pada jumlah total state
+Elemen algoritma MC :
+-	Goal
+-	Return : total discounted reward
+-	Value Function : exoected return
+Value function dihitung dengan 2 cara : first-visit MC dan every-visit MC
+First–visit MC :: N(s) dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode.
+Every–visit MC :: N(s) dihitung setiap mengunjungi state s dalam setiap episode
+
+MC Estimation
+Karena model tidak tersedia, perlu untuk mengestimasi action juga, selain hanya mengestimasi state-nya.
+Tidak seperti DP, pada Model Free Algorithm, MC, state saja tidak cukup untuk menentukan policy. Pada MC, action diperlukan dalam menentukan policy. Policy Evaluation Problem.
+
+MC Control
+Policy Evaluation: Episode-episode dikerjakan dengan mekanisme exploring starts. Lalu, MC akan menghitung 𝑞𝜋𝑘 untuk sembarang 𝜋𝑘.
+Policy Improvement: Untuk setiap action-value function 𝑞, greedy policy-nya, untuk setiap 𝑠 ∈ 𝒮, memilih sebuah action yang merupakan action-value maksimal, yaitu: 𝜋 𝑠 = 𝑎𝑟𝑔 max 𝑎 𝑞 𝑠, 𝑎 .
+
+Pada on-policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+Pada off-policy MC, dilakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy-nya sama
+
+Wed, 30 Mar
+
+Hari ini dipelajari 2 domain yaitu Data Science dan NLP.
+
+#Data Science
+Dipelajari materi recommender system dan market basket analysis (MBA). Recommender system memberikan informasi berupa saran objek yang kemungkinan diminati / dibutuhkan pengguna. Tujuan dari sistem rekomendasi adalah untuk meningkatkan aktivitas pengguna daengan memberikan daftar item yang “disarankan”.
+Metode recommender system :
+-	Collaborative filtering recommendations
+-	Content-based recommendation
+-	Dll
+A.	Content-Based Filtering
+Pendekatan ini menggunakan informasi tambahan tentang pengguna / item. Metode ini menggunakan fitur item untuk merekomendasikan item lain yang serupa denga napa yang disukai pengguna dan juga berdasarkan tindakan mereka sebelumnya / umpan balik eksplisit
+Cara mengetahui kemiripan suatu user/item :
+1.	Membuat vektor yang melambangkan tiap item yang disebut item profile dan vektor yang melambangkan user disebut user profile
+2.	Menghitung kemiripan tiap item profile dengan user profile
+3.	Melakukan sorting item berdasar skor similarity-nya
+B.	Collaborative Filtering
+1.	Memory based (item yang disarankan adalah item yang disukai oleh pengguna target)
+2.	Model-based (item yang disarankan dipilih berdasarkan hasil model yang dilatih untuk mengidentifikasi pola pada data input
+
+Market basket analysis adalah pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kit acari. MBA adalah teknik yang digunakan oleh pengecer besar untuk mengungkap hubungan antar item.
+Selanjutnya dilakukan simulasi MBA menggunakan Google Colab.
+
+#Natural Language Processing
+Text Classification
+Domain AI yang berhubungan dengan interaksi antara mesin dan manusia menggunakan bahasa alami. NLP menggunakan data tidak terstruktur: tekstual maupun suara. Data teks dan bahas adapat memiliki isi dan ukuran yang sangat beragam sehingga lebih menantang dibandingkan data tabular biasa.
+
+Text classification adalah proses pemberian tag / kategori ke teks menurut isinya.
+Implementasi text classification :
+-	Email/spam classification
+-	Sentiment analysis (product review, kebijakan pemerintah)
+-	Emotion detection
+
+A.	Machine Learning Approach
+Melatih mesin mempelajari pola pada kesimpulan teks.
+Kekurangan :
+-	Pelabelan data (data yang kita peroleh belum tentu ada labelnya). Padahal dalam klasifikasi itu butuh label
+B.	Lexicon
+Pross klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya.
+Kelebihan : tidak ada proses learning, jadi komputasi lebih cepat
+Selanjutnya disimulasikan proses text classification di Google Colab (melanjutkan proses pertemuan sebelumnya) hingga akhir pertemuan.
+
+Thu, 31 Mar
+
+Hari ini dipelajari 2 domain yaitu  Computer Vision dan Technical.
+
+#Computer Vision
+Dipelajari materi impelementasi CNN pada Keras, mendeploy CNN klasifikasi menggunakan dataset CIFAR-10. Pertemuan kali ini lebih dominan pada simulasi object detection menggunakan CNN di Google Colab. Di akhir pertemuan peserta diberi tugas untuk meningkatkan akurasi klasifikasi CIFAR-10.
+Alur CNN :
+-	Input
+-	Fitur extraction (convolu + ReLu)
+-	Flatten layer untuk membuat input menjadi 1 dimensi
+-	Untuk membangun NN kita memerlukan hidden layer (dense layer)
+ReLu adalah fungsi aktivasi dimana Relu(x)=max(0,x)
+
+#Technical
+dipelajari materi visualisasi data dan pentingnya visualisasi data, jenis visualisasi data, perbedaan dimensi dan metrik, dsn pengenalan Google Data Studio sebagai salah satu alat untuk visualisasi data serta komponen di Google Data Studio yang dapat digunakan untuk visualisasi data.
+Visualisasi data adalah representasi grafis dari informasi dan data
+
+Dimensi atau Dimensions adalah atribut data.
+Tipe data kualitatif dan kategorik (terutama nominal) dapat menjadi dimensi.
+Contoh Dimensi : Nama, Tanggal dan Waktu, Lokasi (Geolocation), Kota, Negara, Tipe Browser, Perangkat
+
+Metrik atau Metrics adalah pengukuran kuantitatif. Metrik dapat berupa hasil agregasi
+Contoh Metrik : Nilai, Harga, Total Penjualan, Jumlah Sesi, Jumlah Halaman, Jumlah Sesi per Halaman
+
+Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+
+Keuntungan menggunakan Google Data Studio :
+• Gratis
+• Mudah untuk dihubungkan dengan berbagai sumber data
+• Dashboard atau Report bisa dibagikan kepada teman dan tim
+• Dapat berkolaborasi dengan rekan Anda dalam pembuatan Dashboard/Report
+• Tersedia template yang dapat digunakan agar mempercepat pembuatan Report
+
+Koneksi sumber data pada GDS :
+• Databases : BigQuery, MySQL, and PostgreSQL
+• Google Marketing Platform : Google Ads, Analytics, Display & Video 360, Search Ads 360
+• Google Consumer Products : Google Sheets, YouTube, and Search Console
+• Flat Files : Uploaded CSV File and Google Cloud Storage
+• Social Media Platforms : Facebook, Reddit, and Twitter
+• dll
+Kemudian peserta mengerjakan tugas membuat dashboard GDS secara berkelompok.
+
+Fri, 1 Apr
+
+Hari ini dipelajari 2 domain yaitu Reinforcement Learning dan Technical.
+
+#Reinforcement Learning
+Dipelajari materi mengenai Temporal Difference Learning (TDL). TDL mengestimasi reward pada setiap langkah (step). Ide dasar dari TDL adalah Dynamic Programming dan Monte Carlo. TDL diaplikasikan pada model free dan melakukan update value state per-step. TDL bersifat bootstrapping. TDL menggunakan metode trial dan error dalam eksplorasi lingkungan. TDL cepat mencapai konvergensi.
+TD control menggunakan SARSA dan Q-Learning.
+SARSA bekerja berdasarkan perubahan State-Action (S,A) dan merupakan algoritma On-Policy. Pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy
+
+#Technical
+Dipelajari materi mengenai web scraping, modul untuk web scraping pada python, teknik melakukan web scraping serta praktik melakukan web scraping sederhana dan cara menyimpan data hasil web scraping.
+Web Scraping adalah praktik pengumpulan data dari situs web melalui cara apa pun selain dari menggunakan program untuk berinteraksi dengan API dan memasukan nya kedalam dokumen elektronik untuk mendapatkan informasi yang diinginkan.
+Web crawling adalah proses memperoleh dan menyimpan konten berbagai situs web.
+Etika web scraping : Jika data yang didapat digunakan secara personal, dan dalam penggunaan wajar undang-undang hak cipta, biasanya tidak ada masalah. Namun, jika datanya digunakan untuk diterbitkan ulang, atau jika web scraping cukup agresif untuk mengganggu situs, atau jika kontennya
+memiliki hak cipta, maka ada beberapa permasalahan hukum untuk diperhatikan.
+
+Modul web scrapping :
+-	Urllib3: untuk mengambil data dari URL, mirip dengan requests library
+-	Beautiful Soup: menyediakan beberapa metode sederhana dan  toolkit untuk membedah dokumen dan mengekstrak apa yang dibutuhkan
+-	Scrapy Module: kerangka kerja web crawling open-source yang cepat dan dibuat dengan Python, digunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan XPath.
+-	Selenium adalah suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan platform. Bukan merupakan satu tool saja, melainkan kumpulan dari aplikasi.
+Preparation.
+1.	Analyzing robots.txt: untuk menentukan bagian mana dari situs web yang diizinkan untuk dilakukan web scraping dan mana yang tidak
+2.	Analyzing Sitemap files: membantu web crawler menemukan konten yang diperbarui tanpa harus mengecek setiap halaman
+3.	Checking Website’s Size: menggunakan kata kunci site:alamat_web saat melakukan pencarian
+4.	Analyzing Technology used in website: Ada modul Python bernama builtwith yang dapat digunakan untuk mempelajari tentang teknologi yang digunakan oleh situs web.
+5.	Knowing owner of website: whois dapat digunakan untuk mengecek siapa pemilik website
+6.	Analyzing Web Page : Untuk mengetahui bagian mana yang perlu kita gunakan dalam scraping, perlu menganalisis halaman web
+Scrapping pada static web lebih mudah dibandingkan pada dynamic web.
+HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+Menyimpan data dapat menggunakan referensi ataupun mendownload file secara langsung. Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+
+What did you learn this week?
+
+Pada minggu ke-6 ini telah dipelajari berbagai materi dari 5 domain; data science, NLP, computer vision, reinforcement learning, dan technical.
+Dari domain data science telah dipelajari topik dimensionality reduction beserta recommender system dan market basket analysis (MBA). NLP mensimulasikan proses NLP Pipeline mulai dari data acquisition hingga deployment menggunakan Google Colab. Computer vision mempelajari CNN dan deep learning serta impelementasi CNN pada Keras, mendeploy CNN klasifikasi menggunakan dataset CIFAR-10. Reinforcement learning mempelajari Monte Carlo Prediction(TDL) dan Temporal Difference Learning (TDL). Sedangkan technical mempelajari penggunaan Google Data Studio dan Web Scrapping. Selengkapnya tentang materi dapat dilihat dari laporan harian

@@ -1,0 +1,31 @@
+Mon, 21 Mar
+
+pada hari ini mempelajari ulang materi yg sudah dipelajari minggu kemarin, dan diulas oleh coach yg berpengalaman dibidangnya..sehingga materi yg disampaikan lebih mudah diterima. dan mengulas bahwa pada metode regresi linier input berupa matriks dan output berupa vektor. juga diajarkan hal baru berupa moving average yang berguna dalam melihata pergerakan data series..sperti melihat trend pada saham. yang menurut saya sangat keren dan menambah wawasan. 
+
+Tue, 22 Mar
+
+pada kelas LR saya jadi mengetahui istilah - istilah teknis seperti agent, reward, action, dan state. bahkan ada reward (-) dan reward (+). selanjutnya pada kondisi dengan subjek agent terdapat beberapa environment , seperti kondisi environment diawasi secara total dan kondisi environment diawasi secara partial. pada kondisi - kondisi tersebut terdapat perbedaan dimana pada kondisi diawali total , agent diberitahu konsekuensi dan reward dari sistem tetapi alur yg terjadi tetap bergantung pada action yg diambil agent itu sendiri, sedangkan pada partial environment, agen harus mencari tahu sendiri apa yang ada pada sistem, jadi akan ada trial dan error pada sistem ini, sebelum agent menjadi lebih cerdas.
+
+Wed, 23 Mar
+
+pembelajaran mengenai NLP terkait extraction feature, yang merupakan tahap dalam merubah tesk menjadi vektor dengan menggunakan metode bag of word dan TF-IDF sehingga tesk dapat dikonversi ke vektor melalui pembobotan teks yang ering muncul.  dan feature selection jika membutuhkan seleksi terhadap kata - kata penting. feature seleksi ini ada 3 tahap yaitu, filter , wrapping, dan juga hybird.
+
+Thu, 24 Mar
+
+belajar  mengenai git dan cara menggunakannya, terdapat 3 alur latar environment pada git yaitu local, remote, dan master unutk pull request. pada git terdapat fitur SCM (Source Code Managamenet) yang bisa membuat kita bisa melakukan kolaborasi. dengan cara membuat branch - branch pada repo master, dan kita bisa mempush repo kita dibranch tersebut, dan repo kita bisa dimerge oleh branch master. hal ini untuk menghindari adanya bentrokan antar repo masing - masing orang.
+
+Fri, 25 Mar
+
+pada hari belajar menghubungkan sql dengan colab, dengan library sqlite. dengan cara ii maka database akan di tampilkna pada colab dengan format dataframe, sehingga kita bisa mengeksekusi/menampilkan kolom pada table menggunakan perintah / syntax sql.
+
+What did you learn this week?
+
+pada hari ini mempelajari ulang materi yg sudah dipelajari minggu kemarin, dan diulas oleh coach yg berpengalaman dibidangnya..sehingga materi yg disampaikan lebih mudah diterima. dan mengulas bahwa pada metode regresi linier input berupa matriks dan output berupa vektor. juga diajarkan hal baru berupa moving average yang berguna dalam melihata pergerakan data series..sperti melihat trend pada saham. yang menurut saya sangat keren dan menambah wawasan. 
+
+pada kelas LR saya jadi mengetahui istilah - istilah teknis seperti agent, reward, action, dan state. bahkan ada reward (-) dan reward (+). selanjutnya pada kondisi dengan subjek agent terdapat beberapa environment , seperti kondisi environment diawasi secara total dan kondisi environment diawasi secara partial. pada kondisi - kondisi tersebut terdapat perbedaan dimana pada kondisi diawali total , agent diberitahu konsekuensi dan reward dari sistem tetapi alur yg terjadi tetap bergantung pada action yg diambil agent itu sendiri, sedangkan pada partial environment, agen harus mencari tahu sendiri apa yang ada pada sistem, jadi akan ada trial dan error pada sistem ini, sebelum agent menjadi lebih cerdas.
+
+pembelajaran mengenai NLP terkait extraction feature, yang merupakan tahap dalam merubah tesk menjadi vektor dengan menggunakan metode bag of word dan TF-IDF sehingga tesk dapat dikonversi ke vektor melalui pembobotan teks yang ering muncul.  dan feature selection jika membutuhkan seleksi terhadap kata - kata penting. feature seleksi ini ada 3 tahap yaitu, filter , wrapping, dan juga hybird.
+
+belajar  mengenai git dan cara menggunakannya, terdapat 3 alur latar environment pada git yaitu local, remote, dan master unutk pull request. pada git terdapat fitur SCM (Source Code Managamenet) yang bisa membuat kita bisa melakukan kolaborasi. dengan cara membuat branch - branch pada repo master, dan kita bisa mempush repo kita dibranch tersebut, dan repo kita bisa dimerge oleh branch master. hal ini untuk menghindari adanya bentrokan antar repo masing - masing orang.
+
+pada hari belajar menghubungkan sql dengan colab, dengan library sqlite. dengan cara ii maka database akan di tampilkna pada colab dengan format dataframe, sehingga kita bisa mengeksekusi/menampilkan kolom pada table menggunakan perintah / syntax sql.
