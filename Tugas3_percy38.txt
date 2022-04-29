@@ -1,0 +1,67 @@
+Tugas 3 Aplikasi AI
+Dari 3 bidang keilmuan dalam AI berikut:
+- Data Science
+- Computer Vision
+- Natural Language Processing
+Tuliskan contoh konkret dari aplikasi tiap bidang (minimal 2 buah setiap bidang) dan jelaskan secara singkat apa yang dilakukan dalam contoh yang kamu berikan.
+Tuliskan jawabanmu dalam bahasa markdown (atau gunakan txt jika kamu belum mengerti markdown)
+
+DATA SCIENCE
+
+1. Di Bidang Health Care
+Pada tahun 2008 staf google dapat memetakan wabah flu secara real time dengan melacak data lokasi pada pencarian terkait flu. Peta CDC tentang kasus flu yang terdokumentasi diperbarui setiap seminggu sekali. Pada tahun 2013, google memperkirakan kasus flu yang bisa diamati meningkat dua kali lipat. Teknologi ini memanfaatkan korelasi antara pencarian dan kasus flu. Setelah beberapa tahun penemuan google, muncul aplikasi clue yang populer menggunakan data science untuk memperkirakan siklus menstruasi dan kesehatan reproduksi pengguna dengan melacak tanggal mulai siklus, suasana hati, jenis feses, kondisi rambut, dan banyak variabel lainnya. Aplikasi ini memanfaatkan data anonim dengan bahasa pemrograman Python dan Jupiter's Notebook. Setelah berhasil menganalisis data-data anonim ini, pengguna akan diberitahu waktu subur, puncak menstruasi, atau adanya risiko tinggi seperti kehamilan ektopik.
+
+2. Di Bidang Perjalanan Darat
+Studi mengatakan 86% warga Amerika Serikat memiliki mobil adalah kebutuhan pokok. Pada tahun 2018, mobil di Amerika Serikat menghabiskan 140 miliar bensin. Namun, hal ini menyebabkan perubahan iklim. Oleh karena itu, data science sangat diperlukan untuk menghemat ribuan galon bahan bakar dengan mengoptimalkan rute jalan raya. Selain itu, data science juga dapat dimanfaatkan untuk proses delivery makanan agar tetap panas saat sampai ke tangan pelanggan. Perusahaan yang sudah memanfaatkan teknologi ini adakah Uber Eats, aplikasi pengiriman makanan milik Uber. Aplikasi ini akan mengirimkan makanan hangat dengan cepat. Agar dapat menjalankan aplikasi ini, data scientist perlu machine learning, pemodelan statistik tingkat lanjut, dan staf ahli meteorologi. Untuk mengoptimalkan proses pengiriman, tim harus memprediksi setiap variabel yang mungkin berpengaruh selama proses pengantaran, seperti badai, libur panjang, kemacetan lalu lintas, dan lain sebagainya.
+
+3. Di Bidang Pemerintahan
+Di era teknologi, hampir semua dokumen dapat diakses secara online, termasuk tanda pengenal. Hanya dengan men-scan wajah atau barcode, kita sudah bisa mengetahui identitas pribadi secara lengkap. Pada teknologi pengenalan wajah, biasanya mesin akan merecord ciri-ciri khusus pada wajah termasuk pupil mata. Salah satu lembaga pemerintahan yang telah memanfaatkan teknologi ini adalah The U.S Immigrations and Customs Enforcement atau lebih dikenal dengan ICE telah menggunakan teknologi pengenalan wajah untuk foto SIM dengan tujuan untuk mendeportasi imigran yang tidak memiliki dokumen resmi. Pengenalan wajah dibangun berdasarkan foto wajah sebagai raw data dan menggunakan teknologi artificial intelligence dan machine learning. 
+
+COMPUTER VISION
+1. Penggunaan dalam bidang Matematika
+Sudah jelas bahwa computer vision mempunyai hubungan yang erat dengan bidang matematika. Terutama dalam hal statistik, geometri dan optimasi. Beberapa hal dalam matematika tersebut sangat erat kaitannya dengan komputer. Hal tersebut berhubungan dengan kecepatan dalam memproses data supaya tidak memakan waktu yang terlalu lama.
+
+2. Penggunaan dalam bidang kecerdasan buatan
+Penerapan Computer Vision dalam bidang kecedasan buatan mungkin sudah sangat sering kita temui di lingkungan kita misalnya adanya robot, scan foto, absen sidik jari, dan lain-lain. Diharapkan dengan adanya kecerdasan buatan tersebut akan lebih banyak membantu memudahkan manusia dalam kesehariannya.
+
+3. Penggunaan dalam bidang Industri
+Sekarang ini di dalam bidang industri sangat merasakan manfaat dari perkembangan komputer. Misalnya penggunaan mesin dalam proses pembuatan barang-barang industri seperti motor, mobil dan barang-barang yang lain. Tidak hanya itu saja, penggunaan computer vision juga bisa membuat komputer mampu menyortir suatu barang.
+
+4. Penggunaan dalam bidang kendaraan
+Saat ini penggunaan dari computer vision pada kendaraan sudah mulai banyak digunakan. Sebagai contoh ketika melakukan parkir. Saat ini mobil-mobil buatan terbaru telah terpasang alat sensor yang sangat membantu pada saat parkir. Dengan adanya sensor tersebut, pada saat memundurkan mobil kamu bisa mengetahui apakah ada benda keras ataukah tidak. Apabila mobil mendekati benda keras, maka alaram akan berbunyi. Begitu pula dengan pesawat terbang, karena saat ini beberapa pesawat terbang yang ada di dunia telah menggunakan sistem auto pilot. Jadi, pesawat bisa bergerak di udara tanpa pilotnya sendiri yang ikut mengendalikan pesawat. Tidak hanya itu saja, sistem navigasi yang dipakai untuk pesawat terbang juga menggunakan sistem computer vision.
+
+
+5. Penggunaan dalam bidang medis
+Penggunaan computer vision dalam bidang medis diantaranya yaitu penggunaan dalam perangkat medis x-ray, gambar tomografi dan gambar ultrasonik. Dengan keberadaan perangkat-perangkat tersebut, maka dapat membantu dokter dalam mengetahui adanya penyakit yang terdapat dalam tubuh manusia tanpa perlu melakukan pembedahan.
+
+
+NATURAL LANGUAGE
+
+1. Perangkat Smart Home
+Perangkat smart home seperti Alexa dan Google Home menjadi semakin populer, terutama di kalangan genarasi muda. Dikutip dari Digitized House, 58% milenial saat ini memiliki perangkat smart home dengan kemampuan kontrol suara. Perangkat smart home ini sangat bagus untuk keperluan multi-tasking — jika Anda ingin memutar musik, tetapi Anda juga sibuk memasak makan malam misalnya, Anda cukup menginstruksikan Google Home untuk mengaktifkan daftar putar music favorit Anda, dan perangkat itu akan melakukannya segera. Ketika melakukan perintah Anda, sesungguhnya perangkat smart home Anda menggunakan NLP untuk mengenali perintah suara Anda dan melakukan tindakan yang tepat.
+
+2. Chatbot
+Bayangkan suatu perusahaan besar yang memproduksi banyak produk setiap harinya. Dalam hal ini, biasanya tidak semua pelanggan akan merasa puas dengan hasil produk yang diterima. Perusahaan tentunya harus menyediakan sarana tempat pengaduan. Semakin tinggi tingkat produksi, maka sarana tempat pengaduan harus meningkat juga. Jika kita kembali ke zaman dahulu di mana penggunaan internet dan teknologi belum semasif sekarang, maka biasanya perusahaan akan meng-hire customer Service yang khusus untuk melayani keluhan pelanggan. Namun seiring dengan perkembangan zaman, tuntutan pelanggan tentunya semakin tinggi. Pelanggan ingin segera dilayani, dan tentunya seorang customer aervice memiliki keterbatasan energi dalam bekerja. Saat ini perusahaan bisa mengandalkan chatbot, di mana sebuah Chatbot dapat merespons setiap keluhan pelanggan dengan baik 24 jam di setiap harinya. Saat ini, mungkin chatbot belum sempurna dan belum dapat menggantikan manusia sepenuhnya, tapi
+
+3. Mesin Pencari
+Teknologi NLP juga berperan saat kita menggunakan mesin pencari seperti di Google, Yahoo, Opera dan lainnya.
+Contohnya ketika kita sedang mencari “drum elektrik” di Google Search, maka secara otomatis Google Search akan menampilkan beberapa kalimat yang relevan dengan apa yang sedang Anda cari tersebut.
+
+4. Alat terjemahan
+
+Jika Anda bepergian ke suatu tempat di mana bahasa Inggris (atau bahasa ibu Anda) tidak umum digunakan atau dipahami, maka Anda pasti akan memanfaatkan alat terjemahan di smartphone Anda untuk berkomunikasi. Google Translate bekerja bergantung pada NLP untuk memahami frasa atau istilah yang coba diterjemahkan oleh penggunanya, dan hal yang sama berlaku untuk semua alat terjemahan alternatif lain di luar sana.
+
+5. Koreksi Isi Chat otomatis
+Jika Anda sering mengirim chat saat bepergian atau Anda memiliki jempol berukuran agak besar yang menyulitkan Anda untuk menekan tombol pada keyboard, maka fitur koreksi isi chat otomatis sangat membantu. Nah, fitur koreksi isi chat otomatis ini bergantung pada teknologi NLP. Dalam hal ini, NLP mengidentifikasi kemungkinan istilah terdekat dari kata salah eja yang Anda ketik, dan secara otomatis mengubah istilah yang salah eja tersebut menjadi yang akurat.
+
+6. Filter Pesan Spam di Email
+Menurut laporan Propeller, pesan spam menyumbang 45% dari semua email yang dikirim dan sekitar 14,5 miliar email spam dikirim setiap hari. Melihat data di atas, Anda mungkin bertanya-tanya mengapa Anda tidak mendapatkan lebih banyak pesan Spam. Ya, itu karena layanan email saat ini, seperti Gmail dan Yahoo Mail, telah memiliki filter spam yang sangat baik yang menandai sebuah email sebagai spam, dan mencegahnya mencapai kotak masuk utama Anda. Bagaimana cara kerja filter spam ini? Di antara faktor-faktor lain (deliverability, email domain, dan lainnya), filter ini menggunakan teknologi NLP untuk menganalisis subjek email dan konten isinya. Dari sini, cukup mudah bagi layanan email untuk memastikan mana yang spam dan mana yang bukan — email yang berisi banyak teks dan kata-kata berhuruf besar seperti “gratis”, “promosi”, “beli sekarang”, dan lainnya, berpeluang besar menjadi spam.
+
+7. Pemantauan media sosial
+Jika Anda pernah menggunakan alat pemantauan media sosial seperti Hootsuite atau Buffer, ini pada dasarnya dibuat menggunakan teknologi NLP. Alat ini membantu Anda memantau saluran media sosial untuk penyebutan merek Anda, dan mengingatkan Anda saat pelanggan membicarakan merek Anda. Seperti yang diketahui oleh banyak pemasar dan pemilik bisnis, memiliki ulasan negatif yang menjadi viral di media sosial dapat menghancurkan reputasi merek dalam semalam. Mengingat hal ini, penting bagi perusahaan untuk terlibat dalam pemantauan atau mendengarkan media sosial, dan memastikan bahwa mereka mengatasi potensi krisis dengan segera.
+
+8. Perawatan Pesawat
+Bagaimana NLP membantu dalam perawatan pesawat? Pertama dan terpenting, dengan memanfaatkan teknologi NLP, mekanik dapat lebih mudah mensintesis informasi dari manual pesawat yang biasanya sangat bertele-tele.Selain itu, perusahaan pesawat juga dapat menggunakan NLP untuk menganalisis laporan yang disampaikan oleh pilot atau personel pesawat lainnya, dan meningkatkan proses dan sistem mereka dari sana.
+
+9. Memperlancar Informasi Pasien di Rumah Sakit 
+Di sebagian besar rumah sakit atau klinik, pasien akan memberikan informasi gejala sakit yang dirasakan kepada perawat atau staf di counter, dan mereka akan membuat catatan untuk dibagikan dengan dokter. Faktanya, banyak rumah sakit atau klinik sekarang yang menggunakan NLP untuk merampingkan informasi pasien dan mengotomatisasi proses memahami kondisi pasien. Untuk melakukan ini, solusi 98point6 merupakan alat bertenaga NLP yang bisa digunakan rumah sakit atau klinik agar pasiennya dapat berbagi informasinya dengan mudah. Sebelum berkonsultasi dengan dokter mereka, pasien dapat mengirim teks riwayat kesehatan dan kondisi mereka ke aplikasi, dan aplikasi kemudian akan menyederhanakan informasi yang relevan dan menyajikannya kepada dokter.
