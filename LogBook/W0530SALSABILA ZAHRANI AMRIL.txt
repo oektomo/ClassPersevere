@@ -1,0 +1,221 @@
+Mon, 21 Mar
+
+Pada hari ini saya mempelajari mengenai Data Science, pada pembelajaran DS ini saya mempelajari mengenai Problem Scooping, Data
+Acquisition, Data
+Exploration. Terdapat Mathematics for Data Science
+• Teori peluang
+• Teori optimasi
+• Aljabar linier
+• Fungsi diferensial
+
+Pada sesi 2 saya mempelajari mengenai NLP. NLP mempelajari AI Domains: Recap
+Image
+Email
+Speech
+Numerik
+Dokumen Video
+Tabular
+Sensor
+
+Tue, 22 Mar
+
+pada hari ini saya mempelajari 2 domain yaitu rl dan cv. pada rl saya mempelajari 
+• Sejarah Reinforcement Learning (RL)
+• Algoritma RL
+• Elements & Environment dari RL
+• Aplikasi dari RL
+sedangkan pada rl saya mempelajari introduction of computer vision
+
+Wed, 23 Mar
+
+pada hari ini saya mempelajari mengenai ds
+• Memahami tentang data science
+• Mengerti data yang terdapat pada data science
+• Mengerti manfaat data science
+• Memahami model / algoritma pada data science
+dan saya mempelajari mengenai nlp yang dipelajari adalah
+▪ Memahami proses feature extraction menggunakan BoW/ count 
+vectorizer dan TF-IDF.
+▪ Mengetahui jenis-jenis N-gram dan pengunaanya
+▪ Mampu menggunakan feature filtering
+▪ Mengetahui jenis-jenis feature selection 
+▪ Mampu menggunakan dan memanfaatkan word cloud
+
+Thu, 24 Mar
+
+pada cv saya mempelajari
+Computer Vision methods
+• Image acquisition
+• Pre-processing
+• Feature extraction
+• Detection / segmentation
+• Recognition an interpretation
+
+Mathematic in CV
+• Kalkulus
+• Aljabar Linear
+• Probabilitas dan Statistik
+• Sinyal Prosessing
+• Projektif Geometri
+• Komputasional Geometri
+• Teori optimasisasi
+• Teori kendali
+
+Mathematic in CV
+• Kalkulus
+• Aljabar Linear
+• Probabilitas dan Statistik
+• Sinyal Prosessing
+• Projektif Geometri
+• Komputasional Geometri
+• Teori optimasisasi
+• Teori kendali
+
+pada rl saya mempelajari
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Fri, 25 Mar
+
+pada hari ini saya mempelajari domain technical
+
+▪ Memahami apa itu Git dan Github
+▪ Mengetahui konsep dasar Source Code Management
+▪ Mengetahui Operasi SCM (Local dan Remote)
+▪ Membuat Local dan Remote Repository untuk berkolaborasi dengan 
+developer lain 
+
+▪ Memahami apa itu SQL
+▪ Mengetahui penggunaan perintah Data Definition Language (DDL)
+▪ Mengetahui penggunaan perintah Data Manipulation Language (DML)
+▪ Dapat melakukan filtering dan subsetting data dengan beberapa operator
+▪ Dapat melakukan pengurutan data dan pengelompokan data dengan 
+perintah ORDER BY dan GROUP BY
+
+What did you learn this week?
+
+Senin
+
+21 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+Pada hari ini saya mempelajari mengenai Data Science, pada pembelajaran DS ini saya mempelajari mengenai Problem Scooping, Data
+Acquisition, Data
+Exploration. Terdapat Mathematics for Data Science
+• Teori peluang
+• Teori optimasi
+• Aljabar linier
+• Fungsi diferensial
+
+Pada sesi 2 saya mempelajari mengenai NLP. NLP mempelajari AI Domains: Recap
+Image
+Email
+Speech
+Numerik
+Dokumen Video
+Tabular
+Sensor
+
+sembunyikan
+
+Selasa
+
+22 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada hari ini saya mempelajari 2 domain yaitu rl dan cv. pada rl saya mempelajari 
+• Sejarah Reinforcement Learning (RL)
+• Algoritma RL
+• Elements & Environment dari RL
+• Aplikasi dari RL
+sedangkan pada rl saya mempelajari introduction of computer vision
+
+sembunyikan
+
+Rabu
+
+23 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada hari ini saya mempelajari mengenai ds
+• Memahami tentang data science
+• Mengerti data yang terdapat pada data science
+• Mengerti manfaat data science
+• Memahami model / algoritma pada data science
+dan saya mempelajari mengenai nlp yang dipelajari adalah
+▪ Memahami proses feature extraction menggunakan BoW/ count 
+vectorizer dan TF-IDF.
+▪ Mengetahui jenis-jenis N-gram dan pengunaanya
+▪ Mampu menggunakan feature filtering
+▪ Mengetahui jenis-jenis feature selection 
+▪ Mampu menggunakan dan memanfaatkan word cloud
+
+sembunyikan
+
+Kamis
+
+24 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada cv saya mempelajari
+Computer Vision methods
+• Image acquisition
+• Pre-processing
+• Feature extraction
+• Detection / segmentation
+• Recognition an interpretation
+
+Mathematic in CV
+• Kalkulus
+• Aljabar Linear
+• Probabilitas dan Statistik
+• Sinyal Prosessing
+• Projektif Geometri
+• Komputasional Geometri
+• Teori optimasisasi
+• Teori kendali
+
+Mathematic in CV
+• Kalkulus
+• Aljabar Linear
+• Probabilitas dan Statistik
+• Sinyal Prosessing
+• Projektif Geometri
+• Komputasional Geometri
+• Teori optimasisasi
+• Teori kendali
+
+pada rl saya mempelajari
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+sembunyikan
+
+Jumat
+
+25 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada hari ini saya mempelajari domain technical
+
+▪ Memahami apa itu Git dan Github
+▪ Mengetahui konsep dasar Source Code Management
+▪ Mengetahui Operasi SCM (Local dan Remote)
+▪ Membuat Local dan Remote Repository untuk berkolaborasi dengan 
+developer lain 
+
+▪ Memahami apa itu SQL
+▪ Mengetahui penggunaan perintah Data Definition Language (DDL)
+▪ Mengetahui penggunaan perintah Data Manipulation Language (DML)
+▪ Dapat melakukan filtering dan subsetting data dengan beberapa operator
+▪ Dapat melakukan pengurutan data dan pengelompokan data dengan 
+perintah ORDER BY dan GROUP BY

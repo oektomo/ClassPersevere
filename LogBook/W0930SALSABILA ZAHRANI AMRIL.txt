@@ -1,0 +1,96 @@
+Mon, 18 Apr
+
+• Memahami langkah dalam clustering
+• Memahami teknik dalam menentukan banyak cluster
+• Dapat mengimplementasikan clustering
+• Mengetahui manfaat clustering
+
+Tue, 19 Apr
+
+▪ Memahami pengertian Speech Recognition
+▪ Proses mengubah sinyal analog ke digital
+▪ Ekstraksi Fitur dengan MFCC
+▪ Flow Speech Recognition
+▪ Hidden Markov Model
+
+Wed, 20 Apr
+
+• Memahami prinsip kerja segmentasi
+• Perbedaan antara instance dan semantic segmentation
+• U-Net untuk instance segmentation
+• Experiment
+
+Thu, 21 Apr
+
+•  Mengetahui Dasar-Dasar RL (MDP, Bellman Eq.)
+• Mengetahui DP, MC, TD (SARSA), QL dan DQN
+• Mengetahui implementasi RL pada robotics
+• Dapat melakukan pemrograman RL dengan python
+
+Fri, 22 Apr
+
+▪  Memahami apa itu web deployment
+▪ Mengetahui penggunaan Heroku sebagai service untuk deployment
+▪ Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi
+web untuk deployment
+
+
+What did you learn this week?
+
+Senin
+
+18 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+• Memahami langkah dalam clustering
+• Memahami teknik dalam menentukan banyak cluster
+• Dapat mengimplementasikan clustering
+• Mengetahui manfaat clustering
+
+Selasa
+
+19 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+▪ Memahami pengertian Speech Recognition
+▪ Proses mengubah sinyal analog ke digital
+▪ Ekstraksi Fitur dengan MFCC
+▪ Flow Speech Recognition
+▪ Hidden Markov Model
+
+sembunyikan
+
+Rabu
+
+20 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+• Memahami prinsip kerja segmentasi
+• Perbedaan antara instance dan semantic segmentation
+• U-Net untuk instance segmentation
+• Experiment
+
+Kamis
+
+21 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+•  Mengetahui Dasar-Dasar RL (MDP, Bellman Eq.)
+• Mengetahui DP, MC, TD (SARSA), QL dan DQN
+• Mengetahui implementasi RL pada robotics
+• Dapat melakukan pemrograman RL dengan python
+
+Jumat
+
+22 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+▪  Memahami apa itu web deployment
+▪ Mengetahui penggunaan Heroku sebagai service untuk deployment
+▪ Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi
+web untuk deployment

@@ -1,0 +1,155 @@
+Mon, 28 Mar
+
+pada hari ini saya mempelajari domain ds
+ Memahami apa itu visualisasi data dan pentingnya visualisasi data
+ Mengetahui jenis visualisasi data
+ Mengetahui perbedaan dimensi dan metrik
+ Mengenal Google Data Studio sebagai salah satu alat untuk visualisasi data
+ Mengetahui komponen di Google Data Studio yang dapat digunakan untuk
+visualisasi data
+
+dan nlp saya mempelajari
+
+ Mengetahui pengertian Text Classification
+ Mengetahui area Text Classification
+ Memahami konsep dasar proses text classification (Text Classification 
+Pipeline)
+ Mampu mengimplementasikan Text Classification dengan baik
+menggunakan Bahasa Pemrograman Python.
+
+Tue, 29 Mar
+
+pada cv saya mempelajari
+• Memahami Deep Learning untuk Computer Vision
+• Memahami struktur CNN
+• Memahami implementasi CNN menggunakan Keras
+
+pada rl saya mempelajari
+• Mengetahui Monte Carlo Prediction
+• Mengetahui Monte Carlo Estimation & Control
+• Mengetahui On-Policy dan Off-Policy Monte Carlo
+• Mengetahui Dasar Pemrograman Monte Carlo
+
+Wed, 30 Mar
+
+pada hari ini saya mempelajari ds
+Memahami apa itu Web Scraping
+Mengetahui Modul untuk Web Scraping pada Python
+Mengetahui teknik melakukan Web Scraping
+Dapat melakukan Web Scraping sederhana
+Dapat menyimpan data hasil Web Scraping
+
+pada nlp saya mempelajari
+ Mengetahui pengertian Text Classification
+ Mengetahui area Text Classification
+ Memahami konsep dasar proses text classification (Text Classification 
+Pipeline)
+ Mampu mengimplementasikan Text Classification dengan baik
+menggunakan Bahasa Pemrograman Python.
+
+Thu, 31 Mar
+
+pada cv saya mempelajari
+• Memahami Deep Learning untuk Computer Vision
+• Memahami struktur CNN
+• Memahami implementasi CNN menggunakan Keras
+
+Fri, 1 Apr
+
+pada rl saya mempelajari
+• Mengetahui Monte Carlo Prediction
+• Mengetahui Monte Carlo Estimation & Control
+• Mengetahui On-Policy dan Off-Policy Monte Carlo
+• Mengetahui Dasar Pemrograman Monte Carlo
+
+What did you learn this week?
+
+Senin
+
+28 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada hari ini saya mempelajari domain ds
+ Memahami apa itu visualisasi data dan pentingnya visualisasi data
+ Mengetahui jenis visualisasi data
+ Mengetahui perbedaan dimensi dan metrik
+ Mengenal Google Data Studio sebagai salah satu alat untuk visualisasi data
+ Mengetahui komponen di Google Data Studio yang dapat digunakan untuk
+visualisasi data
+
+dan nlp saya mempelajari
+
+ Mengetahui pengertian Text Classification
+ Mengetahui area Text Classification
+ Memahami konsep dasar proses text classification (Text Classification 
+Pipeline)
+ Mampu mengimplementasikan Text Classification dengan baik
+menggunakan Bahasa Pemrograman Python.
+
+sembunyikan
+
+Selasa
+
+29 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada cv saya mempelajari
+• Memahami Deep Learning untuk Computer Vision
+• Memahami struktur CNN
+• Memahami implementasi CNN menggunakan Keras
+
+pada rl saya mempelajari
+• Mengetahui Monte Carlo Prediction
+• Mengetahui Monte Carlo Estimation & Control
+• Mengetahui On-Policy dan Off-Policy Monte Carlo
+• Mengetahui Dasar Pemrograman Monte Carlo
+
+sembunyikan
+
+Rabu
+
+30 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada hari ini saya mempelajari ds
+Memahami apa itu Web Scraping
+Mengetahui Modul untuk Web Scraping pada Python
+Mengetahui teknik melakukan Web Scraping
+Dapat melakukan Web Scraping sederhana
+Dapat menyimpan data hasil Web Scraping
+
+pada nlp saya mempelajari
+ Mengetahui pengertian Text Classification
+ Mengetahui area Text Classification
+ Memahami konsep dasar proses text classification (Text Classification 
+Pipeline)
+ Mampu mengimplementasikan Text Classification dengan baik
+menggunakan Bahasa Pemrograman Python.
+
+sembunyikan
+
+Kamis
+
+31 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada cv saya mempelajari
+• Memahami Deep Learning untuk Computer Vision
+• Memahami struktur CNN
+• Memahami implementasi CNN menggunakan Keras
+
+Jumat
+
+1 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+pada rl saya mempelajari
+• Mengetahui Monte Carlo Prediction
+• Mengetahui Monte Carlo Estimation & Control
+• Mengetahui On-Policy dan Off-Policy Monte Carlo
+• Mengetahui Dasar Pemrograman Monte Carlo

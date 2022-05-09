@@ -1,29 +1,75 @@
 Mon, 14 Mar
 
-kurang lebih membahas fungsi pada Numpy, Pandas,Objek Pandas,Matplotlib dan Seaborn serta mereview beberapa materi sebelumnya
+Di awal minggu ini saya mempelajari materi mengenai Visualisasi data.Visualisasi data sendiri menurut saya adalah cara kita Peneliti untuk menyampaikan Hasil dari data kita kedalam bentuk yang dimengerti oleh audience umum,biasanya dalam bentuk grafik atau Charts.
 
+adapun Library di python yang memungkinkan kita untuk Menampilkan grafik atau charts yaitu Matplotlib
+ada beberapa Contoh Plot yang kita dapat tampilkan menggunakan library matplotlib ini. seperti line plot,Pie Chart,Histogram,Scatterplot,boxplot dan lain lain.
+
+Materi lain yang diajarkan di hari ini adalah Lib Numpy, dan pandas.
+
+Numpy sendiri mendukung luas berbagai tipe data dan digunakan untuk fungsi me cast literal atau Tipe Sequence atau Berurutan.
+
+untuk Pandas fungsinya sebagai tool untuk melakukan analisis dan pemodelan suatu data. dari Numpy dan Pandas adalah library yang sama sama untuk membantu melakukan analisis dan pemodelan data namun, pandas lebih baik karena dari sisi fungsionalitas dan implementasi data frame nya lebih baik.
+
+Kesimpulan yang saya tangkap dari Materi ini adalah coach memperkenalkan suatu tools didalam Python yang berfungsi untuk membantu kita mengolah data dan menampilkan data.
 
 Tue, 15 Mar
 
-menjalankan fungsi seaborn secara lanjut,analisis variabel turunan,Exploratory Data Analyst,kemudan di sesi dua menjelaskan tentang bank churn analisis,Domain knowledge,data collection
+Materi selasa ini saya mempelajari mengenai Linear regression,yang kebetulan pernah menjadi materi didalam kuliah saya :D.kembali ke topik,Linear regression itu sepamahaman saya adalah suatu Cara untuk mengolah suatu data numerik dan menemukan best fits dari sekumpulan data berbentuk points.
+
+
+adapun tujuan lainnya yaitu memprediksi nilai baru yang kemungkinan yang terjadi.dengan kata lain linear regression ini bisa kita gunakan untuk memprediksi harga rumah di masa depan dengan melihat Pergerakan harga di masa sekarang.
+
+didalam Linear regression juga terdapat hal yang disebut learning rate,learning rate ini yang mengontrol seberapa besar pembaruan yang terjadi.jika LR kecil maka gradient descent akan menjadi lambat.Besarpun juga maka Gradient descent akan mengalami overshoot.
+
+Di sini juga saya mempelajari Cross validation yang terdiri dari K-fold,Stratified K-fold dan leaveoneout
+namun jujur saja disini saya kurang mengerti karena di materi yang satu ini pengajar kurang menjelaskan mengenai ketiga Cross validasi ini.tapi saya anggap ini materi sekunder untuk melengkapi materi primernya yaitu linear regression.
+
+Di siangnya saya mempelajari mengenai Variable Derivativ yang didalamnya terdapat Explatory data analysis, metode data analysis dan EDA with data Visualization.Garis besar yang saya tanagkap dari materi ini adalah cara kita mengivestigasi sebuah data dan melacak ketidakpastian dan memvalidasi asumsi menggunakan ringkasan statistik dan repsentasi visual.
 
 Wed, 16 Mar
 
-Membahas :
--Regressi Linear (GLM)
--K - Fold
--Regularization
--conclusion
--Logistic Regression
+Rabu ini Materi mengarah pada Logistic Regression,logistic Regression sendiri adalah salah satu kelas yang melakukan pemodelan terhadap probablilitas suatu keluaran kelas.misi dari logistic regression ini adalah :
+- mengharap Relasi linear yang "halus" dari prediksi
+-menghasilkan probabilitas dari keluaran bersifat diskrit
+-menyelesaikan masalah klasifikasi
+
+di cabang Logistic Regression ini juga terdapat Binarry Clasffication pengaplikasiannya di Real  kurang lebih seperti ini :
+
+- Prediksi spam atau tidak subjek dan isi pesan / email dengan melihat informasi  nya
+-prediksi cerah atau hujan dengan mengambil informasi cuaca dari BMKG (contoh)
+-bank bisa memberikan Pinjaman atau tidak dengan melihat data historis Nasabah bank.
+
+di materi selanjutnya diajarkan juga mengenai Confussion matriks yang disajikan alam bentuk tabel persegi dengan 4 persegi didalamnya. terdapat True positif , False positif, True negative dan false negatif.Prediksi cuaca bisa kita prediksi akurasinya melalui pendekatan ini.
+
+Materi selanjutnya yang diajarkan adalah decision tree,Desicion tree adalah salah satu algoritma supervised learningg yang bekerja untuk data input dan output yang bersifat kategori.bentuk dari decision tree ini seperti flow chart namun dengan banyak cabang dan dahan yang disebut internal mode dan  leaf node.
 
 Thu, 17 Mar
 
-membahas Algoritma KNN,Mereiew perbedaan Supervised dan Unsupervised Learning,Pengaplikasian KNN, serta pengenalan Decision tree
+Hari ini saya mempelajari mengenai Deep learning lagi dan dilakukan pengulasan ulang agar lebih memahami.perbedaan yang terkait antara DL dan Machine learning adalah :
+
+Deep learning adalah subtipe dari Machine Learning
+Dengan deep learning anda menggunakan gambar mentah ke DNN (Depp neural network).yang akan mempelajari fitur secara otomatis
+
+Pengaplikasian DL di Real adalah :
+- ATM menolak uang palsu
+-Aplikasi Smartphone penunjuk arah
+
+kemudian materi lainnya yang saya pelajari adalah K nearest neighbor atau KNN.K nearest sendiri merupakan pengolompokkan variable kedalam satu grup.
 
 Fri, 18 Mar
 
-Belajar mengenai Artificial Neuron dan Biological Neuron,Loss function (MSE),threeshold
+mengakhiri Hari  mempelajari ANN (artificial neural network).ANN merupakan pemrosesan informasi yang terinsipirasi dari Sistem syaraf biologi manusia,ANN belajar melalui contoh data yang diberikan.
+
+ANN sendiri terdapat 3 layer yaitu Input Layer (masukkan),Hidden Layer dan Output layer (keluaran)
+
+Arsitektur neural network terbagi menjadi 3 kelas yaitu :
+- single layer feed forward neural  networks (terdiri dari 3 Input node dan  4 output node)
+- multi layer feed forward neural networks (terdiri dari 3 input node 4 hidden node dan 2 output node)
+-reccurent neural networks
+
+kemudian yang terakhir di materi ANN ada Fungsi aktifasi,Terdapat 2 tipe dari fungsi aktifkasi yang ada yaitu Linear activations functions dan non linear Activation functions.perbedaan nya terlihat cukup jelas jika kita pindahkan ke Grafik Linear. Linear functions akan terlihat linear di grafik garis, sedangkan non linear akan melengkung dengan banyak titik (dot ) yang ada disekitarnya
 
 What did you learn this week?
 
-Mempelajari tentang dasar libary untuk dasar pemograman Mata kuliah kedepannya seperti numpy,pandas, matplotlib dan seaborn.serta diselepi beberapa pengenalan mata kuliah lanjutan seperti data Scientist,Reinforment learning, Computer vision serta  Teknikal
+Minggu ini saya Mulai mempelajari core Dari A.I seperti Visualisasi data,Manipulasi data dengan pandas,Linear regresi,Logistic Regression,Decision tree,Deep learning dan KNN.

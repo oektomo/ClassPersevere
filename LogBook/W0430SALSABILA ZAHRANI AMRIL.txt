@@ -1,0 +1,46 @@
+Mon, 14 Mar
+
+Pada hari ini saya mempelajari mengenai Panda's dan cara penggunaannya pada Jupyter Notebook. Saya mempelajari mengenai syntax dan mempelajari mengenai numpy. Coach berpesan agar mengimplementasikan penerapannya secara mandiri.
+
+Tue, 15 Mar
+
+Pada hari ini saya mempelajari mengenai matlotlib dan . Matlotlib dan bank churn analys. Pada bank churn saya mempelajari tentang domain knowledge, data collection, data cleaning, eda, data kategorik, data numerik, bivarient analisis, multivariate analisis dan statistikal method, anova analis, ci square test
+
+Wed, 16 Mar
+
+Mempelajari mengenai supervised machine learning predictive modelling, mengenai linear regretion, variabel affecting LR, error function, optimazation, cross validation, k fold cross validation, lasso, ridge, summary
+
+Thu, 17 Mar
+
+machine learning: supervised learning, comparison sl and ul, yang di dalamnya terdapat parameter, supervised learning dan unsupervised learning, k-nearest neighbor (k-nn) . contohnya banking system, calculating credit ratings, politics
+
+Fri, 18 Mar
+
+mempelajari mengenai neutal networks. yang terdiri dari ds, cv, nlp, rl dan technical, bootstrap, yang terdiri dari neural networks biological neuron, artifical neuron. dan ada juga activation function, loss function, optimizer: gradient descent
+
+What did you learn this week?
+
+Senin
+14 Mar 2022
+Apa yang kamu kerjakan hari ini?
+Pada hari ini saya mempelajari mengenai Panda's dan cara penggunaannya pada Jupyter Notebook. Saya mempelajari mengenai syntax dan mempelajari mengenai numpy. Coach berpesan agar mengimplementasikan penerapannya secara mandiri.
+
+Selasa
+15 Mar 2022
+Apa yang kamu kerjakan hari ini?
+Pada hari ini saya mempelajari mengenai matlotlib dan . Matlotlib dan bank churn analys. Pada bank churn saya mempelajari tentang domain knowledge, data collection, data cleaning, eda, data kategorik, data numerik, bivarient analisis, multivariate analisis dan statistikal method, anova analis, ci square test
+
+Rabu
+16 Mar 2022
+Apa yang kamu kerjakan hari ini?
+Mempelajari mengenai supervised machine learning predictive modelling, mengenai linear regretion, variabel affecting LR, error function, optimazation, cross validation, k fold cross validation, lasso, ridge, summary
+
+Kamis
+17 Mar 2022
+Apa yang kamu kerjakan hari ini?
+machine learning: supervised learning, comparison sl and ul, yang di dalamnya terdapat parameter, supervised learning dan unsupervised learning, k-nearest neighbor (k-nn) . contohnya banking system, calculating credit ratings, politics
+
+Jumat
+18 Mar 2022
+Apa yang kamu kerjakan hari ini?
+mempelajari mengenai neutal networks. yang terdiri dari ds, cv, nlp, rl dan technical, bootstrap, yang terdiri dari neural networks biological neuron, artifical neuron. dan ada juga activation function, loss function, optimizer: gradient descent

@@ -1,0 +1,60 @@
+Mon, 21 Feb
+
+•	Perkenalan tiap peserta
+•	Melakukan Pre-Test
+•	Perkenalan Orbit Future Academy
+•	Penjelasan Learning Objectives dari mentor
+•	Penjelasan Program AI Mastery Orbit Future Academy
+
+Tue, 22 Feb
+
+Belajar Mandiri
+
+Materi Pengenalan
+1.	AI in Industry
+2.	Why is Data called The New Oil?
+3.	Big Data
+
+Wed, 23 Feb
+
+Introduction to Programming
+1.	What is Python
+2.	“Python”?
+3.	What is Anaconda?
+4.	What is Jupyter Notebook?
+5.	What is Colab?
+6.	What is Program?
+7.	What is Programming?
+
+Thu, 24 Feb
+
+Hari ke - 4
+1.	Apa itu data?
+2.	Perbedaan data terstruktur dan tak terstruktur
+3.	Kecerdasan butuh data
+4.	Data kualitatif dan data kuantitatif
+5.	Cara memperoleh data 
+6.	What is AI ethics?
+7.	Why is AI ethics important?
+8.	AI ethics principles
+
+Fri, 25 Feb
+
+Sekf Study Jumat 25 Februari :
+
+1.	Penjelasan apa itu Python
+2.	Alasan kenapa python sangat populer
+3.	Sejarah singkat Python
+4.	Instalasi Python
+5.	Menggunakan Jupyter Notebook melalui Anaconda Navigator
+6.	Membuat perintah “Hello World”
+7.	Pengenalan variabel pada bahasa Python
+
+What did you learn this week?
+
+Minggu Pertama 21 - 25 Februari :
+1.	Melakukan Perkenalan dari tiap peserta dan juga perkenalan program AI Mastery Orbit Future Academy
+2.	Penjelasan tentang AI di bidang Industry dan Big Data
+3.	Pengenalan tentang programming menggunakan bahasa Python di platform Jupyter Notebook / Google Colab
+4.	Penjelasan tentang Data dan AI Ethics
+5.	Melakukan basic Programming menggunakan Python

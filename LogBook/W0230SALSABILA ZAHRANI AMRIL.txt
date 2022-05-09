@@ -1,0 +1,31 @@
+Mon, 28 Feb
+
+Kegiatan MBKM pada hari ini diliburkan sebab pada hari ini tanggal merah.
+
+Tue, 1 Mar
+
+Kegiatan pada hari ini adalah pada Sesi 1 saya mempelajarai mengenai Phyton dan pada Sesi 2 saya mempelajari mengenai Data. Terdapat tugas yang diberikan oleh Coach. Coach meminta untuk mengerjakan tugas dimana siswa diminta untuk melakukan coding mandiri yang bersumber dari open source W3SCHOOL. Tugas dikerjakan boleh menggunakan Phyton atau Jupyter Notebook, tetapi saya menggunakan Phyton agar lebih mudah. Saya melakukan tugas dimulai dari Phyton Home sampai Phyton Dictionaries.
+
+Wed, 2 Mar
+
+Kegiatan pada hari ini adalah pada Sesi 1 saya mempelajarai mengenai Phyton dan pada Sesi 2 saya mempelajari mengenai fungsi-fungsi dari Python. Terdapat tugas yang diberikan oleh Coach. Coach meminta untuk mengerjakan tugas dimana siswa diminta untuk melakukan coding mandiri yang bersumber dari open source W3SCHOOL. Tugas dikerjakan boleh menggunakan  Jupyter Notebook, tetapi saya menggunakan Phyton agar lebih mudah. 
+
+Thu, 3 Mar
+
+Kegiatan pada hari ini diliburkan dikarenakan tanggal merah. Sehingga kegiatan kelas ditiadakan, akibat perayaan Hari Raya Nyepi.
+
+Fri, 4 Mar
+
+Kegiatan yang dilakukan adalah pembelajaran mengenai Pyton dan mengintegrasikannya pada Jupyter Notebook. Coach memberikan case-case dan mengintegrasikannya dengan baik dan benar. Lalu Coach juga menjelaskan bagaimana apabila case tersebut sesuai yang dianjurkan atau tidak.
+
+What did you learn this week?
+
+Kegiatan MBKM pada hari ini diliburkan sebab pada hari ini tanggal merah
+ 
+Kegiatan pada hari ini adalah pada Sesi 1 saya mempelajarai mengenai Phyton dan pada Sesi 2 saya mempelajari mengenai Data. Terdapat tugas yang diberikan oleh Coach. Coach meminta untuk mengerjakan tugas dimana siswa diminta untuk melakukan coding mandiri yang bersumber dari open source W3SCHOOL. Tugas dikerjakan boleh menggunakan Phyton atau Jupyter Notebook, tetapi saya menggunakan Phyton agar lebih mudah. Saya melakukan tugas dimulai dari Phyton Home sampai Phyton Dictionaries.
+
+Kegiatan pada hari ini adalah pada Sesi 1 saya mempelajarai mengenai Phyton dan pada Sesi 2 saya mempelajari mengenai fungsi-fungsi dari Python. Terdapat tugas yang diberikan oleh Coach. Coach meminta untuk mengerjakan tugas dimana siswa diminta untuk melakukan coding mandiri yang bersumber dari open source W3SCHOOL. Tugas dikerjakan boleh menggunakan  Jupyter Notebook, tetapi saya menggunakan Phyton agar lebih mudah
+
+Kegiatan pada hari ini diliburkan dikarenakan tanggal merah. Sehingga kegiatan kelas ditiadakan, akibat perayaan Hari Raya Nyepi.
+
+Kegiatan yang dilakukan adalah pembelajaran mengenai Pyton dan mengintegrasikannya pada Jupyter Notebook. Coach memberikan case-case dan mengintegrasikannya dengan baik dan benar. Lalu Coach juga menjelaskan bagaimana apabila case tersebut sesuai yang dianjurkan atau tidak.

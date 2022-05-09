@@ -1,0 +1,108 @@
+Mon, 11 Apr
+
+11 April 2022
+Data Science
+•	Pengenalan Data Science (Deep Learning Approach)
+Deep learning dapat mempercepat proses data preparation dan dapat mempelajari pola data yang lebih kompleks dengan cara yang lebih lengkap.
+Mempelajari perbedaan antara statiscal approach dan deep learning approach.
+•	Mempelajari time series model.
+Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU.
+Ketiga metode memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda.
+•	Melakukan time series forecasting menggunakan deep learning.
+
+Tue, 12 Apr
+
+12 April 2022
+Computer Vision
+•	Pengenalan autoencoder
+autoencoders neural network adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+•	Mempelajari properti autoencoder
+properties of autoencoder : Data-specific, Lossy dan Unsupervised.
+•	Mempelajari arsitektur pada autoencoder
+•	Mempelajari aplikasi autoencoder
+Diantaranya adalah Image Reconstruction, Image Coloring and Noise reduction, Feature Variation.
+
+Wed, 13 Apr
+
+13 April 2022
+Natural Languange Processing
+•	Mempelajari konsep transfer learning pada NLP. 
+Transfer learning adalah melatih model pada tugas tertentu, lalu model tersebut dapat digunakan untuk tugas yang berbeda.
+Dalam paradigma transfer learning, pengurangan kebutuhan data dan komputasi dapat dicapai melalui berbagi knowledge.
+•	Mempelajari batasan word embedding tradisional. 
+Beberapa kata memiliki makna yang berbeda (homonim) atau memiliki lebih dari satu makna (polisemi). 
+Word2Vec diterapkan dengan cara context-free manner. 
+Solusi: latih representasi kontekstual pada korpus teks berukuran besar.
+•	Mempelajari mekanisme self-attention pada arsitektur transformer. 
+Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri). 
+Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+•	Mempelajari arsitektur dan representasi input BERT. 
+BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+•	Melakukan fine-tuning menggunakan BERT.
+Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. 
+Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+Thu, 14 Apr
+
+14 April 2022
+Reinforcement Learning
+•	Mengetahui Dasar dari Robotika 
+Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot.
+•	Mengetahui Kegunaan Konsep Machine Learning untuk Robotika 
+•	Mengimplementasikan Reinforcement Learning pada Robotika
+
+Fri, 15 Apr
+
+15 April 2022
+Teknikal
+Self study : Unit Testing, Refactoring, dan Debugging
+•	Pengenalan Unit Testing
+Merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program.
+Docstrings untuk Unit Testing.
+Mempelajari penggunaan Library unittest.
+Mempelajari cara membuat test package
+•	Refactoring
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan.
+•	Debugging
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program.
+
+What did you learn this week?
+
+11 April 2022
+Data Science
+•	Pengenalan Data Science (Deep Learning Approach) 
+Mempelajari perbedaan antara statiscal approach dan deep learning approach.
+•	Mempelajari time series model.
+•	Melakukan time series forecasting menggunakan deep learning.
+
+12 April 2022
+Computer Vision
+•	Pengenalan autoencoder
+•	Mempelajari properti autoencoder
+•	Mempelajari arsitektur pada autoencoder
+•	Mempelajari aplikasi autoencoder
+
+13 April 2022
+Natural Languange Processing
+•	Mempelajari konsep transfer learning pada NLP. 
+•	Mempelajari batasan word embedding tradisional. 
+•	Mempelajari mekanisme self-attention pada arsitektur transformer. 
+•	Mempelajari arsitektur dan representasi input BERT. 
+•	Melakukan fine-tuning menggunakan BERT.
+
+14 April 2022
+Reinforcement Learning
+•	Mengetahui Dasar dari Robotika 
+•	Mengetahui Kegunaan Konsep Machine Learning untuk Robotika 
+•	Mengimplementasikan Reinforcement Learning pada Robotika
+
+15 April 2022
+Teknikal
+Self study : Unit Testing, Refactoring, dan Debugging
+•	Pengenalan Unit Testing
+Mempelajari cara membuat test package
+•	Refactoring
+•	Debugging
+
+
+

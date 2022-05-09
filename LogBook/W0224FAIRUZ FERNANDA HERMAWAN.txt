@@ -7,23 +7,50 @@ dalam sistem pakar terdapat 3 unsur manusia yaitu
 -perekayasa pengetahuan
 -pemakai
 
+kurang lebihnya disini saya mencari referensi dari luar yang related dengan AI sehingga bisa lebih mehami bidang ini lebih jauh
+
 Tue, 1 Mar
 
-Mereview pertemuan  minggu lalu,serta diajarkan materi coding python seperti integer,string,dictionary,list dan set
+minggu ini adalah minggu pertama saya bertemu secara online dengan teman + coach homeroom
+
+di hari ini saya mempelajari kembali mengenai Bahasa pemograman python,Compiler atau pembanding untuk memastikan kode itu jalan atau tidak. serta pengaplikasian dari python di bidang lain seperti pengembangan web, web scrapping,software testing dan Data Analysis. kemudian  dijelaskan juga mengenai distribusi python  di mana saja. sebagai contoh anaconda yang akan digunakan dalam sesi coding selanjutnya
+
+serta terakhir bagaimana cara setup python didalam anaconda
 
 Wed, 2 Mar
 
-mempelajari github,cara commit,cara membuat branch dan cara
-pull request.
+Hari ini saya mempelajari Operator di python dan Control flow secara garis besarnya.
+
+didalam operator python kita mengetahui ada (+,-,*,/) yang merupakan Operasi biasa pada matematika yang digunakan pada bidang komputer.yang menarik bagi saya ada 3 tambahan operasi lagi yang terdapat di python yaitu (,%,// dan **) yang masing masing artinya adalah Modulus(hasil sisa pembagian),floor division (pembulatan) dan exponent (perpangkatan) yang menurut saya cukup baru selanjutnya ada operasi logika yang kebetulan pernah bersinggungan di kuliah saya sebelumnya yaitu (and, or , dan not). and,or,not ini sendiri menurut sepahaman saya adalah :
+
+and = sama sama True jika kedua variabel bernilai true
+or = jika salah satu variable true 
+not = true jika variable nya salah
+
+selanjutnya saya mempelajari mengenai control flow, control flow sendiri adalah cara suatu program menyikapi dalam mengambil suatu keputusan seperti contohnya if else, if sendiri adalah jika kita memasukkan suatu variable (ex : y)  dan kita  ingin mengeluarkan perintah halo dalam variable y tersebut maka bisa bisa saja. dan else sendiri adalah pengecualian selain if maka akan keluar kata yang berlainan jika kita masukka state nya.
+
+kemudian ada loop, seperti namanya loop sendiri adalah sebuah pengulangan sebagai contoh jika kita mengiginkan menulis "aku lagi sekolah" sebanyak 100x maka kita tidak perlu mengetik kata tersebut sebanyak 100x kita masukkan saja kode loop tersebut maka kita akan menghemat tenaga mengetik  dan tentu saja bisa rebahan sambil menunggu kata itu selesai.
 
 Thu, 3 Mar
 
-Libur nasional,tapi saya mereview materi materi sebelumnya untuk dipelajari kembali
+Hari kamis ini ada libur nasional namun, hari in isaya mempelajari fungsi pada python.seperti yang saya ketahui sebelumnya kalau di pyhton itu ada Operasi Matematika,namun ada pula fungsi python yang digaris bawahi hari ini adalah fungsi def.fungsi def adalah mendefinisikan suatu nama fungsi yang kita buat beserta dengan input arguments yang akan digunakan nantinya.
+
+kemudian ada fungsi return yang mmepunyai fungsi untuk pengembalian oleh fungsi .
+
+lalu ada genetators yang merupakan jenis fungsi khusus yang tidak mengembalikan nilai tunggal,mengembalikan objek iterasi dengan urutan nilai.
+
+ada juga fungsi lambda yang merupakan fungsi untuk mempresentasikan ekspresi pendek dalam waktu singkat.
+
+terakhir saya mencoba hans on coding yang saya buat sendiri untuk mengimplemtasikan hasil materi saya di hari ini.
 
 Fri, 4 Mar
 
-belajar membuat fungsi,generator,global variabel dan local variabel serta fungsi lambda pada jupiter notebook
+Hari ini saya mempelajari mengenai flowchart,flowchart sendiri sangat penting bagi programmer pemula karena kita perlu mengetahui cara komputer bekerja yang disederhanakan dalam bentuk flow chart.
+
+disini juga ada simbol standar flow chart seperti Persegi panjang yang mengarti kan proses,Belah ketupat yang mengartikan keputusan, kemudian jajar genjang yang berarti input output.
+
+di terakhir juga saya melihat hands on coach mengenai bagaimana kita menghitung luas persegi dan persegi panjang didalam bentuk pemograman python.hari ini menurut saya cukup menarik dalam pendekatan pembelajara n python.
 
 What did you learn this week?
 
-mempelajari berbagai macam fungsi pada python,mempelajari cara mengirim file ipynb ke github,serta menghubungkan google colab dengan akun github.
+minggu ini saya mereview general python, dan mencoba Hands on coding sederhana dari coach dalam membuat persegi panjang di python (google colab).adapun di sisi lain saya mempelajari Controlflow dan mempelajari Chartflow serta Program Develompent life cycle dalam pemograman.

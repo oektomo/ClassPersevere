@@ -1,40 +1,79 @@
 Mon, 7 Mar
 
-Mempelajari mengenai cabang cabang di AI seperi Computer Vision,Machine Learning dan Data Science secara umum.
+Hari ini saya mempelajari mengenai Object oriented programming.menurut sepahaman saya OOP ini adalah metode pemrograman yang beriorentasi objek.jadi bahasa mudahnya itu suatu objek yang ada disekitar  direpsentasikan dalam bentuk program.
+
+adapun di OOP ini terdapat cabang nya seperti Class.Class sendiri itu adalah Prototipe yang digunakan untuk membuat suatu objek dan terdiri dari atribut dan metode.
+
+Kemudian ada inharitance,inharitance atau pewarisan  adalah suatu  kelas turunan yang mendapat "warisan sifat" dari kelas yang sudah ada sebelumnya.biasa disebut dengan Child class.
+
+kemudian ada modul python,merupakan file dengan ekstensi yang berisi kode python yang dapat diimpor ke dalam program python lain.
+
+garis besar yang saya dapatkan pada hari ini adalah pembelajaran OOP yang menurut saya akan digunakan dalam pembelajaran Machine learning,karena secara hakikatnya kita memberikan "otak" kita kedalam  mesin komputer untuk dijadikan kecerdasan buatan dan itu merupakan suatu objek.
 
 Tue, 8 Mar
 
-Pembahasan mengenai Materi Aljabar Linear,Statistik serta Peluang.dan mencoba mencoding dengan menggunakan Library NumPy
+Di hari ini membahas Fundamental Machine learning.Machine learning terdiiri dari 3 + 1 pendekatan yaitu :
+-Supervised learning pengaplikasiannya => Estimasi,Prediksi,Klasifikasi
+-Unsupervised Learning => Clustering,Association
+-Semi supervised learning
+- Reinforced Learning
+
+kemudian coach menjelaskan mengenai Traditional progremming dan machine leaning letak perbedaannya hanya di input yang dimasukkan dan keluarannya. 
+
+Data + Aturan => TP => Menghasilkan Jawaban
+data + Jawaban => ML => Aturan
+
+Untuk membuat Machine learning ada suatu cara yang disebut Life Cycle Ml untuk menentukan hingga model ML nya jadi  yaitu :
+- Menentukkan tujuan
+- mengumpulkan data
+- Menyiapkan data
+-Pilih algoritma
+-Melatih model
+- mengetes model
+
+garis besar yang saya tangkap di hari ini saya diperkenalkan  oleh pengetahuan general mengenai machine learning dan pendekatannya yang sudah dijelaskan diatas.serta langkah langkah membuat suatu model Machine learning secara terurut terarah.
 
 Wed, 9 Mar
 
-kegiatan hari rabu kurang lebih :
-- Mereview materi Aljabar linear,statistik dan probabilitas
-- membahas mengenai Artifical neural network
-- membahas deep learning
+Hari ini Materi besarnya adalah Neural Network dan Deep learning.Neural network itu bisa diasumsikan seperti Syaraf yang terdapat pada manusia.Deep learning sendiri jika menurut saya itu seperti Pemecahan Suatu data yang dilihat/didapat kemudian diklasifikasikan dan diolah data itu menjadi bentuk  informasi untuk dibuat suatu kesimpulan.
+
+adapun fakta menarik yang saya dapat kalau melatih suatu model deep learning itu ternyata membutuhkan waktu yang tidak sedikit mulai dari berjam jam hingga berminggu minggu tergantung dari model yang dilatih dan sekomplek apa model itu.menurut saya itu hal yang wajar sih karena deep learning itu seperti kita membuat suatu mesin yang bisa berfikir "kritis" untuk mengolah data hingga menjadi jawaban.
+
+Deep leaning sendiri sangat berguna ketika banyak data yang tidak berstruktur dan  banyak untuk dilakukan penyesuaian data,untuk mengolah data berbentuk voice,gambar dan video.adapun secara kinerja deep learning jika kita beri banyak data maka performa nya akan semakin baik.berbeda dengan machine learning yang pada tiitk tertentu akan mengalami "stagnan".
+
+Framework yang sering digunakan pada deep learning contohnya adalah : tensorflow,Oytorch dan DL4J library ini terdapat diimpor pada Google collab dan  Jupiter notebook.
 
 Thu, 10 Mar
 
-hari kamis kegiatannya :
--membahas Project Ai scope yang terdiri dari :
--Problem Scoping
+Materi yang dibahas hari kamis adalah membahas Project Ai scope yang terdiri dari :
+-Problem Scoping 
+Problem scoping sendiri sepemahan saya adalah "mencari" suatu masalah yang ada di masyarakat yang harapannya kita bisa angkat menjadi Tujuan untuk penelitian
 - Data Aquisition
+Auisition / pengumpulan,ditahap ini kita selaku peneliti mengumpulkan data sebanyak banyaknya yang nantinya akan kita olah .datanya sendiri bisa kita dapat dari pengisian quisioner / terjun langsung ke sebagian subjek di lingkungan masyarakat.
 - Data exploration
+Penjelajahan data,Sepemahaman saya di tahap ini kita melakukan pemilihan data yang nantinya kita akan olah kedalam bentuk model.di tahap ini kita juga melakukan namanya Data cleaning untuk memilah milih data yang relevan dan berpotensi mengandung suatu informasi yang bermanfaat.
 - Modelling
+Di tahap ini kita membuat suatu prototype dalam bentuk hardware/software yang diharapkan bisa menyelsaikan problema masyarakat.
 - Evaluation
+Di tahap ini peneliti Membuat Kesimpulan dan jikalau ada kesalahan atau kekekurangan Dalam modelling maka akan dilakukan Pelatihan ulang model dan kembali lagi ke tahap Modelling untuk diuji coba kembali
 - Deployment
+jika peneliti merasa bahwa Model tersebut sudah memenuhi ekspetasi maka peneliti akan merilis Model tersebut ke publik untuk digunakan khalayak orang banyak.dan diharap orang banyak dapat merasa manfaat dari model yang dirilis tersebut.
+
+adapun materi lain yang diajarkan di hari ini adalah Data Analysis dengan Statistik Python kurang lebih sub materi nya adalah Kita bisa memahami teori peluang,Distribusi Normal ,Aturan empiris dan teorema bayes,dan memahami ANOVA dan Chi square.
+
+Materi yang menarik bagi saya adalah distribusi Normal,Karena materi ini pernah disampaikan di mata kuliah sebelumnya.sehingga cukup mengerti.namun saya sendiri penasaran apa fungsi distribusi Normal ada do Artificial Intellegence (A.I).
+
+setelah saya mencari jawabannya ternyata di statistik ini yang termasuk sub bab di Data Analysis  kita perlu tau Distribusi normal karena Distribusi normal memudahkan kita Dalam menunjukkan distribusi Suatu variabel.Distribusi normal juga digunakan sebagai syarat untuk melakukan uji Parametrik ANOVA
+
+ANOVA atau analisis of variance digunakan pada statistika untuk membandingkan lebih dari 2 kelompok variabel.adapun ANOVA adalah data yang sudah didistribusi normal dan variannya harus homogen
+
 
 Fri, 11 Mar
 
-membahas :
--Membahas OOP
--Parent
--Inharitance
--Encapsulation
--Reusability
--Simplicity
--Scoping
+Di hari jumat Materi nya cukup ringan Seperi mereview Materi AI, Machine learning, traditional programming approach, Machine learning approach yang sudah diajarkan pada Hari rabu kemarin.
+
+materi lainnya seperti Materi Matematika,Basic statistic dan Advanced statistik juga sudah dijelaskan pada rabu dan kamis kemarin. yah intinya mah hari jumat kurang lebih mengingat kembali materi yang sudah sudah di minggu ini.
 
 What did you learn this week?
 
-kurang lebih di minggu ini saya mempelajari mengenai pendalaman mengenai AI seperti ANN (artifical neural network),Membahas matematika seperti Aljabar linear,statistik serta probabilitas,serta live coding tentang library numpy dan Object oriented programming.
+minggu ini Saya mempelajari mengenai Core Eksak dari Artificial inttelegent seperti data analysis,Statistik,Machine learning dan deep learning serta Objek Oriented Programming sebagai Jembatan untuk membuat suatu model AI .

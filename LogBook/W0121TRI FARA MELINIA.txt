@@ -1,0 +1,29 @@
+Mon, 21 Feb
+
+Senin, 21/02/22
+Kegiatan hari ini diawali dengan perkenalan seluruh anggota kelas kemudian ada pre-test terkait AI secara umum. Selanjutnya coach oetomo menjelaskan kontrak belajar dilanjutkan arahan terkait apa yang akan dipelajari (RPS). Materi yang dibahas pada hari ini yaitu terkait artificial intelligence dan aplikasinya. Artificial Intelligence adalah kecerdasan butan yang dirancang mengikuti tindakan dan pola pikir manusia. AI ini sekarang sedang trend sekali dan banyak digunakan di segala bidang, seperti pendidikan, kesehatan, ekonomi, perbankan dan masih banyak lagi.
+
+Tue, 22 Feb
+
+Selasa, 22/02/22
+Hari ini saya belajar terkait dasar-dasar bahasa Python. Bahasa Python adalah bahasa pemrograman untuk merancang suatu produk artificial intelligent. Mengaplikasikan bahasa Python dasar pada Jupyter Notebook seperti tipe data, operator dan variabel.
+
+Wed, 23 Feb
+
+Rabu, 23/02/22
+Hari ini sangat menyenangkan, saya belajar implementasi AI di industri melalui modul dan video youtube yang diberikan oleh coach Oetomo. Mengenal Jupyter Notebook dan Google Colab serta tools yang ada didalamnya. Dan sedikit mempelajari terkait Big Data. Big Data adalah fenomena yang diciptakan karena adanya kemajuan digital. Big Data adalah implementasi dari 3V (Volume, Velocity, Variety) dimana sebuah data semakin lama akan semakin besar, cepat dan beragam. Kemudian adanya korelasi Big Data dengan data science, dimana data science dapat disebut juga sebagai implementasi lanjutan dari Big Data.
+
+Thu, 24 Feb
+
+Kamis 24/02/22
+Hari ini saya belajar terkait Data, Etik dan Bias pada AI. Ada beberapa jenis tipe data, namun secara umum data dapat dibagi menjadi 2 yaitu data terstruktur dan data tidak terstruktur. Etika AI adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi.
+
+Fri, 25 Feb
+
+Jumat 25/02/22
+Kegiatan hari ini memepelajari tentang dasar dasar python : number, tipe data, variabe, operatorl dan string.
+
+What did you learn this week?
+
+Kegiatan minggu ini diawali dengan perkenalan dengan coach membahas topik apa saja yang akan dipelajari selama masa studi independen kemudian peraturan" kelas. 
+Terkait dengan materi pembelajaran dilakukan secara mandiri selama satu minggu ini dan diskusi aktif di discord setiap hari. Mulai dari pengertian Artificial Intellegence dan penjabarannya serta pengenalan software yang digunakan seperti Jupyter dan google colaboratory dan materi dasar Python yang disediakan dalam bentuk modul dan video p

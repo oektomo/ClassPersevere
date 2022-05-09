@@ -1,0 +1,49 @@
+Mon, 28 Mar
+
+28 Maret 2022 : Data Science
+Teknik Reduksi Dimensi : LDA dan PCA
+LDA (Linear Discriminant Analysis) merupakan salah satu algoritma ML untuk klasifikasi yang juga dapat digunakan untuk redksi dimensi. Cara kerjanya yaitu dengan menghitung statistik ringkasan untuk fitur-fitur input menurut label, seperti mean dan standar deviasi.
+Perbedaan PCA dan LDA 
+PCA  merupakan unsupervised learning (tidak menggunakan label) dan digunakan untuk memaksimalkan variance di tiap fitur terbaru. Sedangkan LDA merupakan supervised learning (menggunakan label) dan digunakan untuk memaksimalkan jarak antar kelas. Namun keduanya sma-sama menggunakan nilai eigen dan vektor eigen.
+
+Kesimpulan : dimensi reduksi berfungsi untuk mengurangi fitur atau variabel prediktor yang banyak menjadi beberapa fitur saja. akan tetapi pengurangan fitur tidak menghilangkan informasi yang dimuat pada data tersebut.
+
+Tue, 29 Mar
+
+29 Maret 2020 
+CV
+Convolutional Layer : Tujuan utama dari convolusi adalah untuk mengekstrak fitur dari citra masukan. Konvolusi mempertahankan hubungan spasial antara input dengan mempelajari fitur input. Ada beberapa argument pada Convolutional Layer seperti filters, kernel_size, strides, padding, activation.
+- stride adalah parameter yang menentukan beberapa jumlah  pergeseran filter.
+- Padding atau zero padding adalah parameter yang menetukan jumlah pixel (berisi nilai nol0 yang akan ditambahkan di setiap sisi dari input.
+
+ReLU Layer (Rectified linear unit) merupakan tipe dari fungsi aktivasi.
+
+Pooling Layers  (pool_size : integer atau 2-tuple integer. Ukuran dari jendela yang ingin diambil nilai maksimumnya), Strides, Padding.
+
+Flatten Layers 
+fungsi flatten menyatakan tensor input multidimensi menjadi satu dimensi, sehingga kita dapat memodelkan lapisan input dan membangun model jaringan saraf, lalu meneruskan data tersebut ke setiap neuron model secara efektif. matriks fitur akan diubah menjadi vektor (x1, x2, x3, ...)
+
+CNN Architecture memiliki tiga jenis lapisan (layer) untuk membangun arsitektur selain lapisan input :
+- Convolutional Layer (dengan aktivasi ReLU)
+- Pooling Layers
+- Fully Connected or Dense Layers.
+
+
+Wed, 30 Mar
+
+Domain : RL - Monte Carlo Prediction
+Konsep Monte Carlo 
+- MC tidak mengambil pengetahuan lengkap dari lingkungan.
+- MC belajar dari pengalaman, episode per episode, baik pengalaman aktual maupun simulasi
+- MC belajar dari episode-episode secara utuh dan independen, tidak boostrapping
+Kemudian mempelajari algoritma Monte Carlo - algoritma first-visit, every-visit beserta penyelesaian secara matematis nya. cukup sulit dipahami hehe. Kemudian Estimasi Monte Carlo.
+
+Thu, 31 Mar
+
+-
+
+Fri, 1 Apr
+
+-
+
+What did you learn this week?

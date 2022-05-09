@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+Kegiatan hari ini sangat seru, saya mempelajari mengenai course Artificial Intelligent, coach yang mengajarkan pun dapat menjelaskan materi dengan baik, pada hari ini  coach memberikan pertanyaan dan saya dapat menjawabnya di kolom chat. Saya juga diberikan tugas untuk melengkapi kegiatan Orbit Guru Minggu 1 dikarenakan pada minggu 1 pembelajaran dilakukan secara self study
+
+Tue, 22 Feb
+
+Kegiatan hari ini adalah self study, dimana materi dibagikan melalui drive dan dipelajari secara mandiri. Siswa juga diminta untuk  menginstall Jupyter Notebook dan mempelajari  Google Collab serta join server Discord untuk berkomunikasi.
+
+Wed, 23 Feb
+
+Melakukan self study dengan mempelajari yang ada di materi hari rabu, Melakukan coding sesuai yang diperintahkan
+
+Thu, 24 Feb
+
+Pada pembelajaran self study hari ini, saya mempelajari mengenai Data. Dimana di dalam materi tersebut terdapat berbagai materi mengenai data. Termasuk di dalamnya terdapat kuis dan game yang sangat seru.
+
+Fri, 25 Feb
+
+Pada hari ini saya mempelajari mengenai Phyton dan mempelajari secara mandiri dengan video Phyton. Jupyter Notebook berguna untuk ngoding. Jupyter Notebook saya mempelajari mengenai variabel,  intiger, string dan membuat kodingan dengan pertambahan, pengurangan . Lalu saya mempelajari mengenai memasukan source dalam Jupyter Notebook dan menampilkannya pada Jupyter Notebook,
+
+What did you learn this week?
+
+Saya mempelajari mengenai perkenalan Artificial Intelligent, terdapat penjelasan materi secara singkat yang disampaikan oleh Coach. Dan terdapat tanya jawab. Kegiatan selanjutnya adalah menginstall Jupyter Notebook dan mempelajarinya pada Google Collab. Selanjutnya self study mempelajari mengenai materi yang dilampirkan. Mempelajari mengenai data dan implementasi pada Jupyter Notebook. Implementasi yang ditampilkan oleh Coach mudah dimengerti dan diakhiri dengan implementasi source Orbit pada Jupyter Notebook.

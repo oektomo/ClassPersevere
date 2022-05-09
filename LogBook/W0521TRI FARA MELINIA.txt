@@ -1,0 +1,97 @@
+Mon, 21 Mar
+
+21 Maret
+sesi 1 : Data Science
+Pilar kemampuan data science :
+- Memiliki kemampuan coding pada suatu bahasa pemrograman (python)
+- Memiliki kemampuan analisa statistik/ matematika
+- Memahami case yang sedang diamati
+Data Science Project Cycle
+Problem Scoping -> Data Acquisition -> Data Exploration -> Modelling -> Evaluation -> Deployment
+dijelaskan juga terkait jenis data, preprocessing data, kelompok data (supervised dan unsupervised ), regresi, ensemble technique, decision tree.
+sesi2 : NLP
+NLP adalah cabang keilmuan dari kecerdasan buatan yang mempelajari interaksi antara komputer dan manusia menggunakan bahasa alami. NLP terdiri dari NLU(kemampuan membaca) dan NLG(kemampuan menulis). Area aplikasi NLP : QAS, Information Retrival, text summarization, text classification, mechine translasion. NLP pipeline merujuk pada langkah-langkah yang dilakukan untuk membangun sistem berbasis NLP. Secara umum terdiri dari : akuisisi data, text cleaning, text processing, rekayasa fitur, pemodelan, evaluasi model, deployment dan mentoring. Tantangan utama NLP adalah sarkasme, kesalahan bahasa(typo) , penggunaan bahasa gaul dan ketersediaan bahasa. Masa depan NLP meliputi pengenalan emosi, kebutuhan pemahaman bahasa akan terus dibutuhkan pada semua bidang kehidupan manusia.
+
+Tue, 22 Mar
+
+22 Maret
+sesi 1 : Computer Vision
+Metode : Image Aquisitio, Pre-Processing, Reature Extraction, Detection/segmentation, Recognition an interpretation
+Input -> sensing device -> interpreting device -> output
+Cara mengetahui metode terbaik
+Empiris - mencoba semua kemungkinan
+Referensi - web, jurnal yg sdh dibuat oleh engineer sebelumnya
+Deteksi penyakit
+Perlu melakukan perbaikan density, enhancement, filtering
+sesi 2 : Reinforcement Learning
+Elemen RL : agent, reward dan action
+Karakteristik Reward dan Action 
+sistem reward dalam sebuah lingkungan mungkin tidak langung diberikan(delayed reward). Reward bisa dilihat sebagai umpan balik terhadap agent, karenanya beberapa reward mengalami panundaan maka umpan balik sering kali tertunda. Adanya Delayed Gratification dan seringkali memberikan total reward yang lebih besar. Sedangkan action itu semua tindakan yang mungkin telah diketahui.
+
+Wed, 23 Mar
+
+23 Maret
+Sesi 1 : Data Science
+Bar Chart adalah grafik yang menyajikan data kategorikal dalam bentuk batang dengan panjang batang yang mewakili nilainya.
+Line Chart adalah visualisasi data yang digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu.
+Pie Chart adalah visualisasi data untuk menunjukan sebuah komposisi tertentu dari sebuah data. Bagian yang ada pada pie chart menunjukkan proporsi dari bagian data terhadap keseluruhan data.
+Histogram adalah grafik yang biasa digunakan untuk menampilkan distribusi dari sebuah data. Biasanya digunakan untuk melihat distribusi probabilitas dari variabel Kontinu. 
+Sesi 2 : NLP
+NLP : Data Acquisition -> Text Cleaning -> Pre-proscessing -> Feature Engineering -> Modeling -> Evaluation -> Deployment -> Monitoring and Model Updating.
+Feature Extraction/ Pembobotan kata adalah proses mengubah kata menjadi bentuk vektor array sehingga bisa du-roses Oleh algoritma methine learning. Ada 2 pembobotan kata yang mum digunakan yaitu Bag of Word dan TF-IDF
+
+Thu, 24 Mar
+
+24 Maret
+Sesi 1 : CV
+Perbaikan Citra
+- Operasi Transformasi Intensitas pada Citra  
+- Power law (Gamma) transformation 
+- Histogram citra 
+- Histogram equalization (noticed)
+
+Image Filtering
+Apakah image/hasil camera harus di convert ke 8 tau 16 bit ? iya
+1. Capture data object pada Dunia nyata
+2. Ukuran matriks m x n = 64 x 64
+3. Untuk represents - koordinar dan nilai intensitas(8 bit, 16 bit, 32 bit) ukurannya 0-255 list untuk bisa merepresentasikan sebuah Citra.
+4. Alasan : komputer hanza bisa membaca dalam bentik binary
+Note : citra hanya bisa pada bilangan bulat
+
+Sesi 2 : Technical
+GIT dan Github
+
+Fri, 25 Mar
+
+25 Maret : RL
+Markov Decision Process mendeskripsikan secara formal lingkungan RL. Secara spesefik biasanya dibuat saat enviroment fully observable. Hampir semua RL problems dapat diformalisasi menggunkan MDP (optimal control, partially observable problems, bandits problem). 
+Contoh pada permainan dadu
+- untuk setiap ronde r = 1, 2,.. 
+- bisa memilih main atau keluar
+- jika keluar, mendapatkan 10 poin dan permainan berakhir
+- jika main, mendapatka 4 poin dan dadu dilempar (jika dadu keluar angka 1 atau 2, permainan berakhir, selain itu lanjut ke ronde berikutnya.
+Aplikasi MDP pada permainan dadu 
+- untuk setiap ronde r = 1, 2, ... 
+- bisa memilih untuk main atau keluar 
+- jika keuar mendapatkan 10 koin dan permainan berakhir 
+- jika main, mendapatkan mendapatkan 4 koin dan dadu dilempar (jika dadu keluar angka 1 atau 2, permainan berakhir, selain itu lanjut ke ronde berikutnya.
+> state (s) node : himpunan dari states 
+> action (a) : action yang tersedia dari state s (action q(s,a) )
+> probability P(s,a,s') : probabilitas ke s' jika mengambil action a dari state s 
+> reward (s,a,s') : idem dengan diatas
+> isEnd(s) : apakah state terakhir 
+> gamma (faktor diskon)
+Contoh pada transoportasi
+- sebuah kota yang mempunyai nomor blok 1 sampai n 
+- berjalan dari s ke s +1 membutuhkan waktu 1 menit. 
+- Naik tram ajaib dari s ke 2s membutuhkan waktu 2 menit 
+- Tram punya kemungkinan gagal 0.5 
+- Jika gagal, waktu habis 2 menit tapi tidak pindah blok
+
+Adapun beberapa kegunaan gamma (faktor diskon) :
+- secara matematik memberikan konstanta untuk diskon itu mudah
+- menghindari return tak terhingga dalam proses markov yang berbentuk siklus 
+-masa depan yang tidak pasti yang mungkin tidak diawali model. 
+- dalam hal finansial, reward langsung lebih menarik dibanding reward nanti
+- perilaku binatang/ manusia biasanya lebih memilih reward langsung
+- tetap memungkinkan untuk menggunakan Markov Reward yang tidak didiskon 

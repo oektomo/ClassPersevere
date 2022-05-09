@@ -1,0 +1,187 @@
+Mon, 7 Mar
+
+# Artificial Intelligence Fundamental
+Data merupakan kumpulan fakta, dibagi menjadi 2 yaitu data terstruktur (data bisnis, excel, csv) dan data yang tidak terstruktur( website, gambar, buku elektronik, video)
+informasi merupakan data yang diolah sehingga dapat dimengerti.
+*Data Science
+*Computer Vision
+Face recognition, optical character recognition, document verification, object detection, self driving cars, Motion from videos, Image restoration, Action prediction.
+Natural Language Processing
+Text/document classification, social media text mining, speech to text, caption generation, mechine translation, sentiment analysis, chatbots, speaker recognition, personal assistant, text generation, similarity matching. 
+*Reinforcement Learning
+Playing game, self driving car, werehouse robot control, education, social media, marketing ads.
+*Application of Machine Learning
+Cara merawwat machine ada 2 yaitu Corective dan Preventive maintenance. 
+*Machine Learning Tools
+Bahasa pemrograman yang debut oleh Father of AI adalah LISP.
+
+
+Tue, 8 Mar
+
+Selasa, 8 Maret 2022
+Aljabar Linier : Matriks
+Matriks merupakan kumpulan Nilai dari beberapa variabel yang disused menjadi baris dan kolom.
+Operasi Matriks (pipolondo)
+Aljabar linier: Penerapan Invers
+Aljabar linier: Nilai dan Vektor Eigen
+Kalkulus: fungsi dan gradient
+
+Wed, 9 Mar
+
+Model dalam Machine Learning
+- Supervised Learning (Estimate, Prediksi, Klasifikasi)
+- Unsupervised Learning (Clustering, Asosiasi)
+- Reinforcement Learning
+Langkah Langkah dalam ML
+1. Gathering Data
+2. Menyiapkan Data
+3. Memilih Model
+4. Uji coba Model 
+5. Evaluate Model 
+6. Tuning Hyperparameter
+7. Prediksi
+Evaluasi Matriks 
+- Regresi (MSPE, MSAE, R Square, Adjusted R Square)
+- Klasifikasi (Precision-Recall, ROC-AUC, Akurasi, Log-Loss)
+- Unsupervised Learning (Rand Index, Mutual Information)
+- Others (CV Error, Heurustic methods to find K
+- BLEU Score (NLP)
+Kelebihan Mechine Learning
+- Mudah dalam mengidentifikasi trend dan pola pada data.
+- Tidak perlu campur tangan manusia
+- Pengembangan dapat dilakukan secara berkelanjutan.
+- Mampu menangani data multidimensi dan multivariasi.
+- Aplikasi/implementasi yang luas.
+Kekurangan Mechine Learning
+- Rentan terhadap kesalahan 
+- Akuisisi data
+- Waktu dan sumber daya
+- Hasil bersifat interpretasi (tafsiran)
+Neural Network --> Harus punya hidden layer biar jadi deep learning. 
+*Backpropagation adalar proses memperbaharui bobot dari network untuk mereduksi error dalam hasil prediksi.
+*Gradient Descent adalah proses menyesuaikan parameter model untuk turun melalui loss function. 
+*Loss function digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target.
+*Optimizer adalar fungsi pengoptimalan yang dapat digunakan untuk memperbaharui beban secara iteratif berdasarkan data training.
+Kenapa angka pada gambar 0 – 255? Baik hitam putih atar berwarna? Karena 1 warna = 8 bits —> 2^8 = 256.
+Kalau hitam putih mika dikalikan ada 256 warna. Sedangkan yang berwarna jika dikalikan sekitar 16 juta warna.
+- SVM —> dipakai untuk klasifikasi gambar, komputasi lebih ringan.
+
+Thu, 10 Mar
+
+AI Project Cycle
+Data Terstruktur, berbentuk tabular (Contoh aktivitas ATM)
+Data tidak terstruktur (Contoh data teks, gambar)
+Data Semi struktur (Contoh NoSQL, LinkedIn)
+Noisy Data —> informasi yang tidak terlalu dibutuhkan, menyimpang atau tidak diketahui kebenarannya.
+
+Statistik
+Mean terpengaruh Oleh outlier
+Outlier —> data yang terlaulu besar atu terlalu kecil 
+Median
+Modus
+
+Data C
+Mean : 7,8
+Range : 40
+SD : 11,35292424
+Varians : 128,8888889
+
+Data D
+Mean : 78
+Range : 5
+SD : 2,44948974
+Variansi : 6,66666667
+
+Skala Pengukuran 
+Skala Kategorik —> skala nominal, skala ordinal, Skala Interval, Skala Rasio
+
+Fri, 11 Mar
+
+OOPs : class
+Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain. Kelas yang baru terbentuk atalha kelas turunan. Demikian pula kelas yang ada adalah kelas dasar.
+Keuntungan module
+- Reusabbility
+- Simplicity
+- Scoping
+diberikan contoh secara detail pada jupyter notebok juga.
+
+What did you learn this week?
+
+# Artificial Intelligence Fundamental
+Data merupakan kumpulan fakta, dibagi menjadi 2 yaitu data terstruktur (data bisnis, excel, csv) dan data yang tidak terstruktur( website, gambar, buku elektronik, video)
+informasi merupakan data yang diolah sehingga dapat dimengerti.
+Data Science
+Computer Vision
+Face recognition, optical character recognition, document verification, object detection, self driving cars, Motion from videos, Image restoration, Action prediction.
+Natural Language Processing
+Text/document classification, social media text mining, speech to text, caption generation, mechine translation, sentiment analysis, chatbots, speaker recognition, personal assistant, text generation, similarity matching. 
+Reinforcement Learning
+Playing game, self driving car, werehouse robot control, education, social media, marketing ads.
+Application of Machine Learning
+Cara merawwat machine ada 2 yaitu Corective dan Preventive maintenance. 
+Machine Learning Tools
+Bahasa pemrograman yang debut oleh Father of AI adalah LISP.
+# Aljabar Linier : Matriks
+Matriks merupakan kumpulan Nilai dari beberapa variabel yang disused menjadi baris dan kolom.
+Operasi Matriks (pipolondo)
+Aljabar linier: Penerapan Invers
+Aljabar linier: Nilai dan Vektor Eigen
+Kalkulus: fungsi dan gradient
+# Model dalam Machine Learning
+- Supervised Learning (Estimate, Prediksi, Klasifikasi)
+- Unsupervised Learning (Clustering, Asosiasi)
+- Reinforcement Learning
+Langkah Langkah dalam ML
+1. Gathering Data
+2. Menyiapkan Data
+3. Memilih Model
+4. Uji coba Model 
+5. Evaluate Model 
+6. Tuning Hyperparameter
+7. Prediksi
+Evaluasi Matriks 
+- Regresi (MSPE, MSAE, R Square, Adjusted R Square)
+- Klasifikasi (Precision-Recall, ROC-AUC, Akurasi, Log-Loss)
+- Unsupervised Learning (Rand Index, Mutual Information)
+- Others (CV Error, Heurustic methods to find K
+- BLEU Score (NLP)
+Kelebihan Mechine Learning
+- Mudah dalam mengidentifikasi trend dan pola pada data.
+- Tidak perlu campur tangan manusia
+- Pengembangan dapat dilakukan secara berkelanjutan.
+- Mampu menangani data multidimensi dan multivariasi.
+- Aplikasi/implementasi yang luas.
+Kekurangan Mechine Learning
+- Rentan terhadap kesalahan 
+- Akuisisi data
+- Waktu dan sumber daya
+- Hasil bersifat interpretasi (tafsiran)
+Neural Network
+Harus punya hidden layer biar jadi deep learning. 
+*Backpropagation adalar proses memperbaharui bobot dari network untuk mereduksi error dalam hasil prediksi.
+*Gradient Descent adalah proses menyesuaikan parameter model untuk turun melalui loss function. 
+*Loss function digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target.
+*Optimizer adalar fungsi pengoptimalan yang dapat digunakan untuk memperbaharui beban secara iteratif berdasarkan data training.
+Kenapa angka pada gambar 0 – 255? Baik hitam putih atar berwarna? Karena 1 warna = 8 bits —> 2^8 = 256.
+Kalau hitam putih mika dikalikan ada 256 warna. Sedangkan yang berwarna jika dikalikan sekitar 16 juta warna.
+- SVM —> dipakai untuk klasifikasi gambar, komputasi lebih ringan.
+# AI Project Cycle
+Data Terstruktur, berbentuk tabular
+Contoh aktivitas ATM
+Data tidak terstruktur
+Contoh data teks, gambar
+Data Semi struktur
+Contoh NoSQL, LinkedIn
+Noisy Data —> informasi yang tidak terlalu dibutuhkan, menyimpang atau tidak diketahui kebenarannya.
+
+Statistik
+Mean terpengaruh Oleh outlier
+Outlier —> data yang terlaulu besar atu terlalu kecil 
+Median
+Mode
+# OOPs : class
+Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain. Kelas yang baru terbentuk atalha kelas turunan. Demikian pula kelas yang ada adalah kelas dasar.
+Keuntungan module
+- Reusabbility
+- Simplicity
+- Scoping

@@ -1,0 +1,155 @@
+Mon, 11 Apr
+
+• Arsitektur jaringan RNN, LSTM, GRU
+• Dapat melakukan time series forecasting
+menggunakan deep learning
+
+Tue, 12 Apr
+
+• Apa itu autoencoder?
+• Properti pada autoencoder
+• Arsitektur pada autoencoder
+• Aplikasi dari autoencoder
+
+Wed, 13 Apr
+
+Di akhir modul ini, Anda akan mendapatkan:
+▪ Memahami konsep transfer learning pada NLP.
+▪ Memahami batasan word embedding tradisional.
+▪ Memahami mekanisme self-attention pada arsitektur transformer.
+▪ Memahami arsitektur dan representasi input BERT.
+▪ Mampu melakukan fine-tuning menggunakan BERT
+
+Thu, 14 Apr
+
+Bagian I. PENGENALAN UNIT TESTING
+1. Penggunaan Docstrings untuk Unit Testing
+2. Penggunaan Library unittest
+3. Membuat Test Package
+
+BAGIAN II. REFACTORING
+1. For-loop Refactoring
+2. Multiple Assignment
+3. F-Strings
+4. Fungsi
+
+BAGIAN III. DEBUGGING
+1. list(l)
+Berfungsi untuk menunjukkan baris dalam interpreter yang sedang aktif.
+2. up(p) and down(d)
+Berfungsi untuk menavigasi baris.
+3. step(s) and next(n)
+Berfungsi untuk melanjutkan eksekusi aplikasi baris demi baris.
+4. quit atau exit
+Berfungsi untuk keluar dari program
+
+Fri, 15 Apr
+
+Pembelajaran libur akan tetapi diminta self learning 
+
+Selamat Siang/Sore Adik2 semua. 
+
+Berhubung besok hari Libur Nasional (Wafat Isa Almasih/Jumat Agung), kelas/pertemuan domain teknikal untuk hari Jumat besok (15 April 2022) diganti menjadi self-study atau pembelajaran mandiri. 
+
+Materi dan Kode dapat diakses melalui link berikut.
+
+📖 Materi : https://bit.ly/3M0y4aD
+📂 Kode : https://bit.ly/3xpJNeH
+
+Setelah mempelajari materi tersebut secara mandiri, ada assessment yang wajib diikuti setiap siswa (Deadline Senin, 18 April 2022 - Pukul 23:59 WIB).
+
+📋 Assessment : https://forms.gle/HUVpMsWJ44YrAmYk9
+
+Sekian informasi dari Kakak.
+Semangat dan Selamat Belajar 😊
+
+What did you learn this week?
+
+Senin
+
+11 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+• Arsitektur jaringan RNN, LSTM, GRU
+• Dapat melakukan time series forecasting
+menggunakan deep learning
+
+Selasa
+
+12 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+• Apa itu autoencoder?
+• Properti pada autoencoder
+• Arsitektur pada autoencoder
+• Aplikasi dari autoencoder
+
+Rabu
+
+13 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+Di akhir modul ini, Anda akan mendapatkan:
+▪ Memahami konsep transfer learning pada NLP.
+▪ Memahami batasan word embedding tradisional.
+▪ Memahami mekanisme self-attention pada arsitektur transformer.
+▪ Memahami arsitektur dan representasi input BERT.
+▪ Mampu melakukan fine-tuning menggunakan BERT
+
+sembunyikan
+
+Kamis
+
+14 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+Bagian I. PENGENALAN UNIT TESTING
+1. Penggunaan Docstrings untuk Unit Testing
+2. Penggunaan Library unittest
+3. Membuat Test Package
+
+BAGIAN II. REFACTORING
+1. For-loop Refactoring
+2. Multiple Assignment
+3. F-Strings
+4. Fungsi
+
+BAGIAN III. DEBUGGING
+1. list(l)
+Berfungsi untuk menunjukkan baris dalam interpreter yang sedang aktif.
+2. up(p) and down(d)
+Berfungsi untuk menavigasi baris.
+3. step(s) and next(n)
+Berfungsi untuk melanjutkan eksekusi aplikasi baris demi baris.
+4. quit atau exit
+Berfungsi untuk keluar dari program
+
+sembunyikan
+
+Jumat
+
+15 Apr 2022
+
+Apa yang kamu kerjakan hari ini?
+
+Pembelajaran libur akan tetapi diminta self learning 
+
+Selamat Siang/Sore Adik2 semua. 
+
+Berhubung besok hari Libur Nasional (Wafat Isa Almasih/Jumat Agung), kelas/pertemuan domain teknikal untuk hari Jumat besok (15 April 2022) diganti menjadi self-study atau pembelajaran mandiri. 
+
+Materi dan Kode dapat diakses melalui link berikut.
+
+📖 Materi : https://bit.ly/3M0y4aD
+📂 Kode : https://bit.ly/3xpJNeH
+
+Setelah mempelajari materi tersebut secara mandiri, ada assessment yang wajib diikuti setiap siswa (Deadline Senin, 18 April 2022 - Pukul 23:59 WIB).
+
+📋 Assessment : https://forms.gle/HUVpMsWJ44YrAmYk9
+
+Sekian informasi dari Kakak.
+Semangat dan Selamat Belajar 😊

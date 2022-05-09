@@ -1,0 +1,36 @@
+Mon, 4 Apr
+
+-
+
+Tue, 5 Apr
+
+5 April
+CV : Naive Approach
+Pendekatan ini lambat karena memeriksa banyak jendela (window) yang tidak berisi apa pun - tidak bagus untuk penggunkaan waktu nyata (real time). R-CNN adalah pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN.
+
+Wed, 6 Apr
+
+-
+
+Thu, 7 Apr
+
+7 April
+RL : SARSA VS Q-Learning
+- On-policy : sample policy sama dengan learning policy (target policy). Contoh : Sarsa dan Policy Gradient
+- Off-policy : sample policy berbeda dengan learning policy (target policy). Contoh : Q-Learning dan Deep Network (DQN)
+Q-Learning merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan agent belajar agent berulang-ulang. Konsep dasar Q-Learning 
+- Terispirasi dari value iteration 
+- Sample an action
+- Observe the reward and the next state
+- Take the actio n with the highest Q (max Q)
+Action dari setiap step dapat dihitung untuk menemukan action terbaik (best action). Untuk keperluan ini digunakan Q-Table.
+Algoritma Q-Learning (off-policy TD control) untuk estimasi phi
+- parameter algoritma : step size alfa merupakan himpunan antara 0 sampai 1 dimana nilai epsilon lebih dari 0.
+- inisialisasi Q(s,a) untuk semua s 
+- Loop untuk setiap episode 
+
+Fri, 8 Apr
+
+-
+
+What did you learn this week?

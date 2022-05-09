@@ -1,0 +1,64 @@
+Mon, 28 Feb
+
+Hari Libur Nasional memperingati Isra Miraj Nabi Muhammad SAW
+
+Tue, 1 Mar
+
+Basic Programming dengan Python
+1.     	Manfaat dan kemudahan dalam menggunakan Python
+2.   	Mempelajari syntax Python
+3.   	Menggunakan komentar pada Python
+4.   	Membuat variable
+5.   	Mempelajari tipe data Python
+6.   	Mempelajari tipe data numeric
+7.   	Mempelajari casting pada Python
+8.   	Mempelajari tipe data strings
+9.   	Mempelajari tipe data boolean
+10.	Mempelajari operators pada Python
+11.  	Membuat list
+12.   	Membuat tuple
+13.	        Membuat set
+14.	Membuat dictionary
+
+Wed, 2 Mar
+
+
+1.	Belajar Git dan Git Hub
+2.	Menggunakan operator pada bahasa Python
+           a.	Operator Aritmatika
+           b.	Operator Perbandingan
+           c.	Operator Logik
+           d.	Operator Identitas
+           e.	Operator Keanggotaan
+3.	Mempelajari control flow: if else pada bahasa Python
+4.	Mempelajari fungsi perulangan pada bahasa Python
+5.	Mempelajari set pada bahasa Python
+6.	Menonton Video dengan judul “We’re Building Computers Wrong (for artificial inteliggence)” oleh Veritasium di Youtube
+
+Thu, 3 Mar
+
+Hari Libur Nasional memperingati Hari Raya Nyepi
+
+Fri, 4 Mar
+
+1.	Belajar Functions pada bahasa pemrograman Python
+           a.	Python functions
+           b.	User defined functions
+           c.	Built-in functions
+2.	Belajar Iterators pada bahasa pemrograman Python
+           a.	Generators
+           b.	Map and filter
+           c.	Lambda functions
+3.	Belajar manipulasi string pada bahasa pemrograman Python
+4.	Belajar input output file bahasa pemrograman Python (file handling)
+
+What did you learn this week?
+
+1.	Mempelajari pemrograman dasar menggunakan bahasa Python
+2.	Mempelajari Git dan Github
+3.	Mempelajari operator, control flow, dan set pada Python
+4.	Mempelajari function dan iterators pada bahasa pemrograman Python
+5.	Mempelajari manipulasi string dan file handling pada bahasa pemrograman Python
+
+
+

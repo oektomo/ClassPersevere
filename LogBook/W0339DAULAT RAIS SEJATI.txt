@@ -1,0 +1,78 @@
+Mon, 7 Mar
+
+28 Maret 2022
+
+1.	Mempelajari AI
+            a.	Data dan sumbernya
+            b.	Sistem dan struktur AI
+            c.	AI di berbagai produk
+2.	AI Landscape
+           a.	Aplikasi data science
+           b.	Computer vision dan NLP
+3.	Machine Learning
+           a.	Machine learning v/s traditional software
+           b.	Alat untuk teknologi machine learning
+
+Tue, 8 Mar
+
+Matematika Dasar Untuk Kecerdasan Buatan
+1.	Aljabar Linear : vektor, matriks, penerapan invers, nilai dan vektor eigen
+2.	Kalkulus : fungsi dan gradient, turunan dan optimisasi
+3.	Peluang : konsep dasar peluang, peluang bersyarat 
+4.	Operasi Matematika & Library NumPy : indexing dan slicing
+5.	Melakukan pemrograman library numpy dengan jupyter notebook
+6.	Machine Learning : supervised learning, unsupervised learning, reinforcement learning, kelebihan dan kekurang ML
+
+Wed, 9 Mar
+
+9 Maret 2022
+1.	Machine Learning : 7 Langkah dalam ML, metrics evaluation, supervised learning, unsupervised learning
+2.	Perbedaan machine learning dan deep learning
+3.	Artificial neural network
+4.	Deep learning : kelebihan dan kekurangan deep learning
+5.	Cara kerja ANN, formulasi matematis ANN
+6.	Loss function
+7.	Optimizer 
+
+Thu, 10 Mar
+
+10 Maret 2022
+
+1.	AI Project Cycle
+           a.	Problem Scoping
+           b.	Data Acquisition
+           c.	Data Exploration
+           d.	Modelling
+           e.	Evaluation
+            f.	Deployment
+2.	Melakukan uji hipotesis menggunakan bahasa pemrograman Python pada google colab 
+
+Fri, 11 Mar
+
+11 Maret 2022
+
+Object Oriented Programming :
+1.	Python class and objects
+2.	Latihan OOP langsung menggunakan bahasa pemrograman Python
+3.	Self keyword
+4.	Inheritance
+
+Modules pada Python:
+1.	Keuntungan dari modul : reusability, simplicity, scoping
+2.	Membuat custom module
+3.	Mempelajari module os
+4.	Mempelajari module time
+5.	Mempelajari module math
+6.	Mereview materi minggu ke-3
+
+What did you learn this week?
+
+Minggu ke-3 (7 – 11 maret 2022)
+1.	Mempelajari AI : data dan sumbernya, sistem struktur AI, produk AI.
+2.	Mempelajari AI landscape dan Machine learning
+3.	Mempelajari matematika dasar untuk AI : Aljabar linear, kalkulus, peluang
+4.	Menggunakan library numpy dengan Python
+5.	Mempelajari perbedaan deep learning dan machine learning
+6.	Mempelajari artificial neural network
+7.	Mempelajari AI project cycle : problem scoping, data acquisition, data exploration, modelling, evaluation, deployment
+8.	Mempelajari OOP dan modules pada Python

@@ -1,0 +1,71 @@
+Mon, 28 Feb
+
+Libur Isra Mi'raj
+
+Tue, 1 Mar
+
+ada beberapa poin yang dibahas hari ini
+- Turing test merupakan suatu uji untuk menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan mengintrigasinya dengan manusia.
+- konsep agen merupakan segala sesuatu yang dapat bagaimana dalam memahami lingkungannya melalui sensor dan bertindak melalui aktuator. salah satu contohnya reinforcement learning (meniru cara manusia belajar).
+*Pengenalan python
+Python merupakan bahasa pemrograman open souce. Beberapa aplikasi  Python antara lain: web development, web scraping, software testing. Adapun distribusi Python : Anaconda, Enthouht Canopy, Active Python, WinPython. 
+Python IDE merupakan suatu tools untuk menjalankan program Python seperti Jupyter Notebook, Spyder, Pycharm, Atom dan google colaboratoy.
+
+Wed, 2 Mar
+
+Rabu, 02/03/22
+Kegiatan hari ini mempelajari Python operator(matematis) dan Control Flow(percabangan dan perulangan)
+Operator
+- Operator aritmatik : tambah(+), kurang(-), bagi(/), kali(*), modulus(%), floor division(//), exponent(**).
+- Operator perbandingan : lebih besar dari (>), lebih kecil dari (<), sama dengan (==), tidak sama dengan (!=), lebih besar dari atau sama dengan (>=), lebih kecil dari atau sama dengan (<=). Output nya True/False
+- Operator logika : and, or, not.
+- Operator keanggotaan
+Control Flow
+- Operator Bitwise : untuk operasi logika bilangan biner dalam bentuk bit.
+- If else
+- While loops
+- List comprehension
+
+Thu, 3 Mar
+
+Libur Hari Raya Nyepi
+
+Fri, 4 Mar
+
+Jumat, 4 Maret 2022
+
+*Fungsi pada Python
+- Fungsi adalah metode utama untuk menata kode dan dapat digunakan kembali dalam python.
+- Keyword def digunakan untuk membuat fungsi yang ditentukan pengguna dengan python.
+*Connect GitHub dan google Colab
+*Built function in Python 
+*String manipulation
+Dalam python, string adalah array byte yang mewakili karakter Unicode. String barbasis tunggal data dibuat menggunakan tanda kutip tunggal tau berganda.
+
+What did you learn this week?
+
+*konsep AI
+- Turing test merupakan suatu uji untuk menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan mengintrigasinya dengan manusia.
+- konsep agen merupakan segala sesuatu yang dapat bagaimana dalam memahami lingkungannya melalui sensor dan bertindak melalui aktuator. salah satu contohnya reinforcement learning (meniru cara manusia belajar).
+*Pengenalan python
+Python merupakan bahasa pemrograman open souce. Beberapa aplikasi  Python antara lain: web development, web scraping, software testing. Adapun distribusi Python : Anaconda, Enthouht Canopy, Active Python, WinPython. 
+Python IDE merupakan suatu tools untuk menjalankan program Python seperti Jupyter Notebook, Spyder, Pycharm, Atom dan google colaboratoy.
+
+*Operator
+- Operator aritmatik : tambah(+), kurang(-), bagi(/), kali(*), modulus(%), floor division(//), exponent(**).
+- Operator perbandingan : lebih besar dari (>), lebih kecil dari (<), sama dengan (==), tidak sama dengan (!=), lebih besar dari atau sama dengan (>=), lebih kecil dari atau sama dengan (<=). Output nya True/False
+- Operator logika : and, or, not.
+- Operator keanggotaan
+*Control Flow
+- Operator Bitwise : untuk operasi logika bilangan biner dalam bentuk bit.
+- If else
+- While loops
+- List comprehension
+
+*Fungsi pada Python
+- Fungsi adalah metode utama untuk menata kode dan dapat digunakan kembali dalam python.
+- Keyword def digunakan untuk membuat fungsi yang ditentukan pengguna dengan python.
+*Connect GitHub dan google Colab
+*Built function in Python 
+*String manipulation
+Dalam python, string adalah array byte yang mewakili karakter Unicode. String barbasis tunggal data dibuat menggunakan tanda kutip tunggal tau berganda. 

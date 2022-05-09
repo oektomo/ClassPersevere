@@ -1,23 +1,47 @@
 Mon, 21 Feb
 
-saya belajar mengenai pengetahuan Umum mengenai Artificial Intelegent, serta sejarah awal mengenai A.I 
+Di awal pertemuan saya dengan orbi saya mempelajari Pengetahuan umum mengenai artificial Intelegence dalam self learning selama 1 minggu..
+
+selama Hari ini saya mempelajari bapa pendiri AI yaitu John Mcharty,Bahasa pemrograman yang digunakan yaitu Python (paling banyak)kemudian cara berfikir Kecerdasan buatan yang hampir sama dengan manusia serta Turunan Ai seperti Data Science,Computer vision,Reinformcent learning dan Natural Language Processing
 
 Tue, 22 Feb
 
-belajar AI mandiri melalui buku yang didapat dari internet, kemudian menginstall anaconda (Aplikasi Python) dan mencoba beberapa fungsi sederhana seperti penjumalahan variabel dan hello world pada jupyternotebook
+Masih mempelajari secara self Learning,namun, materi di hari selasa mulai masuk kedalam Data Processing / Pemrosesan data dengan mengambil Brainstorming mengenai aplikasi ojek online yang menjawab kebutuhan perantara antara penumpang dan pengemudi. disini saya rasa pembuat aplikasinya cukup paham problematika yang terjadi masyarakat dan mengimplementasikan kedalam bentuk aplikasi yang menurut saya cukup kreatif.
+
+ternyata didalam itu semua terdapat data yang diolah oleh pihak ojek online disini.Data sendiri menurut pehaman saya adalah sebuah bahan baku mentah dan perlu diolah sehingga menjadi data matang atau biasa kita sebut Informasi.nah informasi ini selanjutnya dapat menentukan bagaimana kita menyikapi langkah kita selanjutnya.
+
+Disini juga saya mempelajari mengenai Big data,yang merupakan kumpulan data yang dikumpulkan melalui sosmed dan masih banyak noise (kotor).dan mencangkup wilayah yang luas.dengan adanya ata ini kita dapat informasi jika kita paham cara mengolahnya.
 
 Wed, 23 Feb
 
-saya mempelajari beberapa cara save serta membuat new folder di jupiter notebook,serta membuat variabel sederhana pada jupiter notebook.
+Hari ini saya mempelajari mengenai Bahasa pemograman yang digunakan pada umum digunakan pada Machine learning  yaitu Python,python sendiri menurut pemahaman saya digunakan di banyak bidang termasuk ML disini.namun,di bidang studi saya python biasa digunakan untuk membuat program  dikarenakan mudahnya dala mempelajarinya dan dinamis sehingga bisa digunakan di berbagai platform.
+
+adapun beberapa perusahaan yang menggunakan bahasa python sebagai dasarnya seperti google Facebook, instagram dan dropbox.
+
+kemudian saya diperkenalkan pada Anaconda,anaconda sendiri turunan distribusi python/R, yang didalamnya terdapat kumpulan package open-source.didalamnya terdapat jupiter notebook yang nantinya akan digunakan pada pembelajaran selanjutnya
+
+Jupiter notebook adalah IDE yang digunakan dalam penelitian dan pengembangan.nah temanya disini cukup cocok dalam bidang ML yang isinya banyak dalam penelitian dan pengembangan untuk outputnay adalah A.I / kecerdasan buatan.
+
+adapun Google colab yang merupakan Versi Online nya jupiter notebook yang lebih flexible dan bisa  colab codding dengan orang orang. sehingga sangat ramah sekali bagi Pekerjaan kelompok dalam hal koding mengkoding.
+
+kemudian diperkenalkan juga apa itu program yaitu urutan instruksi yang menentukkan bagaimana cara komputer melakukan komputasi..contoh dari program mungkin tidak perlu diberi tau lagi karena sudah banyak sekali program yang tersedia.
+
+yah sebagian besarnya saya mempelajari pengetahuan umum dalam hal pemrograman terutama Bahasa python yg mungkin nantinya akan digunakan pada sesi materi AI mastery disini.
 
 Thu, 24 Feb
 
-memulai hari dengan membaca Modul yang diberikan orbit mengenai Apa itu data,data terstruktur, data tidak terstruktur dan Kode Etik yang terdapat DI AI seperti berguna bagi orang,Adil serta berbenefit
+Hari ini saya mempelajari tentang data,etika dan bias (kesalahan).diawal isinya mereview apa itu data dan perbedaan structured data dan unstructured data,Kualitas Data,Data kuantitatif dan data kualitatif.yang menarik disini ternyata Kecerdasan itu perlu data untuk menentukan/memperkiraan pekerjaan mereka selanjutnya.
+
+di materi selanjutnya dijelaskan kita cara memperoleh data seperi melalui sensus dan survei dengan kelebihan dan kekurangan masing masing pendekatan.hal ini berguna seperti langkah langkah kita dalam menentukan suatu penelitian dan bingung cara kita mengambil data untuk dijadikan dasar penyelesaian masalah yang akan kita pilih.
+
+Lalu ada AI ethics yang kurang lebih membahas prinsip/moral dari ai sendiri sehingga bisa membedakan benar dan salah.ya kuranglebih sama seperti manusia kita perlu bisa untuk membedakan hal mana yang benar dan salah untuk menentukkan suatu keputusan.
 
 Fri, 25 Feb
 
-mempelajari mengenai beberapa fungsi lainnya pada python,dan mecoba itu semua pada jupiter notebook
+Hari ini,saya mencoba mereview materi beberapa hari kebelakang dan mencoba memahami agar bisa mengikuti pelajaran selanjutnya.Kemudian saya mencoba beberapa Coding yang saya dapat dari internet dan youtube dan memperdalam bahasa Python agar lebih menguasai coding yang akan digunakan dalam AI nantinya.
+
+secara garis besar sih saya hanya mempelajari ulang materi Self learning sebelumnya ditambah  mencari referensi agar lebih memperkaya pemahaman saya terhadap AI ini.
 
 What did you learn this week?
 
-mempelajari Apa itu AI,sejarah awal mula AI,siapa penemunya,beserta cara melakukan koding sederhana melalui aplikasi jupiter noteboo
+di minggu ini saya diberikan Pengetahuan umum mengenai AI  dan apa itu data, teknik cara pengambilan data serta Bahasa pemograman yang akan digunakan nantinya dalam  pembelajaran AI Mastery disini yaitu python karena bahasa python  disini sangat dinamis dan terbilang mudah dipelajari.

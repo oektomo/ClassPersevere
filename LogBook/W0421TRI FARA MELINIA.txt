@@ -1,0 +1,115 @@
+Mon, 14 Mar
+
+Senin, 14 Maret 
+Rangkuman materi:
+Data manipulation with pandas
+Numpy data types , Numpy Array 
+- Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analysis pada python.
+- Pandas adalah tools yang Sangat cocok untuk analysis dan pemodelan data.
+- Pandas adalah library python yang lebih baik dari numPy dari sisi fungsionalitas dan menyediakan implementasi DataFrame yang efisien.
+DataFrame Pada dasarnya adalah multidimensional dengan label baris dan kolom. 
+Pandas object adalah versi array terstruktur NumPy yang disempurnakan dimana baris dan kolom diidentifikasi menggunakan label daripada indeks integer sederhana. Ada banyak alat, metode dan fungsi berguna yang ditawarkan pandas, selain dari struktur data dasar. Tiga struktur data dasar pada pandas seperti Index, Series dan Dataframe. 
+Pandas : Transformasi Data menggunakan map
+Pandas : Transformasi data Mengganti nilai
+Pandas : Transformasi data replacing value
+Pandas : Transformasi data Discritization and binning
+
+Tue, 15 Mar
+
+Rangkuman 15 Maret 
+Visualization 
+Data visualisasi  digunakan untuk mengkomunikasiknan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi esperti table dan chart.
+Matplotlib adalah sautu paket Python paling popular yang digunakan untuk visualisasin data. Ini adalah cross-platform library untuk membuat 2D plots dari data arrays. Ini memberikan sebum object-oriented API yang membantu embedding plots dalam aplikasi menggunakan Python GUI toolkits misalnya PyQt, WxPythonotThinter.
+Exploratory data analysis (EDA) untuk melihat pola data, mendeteksi anomali, menguji hipotesis dan untuk memvalidasi asumsi menggunakan statistika dan representasi visual. 
+
+Wed, 16 Mar
+
+Rabu, 16 Maret
+Jenis Regresi
+-Regresi Linier merupakan algoritma supervised learning yang belajar dari sekumpulan sampel data latin. Regresi Linier digunakan untuk menganalisa relasi antara dua variabel dan memprediksi nilai baru yang mungkin. Cost function. Regresi yang terlalu baik atau error nya kecil model tidak melihat adanya noise. Nah gimana model bisa tau Adana noise Yaitu dengan menggunakan cross validation atau reguler regression.
+
+-Regresi NonLinier
+Cross Validation Model
+K-Fold Cross Validation
+Good fit vs overfitting ( untuk menghindari overfitting bisa pake ridge regression dan reguler regression)
+pada Lasso (L1) Regression, bobot mempengaruhi cross function.
+
+Logistik Regression adalah salah satu kelas Klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas. Algoritma ini mengestimasi relasi antara variabel dependen atau lebih independen dimana dependen variabel nya bersifat kategorik.
+
+
+
+Thu, 17 Mar
+
+Kamis, 17 Maret 
+Hari ini membahas detail terkait k-NN dan pengcodingannya. 
+k-NN 
+Algoritma supervised learning Dimana Hasil dari intense yang baru diklasifikasikan berdasarkan mayoritas dari kategori k terdekat. Tujuan dari algoritma ini adalar untuk mengklasifikasikan objektív baru berdasarkan atribut dan sampel-sampel dari data training. Jauh dekatnya tetania biasanya dihitung berdasarkan jarak euclidean. Algoritma ini girip dengan K-Means Klastering. 
+ Algoritma k-Nearest Neighbor menggunakan Neighbourhood Classifikation sebagai nilai prediksi dari nilai instance yang baru. 
+Langkah-langkah algoritma k-NN
+1. Menentukan jumlah nilai k neighbor
+2. Menentukan tetangga terdekat
+3. Ranking jarak dan vote
+4. Klasifikasikan. 
+
+Fri, 18 Mar
+
+Jumat 18 Maret
+
+Catatan materi
+NN dikembangkan pada tahun 1940an.
+Fungsi aktivasi ada 3 Yaitu linier, sigmoid dan reLU
+Loss function atau juga disebut cost function adalah algoritma yang mengukur/ mengevaluasi seberapa salah sebuah model NN. Loss adalah ukuran dari funghi ini. Diharapkan loss = 0 Karena loss merupakan error yang dihasilkan model. Salah Satu contoh loss function adalah MSE(Mean Sqare Error).
+
+Salah satu contoh optimizer adalah Gradien Descent dimana memanfaatkan hasil perhitungan turunana partial Pertama loss function dan learning rate untuk meng update bias model NN.
+NN data dilated menggunakan algotritma backpropagation. Algoritma ini terdiri dari dua tahapan utama, yaitu forward dan backward.
+
+What did you learn this week?
+
+14 Maret
+Data manipulation with pandas
+Numpy data types , Numpy Array 
+- Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analysis pada python.
+- Pandas adalah tools yang Sangat cocok untuk analysis dan pemodelan data.
+- Pandas adalah library python yang lebih baik dari numPy dari sisi fungsionalitas dan menyediakan implementasi DataFrame yang efisien.
+DataFrame Pada dasarnya adalah multidimensional dengan label baris dan kolom. 
+Pandas object adalah versi array terstruktur NumPy yang disempurnakan dimana baris dan kolom diidentifikasi menggunakan label daripada indeks integer sederhana. Ada banyak alat, metode dan fungsi berguna yang ditawarkan pandas, selain dari struktur data dasar. Tiga struktur data dasar pada pandas seperti Index, Series dan Dataframe. 
+Pandas : Transformasi Data menggunakan map
+Pandas : Transformasi data Mengganti nilai
+Pandas : Transformasi data replacing value
+Pandas : Transformasi data Discritization and binning
+15 Maret
+Visualization 
+Data visualises digunakan untuk mengkomunikasiknan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi esperti table dan chart.
+Matplotlib adalah sautu paket Python paling popular yang digunakan untuk visualisasin data. Ini adalah cross-platform library untuk membuat 2D plots dari data arrays. Ini memberikan sebum object-oriented API yang membantu embedding plots dalam aplikasi menggunakan Python GUI toolkits misalnya PyQt, WxPythonotThinter.
+Exploratory data analysis (EDA) untuk melihat pola data, mendeteksi anomali, menguji hipotesis dan untuk memvalidasi asumsi menggunakan statistika dan representasi visual. 
+16 Maret
+Jenis Regresi
+-Regresi Linier merupakan algoritma supervised learning yang belajar dari sekumpulan sampel data latin. Regresi Linier digunakan untuk menganalisa relasi antara dua variabel dan memprediksi nilai baru yang mungkin. Cost function. Regresi yang terlalu baik atau error nya kecil model tidak melihat adanya noise. Nah gimana model bisa tau Adana noise Yaitu dengan menggunakan cross validation étau reguler regression.
+
+-Regresi NonLinier
+Cross Validation Model
+K-Fold Cross Validation
+Good fit vs overfitting( untuk menghindari overfitting bisa pake ridge regression dan reguler regression)
+Lasso (L1) Regression, bobot mempengaruhi cross function.
+
+Logistik Regression adalah salah satu kelas Klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas. Algoritma ini mengestimasi relasi antara variabel dependen atau lebih independen dimana dependen variabel nya bersifat kategorik.
+
+Asumsi 
+Regresi logistik biner mengharuskan dependen variabel berbentuk biner. Untuk biner regresi, dependen variabel 
+
+17 Maret
+k-NN 
+Algoritma supervised learning Dimana Hasil dari intense yang baru diklasifikasikan berdasarkan mayoritas dari kategori k terdekat. Tujuan dari algoritma ini adalar untuk mengklasifikasikan objektív baru berdasarkan atribut dan sampel-sampel dari data training. Jauh dekatnya tetania biasanya dihitung berdasarkan jarak euclidean. Algoritma ini girip dengan K-Means Klastering. 
+ Algoritma k-Nearest Neighbor menggunakan Neighbourhood Classifikation sebagai nilai prediksi dari nilai instance yang baru. 
+Langkah-langkah algoritma k-NN
+1. Menentukan jumlah nilai k neighbor
+2. Menentukan tetangga terdekat
+3. Ranking jarak dan vote
+4. Klasifikasikan. 
+18 Maret 
+NN dikembangkan pada tahun 1940an.
+Fungsi aktivasi ada 3 Yaitu linier, sigmoid dan reLU
+Loss function atau juga disebut cost function adalah algoritma yang mengukur/ mengevaluasi seberapa salah sebuah model NN. Loss adalah ukuran dari funghi ini. Diharapkan loss = 0 Karena loss merupakan error yang dihasilkan model. Salah Satu contoh loss function adalah MSE(Mean Sqare Error).
+
+Salah satu contoh optimizer adalah Gradien Descent dimana memanfaatkan hasil perhitungan turunana partial Pertama loss function dan learning rate untuk meng update bias model NN.
+NN data dilated menggunakan algotritma backpropagation. Algoritma ini terdiri dari dua tahapan utama, yaitu forward dan backward.
