@@ -1,0 +1,246 @@
+Mon, 7 Mar
+
+Hari ini saya mengikuti 2 sesi kegiatan :
+
+Sesi I :
+- Module Aritificial Intelligence Fundamental.
+- Section Artificial Intelligence.
+- What is different of Data and Information? --> Data merupakan sebuah Penyimpanan sedangkan Informasi merupakan Pengolahan Data.
+- What is Data? --> Kumpulan fakta-fakta yang ada di sekitar.
+- AI Landscape --> Artificial Intelligent, Machine Learning, Deep Learning, Data Science, Computer Vision, Natural Language Processing (NLP) dan Reinforcement Learning.
+- Membuat tugas 3 untuk deadline besok
+
+Sesi II :
+- Menonton Video OrbitGuru - Minggu 3 : OPERATOR, STRING, LIST DAN SET.
+- Module Aritificial Intelligence Fundamental.
+- Masih di Section Artificial Intelligence.
+- Reinforcement Learning --> Playing Game, Self Driving Car, Artificial Sun Environment Control, Warehouse Robot Control, Education, Social Media dan Marketing and Ads.
+- Machine Learning --> mesin yang dikembangkan untuk bisa belajar dengan sendirinya tanpa arahan dari penggunanya. 
+Pembelajaran mesin dikembangkan berdasarkan disiplin ilmu lainnya seperti statistika, 
+matematika dan data mining sehingga mesin dapat belajar dengan menganalisa data tanpa perlu di program ulang atau diperintah.
+
+Tue, 8 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1:
+-	Saya mengikuti Pembelajaran untuk sesi Matchemathic AI
+-	Saya memahami Matematika dasar Untuk Kecerdasaran Buatan
+-	Memahami konsep dasar Peluang, Peluang bersyarat, Teorama bayes
+-	Mengetahui aljabar linier  antaralain matrik,Vektor, Nilai   & Vektor Elgen
+-	Memahami Fungsi, Turunan ,dan optimisasi dalam Kalkulus
+-	Memahami Aljabar Linier pada AI di video Youtube yang diberikan mentor
+-	Vektor yaitu Besaran Yang memiliki nilai dan  arah
+-	Vektor Berdimensi sama dan dapat di operasikan
+-	Skalar yaitu konstanta atau  besaran yang memiliki nilai
+-	Dalam Ilmu Data, Vektor adalah kumpulan nilai dari variabel Tertentu
+
+Sesi 2:
+-	Saya mengikuti Pembelajaran untuk sesi Matchemathic AI
+-	Saya memahami Matematika dasar Untuk Kecerdasaran Buatan
+-	Kalkulus : Turunan & Optimisasi
+-	Turunan (Differensial) merupakan pengembangan dari gradient.
+-	Operasi Matematika & Numpy
+-	Machine Learning Approach --> Supervised Learning, Semi-supervised Learning, Unsupervised Learning, dan Reinforced Learning.
+-	Traditional Programming vs Machine Learning Approach
+-	Traditional Approach --> Experiment, Data+Role, Process, dan Answer.
+-	Modern Approce --> Experiment, Data+Answer, Process, dan Role.
+-	Segmentasi ML menggunakan Supervised Learning dan Unsupervised Learning
+-	Supervised Learning --> Estimation, Prediction/Forecasting, dan Classification
+-	Unsupervised Learning --> Clustering dan Association.
+
+Wed, 9 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1:
+-	Saya mengetahui 7 langkah dalam ML
+-	Saya mengetahui ML WorkFlow
+-	Mengetahui Metrics  Evaluation(Regression,Classifiction,Unsupervised,Others)
+-	Memahami Kekurangan dan Kelebihan ML
+-	Contoh kekurangan ML(rentan terhadap Kesalahan)
+-	Contoh Kelebihan ML(tidak perlu campur tangan manusia)
+-	Mengetahui Supervised Learning dan ciri cirinya
+-	Ciri ciri pada Supervised Learning (data Training telah diberi label)
+-	Memahami Supervised Learning Experiment
+-	Memahami Unsupervised Learning Experiment
+-	Memahami Reinforcement Learning Experiment
+-	Mengetahui perbedaan dari Machine learning dengan Deep learning
+-	Mengetahui perkembangan Deep Learning dari tahun ke tahun
+
+
+Sesi 2:
+-	Saya mengetahui Kelebihan dari Neural Network,salah satunya yaitu kemamppuannya berguna untuk robotika dan system pengenalan pola
+-	Saya mengetahui cara kerja dari ANN
+-	Neural Network satu lapis  disebut perception,perception memberikan output tunggal
+-	Saya mengetahui Activation Function
+-	Saya mengetahui fungsi dari oss function, yaitu untuk mengukur performa dari neural network dalam melakukan  prediksi terhadap target
+-	Saya mengetahui fungsi dari Optimizer , yaitu untuk pembaharuan weight network secara iteratif berdasarkan data training.
+-	Saya mengetahui back propogation,yaitu untuk pembaharuan bobot dari network untuk mereduksi error dalam hasil prediksi
+-	Gradient descent, proses penyesuaian parameter model.
+-	Saya mengetahui deep learning training dan testing.
+
+Thu, 10 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1:
+-	Saya mengetahui  AI  projectcycle yaitu Problem scoping > data Acquistion>Data exploration>modelling>evaluation>Deployment
+-	Saya mengenal apa itu problem scoping
+-	Saya mengetahui waktu permasalahan pada problem scoping ,, yaitu user yang memiliki masalah itu hampir di setiap tempat umum seperti Pendidikan, masih jarang universitas yang ramah terhadap  penyandang disabilitas
+-	Saya mengetahui nilai  utama dari permasalahan(harus memiliki alas an kuat pada suatu permasalahan)
+-	Mengetahui alasa penting pada permasalahan, yaitu berdasarkan data,1 dari 10 orang penyandang  disabilitas
+-	Saya mengetahui cara memperbaiki  nya,antaranya yatu mrngrmbangkanteknologi tertentum misalnya aplikasi text to speech pembaca  buju/ebook untuk membantu  tunanetra.
+-	Saya mengetahui problem statement 
+-	Mengetahui data Aquisisi dan prosesnya
+-	Mengetahui 3 sistem akuisisi data,yaitu secara manual,automateddata acquisition,dan membuat pipeline untuk scraping atau membaca data
+-	Saya mengetahui apa itu modelling
+-	Saya mengetahui ap aitu akurasi dan presisi.
+
+Sesi 2:
+-	Saya mengetahui Contoh data Terstruktur
+-	Saya mengetahui data semi  terstruktur
+-	Saya mengetahui contoh data semi terstruktur
+-	Saya mengetahui noisy data, yaiut berisi jumlah data yang terlalu tida dibutuhkan , menimpang  ,atau tidak  diketahui kebenarannya.
+-	Saya mengetahui statistika,yaitu ilmu yang berkaitan dengan pengumppulan dan penataan data.
+-	Saya mengetahui istilah penting dari statistika, yaitu populasi,sensus,sampel,dan survey.
+-	Saya mengetahui tujuan dari statistic deskriptif
+-	Saya mengetahui yang di maksud dengan ukuran pemusatan
+-	Saya mengetahui yang dimaksud  dengan mean
+-	Saya mengetahuiyang dimaksud dengan median,
+-	Saya mengetahui 
+
+Fri, 11 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery ,  dan saya telah
+-	Mengetahui  apa itu Object Oriented Prorgramming (paradigma pemrograman yang menyediakan sarana untuk Menyusun program sehingga property dan perilaku digabungkan ke dalam objek individual).
+-	Mengetahui class OOP, yaitu sekumpulan objek, Classes dibuat dengan keyword Class
+-	Mengetahui terminology dari OOP, yaitu ada Object,inheritance,,method,Constructor,class variable,Polymorpysm
+-	Definisi Class > keyword class yang digunakan untuk membuat Class. Juga ada nama class,dan di lengkapi dengan Object.
+-	Output dari Class > Object
+-	Self Keyword pada OOP terminology > instance dari kelas.
+-	Mengetahui methods inside pada Class
+-	Mengetahui yang dimaksud dengan inheritance,yaitu kemampuan satukelas untuk memperoleh atau mewarisi property dari kelas lain.
+-	Kelas yang baru  terbentuk adalah kelas turunan(child class).
+-	Menonton Bersama kelas  tentang Exploring Other Dimension(alex rosenthal and George Zaidan)
+
+What did you learn this week?
+
+Dihari Senin
+7 Mar 2022
+saya mengikuti 2 sesi kegiatan : 
+
+Sesi I : 
+- Module Aritificial Intelligence Fundamental. 
+- Section Artificial Intelligence. 
+- What is different of Data and Information? --> Data merupakan sebuah Penyimpanan sedangkan Informasi merupakan Pengolahan Data. 
+- What is Data? --> Kumpulan fakta-fakta yang ada di sekitar. 
+- AI Landscape --> Artificial Intelligent, Machine Learning, Deep Learning, Data Science, Computer Vision, Natural Language Processing (NLP) dan Reinforcement Learning. 
+- Membuat tugas 3 untuk deadline besok 
+
+Sesi II : 
+- Menonton Video OrbitGuru - Minggu 3 : OPERATOR, STRING, LIST DAN SET. 
+- Module Aritificial Intelligence Fundamental. 
+- Masih di Section Artificial Intelligence. 
+- Reinforcement Learning --> Playing Game, Self Driving Car, Artificial Sun Environment Control, Warehouse Robot Control, Education, Social Media dan Marketing and Ads. 
+- Machine Learning --> mesin yang dikembangkan untuk bisa belajar dengan sendirinya tanpa arahan dari penggunanya. Pembelajaran mesin dikembangkan berdasarkan disiplin ilmu lainnya seperti statistika, matematika dan data mining sehingga mesin dapat belajar dengan menganalisa data tanpa perlu di program ulang atau diperintah.
+
+Dihari Selasa
+8 Mar 2022
+saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery 
+
+Sesi 1: 
+- Saya mengikuti Pembelajaran untuk sesi Matchemathic AI 
+- Saya memahami Matematika dasar Untuk Kecerdasaran Buatan 
+- Memahami konsep dasar Peluang, Peluang bersyarat, Teorama bayes 
+- Mengetahui aljabar linier antaralain matrik,Vektor, Nilai & Vektor Elgen 
+- Memahami Fungsi, Turunan ,dan optimisasi dalam Kalkulus 
+- Memahami Aljabar Linier pada AI di video Youtube yang diberikan mentor 
+- Vektor yaitu Besaran Yang memiliki nilai dan arah 
+- Vektor Berdimensi sama dan dapat di operasikan 
+- Skalar yaitu konstanta atau besaran yang memiliki nilai 
+- Dalam Ilmu Data, Vektor adalah kumpulan nilai dari variabel Tertentu 
+
+Sesi 2: 
+- Saya mengikuti Pembelajaran untuk sesi Matchemathic AI 
+- Saya memahami Matematika dasar Untuk Kecerdasaran Buatan 
+- Kalkulus : Turunan & Optimisasi 
+- Turunan (Differensial) merupakan pengembangan dari gradient. 
+- Operasi Matematika & Numpy 
+- Machine Learning Approach --> Supervised Learning, Semi-supervised Learning, Unsupervised Learning, dan Reinforced Learning. 
+- Traditional Programming vs Machine Learning Approach 
+- Traditional Approach --> Experiment, Data+Role, Process, dan Answer. 
+- Modern Approce --> Experiment, Data+Answer, Process, dan Role. 
+- Segmentasi ML menggunakan Supervised Learning dan Unsupervised Learning 
+- Supervised Learning --> Estimation, Prediction/Forecasting, dan Classification 
+- Unsupervised Learning --> Clustering dan Association.
+
+Dihari Rabu
+9 Mar 2022
+saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery 
+
+Sesi 1: 
+- Saya mengetahui 7 langkah dalam ML 
+- Saya mengetahui ML WorkFlow 
+- Mengetahui Metrics Evaluation(Regression,Classifiction,Unsupervised,Others) 
+- Memahami Kekurangan dan Kelebihan ML 
+- Contoh kekurangan ML(rentan terhadap Kesalahan) 
+- Contoh Kelebihan ML(tidak perlu campur tangan manusia) 
+- Mengetahui Supervised Learning dan ciri cirinya 
+- Ciri ciri pada Supervised Learning (data Training telah diberi label) 
+- Memahami Supervised Learning Experiment 
+- Memahami Unsupervised Learning Experiment 
+- Memahami Reinforcement Learning Experiment 
+- Mengetahui perbedaan dari Machine learning dengan Deep learning 
+- Mengetahui perkembangan Deep Learning dari tahun ke tahun 
+
+Sesi 2: 
+- Saya mengetahui Kelebihan dari Neural Network,salah satunya yaitu kemamppuannya berguna untuk robotika dan system pengenalan pola 
+- Saya mengetahui cara kerja dari ANN 
+- Neural Network satu lapis disebut perception,perception memberikan output tunggal 
+- Saya mengetahui Activation Function 
+- Saya mengetahui fungsi dari oss function, yaitu untuk mengukur performa dari neural network dalam melakukan prediksi terhadap target 
+- Saya mengetahui fungsi dari Optimizer , yaitu untuk pembaharuan weight network secara iteratif berdasarkan data training. 
+- Saya mengetahui back propogation,yaitu untuk pembaharuan bobot dari network untuk mereduksi error dalam hasil prediksi 
+- Gradient descent, proses penyesuaian parameter model. 
+- Saya mengetahui deep learning training dan testing.
+
+Dihari Kamis
+10 Mar 2022
+saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery 
+
+Sesi 1: 
+- Saya mengetahui AI projectcycle yaitu Problem scoping > data Acquistion>Data exploration>modelling>evaluation>Deployment 
+- Saya mengenal apa itu problem scoping 
+- Saya mengetahui waktu permasalahan pada problem scoping , yaitu user yang memiliki masalah itu hampir di setiap tempat umum seperti Pendidikan, masih jarang universitas yang ramah terhadap penyandang disabilitas 
+- Saya mengetahui nilai utama dari permasalahan(harus memiliki alas an kuat pada suatu permasalahan) 
+- Mengetahui alasa penting pada permasalahan, yaitu berdasarkan data,1 dari 10 orang penyandang disabilitas 
+- Saya mengetahui cara memperbaiki nya,antaranya yatu mengembangkan teknologi tertentu misalnya aplikasi text to speech pembaca buku/ebook untuk membantu tunanetra. 
+- Saya mengetahui problem statement 
+- Mengetahui data Aquisisi dan prosesnya 
+- Mengetahui 3 sistem akuisisi data,yaitu secara manual,automateddata acquisition,dan membuat pipeline untuk scraping atau membaca data 
+- Saya mengetahui apa itu modelling 
+- Saya mengetahui ap aitu akurasi dan presisi. 
+
+Sesi 2: 
+- Saya mengetahui Contoh data Terstruktur 
+- Saya mengetahui data semi terstruktur 
+- Saya mengetahui contoh data semi terstruktur 
+- Saya mengetahui noisy data, yaitu berisi jumlah data yang terlalu tidak dibutuhkan , menimpang ,atau tidak diketahui kebenarannya. 
+- Saya mengetahui statistika,yaitu ilmu yang berkaitan dengan pengumppulan dan penataan data. 
+- Saya mengetahui istilah penting dari statistika, yaitu populasi,sensus,sampel,dan survey. 
+- Saya mengetahui tujuan dari statistic deskriptif 
+- Saya mengetahui yang di maksud dengan ukuran pemusatan
+ - Saya mengetahui yang dimaksud dengan mean 
+- Saya mengetahuiyang dimaksud dengan median, - Saya mengetahui 
+
+Dihari Jumat
+11 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery , dan saya telah 
+
+- Mengetahui apa itu Object Oriented Prorgramming (paradigma pemrograman yang menyediakan sarana untuk Menyusun program sehingga property dan perilaku digabungkan ke dalam objek individual). 
+- Mengetahui class OOP, yaitu sekumpulan objek, Classes dibuat dengan keyword Class 
+- Mengetahui terminology dari OOP, yaitu ada Object,inheritance,,method,Constructor,class variable,Polymorpysm - Definisi Class > keyword class yang digunakan untuk membuat Class. Juga ada nama class,dan di lengkapi dengan Object. 
+- Output dari Class > Object 
+- Self Keyword pada OOP terminology > instance dari kelas. 
+- Mengetahui methods inside pada Class 
+- Mengetahui yang dimaksud dengan inheritance,yaitu kemampuan satukelas untuk memperoleh atau mewarisi property dari kelas lain. 
+- Kelas yang baru terbentuk adalah kelas turunan(child class). 
+- Menonton Bersama kelas tentang Exploring Other Dimension(alex rosenthal and George Zaidan)

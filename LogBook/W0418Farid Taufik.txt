@@ -1,0 +1,257 @@
+Mon, 14 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran Data Manipulation with Pandas di Orbit AI Mastery
+Sesi 1 saya telah:
+-	Mengenal seorang Geoffrey hinton
+-	Mengikuti  learning objectives
+-	Mengetahui Agenda learning Objectives
+-	Mengetahui tipe data pada  Numpy seperti intc,int8,uint8,float16,complex64,bool.int,float dan lainnya
+-	Mengetahui objek pandas, yaitu versi array terstruktur numpy yang disempurnakan.
+-	Mengetahui 3 data dasar , index,series, dan data frame
+Sesi 2 saya telah: 
+-	Mengetahui Transformasi data dengan menggunakan map
+-	mengetahui Module 3 Data Analytics with python-applied analytics
+-	Masih di dalam Section Data Manipulation with pandas
+-	mengetahui Pandas: Selection & Filtering 
+-	mengetahui Data Aggregation: Groupby
+-	Pandas: Data Transformation - Replacing Values
+-	Pandas: Data Transformation - Discretization & Binning
+-	Seaborn ==> Library untuk membuat grafik statistik di Python
+-     Stripplot and Swarmplot with Seaborn
+
+Tue, 15 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery ,  dan saya telah
+Sesi 1:
+-	Mengetahui  pentingnya data visualization  ,yaitu digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts
+-	Mengetahui matplotlib, salah satu paket python paling popular yang digunakan  untuk visualisasi data.
+-	Matplotlib adalah cross-platform library untuk membuat 2d plots dari data  di arrays
+-	Mengetahui matplotlib image functions,yaitu imread,imsave,dan imshow
+-	Mengetahui matplotlib figure functione
+-	Mengetahui lineplot, menggunakan 2 titik array 
+-	Mengetahui implementasi  dari pie charts
+-	Mengetahui bahwa boxplot dan violinplot itu kegunaannya sama
+Sesi 2 saya telah  :
+-	Mengikuti  Implementasi dari Analysis Data Visualization Menggunakan GoogleColab.
+
+Wed, 16 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery ,  dan saya telah
+Sesi 1:
+-	Mengetahui  Regresi yang terjadi di dunia nyata
+-	Mengetahui Tipe Regresi, yaitu pada Linier dan non linier
+-	Mengetahui objektif pada regresi linear, yaitu menganalisa relasi antara dua Variabel dan memprediksi nilai baru yang memungkinkan
+-	Mengetahui yang dimaksud dengan regresi linear, yaiu algoritma supervised learning yang belajar dari  sekumpulan sampel data lebih
+-	Regresi Linear mengestimasi hubungan antara dependent variable(target/label) dan 1 atau lebih independent variable (predictors).
+-	Mengetahui maksud dari Univariate Linear Regression,yaitu Selama periode latih (training), 
+garis regresi akan sampai pada kondisi "fit".
+-	Mengetahui Linear Regression - Variables affecting Regression Equation
+-	Mengetahui Linear Regression - Housing prices prediction
+-	Mengetahui Linear Regression - Gradient Descent Algorithm	
+Sesi  2  saya telah :
+-	Mengikuti pembelajaran pada Module 4 Supervised Machine Learning and Predictive Modelling
+-	Meniymak pebahasan tentang Section Linear Regression
+-	Mengetahui Linear Regression - OLS
+-	Mengetahui Linear Regression - R Squared
+-	Mengetahui Linear Regression - Goodness of Fit (Contd.)
+-	Mengetahui Cross Validation Types
+-	Mengetahui K-Fold Cross Validation
+-	Mengetahui Overfitting & Generalisation
+-	Mengetahui Lasso (L1) Regression,Ridge (L2) Regression
+-	Mengikuti pembahasan  tentang Section Logistic Regression
+-	Mengetahui maksud dari regresi logistic, yaitu Salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas 
+-	Mengetahui Assumptions pada Logistic Regression
+-	Mengetahui Objective of Logistic Regression - Binary Classification
+-	Mengetahui Logistic Regression - Diabetes Dataset
+
+Thu, 17 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery ,  dan saya telah  Mempelajari:
+Sesi 1:
+-	Algoritma k-NN => algoritma supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori k-tetangga terdekat.
+-	Machine Learning : Supervised Learning
+-	Comparison Supervised Learning dan Unsupervised Learning
+-	Himpunan Data (Dataset)
+-	Pemisahan Dataset (Split Dataset), dibagi menjadi 3 : Training set, Validation set, Testing dataset/data yang tidak terlihat (unseen data).
+-	Regresi,yaitu output nya berupa nilai kontinu dan Klasifikasi ==> output nya berupa nilai kategorik.
+-	Kasus k-NN, K-Nearest Neighbor (k-NN), dan Contoh Kasus k-NN.
+-	Instance Based Learning.
+-	Curse of Dimensionality (Contd.)
+-	K-Factor
+-	Use Case of KNN
+Sesi 2 saya telah mempelajari:
+- Module 5 Supervised Machine Learning and Predictive Modelling
+- Section Decision Tree
+- Decision Tree ==> merupakan algoritma supervised learning yang bekerja untuk data Input dan OUtput yang bersifat Categorial (Classification Tree) dan Continuous (Regression Tree)
+- Decision Tree Illustration using Sample Dataset.
+- Entropy (pi) ==> merupakan proporsi (dari jumlah observasi) dari i th kategori tertentu dari variable target.
+
+Fri, 18 Mar
+
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery ,  dan saya telah  Mempelajari:
+Sesi 1:
+- Membahas bersama tentang  Neural network - introduction to Programming
+- Membahas Jadwal Pembelajaran dari Minggu ke 5 sampai sebelum hari raya Idul Fitri 
+- DS - Data Science
+- CV - Computer Vision
+- Nlp - Neural Language Processing
+- RL= Reinforcement Learning
+- Technical - Git dan Github ,SQL,
+- Bootstrap - Flask.
+- Membahas Perubahan Setiap Sesi 3 jam :2 jam ,30 istirahat, 1 jam. untuk minggu depan. 
+- Membahas bersama tentang penggabungan kelas di Minggu depan
+- Neural Network (artificial Neural Network) – Jenis machine learning yang sering digabungkan dengan deep learning
+- ANN  -  Gabungan dari beberapa Artificiall Neuron, disebut  sebagai perceptron yang disusun dalam beberapa lapisan (Layer)
+- Neutral Network dan Biological  Neuron dan Artificial Neuron (perceptron)
+- Neural Network tidak berguna jika berdiri sendiri
+- neural network ada 3 jenis, Input layer, hidden layer, dan output layer
+- loss function – cost function,yaitu algoritma yang mengukur/mengkalkulasi seberapa salah sebuah model NN.
+- loss , yaitu ukuran dari function pada loss function
+- ANN dikembangkan pada tahun 1940
+- Neural Network dilatih dengan cara menyesuaikan weight atau bias.
+- gradient dapat di analogikan seperti orang yang sedang menuruni gunung basecamp saat cuaca sedang berkabut
+
+Sesi 2 saya telah mempelajari:
+-	Gradient Descent
+-	Salah satu contoh optimizer adalah Gradient Descent..
+-	Gradient Descent memanfaatkan hasil perhitungan turunan parsialpertama loss function dan learning rate untuk mengupdate
+-	How to train a NN: Forward Pass
+
+What did you learn this week?
+
+Dihari Senin
+14 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran Data Manipulation with Pandas di Orbit AI Mastery 
+Sesi 1 saya telah:
+ - Mengenal seorang Geoffrey hinton 
+- Mengikuti learning objectives 
+- Mengetahui Agenda learning Objectives 
+- Mengetahui tipe data pada Numpy seperti intc,int8,uint8,float16,complex64,bool.int,float dan lainnya 
+- Mengetahui objek pandas, yaitu versi array terstruktur numpy yang disempurnakan. 
+- Mengetahui 3 data dasar , index,series, dan data frame 
+
+Sesi 2 saya telah: 
+- Mengetahui Transformasi data dengan menggunakan map 
+- mengetahui Module 3 Data Analytics with python-applied analytics 
+- Masih di dalam Section Data Manipulation with pandas 
+- mengetahui Pandas: Selection & Filtering 
+- mengetahui Data Aggregation: Groupby 
+- Pandas: Data Transformation 
+- Replacing Values 
+- Pandas: Data Transformation 
+- Discretization & Binning 
+- Seaborn ==> Library untuk membuat grafik statistik di Python 
+- Stripplot and Swarmplot with Seaborn 
+
+Dihari Selasa
+15 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery , dan saya telah 
+Sesi 1: 
+- Mengetahui pentingnya data visualization ,yaitu digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts 
+- Mengetahui matplotlib, salah satu paket python paling popular yang digunakan untuk visualisasi data. 
+- Matplotlib adalah cross-platform library untuk membuat 2d plots dari data di arrays 
+- Mengetahui matplotlib image functions,yaitu imread,imsave,dan imshow 
+- Mengetahui matplotlib figure functione 
+- Mengetahui lineplot, menggunakan 2 titik array 
+- Mengetahui implementasi dari pie charts 
+- Mengetahui bahwa boxplot dan violinplot itu kegunaannya sama 
+
+Sesi 2 saya telah : 
+- Mengikuti Implementasi dari Analysis Data Visualization Menggunakan GoogleColab. 
+
+Dihari Rabu
+16 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery , dan saya telah 
+Sesi 1: 
+- Mengetahui Regresi yang terjadi di dunia nyata 
+- Mengetahui Tipe Regresi, yaitu pada Linier dan non linier 
+- Mengetahui objektif pada regresi linear, yaitu menganalisa relasi antara dua Variabel dan memprediksi nilai baru yang memungkinkan 
+- Mengetahui yang dimaksud dengan regresi linear, yaiu algoritma supervised learning yang belajar dari sekumpulan sampel data lebih 
+- Regresi Linear mengestimasi hubungan antara dependent variable(target/label) dan 1 atau lebih independent variable (predictors). 
+- Mengetahui maksud dari Univariate Linear Regression,yaitu Selama periode latih (training), garis regresi akan sampai pada kondisi "fit". 
+- Mengetahui Linear Regression 
+- Variables affecting Regression Equation 
+- Mengetahui Linear Regression 
+- Housing prices prediction 
+- Mengetahui Linear Regression 
+- Gradient Descent Algorithm 
+
+Sesi 2 saya telah : 
+- Mengikuti pembelajaran pada Module 4 Supervised Machine Learning and Predictive Modelling - Meniymak pebahasan tentang Section Linear Regression 
+- Mengetahui Linear Regression 
+- OLS 
+- Mengetahui Linear Regression 
+- R Squared 
+- Mengetahui Linear Regression 
+- Goodness of Fit (Contd.) - Mengetahui Cross Validation Types 
+- Mengetahui K-Fold Cross Validation 
+- Mengetahui Overfitting & Generalisation 
+- Mengetahui Lasso (L1) Regression,Ridge (L2) Regression 
+- Mengikuti pembahasan tentang Section Logistic Regression 
+- Mengetahui maksud dari regresi logistic, yaitu Salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas 
+- Mengetahui Assumptions pada Logistic Regression 
+- Mengetahui Objective of Logistic Regression 
+- Binary Classification 
+- Mengetahui Logistic Regression 
+- Diabetes Dataset
+
+Dihari  Kamis
+17 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery , dan saya telah Mempelajari: 
+Sesi 1: 
+- Algoritma k-NN => algoritma supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori k-tetangga terdekat. 
+- Machine Learning : Supervised Learning 
+- Comparison Supervised Learning dan Unsupervised Learning 
+- Himpunan Data (Dataset) 
+- Pemisahan Dataset (Split Dataset), dibagi menjadi 3 : Training set, Validation set, Testing dataset/data yang tidak terlihat (unseen data). 
+- Regresi,yaitu output nya berupa nilai kontinu dan Klasifikasi ==> output nya berupa nilai kategorik. - Kasus k-NN, K-Nearest Neighbor (k-NN), dan Contoh Kasus k-NN. 
+- Instance Based Learning. 
+- Curse of Dimensionality (Contd.) 
+- K-Factor 
+- Use Case of KNN 
+
+Sesi 2 saya telah mempelajari: 
+- Module 5 Supervised Machine Learning and Predictive Modelling 
+- Section Decision Tree 
+- Decision Tree ==> merupakan algoritma supervised learning yang bekerja untuk data Input dan OUtput yang bersifat Categorial (Classification Tree) dan Continuous (Regression Tree) 
+- Decision Tree Illustration using Sample Dataset. 
+- Entropy (pi) ==> merupakan proporsi (dari jumlah observasi) dari i th kategori tertentu dari variable target. 
+
+Dihari Jumat
+18 Mar 2022
+Hari ini saya mingikuti 2 sesi pembelajaran di Orbit AI Mastery , dan saya telah Mempelajari: 
+Sesi 1: 
+- Membahas bersama tentang Neural network 
+- introduction to Programming 
+- Membahas Jadwal Pembelajaran dari Minggu ke 5 sampai sebelum hari raya Idul Fitri 
+- DS
+- Data Science 
+- CV 
+- Computer Vision 
+- Nlp 
+- Neural Language Processing 
+- RL= Reinforcement Learning 
+- Technical 
+- Git dan Github ,SQL, 
+- Bootstrap 
+- Flask. 
+- Membahas Perubahan Setiap Sesi 3 jam :2 jam ,30 istirahat, 1 jam. untuk minggu depan. - Membahas bersama tentang penggabungan kelas di Minggu depan 
+- Neural Network (artificial Neural Network) 
+– Jenis machine learning yang sering digabungkan dengan deep learning 
+- ANN 
+- Gabungan dari beberapa Artificiall Neuron, disebut sebagai perceptron yang disusun dalam beberapa lapisan (Layer) 
+- Neutral Network dan Biological Neuron dan Artificial Neuron (perceptron) 
+- Neural Network tidak berguna jika berdiri sendiri 
+- neural network ada 3 jenis, Input layer, hidden layer, dan output layer 
+- loss function 
+– cost function,yaitu algoritma yang mengukur/mengkalkulasi seberapa salah sebuah model NN. 
+- loss , yaitu ukuran dari function pada loss function 
+- ANN dikembangkan pada tahun 1940 
+- Neural Network dilatih dengan cara menyesuaikan weight atau bias. 
+- gradient dapat di analogikan seperti orang yang sedang menuruni gunung basecamp saat cuaca sedang berkabut 
+
+Sesi 2 saya telah mempelajari: 
+- Gradient Descent 
+- Salah satu contoh optimizer adalah Gradient Descent.. 
+- Gradient Descent memanfaatkan hasil perhitungan turunan parsialpertama loss function dan learning rate untuk mengupdate 
+- How to train a NN: Forward Pass

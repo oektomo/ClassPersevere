@@ -1,0 +1,108 @@
+Mon, 18 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+P	Clustering , sebuah proses untuk mengelompokkan data ke dalam beberapa cluster atau kelompokan ke dalam seberapa cluster atau kelompok sehingga data dalam satu cluster memiliki tingkat kemiripan yang maksimum 
+P	Clustering, merupakan proses parrtisi satu set ibject data ke dalam himpunan bagian yang disebut dengan cluster
+P	K-means, salah satu metode clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster.
+P	Clustering dimulai dari kelompok pertama centroid yang dipilih secara acak.
+P	Proses perhitungan selesai apabila centroid telah stabil atau tidak ada perubahan cluster (konvergen).
+P	Metode elbw, suatu metode yang digunakan untuk menghasilkan informasi dalam menentukan jumlah cluster terbaik dengan cara melihat presentase hasil perbandingan antara jumlah cluster yang akan membentuk suatu siku dalam suatu titik.
+
+Tue, 19 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Module 4 Computer Vision
+- Section Image Segmentation Using U-Net.
+- Type of Segmentation => Semantic Segmentation masks road, sheep and grass. dapat mengidentifikasi objek yang berbeda.
+- Evalusasi => Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+- The Intersection Over Union(IoU) => metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi.
+- Encoder decoder architecture => Lapisan encoder dan decoder berukuran sama, dan Encoder digunakan untuk mengekstrak fitur.
+- What is transpose convolution layer? Konvolusi => proses untuk mendapatkan ukuran output yang lebih kecil.
+
+Wed, 20 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Module 10 Natural Language Processing (NLP).
+- Section Recognition
+- Speech Recognition => merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+- Sejarah Speech Recognition.
+- Framework dan Tool dalam Speech Recognition.
+- Proses Speech Recognition.
+- Model dalam Speech Recognition.
+- Tahapan mengubah sinyal analog ke digital.
+- Proses Ekstrasi Fitur Audio.
+- Pengertian Hidden Markov Model.
+
+Thu, 21 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Modul Domain AI - Reinforcement Learning
+- Bagian Review and Forum Group Discussion.
+- Konsep RL: Teori Dasar => RL belajar (learn) dari interaksi agent dengan environment menggunakan proses eksploitasi/eksplorasi dan sistem reward, untuk memperkuat (reinforce) action positif.
+- Konsep RL: Interaksi Agent => Tujuan dari agent adalah memaksimalkan reward kumulatif, disebut return.
+- Konsep RL: Policy => Policy adalah algoritme/serangkaian aturan yang mendeskripsikan bagaimana agent mengambil keputusan-keputusan.
+- Konsep RL: Value Function => Value function berguna untuk mengevaluasi posisi agent, baik atau buruk, pada state yang diketahui.
+- Konsep RL: Model => Karena agent umumnya tidak dapat mengamati environment seluruhnya, agent harus melakukan action untuk mendapatkan informasi tentang environment (model-free).
+- MDP (Markov Decision Process) => Markov Reward Process yang memiliki keputusan-keputusan action.
+- Persamaan Bellman: Formulasi, Perhitungan.
+- Monte Carlo (Konsep MC) => tidak mengambil pengetahuan lengkap dari environment (model free).
+- Elemen Algoritme MC => Goal, Return, Value Function.
+- MC Control => Policy Evaluation & Policy Improvement.
+- Temporal Difference (TD) => TDL : Mengestimasi reward pada setiap Langkah (step).
+- Deep Q Learning => Deep Q Learning akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut dengan Deep Q Network atau DQN. 
+- Deep Q Network => sebuah NN yang menerima states yg diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut.
+
+Fri, 22 Apr
+
+Hari ini saya tidak mengikuti  kelas  karena saya sedang fokus mencari tempat pembuatan kunci dupplikat motor saya yang  hillang di jalan pada hari kamis. dan pada saat itulah saya lupa  ada kelas, saya  sudah masuk di jam 10:20 tapi nyatanya sudah bubar. saya  hanya  menonton hasil recording kelasnya saja, dan saya mempelajari :
+- Modul Domain AI - Technical Domain
+- Session Web Development dengan Heroku
+- Website => kumpulan halaman web yang dapat diakses publik dan biasanya disebut juga dengan www(World Wide Web).
+- Development => kegiatan yang bertujuan untuk membuat suatu program atau pengembangan perangkat lunak.
+- Web Development => sebuah proses pembangunan dan pemeliharaan situs web.
+- Web Deployment => proses menjalankan aplikasi web di server atau perangkat yang melibatkan packaging dan meletakkannya di production environment.
+- Heroku adalah adalah salah satu web hosting berbasis cloud, biasanya heroku digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain - lain.
+- Gunicorn (Green Unicorn) adalah sebuah WSGI (Web Server Gateway Interface) HTTP Server untuk bahasa pemrograman Python
+- WSGI merupakan application server yang bertanggungjawab untuk mengolah data dengan mengeksekusi kode yang ada di server.
+
+What did you learn this week?
+
+Minggu ini saya mempelajari
+
+- Senin, 18 April 2022
+Memahami langkah dalam clustering
+Memahami teknik dalam menentukan banyak cluster
+Dapat mengimplementasikan clustering
+Mengetahui manfaat clustering
+
+- Selasa, 19 April 2022
+Memahami Prinsip Kerja Segmentasi
+Perbedaan antara instance dan semantic segmentation
+U-Net untuk instance segmentation
+Experiment/Implementasi
+
+- Rabu, 20 April 2022
+Memahami pengertian Speech Recognition
+Proses mengubah sinyal analog ke digital
+Ekstraksi Fitur dengan MFCC
+Flow Speech Recognition
+Hidden Markov Model
+
+- Kamis, 21 April 2022
+Mengetahui Dasar-Dasar RL (MDP, Bellman Eq.)
+Mengetahui DP, MC, TD (SARSA), QL dan DQN
+Mengetahui implementasi RL pada robotics
+Dapat melakukan pemrograman RL dengan python
+
+- Jum'at, 22 April 2022
+Memahami apa itu web deployment
+Mengetahui penggunaan Heroku sebagai service untuk deployment
+Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi web untuk deployment

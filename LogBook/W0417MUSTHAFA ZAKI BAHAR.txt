@@ -1,0 +1,31 @@
+Mon, 14 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari materi Data Manipulation with Pandas didalamnya berisi materi mengenai Numpy Introduction, Numpy Arrays, Pandas Introduction, Data Aggregation, Matplotlip dan Seaborn untuk visualisasi data. Lanjut meet siang melanjutkan materi yang sudah disampaikan pada pagi hari, tetapi untuk sesi 2 lebih spesifik membahas mengenai praktek/penerapannya untuk numpy, pandas, matplotlib, dan seaborn pada google colab.
+
+Tue, 15 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari materi Data Manipulation Basics didalamnya berisi materi mengenai Matplotlib, Visualisasi dengan Matplotlib dan Seaborn, Multiple Axes, Plotting time series data. Lanjut meet siang melanjutkan materi yang sudah disampaikan pada pagi hari, tetapi untuk sesi 2 lebih spesifik membahas mengenai praktek/penerapannya untuk numpy, pandas, matplotlib, dan seaborn pada google colab. Lanjut sesi 2 meet virtual membahas W0402EDA.ipynb yaitu mengenai contoh melakukan analisis Bank Churn mulai dari Data Collection dan Exploration, Data Cleaning, EDA(Exploratory Data Analysis).
+
+Wed, 16 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari supervised machine learning and predictive modelling untuk sesi pagi dimulai dengan linear regression, sebelum itu dilakukan post test mengenai materi sebelumnya mengenai visualisasi dan statistika. Sesi siang melanjutkan materi dengan tambahan dipraktekan menggunakan colab untuk materi linear regression.
+
+Thu, 17 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari Algoritma KNN dan dipraktekan penggunaanya dengan colab menggunakan dataset iris dan bank churn. Sesi siang melanjutkan praktek di colab yaitu Customer Churn using KNN. Dan membahas sedikit mengenai decision tree, untuk FGD diberi tugas untuk melakukan visualisasi dari setiap feature menggunakan histogram dan melihat perbedaan dari setiap feature sebelum dan sesudah di normalisasi.
+
+Fri, 18 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mereview materi yang sudah dilakukan yaitu mengenai neural networks, dan membahas beberapa istilah umum yang sering muncul Ketika mengembangkan AI menggunakan algoritma neural networks seperti activation function, loss function, dan optimizer. 
+
+What did you learn this week?
+
+Kegiatan senin dimulai dengan meet virtual mempelajari materi Data Manipulation with Pandas didalamnya berisi materi mengenai Numpy Introduction, Numpy Arrays, Pandas Introduction, Data Aggregation, Matplotlip dan Seaborn untuk visualisasi data. Lanjut meet siang melanjutkan materi yang sudah disampaikan pada pagi hari, tetapi untuk sesi 2 lebih spesifik membahas mengenai praktek/penerapannya untuk numpy, pandas, matplotlib, dan seaborn pada google colab.
+
+Kegiatan selasa dimulai dengan meet virtual mempelajari materi Data Manipulation Basics didalamnya berisi materi mengenai Matplotlib, Visualisasi dengan Matplotlib dan Seaborn, Multiple Axes, Plotting time series data. Lanjut meet siang melanjutkan materi yang sudah disampaikan pada pagi hari, tetapi untuk sesi 2 lebih spesifik membahas mengenai praktek/penerapannya untuk numpy, pandas, matplotlib, dan seaborn pada google colab. Lanjut sesi 2 meet virtual membahas W0402EDA.ipynb yaitu mengenai contoh melakukan analisis Bank Churn mulai dari Data Collection dan Exploration, Data Cleaning, EDA(Exploratory Data Analysis.
+
+Kegiatan rabu dimulai dengan meet virtual mempelajari supervised machine learning and predictive modelling untuk sesi pagi dimulai dengan linear regression, sebelum itu dilakukan post test mengenai materi sebelumnya mengenai visualisasi dan statistika. Sesi siang melanjutkan materi dengan tambahan dipraktekan menggunakan colab untuk materi linear regression.
+
+Kegiatan kamis dimulai dengan meet virtual mempelajari Algoritma KNN dan dipraktekan penggunaanya dengan colab menggunakan dataset iris dan bank churn. Sesi siang melanjutkan praktek di colab yaitu Customer Churn using KNN. Dan membahas sedikit mengenai decision tree, untuk FGD diberi tugas untuk melakukan visualisasi dari setiap feature menggunakan histogram dan melihat perbedaan dari setiap feature sebelum dan sesudah di normalisasi.
+
+Kegiatan jum'at dimulai dengan meet virtual mereview materi yang sudah dilakukan yaitu mengenai neural networks, dan membahas beberapa istilah umum yang sering muncul Ketika mengembangkan AI menggunakan algoritma neural networks seperti activation function, loss function, dan optimizer

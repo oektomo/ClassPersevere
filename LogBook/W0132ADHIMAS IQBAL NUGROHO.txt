@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+pertemuan pertama diisi perkenalan dan pengenalan materi
+
+Tue, 22 Feb
+
+Pada hari kedua mulai memperdalami materi mengenai penerapan AI pada kehidupan sehari-hari terutama dibidang industri. mulai dari awal mula AI masuk ke bidang industri hingga perkembangannya hingga sekarang
+
+Wed, 23 Feb
+
+pada hari ini kembali self learning yaitu mulai mengenali codig yaitu Python yang merupakan bahasa pemrograman yang sangat basic untuk dipelajari di penerapan AI. Secara global python sangat berperan penting dalam perkembangan AI. Dan juga pengenalan aplikasi open source berupa anaconda dan jupyter notebook
+
+Thu, 24 Feb
+
+Pada self learning kali ini mempelajari tentang pengertian dari Data. Jadi pada modul menjelaskan mengani pengertian data itu sendiri, kemudian jenis-jenis data dan cara memperolehnya. kemudian ada juga konsep pemahaman mengenai etika, dan penerapan etika pada bidang AI
+
+Fri, 25 Feb
+
+Pada self learning hari ini mempelajari mengenai pengenalan bahasa pemrograman Python melalui media video pada orbit guru
+
+What did you learn this week?
+
+Pada minggu pertama pelaksanaan Studi Independent saya mempelajari banyak hal. Dimana hari pertama meet berisi perkenalan, kemudian dihari-hari selanjutnya berisi pengenalan mengenai Artifical Intelegent, baik pengertiannya, unsur-unsur didalamnya hingga bahasa pemrograman yang nantinya akan sering digunakan dalam penerapan AI yaitu Python

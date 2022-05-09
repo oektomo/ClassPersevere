@@ -1,0 +1,31 @@
+Mon, 28 Feb
+
+Libur Isra Mi'raj Nabi Muhammad SAW
+
+Tue, 1 Mar
+
+Pada sesi 1 belajar mengenai sejarah dari bahasa pemrograman python, cara penggunaannya python pada jupyter notebook serta memahami konsep dari AI. Kemudian dilanjutkan dengan belajar mandiri mempelajari dasar python yang bersumber dari w3school dan di tulis ulang kode yang ada disana dalam jupyter notebook. Pada sesi 2 dibahas kembali hasil dari pembelajaran mandiri yang dilakukan pada sesi 1 yaitu belajar dasar python dan ditambahkan pula penjelasan beberapa tipe data yang tersedia di python seperti string, integer, float,boolean, list, tuple, dictionary, set.
+
+Wed, 2 Mar
+
+Materi pembelajaran pada sesi pertama yaitu mengenai python operator. Operator pada bahasa pemrograman python terdiri dari, operator aritmatika, operator assignment, operator comparison (perbandingan), operator logical, operator identity, operator membership dan operator bitwise. Operator digunakan untuk melakukan operasi pada variabel atau nilai. Dalam sesi pertama juga dijelaskan mekanisme pengumpulan tugas dengan menggunakan git dan github. Kemudian pada sesi kedua, materi yang disampaikan yaitu perkondisian seperti if else serta perulangan seperti for, while.
+
+Thu, 3 Mar
+
+Libur hari raya nyepi
+
+Fri, 4 Mar
+
+Hari ini mempelajari mengenai cara membuat sebuah fungsu pada python. Fungsi pada python dapat dinyatakan dengan def, pernyataan def harus diikuti dengan nama fungsi dan daftar parameter formal dalam kurung. Pada materi ini juga dilakukan membuat fungsi python seperti fungsi luas segita, persegi dan sebagainya. Selain mempelajari fungsi pada python, pada kegiatan hari ini juga dibahas mengenai fungsi bawaan atau built-in function yang sudah tersedia pada python.
+
+What did you learn this week?
+
+Hari Senin : Libur Isra Mi'raj Nabi Muhammad SAW
+
+Hari Selasa : Pada sesi 1 belajar mengenai sejarah dari bahasa pemrograman python, cara penggunaannya python pada jupyter notebook serta memahami konsep dari AI. Kemudian dilanjutkan dengan belajar mandiri mempelajari dasar python yang bersumber dari w3school dan di tulis ulang kode yang ada disana dalam jupyter notebook. Pada sesi 2 dibahas kembali hasil dari pembelajaran mandiri yang dilakukan pada sesi 1 yaitu belajar dasar python dan ditambahkan pula penjelasan beberapa tipe data yang tersedia di python seperti string, integer, float,boolean, list, tuple, dictionary, set.
+
+Hari Rabu : Materi pembelajaran pada sesi pertama yaitu mengenai python operator. Operator pada bahasa pemrograman python terdiri dari, operator aritmatika, operator assignment, operator comparison (perbandingan), operator logical, operator identity, operator membership dan operator bitwise. Operator digunakan untuk melakukan operasi pada variabel atau nilai. Dalam sesi pertama juga dijelaskan mekanisme pengumpulan tugas dengan menggunakan git dan github. Kemudian pada sesi kedua, materi yang disampaikan yaitu perkondisian seperti if else serta perulangan seperti for, while.
+
+Hari Kamis : Libur hari raya nyepi
+
+Hari Jumat : Hari ini mempelajari mengenai cara membuat sebuah fungsu pada python. Fungsi pada python dapat dinyatakan dengan def, pernyataan def harus diikuti dengan nama fungsi dan daftar parameter formal dalam kurung. Pada materi ini juga dilakukan membuat fungsi python seperti fungsi luas segita, persegi dan sebagainya. Selain mempelajari fungsi pada python, pada kegiatan hari ini juga dibahas mengenai fungsi bawaan atau built-in function yang sudah tersedia pada python.

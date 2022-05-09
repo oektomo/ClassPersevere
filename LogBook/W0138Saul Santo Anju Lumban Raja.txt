@@ -1,0 +1,89 @@
+Mon, 21 Feb
+
+pada minggu pertama ini , saya berkenalan dengan teman teman serta coach saya pada programa ini , lalu  memahami pengantar tentang Artificial intelligence, serta mengerjakan pretest untuk  mengetahui pemahaman setiap individu tengtang AI, kegiatan ini terbagi menjadi 2 sesi, yaitu sesi belajar bersama dikelas yang dilakukan secara daring menggunakan ms teams serta sesi kedua adalah belajar mandari dengan mempelajari modul tentang python.
+
+Tue, 22 Feb
+
+hari kedua,saya belajar mandiri dari materi yang disediakan , materi yang dipelajari secara mandiri diantaranya, terdapat beberapa point yang saya dapat pelajari:
+1. perkembangan teknlogi yang ada di dunia industri
+2. pentingnya artificial intelligence
+3. perbedaan dunia industri sebelum  dan setelah menerapkan teknlogi
+4. pentingnya data dalam dunia indsutri saat ini
+5. revolusi industri
+6. pentingnya big data
+berikut beberapa yang saya dapatkan hari ini
+
+Wed, 23 Feb
+
+pada hari ini, saya mempelajari apa itu python, python adalah bahasa pemrograman tingkat
+tinggi yang dinamis, serbaguna, dan mudah
+untuk dipelajari. Python juga dikenal sebagai
+“glue language”.  lalu belajar pengenalan pengembangan python, dan memahami Anaconda, Anaconda adalah distribusi python/R, kumpulan package open-source,
+package manager, dan environment manager yang dibangun untuk
+data science. lalu mempersiapkan beberapa hal untuk memulai menggunakan bahasa pemograman python,antara lain :
+1.Terminal
+2.Terminal + Text Editor
+3.IDE
+
+lalu menginstall jupyter dilanjut memperlajari bagaimana memulai dengan python, dari menulis code hingga menghasilkan output ke layar
+
+Thu, 24 Feb
+
+Pada hari ini , saya melanjutkan belajar mandiri, kali ini saya mempelajari apa itu data , data yang dipelajari menunjuk ke banyak hal bedasarkan typenya, data terbagi menjadi 2 yaitu, “Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga
+sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain”,Kecerdasan butuh Data
+
+Kecerdasan manusia membutuhkan data:
+Broker real estate membutuhkan data tentang rumah yang dijual
+untuk memperkirakan harga.
+Kecerdasan buatan membutuhkan data:
+Program komputer juga membutuhkan data untuk memperkirakan
+harga. lalu mengetahui  beragam data, ada kuantitatif dan kuliatatif, lalu cara memperoleh data, dapat dilakukan dengan cara survei, sampel,sensus, dan populasi , berikut pelajaran yang saya dapat mengenail data
+
+Fri, 25 Feb
+
+pada hari ini, saya lanjut mempelajari python, dari alasan mengapa menggunakan bahasa  pemograman python adalah :
+1. mudah digunakan 
+2. memiliki banyak pustaka
+3.bersifat open source
+lalu bahasa pemograman python cocok dengan orang yang tidak berasal dari dunia IT , dan python merupakan bahahasa tingkat tinggi  sehingga bahasa yang dapat dimengerti secara mudah oleh manusia. serta cocok untuk data scient dan mechine learning, berikut yang saya pelajari
+
+
+
+What did you learn this week?
+
+1. saya berkenalan dengan teman teman serta coach saya pada programa ini , lalu  memahami pengantar tentang Artificial intelligence, serta mengerjakan pretest untuk  mengetahui pemahaman setiap individu tengtang AI, kegiatan ini terbagi menjadi 2 sesi, yaitu sesi belajar bersama dikelas yang dilakukan secara daring menggunakan ms teams serta sesi kedua adalah belajar mandari dengan mempelajari modul tentang python.
+2.saya belajar mandiri dari materi yang disediakan , materi yang dipelajari secara mandiri diantaranya, terdapat beberapa point yang saya dapat pelajari:
+1. perkembangan teknlogi yang ada di dunia industri
+2. pentingnya artificial intelligence
+3. perbedaan dunia industri sebelum  dan setelah menerapkan teknlogi
+4. pentingnya data dalam dunia indsutri saat ini
+5. revolusi industri
+6. pentingnya big data
+berikut beberapa yang saya dapatkan hari ini
+3.saya mempelajari apa itu python, python adalah bahasa pemrograman tingkat
+tinggi yang dinamis, serbaguna, dan mudah
+untuk dipelajari. Python juga dikenal sebagai
+“glue language”.  lalu belajar pengenalan pengembangan python, dan memahami Anaconda, Anaconda adalah distribusi python/R, kumpulan package open-source,
+package manager, dan environment manager yang dibangun untuk
+data science. lalu mempersiapkan beberapa hal untuk memulai menggunakan bahasa pemograman python,antara lain :
+1.Terminal
+2.Terminal + Text Editor
+3.IDE
+
+lalu menginstall jupyter dilanjut memperlajari bagaimana memulai dengan python, dari menulis code hingga menghasilkan output ke layar
+4.saya melanjutkan belajar mandiri, kali ini saya mempelajari apa itu data , data yang dipelajari menunjuk ke banyak hal bedasarkan typenya, data terbagi menjadi 2 yaitu, “Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga
+sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain”,Kecerdasan butuh Data
+
+Kecerdasan manusia membutuhkan data:
+Broker real estate membutuhkan data tentang rumah yang dijual
+untuk memperkirakan harga.
+Kecerdasan buatan membutuhkan data:
+Program komputer juga membutuhkan data untuk memperkirakan
+harga. lalu mengetahui  beragam data, ada kuantitatif dan kuliatatif, lalu cara memperoleh data, dapat dilakukan dengan cara survei, sampel,sensus, dan populasi , berikut pelajaran yang saya dapat mengenail data
+5.saya lanjut mempelajari python, dari alasan mengapa menggunakan bahasa  pemograman python adalah :
+1. mudah digunakan 
+2. memiliki banyak pustaka
+3.bersifat open source
+lalu bahasa pemograman python cocok dengan orang yang tidak berasal dari dunia IT , dan python merupakan bahahasa tingkat tinggi  sehingga bahasa yang dapat dimengerti secara mudah oleh manusia. serta cocok untuk data scient dan mechine learning, berikut yang saya pelajari

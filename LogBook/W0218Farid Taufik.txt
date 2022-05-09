@@ -1,0 +1,150 @@
+Mon, 28 Feb
+
+Libur nasional
+
+Tue, 1 Mar
+
+Hari ini saya mengikuti 2 sesi pertemuan yang menjelaskan tentang Python,  dan 
+di sesi 1 saya telah 
+- Mengetahui yang dimaksud dengan python
+- Mengetahui Compiler / Interpreter
+- Mengetahui perusahaan perusahaan besar yang menggunakan Python
+- Mengetahui alasan python direkomendasikan dalam bahsa pemrograman
+- Mengimplementasikan beberapa script python yang saya pelajari seperti tipe  data, number , dan lainnya.
+- Mengetahui sejarah dari Python
+- Mengetahui penjelasan dari Python IDEs
+
+di sesi 2 saya telah
+- Memahami maksud dari Struktur Data
+- Mengetahui 4 tipe data primitif pada Python yaitu Integer, Float, String, dan Boolean.
+- Mengetahui 4 tipe data non priimitif pada Python yaitu List, Tuple, Dictionary, dan Set.
+- mengethaui bahwa Tuple tidak dapat diubah sedangkan List, Dictonary dan Set dapat diubah.
+- Kita dapat mengetikan tipe data primitif dari satu ke yang lain.
+
+Link Tugas Mandiri W3Schools : https://drive.google.com/drive/folders/1bLhZaV8WhZKCipY-9FVU5E-zV_ZHtMWy?usp=sharing
+
+Wed, 2 Mar
+
+Hari ini saya mengikuti2 sesi Pertemuan  yakni di pagi hari dan di siang hari, pada 2 sesi tersebut :
+
+Di Sesi I saya telah:
+- Mempelajari Github dan Inisialisasi Git ke Github.
+- Mengetahui  Cara Membuat Readme.md dan .gitignore.
+- Mengetahui  Cara Membuat Branch.
+- Mengetahui  pembuat Git, yaitu oleh  Linus Torvald.
+- Mengetahui alasan  Linus membuat git?
+- Mengetahui bahwa perusahaan Microsoft yang memiliki git
+- Memahami Github itu Closed Source dan Open Source.
+- Python Operators memiliki beberapa jenis, yaitu Arithmetic Operator, Comparison Operator, Logical Operators, Identity Operators, Membership Operators.
+
+Sesi II :
+- Module I Itroduction to Everything
+- Masih di Section Python operators & control flow
+- Control Flow if/else
+- Control Loop: For Loop
+- Menonton video Orbit Guru di Minggu ke 2 :
+Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel
+
+Thu, 3 Mar
+
+Libur nasional
+
+Fri, 4 Mar
+
+Hari ini saya mengikuti2 sesi Pertemuan  yakni di pagi hari dan di siang hari, pada 2 sesi tersebut :
+
+Di Sesi I saya telah:
+- Mengetahui Bahwa String manipulation menggunakan build-in methods.
+- Membaca Kembali Module 1 Introduction to Everything bersama kelas.
+- Mengimplementasikan Python Function, String Manipulation & File Handling di Jupyter NoteBook bersama Coach.
+- Mengetahui Python functions adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action.
+- Mengetahui bahwa User defined functions adalah Python yang memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+- Mempelajari cara mengirim file dari Google Colab ke Github.
+- Built-in functions --> Fungsi Python yang sudah tersedia sejak melakukan instalasi Python tanpa harus membuat fungsi lagi.
+- String manipulation in python --> Dalam python, String adalah array byte yang mewakili karakter Unicode.
+- String Formating --> memungkinkan kita untuk menambahkan item ke dalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+
+Di sesi 2 saya telah :
+
+- Membaca kembali Module 1 Introduction to Everything  bersama kelas.
+- Masih di Section tentang Python Function, String Manipulation & File Handling.
+- Menonton video Orbit Guru di Minggu ke 2 :
+Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel.
+- Generators --> Jenis fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan urutan nilai.
+- Map dan Filter --> 
+map akan membuat array baru dengan mengubah setiap elemen dalam array, secara terpisah. 
+filter membuat array baru dengan menghapus elemen yang bukan miliknya.
+- Lambda Functions --> Fungsi lambda juga bisa disebut anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana.
+- File Handling with python --> File Handling merupakan elemen penting dalam pemrograman termasuk di Python. Terkadang kita ingin membaca file untuk mengolah data atau menulis ke dalam file untuk menyimpan data.
+
+What did you learn this week?
+
+Minggu ini  saya telah melakukan kegiatan yang cukup banyak,yakni:
+
+Di Hari Senin
+28 Feb 2022
+Hari ini adalah Libur nasional
+
+Di hari Selasa
+1  Mar 2022
+
+Hari ini saya mengikuti 2 sesi pertemuan yang menjelaskan tentang Python, dan di sesi 1 saya telah - Mengetahui yang dimaksud dengan python 
+- Mengetahui Compiler / Interpreter 
+- Mengetahui perusahaan perusahaan besar yang menggunakan Python 
+- Mengetahui alasan python direkomendasikan dalam bahsa pemrograman 
+- Mengimplementasikan beberapa script python yang saya pelajari seperti tipe data, number , dan lainnya. 
+- Mengetahui sejarah dari Python 
+- Mengetahui penjelasan dari Python IDEs di sesi 2 saya telah 
+- Memahami maksud dari Struktur Data 
+- Mengetahui 4 tipe data primitif pada Python yaitu Integer, Float, String, dan Boolean. 
+- Mengetahui 4 tipe data non priimitif pada Python yaitu List, Tuple, Dictionary, dan Set. 
+- mengethaui bahwa Tuple tidak dapat diubah sedangkan List, Dictonary dan Set dapat diubah. 
+- Kita dapat mengetikan tipe data primitif dari satu ke yang lain. 
+
+Link Tugas Mandiri W3Schools : https://drive.google.com/drive/folders/1bLhZaV8WhZKCipY-9FVU5E-zV_ZHtMWy?usp=sharing
+
+Di hari Rabu
+2 Mar 2022
+
+Apa yang kamu kerjakan hari ini?
+Hari ini saya mengikuti2 sesi Pertemuan yakni di pagi hari dan di siang hari, pada 2 sesi tersebut : Di Sesi I saya telah: 
+- Mempelajari Github dan Inisialisasi Git ke Github. 
+- Mengetahui Cara Membuat Readme.md dan .gitignore. 
+- Mengetahui Cara Membuat Branch. 
+- Mengetahui pembuat Git, yaitu oleh Linus Torvald. 
+- Mengetahui alasan Linus membuat git? 
+- Mengetahui bahwa perusahaan Microsoft yang memiliki git 
+- Memahami Github itu Closed Source dan Open Source. 
+- Python Operators memiliki beberapa jenis, yaitu Arithmetic Operator, Comparison Operator, Logical Operators, Identity Operators, Membership Operators. Sesi II : 
+- Module I Itroduction to Everything 
+- Masih di Section Python operators & control flow 
+- Control Flow if/else - Control Loop: For Loop 
+- Menonton video Orbit Guru di Minggu ke 2 : Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel
+
+Di hari Kamis
+3 Mar 2022
+
+Hari ini adalah Libur nasional
+
+Di Hari Jumat
+4 Mar 2022
+
+
+Apa yang kamu kerjakan hari ini?
+Hari ini saya mengikuti2 sesi Pertemuan yakni di pagi hari dan di siang hari, pada 2 sesi tersebut : Di Sesi I saya telah: 
+- Mengetahui Bahwa String manipulation menggunakan build-in methods. 
+- Membaca Kembali Module 1 Introduction to Everything bersama kelas. 
+- Mengimplementasikan Python Function, String Manipulation & File Handling di Jupyter NoteBook bersama Coach. 
+- Mengetahui Python functions adalah blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action. 
+- Mengetahui bahwa User defined functions adalah Python yang memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna. 
+- Mempelajari cara mengirim file dari Google Colab ke Github. 
+- Built-in functions --> Fungsi Python yang sudah tersedia sejak melakukan instalasi Python tanpa harus membuat fungsi lagi. 
+- String manipulation in python --> Dalam python, String adalah array byte yang mewakili karakter Unicode. 
+- String Formating --> memungkinkan kita untuk menambahkan item ke dalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation. Di sesi 2 saya telah : 
+- Membaca kembali Module 1 Introduction to Everything bersama kelas. 
+- Masih di Section tentang Python Function, String Manipulation & File Handling. 
+- Menonton video Orbit Guru di Minggu ke 2 : Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel. 
+- Generators --> Jenis fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan urutan nilai. 
+- Map dan Filter --> map akan membuat array baru dengan mengubah setiap elemen dalam array, secara terpisah. filter membuat array baru dengan menghapus elemen yang bukan miliknya. 
+- Lambda Functions --> Fungsi lambda juga bisa disebut anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana. 
+- File Handling with python --> File Handling merupakan elemen penting dalam pemrograman termasuk di Python. 

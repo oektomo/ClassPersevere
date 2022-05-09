@@ -1,0 +1,23 @@
+Mon, 7 Mar
+
+pada sesi pertama mempelajari mengenai object oriented programming dan implementasi nya pada python. pada sesi kedua mempelajari mengenai AI Fundamental, yang terdiri dari machine learning deep learning, data analytics, image processing, text/speech processing, dan modelling optimization
+
+Tue, 8 Mar
+
+pada sesi pertama mempelajari mengenai mathematics for AI, yang terdiri dari peluang, aljabar linier dan kalkulus. pada aljabar linier mempelajari mengenai vektor, matriks, dan penerapan invers. pada kalkulus sesndiri mempelajari turunan dan optimisasi, konsep dasar, dan bersyarat. pada sesi ini juga dikenalkan mengenai library python yang bernama NumPy yang berfungsi untuk operasi matematika. pada sesi kedua mempelajari mengenai machine learning yang terdiri dari supervised learning, semi supervised, unsupervised , dan reinforced
+
+Wed, 9 Mar
+
+pada sesi pertama materi mengenai data analisis python, menjelaskan mengenai macam-macam tipe data yaitu terstruktur, tidak terstruktur dan semi terstruktur. pada sesi kali ini juga menjelaskan mengenai pengantar statistika. sesi kedua mempelajari mengenai deep learning, baik dari pengertiannya, kekurangan hingga kelebihannya. dan juga memepalajari artificial neural network atau jaringan syaraf tiruan. pada deep learning memepalajrai mengenai image processing dan macam-macam penerapan deep learning lainnya
+
+Thu, 10 Mar
+
+pada sesi pagi mempelajari mengenai lanjutan dari ilmu statsitika ke tahan advance tahapan dari sebuah inferensial yaitu yang terdiri dari estimasi yang terbagi menjadi point dan invterval kemudia hipostesis, dan juga mempalajari mengenai uji hipotesis parametik seperti uji t, anova. pada sesi kedua mempelajari tentang AI project cycle, memepelajari tentang problem, akuisisi data, eksplorasi data, dan modelling
+
+Fri, 11 Mar
+
+pada sesi pertama merekap pembelajaran selama seminggu ini mengenai mathematic, baik basic maupun advance. dan pada sesi kedua merekap materi AI. machine learning dan deep learning
+
+What did you learn this week?
+
+selama semingggu ini saya memepalajari banyak hal mengenai bahasa pemrogaman python dan saya memepelajari prinsip-prinsip pada Artificial intelegence seperti machine learning dan deep learning dan saya juga memepelajari mathematic materi baik secara basic maupun advance

@@ -1,0 +1,128 @@
+Mon, 11 Apr
+
+Hari ini saya mengikuti pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Time Series - Deep Learning Approach
+- Session I - RNN, LSTM, GRU Instroduction
+- Mengapa Deep Learning? => Karena Deep Learning akan muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan.
+- Deep Learning Architecture for Time Series => Ada beberapa arsitektur deep learning yang dapat digunakan untuk menganalisa data time series, diantaranya : MLP, CNN, RNN, LSTM, dan GRU.
+- Recurrent Neural Network (RNN) / Jaringan Umpan balik => jenis jaringan pada neural network dimana terdapat loop sebagai koneksi umpan balik dalam jaringan.
+- Data Sekuensial (Sequence Data) => mempunyai karakteristik dimana sampel diproses dengan suatu urutan dan suatu sampel dalam urutan mempunyai hubungan erat satu dengan yang lain.
+
+Tue, 12 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Module 4 Computer Vision
+- Introduction of Autoencoder & Image Denoising
+- Autoencoder Neural Network => Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+- Component of Autoencoders => Terdapat 3 bagian Component yaitu : Encoder, Code, dan Decoder.
+- Properties of Autoencoders => Terdapat 3 bagian Properti yaitu : Data-specific, Lossy, dan Unsupervised.
+- Hyperparameters of Autoencoders => Dibagi mejadi 4 bagian yaitu : Code Size, Number of Layers, Loss Function, dan Number of Node per Layers.
+- Arsitecture of Autoencoders.
+- Loss Function of Autoencoders.
+- Denoising Autoencoders.
+- Image Reconstruction, Coloring dan Noise Reduction.
+- Feature Variation.
+- Implementasi Autoencoder.
+
+Wed, 13 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+ 	
+- Module 10 Natural Language Processing (NLP).
+- Section Transfer Learning for NLP - Tranformer & BERT
+- Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+- Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+- Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+- Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+- BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+- Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+- Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+Thu, 14 Apr
+
+Hari ini saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Modul Domain AI - Reinforcement Learning
+- Bagian Robotics.
+- Implementasi tentang Cartpole.
+- SARSA (State-Action-Reward-State-Action).
+- Deep Q Learning.
+- State yang tersedia dari env.
+- Penerapan DQL pada Cart-Pole.
+- Contoh Implementasi DQL. 
+
+Fri, 15 Apr
+
+- Hari ini Libur Nasional (Wafat Isa Almasih/Jumat Agung).
+- Mengganti menjadi self-study atau pembelajaran mandiri.
+
+What did you learn this week?
+
+Dihari Senin
+11 Apr 2022
+saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Time Series 
+- Deep Learning Approach 
+- Session I 
+- RNN, LSTM, GRU Instroduction 
+- Mengapa Deep Learning? => Karena Deep Learning akan muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan. 
+- Deep Learning Architecture for Time Series => Ada beberapa arsitektur deep learning yang dapat digunakan untuk menganalisa data time series, diantaranya : MLP, CNN, RNN, LSTM, dan GRU. 
+- Recurrent Neural Network (RNN) / Jaringan Umpan balik => jenis jaringan pada neural network dimana terdapat loop sebagai koneksi umpan balik dalam jaringan. 
+- Data Sekuensial (Sequence Data) => mempunyai karakteristik dimana sampel diproses dengan suatu urutan dan suatu sampel dalam urutan mempunyai hubungan erat satu dengan yang lain.
+
+Dihari Selasa
+12 Apr 2022
+saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+ 	
+- Module 4 Computer Vision
+- Introduction of Autoencoder & Image Denoising
+- Autoencoder Neural Network => Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+- Component of Autoencoders => Terdapat 3 bagian Component yaitu : Encoder, Code, dan Decoder.
+- Properties of Autoencoders => Terdapat 3 bagian Properti yaitu : Data-specific, Lossy, dan Unsupervised.
+- Hyperparameters of Autoencoders => Dibagi mejadi 4 bagian yaitu : Code Size, Number of Layers, Loss Function, dan Number of Node per Layers.
+- Arsitecture of Autoencoders.
+- Loss Function of Autoencoders.
+- Denoising Autoencoders.
+- Image Reconstruction, Coloring dan Noise Reduction.
+- Feature Variation.
+- Implementasi Autoencoder.
+
+Dihari Rabu
+13 Apr 2022
+- Module 10 Natural Language Processing (NLP).
+- Section Transfer Learning for NLP - Tranformer & BERT
+- Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+- Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+- Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+- Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+- BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+- Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+- Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+Dihari Kamis
+14 Apr 2022
+saya mengikuti sesi pembelajaran di Orbit AI Mastery
+saya mempelajari:
+
+- Modul Domain AI - Reinforcement Learning
+- Bagian Robotics.
+- Implementasi tentang Cartpole.
+- SARSA (State-Action-Reward-State-Action).
+- Deep Q Learning.
+- State yang tersedia dari env.
+- Penerapan DQL pada Cart-Pole.
+- Contoh Implementasi DQL.
+
+Dihari jumat
+15 Apr 2022
+- Hari Libur Nasional (Wafat Isa Almasih/Jumat Agung).
+- Mengganti menjadi self-study atau pembelajaran mandiri.

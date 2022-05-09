@@ -1,0 +1,93 @@
+Mon, 21 Feb
+
+Hari ini saya sedang mengikuti webminar tentang
+- Pengenalan Orbit
+- pengenalan Kampus AI yang di bangun oleh Pak B.J.Habibie
+- pengenalan Learning Objective
+- Informasi tentang perjalanan program Studi Independen AI Mastery kedepannya
+- Mengenal Artificial intelligence
+
+Tue, 22 Feb
+
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah
+- Mengetahui perusahaan perusahaan yang populer di indonesia
+-  Mengetahui beberapa perusahaan dengan nilai value di atas US $1 Miliar
+-  Mengetahui persamaan dari perusahaan populer di indonesia.yakni memiliki aplikasi nya masing masing Baik di mobileatau di Web.
+- Mengetahui cara beroperasi dari beberapa perusahaan terpopuler
+- dan lainnya
+
+Wed, 23 Feb
+
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah
+-  Mengenal dasar  tentang  Bahasa Pemrograman Python
+- Mengenal Package Anaconda dari distribusi Python/R
+- Mengenal  tentang Jupyter NoteBook
+-  dan lainnya
+
+Thu, 24 Feb
+
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah
+- Mengenal apa itu Data , tipe tipe data beserta contohnya.
+- Saya juga mengetahui perbedaan dari data Terstruktur dan dat ayang tidak Terstruktur
+- Saya juga Baru saja mengetahui bahwa pada kecerdasan dari manusia atau benda buatan itu sangat membutuhkan data untuk dapat menganalisis suatu kondisi atau kasus.
+- Saya Mengetahui perbedaan dari Data Kuantitatifdan data Kualitatif
+- Saya juga Mengetahui cara memperoleh dari  Populasi dan sample
+
+Fri, 25 Feb
+
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery tentang implementasi bahasa pemgrograman Python, dan saat ini saya telah mengimplementasikan
+- script "hallo world" pada Jupyter NoteBook dengan Python
+- saya juga mengimplementasikan beberapa variabel yangdapat id masukan ke  jupyter notebook ,sebagai contoh variabel angka untuk  penjumlahan seperti a = 10 ,lalu ditambahkan dengan line ke 2  yakni b = 20,dan di line ke 3 akan kita jumlahkan dengan cara c(hasil jumlah) = a+b, lalu ketik print(c).ketika di run hasilnya menjadi 30.
+saya juga telah:
+- Mengetahui bahwa variabel yang sama namun dengan angka yang berbeda, hasil akan di tampilkan pada angka paling update,  misalkan di awal variabel Aadalah 10,dan kita membuat line baru dengan variabel yang samanamun nilainya 40, maka ketika di line baru kita ketika print(a)hasilnya akan menjadi nilai 40.
+- Mengetahui tampilan dari Orbit Future Academy
+- dan terakhir saya telah mengetahui bahwa Jupyter Notebook dapat membuka website manapun 
+
+What did you learn this week?
+
+Minggu ini  saya telah melakukan kegiatan yang cukup banyak,yakni:
+
+Di hari Senin
+21 Feb 2022
+saya sedang mengikuti webminar tentang 
+- Pengenalan Orbit
+- pengenalan Kampus AI yang di bangun oleh Pak B.J.Habibie 
+- pengenalan Learning Objective 
+- Informasi tentang perjalanan program Studi Independen AI Mastery kedepannya 
+- Mengenal Artificial intelligence
+
+Di hari Selasa
+22 Feb 2022
+saya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah 
+- Mengetahui perusahaan perusahaan yang populer di indonesia 
+- Mengetahui beberapa perusahaan dengan nilai value di atas US $1 Miliar 
+- Mengetahui persamaan dari perusahaan populer di indonesia.yakni memiliki aplikasi nya masing masing Baik di mobileatau di Web. 
+- Mengetahui cara beroperasi dari beberapa perusahaan terpopuler 
+- dan lainnya
+
+Di hari Rabu
+23 Feb 2022
+saya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah 
+- Mengenal dasar tentang Bahasa Pemrograman Python 
+- Mengenal Package Anaconda dari distribusi Python/R 
+- Mengenal tentang Jupyter NoteBook 
+- dan lainnya 
+
+Di hari Kamis
+24 Feb 2022
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery , dan saya telah 
+- Mengenal apa itu Data , tipe tipe data beserta contohnya. 
+- Saya juga mengetahui perbedaan dari data Terstruktur dan dat ayang tidak Terstruktur 
+- Saya juga Baru saja mengetahui bahwa pada kecerdasan dari manusia atau benda buatan itu sangat membutuhkan data untuk dapat menganalisis suatu kondisi atau kasus. 
+- Saya Mengetahui perbedaan dari Data Kuantitatifdan data Kualitatif 
+- Saya juga Mengetahui cara memperoleh dari Populasi dan sample
+
+Di hari Jumat
+25 Feb 2022
+Hari ini aya sedang melakukan kegiatan Self Learning Di Orbit AI Mastery tentang implementasi bahasa pemgrograman Python, dan saat ini saya telah mengimplementasikan 
+- script "hallo world" pada Jupyter NoteBook dengan Python 
+- saya juga mengimplementasikan beberapa variabel yangdapat id masukan ke jupyter notebook ,sebagai contoh variabel angka untuk penjumlahan seperti a = 10 ,lalu ditambahkan dengan line ke 2 yakni b = 20,dan di line ke 3 akan kita jumlahkan dengan cara c(hasil jumlah) = a+b, lalu ketik print(c).ketika di run hasilnya menjadi 30. 
+saya juga telah: 
+- Mengetahui bahwa variabel yang sama namun dengan angka yang berbeda, hasil akan di tampilkan pada angka paling update, misalkan di awal variabel Aadalah 10,dan kita membuat line baru dengan variabel yang samanamun nilainya 40, maka ketika di line baru kita ketika print(a)hasilnya akan menjadi nilai 40. 
+- Mengetahui tampilan dari Orbit Future Academy 
+- dan terakhir saya telah mengetahui bahwa Jupyter Notebook dapat membuka website manapun

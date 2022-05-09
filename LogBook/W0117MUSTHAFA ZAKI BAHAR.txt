@@ -1,0 +1,41 @@
+Mon, 21 Feb
+
+Kegiatan hari pertama, dimulai dengan perkenalan mulai dari coach sampai setiap student, dilanjutkan dengan pretest untuk meguji kompentesi dasar, dan dilanjutkan dengan pemberian materi Introduction AI.
+
+Tue, 22 Feb
+
+Kegiatan hari ini yaitu penginstalan jupyter, dan mempelajari lms orbit materi week 1 dan 2. Untuk materi week 1 berisi  introduction mengenai python, dan week 2 mengenai perkenalan jupyter, google colab, dan mempelajari tipe data, variable, operator.
+
+Saya mendapatkan inspirasi baru, sebelumnya saya sudah terbiasa melakukan projek perkuliahan dan course menggunakan  Google Colab, atau python menggunakan code editor di visual studio code. Namun kali ini diminta untuk penginstalan jupyter yang mempunyai kelebihan tidak perlu koneksi internet atau menggunakan lokal saja.
+
+Wed, 23 Feb
+
+Kegiatan hari ini yaitu self study slide Python Introduction yang mempelajari mengenai kelebihan, tingkat pemakai, dan kemudahan yang ada di python. Python merupakan salah satu bahassa pemrograman “High Level Prgramming Language” yang berarti semakin tinggi tingkatnya maka semakin dekat Bahasa tersebut dengan Bahasa manusia. Tiga tingkat teratas penggunaan pada python yaitu Web Development, Data Analytic, dan Machine Learning.
+
+Setelah mempelajari slide yang diberikan, saya tersadar betapa mudahnya jaman sekarang dengan adanya Bahasa pemrograman High Level Programming Language, yang jika dibandingkan dengan dulu menggunakan Bahasa assembly dan kode mesin yang untuk melakukan perintah print saja membutuhkan banyak baris sampai bisa menghasilkan sebeuah output.
+
+Thu, 24 Feb
+
+Kegiatan hari ini mempelajari slide mengenai Data Ethics, dari slide tersebut diketahui bahwa data dibagi menjadi 2  yaitu Structured dan Unstructured, data structured yaitu data pada sql, excel, dkk, sedangkan data unstructured seperti data image, video, pdf, music, dkk. Ada paradigma GIGO yaitu apabila sebuah input data baik ataupun buruk jika diolah menggunakan model yang baik akan menghasilkan output yang baik tetapi masih ada kemungkinan menghasilkan ouput buruk, sebaliknya jika model buruk mau dilakukan input data baik/buruk maka output pasti buruk.
+
+Kualitas data dapat dilihat dari beberapa aspek yaitu accuracy, completeness, relevancy, timelines, dan consistency. Ada beberapa hal yang perlu diperhatikan dalam pengambilan sampel yaitu tujuan penelitian, kondisi populasi, cost, dan metode/pemodelan yang digunakan. Dan terakhir yaitu AI Ethics Priciples terbagi menjadi 3 yaitu respect for persons, beneficence, dan justice.
+
+Fri, 25 Feb
+
+Kegiatan hari ini yaitu self study mengerjakan lms course python student, saya menyelesaikan course minggu ke-3 sampai  minggu ke-6 yaitu mempelajari basic python yaitu tipe data python mulai dari string, list, set, tuple, dictionary dkk dan beberapa tips seperti melakukan indexing. Selain itu juga mempelajari kondisi dan perulangan yaitu while, for, if, else, dan elif. Dan terakhir mempelajari kegunaan dari beberapa library yang ada di python yaitu numpy dan pandas. 
+
+What did you learn this week?
+
+Kegiatan hari pertama, dimulai dengan perkenalan mulai dari coach sampai setiap student, dilanjutkan dengan pretest untuk meguji kompentesi dasar, dan dilanjutkan dengan pemberian materi Introduction AI.
+
+Kegiatan hari selasa yaitu penginstalan jupyter, dan mempelajari lms orbit materi week 1 dan 2. Untuk materi week 1 berisi introduction mengenai python, dan week 2 mengenai perkenalan jupyter, google colab, dan mempelajari tipe data, variable, operator. Saya mendapatkan inspirasi baru, sebelumnya saya sudah terbiasa melakukan projek perkuliahan dan course menggunakan Google Colab, atau python menggunakan code editor di visual studio code. Namun kali ini diminta untuk penginstalan jupyter yang mempunyai kelebihan tidak perlu koneksi internet atau menggunakan lokal saja.
+
+Kegiatan rabu yaitu Python Introduction yang mempelajari mengenai kelebihan, tingkat pemakai, dan kemudahan yang ada di python. Python merupakan salah satu bahassa pemrograman “High Level Prgramming Language” yang berarti semakin tinggi tingkatnya maka semakin dekat Bahasa tersebut dengan Bahasa manuasia. Tiga tingkat teratas penggunaan pada python yaitu Web Development, Data Analytic, dan Machine Learning.
+
+Setelah mempelajari slide yang diberikan, saya tersadar betapa mudahnya jaman sekarang dengan adanya Bahasa pemrograman High Level Programming Language, yang jika dibandingkan dengan dulu menggunakan Bahasa assembly dan kode mesin yang untuk melakukan perintah print saja membutuhkan banyak baris sampai bisa menghasilkan sebuah output.
+
+Kegiatan hari kamis mempelajari slide mengenai Data Ethics, dari slide tersebut diketahui bahwa data dibagi menjadi 2 data yaitu Structured dan Unstructured, data structured yaitu seperti data pada sql, excel, dkk sedangkan data unstructured seperti data image, video, pdf, music, dkk. Ada paradigma GIGO yaitu dimana apabila sebuah input data baik ataupun buruk jika diolah menggunakan model yang baik akan menghasilkan output yang baik tetapi masih ada kemungkinan menghasilkan ouput buruk, sebaliknya jika model buruk mau dilakukan input data baik/buruk maka output tetap buruk.
+
+Kualitas data dapat dilihat dari beberapa aspek yaitu accuracy, completeness, relevancy, timelines, dan consistency. Ada beberapa hal yang perlu diperhatikan dalam pengambilan sampel yaitu tujuan penelitian, kondisi populasi, cost, dan metode/pemodelan yang digunakan. Dan terakhir yaitu AI Ethics Priciples terbagi menjadi 3 yaitu respect for persons, beneficence, dan justice.
+
+Kegiatan hari jumat yaitu self study mengerjakan lms course python student, saya menyelesaikan course minggu ke-3 sampai  minggu ke-6 yaitu mempelajari basic python yaitu tipe data python mulai dari string, list, set, tuple, dictionary dkk dan beberapa tips seperti melakukan indexing. Selain itu juga mempelajari kondisi dan perulangan yaitu while, for, if, else, dan elif. Dan terakhir mempelajari kegunaan dari beberapa library yang ada di python yaitu numpy dan pandas.

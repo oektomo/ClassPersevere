@@ -1,0 +1,32 @@
+Tue, 22 Feb
+
+Belajar mandiri mengenai AI pada dunia industri. Umumnya aplikasi yang disediakan seperti gojek, tokopedia, traveloka, bukalapak dan sebagainya yang merupakan perusahaan unicorn yang bergerak pada dunia teknologi yaitu menyediakan pemrosesan data yang bisa digunakan untuk memecahkan masalah untuk konsumennya. Pembelajaran hari ini kebanyakan mebahasan mengenai pentingnya suatu data karena data dapat dikatakan minyak yang sangat berharga apabila diolah dengan benar. Saya juga mempelajari mengenai teknologi big data yang mempunyai  komponen 3V yaitu velocity/kecepatan transfer data, variety/keberagaman jenis data, volume/ukuran data yang sangat besar.
+
+Wed, 23 Feb
+
+Hari ini saya mempelajari mengenai penggunaan python. Python merupakan bahasa pemrograman tingkat tinggi yang mudah dipelajari dan banyak digunakan saat ini. Untuk menjalankan kode dalam bahasa python dapat dilakukan dengan beberapa cara yaitu dengan menggunakan teriminal, terminal + text editor, dan IDE. Pada materi hari ini juga membahas mengenai IDE yang digunakan dalam bahasa python yaitu jupyter notebook. Jupyter Notebook merupakan IDE untuk penelitian dan pengembangan dibidang data science berbasis web. Selain jupyter notebook juga terdapat google colab yang dapat diakses melalui internet.
+
+Thu, 24 Feb
+
+Pembelajaran hari ini yaitu mengani data, ethnics dan bias. Data terbagi menjadi dua yaitu data struktur dan data yang tidak terstruktur, perbedaan dari kedua ini adalah terletak dari kemudahan dalam pembacaan untuk dianalisa. Pada data struktur dapat direpresentasikan dalam skema yang jelas sehingga mudah dianalisa dan intergrasikan data terstruktur lainnya, sedangkan pada data tidak terstruktur sulit untuk integrasikan dengan data lainnya. Contoh data terstruktur yaitu data tabular sedangkan contoh data tidak terstruktur yaitu gambar,video, rekaman suara. Data sangat penting dalah pembuatan kecerdasan buatan, karena menjadi langkah awal dalam pembuatannya. Dalam hal pembuatan suatu model, data yang buruk akan menghasilkan output yang buruk pula. Maka dari itu data perlu di olah sehingga menjadi suatu hal yang baik. Data dapat diambil dan didapatkan dari suatu teknik yang disebut sampling.
+
+Dalam pengembangan AI kita harus menerapkan ethics/etika karena denga menerapkan hal tersebut projek AI yang akan kita buat terhindar dari bias yang bisa membahayakan. 
+
+Fri, 25 Feb
+
+Menonton video interaktif pada orbit guru mengenai python. Kecerdasan buatan kemungkinan akan menjadi topik pembahasan yang menarik untuk masa mendatang karena memiliki potensial dari berbagai sektor seperti retail, transportasi, otomotif dan sebagainya. Tantangan terbesar dalam kecerdasan buatan yaitu kurangnya tenaga terampil untuk teknologi ini.
+Python merupakan bahasa pemrograman yang interaktif dan multiguna, karena mudah dipelajari, dibaca dan dipahami.Python dapat diaplikasikan dalam bidang kecerdasan buatan/AI. 
+
+What did you learn this week?
+
+Hari 1 : Perkenalan, pengenalan awal terhadap AI dan membahas mengenai materi yang akan dipelajari nantinya.
+
+Hari 2 : Belajar mandiri mengenai AI pada dunia industri. Umumnya aplikasi yang disediakan seperti gojek, tokopedia, traveloka, bukalapak dan sebagainya yang merupakan perusahaan unicorn yang bergerak pada dunia teknologi yaitu menyediakan pemrosesan data yang bisa digunakan untuk memecahkan masalah untuk konsumennya. Pembelajaran hari ini kebanyakan mebahasan mengenai pentingnya suatu data karena data dapat dikatakan minyak yang sangat berharga apabila diolah dengan benar. Saya juga mempelajari mengenai teknologi big data yang mempunyai  komponen 3V yaitu velocity/kecepatan transfer data, variety/keberagaman jenis data, volume/ukuran data yang sangat besar.
+
+Hari 3 : Hari ini saya mempelajari mengenai penggunaan python. Python merupakan bahasa pemrograman tingkat tinggi yang mudah dipelajari dan banyak digunakan saat ini. Untuk menjalankan kode dalam bahasa python dapat dilakukan dengan beberapa cara yaitu dengan menggunakan teriminal, terminal + text editor, dan IDE. Pada materi hari ini juga membahas mengenai IDE yang digunakan dalam bahasa python yaitu jupyter notebook. Jupyter Notebook merupakan IDE untuk penelitian dan pengembangan dibidang data science berbasis web. Selain jupyter notebook juga terdapat google colab yang dapat diakses melalui internet.
+
+Hari 4 : Pembelajaran hari ini yaitu mengani data, ethnics dan bias. Data terbagi menjadi dua yaitu data struktur dan data yang tidak terstruktur, perbedaan dari kedua ini adalah terletak dari kemudahan dalam pembacaan untuk dianalisa. Pada data struktur dapat direpresentasikan dalam skema yang jelas sehingga mudah dianalisa dan intergrasikan data terstruktur lainnya, sedangkan pada data tidak terstruktur sulit untuk integrasikan dengan data lainnya. Contoh data terstruktur yaitu data tabular sedangkan contoh data tidak terstruktur yaitu gambar,video, rekaman suara. Data sangat penting dalah pembuatan kecerdasan buatan, karena menjadi langkah awal dalam pembuatannya. Dalam hal pembuatan suatu model, data yang buruk akan menghasilkan output yang buruk pula. Maka dari itu data perlu di olah sehingga menjadi suatu hal yang baik. Data dapat diambil dan didapatkan dari suatu teknik yang disebut sampling.
+Dalam pengembangan AI kita harus menerapkan ethics/etika karena denga menerapkan hal tersebut projek AI yang akan kita buat terhindar dari bias yang bisa membahayakan. 
+
+Hari 5 : Menonton video interaktif pada orbit guru mengenai python. Kecerdasan buatan kemungkinan akan menjadi topik pembahasan yang menarik untuk masa mendatang karena memiliki potensial dari berbagai sektor seperti retail, transportasi, otomotif dan sebagainya. Tantangan terbesar dalam kecerdasan buatan yaitu kurangnya tenaga terampil untuk teknologi ini.
+Python merupakan bahasa pemrograman yang interaktif dan multiguna, karena mudah dipelajari, dibaca dan dipahami.Python dapat diaplikasikan dalam bidang kecerdasan buatan/AI.

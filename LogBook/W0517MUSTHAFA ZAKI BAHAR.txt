@@ -1,0 +1,61 @@
+Mon, 21 Mar
+
+Kegiatan hari ini merupakan hari pertama pembagian domain, untuk hari pertama sesi pertama dimulai dengan domain data science mempelajari Introduction to Data Science yaitu tipe data, preprocessing(data cleaning, data transformation, data reduction), methods(supervised, unsupervised). 
+
+Supervised (Label): 
+Klasifikasi : Class/Kategorical seperti Pendidikan bagus/tidak
+Regresi : Numerical seperti harga rumah/saham
+
+Unsupervised (Non Label):
+Clustering : Pengelompokan data
+
+Sesi siang melanjutkan domain NLP, mempelajari introduction NLP mulai dari definisi, perannya yaitu pada untuk data seperti dokumen, text, suara atau singkatnya pada bentu teks/verbal. NLP = NLU + NLG, NLU yaitu analisis sintaksi dan semantic untuk menentukan makna kalimat(membaca) sedangkan NLG yaitu menghasilkan respons Bahasa manusia berdasarkan beberapa input(menulis). 
+
+Tue, 22 Mar
+
+Kegiatan hari ini dimulai dengan sesi domain Computer Vision, dimulai dengan melakukan pretest untuk mengetahui tingkat pemahaman mahasiswa mengenai computer vision, setelah itu dilanjutkan materi membahas introductiom computer vision mempelajari bagaimana computer vision bekerja dan beberapa contoh penerapan computer vision dalam dunia nyata.
+
+Kegiatan sesi siang dilanjut dengan domain Reinforcement Learning sama seperti domain lainnya dimulai dengan pretest, lalu dilanjutkan dengan membahas materi introduction reinforcement learning.mulai dari karakteristik dan contoh penerapannya.
+
+Wed, 23 Mar
+
+Kegiatan hari ini dimulai dengan sesi domain data science, dimulai dengan pretest lalu dilanjut materi mengenai tableau, pertama mempelajari mengenai chart yang ada dan penerapannya untuk data seperti apa, dilanjutkan dengan praktek cara membuah dashboard di tableau. Dan sebelum sesi berakhir mahasiswa dibetuk dalam sebuah kelompok untuk mempraktekan membuat sebuah dashboard di tableau.
+
+Keagiatan sesi 2 yaitu domai NLP mempelajari Feature Extraction(Pembobotan Kata), yaitu sebuah proses mengubah kata menjadi bentuk vector agar bisa diproses oleh algoritme machine learning. Dan ada 2 pembobotan yaitu Bag of Word(BOG/Count Vectorizer dan Term Frequency-Inverse Document Frequency(TF-IDF).
+
+Thu, 24 Mar
+
+Kegiatan hari ini dimulai dengan sesi domain computer vision mempelajari image process, mulai dari mengubah sebuah image dari file B,G,R menjadi R,G,B dan perubahan – perubahan lainnya. Lanjut sesi siang domain technical mepelajari git dan github, mempelajari konsep bagaimana upload file dari local sampai masuk ke remote(github), dilanjutkan praktek penggunaan git.
+
+Fri, 25 Mar
+
+Kegiatan hari ini dimulai dengan sesi domain reinforcement learning, mempelajari MDP(Markov Decision Process) dimana masa depan tidak tergantung pada masa lalu mengingat masa kini. Didalamnya ada beberapa istilah yaitu State, Action, Reward, Value, Policy. Dynamic Programming salah satu jenis Value Iteration.
+
+Sesi siang yaitu domain teknikal, diawali dengan mengitu seminar Implementation of Artificial Intelligence in Spacial Data yang membahas bagaimana implementasi AI untuk spatial data. Dan lanjut materi teknikal membahas mengenai SQL dan DML, mempelajari fungsi” yang digunakan di sql seperti WHERE, SELECT, INSERT, LIKE, ORDER BY, TRUE, FALSE, ASC, dkk.
+
+What did you learn this week?
+
+Kegiatan hari senin merupakan hari pertama pembagian domain, untuk hari pertama sesi pertama dimulai dengan domain data science mempelajari Introduction to Data Science yaitu tipe data, preprocessing(data cleaning, data transformation, data reduction), methods(supervised, unsupervised). 
+
+Supervised (Label): 
+Klasifikasi : Class/Kategorical seperti Pendidikan bagus/tidak
+Regresi : Numerical seperti harga rumah/saham
+
+Unsupervised (Non Label):
+Clustering : Pengelompokan data
+
+Sesi siang melanjutkan domain NLP, mempelajari introduction NLP mulai dari definisi, perannya yaitu pada untuk data seperti dokumen, text, suara atau singkatnya pada bentu teks/verbal. NLP = NLU + NLG, NLU yaitu analisis sintaksi dan semantic untuk menentukan makna kalimat(membaca) sedangkan NLG yaitu menghasilkan respons Bahasa manusia berdasarkan beberapa input(menulis). 
+
+Kegiatan hari selasa dimulai dengan sesi domain Computer Vision, dimulai dengan melakukan pretest untuk mengetahui tingkat pemahaman mahasiswa mengenai computer vision, setelah itu dilanjutkan materi membahas introductiom computer vision mempelajari bagaimana computer vision bekerja dan beberapa contoh penerapan computer vision dalam dunia nyata.
+
+Kegiatan sesi siang dilanjut dengan domain Reinforcement Learning sama seperti domain lainnya dimulai dengan pretest, lalu dilanjutkan dengan membahas materi introduction reinforcement learning.mulai dari karakteristik dan contoh penerapannya.
+
+Kegiatan hari rabu dimulai dengan sesi domain data science, dimulai dengan pretest lalu dilanjut materi mengenai tableau, pertama mempelajari mengenai chart yang ada dan penerapannya untuk data seperti apa, dilanjutkan dengan praktek cara membuah dashboard di tableau. Dan sebelum sesi berakhir mahasiswa dibetuk dalam sebuah kelompok untuk mempraktekan membuat sebuah dashboard di tableau.
+
+Keagiatan sesi 2 yaitu domai NLP mempelajari Feature Extraction(Pembobotan Kata), yaitu sebuah proses mengubah kata menjadi bentuk vector agar bisa diproses oleh algoritme machine learning. Dan ada 2 pembobotan yaitu Bag of Word(BOG/Count Vectorizer dan Term Frequency-Inverse Document Frequency(TF-IDF).
+
+Kegiatan hari kamis dimulai dengan sesi domain computer vision mempelajari image process, mulai dari mengubah sebuah image dari file B,G,R menjadi R,G,B dan perubahan – perubahan lainnya. Lanjut sesi siang domain technical mepelajari git dan github, mempelajari konsep bagaimana upload file dari local sampai masuk ke remote(github), dilanjutkan praktek penggunaan git.
+
+Kegiatan hari jum'at dimulai dengan sesi domain reinforcement learning, mempelajari MDP(Markov Decision Process) dimana masa depan tidak tergantung pada masa lalu mengingat masa kini. Didalamnya ada beberapa istilah yaitu State, Action, Reward, Value, Policy. Dynamic Programming salah satu jenis Value Iteration.
+
+Sesi siang yaitu domain teknikal, diawali dengan mengitu seminar Implementation of Artificial Intelligence in Spacial Data yang membahas bagaimana implementasi AI untuk spatial data. Dan lanjut materi teknikal membahas mengenai SQL dan DML, mempelajari fungsi” yang digunakan di sql seperti WHERE, SELECT, INSERT, LIKE, ORDER BY, TRUE, FALSE, ASC, dkk.

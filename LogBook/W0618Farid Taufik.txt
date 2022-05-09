@@ -1,0 +1,240 @@
+Mon, 28 Mar
+
+Hari ini saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	Dimensinality Reduction
+-	Reduksi Dimensi padaprinsipnya sama dengan Ketika mengkompres file yang berukuran besar menjadi zip file
+-	Kompres file tidak akan menghilangkan ataua mengurangi informasi yang ada  di dalamfile tersebut.
+-	Reduksi deminsi > Teknik untuk mengurangi dimensi dataset dalam hal fitur data.
+-	Dengan reduksi dimensi, kita  dapat mengurnagin jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset tersebut.
+-	Teknik reduksi dimensi > feature selection & Feature Extraction.
+-	Ciri ciri yang perlu di lakukan reduksi data > data fitur yang sangat banyak,data yang fiturnya > dari observasi, dan mdelmengalami overfitting.
+-	Jika data berdimensi tinggi maka, hal ini sering menyebabkan overfitting saat mempelajari model.
+-	Tujuan reduksi dimensi > menghindari evrfitting,data training dengan fitur yang lebih sedikit aka membuat model machine learning tetap simple.
+-	PCA(principal Compoent Analysis) > Teknik Reduksi dimensi yang paling populer. Teknikinimenggunakan operasi matriks sederhana dari aljabar linier dan statistic untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit
+-	Proses PCA > Import data ,Create n_Commponen, Generate fit PCA,dan Modelling reduction data
+
+Sesi 2 saya mempelajari:
+-	Implementasi NLP
+
+Tue, 29 Mar
+
+Hari ini saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	Sesi I :
+-	Image Segmention.
+-	Implementasi Image Thresholding.
+-	Implementasi Image Segmention dengan menggunakan Image Filtering/Pemfilteran Citra.
+-	Implementasi Image Segmention dengan menggunakan Edge Detection/Deteksi Tepi.
+-	
+-	Sesi II :
+-	Konsep Monte Carlo (MC)
+-	Elemen Algoritme MC
+-	Algoritme MC (First-Visit)
+-	- Penyelesaian Every Visit: Calculating V(A)
+-	- Penyelesaian Every Visit: Calculating V(B)
+-	- MC Estimation
+
+
+Wed, 30 Mar
+
+Hari ini saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari :
+- Recommender System => Memberikan informasi berupa saran objek yang kemungkinan diminati/dibutuhkan pengguna.
+- Metode Recommender System => Content-Based Filtering, Collaborative Filtering.
+- Market Basket Analysis => Pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+- Implementasi Market Basket Analysis. 
+Sesi II saya mempelajari :
+- Module 10 Natural language Processing (NLP).
+- Section Text Classification.
+- NLP Recap => dimana Domain AI yang berhubungan dengan interaksi antara mesin dan manusia menggunakan bahasa alami.
+- Implementasi Text Classification => Sentiment Analysis, Emotion Detection.
+- Pendekatan Text Classification.
+- Machine Learning Approach.
+- Lexicon-Based Approach.
+- Implementasi tentang InSet (Indonesia Sentiment Lexicon) dan Vader Sentiment Analysis.
+- Proses Text Classification.
+- Implementasi Text Classification.
+
+
+Thu, 31 Mar
+
+Hari ini saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari :
+- Implementasi Object Detection Using CNN.
+- Stacked CNN Architecture.
+
+Sesi II :
+- Data Visualization Technical Domain.
+- Data Visualization => representasi grafis dari informasi dan data.
+- Pentingnya visualisasi data.
+- Datasaurus Dataset.
+- Jenis Visualisasi data => statis, beranimasi dan interaktif.
+- Dimensi dan Metrik => Atribut data dan pengukuran kuantitatif.
+- Granularitas Data => tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+- Google Data Studio => Koneksi Sumber Data pada GDS, Tampilan Awal GDS, Tampilan Editor GDS.
+- Tipe Charts di GDS => Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge.
+- Implemetasi Orbit Student Dataset.
+- Proposal Learning Plan - Technical AI Mastery
+
+Fri, 1 Apr
+
+Hari ini saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	RECAP DL dan Mc memakaivalue Function = Expexted  Return Namun menggunakan pendekatan yang berbeda seperti value function,DP
+-	DL dan Mc memakaivalue Function = Expexted  Return Namun menggunakan pendekatan yang berbeda seperti value function,DP dan Mc
+-	Bootstrapping [1]Ch4,setiap kali value v(s) diperbaharui  (dalam policy evaluation) dari value satate berikutnya v(s).Atrtinya pembaharuan diperkirakan berdasarkan perkiraan state lainnya.
+-	Bootstrapping dilakukan pada algoritm DP, sedangkan MC melakukan rata rata terhadap return untuk memperbaharui value
+-	TD menggunakna bootstrapping sementara monte carlo tidak
+-	TDL (tempral  difference learning -> mengestimasi reward  pada setiap Langkah (step)
+-	Model based vs model  free methods
+-	Intrduction TDL
+-	Kelemahan model basse RL -> jumlah state dan action hasurslah terbatas,  dan mudah dijelaskan menggunakan transiton probability
+-	Unutk masaslah non stationary, lebih baik kita “agak”melupakan episode yang lampau dengan mengganti  1/N(St) dengan a.
+-	TD (0)
+-	TD Control – SARSA
+-	Hands On dan SARSA
+Sesi 2 saya memperlajari :
+
+-	Web scraping, praktik pengumpulan data dari situs web melalui cara papun selain dari menggunakan program 
+-	Etika web scraping , jika data yang digunakans ecara personal, dan dalam pengunaan wajar undang undang hak cipta , biasanya tidak ada masalah
+-	Urllib3, library python lain yang digunakanntuk mengambil data dari URL, mirip dengan request library. Library ini sangat sederhana .
+-	Beautiful soup module, library [ython yang dirancang untuk proyek seperti web scraping.
+-	Scraping module, kerangka  kerja web crawling oper=n source yang cepat dan dibuat dengan python, dgunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan Xpath, sifatnya umum.
+-	Selenium, suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan plaform, bukan merupakan satu tool saja, melainkan kumpulan dari aplikasi.
+-	Preparation, jika kita menargetkansitus web untuk mengambil data, perlu memahami skala dan strukturnya.
+-	Preparation analyzing robots.txt,digunakan untuk menentukan bagian mana dari stus web yang diizinkan untuk dilakukan web scraping dan mana yang tidak.file ini tidak memiliki format standar.
+-	Preparation analyzing sitemap files, jika ingin menelusuri web untukkonten baru, perlu mengecek  setipa halaman web untuk mengumpulkan
+-	Preparation checking website size , jika hanya ada sedikt halaman online untuk ditelusuri, efisiensi bukanlah masalah utama, tapi jika situs  web berisi jutaan halaman web seperti en.wikipedia.org, menguduh setiap halaman web secara berurutan akan memakan waktu yang lama dan efisien akan menjadi perhatian utama.
+-	Preparation analyzing technology used, ada modul Bernama builtwith yang dapaat digunakan untuk mempelajari
+-	Preparation knowing ownerof website, protocol whois dapat digunakan untuk mengecek untuk siapa pemilik website, dengan implementasi padapython data menginstall python whois
+-	Static web , sesuatu yang tidak berubah , halaman pertama di wolrd wide web Sebagian besar statis  dan tidak berubah.
+-	Static web scraping, dengan web browser, kita dapat langsung mengetikan alamat web yang ingin dituju kemudian tekan enter.
+-	Dynamic web, tugas yang kompleks dan kerumitannya berlipat
+-	Http response,  kode status respon HTTP menunjukkan apakah permintaan HTTP tertentu berhasil diselesaikan atau tidak.
+-	Storing data media, untuk membuat web scraping berguna,  perlu dapat
+-	By reference, kita dapat mmenyimpan flie by reference dengan menyimpan URL tempat file tersebut berada.
+
+
+What did you learn this week?
+
+Di hari Senin
+28 Mar 2022
+saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	Dimensinality Reduction
+-	Reduksi Dimensi padaprinsipnya sama dengan Ketika mengkompres file yang berukuran besar menjadi zip file
+-	Kompres file tidak akan menghilangkan ataua mengurangi informasi yang ada  di dalamfile tersebut.
+-	Reduksi deminsi > Teknik untuk mengurangi dimensi dataset dalam hal fitur data.
+-	Dengan reduksi dimensi, kita  dapat mengurnagin jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset tersebut.
+-	Teknik reduksi dimensi > feature selection & Feature Extraction.
+-	Ciri ciri yang perlu di lakukan reduksi data > data fitur yang sangat banyak,data yang fiturnya > dari observasi, dan mdelmengalami overfitting.
+-	Jika data berdimensi tinggi maka, hal ini sering menyebabkan overfitting saat mempelajari model.
+-	Tujuan reduksi dimensi > menghindari evrfitting,data training dengan fitur yang lebih sedikit aka membuat model machine learning tetap simple.
+-	PCA(principal Compoent Analysis) > Teknik Reduksi dimensi yang paling populer. Teknikinimenggunakan operasi matriks sederhana dari aljabar linier dan statistic untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit
+-	Proses PCA > Import data ,Create n_Commponen, Generate fit PCA,dan Modelling reduction data
+
+Sesi 2 saya mempelajari:
+Implementasi NLP
+
+Di hari Selasa
+29 Mar 2022
+saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	Sesi I :
+-	Image Segmention.
+-	Implementasi Image Thresholding.
+-	Implementasi Image Segmention dengan menggunakan Image Filtering/Pemfilteran Citra.
+-	Implementasi Image Segmention dengan menggunakan Edge Detection/Deteksi Tepi.
+-	
+-	Sesi II :
+-	Konsep Monte Carlo (MC)
+-	Elemen Algoritme MC
+-	Algoritme MC (First-Visit)
+-	Penyelesaian Every Visit: Calculating V(A)
+-	Penyelesaian Every Visit: Calculating V(B)
+-	MC Estimation
+
+Di hari Rabu
+30 Mar 2022
+saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari :
+- Recommender System => Memberikan informasi berupa saran objek yang kemungkinan diminati/dibutuhkan pengguna.
+- Metode Recommender System => Content-Based Filtering, Collaborative Filtering.
+- Market Basket Analysis => Pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+- Implementasi Market Basket Analysis. 
+Sesi II saya mempelajari :
+- Module 10 Natural language Processing (NLP).
+- Section Text Classification.
+- NLP Recap => dimana Domain AI yang berhubungan dengan interaksi antara mesin dan manusia menggunakan bahasa alami.
+- Implementasi Text Classification => Sentiment Analysis, Emotion Detection.
+- Pendekatan Text Classification.
+- Machine Learning Approach.
+- Lexicon-Based Approach.
+- Implementasi tentang InSet (Indonesia Sentiment Lexicon) dan Vader Sentiment Analysis.
+- Proses Text Classification.
+- Implementasi Text Classification.
+
+Di hari Kamis
+31 Mar 2022
+saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari :
+- Implementasi Object Detection Using CNN.
+- Stacked CNN Architecture.
+
+Sesi II :
+- Data Visualization Technical Domain.
+- Data Visualization => representasi grafis dari informasi dan data.
+- Pentingnya visualisasi data.
+- Datasaurus Dataset.
+- Jenis Visualisasi data => statis, beranimasi dan interaktif.
+- Dimensi dan Metrik => Atribut data dan pengukuran kuantitatif.
+- Granularitas Data => tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+- Google Data Studio => Koneksi Sumber Data pada GDS, Tampilan Awal GDS, Tampilan Editor GDS.
+- Tipe Charts di GDS => Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge.
+- Implemetasi Orbit Student Dataset.
+- Proposal Learning Plan - Technical AI Mastery
+
+Di hari Jumat
+1 Apr 2022
+saya mengikuti 2 sesi pembelajaran di Orbit AI Mastery
+Sesi 1 saya mempelajari:
+
+-	RECAP DL dan Mc memakaivalue Function = Expexted  Return Namun menggunakan pendekatan yang berbeda seperti value function,DP
+-	DL dan Mc memakaivalue Function = Expexted  Return Namun menggunakan pendekatan yang berbeda seperti value function,DP dan Mc
+-	Bootstrapping [1]Ch4,setiap kali value v(s) diperbaharui  (dalam policy evaluation) dari value satate berikutnya v(s).Atrtinya pembaharuan diperkirakan berdasarkan perkiraan state lainnya.
+-	Bootstrapping dilakukan pada algoritm DP, sedangkan MC melakukan rata rata terhadap return untuk memperbaharui value
+-	TD menggunakna bootstrapping sementara monte carlo tidak
+-	TDL (tempral  difference learning -> mengestimasi reward  pada setiap Langkah (step)
+-	Model based vs model  free methods
+-	Intrduction TDL
+-	Kelemahan model basse RL -> jumlah state dan action hasurslah terbatas,  dan mudah dijelaskan menggunakan transiton probability
+-	Unutk masaslah non stationary, lebih baik kita “agak”melupakan episode yang lampau dengan mengganti  1/N(St) dengan a.
+-	TD (0)
+-	TD Control – SARSA
+-	Hands On dan SARSA
+Sesi 2 saya memperlajari :
+
+-	Web scraping, praktik pengumpulan data dari situs web melalui cara papun selain dari menggunakan program 
+-	Etika web scraping , jika data yang digunakans ecara personal, dan dalam pengunaan wajar undang undang hak cipta , biasanya tidak ada masalah
+-	Urllib3, library python lain yang digunakanntuk mengambil data dari URL, mirip dengan request library. Library ini sangat sederhana .
+-	Beautiful soup module, library [ython yang dirancang untuk proyek seperti web scraping.
+-	Scraping module, kerangka  kerja web crawling oper=n source yang cepat dan dibuat dengan python, dgunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan Xpath, sifatnya umum.
+-	Selenium, suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan plaform, bukan merupakan satu tool saja, melainkan kumpulan dari aplikasi.
+-	Preparation, jika kita menargetkansitus web untuk mengambil data, perlu memahami skala dan strukturnya.
+-	Preparation analyzing robots.txt,digunakan untuk menentukan bagian mana dari stus web yang diizinkan untuk dilakukan web scraping dan mana yang tidak.file ini tidak memiliki format standar.
+-	Preparation analyzing sitemap files, jika ingin menelusuri web untukkonten baru, perlu mengecek  setipa halaman web untuk mengumpulkan
+-	Preparation checking website size , jika hanya ada sedikt halaman online untuk ditelusuri, efisiensi bukanlah masalah utama, tapi jika situs  web berisi jutaan halaman web seperti en.wikipedia.org, menguduh setiap halaman web secara berurutan akan memakan waktu yang lama dan efisien akan menjadi perhatian utama.
+-	Preparation analyzing technology used, ada modul Bernama builtwith yang dapaat digunakan untuk mempelajari
+-	Preparation knowing ownerof website, protocol whois dapat digunakan untuk mengecek untuk siapa pemilik website, dengan implementasi padapython data menginstall python whois
+-	Static web , sesuatu yang tidak berubah , halaman pertama di wolrd wide web Sebagian besar statis  dan tidak berubah.
+-	Static web scraping, dengan web browser, kita dapat langsung mengetikan alamat web yang ingin dituju kemudian tekan enter.
+-	Dynamic web, tugas yang kompleks dan kerumitannya berlipat
+-	Http response,  kode status respon HTTP menunjukkan apakah permintaan HTTP tertentu berhasil diselesaikan atau tidak.
+-	Storing data media, untuk membuat web scraping berguna,  perlu dapat
+By reference, kita dapat mmenyimpan flie by reference dengan menyimpan URL tempat file tersebut berada.

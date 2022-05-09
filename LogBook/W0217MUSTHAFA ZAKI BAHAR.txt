@@ -1,0 +1,45 @@
+Mon, 28 Feb
+
+Libur Hari Raya Isra Mikraj Nabi Muhammad SAW
+
+Tue, 1 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari introduction AI dilanjut dengan materi Python Introduction. Jam 10-12 dilanjutkan dengan belajar mandiri di w3schools yaitu Python Turtorial mulai dari Python Home – Python Dictionaries dan juga mengerjakan exercise yang disediakan di w3schools untuk mengasah materi yang sudah dibaca. Setelah ISOMAN dilanjutkan meet virtual melanjutkan pembahasan Python Introduction dan dari pembelajaran tersebut dapat diringkas :
+
+-	Struktur data adalah cara untuk menyimpan data dalam bahasa pemrograman.
+-	Python memiliki 4 tipe data primitf yang tidak dapat diubah integer, float, string, dan boolean.
+-	Python memilki 4 tipe data non primitive. List, tuple, dictionary, dan set.
+-	Tuple tidak dapat diubah sedangkan list, dictionary, dan set dapat diubah.
+-	Kita dapat mengetikkan tipe data primitive dari satu ke yang lain.
+
+Wed, 2 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari cara penggunaan git dan github untuk memudahkan dalam pengumpulan tugas, disitu mempelajari bagaimana membuat repository/repo dan menyambungkannya dengan folder local sehingga jika ada perubahan akan lebih mudah, dan ini juga akan memudahkan untuk kolaborasi. Setelah itu dilanjutkan dengan pembahasan yang masih melanjutkan dari materi sebelumnya yaitu Python Introduction. Lalu dilanjutkan pembelajaran mandiri mempelajari w3schools. Break Istirahat. 
+
+Sesi siang dilanjutkan meet virtual kembali dengan materi yang sama yaitu Python Introduction sampai materi Python Dictionaries, dan ada waktu tersisa yang digunakan menonton video dengan judul “We're Building Computers Wrong (for artificial intelligence)”. Dan FGD sore dilanjutkan dengan melanjutkan w3schools materi Operator, While, If, For.
+
+Thu, 3 Mar
+
+Libur Nyepi
+
+Fri, 4 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual melanjutkan materi python, beberapa materi yang diajarkan yaitu function, string formatting/string manipulation, operasi matematika di python seperti; pow(), round(), dan abs(), dan juga cara melakukan indexing. Setelah itu meet berikutnya dilaksanakan pukul 13.30 sesuai voting yang dilakukan mengingat adanya ibadah sholat jum’at. Meet siang dilanjutkan mempelajari lambda, file handling, dan error handling dan membahas beberapa pertanyaan seperti generator. Dan terakhir untuk FGD sore diberikan waktu untuk melanjutkan tugas – tugas yang telah diberikan.
+
+What did you learn this week?
+
+Karena minggu ini terdapat 2 hari libur nasional yang jatuh pada hari senin dan kamis, maka pembelajaran efektif yang bisa dilakukan hanya 3 hari yaitu selasa, rabu, dan jumat. Dan beberapa kegiatan yang dilakukan yaitu,
+
+Kegiatan hari selasa dimulai dengan meet virtual mempelajari introduction AI dilanjut dengan materi Python Introduction. Jam 10-12 dilanjutkan dengan belajar mandiri di w3schools yaitu Python Turtorial mulai dari Python Home – Python Dictionaries dan juga mengerjakan exercise yang disediakan di w3schools untuk mengasah materi yang sudah dibaca. Setelah ISOMAN dilanjutkan meet virtual melanjutkan pembahasan Python Introduction dan dari pembelajaran tersebut dapat diringkas :
+
+-	Struktur data adalah cara untuk menyimpan data dalam bahasa pemrograman.
+-	Python memiliki 4 tipe data primitf yang tidak dapat diubah integer, float, string, dan boolean.
+-	Python memilki 4 tipe data non primitive. List, tuple, dictionary, dan set.
+-	Tuple tidak dapat diubah sedangkan list, dictionary, dan set dapat diubah.
+-	Kita dapat mengetikkan tipe data primitive dari sat uke yang lain.
+
+Kegiatan hari rabu dimulai dengan meet virtual mempelajari cara penggunaan git dan github untuk memudahkan dalam pengumpulan tugas, disitu mempelajari bagaimana membuat repository/repo dan menyambungkannya dengan folder local sehingga jika ada perubahan akan lebih mudah, dan ini juga akan memudahkan untuk kolaborasi. Setelah itu dilanjutkan dengan pembahasan yang masih melanjutkan dari materi sebelumnya yaitu Python Introduction. Lalu dilanjutkan pembelajaran mandiri mempelajari w3schools. Break Istirahat. 
+
+Sesi siang dilanjutkan meet virtual kembali dengan materi yang sama yaitu Python Introduction sampai materi Python Dictionaries, dan ada waktu tersisa yang digunakan menonton video dengan judul “We're Building Computers Wrong (for artificial intelligence)”. Dan FGD sore dilanjutkan dengan melanjutkan w3schools materi Operator, While, If, For.
+
+Kegiatan hari jum'at dimulai dengan meet virtual melanjutkan materi python, beberapa materi yang diajarkan yaitu function, string formatting/string manipulation, operasi matematika di python seperti; pow(), round(), dan abs(), dan juga cara melakukan indexing. Setelah itu meet berikutnya dilaksanakan pukul 13.30 sesuai voting yang dilakukan mengingat adanya ibadah sholat jum’at. Meet siang dilanjutkan mempelajari lambda, file handling, dan error handling dan membahas beberapa pertanyaan seperti generator. Dan terakhir untuk FGD sore diberikan waktu untuk melanjutkan tugas – tugas yang telah diberikan.

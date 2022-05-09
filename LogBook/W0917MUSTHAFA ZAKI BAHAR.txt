@@ -1,0 +1,31 @@
+Mon, 18 Apr
+
+Kegiatan hari ini diisi dengan domain Data Science, mempelajari  customer segmentation menggunakan algoritma clustering, lalu bagaimana menentukan K terbaik salah satunya menggunakana elbow method, dan melakukan evaluasi menggunakan silhoutte score. Dan terakhir dijelaskan hands-on mengenai materi yang sudah diterangkan sebelumnya.
+
+Tue, 19 Apr
+
+Kegiatan hari ini diisi dengan domain Computer Vision, mempelajari U-net model. Model U-Net sendiri yaitu jaringan saraf convolutional sepenuhnya sederhana yang digunakan untuk segmentasi biner yaitu klasifikasi piksel latar depan dan latar belakang. Terutama, itu terdiri dari dua bagian : Contracting Path dan Expanding Path.
+
+Wed, 20 Apr
+
+Kegiatan hari ini diisi dengan domain, Natural Language Processing, membahas Speech Recognation mempelajari bagaimana melakuka data preparation, preprocessing, memodelkan, mentraining, mengevaluasi model, dan terakhir melakukan prediksi dari audio yang dimasukkan. Salah satu yang dicontohkan yaitu melakukan prediksi emosi dari input suara.
+
+Thu, 21 Apr
+
+Kegiatan hari ini diisi dengan domain Reinforcemetn Learning, membahas menganai RL Environtment yang didalamnya berisi Konsep RL, MDP, Persamaan Bellman, Lalu ada metode – metode RL yaitu DP, MC, TD(SARSA), QL, DQN, dan RL untuk robotics.
+
+Fri, 22 Apr
+
+Kegiatan hari jumat diisi dengan domain Teknikal, mempelajari  heroku yang merupakan layananan  untuk menjalankan script app langsung tanpa memerlukan setting yang sangat rumit, memungkinkan pengembang aplikasi lebih fokus pada kode aplikasi mereka, tanpa terlalu dipusingkan dengan arsitektur dan server. Dan diajarkan bagaimana cara penggunaan heroku salah satunya mengintegrasi dengan repository github.
+
+What did you learn this week?
+
+Kegiatan hari senin diisi dengan domain Data Science, mempelajari customer segmentation menggunakan algoritma clustering, lalu bagaimana menentukan K terbaik salah satunya menggunakana elbow method, dan melakukan evaluasi menggunakan silhoutte score. Dan terakhir dijelaskan hands-on mengenai materi yang sudah diterangkan sebelumnya.
+
+Kegiatan selasa diisi dengan domain Computer Vision, mempelajari U-net model. Model U-Net sendiri yaitu jaringan saraf convolutional sepenuhnya sederhana yang digunakan untuk segmentasi biner yaitu klasifikasi piksel latar depan dan latar belakang. Terutama, itu terdiri dari dua bagian : Contracting Path dan Expanding Path.
+
+Kegiatan rabu diisi dengan domain, Natural Language Processing, membahas Speech Recognation mempelajari bagaimana melakuka data preparation, preprocessing, memodelkan, mentraining, mengevaluasi model, dan terakhir melakukan prediksi dari audio yang dimasukkan. Salah satu yang dicontohkan yaitu melakukan prediksi emosi dari input suara.
+
+Kegiatan hari kamis diisi dengan domain Reinforcemetn Learning, membahas menganai RL Environtment yang didalamnya berisi Konsep RL, MDP, Persamaan Bellman, Lalu ada metode – metode RL yaitu DP, MC, TD(SARSA), QL, DQN, dan RL untuk robotics.
+
+Kegiatan hari jumat diisi dengan domain Teknikal, mempelajari heroku yang merupakan layananan untuk menjalankan script app langsung tanpa memerlukan setting yang sangat rumit, memungkinkan pengembang aplikasi lebih fokus pada kode aplikasi mereka, tanpa terlalu dipusingkan dengan arsitektur dan server. Dan diajarkan bagaimana cara penggunaan heroku salah satunya mengintegrasi dengan repository github.

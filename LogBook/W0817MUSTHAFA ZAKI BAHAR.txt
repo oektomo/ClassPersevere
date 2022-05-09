@@ -1,0 +1,31 @@
+Mon, 11 Apr
+
+Kegiatan hari ini dimulai dengan domain data science, mempelajari data time series dengan pendekatan deep learning, berbeda dengan minggu lalu yang mempelajari time series menggunakan pendekatan statistic, untuk pendekatan dengan deep learning tidak perlu melakukakn penentuan seperti data statsioner atau bukan seperti yang dilakukan pada pendekatan statistic.
+
+Tue, 12 Apr
+
+Kegiatan hari ini dimulai dengan domain computer vision, mempelajari colab camera acces, dan implementasi pada autoencoder, mendalami bagaimana cara melakukan autoencoder pada image compression dan autoencoder pada image denosing, dan bagaimana penggunaan YOLOv4 menggunakan webcam di google colab untuk mendeteksi suatu objek.
+
+Wed, 13 Apr
+
+Kegiatan hari ini dimulai dengan domain Natural Language Processing, mempelajari materi fine tuning BERT yaitu mekanisme menambahkan satu lapisan tambahan setelah lapisan BERT terakhir dan melatih seluruh jaringan hanya untuk beberapa waktu. Setelah mempelajari materi tersebut dilanjutkan dengan memperaktekannya atau Hands-on menggunakan google colab mengenai bagaimana fine tuning BERT dilakukan.
+
+Thu, 14 Apr
+
+Kegiatan hari ini dimulai dengan domain Reinforcement Learning, mempelajari Deep Q-Learning yaitu proses pembelajaran menggunakan 2 jaringan syaraf tiruan. Jaringan ini memiliki arsitektur yang sama tetapi bobot yang berbeda. Setiap N langkah, bobot dari jaringan utama disalin ke jaringan target. Dan juga ann turtorial linear yang dipraktekan di google colab, dan simulasi cartpole dengan DQL.
+
+Fri, 15 Apr
+
+Tanggal Merah
+
+What did you learn this week?
+
+Kegiatan senin dimulai dengan domain data science, mempelajari data time series dengan pendekatan deep learning, berbeda dengan minggu lalu yang mempelajari time series menggunakan pendekatan statistic, untuk pendekatan dengan deep learning tidak perlu melakukakn penentuan seperti data statsioner atau bukan seperti yang dilakukan pada pendekatan statistic.
+
+Kegiatan selasa dimulai dengan domain computer vision, mempelajari colab camera acces, dan implementasi pada autoencoder, mendalami bagaimana cara melakukan autoencoder pada image compression dan autoencoder pada image denosing, dan bagaimana penggunaan YOLOv4 menggunakan webcam di google colab untuk mendeteksi suatu objek.
+
+Kegiatan rabu dimulai dengan domain Natural Language Processing, mempelajari materi fine tuning BERT yaitu mekanisme menambahkan satu lapisan tambahan setelah lapisan BERT terakhir dan melatih seluruh jaringan hanya untuk beberapa waktu. Setelah mempelajari materi tersebut dilanjutkan dengan memperaktekkannya atau Hands-on menggunakan google colab mengenari bagaimana fine tuning BERT dilakukan.
+
+Kegiatan kamis dimulai dengan domain Reinforcement Learning, mempelajari Deep Q-Learning yaitu proses pembelajaran menggunakan 2 jaringan syaraf tiruan. Jaringan ini memiliki arsitektur yang sama tetapi bobot yang berbeda. Setiap N langkah, bobot dari jaringan utama disalin ke jaringan target. Dan juga ann turtorial linear yang dipraktekan di google colab, dan simulasi cartpole dengan DQL.
+
+Kegiatan jumat libur berhubung ada tanggal merah.

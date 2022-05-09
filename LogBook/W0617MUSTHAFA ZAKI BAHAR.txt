@@ -1,0 +1,31 @@
+Mon, 28 Mar
+
+Kegiatan hari ini dimulai dengan domain data science mempelajari reduksi dimensi yang konsepnya sama seperti compress file dengan zip, yaitu mereduksi dimensi agar dapat mengurangi jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset tersebut. Dilakukan bada data high dimention, data yang fiturnya > data observasi, model mengalami overfitting. Kegiatan sesi 2 domain nlp mempelajari praktek penerapan nlp mulai dari data acquisiton sampai deployment.
+
+Tue, 29 Mar
+
+Kegiatan hari ini dimulai dengan domain Computer Vision mempelajari praktek CV di google colab, yaitu image thresholding dan edge detection, setelah break sebentar dilanjukan membahas materi di slide. Untuk sesi siang yaitu domain Reinforcement Learning mempelajari konsep Monte Carlo(MC). MC ada beberapa kriteria yaitu tidak mengambil pengetahuan lengkap dari environtment, MC belajar dari experience, episode per episode, baik itu experience actual, maupun simulasi. Belajar dari episode – episode secara utuh dan independent, tidak bootstrapping.
+
+Wed, 30 Mar
+
+Kegiatan hari ini dimulai dengan domain Data Science, mempelajari materi Recomender System, diawali dengan introduction lalu beberapa Teknik yang digunakan yaitu Content-based Filtering dan Collaborative Filtering dan diakhiri dengan Market Bsket Analysis(MBA). Sesi 2 yaitu domain NLP melanjutkan colab kemarin membahas Modelling, Model evaluation dan deployment dari data yang sudah dilakukan preprocessing.
+
+Thu, 31 Mar
+
+Kegiatan hari ini dimulai dengan domain Computer Vision, mempelajari materi Object Detection using CNN, pembelajaran CV hari ini lebih banyak mempelajari praktikal yang dilakukan di google colab mengenai penggunaan object detection menggunakan CNN. Sesi 2 yaitu domain Technical mempelajari google data studio yang berfungsi untuk visualisasi data.
+
+Fri, 1 Apr
+
+Kegiatan hari ini dimulai dengan domain reinforcement learning, mempelajari materi TDL(Temporal Difference Learning), didalamnya membahas mengenai konsep dari TLD tersebut, dan juga perbandingannya dari MC(Monte Carlo). Dilanjut sesi siang dilanjut dengan domain teknikal mempelajari web scrapping menggunakan beautifulsoup, urlib3.
+
+What did you learn this week?
+
+Kegiatan senin dimulai dengan domain data science mempelajari reduksi dimensi yang konsepnya sama seperti compress file dengan zip, yaitu mereduksi dimensi agar dapat mengurangi jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset tersebut. Dilakukan bada data high dimention, data yang fiturnya > data observasi, model mengalami overfitting. Kegiatan sesi 2 domain nlp mempelajari praktek penerapan nlp mulai dari data acquisiton sampai deployment.
+
+Kegiatan selasa dimulai dengan domain Computer Vision mempelajari praktek CV di google colab, yaitu image thresholding dan edge detection, setelah break sebentar dilanjukan membahas materi di slide. Untuk sesi siang yaitu domain Reinforcement Learning mempelajari konsep Monte Carlo(MC). MC ada beberapa kriteria yaitu tidak mengambil pengetahuan lengkap dari environtment, MC belajar dari experience, episode per episode, baik itu experience actual, maupun simulasi. Belajar dari episode – episode secara utuh dan independent, tidak bootstrapping.
+
+Kegiatan rabu dimulai dengan domain Data Science, mempelajari materi Recomender System, diawali dengan introduction lalu beberapa Teknik yang digunakan yaitu Content-based Filtering dan Collaborative Filtering dan diakhiri dengan Market Bsket Analysis(MBA). Sesi 2 yaitu domain NLP melanjutkan colab kemarin membahas Modelling, Model evaluation dan deployment dari data yang sudah dilakukan preprocessing.
+
+Kegiatan kamis dimulai dengan domain Computer Vision, mempelajari materi Object Detection using CNN, pembelajaran CV hari ini lebih banyak mempelajari praktikal yang dilakukan di google colab mengenai penggunaan object detection menggunakan CNN. Sesi 2 yaitu domain Technical mempelajari google data studio yang berfungsi untuk visualisasi data.
+
+Kegiatan jum'at dimulai dengan domain reinforcement learning, mempelajari materi TDL(Temporal Difference Learning), didalamnya membahas mengenai konsep dari TLD tersebut, dan juga perbandingannya dari MC(Monte Carlo). Dilanjut sesi siang dilanjut dengan domain teknikal mempelajari web scrapping menggunakan beautifulsoup, urlib3.

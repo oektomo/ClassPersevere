@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+Pada hari pertama ini di sesi pertama, saya mendapatkan pemaparan materi secara langsung oleh mentor mengenai serba-serbi dari Python, mengenai unsur-unsur nya dan penerapannya terutama dibidang AI, dan pada sesi pertama saya diminta untuk mempelajari/mempraktekkan secara langsung coding sederhana dari bahasa python melalui aplikasi jupiter notebook, yang dimana referensi dari coding nya diambil dari aplikasi w3schools.com. dan saya yang baru pertama kali mempelajari bahasa python merasa cukup terbantu dari penjelasan mentor menganai coding dari bahasa python. Kemudian pada sesi kedua pada meet membahas tugas yang sebelumnya diberikan pada sesi pertama, dimana pembahasan meliputi unsur-unsur coding dari bahasa python contoh nya seperti variabel dari coding python, tipe data, danlain sebagainya
+
+Tue, 1 Mar
+
+Pada hari pertama ini di sesi pertama, saya mendapatkan pemaparan materi secara langsung oleh mentor mengenai serba-serbi dari Python, mengenai unsur-unsur nya dan penerapannya terutama dibidang AI, dan pada sesi pertama saya diminta untuk mempelajari/mempraktekkan secara langsung coding sederhana dari bahasa python melalui aplikasi jupiter notebook, yang dimana referensi dari coding nya diambil dari aplikasi w3schools.com. dan saya yang baru pertama kali mempelajari bahasa python merasa cukup terbantu dari penjelasan mentor menganai coding dari bahasa python. Kemudian pada sesi kedua pada meet membahas tugas yang sebelumnya diberikan pada sesi pertama, dimana pembahasan meliputi unsur-unsur coding dari bahasa python contoh nya seperti variabel dari coding python, tipe data, danlain sebagainya
+
+Wed, 2 Mar
+
+Pada hari ini mempelajari mengenai git dan git hub, keperluan git hub sendiri disini bertujuan untuk pengumpulan tugas coding python. Mentor memberikan pengenalan mengenai github itu sendiri, dan juga menjelaskan tata cara pengumpulan tugas coding python melalui github
+
+Thu, 3 Mar
+
+-LIBUR-. Belajar mandiri melanjutkan tugas coding 
+
+Fri, 4 Mar
+
+Hari ini mempelajari lanjutan dari coding python dan mempelajari coding flow control
+
+What did you learn this week?
+
+Selama pelaksanaan minggu kedua ini saya mempelajari banyak mengenai coding bahasa pyhton dan pengenalan media github yang digunakan untuk mengumpulkan tugas coding python

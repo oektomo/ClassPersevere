@@ -1,0 +1,31 @@
+Mon, 7 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual materi Artificial Intelligence didalamnya mempelajari mengenai Data, AI Landscape(Data Science(Data Analytics), (Computer Vision(Image Processing), (NLP(Text/Speech Processing), (Artifical Intelligence(Machine Learning(Deep Learning)))))), Dilanjutkan dengan FGD mencari contoh kongkrit dari penerapan DS, CV, dan NLP. Meeting siang melanjutkan materi yang sebelumnya, mempelajari lebih dalam dari setiap AI Landscape yang sudah disebutkan sebelumnya. 
+
+Tue, 8 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari materi matematika dasar untuk kecerdasan buatan yaitu Peluang(Konsep dasar peluang, peluang bersyarat, teorema bayes), Aljabar Linier(Matriks, Vektor, Nilai & Vektor Eigen), Kalkulus(Fungsi, Turunan, Optimasi). Meet kedua melanjutkan materi  yang lebih mendalami dari setiap sub-bab yang sudah disebutkan sebelumnya.
+
+Wed, 9 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari Machine Learning yaitu Supervised(Label), Unsupervised(Non Label), Reinforcement Learning, dilanjutkan mempelajari Deep Learning mulai dari konsepnya yang seperti syarat otak pada manusia yang disebut dengan NN(Neural Network) atau jaringan syaraf buatan, dan juga membahas bagaimana perkembangannya yang dimana sempat terjadi AI Winter pada tahun 1950 dan mulai dari tahun 2010 perkembangannya mulai pesat kembali dikarenakan adanya support salah satunya dengan adanya/kemunculan penggunaan GPU sehingga untuk proses learning lebih cepat. Meet siang melanjutkan materi neural networks bagaimana prosesnya baik secara matematis dan komputasi.
+
+Thu, 10 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari materi AI Project Cycle, dalam AI Project Cycle terdapat beberapa proses yang dimulai dari problem scoping, data acquisition, data exploration, modelling, evaluation, dan deployment. Mempelajari source code yang diberikan coach oetomo yang berisi penerapan basic statistic pada python. Untuk FGD diberi suatu confiction matrix dan menentukan Akurasi, Recall, Precission dan metrix mana yang tepat untuk kasus pendeteksi covid dan pendeteksi spam email. Meet siang mempelajari statistika dasar yaitu mempelajari pengertian, pembagiannya yaitu statistic deskriptif dan inferensial.
+
+Fri, 11 Mar
+
+Kegiatan hari ini dimulai dengan meet virtual mempelajari materi OOP mempelajari Inheritence, Polymorphism, Encapsulation, Untuk FGD hari ini diberikan tugas yang berisikan soal – soal untuk mereview materi yang sudah diajarkan dalam 1 minggu ini yaitu OOP, AI Introduction, Maths for AI, dan Machine Learning. Untuk sesi siang melanjutkan meet mereview materi yang sudah diajarkan selama 1 minggu.
+
+What did you learn this week?
+
+Kegiatan hari senin dimulai dengan meet virtual materi Artificial Intelligence didalamnya mempelajari mengenai Data, AI Landscape(Data Science(Data Analytics), (Computer Vision(Image Processing), (NLP(Text/Speech Processing), (Artifical Intelligence(Machine Learning(Deep Learning)))))), Dilanjutkan dengan FGD mencari contoh kongkrit dari penerapan DS, CV, dan NLP. Meeting siang melanjutkan materi yang sebelumnya, mempelajari lebih dalam dari setiap AI Landscape yang sudah disebutkan sebelumnya. 
+
+Kegiatan hari selasa dimulai dengan meet virtual mempelajari materi matematika dasar untuk kecerdasan buatan yaitu Peluang(Konsep dasar peluang, peluang bersyarat, teorema bayes), Aljabar Linier(Matriks, Vektor, Nilai & Vektor Eigen), Kalkulus(Fungsi, Turunan, Optimasi). Meet kedua melanjutkan materi  yang lebih mendalami dari setiap sub-bab yang sudah disebutkan sebelumnya.
+
+Kegiatan hari rabu dimulai dengan meet virtual mempelajari Machine Learning yaitu Supervised(Label), Unsupervised(Non Label), Reinforcement Learning, dilanjutkan mempelajari Deep Learning mulai dari konsepnya yang seperti syarat otak pada manusia yang disebut dengan NN(Neural Network) atau jaringan syaraf buatan, dan juga membahas bagaimana perkembangannya yang dimana sempat terjadi AI Winter pada tahun 1950 dan mulai dari tahun 2010 perkembangannya mulai pesat kembali dikarenakan adanya support salah satunya dengan adanya/kemunculan penggunaan GPU sehingga untuk proses learning lebih cepat. Meet siang melanjutkan materi neural networks bagaimana prosesnya baik secara matematis dan komputasi.
+
+Kegiatan hari kamis dimulai dengan meet virtual mempelajari materi AI Project Cycle, dalam AI Project Cycle terdapat beberapa proses yang dimulai dari problem scoping, data acquisition, data exploration, modelling, evaluation, dan deployment. Mempelajari source code yang diberikan coach oetomo yang berisi penerapan basic statistic pada python. Untuk FGD diberi suatu confiction matrix dan menentukan Akurasi, Recall, Precission dan metrix mana yang tepat untuk kasus pendeteksi covid dan pendeteksi spam email. Meet siang mempelajari statistika dasar yaitu mempelajari pengertian, pembagiannya yaitu statistic deskriptif dan inferensial
+
+Kegiatan jum'at dimulai dengan meet virtual mempelajari materi OOP mempelajari Inheritence, Polymorphism, Encapsulation, Untuk FGD hari ini diberikan tugas yang berisikan soal – soal untuk mereview materi yang sudah diajarkan dalam 1 minggu ini yaitu OOP, AI Introduction, Maths for AI, dan Machine Learning. Untuk sesi siang melanjutkan meet mereview materi yang sudah diajarkan selama 1 minggu.

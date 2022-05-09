@@ -1,0 +1,31 @@
+Mon, 4 Apr
+
+Kegiatan hari ini dimulai dengan domain data science, mempelajari data time series, yang diawali dengan introduction, data dan cross validation. Lalu ada stat model yang didalamnya ada box jenkins, seasonal, trend, dan kombinasi, terakhir ada evaluation yang berisi evaluation metrics.
+
+Tue, 5 Apr
+
+Kegiatan hari ini dimulai dengan domain Computer Vision, mempelajari praktek pada google colab membahas mengenai yolo, yaitu sebuah algoritma menggunakan jaringan saraf untuk menyediakan deteksi objek waktu nyata. Algoritma ini populer karena kecepatan dan akurasinya. Ini telah digunakan dalam berbagai aplikasi untuk mendeteksi sinyal lalu lintas, orang, meteran parkir, dan hewan.
+
+Wed, 6 Apr
+
+Kegiatan hari ini dimulai dengan domain Natural Language Processing, dimulai dengan membahas problem tugas yang sudah diberikan sebelumnya, yaitu untuk data yang diberikan memang tergolong data raw yang sangat mentah dimana masih banyak data NaN, dan didalam data tersebut masih banyak “missing” seperti review bintang 5 dengan review jelek dan sebaliknya sehingga untuk masalah tersebut seharusnya ada pemrosesan terlebih dahulu sehingga hasil deployment akhir yang akan dibuat dapat lebih baik. Untuk materi hari ini mempelajari Wor2Vec, untuk Word2Vec sendiri cara paling umum untuk training datanya menggunakan Skip-gram dan CBOW.
+
+Thu, 7 Apr
+
+Kegiatan hari ini dimulai dengan domain Reinforcement Learning, mempelajari Q-learning yang merupakan kategori dalam Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value fuction learning dengan exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q-learning. Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action. Pada Q-learning dilakukan beberapa iterasi yaitu Policy iteration dan value iteration.
+
+Fri, 8 Apr
+
+Kegiatan hari ini dimulai dengan domain Technical, mempelajari flask yaitu sebuah framework yang ditulis menggunakan python. Sebelum memulai hands-on mengenai flask, terlebih dahulu diajarkan mengenai introduction dari flask itu sendiri. Setelah selesai penjelasan materi baru dilanjutkan praktek/hands-on dari penggunaan flask, dicontohkan bagaimana cara menyambungkan hasil dari machine learning agar dapat di deploy menggunakan flask sehingga hasil deployment bisa jadi lebih menarik dan mudah digunakan.
+
+What did you learn this week?
+
+Kegiatan senin dimulai dengan domain data science, mempelajari data time series, yang diawali dengan introduction, data dan cross validation. Lalu ada stat model yang didalamnya ada box jenkins, seasonal, trend, dan kombinasi, terakhir ada evaluation yang berisi evaluation metrics.
+
+Kegiatan selasadimulai dengan domain Computer Vision, mempelajari praktek pada google colab membahas mengenai yolo, yaitu sebuah algoritma menggunakan jaringan saraf untuk menyediakan deteksi objek waktu nyata. Algoritma ini populer karena kecepatan dan akurasinya. Ini telah digunakan dalam berbagai aplikasi untuk mendeteksi sinyal lalu lintas, orang, meteran parkir, dan hewan.
+
+Kegiatan rabu dimulai dengan domain Natural Language Processing, dimulai dengan membahas problem tugas yang sudah diberikan sebelumnya, yaitu untuk data yang diberikan memang tergolong data raw yang sangat mentah dimana masih banyak data NaN, dan didalam data tersebut masih banyak “missing” seperti review bintang 5 dengan review jelek dan sebaliknya sehingga untuk masalah tersebut seharusnya ada pemrosesan terlebih dahulu sehingga hasil deployment akhir yang akan dibuat dapat lebih baik. Untuk materi hari ini mempelajari Wor2Vec, untuk Word2Vec sendiri cara paling umum untuk training datanya menggunakan Skip-gram dan CBOW.
+
+Kegiatan kamis dimulai dengan domain Reinforcement Learning, mempelajari Q-learning yang merupakan kategori dalam Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value fuction learning dengan exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q-learning. Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action. Pada Q-learning dilakukan beberapa iterasi yaitu Policy iteration dan value iteration.
+
+Kegiatan jumat dimulai dengan domain Technical, mempelajari flask yaitu sebuah framework yang ditulis menggunakan python. Sebelum memulai hands-on mengenai flask, terlebih dahulu diajarkan mengenai introduction dari flask itu sendiri. Setelah selesai penjelasan materi baru dilanjutkan praktek/hands-on dari penggunaan flask, dicontohkan bagaimana cara menyambungkan hasil dari machine learning agar dapat di deploy menggunakan flask sehingga hasil deployment bisa jadi lebih menarik dan mudah digunakan.
