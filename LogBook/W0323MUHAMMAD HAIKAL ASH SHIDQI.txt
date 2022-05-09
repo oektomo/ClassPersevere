@@ -1,0 +1,23 @@
+Mon, 7 Mar
+
+Hari ini belajar penggunaan github lebih dalam
+
+Tue, 8 Mar
+
+Hari ini belajar matematika untuk AI seperti aljabar linear, vektor, matriks, peluang, sampling, penggunaan library numpy dan pengenalan machine learning
+
+Wed, 9 Mar
+
+Pengenalan deep learning, cara kerjanya, jaringan saraf tiruan, serta klasifikasi digital
+
+Thu, 10 Mar
+
+Hari ini belajar tentang problem scoping, pengklasifikasian data, pengantar statistika, statistika tingkat lanjut, uji hipotesis
+
+Fri, 11 Mar
+
+Hari ini belajar OOP, konsepnya, sifat-sifatnya, modul pada python
+
+What did you learn this week?
+
+Pada minggu ini mulai memperdalam penggunaan Python untuk mengolah data. Banyak penerapan fungsi Python seperti konsep OOP dan modul yang dapat digunakan untuk analisis data yang nantinya dapat digunakan untuk melatih AI

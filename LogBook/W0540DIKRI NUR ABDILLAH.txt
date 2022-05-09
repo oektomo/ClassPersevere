@@ -1,23 +1,159 @@
 Mon, 21 Mar
 
-seru sih belajar di kampus merdeka jadi gak sabar final mini projek
+Materi : Introduction to Data Science
+
+-Data science merupakan proses memahami atau
+memperoleh informasi dari suatu data mentah yang 
+selanjutnya dapat digunakan untuk prediksi atau
+menentukan kategori.
+- Data yang bisa diproses pada data science adalah
+data yang berbentuk tabular, baik data dengan 1 
+kolom maupun multiple kolom.
+- Data science bermanfaat untuk memberikan suatu
+informasi serta melakukan prediksi.
+- Model atau algoritme pada data science diantaranya
+regresi, moving average, dan ensemble technique.
+- Contoh Aplikasi Data Science
+• Anomaly Detection
+Mendeteksi ketidaksesuaian (anomali) pada data perusahaan. Misal: deteksi
+penipuan, analitik pelanggan, keamanan siber, dan pemantauan sistem IT
+• Binary and Multiclass Classification
+ Klasifikasi Biner: Menentukan apakah sesuatu termasuk pada kategori tertentu ().
+Misal: mengidentifikasi kontrak atau faktur di antara dokumen menggunakan
+image recognation.
+Klasifikasi Multikelas: Terdapat lebih dari dua kategori data. Misal: klasifikasi berita
+terdapat beberapa kategori seperti kelas nasional, politik, ekonomi, olaharaga
+ataupun kesehatan
+• Personalization
+Misal: Rekomendasi film di Netflix berdasarkan riwayat user
+
+Materi : Introduction to Natural Language Processing
+
+- NLP cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami.
+ NLP adalah kemampuan komputermemahami bahasa manusia dalam bentuk tertulis (teks) dan verbal (ucapan).
+-NLU adalah bagian NLP yang menggunakan analisis sintaksis dan semantik untuk menentukan makna kalimat (membaca).
+-NLG adalah bagian NLP untuk menghasilkan respons bahasamanusia berdasarkan beberapa input (menulis)
+-Question Answering System (QAS) adalah Kemampuan komputer untuk
+menjawab pertanyaan yang diberikan oleh pengguna.
+-Information Retrieval adalah Kemampuan komputer mencari konten yang relevan berdasarkan query (kata kunci) yang diberikan pengguna.
+-Text Summarization adalah  Kemampuan komputer untuk meringkas konten dengan
+mencari informasi paling penting atau relevan dalam konten asli.
+-Machine Translation adalah Kemampuan komputer untuk menerjemahkan konten dari satu bahasa ke bahasa lain  secara otomatis.
+-Text Classification adalah  Kemampuan komputer untuk mengkategorikan konten ke satu atau lebih kategori secara otomatis.
+-Speech Recognition adalah Kemampuan komputer untuk mengenali dan menerjemahkan bahasa lisan ke dalam teks secara
+otomatis.
+-Semantik adalah Kajian yang mencakup arti dan makna kata sesungguhnya dalam satuan kalimat.
+-Sintaksis  adalah  Kajian yang mencakup seluk-beluk tata bahasa (grammar & cara penulisan) dalam satuan kalimat
+- NLP pipeline merujuk pada langkah-langkah yang dilakukan untuk membangun sistem berbasis NLP. Secara umum terdiri dari: akuisisi data, text cleaning, text processing, rekayasa fitur, pemodelan, evaluasi model, deployment dan monitoring
 
 Tue, 22 Mar
 
-mantap belajar di kampus merdeka coach ya sangat baik 
+Materi : Introduction of Computer Vision
+Pengenalan singkat tentang CV  dan rencana kegiatan saat domain CV kedepannya 
+
+Materi : Introduction to Reinforcement Learning
+Karakteristik dari RL
+1. Tidak ada “kebenaran” pada proses pembelajaran (training) yang ada
+hanya hadiah (atau hukuman)
+2. Data yang diperoleh (State dan Reward) tergantung dari Action yang
+diberikan oleh Agent.
+3. Variabel waktu dan urut-urutan state yang dipilih oleh Agent melalui
+action memiliki pengaruh yang penting.
+
+Algoritma RL 
+Objective > State > Action > Reward > Termination
+1. Objective: Memaksimalkan skor permainan
+2. State: Gambar RGB dengan resolusi 160x210 px
+3. Action: Integer dari himpunan {0, 1, 2, 3} yang 
+memetakan pengendalian aksi dari game {no-action, 
+launch the ball, move right, move left}
+4. Reward: Skor permainan
+5. Termination: Kalah permainan
+
+Elemen pada Reinforcement Learning
+Di luar dari Agent dan Environment yang merupakan sebagai element utama,
+ada 4 sub elemen sebagai penyusun utama sistem Reinforcement Learning:
+Elemen utama:
+1. Agent
+2. Environment
+Sub Elemen utama:
+1. Policy
+2. Reward signal
+3. Value function
+4. Model environment (optional)
+Berikut beberapa contoh dari penerapan Reinforcement Learning untuk
+Optimasi:
+1. Menentukan luasan suatu area dengan pendekatan optimasi monte carlo prediction.
+2. Menentukan model suatu fungsi matematika dengan pendekatan optimasi monte carlo prediction
+3. Membuat solusi dari permasalahan kasus Traveling Salesman Problem.
+4. Membuat suatu sistem Simultaneous Locallization and Mapping (SLAM) untuk mengetahui posisi object terhadap lingkungan dalam koordinat lokal maupun koordinat global
 
 Wed, 23 Mar
 
-mantap belajar nya di kampus merdeka belajar ya sangat efisien
+Materi : Data Visualitation
+Visualisasi data adalah representasi grafis dari informasi dan data. Dengan menggunakan elemen visual seperti bagan, grafik, dan peta, alat visualisasi data menyediakan cara yang dapat digunakan untuk melihat dan memahami tren, outlier, dan pola dalam data.
+- Jenis Chart : Bar Chart, Pie Chart, Histogram, Scatter Plot, dll . 
+-  Kemudian dilanjutkan dengan praktek visualisasi  data menggunakan Tabluea
+
+Materi : NLP Text Representation
+1. Feature Extraction adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning.
+2. Ada dua jenis contoh Feature Extraction yang bisa digunakan,yaitu BoW dan TF-IDF. BoW merupakan sebuah model yang mempelajari kosa kata dari seluruh dokumen, kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata yang muncul. TF - IDF (Term Frequency — Inverse Document Frequency) merupakan ukuran penilaian yang umumnya digunakan dalam pencarian informasi (IR) dan peringkasan teks. Skor TF-IDF menunjukkan seberapa penting atau relevan suatu istilah (kata) dalam dokumen tertentu.
+
+3. N-gram adalah rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine  learning yang biasanya dijadikan fitur/atribut.
+4. Feature Filtering adalah proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti html tag, url, tanda baca.
+5. Feature Selection adalah adalah proses memilih kata-kata/fitur yang penting untuk diikutkan pada proses machine learning.
+6. Feature Filtering merupakan proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti HTML tag, URL, tanda baca , dll
+7. Word Cloud adalah gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks
 
 Thu, 24 Mar
 
-seru seru belajar nya
+Materi : CV Image Processing 
+1. Memahami prinsip kerja pengolahan citra 
+2. Memahami komponen penyusun citra
+3.Memahami cara kerja image enhancement
+4. Memahami cara kerja image filtering
+5. Memahami cara kerja edge detection 
+
+Materi Technical  : Source Code Management
+1. Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan
+kode sumber
+2. Github adalah sebuah platform untuk membuat repository remote 
+sehingga antar developer bisaberkolaborasi satu sama lain 
+3. KomponenSCM terdiri dari developer, local environment, dan remote 
+environment
+4.  OperasiSCM meliputi aktivitas lokal dan aktivitas remote
+5. Commit, Checkout, Branching, dan Mergingmerupakan contoh
+aktivitas lokal
+6. Push, Pull, Fetch, dan Clone merupakan contoh aktivitas remote
+
 
 Fri, 25 Mar
 
-Alhamdulillah coach ya sangat baik dan pembahasan sangat menarik
+Materi RL : Markov Decision Process (MDP)  dan Dynamic Programming
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Materi Technical : Database
+1.Memahami apa itu SQL
+2.Mengetahui penggunaan perintah Data Definition Language (DDL)
+3.Mengetahui penggunaan perintah Data Manipulation Language (DML)
+4.Dapat melakukan filtering dan subsetting data dengan beberapa operator
+5.Dapat melakukan pengurutan data dan pengelompokan data dengan 
+perintah ORDER BY dan GROUP BY
 
 What did you learn this week?
 
-Alhamdulillah belajar di kampus merdeka sangat efisien belajar praktek buat peta menggunakan aplikasi Tableau dan lain
+pembelajaran mengenal sistem Dashboard pada tableau dengan  pembikanan Peta 
+- Visualisasi data
+- Macam macam Grafik
+* bar chart  (Categorical)
+* Line chart (time series)
+* Pie chart  (Categorical)
+* Histogram  (Menampilkan distribusi data)
+  var kontinu
+* Scatter Plot (hubungan 2 Variabel Numerik)
+- tableau  (aplikasi)
+- Memasukkan data dalam bentuk CSV
+- langsung menampilkan hasil jadi  gambar  maps di tablaeu

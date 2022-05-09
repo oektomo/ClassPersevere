@@ -1,23 +1,145 @@
 Mon, 14 Mar
 
-hari yang sangat menyenangkan untuk peserta lain karena di berikan coach begitu baik
+Materi : Data Visualization in Python using Matplotlib & Seaborn
+1. Memahami teknik visualisasi data dengan Python
+2. Memahami Fungsi visualisasi dasar dengan matplotlib
+3. Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn
+4. Membuat visualisasi untuk time series data
+
+Matplotlib adalah salah satu paket Python dan paling populer yang digunakan untuk visualisasi data.
+
+Kemudian dilanjutkan penerapan Matplotlib & Seaborn menggunakan Python
 
 Tue, 15 Mar
 
-hari yang sangat menyenangkan untuk peserta lain karena di berikan coach begitu baik
+Materi : Linear Regression
+1.Metode regresi adalah metode analisis statistik yang digunakan untuk melihat hubungan antara dua atau lebih variabel. Hubungan tersebut bersifat fungsional dan disajikan dalam bentuk matematis.
+2.Tipe Regresi : Linear dan Non-linear
+Non-linear bisa disajikan dengan polinomial, logaritmik, eksponensial, kubik.
+3. Fungsi Regresi : 
+- menghindari kekeliruan
+- mengoptimalkan efisiensi operasional
+- memprediksi masa depan
+- memberikan pengetahuan baru
+4. Tipe regresi linear : simple regression , multiple regression
+5. Objectives of linear regression : Menganalisa relasi antara dua variabel danmemprediksi nilai baru yang memungkinkan
+6. Machine Learning  terbagi 3 yaitu supervised learning, unsupervised learning, dan reinforcement learning.
+7. Optimize Lineae Regression using Gradient Descent menggunakan Microsoft Excel 
 
 Wed, 16 Mar
 
-seru banget belajar nya seperti biasa belajar di zoom 
+Materi: Logistic Regression 
+1.Mechine Learning: Prediktif
+2.Klasifikasi: data dan data yang dilabelkan 
+3.Logistic Regression: salah satu jenis klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas 
+4.Logistic Regression mengharapkan relasi linear yang "smooth" dari predictors. 
+5.Logistic Regression akan menghasilkan probabilitas dari outcome yang bersifat diskrit (yes or not, 1/0). 
+6.Logistic Regression memiliki sedikit resiko terhadap over-fitting. 
+7.Logistic Regression digunakan untuk menyelesaikan masalah klasifikasi.
+8.Binary Logistic Regression mengharuskan dependent variable berbentuk binary.
+9.Binary Classification: Prediksi apakah spam atau tidak dengan memanfaatkan informasi subjek dan isi email, Prediksi cerah atau hujan menggunakan informasi cuaca, Berdasarkan data historis dari kustomer bank dapat memprediksi apakah pihak bank sebaiknya memberikan loan atau tidak
+10.Recall: Recal secara intuitif berarti kemampuan dari classifier untuk menemukan semua sample yang positif
+11.Precision: Precision secara intuitif berarti kemampuan dari classifier untuk tidak mengklasifikasi sample negatif sebagai positif
+12.F1 Score: F1 Score adalah pengukuran yang mengkombinasikan precision dan recall sebagai bentuk harmonik dari keduanya
+13.Logloss digunakan sebagai cost function untuk logistic regression 
+Accuracy, recall, precision dan f1 score digunakan untuk menilai performa dari model di persoalan klasifikasi
 
 Thu, 17 Mar
 
-Alhamdulillah seru banget belajar di kampus merdeka
+Materi 1 : K-Nearest Neighboor (KNN)
+
+1. Nearest-neighbor classifiers belajar berdasarkan analogy 
+dengan cara mengkomparasi tuple test yang diberikan de
+ngan tuple training yang memiliki kemiripan.
+2. Use case of KNN : Banking System, Calculating Credit Ratings , Politics.
+3. Implementasi KNN menggunakan Python
+
+Materi 2 : Deep learning overview
+
+1.Deep Learning adalah bagian dari machine learning bidang pembelajaran representasi data. 
+Efektif digunakan di pembelajaran pola atau pattern.
+2. Deep learning Adalah subtipe dari machine 
+learning. Dengan machine learning, Anda 
+mengekstrak secara manual fitur gambar
+yang relevan.
+3. Dengan deep learning, Anda menggunakan 
+gambar mentah/image langsung ke deep 
+neural network yang akan mempelajari fitur
+secara otomatis.
+4. Deep learning sangat cocok untuk aplikasi identifikasi
+ seperti face recognition, text translation, voice 
+recognition, dan driver assistance systems, Termasuk, 
+lane classification dan traffic sign recognition.
+5. Deep learning berarti mesin belajar klasifikasi dari teks atau
+gambar dengan sendirinya.
+6. Ada 3 sumber daya komputasi untuk pembelajaran mendalam berbasis CPU, berbasis GPU, dan berbasis cloud.
+7.  Deep learning diperlukan karena ukuran data telah meningkat
+ dan Kita perlu menyegmentasikan data dari banyak resources 
+seperti gambar, teks, dll
 
 Fri, 18 Mar
 
-Alhamdulillah coach ya sangat baik banget jadi nyaman saya belajar di kampus merdeka
+Materi  1 : Artificial neural network basics
+
+1.Understand neural networks and intuition behind neural networks
+2.Understand architecture of the Neural networks
+3. Define the activation functions (need and types)
+4. Understand gradient descent and its types
+
+Materi 2 : Artificial neural networks: 
+backpropagation
+
+1. Understand the concept of back propagation and mathematics behind 
+back propagation algorithm
+2. Learn the use cases of ANN
+3. Learn how to handle overfitting and underfitting in context to neural 
+networks
 
 What did you learn this week?
 
-belajar di zoom Alhamdulillah senang banget seru banget
+Data Manipulation with pandas ▪ Pengertian numpy dan penggunaannya. ▪ Mempelajari dasar-dasar preprocessing data. ▪ Mempelajari prosedur instalasi dan konsep dasar pada Pandas. ▪ Memahami data import export, selection dan filtering dengan Pandas Visualisasi data di python dengan matplotlib dan seaborn ▪ Memahami teknik visualisasi data dengan python ▪ Memahami fungsi visualisasi dasar dengan matplotlib ▪ Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn ▪ Membuat visualisasi untuk time series data
+
+Linear Regression
+ Memahami lebih detil tentang teknik regression dan berbagai use case nya
+▪ Melihat bagaimana konsep gradient descent di linear regression
+▪ Menjelaskan fungsi dari cost function
+▪ Melakukan training model untuk memahami konsep gradient descent
+▪ Mendeskripsikan regularisasi pada regression seperti: Lasso dan Ridge 
+Regression
+▪ Mendefinisikan Generalized Linear Regression (GLM)
+
+Exploratory Data Analytics (EDA)
+▪ Menjelaskan derived variables/ variabel turunan dan metode yang digunakan
+untuk menganalisanya
+▪ Memahami overview dari exploratory data analysis (EDA) dan manfaatnya
+▪ Mengidentifikasi perbedaan metode yang tersedia di EDA dan 1 contohnya
+
+Logistic Regression
+▪ Memahami algoritma Logistic Regression
+▪ Menjelaskan intuisi matematika di balik Logistic Regression
+▪ Memahami Cost function untuk Logistic Regression
+▪ Memahami Maximum likelihood estimation
+▪ Melakukan analisa performa dari persoalan klasifikasi
+
+Decision Tree
+• Mendefinisikan konsep-konsep berikut
+-Decision tree
+- Homogeneity
+-Gini index
+- Entropy dan Information Gain
+- Truncation and Pruning
+• Memahami implementasi Decision Tree untuk persoalan regresi
+• Memahami perbedaan dari beberapa pendekatan untuk mengimplementasikan
+algoritma Decision Tree
+
+K Nearest Neighbors (KNN)
+▪ Menjelaskan konsep K Nearest Neighbor (KNN) untuk klasifikasi dan regresi
+▪ Memahami kapan kita menggunakan algoritma KNN
+▪ Implementasi KNN menggunakan Python
+
+Deep Learning Overview
+▪ Memahami konsep Deep Learning dan penerapannya.
+▪ Ketahui apa perbedaan antara deep learning dan machine learning.
+▪ Kenali berbagai opsi komputasi - BERBASIS CPU, GPU, dan cloud.
+▪ Kenali kerangka kerja populer untuk mendesain deep learning 
+solutions

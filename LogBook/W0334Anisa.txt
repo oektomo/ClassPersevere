@@ -1,0 +1,36 @@
+Mon, 7 Mar
+
+- pengenalan variabel
+- penjelasan terkait string
+
+Tue, 8 Mar
+
+- Kalkulus (turunan dan optimasi)
+
+Wed, 9 Mar
+
+- Neural Network
+- Artificial Neural Network
+
+Thu, 10 Mar
+
+- AI project Cycle 
+- Problem Scoping
+
+Fri, 11 Mar
+
+- Python Class and Objects
+- Inheritance
+
+
+What did you learn this week?
+
+- pengenalan variabel
+- penjelasan terkait string
+- Kalkulus (turunan dan optimasi)
+- Neural Network
+- Artificial Neural Network
+- AI project Cycle 
+- Problem Scoping
+- Python Class and Objects
+- Inheritance

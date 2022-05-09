@@ -1,23 +1,77 @@
 Mon, 21 Feb
 
-saya belajar sama temen2an dan wali kelas belajar tentang artifical intelligence dan belajar mandiri di orbit guru tentang bagian intro python 
+artificial intelligence is our Future
+ -Perkenalan
+-Penjelasan mengenai AI secara umum
+- pre test / quiz 
+-penjelasan orbit secara umum
+-penjelasan mengenai artificial intelligence berdasarkan pengaplikasian
+- contoh pengaplikasian reinforment learning 
 
 Tue, 22 Feb
 
-tanya jawab sama temen2  dan wali kelas diskusi di discord seru banget dan melihat vidio di orbit guru tentang phyton dan phyton frame work  yang di orbit guru  tapi vidio nya ada masalah alhamdulilah sama wali kelas di kasi solusi dan bisa di tonton disana terimakasih
+Pembahasan :
+
+Data Processing sebagai cikal bakal startup indonesia Seperti
+Gojek, Traveloka, Tokopedia
+
+Startup ini mengolah problema masyarakat menjadi suatu solusi.
+
+Dari hasil analisis Gojek dan contoh-contoh lain yang teman-teman paparkan, bisa
+kita lihat bahwa ada kesempatan besar.
+Yang, memungkinkan kita mendapat profit dari hasil pemrosesan/pengolahan data.
+Seperti yang dilakukan oleh: Gojek, Tokopedia, Grab, Bukalapak, Traveloka,
+Amazon, Airbnb,
+dalam bentuk kemasan aplikasi
 
 Wed, 23 Feb
 
-membaca modul yang di kasih oleh wali kelas untuk di pelajari oleh peserta. dan alhamdullilah saya membaca modul nya dan melihat vidionya juga jadi sedikit demi sedikit begitu paham dari materi itu..terimakasih
+Python adalah bahasa pemrograman tingkat
+tinggi yang dinamis, serbaguna, dan mudah
+untuk dipelajari. Python juga dikenal sebagai
+“glue language”
+
+Terdapat 4 metode yang dapat digunakan untuk menulis dan
+menjalankan program Python, antara lain:
+1. Terminal
+2. Terminal + Text Editor
+3. IDE
+4. IDE untuk penelitian dan pengembangan
+
 
 Thu, 24 Feb
 
-membaca  modul yang di kasih sama wali kelas... dan saling bertanya antara peserta dan wali kelas...seru banget
+Data bisa berupa banyak hal.
+Dengan Kecerdasan Buatan itu harus menjadi kumpulan fakta:
+Tipe Contoh
+- Nomor Harga Angka. Tanggal.
+Ukuran Pengukuran. Tinggi. Erat.
+Perkataan Nama dan Tempat.
+Pengamatan Menghitung Mobil.
+Deskripsi Ini Dingin, Ini Panas.
+
+Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga
+sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain”
 
 Fri, 25 Feb
 
-pemrograman phyton
+hari ini mengulang materi phyton pada orbit guru... pada materi disana di jelaskan bahwa Python adalah bahasa pemrograman tingkat
+tinggi yang dinamis, serbaguna, dan mudah
+untuk dipelajari. Python juga dikenal sebagai
+“glue language"
+download python versi Anaconda, lalu setelah itu membuat virtual environment baru didalam anaconda.
+-	belajar python dasar di jupyter notebook/ google colab
+-	belajar menampilkan teks { print("hello world") }
+-	python merupakan bahasa yang sensitive sehingga penulisan huruf kecil/besar pada command nya sangat berpengaruh
 
 What did you learn this week?
 
-materi phyton yang di kasih sama wali kelas dan beserta vidio di orbit guru
+A Brief Introduction about Artificial Intelligence
+- AI in Industry
+- Why is Data called The New Oil?
+- Big Data
+- Introduction to Programming (Python, Jupyter Notebook, Colab)
+- Data, Ethnics, and Bias
+- Python section (video)
+- Data Sciene Conference

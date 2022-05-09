@@ -1,23 +1,89 @@
 Mon, 28 Mar
 
-Alhamdulillah senang banget berkat masuk di kampus merdeka saya banyak belajar
+Materi Data Science : Dimensionality Reduction
+1. Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel 
+predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan 
+fitur tidak menghilangkan informasi yang dimuat pada data tersebut
+2. Teknik yang digunakan ada 2, yakni : PCA dan LDA.
+3. Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaian.
+
+Materi NLP : Hands on NLP 
+Langkah :
+1.Akuisisi Data : 
+Web Scraping, public dataset, instansi pemerintah,product invetion, data augmentation
+2.Test Cleaning , opsional kalo kita mendapatkan data dari web scraping
+3.Text Preprocessing : Lowercase, stopword removal ( noisy data removal),  word normalization, lemitization & stemming
+4. Feature engineering : Back of word , TF-IDF, dll.
+5. Modelling
+6. Evaluasi performa model
 
 Tue, 29 Mar
 
-seru banget karena coach ya baik baik...dan dari mulai belajar coding sampai pre test dan pro test supaya mengasah pikiran saya di pre test dan pro test
+Materi CV : Image Thresholdings
+Hands on tentang Image Thresholdings.
+
+Materi RL : Monte Carlo 
+1. Monte Carlo bekerja dengan pengalaman dari sample, dan  menggunakannya untuk belajar secara langsung tanpa model.
+2. Pada first–visit MC, value function dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode.
+3. Pada every–visit MC, value function dihitung setiap mengunjungi state s dalam setiap episode.
+4. Pada on-policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+5. Pada off-policy MC, dilakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy-nya sama
 
 Wed, 30 Mar
 
-data science belajar coding di google colab dan pelajaran yang lain nya..
+Materi NLP : Text Classification
+1. Text Classification/ Klasifikasi teks adalah proses pemberian tag atau kategori ke teks menurut isinya. Klasifikasi teks dapat digunakan untuk mengatur, menyusun, dan mengkategorikan hampir semua hal. 
+2. Macam-macam area implementasi Text Classification, seperti Deteksi Spam, analisis sentimen, deteksi/klasifikasi emosi
+3. Dua pendekatan umum Teks Classication, yaitu Machine Learning  dan Lexicon
+
+Materi Data Science : Recommender System and Market Basket Analysis
+1.Recommender system digunakan berbagai aplikasi, seperti Go-Jek, Instagram, dll.
+2.Recommender system bekerja berdasar karakteristik user dan/atau item.
+3.Item yang memiliki karakter sama maka akan direkomendasikan.
+4. Teknik recommender system yakni market basket juga diterapkan untuk teknik marketing produk
 
 Thu, 31 Mar
 
-seru sih belajar Computer Vision kita juga sambil bermain sama coach computer Vision bermain sama coach ketawa ketawi seru banget makasih coach
+Materi : Google Data Studio 
+1.Visualisasi Data adalah representasi grafis dari informasi dan data.
+2. Jenis Visualisasi Data dapat berupa statis, beranimasi, dan interaktif.
+3. Dimensi adalah atribut data. Contoh : nama, tanggal dan waktu, dan kota
+4. Metrik adalah pengukuran kuantitatif. Contoh : nilai, harga, dan total penjualan
+5. Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+6. Google Data Studio adalah tool gratis untuk visualisasi data interaktif dari  Google yang sepenuhnya dapat disesuaikan oleh pengguna dan mudah dibagikan kepada orang lain.
+7. Komponen pada Google Data Studio diantaranya adalah report, pages, charts, controls, text areas, lines, shapes, dan images
+
+Materi RL : Temporal Difference Learning
+1. Idea dasar dari TDL adalah kombinasi DP dan MC
+2. TDL diaplikasin pada model free
+3. TDL melakukan update value state per step
+4. Bersifat bootstapping
+5. Menggunakan metode trial and error dalam expiorasi lingkungan
+6. Cepat dalam mencapai konvergensi
+7. TD control menggunakan SARSA dan Q-Learning
+8. SARSA bekerja berdasarkan perubahan State-Action (S,A)
+9. SARSA adalah algoritma on policy
+10. Pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy.
 
 Fri, 1 Apr
 
-kita belajar banyak disini tentang coding dan belajar ngoding sama temen temen sekelas Alhamdulillah saya senang banget dari mulai temen sampai coach pada baik banget
+Materi Technical : Web Scrapping 
+1.Web Scraping adalah praktik pengumpulan data dari situs web untuk mendapatkan informasi yang diinginkan.
+2.Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+3.Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+4.HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+5.Menyimpan data dapat menggunakan referensi ataupun mendownload file secara langsung
+6.Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+
+Materi CV : Implementasi CNN
+1.Memahami implementasi CNN pada Keras
+2.Mendeploy CNN klasifikasi menggunakan dataset CIFAR-10
+3.Self learning & Homework untuk meningkatkan akurasi klasifikasi CIFAR-10
+4. Hands on CIFAR-10
 
 What did you learn this week?
 
-banyak dari mulai coding belajar bikin akun aplikasi dan tugas kaya hampir mirip sama tugas yang bikin di aplikasi tableau hampir mirip hehe
+pembelajran mengenai convolutional neural network, yang merupkan pengenalan objek menggunakan metode neural network. dimana dibutuhkan layer - layer yang nantinya akan di update bobotnya (epoch). untuk parameter keberhasilan dari model ini yaitu nilai accuracy diatas 70 , dengan memenihu tiga kriteria yaitu
+1. grafik loss dan dan value loss konvergen
+2. tidak ada grafik yg osilasi
+3. jarak antara value loss dengan loss dekat

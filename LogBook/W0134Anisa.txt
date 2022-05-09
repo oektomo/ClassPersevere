@@ -1,0 +1,29 @@
+Mon, 21 Feb
+
+hari ini tahap pengenalan dengan rekan lainnya. mengetahui apa itu artificial intellegence dan apa saja yang bisa dibuat dari bidang ilmu tersebut. hari ini banyak pengetahuan baru yang saya ketahui dari mentor
+
+Tue, 22 Feb
+
+hari ini belajar terkait peran AI di semua industri yg ada di Indonesia
+
+Wed, 23 Feb
+
+hari ini belajar tentang apa itu big data. dan mulai menginstall python
+
+Thu, 24 Feb
+
+Hari ini belajar mandiri dengan disediakannya power point oleh coach. Pelajaran hari ini mengenai apa pengertian dari data, ethnics, dan bias. Isi dari power point lumayan menarik
+
+Fri, 25 Feb
+
+- membuat pemrograman sederhana di jupyter notebook
+- mengeprint "Hello World" di python
+- mengenal dasar dasar python
+
+What did you learn this week?
+
+- Perkenalan dengan rekan rekan kelas
+- Mengenal apa itu AI dan seberapa penting peran AI di setiap industri
+- Menginstall pyhton dan jupyter notebook
+- Menjalankan program sederhana dari python
+- Mengenal konsep-konsep dasar dalam python

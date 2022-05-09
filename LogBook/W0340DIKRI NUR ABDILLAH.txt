@@ -1,23 +1,148 @@
 Mon, 7 Mar
 
-belajar bareng sama coach pake aplikasi ms team belajar tentang Fondasi AI dan Pengenalan AI
+Materi :
+
+- Pengenalan pada Peluang,Aljabar Linear dan kalkulus.
+
+Aljabar Linear
+
+- Matriks
+- Skalar dan point
+- Peluang
+- Operasi matematika pada NumPy
+
+Machine Learning
+
+-Supervised Learning
+-Semi-Supervised Learning
+-Reinforced Learning
+-Unsupervisied learning
 
 Tue, 8 Mar
 
-belajar tentang matematika Al belajar bareng sama temen temen dan coach di ms team
+Materi : Aljabar Linear for AI 
+1) Image with Matrix
+2) Neural Network
+     Ada 3 tahapan : 
+     - Input Layer
+     - Hidden Layer
+     - Output Layer
+    Neural Network akan membangun relasi dengan Neural Function. 
+3.) Memahami cara mencari Gradien
+4. ) Memahami Regresi Linier
+5. ) Memahami peluang kejadian
+6. ) Memahami Klasifikasi dengan Naive Bayes dan mempraktikkannya menggunakan Excel dan Python
 
 Wed, 9 Mar
 
-belajar tentang deep leening melalui ms team dan siang ya pindah ke zoom
+Materi : Statistik deskriptif untuk data analisis
+
+1. Macam-macam data 
+2. Menjelaskan konsep dasar statistika beserta klasifikasinya : statistik deskriptif dan inferensial 
+3. Memahami ukuran skala : skala nominal, ordinal, interval dan rasio
+4. Ukuran tendensi sentral : mean, median dan modus
+5. Ukuran variabilitas: jangkauan, kuartil dan jangkauan antarkuartil, varians, dan standar deviasi
+6. Ukuran bentuk : kemiringan dan kurtosis
+7. Pengenalan Teori Probabilitas
+8. Kemungkinan bersyarat
+9. Memahami konsep Kovarians dan korelasi 
+10. Mencoba menganalisis data statistik deskriptif menggunakan Python
 
 Thu, 10 Mar
 
-belajar nya biasa aja menoton gak seru gak asyik dan pemateri kecepatan gak masuk ke otak saya dan tugas nya 1 hari ada 2 tugas pusing😌 saya minta sama coach yang waktu ini pak Oetomo sakit di gantikan oleh coach baru tolong menjelaskan jangan terlalu cepet dan harus ada jeda apalagi tugas nya jangan terlalu banyak itu sih dari saya makasih
+Kamis 10 Maret 2022
+Materi : statistik inferensial untuk data analisis 
+ Inti materi : 
+1. Memahami teori peluang
+2. Memahami peluang bersyarat dan teorema bayes
+3. Menjelajahi aturan empiris dan teorema chevbeys
+4. Menjelajahi skor z , uji z 
+5. Memahami ide logis dari uji t , uji t satu sampel dan uji t berpasangan
+6. Menjelajahi anova dan uji chi squarw
+
+Statistik inferensial terdiri dari : 
+   - Estimation : point dan interval
+   - Hypothesis 
+        Terbagi 2 yaitu Hipotesis nol dan Hipotesis Alternatif 
+
+Kemudian dilanjutkan dengan praktek analisis data statistik inferensial menggunakan Python 
 
 Fri, 11 Mar
 
-Alhamdulillah seru karena bapa pak Oetomo kembali ngajar lagi hehe
+Materi : AI Project Cycle dan System Thinking, Algoritma, Flow, & System Map. 
+1.System Thinking: cara dalam memandang sesuatu secara keseluruhan, di mana bagian-bagiannya saling berhubungan. 
+2.Evaluasi (test): perspektif user dan perfektif sistem 
+3.Presisi: jarak kemunculan nilai, semakin rendah nilai presisi maka jarak antar nilai semakin dekat, sedangkan semakin tinggi nilai presisi maka jarak antar nilai semakin jauh.  
+4.Asumsi: seberapa dekat nilai yang dihasilkan dan diekspekstasikan 
+5.Algoritma: metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik untuk menghitung sebuah fungsi 
+6.Flow: gambaran arus informasi yang diproses dari input menuju sebuah output tertentu 
+7.System Map: gambaran yang digunakan untuk memproses sesuatu 
+AI Projecy Cycle: Problem Scoping, Data Asquisition, Data Exploration, Modelling, Evaluation, Deployment
 
 What did you learn this week?
 
-Alhamdulillah weekend itu di isi dengan kerjain tugas
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya
+Memahami hubungan antara AI, Machine Learning and Deep Learning 
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI 
+Dapat memahami konsep dibalik machine learning Dapat memahami proses standar dari machine learning
+Matematika Dasar untuk kecerdasan buatan, aljabar, matrik. 
+Deep learning 
+Pengenalan Deep Learning 
+Neural Network
+
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya
+Memahami hubungan antara AI, Machine Learning and Deep Learning
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI
+Dapat memahami konsep dibalik machine learning
+Dapat memahami proses standar dari machine learning
+Matematika Dasar untuk kecerdasan buatan, aljabar, matrik.
+
+Deep learning
+Pengenalan Deep Learning
+Neural Network
+
+
+
+
+Machine Learning
+Kelebihan & Kekurangan Machine Learning
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Machine Learning vs
+ Deep Learning
+Artificial Neural Network
+
+
+Data analytics with python- Basic statistics
+• Sebutkan macam-macam data.
+• Menjelaskan konsep dasar statistika beserta klasifikasinya: statistik 
+deskriptif dan inferensial.
+• Memahami ukuran skala: skala nominal, ordinal, interval, dan rasio.
+• Jelaskan ukuran tendensi sentral: mean, median & modus.
+• Hitung ukuran variabilitas: jangkauan, kuartil dan jangkauan antarkuartil, 
+varians dan standar deviasi.
+• Jelaskan ukuran-ukuran bentuk: kemiringan dan kurtosis.
+• Memahami pengenalan dan definisi penting dari Teori Probabilitas.
+• Jelaskan kemungkinan bersyarat.
+• Memahami konsep Kovarians dan Korelasi.
+
+
+
+• Memahami teori peluang
+• Memahami peluang bersyarat dan teorema bayes
+• Menjelajahi aturan empiris dan teorema chevbeys
+• Menjelajahi skor z, uji z
+• Memahami ide logis dari uji t, uji t satu sampel dan uji t berpasangan
+• Menjelajahi ANOVA dan uji chi square
+
+
+Traditional Programming vs Machine Learning
+Machine Learn from Data
+Studi Kasus Ojek Online
+Traditional Programming vs Machine Learning Approach
+Machine Learning vs Deep Learning
+Deep Learning; Example
+Digit Classification MNIST 
+Dataset
+The Fashion MNIST Dataset

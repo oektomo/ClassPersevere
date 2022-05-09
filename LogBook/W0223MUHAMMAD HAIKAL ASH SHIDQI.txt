@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+Libur Hari Raya Isra Mi'Raj
+
+Tue, 1 Mar
+
+Pada pembelajaran hari ini adalah virtual meeting. Meeting hari ini berfokus pada pengenalan AI, sejarah, dan implementasi. Kemudian diberikan contoh secara live mengenai codingan dari Python seperti contoh program Hello World, pendefinisian variabel serta cara menggunakannya, dan operasi matematika dalam bahasa Python menggunakan Jupyter Notebook. Kemudian juga belajar mengenai tipe data String, integer, dan floating point. Serta belajar tentang array dan jenis-jenis manipulasi array pada Python
+
+Wed, 2 Mar
+
+Pada pembelajaran hari ini diajarkan tentang git dan kolaborasi dengan github, operator pada Pyhton, array pada Python, serta conditional looping
+
+Thu, 3 Mar
+
+Libur Hari Raya Nyepi
+
+Fri, 4 Mar
+
+Hari ini mempelajari tentang User Defined Function (UDF), string manipulation, generator function, error handling, dan file handling
+
+What did you learn this week?
+
+Pada minggu ini diperkenalkan dengan AI dan beberapa hal terkait AI seperti sejarah dan kegunaannya. Kemudian belajar basic Python mulai dari menjalankan programnya pertama kali hingga file handling pada Python. Selain itu juga terdapat pembelajaran mengenai Git dan GitHub dan menggunakan platform tersebut untuk mengumpulkan tugas

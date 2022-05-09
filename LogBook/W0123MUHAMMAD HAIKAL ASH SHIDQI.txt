@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+Hari ini bagian pengantar dan sejarah AI serta aturan dalam kelas
+
+Tue, 22 Feb
+
+Hari ini pembelajaran mandiri via dashboard orbit guru
+
+Wed, 23 Feb
+
+Hari ini belajar mandiri mengenai kerangka kerja pada Python melalui video interaktif via orbit guru
+
+Thu, 24 Feb
+
+Hari ini belajar mandiri mengenai data, data terstruktur dan tidak terstruktur, metode pengambilan data, dan AI ethics melalui modul yang diberikan
+
+Fri, 25 Feb
+
+Pada pembelajaran hari ini adalah self study dalam platform orbit guru. Pembelajaran interaktifnya adalah menonton video yang menjelaskan pengertian artificial intelligence, implementasinya nanti dalam bahasa pemrograman Python, serta diberikan contoh program Hello World, pendefinisian variabel serta cara menggunakannya, dan operasi matematika dalam bahasa Python menggunakan Jupyter Notebook
+
+What did you learn this week?
+
+Selama minggu pertama saya dikenalkan dengan orbit dan metode pembelajarannya. Kemudian sesi belajar telah dimulai dengan minggu pertama diisi dengan self study tentang dasar-dasar Python dan Jupyter Notebook

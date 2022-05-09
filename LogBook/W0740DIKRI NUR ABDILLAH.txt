@@ -1,23 +1,73 @@
 Mon, 4 Apr
 
-belajar data science memahami materi dari coach dan di kasih link google colab untuk di pelajari di rumah 
+Time Series (Statistical Approach)
+Data time series atau data runtun
+waktu adalah suatu himpunan
+data pengamatan yang dibangun
+dalam urutan waktu
+Time Series di bawah ini
+-	Memahami pengertian data time series dan contoh data
+-	Memahami bagaimana membagi data time series menjadi data train dan data test
+-	Memahami pola data yang ada pada data time series
+-	Memahami syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+pemilihan model
+- Arima
+-Sarima
+
 
 Tue, 5 Apr
 
-belajar CV sama coach di kasih materi juga dan link google colab untuk dipelajari sudah itu siang ya live streaming YouTube tentang projek akhir
+Object Detection with YOLO adalah algoritma yang mendeteksi dan mengenali berbagai objek dalam gambar (secara real-time). Deteksi objek di YOLO dilakukan sebagai masalah regresi dan memberikan probabilitas igambar yang terdeteksi.
+Object Detection with YOLO di bawah ini!
+-	Memahami prinsip kerja object detection
+-	Memahami prinsip kerja YOLO (You Only Look Once) algorithm
+-	Implementasi YOLO
+Kecepatan: Algoritma ini meningkatkan kecepatan deteksi karena dapat memprediksi objek secara real-time.
+     Akurasi tinggi:  teknik prediksi yang memberikan hasil akurat dengan kesalahan latar belakang minimal.
+     Kemampuan belajar: Algoritme memiliki kemampuan belajar yang sangat baik yang memungkinkannya mempelajari representasi objek dan menerapkannya dalam deteksi objek.
+Algoritma YOLO bekerja menggunakan tiga teknik berikut:
+-  Blok sisa
+-  Regresi kotak pembatas
+-  Persimpangan Di Atas Serikat (IOU)
+
 
 Wed, 6 Apr
 
-seru banget belajar nya 
+Word Embedding and Deep Learning for NLP istilah 
+digunakan untuk representasi kata untuk analisis teks, biasanya dalam bernilai nyata yang mengkodekan arti kata sedemikian rupa sehingga kata-kata yang lebih dekat dalam ruang diharapkan memiliki makna yang serupa. pemodelan bahasa dan teknik pembelajaran fitur di mana kata atau frasa dari kosakata dipetakan ke bilangan real. Metode untuk menghasilkan pemetaan ini termasuk jaringan saraf,pengurangan dimensi pada matriks co-occurrence kata, model probabilistik,  metode basis pengetahuan yang dapat dijelaskan, dan representasi eksplisit dalam istilah konteks di mana kata-kata muncul. Penyematan kata dan frasa, ketika digunakan sebagai representasi input yang mendasari, telah terbukti meningkatkan kinerja dalam tugas-tugas NLP seperti penguraian sintaksis dan analisis sentimen
+-	Memahami ide dan alasan dibutuhkannya word embedding
+-	Memahami intuisi word2vec dengan metode skipgram dan CBOW
+-	Memahami negatif sampling pada word2vec
+-	Memahami recurrent neural network dan batasannya
+-	Memahami long short-term memory (LSTM)
+-	Mengimplementasikan setiap metode dengan python
 
 Thu, 7 Apr
 
-kita belajar RL make zoom Alhamdulillah materi yang saya terima sangat baik
+Q Learning dan Deep Q Learning
+proses Q-Learning menciptakan matriks yang tepat untuk agen kerja yang dapat "dirujuk" untuk memaksimalkan imbalannya dalam jangka panjang. bahwa nilai-nilai dalam matriks hanya memiliki kepentingan relatif yaitu nilai-nilai hanya memiliki kepentingan terhadap nilai-nilai lainnya. Dengan demikian, pemikiran ini membawa kita ke Deep Q-Learning yang menggunakan jaringan saraf dalam untuk memperkirakan nilai.
+Langkah kerja dasar untuk Deep Q-Learning adalah bahwa keadaan awal dimasukkan ke dalam jaringan saraf dan mengembalikan nilai-Q dari semua tindakan yang mungkin seperti pada output.
+langkah Learning Objectives di bawah ini
+-	Mengetahui Q learning
+-	Memahami bagaimana Q learning bekerja
+-	Mengetahui deep Q learning
+-	Memahami bagaimana deep Q learning bekerja
 
 Fri, 8 Apr
 
-Alhamdulillah Seru sih tapi sayang di akhir nya ada Tugas...kalau bisa sebelum projek akhir jangan di kasih tugas soalnya memberatkan ke peserta kampus merdeka 
+Flask RESTful API adalah  suatu arsitektur metode komunikasi yang menggunakan protokol HTTP untuk pertukaran data dan metode ini sering diterapkan dalam pengembangan aplikasi.
+
+Flask sendiri adalah sebuah microframework yang dapat digunakan dalam pembuatan web dengan bahasa pemrograman Python.
+Apabila Python belum terpasang, maka download Python lalu install di komputer
+
+-	Memahami HTTP request dan HTTP response
+-	Memahami apa itu RESTful API
+-	Mendesain RESTful API sederhana untuk project AI dan ML
 
 What did you learn this week?
 
-menjelakan materi oleh para coach
+Hari senin mempelajari data time series
+hari selasa mempelajari object detection with yolo
+hari rabu mempelajari tentang world embedding deep learning
+hari kamis mempelajari tentang learning and deep learning and deep q learning ver 3.0
+hari jumat mempelajari tentang flask restfull

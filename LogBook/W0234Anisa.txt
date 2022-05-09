@@ -1,0 +1,35 @@
+Mon, 28 Feb
+
+Libur Isra' Mi'raj
+
+Tue, 1 Mar
+
+- sejarah python
+- versi python
+- aplikasi-aplikasi dari python
+
+Wed, 2 Mar
+
+- pembuatan GitHub
+- latihan jupyter python
+- penjelasan operator-operator dalam python
+
+Thu, 3 Mar
+
+Libur Nasional Nyepi
+
+Fri, 4 Mar
+
+- membuat pemrograman sederhana dgn python
+- membuat github
+
+What did you learn this week?
+
+- sejarah python
+- versi python
+- aplikasi-aplikasi dari python
+- pembuatan GitHub
+- latihan jupyter python
+- penjelasan operator-operator dalam python
+- membuat pemrograman sederhana dgn python
+- membuat github

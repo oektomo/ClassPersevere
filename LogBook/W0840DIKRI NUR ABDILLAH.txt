@@ -1,23 +1,56 @@
 Mon, 11 Apr
 
-Alhamdulillah data science yang saya sangat baik materi oke dan cara menyampaian sangat baik menurut saya terimakasih 
+Memahami tentang arsitektur jaringan RNN, LSTM, GRU, serta melakukan time series forecasting menggunakan deep learning, Time Series Forecasting selalu menjadi area penelitian yang sangat penting di banyak domain karena berbagai jenis data disimpan dalam waktu time series. Misalnya prakiraan cuaca, manajemen rantai pasokan dan peramalan harga saham, Pendekatan time series yaitu AR models, ML models, DL models, Hybrid models, dan RL models sentiment analysis quantum finance. RNN, LSTM, dan GRU memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda. Untuk evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik. Model Deep Learning hanya mempelajari fitur, dan dinamika dari data langsung (tanpa mempertimbangkan pengetahuan domain). Berkat ini, Deep learning dapat mempercepat proses data preparation dan
+dapat mempelajari pola data yang lebih kompleks dengan cara yang lebih lengkap.
 
 Tue, 12 Apr
 
-Alhamdulillah belajar data scient dan memahami apa yang di terangkan oleh coach yang mengajarkan di hari senin
+Mempelajari tentang apa itu autoencoder, properti pada autoencoder, arsitektur pada autoencoder, dan aplikasi dari autoencoder. Autoencoder adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, dan mempelajari data input dan berusaha untuk melakukan rekontruksi terhadap data input . Komponen dalam autoencoder yaitu encoder, code, dan decoder. Encoder adalah bagian yang bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation. Code adalah bagian jaringan yang mewakili input terkompresi yang diumpankan ke decoder. Dan decoder adalah bagian yang bertujuan untuk merekontruksi masukan dari the latent space representation. Decoder Bagian ini bertujuan untuk merekonstruksi masukan dari the latent space representation
 
 Wed, 13 Apr
 
-Alhamdulillah belajar CV dan memahami dan di pelajari apa yang di terangkan oleh coach farchan
+Memahami konsep transfer learning pada NLP, memahami batasan word embedding tradisional, memahami mekanisme self-attention pada arsitektur transformer, memahami arsitektur dan representasi input BERT, dan memahami cara melakukan fine-tuning menggunakan BERT. Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner). Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri). Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation). BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur transformer. Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
 
 Thu, 14 Apr
 
-Alhamdulillah belajar RL dan memahami apa yang di terangkan oleh coach Oetomo
+Membahas tentang pengenalan robotic adalah  suatu disiplin ilmu yang mempelajari tentang konsep suatu robot, Robot merupalan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak penampilan atau melakukan fungsi dengan cara yang mirip manusia, overview SARSA beserta implementasi pada robotic, implementasi Q learning pada robotic, dan implementasi Deep Q learning pada robotic.
 
 Fri, 15 Apr
 
-pas hari libur bukan ya istirahat atau healing di kasih tugas lagi🙃
+Teknikal
+Self study : Unit Testing, Refactoring, dan Debugging
+•	Pengenalan Unit Testing
+Merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program.
+Docstrings untuk Unit Testing.
+Mempelajari penggunaan Library unittest.
+Mempelajari cara membuat test package
+•	Refactoring
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan.
+•	Debugging
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program
 
 What did you learn this week?
 
-di kasih tugas yang sangat banyak dan belajar tentanh materi apa yang di terangkan para coavh
+Data Science
+Memahami tentang arsitektur jaringan RNN, LSTM, GRU, serta melakukan time series forecasting menggunakan deep learning, Time Series Forecasting selalu menjadi area penelitian yang sangat penting di banyak domain karena berbagai jenis data disimpan dalam waktu time series. Misalnya prakiraan cuaca, manajemen rantai pasokan dan peramalan harga saham, Pendekatan time series yaitu AR models, ML models, DL models, Hybrid models, dan RL models sentiment analysis quantum finance. RNN, LSTM, dan GRU memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda. Untuk evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik. Model Deep Learning hanya mempelajari fitur, dan dinamika dari data langsung (tanpa mempertimbangkan pengetahuan domain). Berkat ini, Deep learning dapat mempercepat proses data preparation dan dapat mempelajari pola data yang lebih kompleks dengan cara yang lebih lengkap.
+
+Computer Vision
+Mempelajari tentang apa itu autoencoder, properti pada autoencoder, arsitektur pada autoencoder, dan aplikasi dari autoencoder. Autoencoder adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, dan mempelajari data input dan berusaha untuk melakukan rekontruksi terhadap data input . Komponen dalam autoencoder yaitu encoder, code, dan decoder. Encoder adalah bagian yang bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation. Code adalah bagian jaringan yang mewakili input terkompresi yang diumpankan ke decoder. Dan decoder adalah bagian yang bertujuan untuk merekontruksi masukan dari the latent space representation. Decoder Bagian ini bertujuan untuk merekonstruksi masukan dari the latent space representation.
+
+Natural Languange Processing
+Memahami konsep transfer learning pada NLP, memahami batasan word embedding tradisional, memahami mekanisme self-attention pada arsitektur transformer, memahami arsitektur dan representasi input BERT, dan memahami cara melakukan fine-tuning menggunakan BERT. Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner). Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri). Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation). BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur transformer. Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+Reinforcement Learning
+Membahas tentang pengenalan robotic adalah  suatu disiplin ilmu yang mempelajari tentang konsep suatu robot, Robot merupalan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak penampilan atau melakukan fungsi dengan cara yang mirip manusia, overview SARSA beserta implementasi pada robotic, implementasi Q learning pada robotic, dan implementasi Deep Q learning pada robotic.
+
+Teknikal
+Self study : Unit Testing, Refactoring, dan Debugging
+•	Pengenalan Unit Testing
+Merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program.
+Docstrings untuk Unit Testing.
+Mempelajari penggunaan Library unittest.
+Mempelajari cara membuat test package
+•	Refactoring
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan.
+•	Debugging
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program
