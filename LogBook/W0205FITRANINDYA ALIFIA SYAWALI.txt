@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+isra miraj
+
+Tue, 1 Mar
+
+dimulai dengan video conference menggunakan ms teams, lalu kita membahas open source dan program yg terkait pada python, lalu mencoba mengoding dengan syntax, comments, variable, data types, numbers, casting, strings, booleans, operators, lists, tuples, sets, dictionaries
+
+Wed, 2 Mar
+
+libur hari raya nyepi
+
+Thu, 3 Mar
+
+seharusnya libur nasional nyepi, tapi saya salah masukin tgl, saya menulis di tgl 2, jadi yg saya kerjakan di tanggal 2 adalah mengikuti vidcon yang mempelajari ttg tipe data dan operator pada python
+
+Fri, 4 Mar
+
+mengikuti materi python function n file handling  yg diajarkan oleh coach melalui ms team 
+
+What did you learn this week?
+
+setelah seminggu belajar tentang python di ms team, saya lumayan mengerti apasaja yang dipelajari di python, salah satunya syntax, commentar, variables, tipe data, number, casting, string, boolean, list, tuples, set dan dictionaries

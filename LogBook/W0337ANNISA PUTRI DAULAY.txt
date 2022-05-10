@@ -1,0 +1,49 @@
+Mon, 7 Mar
+
+awal minggu ke 3 ini, kami belajar mengenai teori AI. seperti apa itu perbedaan antara data dan informasi, kemudian bidang AI yaitu Data Science, Computer Vision, dan Natural Languange. kami juga hari ini belajar oop dan diberi tugas ke 3 yaitu memberikan contoh konkrit mengenai masing-masing ilmu dalam AI.
+
+Tue, 8 Mar
+
+Hari ini belajar mengenai matematika dalam AI. hari ini belajar mengenai matriks, kalkulus, turunan, dan peluang. 
+
+Wed, 9 Mar
+
+Hari ini belajar mengenai Machine Learning dan Supervised Learning serta Artificial Neural Network. 
+
+Thu, 10 Mar
+
+Hari ini belajar mengenai project cycle AI dan statistika
+
+Project Cycle AI terdiri dari 
+1. Problem Scoping
+bertujuan untuk mengetahui akar masalah secara jelas. digunakan 4W ( What, When, Where, Who)
+2. Data Acquisition
+merupakan proses pengukuran,pengukuran, dan validasi data
+3. Data Exploration 
+membantu untuk menentukan strategi model yang akan digunakan
+4. Modeling
+representasi masalah dalam bentuk yang lebih sederhana
+5. Evaluation
+
+Statistik terbagi 2 yaitu Deskriptif dan Inferensial
+
+Fri, 11 Mar
+
+Akhir dari minggu ini, kami belajar mengenai Python Modules. 
+untuk melihat seluruh modules dapat mengetikkan perintah help('modules')
+
+keuntungan menggunakan modules adalah 
+1. Reusability 
+meningkatkan tingkat penggunaan ulang kode dalam python
+2. Simplicity
+modul berfokus pada sebagian kecil dari masalah daripada keseluruhan
+3. Scoping
+namespace terpisah ditentukan oleh modul yang membantu menghindari tabrakan antara pengidentifikasi
+
+Modules yang dipelajari pada sesi ini adalah : OS , TIME, DAN MATH
+
+sesi kedua kami melakukan weekly review untuk keseluruhan materi minggu ini.
+
+What did you learn this week?
+
+Di minggu ini, kami mempelajari mengenai pengenalan elemen basic AI serta perhitungan matematika dan statistiknya. kami mempelajari mengenai perbedaan dari Computer Vision,Data Science, dan Natural Language

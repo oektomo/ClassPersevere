@@ -1,0 +1,31 @@
+Mon, 21 Feb
+
+Hari ini merupakan hari pertama untuk program AI Mastery. pada hari ini, kami hanya sebetas perkenalan antar sesama anggota kelas dan coach kami menjelaskan secara garis besar mengenai apa saja yang akan kami pelajari selama 5 bulan kedepan.
+
+Hari ini saya mendapatkan inspirasi mengenai bagaimana kehebatan teknologi dimasa sekarang ini. yang membuat saya untuk lebih giat belajar dan menekuninya.
+
+Tue, 22 Feb
+
+Hari kedua ini, kami belajar mandiri ( self study ). materi hari ini mengenai peranan AI dalam sektor industri. materi yang diberikan berupa power point yang dilengkapi dengan video sehingga memudahkan untuk memahami materi. Di akhir materi kami juga diberi quiz singkat mengenai materi yang dipaparkan di power point.
+
+Wed, 23 Feb
+
+Hari ketiga self study. hari ini belajar mengenai apa itu bahasa pemrograman python serta environment nya. kami juga diberi tahu mengenai apa itu program dan bagaimana cara kerjanya.
+
+Thu, 24 Feb
+
+Hari ini merupakan hari ke 4 dari self study. hari ini saya belajar mengenai teknik mengambilan data, macam-macam data dan etika AI. 
+
+Data dapat dibagi menjadi 2 macam yaitu structured data dan unstructured data. Structured data adalah data yang direpresentasikan dengan jelas sehingga mudah untuk dibaca. sedangkan unstructured data adalah data yang direpresentasikan dalam berbagai bentuk sehingga menyulitkan untuk membaca. 
+
+Hari ini saya juga menemukan sebuah web yang sangat keren, yaitu Moral Machine. Moral Machine adalah sebuah web yang dikembangkan oleh MIT Students yang memberikan perspektif mengenai kematian dan kehidupan dalam mengembangkan sebuah teknologi, contohnya adalah self driving car. Setelah mengerjakan ke-13 soalnya, hal ini memberikan saya sebuah pandangan dan pemikiran bahwa ketika kita ingin mengembangkan sebuah teknologi kita harus memikirkan mengenai siapa yang akan kita utamakan dan kita prioritaskan, memikirkan mana yang memiliki resiko paling besar dan mana yang memiliki resiko paling kecil. contohnya,  dalam teknologi self driving cars, apakah kita harus menyelamatkan sang pengendara dan mengorbankan pejalanan kaki? atau haruskah kita menyelamatkan sang pengendara dan mengorbankan hewan-hewan peliharaan kesayangan kita? haruskah kita menyelamatkan anak kecil dan mengorbankan sang pengendara?
+
+this web really hits me hard.
+
+Fri, 25 Feb
+
+Hari ini belajar mengenai apa itu phyton serta framework nya
+
+What did you learn this week?
+
+Di awal pertemuan, kami bertemu dengan coach kami untuk pertama kalinya dan menjelaskan mengenai hal apa saja yang akan kami pelajari selama 5 bulan kedepan. kemudian kami belajar secara mandiri dengan materi-materi belajar yang dikirimkan oleh coachnya. selama belajar mandiri, kami belajar mengenai apa itu pemrograman, sedikit pengenalan mengenai phyton, dan sedikit pengenalan mengenai data. 

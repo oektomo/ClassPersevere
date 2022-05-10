@@ -1,0 +1,27 @@
+Mon, 28 Feb
+
+Libur Hari Raya
+
+Tue, 1 Mar
+
+Masih mempelajari Python tetapi implementasi lebih ditekankan. Namun guru di awal kelas berbicara terlebih dahulu tentang AI dan menjelaskan mengapa itu bisa diterapkan sekarang dan tidak di masa lalu selama munculnya teori. Ia juga menjelaskan implementasi AI hari ini dimana ia memilih implementasi AI pada kartu grafis NVIDIA yang menggunakan interpolasi dengan metode deep learning untuk meningkatkan resolusi pada game dengan performa yang optimal.
+
+Belajar Python baik itu belajar mandiri melalui W3School dan juga diberikan contoh dari guru secara langsung tentang struktur data yang dibangun dengan Python. Dari W3Schools kita disuruh belajar dari intro sampai kamus. Dari Pengenalan ke variabel tidak ada sesuatu yang baru untuk dipelajari. Kecuali betapa bergunanya memiliki variabel global yang dapat mempengaruhi output keseluruhan program jika kita menginginkannya. Ada beberapa tipe data utama dalam Python seperti string, integer, float, boolean, complex, list, tuple, rage, dict, set, dll. Yang paling menarik adalah belajar tentang struktur data Python, khususnya 'List Comprehensions' yang meminimalkan penggunaan kode misalnya untuk mengulang daftar. Biasanya kita harus mengetikkan perulangan for, tetapi hanya dengan menulis 'x untuk x dalam daftar..(pernyataan)' kita dapat mencapai tujuan yang sama. Daftar itu sendiri mirip dengan array. Tuple seperti daftar yang dipesan dan memungkinkan duplikat tetapi Tuple tidak mengizinkan item ditambahkan atau dihapus. Untuk mengubah item, pertama-tama harus dikonversi ke daftar kemudian diubah kembali menjadi tupel. Set berbeda dari daftar dan tuple yang tidak diurutkan, tidak dapat diubah dan tidak mengizinkan duplikat tetapi masih dapat menambahkan item baru ke set. Kamus digunakan untuk menyimpan nilai data dalam pasangan kunci dan nilai. Ini memungkinkan perubahan pada item, dipesan, dapat berisi tipe data apa pun juga., tetapi tidak mengizinkan duplikat. Selain karakteristik umum dari tipe data ini, ada juga penjelasan tentang metode yang dapat kami berikan pada tipe data tetapi beberapa metode mungkin tidak berfungsi dengan tipe data lain karena sifatnya.
+
+Wed, 2 Mar
+
+Hari ini kami belajar cukup banyak mengenai Python. Pertama kami belajar sedikit mengulas apa yang kami pelajari di materi sebelumnya seperti tipe data (list, tuple, dict, dll). Setelah itu, pelatih memberi penjelasan mengenai materi berikutnya berupa operasi yang tersedia pada Python. Operasi-operasi ini beragam dari operasi aritmatika hingga pengoperasian untuk bilangan biner. Selain itu kami juga mengulas sedikit tentang If else dan while serta looping.
+
+Thu, 3 Mar
+
+Hari libur nasional Hari Raya Nyepi
+
+Fri, 4 Mar
+
+Hari ini kita belajar cukup banyak mengenai Python. Dari Pembuatan fungsi, fungsi bawaan Python,  pengolahaan tipe data String, serta indexing yang dapat memudahkan output dengan banyak data. Kita juga mempelajari lambda functions yang dapat mempermudah pembuatan fungsi dengan cepat. For loop juga diulas untuk mengakses string dengan gabungan yield (sebuah generator function) yang  dapat me 'return' hasil dari sebuah fungsi dan menghentikan pengerjaan fungsinya tetapi masih mengingat letak terakhir output sebelumnya. Sehingga jika dipanggil lagi akan melanjutkan ke statement selanjutnya dan tidak mengulang.
+
+Selain itu kita juga belajar tentang file handling seperti mengoperasikan file ,txt dengan Python . Kita juga belajar mengenai error handling pada Python menggunakan try & except dimana except dapat 'mencegah' output error.
+
+What did you learn this week?
+
+Di minggu ini kami mempelajari secara langsung dasar-dasar bahasa pemrograman Python.  Mulai dari cara membuat variabel, operasi-operasi yang dapat dilakukan, tipe data dan cara mengolahnya, cara membuat fungsi, for loop dan bekerja menggunakan github. Pembelejaran minggu ini cukup comprehensif untuk mengetahui cara kerja dasar Python. Kita juga diberi 2 tugas yang berguna sebagai latihan. Yang pertama merupakan tugas tentang  tipe data yang memberikan kita kesempatan untuk mengetahui karakteristik dari masing-masing tipe data dan cara memanipulasinya. Yang kedua mengenai operator supaya dapat mempermudah kita untuk membuat dan mengoprasikan variabel.  Penggunaan github sendiri akan sangat bermanfaat untuk kedepanya  supaya kami terbiasa nantinya untuk berkolaborasi kode saat bekerja sama dengan tim.

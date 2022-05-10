@@ -1,0 +1,25 @@
+Mon, 28 Feb
+
+libur isra miraj
+
+Tue, 1 Mar
+
+hari ini belajar mengenai sejarah AI, kemudian mengenal tentang typedata yang ada di python seperti float, boolean dan lainnya serta praktek mengoding menggunakan bahasa pemrograman python.
+
+Wed, 2 Mar
+
+Hari ini materi tentang python, belajar mengenai typedata, if-else, looping menggunakan for dan while dan mempraktekkan codingan yang ada di website https://www.w3schools.com/python/default.asp
+
+Thu, 3 Mar
+
+Libur hari raya nyepi
+
+Fri, 4 Mar
+
+Hari ini belajar tentang fungsi dan generator yang ada di python. Selain itu juga kami belajar tentang memahami tentang string manipulation serta bagaimana caranya reading, writing dan appending data ke dalam file yang ada di python.
+
+What did you learn this week?
+
+Belajar mengenai sejarah AI, kemudian mengenal tentang typedata yang ada di python seperti float, boolean dan lainnya serta praktek mengoding menggunakan bahasa pemrograman python.
+Materi tentang python, belajar mengenai typedata, if-else, looping menggunakan for dan while dan mempraktekkan codingan yang ada di website https://www.w3schools.com/python/default.asp
+Belajar tentang fungsi dan generator yang ada di python. Selain itu juga kami belajar tentang memahami tentang string manipulation serta bagaimana caranya reading, writing dan appending data ke dalam file yang ada di python.

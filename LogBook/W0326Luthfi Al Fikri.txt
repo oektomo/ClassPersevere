@@ -1,0 +1,296 @@
+Mon, 7 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini sangat senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module Aritificial Intelligence Fundamental.
+- Section Artificial Intelligence.
+- What is different of Data and Information? --> Data merupakan sebuah Penyimpanan sedangkan Informasi merupakan Pengolahan Data.
+- What is Data? --> Kumpulan fakta-fakta yang ada di sekitar.
+- AI Landscape --> Artificial Intelligent, Machine Learning, Deep Learning, Data Science, Computer Vision, Natural Language Processing (NLP) dan Reinforcement Learning.
+- Membuat tugas 3 untuk deadline besok
+
+Sesi II :
+- Menonton Video OrbitGuru - Minggu 3 : OPERATOR, STRING, LIST DAN SET.
+- Module Aritificial Intelligence Fundamental.
+- Masih di Section Artificial Intelligence.
+- Reinforcement Learning --> Playing Game, Self Driving Car, Artificial Sun Environment Control, Warehouse Robot Control, Education, Social Media dan Marketing and Ads.
+- Machine Learning --> mesin yang dikembangkan untuk bisa belajar dengan sendirinya tanpa arahan dari penggunanya. 
+Pembelajaran mesin dikembangkan berdasarkan disiplin ilmu lainnya seperti statistika, 
+matematika dan data mining sehingga mesin dapat belajar dengan menganalisa data tanpa perlu di program ulang atau diperintah.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+(a). Learning Objectives, Pada akhir pembelajaran ini, diharapkan kita mampu :
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya.
+Memahami hubungan antara AI, Machine Learning and Deep Learning.
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI.
+Dapat memahami konsep dibalik machine learning.
+Dapat memahami proses standar dari machine learning.
+(b). Data
+Bentuk Jamak dari kata 'datum'
+Kumpulan fakta dan statistik dalam bentuk mentah atau tidak terorganisir
+kumpulan fakta dan statistik yang digunakan untuk referensi dan analisis
+Dari Data ada beberapa structured :
+* Structured : Business Data, Excel, CSV.
+* Unstructured : Text, Images dan Speech.
+(c). AI Landscape
+* Artificial Intelligent --> Collecting of algorithms used to build
+* Machine Learning --> Algorithms which use DATA to build
+* Deep Learning --> Automated feature engineering
+* Data Science (Data Analysis, Statistics, Visualization Structured Data)
+* Computer Vision (Image Processing, Images, Video(w/o audio), Unstuctured Data)
+* Natural Language Processing (NLP) (Text/Speech Processing, Text/Audio, Unstructured Data)
+
+Tue, 8 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini biasa aja dan sedang santai.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 1 Introduction to everything
+- Section Mathematics for AI
+- Matematika dasar untuk kecerdasan buatan.
+- Aljabar Linier : Vektor (Perjumlahan Vektor, Perkalian Skalar, Dot Product)
+Vektor --> besaran yang memiliki nilai dan arah dalam ilmu data, vektor adalah kumpulan nilai dari variabel tertentu.
+Skalar --> Konstanta atau besaran yang memiliki nilai Vektor berdimensi sama dapat dioperasikan.
+- Aljabar Linier : Matriks --> Kumpulan nilai dari beberapa variabel yang disusun menjadi baris dan kolom
+- Operasi Matriks
+- Deteminant & Invers
+- Aljabar Linier : Penerapan Invers --> Misal kita memiliki data dan 
+mencari tahu seberapa besar pengaruh jam belajar(x), jam tidur(y) dan tingkat gizi(z) terhadap nilai sekolah.
+- Latihan Tim 1 & Tim 2
+- Aljabar Linier : Nilai & Vektor Eigen --> Vektor yang menjadi karateristik sebuah matriks dimana arahnya tidak berubah meski dilakukan transformasi.
+- Kalkulus : Fungsi & Gradient
+Fungsi --> aturan yang memetakan antara 2 himpunan.
+Gradient --> besaran perubahan atau kemiringan.
+
+Sesi II :
+- Module 1 Introduction to everything
+- Masih di Section Mathematiccs for AI
+- Kalkulus : Turunan & Optimisasi
+Turunan (Differensial) merupakan pengembangan dari gradient.
+- Operasi Matematika & Numpy
+- Machine Learning Approach --> Supervised Learning, Semi-supervised Learning, Unsupervised Learning, dan Reinforced Learning.
+- Traditional Programming vs Machine Learning Approach
+Traditional Approach --> Experiment, Data+Role, Process, dan Answer.
+Modern Approce --> Experiment, Data+Answer, Process, dan Role.
+- Segmentasi ML menggunakan Supervised Learning dan Unsupervised Learning
+Supervised Learning --> Estimation, Prediction/Forecasting, dan Classification
+Unsupervised Learning --> Clustering dan Association.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+1. Math for AI - Sync Math
+Peluang --> Konsep Dasar Peluang, Peluang Bersyarat, Teorema Bayes.
+Aljabar Linier --> Matriks, Vektor, Nilai & Vector Elgen.
+Kalkulus --> Fungsi, Turunan, Optimasi.
+2. Jarak & Sudut antar Vektor, 
+ada 2 Jarak : 
+a. Jarak Euclidean.
+b. Jarak Manhattan.
+Sudut antar vektor (Cosine Similarity).
+3. Nilai Eigen
+Bilangan yang berasosiasi dengan panjang vektor yang berubah setelah ditransformasi oleh matriks.
+4. Turunan Kalkulus
+Turunan sering digunakan untuk mencari nilai maksimum atau minimum.
+Titik maksimum/minimum ditemukan dengan menemukan x yang memenuhi f(x)=0.
+Nilai maksimum/minimum digunakan untuk memperkecil error atau memaksimalkan jarak 2 kelas yang berbeda.
+5. Operasi Matematika & Numpy, ada beberapa pengoperasian :
+1). Contoh Penggunaan 
+2). Indexing & Slicing (Pemisahan).
+3). Operasi Matematika
+6. Machine Learning --> Ada 7 Langkah dalam ML :
+Gathering Data, Preparing Data, Choosing a Model, Training Model, Evaluation, Tuning Hyperparameter, dan Prediction.
+
+Wed, 9 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang dan agak ngantuk.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 1 Introduction to everything
+- Masih Section Machine Learning dan membahas sedikit tentang ML.
+- Supervised Learning --> digunakan untuk menemukan pola dalam datamasukan yang diberi label sehingga memungkinkan kita menghasilkan data keluaran yang benar secara efektif.
+- Supervised Learning Workflow --> Labelled Data dan Supervisor Intervention => Algorithms => Process => Output.
+- Supervised Learning Experiment
+- Unsupervised Learning --> digunakan untuk mempelajari struktur karakteristik data kita tanpa menggunakan label yang disediakan secara ekspisit.
+- Unsupervised Learning Workflow --> Raw data => Interpretation => Algorithms => Process => Output.
+- Unsupervised Learning Experiment
+- Reinforcement Learning Workflow
+- Reinforcement Learning Experiment
+- Machine Learning VS Deep Learning
+ML : Input => Feature Extraction => Classificarion => Output
+DL : Input => Feature Extrction + Classification => Output
+- Artificial Neural Network (ANN) --> Teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia.
+- Module Arificial Intelligent Fundamental
+- Section Deep Learning
+- Neural Network
+
+Sesi II :
+- Section II Artificial Neural Network
+- Artificial Neural Network (ANN)/Jaringan Syaraf Tiruan(JST)
+- Kelebihan Neural Network
+- Cara Kerja ANN
+- Logical Flow Of a Neural Network
+- Neuron
+- Formula Matematis ANN --> Neural Network satu lapis disebut Perrceptron. Perceptron memberikan output tunggal.
+- Perceptron
+- Activation Function --> Membantu menyelesaikan permasalahan-permasalahan yang bersifat non-trivial dalam suatu neural network dengan cara mengambil sebuah nilai dan melakukan operasi matematika.
+- Loss Function --> digunakan untuk mengukur seberapa bagus peforma dari neural network dalam melakukan prediksi terhadap target.
+- Optimizer --> fungsi pengoptimalan yang dapat digunakan untuk memperbarui weight network secara interatif berdasarkan data training.
+- Back Propagation --> proses memperbarui bobot dari network untuk mereduksi error dalam hasil prediksi.
+- gradient Descent --> proses menyesuaikan parameter model untuk turun melalui Loss Function.
+- Deep Learning : Training dan Testing
+- Regression vs Classification
+
+Inpirasi baru apa yang kamu dapat hari ini?
+1. ML Life Cycle, ada 7 :
+Tentukan Tujuan, Kumpulkan Data, Siapkna data, Pilih Algoritma, Latih Model, Tes Model dan Integrasikan Model.
+2. Metrics Evaluation, ada 4 yaitu :
+Regression, Classification, Unsupervised Models, dan Others.
+3. Konsep Machine Learning
+The Common ML Algorithms = Regression, Classification dan Clustering.
+4. Review Concept, ada 3 yaitu :
+AI (Artificial Intelligent) -> Teknik apa pun yang memungkinkan komputer meniru kecerdasan manusia.
+Machine Learning -> Bagian dari AI yang memungkinkan mesin untuk mengerjakan tugas dengan lebih baik dengan pengalaman.
+Deep Learning -> Bagian dari ML yang memungkinkan software melatih dirinya sendiri untuk melakukan tugas dengan data dalam jumlah besar.
+5. "Deep" Learning
+Artificial Intelligent --> Machine Learning --> Neural Networks --> Deep Learning.
+6. Penggunaan Deep Learning
+Ketika mempunyai data tak terstuktur yang sangat besar dan banyak.
+Neural Network dapat mengolah data yang tidak memiliki label.
+Bekerja sangat baik dengan data berbentuk speech, images dan video.
+7. Fungsi Loss Function dan Cost Function
+merupakan fungsi yang menggambarkan kerugian yang terkait dengan semua kemungkinan yang dihasilkan oleh model.
+
+Thu, 10 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Modul 2 Data Analytics with Python - Statistics
+- Lab 1 Basic Statistic & Linear Algebra
+- About Libraries for statistics
+NUMPY, SCIPY, MEAN, MEDIAN, MODE, RANGE, QUARTILES AND IQR(Interquartile Range), PERCENTILES, VARIANCE AND STANDARD DEVIATION, COVARIANCE, CORRELATION, KURTOSIS, SKEWNESS dan EIGEN VECTOR.
+- Module Artificial Intelligent Fundamental.
+- Section AI Project Cycle.
+- AI Project Cycle : Problem Scoping --> Data Acquisition --> Data Exploration --> Modelling --> Evaluation --> Deployment. 
+- Problem Statement Template
+- Proses Persiapan : Problem Scoping => List data yang dibutuhkan => Sumber Data => Pre-processing Data
+- Mengapa harus eksplorasi data? --> kita ingin segera memahami tren, hubungan dan pola yang terkandung dalam data.
+- Mengapa mengekplorasi data melalui visualisasi? --> Represetasi visual lebih mudah untuk dipahami dan dikomunikasikan kepada orang lain.
+- Modeling Ekplorasi Data : Persoalan dunia nyata Merumuskan => Model Matematika memecahkan => Kesimpulan Matematika menafsirkan => Prakiraan Dunia Nyata dan Diuji.
+- Representasi : Akurasi, Presisi, dan Recall.
+
+Sesi II :
+- Jenis data Structured, Untsructured dan Semi-structured
+- Pengantar Statistika yaitu Pengukuran dari data, seperti Mean, Median, dan Modul, DLL. dan Penyajian data statistik dapat berbentuk tabel, grafik, diagram, deretan angka dan visualisasi angka.
+- Inferential Statistics VS Descriptive Statistics
+- Jenis Variable / Skala Pengukuran
+- Skala Nominal, Ordinal, Interval, dan Rasio.
+- Kovarian dan Korelasi
+- Statistik Inferensial
+- Hipotesis
+- Distribusi Normal
+- Statistik Nonparametik
+- FGD Latihan
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Cara menginstall Numpy karena saya sudah ada jadi tidak perlu mendownload ulang.
+Karena dalam file tersebut system akan otomatis terpanggil malalui executor terminal.
+- Measures of Central Tendency
+Measures of Central Tendency --> metode yang umum digunakan untuk mengidentifikasi pusat kumpulan data. Digunakan untuk menggambarkan kumpulan data dengan mengidentifikasi posisi sentral dalam kumpulan data tersebut.
+ada 3 Measures of Central Tendency yaitu Mean, Median and Mode.
+- Measures of Spread
+Ukuran bagaimana data tersebar atau tersebar di sekitar mean, yaitu rata-rata. Ini digunakan dalam data kuantitatif, karena variabel dapat diatur dalam urutan logis, dengan nilai rendah dan tinggi.
+Penyebaran dapat diukur dalam : Range, Quartiles and Interquartile range, Percentile, Variance dan Standard deviation.
+- QUARTILE AND IQR(Interquartile Range)
+Q1 adalah nilai "tengah" di paruh pertama kumpulan data yang diurutkan berdasarkan peringkat.
+Q2 adalah nilai median dalam himpunan.
+Q3 adalah nilai "tengah" di paruh kedua kumpulan data yang diurutkan berdasarkan peringkat.
+- COVARIANCE AND CORRELATION
+COVARIANCE => Memberikan ukuran kekuatan korelasi antara dua atau lebih set variabel acak.
+CORRELATION => Ukuran tersebut tergantung pada dua variabel, perubahan dalam satu variabel mempengaruhi perubahan pada variabel kedua.
+- The 4Ws of Problem Scoping
+Who, What, Where dan Why.
+- Rumusan Masalah yang tepat
+Stage I --> Project Planning & Data Collection
+Stage II --> Design & Training of the Machine Learning (ML) Model
+Stage III --> Deployment & Maintenance
+- Sistem Akuisisi Data
+Secara umum, ada 3 sistem akuisisi data :
+1. Manual
+2. Membuat pipeline untuk scraping atau membaca data
+3. Automated Data Acquisition
+
+Fri, 11 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Biasa Aja dan Sedikit Cape.
+
+Apa yang dipelajari hari ini?
+- Module 1 Introduce to Everything
+- Section OOPs and Common Packages
+- OOP ==> Paradigma Pemograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual.
+- OOPs : Class
+- OOPs terminology : Self Keyword
+- Inheritance ==> Kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain (yang sudah ada). 
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Ada berbagai OOPs Terminology ==> Object, Instance, Method, Constructor Method, Class Variable, Instance Variable.
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang dan Biasa aja, sekaligus banya kerjaan menumpuk.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 3 Kali ini banyak sekali materi yang tertinggal hanya bisa melihat video yang sudah direkam pun masih kurang.
+
+- Senin, 7 Maret 2022
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya.
+Memahami hubungan antara AI, Machine Learning and Deep Learning.
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI.
+Dapat memahami konsep dibalik machine learning.
+Dapat memahami proses standar dari machine learning.
+
+- Selasa, 8 Maret 2022
+Peluang --> Konsep Dasar Peluang, Peluang Bersyarat, Teorema Bayes.
+Aljabar Linier --> Matriks, Vektor, Nilai & Vector Elgen.
+Kalkulus --> Fungsi, Turunan, Optimasi.
+Jarak & Sudut antar Vektor, ada 2 Jarak : Jarak Euclidean dan Jarak Manhattan.
+Sudut antar vektor (Cosine Similarity).
+Nilai Eigen ==> Bilangan yang berasosiasi dengan panjang vektor yang berubah setelah ditransformasi oleh matriks.
+Turunan Kalkulus ==> Turunan sering digunakan untuk mencari nilai maksimum atau minimum.
+Titik maksimum/minimum ditemukan dengan menemukan x yang memenuhi f(x)=0.
+Nilai maksimum/minimum digunakan untuk memperkecil error atau memaksimalkan jarak 2 kelas yang berbeda.
+Ada 7 Langkah dalam ML : Gathering Data, Preparing Data, Choosing a Model, Training Model, Evaluation, Tuning Hyperparameter, dan Prediction.
+
+- Rabu, 9 Maret 2022
+ML Life Cycle, ada 7 : Tentukan Tujuan, Kumpulkan Data, Siapkna data, Pilih Algoritma, Latih Model, Tes Model dan Integrasikan Model.
+Metrics Evaluation, ada 4 yaitu : Regression, Classification, Unsupervised Models, dan Others.
+Review Concept, ada 3 yaitu : AI (Artificial Intelligent), Machine Learning, Deep Learning
+Ketika mempunyai data tak terstuktur yang sangat besar dan banyak.
+Neural Network dapat mengolah data yang tidak memiliki label.
+Bekerja sangat baik dengan data berbentuk speech, images dan video.
+
+- Kamis, 10 Maret 2022
+Cara menginstall Numpy karena saya sudah ada jadi tidak perlu mendownload ulang.
+Karena dalam file tersebut system akan otomatis terpanggil malalui executor terminal.
+Measures of Central Tendency --> metode yang umum digunakan untuk mengidentifikasi pusat kumpulan data. Digunakan untuk menggambarkan kumpulan data dengan mengidentifikasi posisi sentral dalam kumpulan data tersebut.
+ada 3 Measures of Central Tendency yaitu Mean, Median and Mode.
+COVARIANCE => Memberikan ukuran kekuatan korelasi antara dua atau lebih set variabel acak.
+CORRELATION => Ukuran tersebut tergantung pada dua variabel, perubahan dalam satu variabel mempengaruhi perubahan pada variabel kedua.
+
+- Jum'at, 11 Maret 2022
+Ada berbagai OOPs Terminology ==> Object, Instance, Method, Constructor Method, Class Variable, Instance Variable.

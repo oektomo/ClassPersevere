@@ -1,0 +1,119 @@
+Mon, 21 Mar
+
+Kegiatan pada hari ini
+1. Data Science Project Cycle
+2. Data
+3. Preprocessing
+4. Supervised dan Unsupervised
+5. Regression
+6. Model Regressi Sederhana dan contoh
+7. Linear Regression Contoh
+8. Moving Average
+9. Asembly (Bagging, Boosting, Stacking)
+10. Contoh Aplikasi Data Science
+11. AI domains : Recap
+12. NLP
+13. NLP = NLU + NLG
+14. Sejarah NLP
+15. QAS, Information Retrieval, Text Summarization, Machinw Translation, Text Classification, Speech Recognition
+16. Susunan kata dan artinya
+17. NLP Pipline, Akuisisi Data, Text Extraction dan Cleaning, Text Processing, Rekayasa Fitur, Pemodelan, Evaluasi Model
+18. Pre-test
+
+Tue, 22 Mar
+
+Kegiatan pembelajaran hari ini :
+1. Computer Vision
+2. Jenis tugas yang dilakukkan computer vision
+3. Componen
+4. Methods
+5. Mathematika in Computer Vision
+6. Computer Vision Application
+7. Reinforcement Learning Dalam Berbagai Bidang
+8. Cabang Machine Learning
+9. Karakteristik Reward dan Action
+10. RL secar formal
+11. Algoritma RL (Cont'd)
+12. Ilustrasi Reward Pada Pergerakan Agent RL (Cont'd)
+13. Environment (Lingkungan)
+14. Karakteristik dan RL
+15. Algoritma RL
+16. Implikasi Reward Pada Algoritme RL dan  Algoritme RL (Cont'd)
+17. Contoh Algoritme RL dan Algoritma RL (Cont'd)
+18. Kategori Implementasi Algoritma RL
+19. Element Pada RL
+20. Model Based RL vs Model Free RL
+21. Tipe - Tipe Environment RL
+22. Mengerjakan Pre-Test
+
+Wed, 23 Mar
+
+Kegiatan pembelajaran hari ini :
+1. Visualisasi data
+2. Bar chart, Line chart, Pie Chart, Histogram, Scatter plot
+3. Tableau
+4. Jenis, Fungsi dan kelebihan Tableau
+5. Mempraktekkan Tableau
+6. Feature Extraction
+7. Bag of word atau count vectorizer
+8. TF-IDF , notasinya dan contohnya
+9. N-Gram
+10. Feature Filtering dan contohnya
+11. Feature Selection dan contohnya
+12. Metode Filter dan contohnya 
+13. Wrapper Method
+14. Mengerjakan Tugas
+
+Thu, 24 Mar
+
+Kegiatan pembelajaran hari ini :
+1. Pengenalan, komponen dan mengolah citra / image processing
+2. Jenis representasi bit pada citra, ruang warna, RGB dan HSL, display citra
+3. Perbaikan Citra / Imgae Enhancement
+4. Operasi transformasi intensitas pada citra (Spatial) 
+5. Log transformations
+6. Power law (Gamma) Transformation
+7. Histogram Citra
+8. Distribusi Kumulatif
+9. Histogram Equalization
+10. Image Filtering
+11. Konvolusi
+12. Filter Kernel
+13. Membahas GIT dan GitHub
+14. SCM, Komponen SCM
+15. Mengerjakan Pre-Test
+16. Mengerjakan Tugas
+
+Fri, 25 Mar
+
+Kegiatan Pembelajaran Hari Ini :
+1. Markov Properti
+2. MDP
+3. Rewards 
+4. Probabilitas / transition
+5. Matrik Probabilitas Transisi
+6. Solusi MDP
+7. Evaluasi Sebuah Policy
+8. Return
+9. Diskon Y dan Fungsi Diskon Y
+10. Value
+11. Contoh kasus
+12. SQl
+13. DDL, DML
+14. Praktek
+15. Pre-Test dan Post-Test
+16. Mengerjakan Tugas
+
+What did you learn this week?
+
+Kegiatan pembelajaran pada.minggu ini
+- Senin
+Kegiatan pembelajaran hari ini : 1. Data Science Project Cycle 2. Data 3. Preprocessing 4. Supervised dan Unsupervised 5. Regression 6. Model Regressi Sederhana dan contoh 7. Linear Regression Contoh 8. Moving Average 9. Asembly (Bagging, Boosting, Stacking) 10. Contoh Aplikasi Data Science 11. AI domains : Recap 12. NLP 13. NLP = NLU + NLG 14. Sejarah NLP 15. QAS, Information Retrieval, Text Summarization, Machinw Translation, Text Classification, Speech Recognition 16. Susunan kata dan artinya 17. NLP Pipline, Akuisisi Data, Text Extraction dan Cleaning, Text Processing, Rekayasa Fitur, Pemodelan, Evaluasi Model 18. Mempraktekkan di Colab 19. Menjawab Pre-test
+- Selasa 
+Kegiatan pembelajaran hari ini : 1. Computer Vision 2. Jenis tugas yang dilakukkan computer vision 3. Componen 4. Methods 5. Mathematika in Computer Vision 6. Computer Vision Application 7. Reinforcement Learning Dalam Berbagai Bidang 8. Cabang Machine Learning 9. Karakteristik Reward dan Action 10. RL secar formal 11. Algoritma RL (Cont'd) 12. Ilustrasi Reward Pada Pergerakan Agent RL (Cont'd) 13. Environment (Lingkungan) 14. Karakteristik dan RL 15. Algoritma RL 16. Implikasi Reward Pada Algoritme RL dan Algoritme RL (Cont'd) 17. Contoh Algoritme RL dan Algoritma RL (Cont'd) 18. Kategori Implementasi Algoritma RL 19. Element Pada RL 20. Model Based RL vs Model Free RL 21. Tipe - Tipe Environment RL 22. Mengerjakan Pre-Test dan Post-Test 23. Mengerjakan Tugas
+- Rabu
+Kegiatan pembelajaran hari ini : 1. Visualisasi data 2. Bar chart, Line chart, Pie Chart, Histogram, Scatter plot 3. Tableau 4. Jenis, Fungsi dan kelebihan Tableau 5. Mempraktekkan Tableau 6. Feature Extraction 7. Bag of word atau count vectorizer 8. TF-IDF , notasinya dan contohnya 9. N-Gram 10. Feature Filtering dan contohnya 11. Feature Selection dan contohnya 12. Metode Filter dan contohnya 13. Wrapper Method 14. Mengerjakan Tugas
+- Kamis 
+Kegiatan pembelajaran hari ini : 1. Pengenalan, komponen dab mengolah citra / image processing 2. Jenis representasi bit pada citra, ruang warna, RGB dan HSL, display citra 3. Perbaikan Citra / Imgae Enhancement 4. Operasi transformasi intensitas pada citra (Spatial) 5. Log transformations 6. Power law (Gamma) Transformation 7. Histogram Citra 8. Distribusi Kumulatif 9. Histogram Equalization 10. Image Filtering 11. Konvolusi 12. Filter Kernel 13. Membahas GIT dan GitHub 14. SCM, Komponen SCM 15. Mengerjakan Pre-Test 16. Mengerjakan Tugas
+- Jumat
+Kegiatan Pembelajaran Hari Ini : 1. Markov Properti 2. MDP 3. Rewards 4. Probabilitas / transition 5. Matrik Probabilitas Transisi 6. Solusi MDP 7. Evaluasi Sebuah Policy 8. Return 9. Diskon Y dan Fungsi Diskon Y 10. Value 11. Contoh kasus 12. SQl 13. DDL, DML 14. Praktek 15. Pre-Test dan Post-Test 16. Mengerjakan Tugas

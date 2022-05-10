@@ -1,0 +1,234 @@
+Mon, 21 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali dan Sekarang Kelas akan disatukan menjadi global dari 5 kelas menjadi 1.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 1 Data Science
+- Section Introduction to Data Science
+- Data Science => Coding Skill, Domain Knowledge dan Math/Stats --> Machine Learning, Data Science, Software Development, Traditional Research
+- Data Science Introduction => Raw Data ==> Informasi : Sosial, Bisnis, Kesehatan, Kebijakan, dll.
+- Data Science Project Cycle => Problem Scoping -> Data Acquisition -> Data Exploration -> Modelling -> Evaluation -> Deployment
+- Data => Waktu Pengumpulan, Skala Pengukuran dan Teknik Pengumpulan.
+- Preprocessing => Data Cleaning, Data Transformation, Data Reduction.
+- Supervised dan Unsupervised
+- Regression => Representasi hubungan dari suatu variable/fitur/case yang mempengaruhi variable/fitur/case yang lain.
+- Decision Tree => Merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorial (Classification Tree) dan Continuous (Regression Tree)
+- Ensemble Technique => Bagging, Boosting dan Stacking.
+
+Sesi II :
+- AI Domains: Recap
+- Apa itu NLP? => Kecerdasan Buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami.
+- Sejarah NLP - Era Klasik
+- Sejarah NLP - Era Deep Learning
+- Question Answering System (QAS) => Kemampuan komputer untuk menjawab pertanyaan yang diberikan oleh pengguna.
+- Information Retrieval => Kemampuan komputer mencari konten yang relevan berdasarkan query (kata kunci) yang diberikan pengguna.
+- Text Summarization => Kemampuan komputer untuk meringkas konten dengan mencari informasi paling penting atau relevan alam konten asli.
+- Machine Translation => Kemampuan komputer untuk menerjemahkan konten dari satu bahasa ke bahasa lain secara otomatis.
+- Text Classification => Kemampuan komputer untuk mengkategorikan konten ke satu atau lebih ketegori secara otomatis.
+- Speech Recognition => Kemampuan komputer untuk mengenali dan menerjemahkan bahasa lisan ke dalam teks secara otomatis.
+- NLP Pipeline
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Di Akhir modul Kita akan dapat :
+Memahami tentang data science
+Mengerti data yang terdapat pada data science
+Mengerti manfaat data science
+Memahami model/algoritme pada data science
+- Pilar Kemampuan data science :
+Memiliki kemampuan coding data suatu bahasa pemograman
+Memiliki kemampuan analisa statistik/matematika
+Memahami case yang sedang diamati
+- NLP (Natural Language Processing)  = NLU (Natural Language Understanding) + NLG (Natural Language Generation)
+
+Tue, 22 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali dan tetap semangat.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 4 Computer Vision
+- Section Introduce of Computer Vision
+- Apa itu Computer Vision => bidang A.I yang digunakan untuk memproses , menganalisa, dan memahami citra (images).
+- Computer Vision mempunyai beberapa asset yaitu, Control Robotics, Signal Processing, Physics, Imaging, Neurobiology, Mathematics, Machine Learning, dan Artificial Intelligence.
+- Computer Vision vs Human Vision
+- Mathematics in CV biasa digunakan melalui Kalkulus, Aljabar Linear, Probabilitas dan Statistik, Sinyal Processing, Projektif Geometri,  Komputasional Geometri, Teori Optimasisasi, dan Teori Kendali.
+
+Sesi II :
+- Reinforcement Learning dalam Berbagai Bidang => Reinforcement Learning, Engineering, Computer Science, Neurocience, dan Mathematics.
+- Cabang Machine Learning => Supervised Learning, Unsupervised Learning, dan Reinforcement Learning.
+- RL Secara Formal => Reward, State, dan Action
+- Environment (Lingkungan)
+- Karakteristik dari RL
+- Algoritma RL (cont'd)
+- Reinforcement Learning for AI in Games
+- Reinforcement Learning for Robotics
+- Reinforcement Learning for Optimization
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Computer Vision terdiri dari 3 Cara yaitu, Computer Vision, Machine Vision, dan Image Processing.
+Control Robotics => mempunyai bidangnya yaitu Robotics Vision
+Signal Processing => memegang proses yaitu Non-linear SP dan Multi-variable SP
+Physics => mempunyai sifat optic
+Imaging => memiliki fitur Smart Cameras
+Neurobiology => menggunakan Biological Vision
+Mathematics => terdiri dari Statistics, Geometry, dan Optimization
+Machine Learning => digunakan supaya Cognitive Vision menyala
+Artificial Intelligence => Terdapat komunikasi antar Computer Intelligence
+- RL Secara Formal dapat dialuri dengan Agent dan Environment
+- Tipe-Tipe Environtment RL
+Deterministic Environment vs Stochastic Environment 
+Fully Observable vs Partially Observable Environment
+- Tipe-Tipe Environtment RL (Next...)
+Episodic and Non-episodic Environment
+Single dan Multi-agent Environment
+
+Wed, 23 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Data Science Visualization with Tableau
+- What is Data Visualization? => Representasi grafis dan infromasi dan data.
+- Why Data Visualization is Important? => Dapat menggali data, Mencari insight dari data, dan Menginterpretasikan insight data.
+- What Chart do you know? => Bar Chart, Line Chart, Pie Chart, Histogram Chart dan Masih banyak lagi.
+
+Sesi II :
+- Module 10 Natural Language Processing (NLP)
+- Section 2 Text Representation
+- Feature Extraction => Proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning.
+- Ada dua Jenis contoh dari Feature Extraction yang bisa kita gunakan, yaitu BoW dan TF-IDF.
+- N-gram => Rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut.
+- Feature Filtering => Proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti html tag, url dan tanda baca.
+- Feature Selection => Proses memilih kata-kata/fitur yang penting untuk dilakukan pada proses machine learning.
+- Word Cloud => Gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir modul kita akan dapat :
+Memahami proses feature extraction menggunakan BoW/Count Vectorizer dan TF-IDF
+Mengetahui jenis-jenis N-gram dan penggunaanya
+Mampu menggunakan feature filtering
+Mengetahui jenis-jenis feature selection
+Mampu menggunakan dan memanfaatkan word cloud
+
+Thu, 24 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 4 Computer Vision
+- Section Image Processing
+- Pengolahan Citra/Image Processing => metode untuk melakukan beberapa operasi pada citra.
+- Apa itu Citra (image)? => Merupakan fungsi dari intensitas cahaya yang dipresentasikan oleh sekumpulan piksel (Picture Element).
+- Jenis-Jenis representasi bit pada citra : Binary Image, 8 Bit dan 16 Bit Color Format.
+
+Sesi II :
+- Source Code Management Git & Github
+- Sejarah Git
+- Perbedaan Git & Github, Installasi Git & Github, dan Membuat Repository pada Github
+- Sorce Code Management (SCM) Concept
+- SCM Component
+- SCM Operations
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objective
+Memahami prinsip kerja dari pengolahan citra
+Memahami komponen penyusun citra
+Memahami cara kerja Image Enchancement
+Memahami cara kerja Image Filtering
+Memahami cara kerja Edge Detection
+- Step-Step pada Histogram Equalization
+Hitung histogram dari citra
+Hitung hasil normalisasi dari histogram
+Terapkan histogram normalisasi ke citra
+
+Fri, 25 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Modul Domain AI Reinforcement Learning Belajar dengan Penguatan
+- Bagian Markov Decision Process (MDP) dan Dynamic Programming
+- Markov Property
+- Apa itu MDP(Markov Decision Processes)? => Mendeskripsikan secara formal lingkungan untuk RL.
+- Rewards
+- Solusi untuk MDP?
+- Evaluasi Policy itu adlah (MDP, Romawi) -> Vromawi.
+- Value Iteration itu adlah MDP => Vopt, Romawiopt.
+
+Sesi II :
+- Data Science
+- SQL Basis Data
+- SQL (Structure Query Language) => Bahasa pemograman aras tinggi yang menjadi standar untuk pengolahan data pada DBMS (Database Management System).
+- DML dan DDL
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Mini Workshop: Implementation of Artificial Intelligence in Spatial Data
+- Contoh Kasus: DDL
+- Select dengan Kriteria => Operator Perbandingan, Operator Boolean, Operator LIKE, Operator IN and NOT IN, Operator BETWEEN, dan Operator IS NULL.
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang, santai dan sedikit rumit.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 5 Kali ini banyak sekali permasalahan yaitu cara menghitung rumus dari materi yang diajarkan, dan cara memenuhi syarat untuk membangun sebuah implementasi antar kelompok.
+
+- Senin, 21 Maret 2022
+Memahami tentang data science
+Mengerti data yang terdapat pada data science
+Mengerti manfaat data science
+Memahami model/algoritme pada data science
+Memiliki kemampuan coding data suatu bahasa pemograman
+Memiliki kemampuan analisa statistik/matematika
+Memahami case yang sedang diamati
+
+- Selasa, 22 Maret 2022
+Control Robotics => mempunyai bidangnya yaitu Robotics Vision
+Signal Processing => memegang proses yaitu Non-linear SP dan Multi-variable SP
+Physics => mempunyai sifat optic
+Imaging => memiliki fitur Smart Cameras
+Neurobiology => menggunakan Biological Vision
+Mathematics => terdiri dari Statistics, Geometry, dan Optimization
+Machine Learning => digunakan supaya Cognitive Vision menyala
+Artificial Intelligence => Terdapat komunikasi antar Computer Intelligence
+RL Secara Formal dapat dialuri dengan Agent dan Environment
+
+- Rabu, 23 Maret 2022
+Memahami proses feature extraction menggunakan BoW/Count Vectorizer dan TF-IDF
+Mengetahui jenis-jenis N-gram dan penggunaanya
+Mampu menggunakan feature filtering
+Mengetahui jenis-jenis feature selection
+Mampu menggunakan dan memanfaatkan word cloud
+
+- Kamis, 24 Maret 2022
+Memahami prinsip kerja dari pengolahan citra
+Memahami komponen penyusun citra
+Memahami cara kerja Image Enchancement
+Memahami cara kerja Image Filtering
+Memahami cara kerja Edge Detection
+Hitung histogram dari citra
+Hitung hasil normalisasi dari histogram
+Terapkan histogram normalisasi ke citra
+
+- Jum'at, 25 Maret 2022
+Mini Workshop: Implementation of Artificial Intelligence in Spatial Data
+Contoh Kasus: DDL
+Select dengan Kriteria => Operator Perbandingan, Operator Boolean, Operator LIKE, Operator IN and NOT IN, Operator BETWEEN, dan Operator IS NULL.
+
+
+

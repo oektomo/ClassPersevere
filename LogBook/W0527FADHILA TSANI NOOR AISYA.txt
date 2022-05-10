@@ -1,0 +1,712 @@
+Mon, 21 Mar
+
+   Kegiatanku di minggu ini dimulai hari ini berbeda dengan minggu-minggu sebelumnya. Kegiatannya yaitu belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di hari ini pada sesi pertama ini diberikan materi tentang Introduction to Data science. 
+   Data science merupakan proses memahami atau memperoleh informasi dari suatu data mentah yang selanjutnya dapat digunakan untuk prediksi atau menentukan kategori.
+   Data science : irisan 3 pengetahuan, yaitu coding skill, math/stats, domain knowladge. 
+Raw Data -> informasi : sosial, bisnis, kesehatan, kebijakan, dll.
+Manfaat data science : 
+- Klasifikasi
+- Mendapatkan nilai prediksi
+- Mengambil keputusan
+- Analisis secara kualitatif
+- Mendapatkan informasi
+Data Science Project Cycle : 
+Problem Scoping -> Data Acquisition -> Data exploration -> Modelling -> Evaluation -> Deployment
+Model atau algoritme pada data science diantaranya : regresi, moving average, dan ensemble technique.
+Mathematics for Data Science :
+- Statistik dan Teori probabilitas
+- Teori optimisasi
+- Aljabar linier
+- Kalkulus
+Tipe Data
+Data :
+1.) waktu pengumpulan :
+- Cross section
+- Time series
+2.) Skala pengukuran
+- nominal
+- Ordinal
+- Interval 
+- Rasio
+3.) Teknik pengumpulan :
+- primer 
+- Sekunder
+Prepocessing : 
+- Data cleaning : proses menghilangkan atau memperbaiki data yang tidak sesuai dengan Dataset 
+- Data transformation : proses mengubah data dari suatu format menjadi format lainnya
+- Data reduction : proses mengurangi jumlah data untuk efisien storage
+Supervised : 
+- Klasifikasi 
+- Regresi
+Contoh metode : Decision Tree, Naive bayes Classifier, SVM, KNN, Neural Network, Logistic Regression, Linear Regression, dll. 
+Unsupervised : 
+- Clustering
+Contoh metode : K-Means Clustering, DBSCAN
+Regression : representasi hubungan dari suatu variabel yang mempengaruhi variabel yang lain.
+Model Regresi Sederhana :
+y = b0 + b1 x
+Contoh pemodelan regresi sederhana : 
+- Step 1 : mencari nilai b1
+- Step 2 :  mencari nilai b0
+- Step 3 : mencari y (pemodelan) 
+- Step 4 : melakukan prediksi
+Moving Average : metode untuk melakukan data time series, ingin melihat tren suatu data terhadap waktu
+Contoh data time series : fluktuasi nilai harga saham, penambahan jumlah pasien covid 19. 
+Moving Average : 
+- Simple Moving Average
+- Cumulative Moving Average 
+- Exponential Moving Average 
+Decision Tree (Breiman, 1984) 
+   Decision Tree merupakan algoritma Supervised Learning yang bekerja untuk data input dan output bersifat Categorical (Classification Tree) dan Continuous (Regression Tree). 
+- Berupa representasi grafis yang memudahkan dalam melakukan interpretasi  dan membantu dalam membuat keputusan (Decision making)
+- Tampak seperti Flow chart memiliki struktur if-else condition
+- Pohon yang terbalik : Root Node( dari atas) -> internal node -> leaf node (paling bawah)
+Splitiing Criteria : 
+- Information Gain
+- Index Gini
+Ensemble Technique : Kumpulan single methods
+Kriteria keputusan : 
+- Majority Voting (Classification)
+- Average of Prediction (Regression)
+Ensemble methods : bagging, boosting, stacking
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang NLP (Natural Language Processing). 
+AI Domains : Recap 
+- Data Science : Tabular,sensor, numerik
+- Computer Vision : Image, video 
+- Natural Language Processing : Email, dokumen, Speech 
+   NLP adalah cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami.
+NLP san Linguistik : computational linguistik
+NLP = NLU (Natural Language Understanding) + NLG (Natural Language Generation)
+- NLP : kemampuan komputer memahami bahasa manusia dalan bentuk tertulis (teks) dan verbal (ucapan)
+- NLU : kemampuan membaca
+- NLG : kemampuan menulis
+Sejarah NLP : 
+- era klasik
+1949 : weaver’s memorandum
+1960 : Grammar theories
+1970 : Conceptual ontologies
+1980 : symbolic model
+1990 : Statistical models
+- era Deep Learning 
+2003 : neural Language models
+2008 : multi tadi Learning
+2013 : word embeddings
+2013 : NLP Neural Nets
+2014 : seq to seq Learning 
+2015 : attention
+2018 : pretrained Models 
+   NLP adalah kekuatan pendorong dibalik aplikasi yang digunakan. Contoh : translate, chatbot, siri, cortana, dll
+Area Aplikasi NLP : 
+- Question Answering System (QAS) : menjawab pertanyaan yang diberikan pengguna 
+- Information Retrieval : mencari konten yang relevan berdasarkan kata kunci 
+- Text Summarization : meringkas konten dengan mencari informasi penting atau relevan 
+- Machine translation : menerjemahkan konten dari satu bahasa ke bahasa lain
+- Text Classification : mengkategorikan konten ke satu atau lebih kategori
+- Speech recognition : mengenali / menerjemahkan bahasa lisan ke dalam teks
+Susunan kata dan artinya : 
+- semantik : kajian yang mencakup arti dan makna sesungguhnya dalam satun kalimat
+- sintaksis : kajian yang mencakup seluk-beluk tata bahasa dalam kalimat 
+NLP Pipeline : Langkah-langkah untuk membangun sistem berbasis NLP. 
+Terdiri dari : 
+1.) Akuisisi Data : Public Dataset, Web Scraping, Product Intervention, Data Augmentation
+2.) Text Extraction & Cleaning : mengekstrak data mentah dengan menghapus informasi non-tekstual
+3.) Text PreProcessing : menyeleksi teks agar lebih terstruktur
+- lower case & remove whitespaces
+- Reguler expression (ReGex)
+- Remove URLs & email
+- Remove emoji & emoticon
+- Slang word normalization
+- Stemming & Lemmatization
+- Stemming Indonesian
+- Tokenization
+- Stop words removal
+4.) Rekayasa Fitur
+ML vs DL
+5.) Pemodelan
+6.) Evaluasi Model : Accuracy, Precision, Recall, dll
+7.) Deployment
+8.) Monitoring dan Model updating
+Tantang NLP : Sarkasme, Kesalahan kata (typo), Ambiguitas kata, Bahasa gaul, dan ketersediaan bahasa. 
+Masa depan NLP : Pengenalan emosi, Bahasa berkembang secara dinamis, dan kebutuhan pemahaman bahasa terus dibutuhkan pada semua bidang kehidupan manusia.
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. 
+
+Tue, 22 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di hari ini pada sesi pertama ini diberikan materi tentang Introduction to Computer Vision. 
+   Computer Vision adalah bidang AI yang digunakan untuk memproses, menganalisa, dan memahami citra. Duplikat / tiruan dari human Vision (penglihatan manusia). Data citra dari banyak sumber seperti video,dll. 
+Computer Vision work : input -> sensing device -> interpreting device -> output
+Components of Computer Vision : Computer (scene interpretation), camera, lighting, scene. 
+Jenis tugas yang dilakukan Computer Vision : Classification, Classification + Localization, Object detection, Instance Segmentation. 
+A little story about Computer Vision : 
+1966: Marvin Minsky menetapkan visi komputer sebagai proyek musim panas sarjana
+1960-an: Intersepsi dunia sintetis
+1970-an : Beberapa kemajuan dalam menafsirkan gambar yang dipilih.
+1980'sb: JST / ANN datang dan pergi;
+1990-an: pengenalan wajah, analisis statistik dalam mode
+2000-an: pengenalan perbatasan, awal pemrosesan video, visi internet
+2010- sekarang : Era Deep Learning
+Computer Vision application : banking, automative, sports, healthcare, manufacturing, agriculture, insurance, surveillance. 
+   Kemudian dilanjutkan pada sesi kedua dengan coach yang kedua diberikan materi tentang Reinforcement Learning. 
+RL dalam berbagai bidang :
+- engineering
+- Computer science
+- Mathematics
+- Neuroscience
+- Economics
+- Psychology
+Cabang ML : SL, UL, dan RL
+Stanfors Marshmallow Test (tahun 1972)
+Karakteristik Reward dan Action :
+- Reward : Reward dilihat sebagai umpan balik terhadap Agent, karena Reward mengalami penundaan maka umpan balik menjadi tertunda. 
+- Action : semua tindakan yang mungkin telah diketahui.
+RL secara formal : 
+- Reward (Rt)
+- State (St)
+- Action (At)
+Trial & Error Systems 1, 2, 3:
+- Ainslie & HerrnStein 1974
+Environment (Lingkungan) : 
+- Aturan Reward dalam lingkungan kadang dideskripsikan dengan jelas
+- Ada env yang perlu dipelajari karena tidak ada aturan yang jelas (Trial dan Error / Eksplorasi)
+- Improvisasi masih terjadi meski sudah ada aturan
+Karakteristik RL :
+- Tidak ada kebenaran pada proses pembelajaran / training yang ada hanya hadiah atau hukuman
+- Data yang diperoleh (state dan reward) tergantung Action yang di berikan agent
+- Variabel waktu dan urutan state yang dipilih agent melalui Action memiliki pengaruh yang penting
+Tipe-tipe Environment RL :
+- Deterministic Environment vs Stochastic Environment
+Deterministik : hasilnya dapat diketahui berdasarkan state saat ini
+Stochastic : hasilnya tidak dapat diketahui berdasarkan state saat ini
+- Fully observable vs Partially Observable Environment 
+Fully observable : ketika agent dapat menentukan state dari sistem setiap saat, dengan state dari sistem dapat diamati seluruhnya
+Partially observable : ketika agent tidak dapat menentukan state sistem setiap saat. 
+- Discrete Environment vs Continuous Environment
+Discrete : ketika state untuk berpindah dari state ke state lainnya terbatas
+Continuous : ketika state untuk berpindah dari state ke state lainnya tidak terbatas
+- Episodic and non-episodic Environment 
+Episodic ( lingkungan non-sekuensial) : tindakan agent saat ini tidak akan mempengaruhi tindakan di masa depan
+Non-Episodic (sequential) : tindakan agent saat ini mempengaruhi tindakan di masa depan
+- single dan multi-agent Environment 
+Single : hanya memiliki agent tunggal 
+Multi-agent : memiliki lebih dari 1 agent atau lebih
+RL for AI in Games : 
+- Atari Games 
+- OpenAI Five : Dota
+RL for robotics: 
+Contoh : lintasan bangunan untuk robot humanoid menggunakan RL, Mobil mengemudi sendiri dengan menggunakan RL. 
+RL for Optimization : 
+- Monte Carlo Prediction for solving Traveling salesman problem
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain RL, kita diberikan tugas kelompok dan mencari kelompok sendiri dengan 1 kelompok berisi mahasiswa dari kelas yang berbeda-beda. 
+
+Wed, 23 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di hari ini pada sesi pertama ini diberikan materi tentang Data science - Visualization with Tableau. 
+   Visualisasi data adalah representasi grafis dari informasi dan data. Dengan menggunakan elemen visual, seperti bagan, grafik, dan peta, alat visualisasi data dapat digunakan untuk melihat dan memahami tren, outlier, dan pola dalam data. 
+Tugas Data scientist : menggali data, mencari insight data, dan menginterpretasikan insight data. 
+- Bar chart : grafik yang menyajikan data kategorikal dalam bentuk batang dengan panjang batang yang mewakili nilainya. 
+- Line chart : visualisasi data untuk melihatkan perubahan kondisi dari waktu ke waktu. 
+- pie chart : visualisasi data untuk menunjukkan komposisi dari sebuah data. Bagian di dalam pie chart menunjukkan proporsi dari bagian data terhadap keseluruhan data. 
+- Histogram chart : grafik untuk menampilkan distribusi data. Digunakan untuk melihat estimasi distribusi probabilitas dari variable yang kontinu. 
+- Scatterplot : grafik untuk melihat suatu pola hubungan antara 2 variable numerik. 
+   Tableau : platform untuk mempresentasikan data dalam bentuk analitik visual melalui chart dan Dashboard untuk memecahkan masalah. 
+Jenis Tableau : 
+- Tableau Desktop : semua sumber data bisa digunakan, tidak ada yang bisa melihat laporan kita, jumlah data tidak terbatas, biaya personal ($999) & profesional ($1999), digunakan untuk data scientist & Business Intelligence 
+- Tableau Public : sumber data terbatas seperti excel dan Text file, laporan otomatis menjadi akses public ketika di publish/ simpan, 1 juta barus data dapat di proses dan dibagikan, biaya gratis, digunakan untuk junior data analyst & junior Business Intelligence
+- Tableau Reader : tidak membutuhkan untuk terhubung dengan sumber data, tidak ada yang bisa melihat laporan kita, data tidak terbatas namun hanya dapat dilihat pada tampilan statis seperti excel, biaya gratis, digunakan untuk profesional untuk membaca sebuah data
+4 Fungsi Utama Tableau : 
+- menerjemahkan data menjadi bentuk visual
+- Mengelola memadat
+- Mengimpor berbagai ukuran dan range data
+- Membuat visualisasi data tanpa coding
+Kelebihan Tableau : tools big data for data science, pilihan visual yang interaktif, user friendly, dapat mengelola banyak sumber data, Dashboard Mobile friendly, banyak digunakan perusahaan menengah ke atas. 
+   Kemudian di akhir sesi pertama, setelah pemberian materi kita diberi tugas kelompok untuk membuat visualisasi data dengan tableau. Lalu dilanjutkan pada sesi kedua dengan coach kedua yang diberikan materi tentang NLP - Text Representation. 
+   Feature Extraction (Pembobotan Kata) adalah proses mengubah kata menjadi bentuk vektor agar dapat diproses oleh algoritma ML. Ada 2 pembobotan kata yaitu : 
+1. Bag or Word (BoW) / Count Vectorizer
+BoW merupakan model yang mempelajari kosa kata dari seluruh dokumen kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata muncul. 
+2. Term Frequency-Inverse Documet Frequency (TF-IDF)
+TF-IDF merupakan ukuran penilaian yang digunakan dalam pencarian informasi dan peringkasan teks. 
+Notasi TF-IDF :
+TF (t,d) = F t,d / £ t,d
+IDF (t) = log |D| / df(t) + 1
+W (t,d) = TF (t,d) IDF (t) 
+   N-Gram adalah rangkaian kata atau token yang berkesinambungan dalam dokumen digunakan untuk proses pada ML yang dijadikan fitur/atribut. 
+Jenis N-Gram : Unigram, Bigram, Trigram, Gram.
+   Feature Filtering adalah Proses untuk menghapus kata-kata atau simbol yang tidak penting, sepeti : HTML tag, URL, tanda baca, dll. 
+1.) Menghapus String seperti username, tanda baca, karakter,dll
+2.) Stop word removal : proses menghapus kata yang tidak penting atau sering muncul pada sebuah kalimat 
+Stop word : kamus kata yang berisi kata-kata tidak penting. 
+   Feature Selection adalah proses memilih kata-kata/fitur yang penting diikutkan pada proses ML. 
+3 Pendekatan untuk proses seleksi fitur :
+1. Metode Fitur
+   Metode filter memberi skor untuk setiap fitur , lalu fitur dengan skor tinggi dipilih dan diberi peringkat. Beberapa metode filter yang diusulkan oleh peneliti : Chi-square, Information Gain, Query Expensive Ranking, etc. 
+2. Metode Wrapper
+   Metode wrapper adalah metode memilih fitur penting menggunakan algoritma optimasi denga algoritma ML. Beberapa metode wrapper yang diusulkan peneliti : Genetic Algorithm, PSO, Iterated Greedy Metaheurestic, etc.
+3. Metode Hybrid
+   Metode hybrid adalah kombinasi dari metode filter dan wrapper. Metode yang diusulkan peneliti : IG-based PSO, Relief with MVO. 
+   Dari 3 metode pendekatan yang terdapat di proses Feature Selection ini memiliki kelebihan dan kekurangannya masing-masing. 
+   Word Cloud adalah gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks. Penggunaan nya untuk visualisasi kata yang paling sering digunakan/ diperbincangkan pada suatu topik tertentu. Word Cloud tools : Matplotlib.
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri dan mempraktekan dan mencoba kode program sendiri. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Thu, 24 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Computer Vision - Image processing. 
+   Pengolahan Citra adalah metode untuk melakukan beberapa operasi pada citra. Tujuannya untuk mendapatkan citra yang disempurnakan atau mengekstrak informasi yang berguna pada citra. Citra ditangkap oleh sensor kamera. 
+Komponen pada pengolahan citra : 
+   Citra merupakan fungsi dari intensitas cahaya yang direpresentasikan oleh sekumpulan piksel. 
+Image processing -> Image Analysis -> Vision 
+3 tahapan : Low- level process, Mid-level process, High-level process
+Jenis representasi bit pada citra : Binary Image, 8 bit cocor format, 16 bit color format. 
+Ruang Warna RGB (Red Green Blue) didasarkan pada hasil akuisisi frekuensi warna oleh sensor elektronik. 
+Komponen pada pengolahan citra : 
+- Kecerahan / Brightness
+- Kontras
+Perbaikan Citra : 
+1.) Operasi Transformasi Intensitas pada citra digunakan untuk memanipulasi kontras citra. Transformasi citra yang umum digunakan : 
+- Image Negatives (linear)
+- Log Transformation : mengganti semua nilai piksel dalam gambar dengan nilai algoritmanya dan digunakan untuk peningkatan gambar
+- Power law (Gamma) transformation : untuk menampilkan citra secara akurat di komputer dan mengontrol kecerahan gambar
+- Contrast Streching
+2.) Histogram citra adalah diagram yang menggambarkan distribusi frekuensi nilai intensitas piksel dalam citra.
+3.) Citra gelap : citra yang memiliki banyak piksel dengan nilai intensitas mendekati 0. 
+4.) Citra terang : citra yang memiliki banyak piksel dengan nilai intensitas mendekati 255. 
+5.) Hidtogram Equalization : Proses meratakan histogram agar derajat keabuan merata antar 0-255 dengan keluaran citra tidak dominan gelap/terang 
+Step-step pada histogram equalization : 
+1. Hitung distribusi kumulatif dari citra
+2. Hitung hasil normalisasi dari histogram
+3. Terapkan histogram normalisasi ke citra
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Source Code Management - Git & GitHub. 
+   Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber selama pengembangan perangkat lunak. Dirancang untuk mengkoordinasikan
+pekerjaan di antara programmer. Sasarannya mencakup kecepatan, integritas data, dan dukungan untuk alur kerja non-linier terdistribusi.
+   GitHub adalah layanan hosting repositori Git berbasis web, yang menawarkan semua fungsi kontrol revisi terdistribusi dan manajemen kode sumber (SCM) Git serta menambahkan fitur-fiturnya sendiri. Github adalah platform untuk membuat repository remote sehingga antar developer bisa berkolaborasi satu sama lain. 
+   Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang. Diciptakan
+oleh Linus Torvalds, yang awalnya ditujukan untuk pengembangan kernel Linux.
+   Git dan Github memiliki banyak perbedaan, contohnya seperti : Git adalah software, sedangkan GitHub adalah layanan. 
+Langkah membuat GitHub repository :
+- Membuat remote repository dan mengclone menjadi local repository. 
+Langkah membuat remote GitHub Repository : 
+1. Login ke GitHub dan Sign in kemudian akan melihat Dashboard GitHub
+2. Klik tulisan Create a repository
+3. Mengisi repository name dan deskripsi
+Konsep SCM : 
+Atomic commit berarti melakukan commit pada perubahan sekecil atom.
+Versioning Control Source Code : 
+Version Control adalah sebuah tools untuk merekam jejak perubahan. 
+   Branch : Cabang. Branch inilah yang menjadi komponen utama dalam code versioning atau Source Code Management.
+   Merge adalah aktivitas untuk menggabungkan semua perubahan pada satu branch ke branch lainnya.
+   Stash adalah aksi untuk menyimpan semua perubahan yang masih berada di unstaged area. Stash jauh berbeda dengan apa yang dilakukan Commit atau Push. Commit adalah aksi untuk menyimpan perubahan yang kamu yakini perubahan itu sudah benar, dan kamu berkomitmen perubahan itulah yang kamu pilih untuk masuk ke dalam Commit history. Sedangkan Stash, menyimpan perubahan yang kamu rasa belum benar, belum cukup bagus untuk di-Commit, dan perubahan itu hanya akan disimpan di local komputer kamu. 
+   Collaborators adalah sebuah feature pada penyedia cloud repository sehingga pemilik repository dapat memberikan hak akses kepada temannya untuk berkolaborasi pada repository tersebut.
+Komponen SCM terbagi menjadi 3 komponen utama :
+● Remote Environment
+Remote environment berada di cloud storage. Remote environment hanya memiliki satu komponen, yaitu remote repository. 
+● Local Environment
+Local environment berada di komputer yang kamu gunakan.
+● Developer
+Developer dikategorikan juga menjadi SCM component sebagai SCM user. 
+SCM Operations : 
+   Operasi SCM adalah aktivitas yang dilakukan oleh Developer dalam mengelola source code. Operasi SCM terbagi menjadi remote activities dan local activities. Commit, checkout, stash, branching, merge merupakan contoh dari aktivitas lokal. Push, pull, fetch dan clone merupakan contoh aktivitas remote.
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain technical, kita diberikan tugas membuat repository github. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+Fri, 25 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Markov Decision Process (MDP) dan Dynamic Programming. 
+   Markov Decision Process merupakan proses Tuple (state, action, transition probability, reward function, dan discount factor). MDP mendeskripsikan secara formal lingkungan RL. 
+RL problem dapat diformalisasikan menggunakan MDP : 
+- Optimal Control 
+- Partially Observable problems
+- Bandits problem
+Aplikasi RL dalam dunia nyata : 
+- Robotik : memutuskan bergerak kemana
+- Alokasi sumber daya : memutuskan apa yang diproduksi
+- Pertanian : memutuskan apa yang ditanam
+Contoh : MDP untuk permainan dadu bisa memilih keluar atau main
+- States: himpunan dari states
+- 𝑆𝑠𝑡𝑎𝑟𝑡 ∈ 𝑆𝑡𝑎𝑡𝑒𝑠 : state awal
+- Actions(s): actions yang tersedia dari state s
+- 𝑃 (𝑠, 𝑎, 𝑠′) : probabilitas ke s’ jika mengambil action a dari state s
+- Reward (s, a, s’) : idem dengan diatas
+- isEnd(s) : apakah state terakhir
+- 0 ≤ 𝛾 ≤ 1 faktor diskon
+Probabilitas atau Transistion
+   Transition Probabilitas 𝑃 (𝑠, 𝑎, 𝑠′) menentukan kemungkinan dari state yang didatangi dalam s’ jika melakukan action a dari state s. Probabilitas memiliki jumlah 1. 
+   Policy adalah fungsi 𝜋 yang memetakan untuk setiap state 𝑠 ∈ 𝑆𝑡𝑎𝑡𝑒𝑠 ke action 𝑎 ∈ 𝐴𝑐𝑡𝑖𝑜𝑛𝑠(𝑠). 
+   Return (utility) dari sebuah policy adalah Jumlah dari reward selama mengikuti jalur (nilai yang acak). Return adalah 𝐺𝑡 total reward yang di-diskon dari setiap waktu t.
+Diskon y : return. 
+Evaluasi sebuah policy : value dari policy
+Value adalah harapan dari return (Expected return). 
+Value dari policy adalah harapan dari return (Expected return) ketika mengikuti suatu policy. 
+Kesimpulan algoritma : 
+- Evaluasi policy adalah (MDP , 𝜋) -> V 𝜋
+- Value iteration adalah MDP -> Vopt, 𝜋opt. Jenis value iteration : dynamic programming. 
+   Kemudian dilanjutkan pada sesi kedua  dengan coach yang kedua diberikan materi tentang Database - SQL. 
+   Structured Query Language adalah bahasa pemrograman untuk pengolahan data berbasis relasional atau dapat digunakan pada Relational Database Management System (RDBMS). Bahasa SQL untuk mengolah data terstruktur. 
+Contoh database relasional : MySQL, MairaDB, dll. 
+Terdapat 2 kelompok penggunaan perintah SQL : 
+- Data Definition Language (DDL) : perintah SQL untuk membuat dan memodifikasi objek database. Contoh : create, alter, drop, dan truncate. 
+- Data Manipulation Language (DML) : perintah SQL untuk menambah, menghapus, dan memodifikasi data dalam database. Contoh : select, insert, update, dan delete. 
+Membuat / membuka file database : 
+- Format perintah : sqlite>.open’<nama file database>’
+Melihat daftar tabel : 
+- Format perintah : sqlite>.table
+   Filtering dan Subsetting data pada suatu tabel dilakukan menggunakan SELECT dan WHERE beserta Operator. 
+Operator : 
+- Operator perbandingan / operator relasional. 
+- Operator Boolean 
+- Operator Like
+- Operator IN dan NOT IN 
+- Operator Between
+- Operator IS NULL dan IS NOT NULL
+Sorting dan Grouping : 
+- Mengurutkan data Oda tabel atau sorting dilakukan menggunakan ORDER BY.
+- Pengelompokkan data atau grouping dilakukan menggunakan GROUP BY.
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain technical, kita diberikan tugas sql. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+What did you learn this week?
+
+   Kegiatanku di minggu kelima ini berbeda dengan minggu-minggu sebelumnya.
+   Pada hari Senin, 21 Maret 2022 di hari pertama dan di minggu kelima, kegiatannya yaitu belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di sesi pertama ini diberikan materi tentang Introduction to Data science. 
+   Data science merupakan proses memahami atau memperoleh informasi dari suatu data mentah yang selanjutnya dapat digunakan untuk prediksi atau menentukan kategori.
+   Data science : irisan 3 pengetahuan, yaitu coding skill, math/stats, domain knowladge. 
+Raw Data -> informasi : sosial, bisnis, kesehatan, kebijakan, dll.
+Manfaat data science : 
+- Klasifikasi
+- Mendapatkan nilai prediksi
+- Mengambil keputusan
+- Analisis secara kualitatif
+- Mendapatkan informasi
+Data Science Project Cycle : 
+Problem Scoping -> Data Acquisition -> Data exploration -> Modelling -> Evaluation -> Deployment
+Model atau algoritme pada data science diantaranya : regresi, moving average, dan ensemble technique.
+Mathematics for Data Science :
+- Statistik dan Teori probabilitas
+- Teori optimisasi
+- Aljabar linier
+- Kalkulus
+Tipe Data
+Data :
+1.) waktu pengumpulan :
+- Cross section
+- Time series
+2.) Skala pengukuran
+- nominal
+- Ordinal
+- Interval 
+- Rasio
+3.) Teknik pengumpulan :
+- primer 
+- Sekunder
+Prepocessing : 
+- Data cleaning : proses menghilangkan atau memperbaiki data yang tidak sesuai dengan Dataset 
+- Data transformation : proses mengubah data dari suatu format menjadi format lainnya
+- Data reduction : proses mengurangi jumlah data untuk efisien storage
+Supervised : 
+- Klasifikasi 
+- Regresi
+Contoh metode : Decision Tree, Naive bayes Classifier, SVM, KNN, Neural Network, Logistic Regression, Linear Regression, dll. 
+Unsupervised : 
+- Clustering
+Contoh metode : K-Means Clustering, DBSCAN
+Regression : representasi hubungan dari suatu variabel yang mempengaruhi variabel yang lain.
+Model Regresi Sederhana :
+y = b0 + b1 x
+Contoh pemodelan regresi sederhana : 
+- Step 1 : mencari nilai b1
+- Step 2 :  mencari nilai b0
+- Step 3 : mencari y (pemodelan) 
+- Step 4 : melakukan prediksi
+Moving Average : metode untuk melakukan data time series, ingin melihat tren suatu data terhadap waktu
+Contoh data time series : fluktuasi nilai harga saham, penambahan jumlah pasien covid 19. 
+Moving Average : 
+- Simple Moving Average
+- Cumulative Moving Average 
+- Exponential Moving Average 
+Decision Tree (Breiman, 1984) 
+   Decision Tree merupakan algoritma Supervised Learning yang bekerja untuk data input dan output bersifat Categorical (Classification Tree) dan Continuous (Regression Tree). 
+- Berupa representasi grafis yang memudahkan dalam melakukan interpretasi  dan membantu dalam membuat keputusan (Decision making)
+- Tampak seperti Flow chart memiliki struktur if-else condition
+- Pohon yang terbalik : Root Node( dari atas) -> internal node -> leaf node (paling bawah)
+Splitiing Criteria : 
+- Information Gain
+- Index Gini
+Ensemble Technique : Kumpulan single methods
+Kriteria keputusan : 
+- Majority Voting (Classification)
+- Average of Prediction (Regression)
+Ensemble methods : bagging, boosting, stacking
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang NLP (Natural Language Processing). 
+AI Domains : Recap 
+- Data Science : Tabular,sensor, numerik
+- Computer Vision : Image, video 
+- Natural Language Processing : Email, dokumen, Speech 
+   NLP adalah cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami.
+NLP san Linguistik : computational linguistik
+NLP = NLU (Natural Language Understanding) + NLG (Natural Language Generation)
+- NLP : kemampuan komputer memahami bahasa manusia dalan bentuk tertulis (teks) dan verbal (ucapan)
+- NLU : kemampuan membaca
+- NLG : kemampuan menulis
+Sejarah NLP : 
+- era klasik
+1949 : weaver’s memorandum
+1960 : Grammar theories
+1970 : Conceptual ontologies
+1980 : symbolic model
+1990 : Statistical models
+- era Deep Learning 
+2003 : neural Language models
+2008 : multi tadi Learning
+2013 : word embeddings
+2013 : NLP Neural Nets
+2014 : seq to seq Learning 
+2015 : attention
+2018 : pretrained Models 
+   NLP adalah kekuatan pendorong dibalik aplikasi yang digunakan. Contoh : translate, chatbot, siri, cortana, dll
+Area Aplikasi NLP : 
+- Question Answering System (QAS) : menjawab pertanyaan yang diberikan pengguna 
+- Information Retrieval : mencari konten yang relevan berdasarkan kata kunci 
+- Text Summarization : meringkas konten dengan mencari informasi penting atau relevan 
+- Machine translation : menerjemahkan konten dari satu bahasa ke bahasa lain
+- Text Classification : mengkategorikan konten ke satu atau lebih kategori
+- Speech recognition : mengenali / menerjemahkan bahasa lisan ke dalam teks
+Susunan kata dan artinya : 
+- semantik : kajian yang mencakup arti dan makna sesungguhnya dalam satun kalimat
+- sintaksis : kajian yang mencakup seluk-beluk tata bahasa dalam kalimat 
+NLP Pipeline : Langkah-langkah untuk membangun sistem berbasis NLP. 
+Terdiri dari : 
+1.) Akuisisi Data : Public Dataset, Web Scraping, Product Intervention, Data Augmentation
+2.) Text Extraction & Cleaning : mengekstrak data mentah dengan menghapus informasi non-tekstual
+3.) Text PreProcessing : menyeleksi teks agar lebih terstruktur
+- lower case & remove whitespaces
+- Reguler expression (ReGex)
+- Remove URLs & email
+- Remove emoji & emoticon
+- Slang word normalization
+- Stemming & Lemmatization
+- Stemming Indonesian
+- Tokenization
+- Stop words removal
+4.) Rekayasa Fitur
+ML vs DL
+5.) Pemodelan
+6.) Evaluasi Model : Accuracy, Precision, Recall, dll
+7.) Deployment
+8.) Monitoring dan Model updating
+Tantang NLP : Sarkasme, Kesalahan kata (typo), Ambiguitas kata, Bahasa gaul, dan ketersediaan bahasa. 
+Masa depan NLP : Pengenalan emosi, Bahasa berkembang secara dinamis, dan kebutuhan pemahaman bahasa terus dibutuhkan pada semua bidang kehidupan manusia.
+   Setelah selesai pemberian materi pada hari itu oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. 
+   Pada hari Selasa, 22 Maret 2022 di hari kedua dan di minggu kelima, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di sesi pertama ini diberikan materi tentang Introduction to Computer Vision. 
+   Computer Vision adalah bidang AI yang digunakan untuk memproses, menganalisa, dan memahami citra. Duplikat / tiruan dari human Vision (penglihatan manusia). Data citra dari banyak sumber seperti video,dll. 
+Computer Vision work : input -> sensing device -> interpreting device -> output
+Components of Computer Vision : Computer (scene interpretation), camera, lighting, scene. 
+Jenis tugas yang dilakukan Computer Vision : Classification, Classification + Localization, Object detection, Instance Segmentation. 
+A little story about Computer Vision : 
+1966: Marvin Minsky menetapkan visi komputer sebagai proyek musim panas sarjana
+1960-an: Intersepsi dunia sintetis
+1970-an : Beberapa kemajuan dalam menafsirkan gambar yang dipilih.
+1980'sb: JST / ANN datang dan pergi;
+1990-an: pengenalan wajah, analisis statistik dalam mode
+2000-an: pengenalan perbatasan, awal pemrosesan video, visi internet
+2010- sekarang : Era Deep Learning
+Computer Vision application : banking, automative, sports, healthcare, manufacturing, agriculture, insurance, surveillance. 
+   Kemudian dilanjutkan pada sesi kedua dengan coach yang kedua diberikan materi tentang Reinforcement Learning. 
+RL dalam berbagai bidang :
+- engineering
+- Computer science
+- Mathematics
+- Neuroscience
+- Economics
+- Psychology
+Cabang ML : SL, UL, dan RL
+Stanfors Marshmallow Test (tahun 1972)
+Karakteristik Reward dan Action :
+- Reward : Reward dilihat sebagai umpan balik terhadap Agent, karena Reward mengalami penundaan maka umpan balik menjadi tertunda. 
+- Action : semua tindakan yang mungkin telah diketahui.
+RL secara formal : 
+- Reward (Rt)
+- State (St)
+- Action (At)
+Trial & Error Systems 1, 2, 3:
+- Ainslie & HerrnStein 1974
+Environment (Lingkungan) : 
+- Aturan Reward dalam lingkungan kadang dideskripsikan dengan jelas
+- Ada env yang perlu dipelajari karena tidak ada aturan yang jelas (Trial dan Error / Eksplorasi)
+- Improvisasi masih terjadi meski sudah ada aturan
+Karakteristik RL :
+- Tidak ada kebenaran pada proses pembelajaran / training yang ada hanya hadiah atau hukuman
+- Data yang diperoleh (state dan reward) tergantung Action yang di berikan agent
+- Variabel waktu dan urutan state yang dipilih agent melalui Action memiliki pengaruh yang penting
+Tipe-tipe Environment RL :
+- Deterministic Environment vs Stochastic Environment
+Deterministik : hasilnya dapat diketahui berdasarkan state saat ini
+Stochastic : hasilnya tidak dapat diketahui berdasarkan state saat ini
+- Fully observable vs Partially Observable Environment 
+Fully observable : ketika agent dapat menentukan state dari sistem setiap saat, dengan state dari sistem dapat diamati seluruhnya
+Partially observable : ketika agent tidak dapat menentukan state sistem setiap saat. 
+- Discrete Environment vs Continuous Environment
+Discrete : ketika state untuk berpindah dari state ke state lainnya terbatas
+Continuous : ketika state untuk berpindah dari state ke state lainnya tidak terbatas
+- Episodic and non-episodic Environment 
+Episodic ( lingkungan non-sekuensial) : tindakan agent saat ini tidak akan mempengaruhi tindakan di masa depan
+Non-Episodic (sequential) : tindakan agent saat ini mempengaruhi tindakan di masa depan
+- single dan multi-agent Environment 
+Single : hanya memiliki agent tunggal 
+Multi-agent : memiliki lebih dari 1 agent atau lebih
+RL for AI in Games : 
+- Atari Games 
+- OpenAI Five : Dota
+RL for robotics: 
+Contoh : lintasan bangunan untuk robot humanoid menggunakan RL, Mobil mengemudi sendiri dengan menggunakan RL. 
+RL for Optimization : 
+- Monte Carlo Prediction for solving Traveling salesman problem
+   Setelah selesai pemberian materi pada hari itu oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain RL, kita diberikan tugas kelompok dan mencari kelompok sendiri dengan 1 kelompok berisi mahasiswa dari kelas yang berbeda-beda. 
+   Pada hari Rabu, 23 Maret 2022 di hari ketiga dan di minggu kelima, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama ini diberikan materi tentang Data science - Visualization with Tableau. 
+   Visualisasi data adalah representasi grafis dari informasi dan data. Dengan menggunakan elemen visual, seperti bagan, grafik, dan peta, alat visualisasi data dapat digunakan untuk melihat dan memahami tren, outlier, dan pola dalam data. 
+Tugas Data scientist : menggali data, mencari insight data, dan menginterpretasikan insight data. 
+- Bar chart : grafik yang menyajikan data kategorikal dalam bentuk batang dengan panjang batang yang mewakili nilainya. 
+- Line chart : visualisasi data untuk melihatkan perubahan kondisi dari waktu ke waktu. 
+- pie chart : visualisasi data untuk menunjukkan komposisi dari sebuah data. Bagian di dalam pie chart menunjukkan proporsi dari bagian data terhadap keseluruhan data. 
+- Histogram chart : grafik untuk menampilkan distribusi data. Digunakan untuk melihat estimasi distribusi probabilitas dari variable yang kontinu. 
+- Scatterplot : grafik untuk melihat suatu pola hubungan antara 2 variable numerik. 
+   Tableau : platform untuk mempresentasikan data dalam bentuk analitik visual melalui chart dan Dashboard untuk memecahkan masalah. 
+Jenis Tableau : 
+- Tableau Desktop : semua sumber data bisa digunakan, tidak ada yang bisa melihat laporan kita, jumlah data tidak terbatas, biaya personal ($999) & profesional ($1999), digunakan untuk data scientist & Business Intelligence 
+- Tableau Public : sumber data terbatas seperti excel dan Text file, laporan otomatis menjadi akses public ketika di publish/ simpan, 1 juta barus data dapat di proses dan dibagikan, biaya gratis, digunakan untuk junior data analyst & junior Business Intelligence
+- Tableau Reader : tidak membutuhkan untuk terhubung dengan sumber data, tidak ada yang bisa melihat laporan kita, data tidak terbatas namun hanya dapat dilihat pada tampilan statis seperti excel, biaya gratis, digunakan untuk profesional untuk membaca sebuah data
+4 Fungsi Utama Tableau : 
+- menerjemahkan data menjadi bentuk visual
+- Mengelola memadat
+- Mengimpor berbagai ukuran dan range data
+- Membuat visualisasi data tanpa coding
+Kelebihan Tableau : tools big data for data science, pilihan visual yang interaktif, user friendly, dapat mengelola banyak sumber data, Dashboard Mobile friendly, banyak digunakan perusahaan menengah ke atas. 
+   Kemudian di akhir sesi pertama, setelah pemberian materi kita diberi tugas kelompok untuk membuat visualisasi data dengan tableau. Lalu dilanjutkan pada sesi kedua dengan coach kedua yang diberikan materi tentang NLP - Text Representation. 
+   Feature Extraction (Pembobotan Kata) adalah proses mengubah kata menjadi bentuk vektor agar dapat diproses oleh algoritma ML. Ada 2 pembobotan kata yaitu : 
+1. Bag or Word (BoW) / Count Vectorizer
+BoW merupakan model yang mempelajari kosa kata dari seluruh dokumen kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata muncul. 
+2. Term Frequency-Inverse Documet Frequency (TF-IDF)
+TF-IDF merupakan ukuran penilaian yang digunakan dalam pencarian informasi dan peringkasan teks. 
+Notasi TF-IDF :
+TF (t,d) = F t,d / £ t,d
+IDF (t) = log |D| / df(t) + 1
+W (t,d) = TF (t,d) IDF (t) 
+   N-Gram adalah rangkaian kata atau token yang berkesinambungan dalam dokumen digunakan untuk proses pada ML yang dijadikan fitur/atribut. 
+Jenis N-Gram : Unigram, Bigram, Trigram, Gram.
+   Feature Filtering adalah Proses untuk menghapus kata-kata atau simbol yang tidak penting, sepeti : HTML tag, URL, tanda baca, dll. 
+1.) Menghapus String seperti username, tanda baca, karakter,dll
+2.) Stop word removal : proses menghapus kata yang tidak penting atau sering muncul pada sebuah kalimat 
+Stop word : kamus kata yang berisi kata-kata tidak penting. 
+   Feature Selection adalah proses memilih kata-kata/fitur yang penting diikutkan pada proses ML. 
+3 Pendekatan untuk proses seleksi fitur :
+1. Metode Fitur
+   Metode filter memberi skor untuk setiap fitur , lalu fitur dengan skor tinggi dipilih dan diberi peringkat. Beberapa metode filter yang diusulkan oleh peneliti : Chi-square, Information Gain, Query Expensive Ranking, etc. 
+2. Metode Wrapper
+   Metode wrapper adalah metode memilih fitur penting menggunakan algoritma optimasi denga algoritma ML. Beberapa metode wrapper yang diusulkan peneliti : Genetic Algorithm, PSO, Iterated Greedy Metaheurestic, etc.
+3. Metode Hybrid
+   Metode hybrid adalah kombinasi dari metode filter dan wrapper. Metode yang diusulkan peneliti : IG-based PSO, Relief with MVO. 
+   Dari 3 metode pendekatan yang terdapat di proses Feature Selection ini memiliki kelebihan dan kekurangannya masing-masing. 
+   Word Cloud adalah gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks. Penggunaan nya untuk visualisasi kata yang paling sering digunakan/ diperbincangkan pada suatu topik tertentu. Word Cloud tools : Matplotlib.
+   Setelah selesai pemberian materi pada hari itu oleh coach, kami melanjutkan dengan belajar mandiri dan mempraktekan dan mencoba kode program sendiri. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Kamis, 24 Mar 2022 di hari keempat dan di minggu kelima, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama ini diberikan materi tentang Computer Vision - Image processing. 
+   Pengolahan Citra adalah metode untuk melakukan beberapa operasi pada citra. Tujuannya untuk mendapatkan citra yang disempurnakan atau mengekstrak informasi yang berguna pada citra. Citra ditangkap oleh sensor kamera. 
+Komponen pada pengolahan citra : 
+   Citra merupakan fungsi dari intensitas cahaya yang direpresentasikan oleh sekumpulan piksel. 
+Image processing -> Image Analysis -> Vision 
+3 tahapan : Low- level process, Mid-level process, High-level process
+Jenis representasi bit pada citra : Binary Image, 8 bit cocor format, 16 bit color format. 
+Ruang Warna RGB (Red Green Blue) didasarkan pada hasil akuisisi frekuensi warna oleh sensor elektronik. 
+Komponen pada pengolahan citra : 
+- Kecerahan / Brightness
+- Kontras
+Perbaikan Citra : 
+1.) Operasi Transformasi Intensitas pada citra digunakan untuk memanipulasi kontras citra. Transformasi citra yang umum digunakan : 
+- Image Negatives (linear)
+- Log Transformation : mengganti semua nilai piksel dalam gambar dengan nilai algoritmanya dan digunakan untuk peningkatan gambar
+- Power law (Gamma) transformation : untuk menampilkan citra secara akurat di komputer dan mengontrol kecerahan gambar
+- Contrast Streching
+2.) Histogram citra adalah diagram yang menggambarkan distribusi frekuensi nilai intensitas piksel dalam citra.
+3.) Citra gelap : citra yang memiliki banyak piksel dengan nilai intensitas mendekati 0. 
+4.) Citra terang : citra yang memiliki banyak piksel dengan nilai intensitas mendekati 255. 
+5.) Histogram Equalization : Proses meratakan histogram agar derajat keabuan merata antar 0-255 dengan keluaran citra tidak dominan gelap/terang 
+Step-step pada histogram equalization : 
+1. Hitung distribusi kumulatif dari citra
+2. Hitung hasil normalisasi dari histogram
+3. Terapkan histogram normalisasi ke citra
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Source Code Management - Git & GitHub. 
+   Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber selama pengembangan perangkat lunak. Dirancang untuk mengkoordinasikan
+pekerjaan di antara programmer. Sasarannya mencakup kecepatan, integritas data, dan dukungan untuk alur kerja non-linier terdistribusi.
+   GitHub adalah layanan hosting repositori Git berbasis web, yang menawarkan semua fungsi kontrol revisi terdistribusi dan manajemen kode sumber (SCM) Git serta menambahkan fitur-fiturnya sendiri. Github adalah platform untuk membuat repository remote sehingga antar developer bisa berkolaborasi satu sama lain. 
+   Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang. Diciptakan
+oleh Linus Torvalds, yang awalnya ditujukan untuk pengembangan kernel Linux.
+   Git dan Github memiliki banyak perbedaan, contohnya seperti : Git adalah software, sedangkan GitHub adalah layanan. 
+Langkah membuat GitHub repository :
+- Membuat remote repository dan mengclone menjadi local repository. 
+Langkah membuat remote GitHub Repository : 
+1. Login ke GitHub dan Sign in kemudian akan melihat Dashboard GitHub
+2. Klik tulisan Create a repository
+3. Mengisi repository name dan deskripsi
+Konsep SCM : 
+Atomic commit berarti melakukan commit pada perubahan sekecil atom.
+Versioning Control Source Code : 
+Version Control adalah sebuah tools untuk merekam jejak perubahan. 
+   Branch : Cabang. Branch inilah yang menjadi komponen utama dalam code versioning atau Source Code Management.
+   Merge adalah aktivitas untuk menggabungkan semua perubahan pada satu branch ke branch lainnya.
+   Stash adalah aksi untuk menyimpan semua perubahan yang masih berada di unstaged area. Stash jauh berbeda dengan apa yang dilakukan Commit atau Push. Commit adalah aksi untuk menyimpan perubahan yang kamu yakini perubahan itu sudah benar, dan kamu berkomitmen perubahan itulah yang kamu pilih untuk masuk ke dalam Commit history. Sedangkan Stash, menyimpan perubahan yang kamu rasa belum benar, belum cukup bagus untuk di-Commit, dan perubahan itu hanya akan disimpan di local komputer kamu. 
+   Collaborators adalah sebuah feature pada penyedia cloud repository sehingga pemilik repository dapat memberikan hak akses kepada temannya untuk berkolaborasi pada repository tersebut.
+Komponen SCM terbagi menjadi 3 komponen utama :
+● Remote Environment
+Remote environment berada di cloud storage. Remote environment hanya memiliki satu komponen, yaitu remote repository. 
+● Local Environment
+Local environment berada di komputer yang kamu gunakan.
+● Developer
+Developer dikategorikan juga menjadi SCM component sebagai SCM user. 
+SCM Operations : 
+   Operasi SCM adalah aktivitas yang dilakukan oleh Developer dalam mengelola source code. Operasi SCM terbagi menjadi remote activities dan local activities. Commit, checkout, stash, branching, merge merupakan contoh dari aktivitas lokal. Push, pull, fetch dan clone merupakan contoh aktivitas remote.
+   Setelah selesai pemberian materi pada hari itu oleh coach, kami melanjutkan dengan belajar mandiri dan mencoba-coba kode program. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain technical, kita diberikan tugas membuat repository github. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+   Pada hari Jumat, 25 Maret 2022 di hari kelima dan di minggu kelima, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama ini diberikan materi tentang Markov Decision Process (MDP) dan Dynamic Programming. 
+   Markov Decision Process merupakan proses Tuple (state, action, transition probability, reward function, dan discount factor). MDP mendeskripsikan secara formal lingkungan RL. 
+RL problem dapat diformalisasikan menggunakan MDP : 
+- Optimal Control 
+- Partially Observable problems
+- Bandits problem
+Aplikasi RL dalam dunia nyata : 
+- Robotik : memutuskan bergerak kemana
+- Alokasi sumber daya : memutuskan apa yang diproduksi
+- Pertanian : memutuskan apa yang ditanam
+Contoh : MDP untuk permainan dadu bisa memilih keluar atau main
+- States: himpunan dari states
+- 𝑆𝑠𝑡𝑎𝑟𝑡 ∈ 𝑆𝑡𝑎𝑡𝑒𝑠 : state awal
+- Actions(s): actions yang tersedia dari state s
+- 𝑃 (𝑠, 𝑎, 𝑠′) : probabilitas ke s’ jika mengambil action a dari state s
+- Reward (s, a, s’) : idem dengan diatas
+- isEnd(s) : apakah state terakhir
+- 0 ≤ 𝛾 ≤ 1 faktor diskon
+Probabilitas atau Transistion
+   Transition Probabilitas 𝑃 (𝑠, 𝑎, 𝑠′) menentukan kemungkinan dari state yang didatangi dalam s’ jika melakukan action a dari state s. Probabilitas memiliki jumlah 1. 
+   Policy adalah fungsi 𝜋 yang memetakan untuk setiap state 𝑠 ∈ 𝑆𝑡𝑎𝑡𝑒𝑠 ke action 𝑎 ∈ 𝐴𝑐𝑡𝑖𝑜𝑛𝑠(𝑠). 
+   Return (utility) dari sebuah policy adalah Jumlah dari reward selama mengikuti jalur (nilai yang acak). Return adalah 𝐺𝑡 total reward yang di-diskon dari setiap waktu t.
+Diskon y : return. 
+Evaluasi sebuah policy : value dari policy
+Value adalah harapan dari return (Expected return). 
+Value dari policy adalah harapan dari return (Expected return) ketika mengikuti suatu policy. 
+Kesimpulan algoritma : 
+- Evaluasi policy adalah (MDP , 𝜋) -> V 𝜋
+- Value iteration adalah MDP -> Vopt, 𝜋opt. Jenis value iteration : dynamic programming. 
+   Kemudian dilanjutkan pada sesi kedua  dengan coach yang kedua diberikan materi tentang Database - SQL. 
+   Structured Query Language adalah bahasa pemrograman untuk pengolahan data berbasis relasional atau dapat digunakan pada Relational Database Management System (RDBMS). Bahasa SQL untuk mengolah data terstruktur. 
+Contoh database relasional : MySQL, MairaDB, dll. 
+Terdapat 2 kelompok penggunaan perintah SQL : 
+- Data Definition Language (DDL) : perintah SQL untuk membuat dan memodifikasi objek database. Contoh : create, alter, drop, dan truncate. 
+- Data Manipulation Language (DML) : perintah SQL untuk menambah, menghapus, dan memodifikasi data dalam database. Contoh : select, insert, update, dan delete. 
+Membuat / membuka file database : 
+- Format perintah : sqlite>.open’<nama file database>’
+Melihat daftar tabel : 
+- Format perintah : sqlite>.table
+   Filtering dan Subsetting data pada suatu tabel dilakukan menggunakan SELECT dan WHERE beserta Operator. 
+Operator : 
+- Operator perbandingan / operator relasional. 
+- Operator Boolean 
+- Operator Like
+- Operator IN dan NOT IN 
+- Operator Between
+- Operator IS NULL dan IS NOT NULL
+Sorting dan Grouping : 
+- Mengurutkan data Oda tabel atau sorting dilakukan menggunakan ORDER BY.
+- Pengelompokkan data atau grouping dilakukan menggunakan GROUP BY.
+   Setelah selesai pemberian materi pada hari itu oleh coach, kami melanjutkan dengan belajar mandiri. Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Kemudian pada sesi kedua di domain technical, kita diberikan tugas sql. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.

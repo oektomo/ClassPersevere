@@ -1,0 +1,239 @@
+Mon, 21 Mar
+
+Sesi 1
+Mempelajari Data  Science :
+-	Mengenal Data Science , Raw data >Informasi (Sosial,Bisnis ,Kesehatan,Kebijakan,dan Lainnya)
+-	Mengetahui pilar kemampuan data Science ,salah satunya yaitu memiliki kemampuan coding pada suatu Bahasa pemrograman.
+-	Survey adalah Teknik pengambilan data yang umum
+-	Mengetahui Data Science Project Cycle , Problem Scoping>Data Asquisition(pengumpulan data),Data Exploration(eksplordata), Modelling,Evaluation,Deployment
+-	Data>Waktu pengumpulan,Skala Pengumpulan, Teknik Pengumpulan.
+-	Preprocessing > Data Manipulation dan Data Visualiasi
+-	Data Cleaning>proses memperbaiki suatu data yang tidak sesuai dengan tujuan data
+-	Data transformasion > proses mengubah data dari suatu format lainnya
+-	Data Reduction > proses mengurangijumlah data untuk efisiensi Storage
+-	Regresi> representasi hubungan dari suatu variable/fitur/case yang memengaruhi variabel/fitur/case yang lain.
+-	Decision tree , algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical(classification tree) dan continuous(regression tree)
+-	Ensemble > kumpulan single method(regresi)
+
+Sesi 2 Mempelajari NLP
+ 
+-	pengenalan dari NLP
+-	AI Domains : Recap
+-	NLP > cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara computer dan manusia menggunakan  Bahasa alami.
+-	NLP dan Linguistik > bagaimana manusia memodelkan Bahasa
+-	NlP = NLU + NLG
+-	NLP > kemampuan computer memahami Bahasa manusia dalam bentuk tertulis (teks) dan verbal (ucapan)
+-	NLU > Bagian NLP yang menggunakan analisis sintaksis dan semantic unutkmenentukan makna kalimat(membaca)
+-	NLG > Bagian NLP untuk menghasilkan respons Bahasa manusia berdasarkan beberapa input(menulis)
+-	Sejarah NLP – Era Klasik dari 1949 – 1980
+-	NLP > Digunakan untuk kekuatan pendorong dibalik aplikasi yang umum kita gunakan saat ini.
+-	Questio Answering  System(QAS)> Kemampuan kompuer untk menjawab pertanyaan yang diberikan oleh pengguna
+-	Machine translation > kemapuan untuk menerjemahkan  konten dari satu Bahasa ke Bahasa lain secara otomatis
+-	Text classification  > kemampuan computer untuk mengkategorikan konten ke satu atalebih kategori secara otomatis
+-	Speech Recognition > kemampuan computer untuk mengenali dan menerjemahkan Bahasa lisan ke dalam teks secara otomatis
+-	Text processing > mengaku pada proses menyeleksi teks agar lebih terstrukturdengan melalui serangkaian tahapan.
+-	Yang lebih sulit dalam pendeteksi spam> Machine translation
+
+Tue, 22 Mar
+
+Saya telah mengikuti pembelajaran 
+
+Sesi 1
+-introduction Computer vision
+-computer vision =>bidang AI yang digunakan untuk memproses,menganalisa dan memahani citra 
+-Basic Computer Vision
+- Computer Vision mempunyai beberapa asset =>  Control Robotics, Signal Processing, Physics, Imaging, Neurobiology, Mathematics, Machine Learning, dan Artificial Intelligence.
+- Computer Vision vs Human Vision
+- Mathematics in CV => melalui Kalkulus, Aljabar Linear, Probabilitas dan Statistik, Sinyal Processing, Projektif Geometri,  Komputasional Geometri, Teori Optimasisasi, dan Teori Kendali.
+
+Sesi 2:
+Saya telah mengikuti pembelajaran Reinforcement learning
+-Introduction  reinforcement learning => model belajar untuk melihat situasi dan menentukan akasi untuk memperoleh hasil terbaik
+-Sejarah Reinforcement learning
+-Algoritma Reinforcement learning
+-Element & Environtment dari Reinforcement learning
+-Aplikasi dari Reinforcement
+-3 istilah ( agent, reward, dan action)
+-RL secara formal => Reward, State, dan Action
+-Reinforcement dalam berbagai bidang 
+-Cabang Machine Learning=>  Supervised Learning, Unsupervised Learning, dan Reinforcement Learning.
+-Karakteristik Reinforcement Learning
+-Tipe Tipe environment Reinforcement learning
+
+Wed, 23 Mar
+
+Sesi 1 saya mempelajari:
+Data Science
+-	Visualisasi data => Menggambarkan data
+-	Mengetahui contoh-contoh dari visualisasi data
+-	Bar Chart =>  grafik yang menyajikan data kategorikal dalam bentuk batang  dengan Panjang batang yang mwakili nilainya ( Data kategorikal)
+-	Line  chart => digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu(numerik, menggambarkan time series) 
+-	Pie chart=> Menunjukan sebuah koposisi tertentu dari sebuah data (digunakan untuk data kategori) (Data kategori 1 variabel , numerik)
+-	Histogram => digunakan untuk menampilkan distribusi dari sebuah data (dibaca dalam rentang 0,5) (Histogram kontinu)
+-	Scatter  Plot  => Digunakan untuk melihat suatu pola hubungan antara 2 variable numerik
+-	Implementasi Tableau
+
+Sesi 2 saya mempelajari:
+-	Module 10 Natural Language Processing (NLP)
+-	Section 2 Text Representation
+-	Feature Extraction => Pembobotan kata/ text 
+-	Ada 2 Teknik umum Feature Extraction yang bisa kita gunakan, yaitu BoW dan TF-IDF.
+- 	Mengetahui Kelebihan Kekuangan  bag of bow
+- 	Mengetahui Kelebihan Kekuangan  TF-IDF
+-	N-gram => Rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut.
+-	Feature Filtering => Proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti html tag, url dan tanda baca.
+-	Feature Selection => Proses memilih kata-kata/fitur yang penting untuk dilakukan pada proses machine learning.
+-	Word Cloud => Gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks.
+
+Thu, 24 Mar
+
+saya telah mengikuti pembelajaran 
+
+sesi 1 
+computer vision
+- image processing / pengolahan citra menggunakan opencv
+- mengetahui komponen pada pengolahan citra
+- perbaikan pada citra
+- step step perbaikan pada citra
+
+sesi 2
+Teknikal
+- belajar menginstal git 
+- membuat akun github
+-  mempelajari source code manajemen 
+- mengetahui sejarah git
+- mengetahui perbedaan git dan github
+- mengetahui konsep SCM
+- membuat konsep repository
+- FGD mandiri membuat repository lalu memPush dari Local Repository di Git ke Remote Repository di Github.
+
+Fri, 25 Mar
+
+saya telah mengikuti pembelajaran 
+
+sesi 1
+- materi markov Dession Proccess (MDP) dan Dinamic programming
+- melakukan pretest selamat 30 menit
+- mengetahui MDP dapat mendeskirpsikan secara formal untuk lingkungan RL
+-  mengtahui problem yang dapat diformalisasi oleh MDP => optimal control, partially observable problems , bandits problems
+- mengetahui aplikasi RL dalam dunia nyata =. robotic, alokasi sumber daya, pertanian 
+- mengtahui policy aturan
+- probabilitas
+- matriks probabilitas transisi
+-solusi untuk MDP
+- evaluasi jalur policy
+- guna dan diskon Y
+- menghitung value contoh pada permainan dadu
+- melakukan pretest diakhir kuliah 
+
+sesi 1
+Teknikal
+
+- bergabung pada minworkshop ( implementation of artificial intellegence in spasial data)
+-  mengikuti kembali class dengan materi MSQL
+- mengetahui DDL, DML dan lainnya
+- FGD mandiri
+
+What did you learn this week?
+
+1. Mempelajari Data  Science :
+-	Mengenal Data Science , Raw data >Informasi (Sosial,Bisnis ,Kesehatan,Kebijakan,dan Lainnya)
+-	Mengetahui pilar kemampuan data Science ,salah satunya yaitu memiliki kemampuan coding pada suatu Bahasa pemrograman.
+-	Survey adalah Teknik pengambilan data yang umum
+-	Mengetahui Data Science Project Cycle , Problem Scoping>Data Asquisition(pengumpulan data),Data Exploration(eksplordata), Modelling,Evaluation,Deployment
+-	Data>Waktu pengumpulan,Skala Pengumpulan, Teknik Pengumpulan.
+-	Preprocessing > Data Manipulation dan Data Visualiasi
+-	Data Cleaning>proses memperbaiki suatu data yang tidak sesuai dengan tujuan data
+-	Data transformasion > proses mengubah data dari suatu format lainnya
+-	Data Reduction > proses mengurangijumlah data untuk efisiensi Storage
+-	Regresi> representasi hubungan dari suatu variable/fitur/case yang memengaruhi variabel/fitur/case yang lain.
+-	Decision tree , algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical(classification tree) dan continuous(regression tree)
+-	Ensemble > kumpulan single method(regresi)
+-	Visualisasi data => Menggambarkan data
+-	Mengetahui contoh-contoh dari visualisasi data
+-	Bar Chart =>  grafik yang menyajikan data kategorikal dalam bentuk batang  dengan Panjang batang yang mwakili nilainya ( Data kategorikal)
+-	Line  chart => digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu(numerik, menggambarkan time series) 
+-	Pie chart=> Menunjukan sebuah koposisi tertentu dari sebuah data (digunakan untuk data kategori) (Data kategori 1 variabel , numerik)
+-	Histogram => digunakan untuk menampilkan distribusi dari sebuah data (dibaca dalam rentang 0,5) (Histogram kontinu)
+-	Scatter  Plot  => Digunakan untuk melihat suatu pola hubungan antara 2 variable numerik
+-	Implementasi Tableau
+
+2. Mempelajari NLP :
+-	pengenalan dari NLP
+-	AI Domains : Recap
+-	NLP > cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara computer dan manusia menggunakan  Bahasa alami.
+-	NLP dan Linguistik > bagaimana manusia memodelkan Bahasa
+-	NlP = NLU + NLG
+-	NLP > kemampuan computer memahami Bahasa manusia dalam bentuk tertulis (teks) dan verbal (ucapan)
+-	NLU > Bagian NLP yang menggunakan analisis sintaksis dan semantic unutkmenentukan makna kalimat(membaca)
+-	NLG > Bagian NLP untuk menghasilkan respons Bahasa manusia berdasarkan beberapa input(menulis)
+-	Sejarah NLP – Era Klasik dari 1949 – 1980
+-	NLP > Digunakan untuk kekuatan pendorong dibalik aplikasi yang umum kita gunakan saat ini.
+-	Questio Answering  System(QAS)> Kemampuan kompuer untk menjawab pertanyaan yang diberikan oleh pengguna
+-	Machine translation > kemapuan untuk menerjemahkan  konten dari satu Bahasa ke Bahasa lain secara otomatis
+-	Text classification  > kemampuan computer untuk mengkategorikan konten ke satu atalebih kategori secara otomatis
+-	Speech Recognition > kemampuan computer untuk mengenali dan menerjemahkan Bahasa lisan ke dalam teks secara otomatis
+-	Text processing > mengaku pada proses menyeleksi teks agar lebih terstrukturdengan melalui serangkaian tahapan.
+-	Yang lebih sulit dalam pendeteksi spam> Machine translation
+-	Module 10 Natural Language Processing (NLP)
+-	Section 2 Text Representation
+-	Feature Extraction => Pembobotan kata/ text 
+-	Ada 2 Teknik umum Feature Extraction yang bisa kita gunakan, yaitu BoW dan TF-IDF.
+- 	Mengetahui Kelebihan Kekuangan  bag of bow
+- 	Mengetahui Kelebihan Kekuangan  TF-IDF
+-	N-gram => Rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut.
+-	Feature Filtering => Proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti html tag, url dan tanda baca.
+-	Feature Selection => Proses memilih kata-kata/fitur yang penting untuk dilakukan pada proses machine learning.
+-	Word Cloud => Gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks.
+
+3. Mempelajri Computer Vision :
+-introduction Computer vision
+-computer vision =>bidang AI yang digunakan untuk memproses,menganalisa dan memahani citra 
+-Basic Computer Vision
+- Computer Vision mempunyai beberapa asset =>  Control Robotics, Signal Processing, Physics, Imaging, Neurobiology, Mathematics, Machine Learning, dan Artificial Intelligence.
+- Computer Vision vs Human Vision
+- Mathematics in CV => melalui Kalkulus, Aljabar Linear, Probabilitas dan Statistik, Sinyal Processing, Projektif Geometri,  Komputasional Geometri, Teori Optimasisasi, dan Teori Kendali.
+- image processing / pengolahan citra menggunakan opencv
+- mengetahui komponen pada pengolahan citra
+- perbaikan pada citra
+- step step perbaikan pada citra
+
+4. Mempelajari Reinforcemennt learning:
+-Introduction  reinforcement learning => model belajar untuk melihat situasi dan menentukan akasi untuk memperoleh hasil terbaik
+-Sejarah Reinforcement learning
+-Algoritma Reinforcement learning
+-Element & Environtment dari Reinforcement learning
+-Aplikasi dari Reinforcement
+-3 istilah ( agent, reward, dan action)
+-RL secara formal => Reward, State, dan Action
+-Reinforcement dalam berbagai bidang 
+-Cabang Machine Learning=>  Supervised Learning, Unsupervised Learning, dan Reinforcement Learning.
+-Karakteristik Reinforcement Learning
+-Tipe Tipe environment Reinforcement learning
+- materi markov Dession Proccess (MDP) dan Dinamic programming
+- melakukan pretest selamat 30 menit
+- mengetahui MDP dapat mendeskirpsikan secara formal untuk lingkungan RL
+-  mengtahui problem yang dapat diformalisasi oleh MDP => optimal control, partially observable problems , bandits problems
+- mengetahui aplikasi RL dalam dunia nyata =. robotic, alokasi sumber daya, pertanian 
+- mengtahui policy aturan
+- probabilitas
+- matriks probabilitas transisi
+-solusi untuk MDP
+- evaluasi jalur policy
+- guna dan diskon Y
+- menghitung value contoh pada permainan dadu
+- melakukan pretest diakhir kuliah
+
+5. Mempelajari Technikal :
+- belajar menginstal git 
+- membuat akun github
+-  mempelajari source code manajemen 
+- mengetahui sejarah git
+- mengetahui perbedaan git dan github
+- mengetahui konsep SCM
+- membuat konsep repository
+- FGD mandiri membuat repository lalu memPush dari Local Repository di Git ke Remote Repository di Github.
+- bergabung pada minworkshop ( implementation of artificial intellegence in spasial data)
+-  mengikuti kembali class dengan materi MSQL
+- mengetahui DDL, DML dan lainnya
+- FGD mandiri

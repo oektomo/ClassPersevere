@@ -1,0 +1,35 @@
+Mon, 14 Mar
+
+Pada hari senin, 14 maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -10.00 WIB. pada sesi pertama membahas tentang numpy introduction, numpy array, pandas introduction, working with dataframe dan data import/export. Setelah itu sesi pertama FGD pukul 10.00 - 11.30 WIB, saya mempelajari coding dari numpy dan pandas.
+
+Kemudian untuk sesi kedua pukul 13.00 - 15.00 WIB membahas kelanjutan dari sesi pertama tentang working with dataframe, data import/export, data aggregation , statistical analysis, data transformation, matplotlib for data, visualization, dan seaborn for data visualization. setelah itu sesi kedua FGD pukul 15.00 - 17.00 WIB, saya mempelajari coding numpy dan pandas.
+
+Tue, 15 Mar
+
+Pada hari selasa ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 yang membahas mengenai data visualization in python matplotlib dan seaborn.
+
+Wed, 16 Mar
+
+Pada hari selasa ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00WIB yang membahas mengenai Logistic Egression dan Decision Tree, kemudian dilanjutkan self-learning.
+
+Thu, 17 Mar
+
+Pada hari Kamis ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 yang membahas mengenai KKN dan Deep Learning, kemudian di lanjutkan self-laerning.
+
+Fri, 18 Mar
+
+Pada hari Jumat  ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 WIB  yang membahas mengenai  Artificial Neural Network Basic dan Artificial Neural Network Back Propagation, kemudian di lanjutkan self-learning.
+
+What did you learn this week?
+
+Senin, 14 Maret 2022 
+Pada hari ini ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -10.00 WIB. pada sesi pertama membahas tentang numpy introduction, numpy array, pandas introduction, working with dataframe dan data import/export. Setelah itu sesi pertama FGD pukul 10.00 - 11.30 WIB, saya mempelajari coding dari numpy dan pandas. 
+Kemudian untuk sesi kedua pukul 13.00 - 15.00 WIB membahas kelanjutan dari sesi pertama tentang working with dataframe, data import/export, data aggregation , statistical analysis, data transformation, matplotlib for data, visualization, dan seaborn for data visualization. setelah itu sesi kedua FGD pukul 15.00 - 17.00 WIB, saya mempelajari coding numpy dan pandas.
+Selasa, 15 Maret 2022
+Pada hari selasa ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 yang membahas mengenai data visualization in python matplotlib dan seaborn.
+Rabu, 16 Maret 2022
+Pada hari selasa ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00WIB yang membahas mengenai Logistic Egression dan Decision Tree, kemudian dilanjutkan self-learning.
+Kamis, 17 Maret 2022
+Pada hari Kamis ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 yang membahas mengenai KKN dan Deep Learning, kemudian di lanjutkan self-laerning.
+Jum’at, 18 Maret 2022
+Pada hari Jumat ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00 WIB, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00 WIB yang membahas mengenai Artificial Neural Network Basic dan Artificial Neural Network Back Propagation, kemudian di lanjutkan self-learning.

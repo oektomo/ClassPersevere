@@ -1,0 +1,53 @@
+Mon, 21 Mar
+
+Data Sciene
+Data Sciene Sesi 1 Introduction
+
+Tue, 22 Mar
+
+Natural Language Processing
+Berdiskusi Seputar NLP
+
+Wed, 23 Mar
+
+Computer Vision
+Reinformace Learning
+
+Thu, 24 Mar
+
+Data Science
+Pengenalan dan praktek penggunaan aplikasi Tableau
+
+Natural Language Processing
+Bag Of World, Pra Pengolahan Teks
+
+Fri, 25 Mar
+
+Reinfomace learning
+masih susah memahami, beberapa teori masih bekum bisa dipahami
+
+Technical
+Koneksi dan crud sql
+
+What did you learn this week?
+
+Data Sciene
+Data Sciene Sesi 1 Introduction
+
+Natural Language Processing
+Berdiskusi Seputar NLP
+
+Computer Vision
+Reinformace Learning
+
+Data Science
+Pengenalan dan praktek penggunaan aplikasi Tableau
+
+Natural Language Processing
+Bag Of World, Pra Pengolahan Teks
+
+Reinfomace learning
+masih susah memahami, beberapa teori masih bekum bisa dipahami
+
+Technical
+Koneksi dan crud sql

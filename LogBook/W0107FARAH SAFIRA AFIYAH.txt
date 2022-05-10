@@ -1,0 +1,47 @@
+Mon, 21 Feb
+
+pertemuan hari ini diisi dengan perkenalan, kemudian dilanjut dengan pretest mengenai AI dan setelah pretest masuk kedalam pengenalan Artifical Intelligence 
+
+Tue, 22 Feb
+
+Pembelajaran hari ini mengenai python, berkenalan dengan Jupyter Notebook dan Google Colab. Menginstal Jupyter Notebook. selain itu, membahas  mengenai tokoh sejarah yang berhubungan dengan komputer seperti Alan Turing, Charles Babbage dan Ada Lovelace.
+
+Wed, 23 Feb
+
+Hari ini belajar mandiri, melanjutkan pembelajaran mengenai Python, penggunaan Jupyter Notebook, pengenalan Anaconda dan Colab.
+Mengetahui 4 metode yang digunakan untuk menulis dan menjalankan python yaitu dengan Terminal, Terminal + Text Editor, IDE, IDE untuk penelitian dan pengembangan.
+
+Thu, 24 Feb
+
+Hari ini belajar mandiri. Diberikan materi:
+-	penjelasan tentang data yang terdiri dari data terstruktur dan data tidak terstruktur dan cara memperoleh data. 
+-	Penjelasan megenai Ethics/ Etika. AI Etics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI, sehingga AI Ethics sangat penting karena sebagai pedoman. Penjelasan mengenai prinsi dari AI Ethics yang terdiri dari Respect for persons, Beneficence, dan Justice.
+
+Fri, 25 Feb
+
+5.	Hari ini belajar mandiri. Diberikan materi dengan video pembelajaran mengenai Python:
+-	Belajar menggunakan Jupyter Notebook yang ada pada Anaconda Navogator untuk bahasa pemprograman Python. Jupyter mendukung bahasa pemrograman Julia, Python, dan R.
+-	Belajar Python dasar. Komentar tidak dieksekusi pada pemprograman Python. Dilakukan “Print” untuk melakukan perintah mencetak.
+-	Penjelasan tentang Variabel. Variable digunakan sebagai tempat sementara untuk menyimpan data.
+
+What did you learn this week?
+
+SENIN:	
+pertemuan hari ini diisi dengan perkenalan, kemudian dilanjut dengan pretest mengenai AI dan setelah pretest masuk kedalam pengenalan Artifical Intelligence.
+
+SELASA:
+Pembelajaran hari ini mengenai python, berkenalan dengan Jupyter Notebook dan Google Colab. Menginstal Jupyter Notebook. selain itu, membahas mengenai tokoh sejarah yang berhubungan dengan komputer seperti Alan Turing, Charles Babbage dan Ada Lovelace.
+
+RABU:
+Hari ini belajar mandiri, melanjutkan pembelajaran mengenai Python, penggunaan Jupyter Notebook, pengenalan Anaconda dan Colab. Mengetahui 4 metode yang digunakan untuk menulis dan menjalankan python yaitu dengan Terminal, Terminal + Text Editor, IDE, IDE untuk penelitian dan pengembangan.
+
+KAMIS:
+Hari ini belajar mandiri. Diberikan materi:
+-	penjelasan tentang data yang terdiri dari data terstruktur dan data tidak terstruktur dan cara memperoleh data. 
+-	Penjelasan megenai Ethics/ Etika. AI Etics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI, sehingga AI Ethics sangat penting karena sebagai pedoman. Penjelasan mengenai prinsi dari AI Ethics yang terdiri dari Respect for persons, Beneficence, dan Justice.
+
+JUMAT:
+Hari ini belajar mandiri. Diberikan materi dengan video pembelajaran mengenai Python:
+-	Belajar menggunakan Jupyter Notebook yang ada pada Anaconda Navogator untuk bahasa pemprograman Python. Jupyter mendukung bahasa pemrograman Julia, Python, dan R.
+-	Belajar Python dasar. Komentar tidak dieksekusi pada pemprograman Python. Dilakukan “Print” untuk melakukan perintah mencetak.
+-	Penjelasan tentang Variabel. Variable digunakan sebagai tempat sementara untuk menyimpan data.

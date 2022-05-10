@@ -1,0 +1,507 @@
+Mon, 28 Mar
+
+Sesi 1 : Dimensionality Reduction 
+Reduksi dimensi adalah teknik untuk mengurangi dimensi Dataset dalam fitur data dan tanpa menghilangkan informasi dari Dataset tersebut. Reduksi dimensi pada prinsipnya sama dengan ketika mengkompres file yang berukuran besar menjadi zip file dengan membuatnya lebih sederhana dan tanpa menghilangkan informasi dalam file. 
+Alasan perlu reduksi dimensi : 
+- Banyak variabel input dapat menurunkan performa ML
+- Variabel input nya adalah kolom dan fiturnya
+- Jumlah fitur yang banyak mengakibatkan data point merepresentasikan sampel yang tidak representatif
+- Model jadi lebih kompleks dan meningkatkan overfitting
+Tujuan reduksi dimensi : untuk menghindari overfitting. 
+Ciri-ciri data yang perlu dilakukan reduksi data :
+- Data high dimention (data yang fitur nya banyak)
+- Data yang fiturnya > dari observasi 
+- Model mengalami overfitting 
+Dimensionality Reduction Technique : 
+1.) Feature Selection
+- Backward
+- Forward 
+- Etc.
+2.) Feature Extraction 
+- PCA (Principal Component Analysis)
+PCA adalah teknik reduksi dimensi paling populer yang menggunakan operasi matriks sederhana dari aljabar linier dan statistik untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit. 
+PCA Process : 
+Import data frame -> Create n_component -> Generate fit PCA -> Modelling reduction data
+- LDA (Linear Discriminant Analysis)
+LDA adalah algoritma ML untuk klasifikasi dan digunakan untuk reduksi dimensi. Cara kerjanya yaitu menghitung statistik ringkasan untu fitur input menurut label. 
+LDA Process : 
+Import Dataset -> convert Dataset to Pandas -> create DataFrame x,y label -> fit LDA model -> Evaluation model -> Visualization model 
+Persamaan PCA dan LDA : sama-sama menggunakan nilai Eigen dan vektor Eigen 
+Perbedaan PCA dan LDA : 
+- PCA merupakan Unsupervised Learning (tidak menggunakan label), sedangkan LDA merupakan Supervised Learning (menggunakan label)
+- PCA memaksimalkan variable di tiap Feature terbaru, sedangkan LDA Feature baru yang memaksimalkan jarak antar kelas
+
+Sesi 2 : Hands on atau mencoba langsung kode program NLP di Google Colab 
+Case study : SMS Spam Classification 
+Langkah-langkah penyelesaian : 
+1.) Akuisisi Data : 
+- web scraping
+- Public dataset
+- Instansi pemerintah
+- Product invetion
+- Data augmentation
+2.) Text Cleaning : opsional, kalo kita mendapat data dari web scraping
+3.) Text preprocessing :
+- Case Folding
+- lowercase
+- Stopword removal (noisy data removal)
+- Word normalization
+- Tokenisasi
+- Lemitization & stemming
+- Filtering
+4.) Feature Engineering / Extraction 
+- Bag of words
+- TF-IDF,dll.
+5.) Feature Selection 
+- Chi-square
+6.)Modelling
+7.) Evaluasi performa model
+8.) Deployment / tahap produksi
+Pada kasus ini menggunakan Dataset berbahasa Indonesia, sehingga membutuhkan library sastrawi untuk menyelesaikan permasalahan seperti stemming.
+
+Tue, 29 Mar
+
+Sesi 1 : Image Thresholding, Filter, CNN
+Segmentation adalah cara yang digunakan untuk memisahkan object/region terhadap background nya. 
+Thresholding melakukan transformasi ke dalam Binary Image (0-1), kita melakukan setup thresholding yang diinginkan. 
+Fungsi threshold : cv2 (img, thresh_value, maxVal, style)
+1. cv2.THRESH_BINARY
+2. cv2.THRESH_BINARY_INV
+3. cv2.THRESH_TRUNC
+4. cv2.THRESH_TOZERO
+5. cv2.THRESH_TOZERO_INV
+Otsu binatization thresholding
+Citra : - Contrast /Brightness En
+            - Thresholding
+            - Image Filtering : teknik untuk memodifikasi / meningkatkan gambar. 
+            - Edge detection
+Image Filtering / Pemfikteran Citra : 
+- Prinsip Image Filtering : Y = H*X
+- Proses Konvolusi
+- Filter kernel : low pass filter, high pass filter, band stop filter 
+Edge Detection / Deteksi Tepi : 
+- Metode Robert
+- Metode Prewitt
+- Metode Sobel
+Deep Learning & CNN 
+Convolutuonal Neural Network (CNN) adalah kategori Neural Network yang terbukti efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. CNN berhasil mengidentifikasi wajah,objek dan rambu lalu lintas lebih lanjut digunakan sebagai robot Vision dan Self driving car serta dalam aplikasi smart grid. 
+Yann LeCunn : pionir CNN. Pembuat model CNN pertama yang disebut LeNet tahun 1988 digunakan untuk mengenali karakter seperti membaca digit dan zip Code.
+CNN timeline : 
+CNN architectures over a timeline (1998-2019) : LeNet-5 (1998) - AlexNet (2000) - VGG-16 (2003) - Inception-v1 (2006) - Inception-v3 (2008) - ReaNet-50 (2011) - Xception (2013) - Inception-v4 (2015) - Inception ResNets (2017) - ResNExt-50 (2019)
+CNN overview : Input an Image - Process Image (CNN) - Output probability values
+Cara Kerja CNN : Input - Hidden layer (Convolutional + ReLu - Pooling) - Classification (Flatten - Fully Connected - Softmax)
+CNN vs Neural Network :
+- ANN standar dapat menyebabkan overfitting
+- Struktur CNN mirip dengan ANN
+- Topologi CNN memiliki perbedaan dari ANN standar 
+CNN Architecture : 
+3 jenis lapisan / layer : Convolutional Layer, Pooling layer, Fully Connected layer. 
+Tujuan utama konvolusi untuk mengekstrak fitur dari citra masukan. 
+Stride : parameter yang menentukan berapa jumlah pergeseran filter
+Padding : parameter menentukan jumlah pixel (berisi nilai 0) yang ditambahkan di setiap sisi dari input 
+Convolution setting : grid size, padding, stride, Depth, Pooling.
+3 jenis Pooling : Max Pooling, Average Pooling , Sum Pooling. 
+The Loss Function dalam NN mengkuantifikasi antara hasil yang diharapkan dan hasil yang di hasilkan oleh model. 
+Loss function : Binary Classification, Multiclass Classification, Regression. 
+
+Sesi 2 : RL - Monte Carlo Prediction
+Aplikasi DP dalam permasalahan riil : dibutuhkan pengetahuan tentang model Environment yang terkait matriks probabilitas transisi dan sistem reward nya. DP = model-based algorithm
+Mengimplementasikan RL tanpa memodelkan Environment nya secara lengakap yaitu model free algorithm (Monte Carlo)
+Konsep Monte Carlo (MC) : 
+- MC didefinisikan untuk jenis eoisodic environment. 
+- Ide utama MC : value dapat dari rata-rata returns
+- Monte Carlo bekerja dengan pengalaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model
+Elemen Algorithm MC :
+- Goal : belajar V 𝜋 melalui episode experience yang patuh pada policy 𝜋
+- Return : total discounted reward
+- Value function : expected return
+N(s) : 
+- First-visit Mc : N(s) dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode
+- Every-visit Mc : N(s) dihitung setiap mengunjungi state s dalam setiap episode
+MC Estimation : 
+Maintaining Exploraton dilakukan dengan :
+- Episode-episode memulai dengan sebuah pasangan state-action. Mekanisme pertama dari exploring starts.
+- Setiap pasangan memiliki probabilitas yang tidak sama dengan 0 sebagai permulaan episode. Mekanisme kedua dari exploring starts
+- Semua pasangan state-Action memiliki probabilitas tidak dan dengan 0 untuk memilih semua Action pada setiap state
+MC Control : 
+Policy Evaluation : Episode-episode dikerjakan dengan explorating starts
+Policy improvement : untuk setiap Action-value function q,greedy policy nya, untuk setiap 𝑠 ∈ S, memilih sebuah Action yang merupakan action-value maksimal. 
+Konsep On-Policy MC :
+On-Policy MC adalah algoritma Monte carlo yang melakukan evaluasi atau improvisasi dari policy untuk membuat keputusan. Pada On-Policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+Algoritma On-Policy MC
+Konsep On-Policy MC : 
+Off-Policy MC adalah algoritma Monte Carlo yang melakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy nya sama. 
+- Target policy : policy yang dipelajari oleh agent. Target policy adalah greedy policy yang patuh pada Q. 
+- Behavior policy : policy menggenerate behavior. 
+Algoritma Off-Policy MC
+Pemrograman Monte Carlo (code)
+
+Wed, 30 Mar
+
+Sesi 1 : Data Science - Recommender System
+Recommender System : 
+- memberikan informasi berupa saran objek yang kemungkinan dibutuhkan pengguna 
+- Data input berupa profil atau riwayat aktivitas pengguna 
+- Tujuan : meningkatkan aktivitas pengguna dengan memberikan daftar item yang disarankan
+Metode Recommender System : 
+- Collaborative filtering recommendations
+- Content- based recommendation , dll
+A. Content Based Filtering
+- pendekatan ini menggunakan informasi tambahan tentang pengguna / item
+- Metode ini menggunakan fitur item untuk merekomendasi item lain yang serupa dengan yang disuka pengguna 
+Mengetahui kemiripan suatu user/item : 
+1. Membuat vektor yang melambangkan tiap item (item profile) dan vektor yang melambangkan user(user profile)
+2. Menghitung kemiripan tiap item profile dengan user profile. Beberapa metode : Cosine similarity, Euclidean Distance, dan pearson’s correlation
+3. Sorting item berdasarkan skor similarity nya
+B. Collaborative Filtering : merekomendasikan item berdasarkan feedback/rating masa lalu dari sekelompok pengguna 
+1. Memory based
+- item yang disarankan : item yang disukai / diberi rating tinggi oleh pengguna target atau yang mirip dengan item lain yang disukai pengguna target (similarity-based methods)
+Dibagi menjadi 2 kelas : 
+- User-based : metode yang merekomendasikan item dengan melihat kemiripan sekelompok pengguna dengan active user yang kita berikan rekomendasi
+- Item-based : metode rekomendasi yang didasari dengan melihat kesamaan antar item menggunakan rating oleh pengguna 
+2. Model based 
+- item yang disarankan : dipilih dari hasil model yang dilatih untuk mengidentifikasi pola pada data input (clustering, Dimensionality Reduction, diffusion-based methods) 
+- Singular Value Decomlosition / SVD : metode untuk membuat matriks terdekomposisi 3 matriks. SVD digunakan untuk mengkomposisi nilai matriks rating relative dengan penilaian 1 dan lainnya
+Market Basket Analysis adalah pencarian pengetahuan dari transaksi data ketika kita tidak mengetahui pola spesifik apa yang dicari. Market Basket Analysis adalah suatu analisis atas perilaku konsumen secara spesifik dari suatu golongan/kelompok tertentu. Market basket analysis dimanfaatkan sebagai titik awal pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+Proses market basket analysis dimulai dengan transaksi yang terdiri dari satu/lebih penawaran produk/jasa dan beberapa informasi dasar suatu transaksi. Kebutuhan MBA berawal dari keakuratan dan manfaat yang dihasilkan dalam wujud aturan association. Association rules adalah pola keterkaitan data dalam basis data. 
+MBA : teknik yang digunakan pengecer besar untuk mengungkapkan hubungan antar item. Teknik ini mencari kombinasi item yang terjadi bersamaan dalam transaksi. 
+Algoritma Apriori adalah suatu algoritma dasar yang diusulkan oleh Agrawal & Srikant pada tahun 1994 untuk penentuan frequent itemsets untuk aturan asosiasi boolean. Algoritma Apriori memberi kita sifat asosiatif dalam transaksi. Aturan asosiasi atau association rule adalah teknik untuk menemukan aturan asosiasi antara suatu kombinasi item. Terdapat 3 metrik untuk mengukur ketepatan aturan, yaitu :
+1. Support
+Support adalah indikasi seberapa sering kumpulan item muncul pada dataset
+2. Confidence
+Confidence adalah suatu ukuran yang menunjukkan hubungan antar dua item secara conditional (berdasarkan suatu kondisi tertentu).
+3. Lift
+Lift mengacu pada bagaimana peluang kedua item dibeli ketika item pertama dibeli.
+Fungsi MBA : 
+Rules digunakan dalam marketing untuk membuat berbagai keputusan. 
+- Nilai Support : persentase dari semua transaksi yang terjadi yang mengandung itemset tersebut. 
+- Nilai Confidence : perbandingan nilai Support dari himpunan items di dalam file dan nilai Support himpunan items yang mendahuluinya. 
+- Nilai lift rasio : ukuran dalam mengetahui kekuatan aturan asosiasi. 
+
+
+Sesi 2 : NLP - Text Classification 
+NLP Recap : 
+Domain AI yang berhubungan interaksi antara mesin dan manusia menggunakan bahasa alami. NLP menggunakan data tidak terstruktur: tekstual maupun suara. 
+NLP Area Recap : Question Answering Systems (QAS), Summarization, Machine Translation, Speech Recognition, Text Classification
+Text Classification adalah proses pemberian tag/kategori ke teks menurut isinya. Digunakan untuk mengatur, menyusun dan mengkategorikan semua hal. 
+Implementasi Text Classification : 
+- Email/SMS Classification : proses menentukan apakah email/sms tersebut spam atau non-spam
+- Sentiment Analysis : menentukan polaritas sebuah teks, bernilai positif atau negatif
+- Emotion Detection : menentukan emosi dari teks, teks berindikasi senang, sedih, marah, dll
+Pendekatan Text Classification : 
+- Machine Learning : proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks
+- Lexicon-based  : proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya
+Proses Text Classification : Dataset -> Pre-processing -> Feature Extraction -> Feature Selection -> Classification -> Validation & Evaluation -> Production
+
+Thu, 31 Mar
+
+Sesi 1 : Implementasi CNN pada keras
+- Mendeploy CNN Klasifikasi menggunakan Dataset CIFAR-10 
+Dataset CIFAR-10 (Canadian Institute for Advanced Research, 10 kelas) adalah subset dari dataset Tiny Images dan terdiri dari 60000 32x32 gambar berwarna.
+- Meningkatkan akurasi klasifikasi CIFAR-10 
+CNN : 
+Convolution Layer + Pooling Layer (Feature Ekstraksi) -> Flatten layer -> Fully Connected layer 
+y’ prediksi + y target -> Loss function -> Loss score -> Optimizer ( Gradient descent) -> weights 
+Overview : input -> Hidden -> output 
+Calculating error -> Loss function ( Mean Square Error (MSE) atau Cross Entropy (CE) )
+Gradient Descent : 
+Wx = Wx - a (aerror/aWx)
+Kemudian mendemonstrasikan training simple menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan CIFAR images
+Library : 
+- TensorFlow 
+- Numpy, matplotlib
+- Open CV
+
+Sesi 2 : Data visualization - Google Data Studio
+Data Visualization:
+Visualisasi data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data
+• Statis : Grafik tidak bergerak , User tidak dapat melakukan interaksi
+• Beranimasi : Grafik bergerak, User tidak dapat melakukan interaksi
+• Interaktif : Grafik dapat berubah, User dapat melakukan interaksi
+Dimensi atau Dimensions adalah atribut data.
+- Data kualitatif dapat menjadi dimensi
+- Tipe data kategorik (terutama nominal) dapat menjadi dimensi
+- Contoh Dimensi : Nama, Tanggal dan Waktu, Lokasi (Geolocation), Kota, Negara, Tipe Browser, Perangkat
+Metrik atau Metrics adalah pengukuran kuantitatif.
+- Metrik dapat berupa hasil agregasi
+- Contoh Metrik : Nilai, Harga, Total Penjualan, Jumlah Sesi, Jumlah Halaman, Jumlah Sesi per Halaman
+Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan. Granularitas data dapat memberi tahu seberapa detail data. 
+Fungsi Agregasi : Sum, Average, Count, Count Distinct, Min, Max, Median, Standard Deviation, dan Variance
+Google Data Studio adalah tool gratis dari Google
+yang dapat mengubah data menjadi dashboard atau
+laporan yang informatif, mudah dibaca, interaktif,
+mudah dibagikan, dan sepenuhnya dapat disesuaikan
+Keuntungan menggunakan Google Data Studio :
+• Gratis 
+• Mudah dihubungkan dengandata
+• Dashboard atau Report bisa dibagikan ke teman
+• Dapat berkolaborasi dengan rekan 
+• Tersedia template untuk mempercepat pembuatan Report
+Koneksi Sumber Data pada GDS : Databases, Google Marketing Platform, Google Consumer Products, Flat Files, dan Social Media Platforms. 
+Komponen pada Google Data Studio diantaranya adalah report, pages, charts, controls, text areas, lines, shapes, dan images. 
+Tipe Charts di GDS : Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge. 
+Controls di GDS : Filter Control, Date Range Control, dan Data Control.
+
+Fri, 1 Apr
+
+1. Idea dasar dari TDL adalah kombinasi DP dan MC
+2. TDL diaplikasin pada model free
+3. TDL melakukan update value state per step
+4. Bersifat bootstapping
+5. Menggunakan metode trial and error dalam explorasi lingkungan
+6. Cepat dalam mencapai konvergensi
+7. TD control menggunakan SARSA dan Q-Learning
+8. SARSA bekerja berdasarkan perubahan State-Action (S,A)
+9. SARSA adalah algoritma on policy
+10.Pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy.
+
+What did you learn this week?
+
+Sesi 1 : Dimensionality Reduction 
+Reduksi dimensi adalah teknik untuk mengurangi dimensi Dataset dalam fitur data dan tanpa menghilangkan informasi dari Dataset tersebut. Reduksi dimensi pada prinsipnya sama dengan ketika mengkompres file yang berukuran besar menjadi zip file dengan membuatnya lebih sederhana dan tanpa menghilangkan informasi dalam file. 
+Alasan perlu reduksi dimensi : 
+- Banyak variabel input dapat menurunkan performa ML
+- Variabel input nya adalah kolom dan fiturnya
+- Jumlah fitur yang banyak mengakibatkan data point merepresentasikan sampel yang tidak representatif
+- Model jadi lebih kompleks dan meningkatkan overfitting
+Tujuan reduksi dimensi : untuk menghindari overfitting. 
+Ciri-ciri data yang perlu dilakukan reduksi data :
+- Data high dimention (data yang fitur nya banyak)
+- Data yang fiturnya > dari observasi 
+- Model mengalami overfitting 
+Dimensionality Reduction Technique : 
+1.) Feature Selection
+- Backward
+- Forward 
+- Etc.
+2.) Feature Extraction 
+- PCA (Principal Component Analysis)
+PCA adalah teknik reduksi dimensi paling populer yang menggunakan operasi matriks sederhana dari aljabar linier dan statistik untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit. 
+PCA Process : 
+Import data frame -> Create n_component -> Generate fit PCA -> Modelling reduction data
+- LDA (Linear Discriminant Analysis)
+LDA adalah algoritma ML untuk klasifikasi dan digunakan untuk reduksi dimensi. Cara kerjanya yaitu menghitung statistik ringkasan untu fitur input menurut label. 
+LDA Process : 
+Import Dataset -> convert Dataset to Pandas -> create DataFrame x,y label -> fit LDA model -> Evaluation model -> Visualization model 
+Persamaan PCA dan LDA : sama-sama menggunakan nilai Eigen dan vektor Eigen 
+Perbedaan PCA dan LDA : 
+- PCA merupakan Unsupervised Learning (tidak menggunakan label), sedangkan LDA merupakan Supervised Learning (menggunakan label)
+- PCA memaksimalkan variable di tiap Feature terbaru, sedangkan LDA Feature baru yang memaksimalkan jarak antar kelas
+
+Sesi 2 : Hands on atau mencoba langsung kode program NLP di Google Colab 
+Case study : SMS Spam Classification 
+Langkah-langkah penyelesaian : 
+1.) Akuisisi Data : 
+- web scraping
+- Public dataset
+- Instansi pemerintah
+- Product invetion
+- Data augmentation
+2.) Text Cleaning : opsional, kalo kita mendapat data dari web scraping
+3.) Text preprocessing :
+- Case Folding
+- lowercase
+- Stopword removal (noisy data removal)
+- Word normalization
+- Tokenisasi
+- Lemitization & stemming
+- Filtering
+4.) Feature Engineering / Extraction 
+- Bag of words
+- TF-IDF,dll.
+5.) Feature Selection 
+- Chi-square
+6.)Modelling
+7.) Evaluasi performa model
+8.) Deployment / tahap produksi
+Pada kasus ini menggunakan Dataset berbahasa Indonesia, sehingga membutuhkan library sastrawi untuk menyelesaikan permasalahan seperti stemming.
+
+Sesi 1 : Image Thresholding, Filter, CNN
+Segmentation adalah cara yang digunakan untuk memisahkan object/region terhadap background nya. 
+Thresholding melakukan transformasi ke dalam Binary Image (0-1), kita melakukan setup thresholding yang diinginkan. 
+Fungsi threshold : cv2 (img, thresh_value, maxVal, style)
+1. cv2.THRESH_BINARY
+2. cv2.THRESH_BINARY_INV
+3. cv2.THRESH_TRUNC
+4. cv2.THRESH_TOZERO
+5. cv2.THRESH_TOZERO_INV
+Otsu binatization thresholding
+Citra : - Contrast /Brightness En
+            - Thresholding
+            - Image Filtering : teknik untuk memodifikasi / meningkatkan gambar. 
+            - Edge detection
+Image Filtering / Pemfikteran Citra : 
+- Prinsip Image Filtering : Y = H*X
+- Proses Konvolusi
+- Filter kernel : low pass filter, high pass filter, band stop filter 
+Edge Detection / Deteksi Tepi : 
+- Metode Robert
+- Metode Prewitt
+- Metode Sobel
+Deep Learning & CNN 
+Convolutuonal Neural Network (CNN) adalah kategori Neural Network yang terbukti efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. CNN berhasil mengidentifikasi wajah,objek dan rambu lalu lintas lebih lanjut digunakan sebagai robot Vision dan Self driving car serta dalam aplikasi smart grid. 
+Yann LeCunn : pionir CNN. Pembuat model CNN pertama yang disebut LeNet tahun 1988 digunakan untuk mengenali karakter seperti membaca digit dan zip Code.
+CNN timeline : 
+CNN architectures over a timeline (1998-2019) : LeNet-5 (1998) - AlexNet (2000) - VGG-16 (2003) - Inception-v1 (2006) - Inception-v3 (2008) - ReaNet-50 (2011) - Xception (2013) - Inception-v4 (2015) - Inception ResNets (2017) - ResNExt-50 (2019)
+CNN overview : Input an Image - Process Image (CNN) - Output probability values
+Cara Kerja CNN : Input - Hidden layer (Convolutional + ReLu - Pooling) - Classification (Flatten - Fully Connected - Softmax)
+CNN vs Neural Network :
+- ANN standar dapat menyebabkan overfitting
+- Struktur CNN mirip dengan ANN
+- Topologi CNN memiliki perbedaan dari ANN standar 
+CNN Architecture : 
+3 jenis lapisan / layer : Convolutional Layer, Pooling layer, Fully Connected layer. 
+Tujuan utama konvolusi untuk mengekstrak fitur dari citra masukan. 
+Stride : parameter yang menentukan berapa jumlah pergeseran filter
+Padding : parameter menentukan jumlah pixel (berisi nilai 0) yang ditambahkan di setiap sisi dari input 
+Convolution setting : grid size, padding, stride, Depth, Pooling.
+3 jenis Pooling : Max Pooling, Average Pooling , Sum Pooling. 
+The Loss Function dalam NN mengkuantifikasi antara hasil yang diharapkan dan hasil yang di hasilkan oleh model. 
+Loss function : Binary Classification, Multiclass Classification, Regression. 
+
+Sesi 2 : RL - Monte Carlo Prediction
+Aplikasi DP dalam permasalahan riil : dibutuhkan pengetahuan tentang model Environment yang terkait matriks probabilitas transisi dan sistem reward nya. DP = model-based algorithm
+Mengimplementasikan RL tanpa memodelkan Environment nya secara lengakap yaitu model free algorithm (Monte Carlo)
+Konsep Monte Carlo (MC) : 
+- MC didefinisikan untuk jenis eoisodic environment. 
+- Ide utama MC : value dapat dari rata-rata returns
+- Monte Carlo bekerja dengan pengalaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model
+Elemen Algorithm MC :
+- Goal : belajar V 𝜋 melalui episode experience yang patuh pada policy 𝜋
+- Return : total discounted reward
+- Value function : expected return
+N(s) : 
+- First-visit Mc : N(s) dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode
+- Every-visit Mc : N(s) dihitung setiap mengunjungi state s dalam setiap episode
+MC Estimation : 
+Maintaining Exploraton dilakukan dengan :
+- Episode-episode memulai dengan sebuah pasangan state-action. Mekanisme pertama dari exploring starts.
+- Setiap pasangan memiliki probabilitas yang tidak sama dengan 0 sebagai permulaan episode. Mekanisme kedua dari exploring starts
+- Semua pasangan state-Action memiliki probabilitas tidak dan dengan 0 untuk memilih semua Action pada setiap state
+MC Control : 
+Policy Evaluation : Episode-episode dikerjakan dengan explorating starts
+Policy improvement : untuk setiap Action-value function q,greedy policy nya, untuk setiap 𝑠 ∈ S, memilih sebuah Action yang merupakan action-value maksimal. 
+Konsep On-Policy MC :
+On-Policy MC adalah algoritma Monte carlo yang melakukan evaluasi atau improvisasi dari policy untuk membuat keputusan. Pada On-Policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+Algoritma On-Policy MC
+Konsep On-Policy MC : 
+Off-Policy MC adalah algoritma Monte Carlo yang melakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy nya sama. 
+- Target policy : policy yang dipelajari oleh agent. Target policy adalah greedy policy yang patuh pada Q. 
+- Behavior policy : policy menggenerate behavior. 
+Algoritma Off-Policy MC
+Pemrograman Monte Carlo (code)
+
+Sesi 1 : Data Science - Recommender System
+Recommender System : 
+- memberikan informasi berupa saran objek yang kemungkinan dibutuhkan pengguna 
+- Data input berupa profil atau riwayat aktivitas pengguna 
+- Tujuan : meningkatkan aktivitas pengguna dengan memberikan daftar item yang disarankan
+Metode Recommender System : 
+- Collaborative filtering recommendations
+- Content- based recommendation , dll
+A. Content Based Filtering
+- pendekatan ini menggunakan informasi tambahan tentang pengguna / item
+- Metode ini menggunakan fitur item untuk merekomendasi item lain yang serupa dengan yang disuka pengguna 
+Mengetahui kemiripan suatu user/item : 
+1. Membuat vektor yang melambangkan tiap item (item profile) dan vektor yang melambangkan user(user profile)
+2. Menghitung kemiripan tiap item profile dengan user profile. Beberapa metode : Cosine similarity, Euclidean Distance, dan pearson’s correlation
+3. Sorting item berdasarkan skor similarity nya
+B. Collaborative Filtering : merekomendasikan item berdasarkan feedback/rating masa lalu dari sekelompok pengguna 
+1. Memory based
+- item yang disarankan : item yang disukai / diberi rating tinggi oleh pengguna target atau yang mirip dengan item lain yang disukai pengguna target (similarity-based methods)
+Dibagi menjadi 2 kelas : 
+- User-based : metode yang merekomendasikan item dengan melihat kemiripan sekelompok pengguna dengan active user yang kita berikan rekomendasi
+- Item-based : metode rekomendasi yang didasari dengan melihat kesamaan antar item menggunakan rating oleh pengguna 
+2. Model based 
+- item yang disarankan : dipilih dari hasil model yang dilatih untuk mengidentifikasi pola pada data input (clustering, Dimensionality Reduction, diffusion-based methods) 
+- Singular Value Decomlosition / SVD : metode untuk membuat matriks terdekomposisi 3 matriks. SVD digunakan untuk mengkomposisi nilai matriks rating relative dengan penilaian 1 dan lainnya
+Market Basket Analysis adalah pencarian pengetahuan dari transaksi data ketika kita tidak mengetahui pola spesifik apa yang dicari. Market Basket Analysis adalah suatu analisis atas perilaku konsumen secara spesifik dari suatu golongan/kelompok tertentu. Market basket analysis dimanfaatkan sebagai titik awal pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+Proses market basket analysis dimulai dengan transaksi yang terdiri dari satu/lebih penawaran produk/jasa dan beberapa informasi dasar suatu transaksi. Kebutuhan MBA berawal dari keakuratan dan manfaat yang dihasilkan dalam wujud aturan association. Association rules adalah pola keterkaitan data dalam basis data. 
+MBA : teknik yang digunakan pengecer besar untuk mengungkapkan hubungan antar item. Teknik ini mencari kombinasi item yang terjadi bersamaan dalam transaksi. 
+Algoritma Apriori adalah suatu algoritma dasar yang diusulkan oleh Agrawal & Srikant pada tahun 1994 untuk penentuan frequent itemsets untuk aturan asosiasi boolean. Algoritma Apriori memberi kita sifat asosiatif dalam transaksi. Aturan asosiasi atau association rule adalah teknik untuk menemukan aturan asosiasi antara suatu kombinasi item. Terdapat 3 metrik untuk mengukur ketepatan aturan, yaitu :
+1. Support
+Support adalah indikasi seberapa sering kumpulan item muncul pada dataset
+2. Confidence
+Confidence adalah suatu ukuran yang menunjukkan hubungan antar dua item secara conditional (berdasarkan suatu kondisi tertentu).
+3. Lift
+Lift mengacu pada bagaimana peluang kedua item dibeli ketika item pertama dibeli.
+Fungsi MBA : 
+Rules digunakan dalam marketing untuk membuat berbagai keputusan. 
+- Nilai Support : persentase dari semua transaksi yang terjadi yang mengandung itemset tersebut. 
+- Nilai Confidence : perbandingan nilai Support dari himpunan items di dalam file dan nilai Support himpunan items yang mendahuluinya. 
+- Nilai lift rasio : ukuran dalam mengetahui kekuatan aturan asosiasi. 
+
+
+Sesi 2 : NLP - Text Classification 
+NLP Recap : 
+Domain AI yang berhubungan interaksi antara mesin dan manusia menggunakan bahasa alami. NLP menggunakan data tidak terstruktur: tekstual maupun suara. 
+NLP Area Recap : Question Answering Systems (QAS), Summarization, Machine Translation, Speech Recognition, Text Classification
+Text Classification adalah proses pemberian tag/kategori ke teks menurut isinya. Digunakan untuk mengatur, menyusun dan mengkategorikan semua hal. 
+Implementasi Text Classification : 
+- Email/SMS Classification : proses menentukan apakah email/sms tersebut spam atau non-spam
+- Sentiment Analysis : menentukan polaritas sebuah teks, bernilai positif atau negatif
+- Emotion Detection : menentukan emosi dari teks, teks berindikasi senang, sedih, marah, dll
+Pendekatan Text Classification : 
+- Machine Learning : proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks
+- Lexicon-based  : proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya
+Proses Text Classification : Dataset -> Pre-processing -> Feature Extraction -> Feature Selection -> Classification -> Validation & Evaluation -> Production
+
+Sesi 1 : Implementasi CNN pada keras
+- Mendeploy CNN Klasifikasi menggunakan Dataset CIFAR-10 
+Dataset CIFAR-10 (Canadian Institute for Advanced Research, 10 kelas) adalah subset dari dataset Tiny Images dan terdiri dari 60000 32x32 gambar berwarna.
+- Meningkatkan akurasi klasifikasi CIFAR-10 
+CNN : 
+Convolution Layer + Pooling Layer (Feature Ekstraksi) -> Flatten layer -> Fully Connected layer 
+y’ prediksi + y target -> Loss function -> Loss score -> Optimizer ( Gradient descent) -> weights 
+Overview : input -> Hidden -> output 
+Calculating error -> Loss function ( Mean Square Error (MSE) atau Cross Entropy (CE) )
+Gradient Descent : 
+Wx = Wx - a (aerror/aWx)
+Kemudian mendemonstrasikan training simple menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan CIFAR images
+Library : 
+- TensorFlow 
+- Numpy, matplotlib
+- Open CV
+
+Sesi 2 : Data visualization - Google Data Studio
+Data Visualization:
+Visualisasi data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data
+• Statis : Grafik tidak bergerak , User tidak dapat melakukan interaksi
+• Beranimasi : Grafik bergerak, User tidak dapat melakukan interaksi
+• Interaktif : Grafik dapat berubah, User dapat melakukan interaksi
+Dimensi atau Dimensions adalah atribut data.
+- Data kualitatif dapat menjadi dimensi
+- Tipe data kategorik (terutama nominal) dapat menjadi dimensi
+- Contoh Dimensi : Nama, Tanggal dan Waktu, Lokasi (Geolocation), Kota, Negara, Tipe Browser, Perangkat
+Metrik atau Metrics adalah pengukuran kuantitatif.
+- Metrik dapat berupa hasil agregasi
+- Contoh Metrik : Nilai, Harga, Total Penjualan, Jumlah Sesi, Jumlah Halaman, Jumlah Sesi per Halaman
+Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan. Granularitas data dapat memberi tahu seberapa detail data. 
+Fungsi Agregasi : Sum, Average, Count, Count Distinct, Min, Max, Median, Standard Deviation, dan Variance
+Google Data Studio adalah tool gratis dari Google
+yang dapat mengubah data menjadi dashboard atau
+laporan yang informatif, mudah dibaca, interaktif,
+mudah dibagikan, dan sepenuhnya dapat disesuaikan
+Keuntungan menggunakan Google Data Studio :
+• Gratis 
+• Mudah dihubungkan dengandata
+• Dashboard atau Report bisa dibagikan ke teman
+• Dapat berkolaborasi dengan rekan 
+• Tersedia template untuk mempercepat pembuatan Report
+Koneksi Sumber Data pada GDS : Databases, Google Marketing Platform, Google Consumer Products, Flat Files, dan Social Media Platforms. 
+Komponen pada Google Data Studio diantaranya adalah report, pages, charts, controls, text areas, lines, shapes, dan images. 
+Tipe Charts di GDS : Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge. 
+Controls di GDS : Filter Control, Date Range Control, dan Data Control.
+
+1. Idea dasar dari TDL adalah kombinasi DP dan MC
+2. TDL diaplikasin pada model free
+3. TDL melakukan update value state per step
+4. Bersifat bootstapping
+5. Menggunakan metode trial and error dalam explorasi lingkungan
+6. Cepat dalam mencapai konvergensi
+7. TD control menggunakan SARSA dan Q-Learning
+8. SARSA bekerja berdasarkan perubahan State-Action (S,A)
+9. SARSA adalah algoritma on policy
+10.Pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy.

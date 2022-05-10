@@ -1,0 +1,319 @@
+Mon, 18 Apr
+
+[Data Science]
+
+K-means clustering adalah salah satu algoritma unsupervised learning yang termasuk ke dalam analisis klaster (cluster analysis) non hirarki yang digunakan untuk  mengelompokkan  data berdasarkan variabel atau feature.
+
+Tujuan dari k-means clustering, seperti metode klaster lainnya, adalah untuk mendapatkan kelompok data dengan memaksimalkan kesamaan karakteristik dalam klaster dan memaksimalkan perbedaan antar klaster.
+
+Algoritma K-means clustering mengelompokkan data berdasarkan jarak antara data terhadap titik centroid klaster yang didapatkan melalui proses berulang. Analisis perlu menentukan jumlah K sebagai input algoritma.
+
+Dalam ranah machine learning, algoritma k-means clustering termasuk ke dalam jenis unsupervised learning.
+
+Contoh aplikasi  K-means
+Contoh penggunaan K-means clustering antara lain:
+
+Segmentasi pasar (market segmentation)
+Segmentasi citra
+Kompresi gambar
+Klasifikasi citra penginderaan jauh
+
+Untuk tujuan-tujuan eksploratori,  k-means dapat dimanfaatkan untuk  melengkapi proses Exploratory Data Analysis (EDA), selain menggunakan analisis statistik deskriptif dan visualisasi data.
+
+Sedangkan dalam proses confirmatori dan eksplanatori, K-means clustering dapat digunakan untuk melakukan konfirmasi terhadap teori-teori yang sudah ada.
+
+Algoritma K-means clustering dilakukang dengan proses sebagai berikut:
+
+LANGKAH 1: TENTUKAN JUMLAH CLUSTER (K). Dalam contoh ini, kita tetapkan bahwa K =3 
+LANGKAH 2: PILIH TITIK ACAK SEBANYAK K. Titik ini merupakan titik seed dan akan menjadi titik centroid proses pertama. Titik ini tidak harus titik data kita
+LANGKAH 3: LABEL SEMUA DATA BERDASARKAN TITIK CENTROID TERDEKAT. Semua data diberikan label mengikuti titik centroid dari setiap klaster. Perhitungan jarak ini bisa menggunakan algoritma jarak tertentu, secara default dilakukan dengan Euclidean Distance
+LANGKAH 4: TENTUKAN TITIK CENTROID BARU BERDASARKAN CLUSTER YANG TERBENTUK. Titik centroid selanjutnya “berpindah” ke lokasi centroid setiap cluster yang telah terbentuk.
+LANGKAH 5: LABEL ULANG DATA  BERDASARKAN JARAK TERDEKAT TERHADAP CENTROID BARU. Langkah ini merupakan langkah yang sama dengan langkah ketiga. Perhatikan titik data yang diberikan tanda panah, berubah dari cluster merah ke cluster biru.
+LANGKAH 6: ULANGI LANGKAH 4 DAN LANGKAH 5 SAMPAI TIDAK ADA PERGERAKAN LAGI. Secara berulang, algoritma akan mencari lokasi centroid baru dan melabel data berdasarkan centroid tersebut sampai mendapat hasil final, yaitu tidak ada lagi perpindahan centroid di setiap cluster. 
+
+Tue, 19 Apr
+
+[Computer Vision]
+
+- Pengertian Segmentasi
+The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan  gambar dengan menggambar garis di sekitar objek disebut Segmentasi
+
+- Type Segmentasi
+•Semantic Segmentation masks road, sheep and grass. dapat mengidentifikasi objek yang berbeda.
+•Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+
+- Aplikasi Segmentasi
+1. identifikasi jalan oleh satelit
+2. aktivitas rekognisi
+3. objek ekstraksi
+4. crop monitoring
+
+- Evaluasi
+Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi. dengan cara membagi mask irisan prediksi mask dengan gabungan prediksi mask dengan objek
+
+- Encoder 
+• Lapisan encoder dan decoder berukuran sama.
+• Encoder digunakan untuk mengekstrak fitur.
+• Decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+
+U-net keuntungan
+⮚ Fleksibel dan dapat digunakan untuk tugas rational image masking task
+⮚ Akurasi tinggi (given proper training, dataset, and training time) 
+⮚ Tidak mengandung lapisan fully connected layers
+⮚ Lebih cepat dari sliding-window (1-detik per image)
+⮚ Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+⮚ Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda.
+U-net kerugian
+⮚ Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+⮚ Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+⮚ Pre-trained models tidak tersedia secara luas (it's too task specific)
+
+Wed, 20 Apr
+
+[NLP]
+
+Speech Recognition
+• Speech Recognition atau yang biasa dikenal dengan Automatic Speech
+Recognition (ASR) merupakan suatu pengembangan teknik dan sistem
+yang memungkinkan komputer untuk menerima masukan berupa kata
+yang diucapkan.
+• Teknologi ini memungkinkan suatu perangkat untuk mengenali dan
+memahami kata-kata yang diucapkan dengan cara mengubah sinyal
+analog berupa gelombang suara menjadi sinyal digital dan mencocokkan
+sinyal digital tersebut dengan suatu pola tertentu yang tersimpan dalam
+suatu perangkat
+
+Speech Recognition vs Voice Recognition
+• Pengenalan ucapan (Speech Recognition) digunakan untuk
+mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan.
+• Pengenalan suara (Voice Recognition) adalah teknologi untuk
+mengidentifikasi suara individu
+
+Framework
+Beberapa frameworks open-source untuk Automatic Speech Recognition
+• CMU Sphinx - https://cmusphinx.github.io/
+• Kaldi - https://github.com/kaldi-asr/kaldi
+• ESPnet - https://github.com/espnet/espnet
+
+Audio Processing
+Dua toolkit audio processing yang open-source untuk Automatic Speech Recognition :
+1. SoX – Sound eXchange
+Toolkit dan library yang dapat  digunakan untuk memanipulasi audio.  Tools ini mengimplementasikan banyak format file dan dapat digunakan untuk memutar,mengonversi, dan memanipulasi file audio.
+2. Librosa
+Library Python yang dapat digunakan untuk analisis audio, mengekstraksi fitur, dan pemrosesan sinyal digital (Digital Signal Processing, DSP)
+
+Model Pada Speech Recognition
+1. Model Akustik
+Ini mewakili hubungan antara unit linguistik ucapan (phonem) dan sinyal audio.
+2. Model Bahasa
+Pada model ini suara dicocokkan dengan urutan kata untuk membedakan antara kata-kata yang mirip
+
+Markov Model
+- Markov Chain (Markov Model) ditemukan oleh Andrey Markov. Ketika 
+diberi inputan pada keadaan saat ini, maka keadaan yang akan datang 
+dapat diprediksi
+- Markov Model tetapi memiliki kondisi yang tidak dapat diamati 
+atau observasi, oleh sebab itu disebut hidden. Walaupun keadaan atau 
+kondisi yang tidak dapat diamati, HMM memiliki output yang dapat terlihat
+
+Thu, 21 Apr
+
+[RL]
+
+- Konsep RL Dasar
+a. Algoritma RL menghendaki pertukaran state-action-reward antara agent dan environment
+b. RL belajar dari interaksi agent dengan environment menggunakan proses eksploitasi/eksplorasi dan sistem reward, untuk memperkuat (reinforce) action positif
+c. Eksploitasi dan eksplorasi perlu diatur sedemikian sehingga tujuan dapat tercapai
+d. Eksploitasi adalah action RL dalam menggunakan solusi terbaik sebelumnya
+e. Eskplorasi adalah actionRL daslam melakukan action berbeda untuk mencari solusi yang lebih baik
+f. Algortima RL yan lebih dominan eksploitasi, memungkinkan terlewatkannya kemungkinan peluang solusi lain yang lebih baik
+g. Algoritma RL yang lebih dominan eksplorasi, memungkinkan agent RL tersebut akan mendap[atkan banyak peluang solusi buruk
+
+- Konsep RL Interaksi Agent
+a. Tujuan dari agent adalah memaksimalkan reward kumulatif, disebut return
+b. Return merupakan penjumlahan dari reward - reward yang terdiskon :
+Gt = Rt_1 + YRt_2 + Y^2Rt_3  + Y^3Rt_4 + .....
+c. Dengan faktor diskon yang nilai pangkatnya semakin meningkat, maka seiring bertambahnya waktu, reward yang diterima semakin berkurang nilainya.
+d. Dalam banyak kasus, environment tidak dapat teramati seluruhnya oleh agent. Agent harus melakukan action dan melihat bagaimana environment bereaksi terhadap action tersebut, untuk mendapatkan informasi
+
+- Konsep RL Value Function
+a. Value function berguna untuk mengevaluasi posisi agent, baik atau buruk, pada state yan diketahui.
+b. Value function mengukur apakah state yang diberikan adalah yang di inginkan oleh agent, yaitu kedekatannya dengan expected value
+c. Value function mengambil sebuah state (dan action) debagai input dengan mengikuti sebuah policy sebagai aturan, lalu menghasilkan nilai skalar yang merepresentasikan reward kumulatif (return) yang diinginkan
+
+- Konsep RL Policy
+a. strategi yang diterapkan oleh agent untuk memutuskan tindakan selanjutnya berdasarkan keadaan saat ini
+
+Fri, 22 Apr
+
+[Teknikal]
+
+nelajar mengenai membuat web aplication yang memuat algoritma machine learning agar bisa fiakses secara publik dengan heroku.
+Cara untuk Mendeploy Web Dengan Heroku :
+- download dan instal git di komputer
+- download heroku cli dan buat akun di web heroku
+- masuk ke web heroku dan buat new app
+- buka cmd dan cmd dan cek apakah heroku sudah terisntal di komputer dengan ketikkan "heroku --version"
+- masuk kedalam folder project yang ingin dideploy
+- login heroku dari cmd dengan cara  "heroku login -i"
+- buat remote heroku digithub dengan mengetikkan "heroku git:remote -a nama_sesuai_yang_dibuat_di_create_app_heroku"
+- buat buildpack dengan mengetikkan di cmd "heroku buildpack:set heroku/python"
+- selanjutnya push ke main branch "git push heroku main"
+- copy link http:// ke web, dan web yang ita deploy akan muncul dengan url (herokuapp.com) bukan local lagi
+
+What did you learn this week?
+
+[Data Science]
+
+K-means clustering adalah salah satu algoritma unsupervised learning yang termasuk ke dalam analisis klaster (cluster analysis) non hirarki yang digunakan untuk  mengelompokkan  data berdasarkan variabel atau feature.
+
+Tujuan dari k-means clustering, seperti metode klaster lainnya, adalah untuk mendapatkan kelompok data dengan memaksimalkan kesamaan karakteristik dalam klaster dan memaksimalkan perbedaan antar klaster.
+
+Algoritma K-means clustering mengelompokkan data berdasarkan jarak antara data terhadap titik centroid klaster yang didapatkan melalui proses berulang. Analisis perlu menentukan jumlah K sebagai input algoritma.
+
+Dalam ranah machine learning, algoritma k-means clustering termasuk ke dalam jenis unsupervised learning.
+
+Contoh aplikasi  K-means
+Contoh penggunaan K-means clustering antara lain:
+
+Segmentasi pasar (market segmentation)
+Segmentasi citra
+Kompresi gambar
+Klasifikasi citra penginderaan jauh
+
+Untuk tujuan-tujuan eksploratori,  k-means dapat dimanfaatkan untuk  melengkapi proses Exploratory Data Analysis (EDA), selain menggunakan analisis statistik deskriptif dan visualisasi data.
+
+Sedangkan dalam proses confirmatori dan eksplanatori, K-means clustering dapat digunakan untuk melakukan konfirmasi terhadap teori-teori yang sudah ada.
+
+Algoritma K-means clustering dilakukang dengan proses sebagai berikut:
+
+LANGKAH 1: TENTUKAN JUMLAH CLUSTER (K). Dalam contoh ini, kita tetapkan bahwa K =3 
+LANGKAH 2: PILIH TITIK ACAK SEBANYAK K. Titik ini merupakan titik seed dan akan menjadi titik centroid proses pertama. Titik ini tidak harus titik data kita
+LANGKAH 3: LABEL SEMUA DATA BERDASARKAN TITIK CENTROID TERDEKAT. Semua data diberikan label mengikuti titik centroid dari setiap klaster. Perhitungan jarak ini bisa menggunakan algoritma jarak tertentu, secara default dilakukan dengan Euclidean Distance
+LANGKAH 4: TENTUKAN TITIK CENTROID BARU BERDASARKAN CLUSTER YANG TERBENTUK. Titik centroid selanjutnya “berpindah” ke lokasi centroid setiap cluster yang telah terbentuk.
+LANGKAH 5: LABEL ULANG DATA  BERDASARKAN JARAK TERDEKAT TERHADAP CENTROID BARU. Langkah ini merupakan langkah yang sama dengan langkah ketiga. Perhatikan titik data yang diberikan tanda panah, berubah dari cluster merah ke cluster biru.
+LANGKAH 6: ULANGI LANGKAH 4 DAN LANGKAH 5 SAMPAI TIDAK ADA PERGERAKAN LAGI. Secara berulang, algoritma akan mencari lokasi centroid baru dan melabel data berdasarkan centroid tersebut sampai mendapat hasil final, yaitu tidak ada lagi perpindahan centroid di setiap cluster. 
+
+[Computer Vision]
+
+- Pengertian Segmentasi
+The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan  gambar dengan menggambar garis di sekitar objek disebut Segmentasi
+
+- Type Segmentasi
+•Semantic Segmentation masks road, sheep and grass. dapat mengidentifikasi objek yang berbeda.
+•Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+
+- Aplikasi Segmentasi
+1. identifikasi jalan oleh satelit
+2. aktivitas rekognisi
+3. objek ekstraksi
+4. crop monitoring
+
+- Evaluasi
+Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi. dengan cara membagi mask irisan prediksi mask dengan gabungan prediksi mask dengan objek
+
+- Encoder 
+• Lapisan encoder dan decoder berukuran sama.
+• Encoder digunakan untuk mengekstrak fitur.
+• Decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+
+U-net keuntungan
+⮚ Fleksibel dan dapat digunakan untuk tugas rational image masking task
+⮚ Akurasi tinggi (given proper training, dataset, and training time) 
+⮚ Tidak mengandung lapisan fully connected layers
+⮚ Lebih cepat dari sliding-window (1-detik per image)
+⮚ Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+⮚ Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda.
+U-net kerugian
+⮚ Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+⮚ Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+⮚ Pre-trained models tidak tersedia secara luas (it's too task specific)
+
+[NLP]
+
+Speech Recognition
+• Speech Recognition atau yang biasa dikenal dengan Automatic Speech
+Recognition (ASR) merupakan suatu pengembangan teknik dan sistem
+yang memungkinkan komputer untuk menerima masukan berupa kata
+yang diucapkan.
+• Teknologi ini memungkinkan suatu perangkat untuk mengenali dan
+memahami kata-kata yang diucapkan dengan cara mengubah sinyal
+analog berupa gelombang suara menjadi sinyal digital dan mencocokkan
+sinyal digital tersebut dengan suatu pola tertentu yang tersimpan dalam
+suatu perangkat
+
+Speech Recognition vs Voice Recognition
+• Pengenalan ucapan (Speech Recognition) digunakan untuk
+mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan.
+• Pengenalan suara (Voice Recognition) adalah teknologi untuk
+mengidentifikasi suara individu
+
+Framework
+Beberapa frameworks open-source untuk Automatic Speech Recognition
+• CMU Sphinx - https://cmusphinx.github.io/
+• Kaldi - https://github.com/kaldi-asr/kaldi
+• ESPnet - https://github.com/espnet/espnet
+
+Audio Processing
+Dua toolkit audio processing yang open-source untuk Automatic Speech Recognition :
+1. SoX – Sound eXchange
+Toolkit dan library yang dapat  digunakan untuk memanipulasi audio.  Tools ini mengimplementasikan banyak format file dan dapat digunakan untuk memutar,mengonversi, dan memanipulasi file audio.
+2. Librosa
+Library Python yang dapat digunakan untuk analisis audio, mengekstraksi fitur, dan pemrosesan sinyal digital (Digital Signal Processing, DSP)
+
+Model Pada Speech Recognition
+1. Model Akustik
+Ini mewakili hubungan antara unit linguistik ucapan (phonem) dan sinyal audio.
+2. Model Bahasa
+Pada model ini suara dicocokkan dengan urutan kata untuk membedakan antara kata-kata yang mirip
+
+Markov Model
+- Markov Chain (Markov Model) ditemukan oleh Andrey Markov. Ketika 
+diberi inputan pada keadaan saat ini, maka keadaan yang akan datang 
+dapat diprediksi
+- Markov Model tetapi memiliki kondisi yang tidak dapat diamati 
+atau observasi, oleh sebab itu disebut hidden. Walaupun keadaan atau 
+kondisi yang tidak dapat diamati, HMM memiliki output yang dapat terlihat
+
+[RL]
+
+- Konsep RL Dasar
+a. Algoritma RL menghendaki pertukaran state-action-reward antara agent dan environment
+b. RL belajar dari interaksi agent dengan environment menggunakan proses eksploitasi/eksplorasi dan sistem reward, untuk memperkuat (reinforce) action positif
+c. Eksploitasi dan eksplorasi perlu diatur sedemikian sehingga tujuan dapat tercapai
+d. Eksploitasi adalah action RL dalam menggunakan solusi terbaik sebelumnya
+e. Eskplorasi adalah actionRL daslam melakukan action berbeda untuk mencari solusi yang lebih baik
+f. Algortima RL yan lebih dominan eksploitasi, memungkinkan terlewatkannya kemungkinan peluang solusi lain yang lebih baik
+g. Algoritma RL yang lebih dominan eksplorasi, memungkinkan agent RL tersebut akan mendap[atkan banyak peluang solusi buruk
+
+- Konsep RL Interaksi Agent
+a. Tujuan dari agent adalah memaksimalkan reward kumulatif, disebut return
+b. Return merupakan penjumlahan dari reward - reward yang terdiskon :
+Gt = Rt_1 + YRt_2 + Y^2Rt_3  + Y^3Rt_4 + .....
+c. Dengan faktor diskon yang nilai pangkatnya semakin meningkat, maka seiring bertambahnya waktu, reward yang diterima semakin berkurang nilainya.
+d. Dalam banyak kasus, environment tidak dapat teramati seluruhnya oleh agent. Agent harus melakukan action dan melihat bagaimana environment bereaksi terhadap action tersebut, untuk mendapatkan informasi
+
+- Konsep RL Value Function
+a. Value function berguna untuk mengevaluasi posisi agent, baik atau buruk, pada state yan diketahui.
+b. Value function mengukur apakah state yang diberikan adalah yang di inginkan oleh agent, yaitu kedekatannya dengan expected value
+c. Value function mengambil sebuah state (dan action) debagai input dengan mengikuti sebuah policy sebagai aturan, lalu menghasilkan nilai skalar yang merepresentasikan reward kumulatif (return) yang diinginkan
+
+- Konsep RL Policy
+a. strategi yang diterapkan oleh agent untuk memutuskan tindakan selanjutnya berdasarkan keadaan saat ini
+
+[Teknikal]
+
+belajar mengenai membuat web aplication yang memuat algoritma machine learning agar bisa fiakses secara publik dengan heroku.
+Cara untuk Mendeploy Web Dengan Heroku :
+- download dan instal git di komputer
+- download heroku cli dan buat akun di web heroku
+- masuk ke web heroku dan buat new app
+- buka cmd dan cmd dan cek apakah heroku sudah terisntal di komputer dengan ketikkan "heroku --version"
+- masuk kedalam folder project yang ingin dideploy
+- login heroku dari cmd dengan cara  "heroku login -i"
+- buat remote heroku digithub dengan mengetikkan "heroku git:remote -a nama_sesuai_yang_dibuat_di_create_app_heroku"
+- buat buildpack dengan mengetikkan di cmd "heroku buildpack:set heroku/python"
+- selanjutnya push ke main branch "git push heroku main"
+- copy link http:// ke web, dan web yang ita deploy akan muncul dengan url (herokuapp.com) bukan local lagi

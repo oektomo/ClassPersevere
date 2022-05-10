@@ -1,0 +1,78 @@
+Mon, 21 Mar
+
+Sesi 1 belajar mengenai Data Science
+
+Introduction to Data Science 
+
+Data Science adalah irisan dari 2 kemampuan, yaitu coding, math, dan domain. 
+data science mengolah data mentah menjadi suatu informasi yang bisa digunakan dalam sektor sosial,bisnis, dll.
+
+Data Prepocessing : Data Manipulation dan Data Visualization
+
+Data Manipulation : 
+-Data Cleaning : Proses memperbaiki / menghilangkan data yang tidak sesuai dengan tujuan
+- Data transformation : Proses yang mengubah data dari satu format ke format lain
+- Data Reduction : Proses mengurangi jumlah data
+
+
+Untuk sesi dua belajar mengenai NLP 
+
+NLP adalah cabang dari AI yang berhubungan dengan IMK menggunakan bahasa alami. 
+yang termasuk area NLP adalah : 
+- Information Retrival
+- Machine Translation
+- Speech Recognition
+- T ext Classification
+-Text Summarization
+
+Tue, 22 Mar
+
+Sesi 1 belajar mengenai Computer Vision dan Reinforcement Learning 
+
+3 Istilah yang sering dalam RL adalah Agent, Reward, dan Action.
+
+Wed, 23 Mar
+
+Belajar mengenai Data Science dan NLP 
+
+Data Science 
+1. Bar Chart digunakan untuk data kategorikal
+2. Line Chart digunakan untuk data time series
+3. Pie Chart digunakan untuk data kategorikal 1 variabel
+4. Histogram digunakan untuk data numerik
+
+Thu, 24 Mar
+
+Sesi 1 belajar mengenai Computer Vision. 
+
+Jenis representasi bit pada citra : 
+1. Binary Image
+2. 8 Bit Color Format
+3. 16 Bit Color Format
+
+Jenis Perbaikan Citra : 
+1. Spatial Domain
+2. Frequency Domain
+
+Sesi 2 belajar mengenai Technical. yaitu tentang git & github serta mendapat tugas untuk push dari local repository ke remote repository
+
+Fri, 25 Mar
+
+Sesi 1 belajar mengenai Reinforcement Learning
+
+Markov Decision Process dan Dynamic Programming
+Markov Property : Masa depan tidak bergantung pada masa lalu, tapi masa kini. 
+Return ( utility) adalah jumlah reward selama mengikuti jalur
+Jalur adalah urutan dari action, reward, dan state
+Transition Probability digunakan untuk melihat apakah probabilitas yang kita buat sudah benar
+
+
+Sesi dua belajar technical. mengenai sql. dan mendapat tugas mengenai sql.
+
+What did you learn this week?
+
+Senin : Data Science ( Introduction Into Data Science)  dan Natural language processing 
+Selasa: Computer Vision dan Reinforcement Learning (pengenalan)
+Rabu: Data Science visualization data with tabelau dan Natural Languange Processing
+Kamis : Computer Vision ( Image Processing) dan Technical ( Git & Github)
+Jumat : Reinforcement Learning ( Markov Decision Process & Dynamic Programming) dan Technical ( SQL)

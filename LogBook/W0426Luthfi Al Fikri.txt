@@ -1,0 +1,267 @@
+Mon, 14 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 3 Data Analytics with python-applied analytics
+- Section Data Manipulation with pandas
+- Deep Learning with Geoffrey Hinton
+- Numpy data types ==> Numpy mendukung lebih luas berbagai type data jika dibandingkan dengan python.
+- Pandas ==> library Python bersifat open source yang banyak digunakan sebagai tools analisis data Python.
+- Pandas Object ==> versi array terstruktur Numpy yang disempurnakan dimana baris dan kolom diidentifikasi menggunakan label daripada indeks integer sederhana.
+- Pandas: Data Import, Export
+
+Sesi II :
+- Module 3 Data Analytics with python-applied analytics
+- Masih di dalam Section Data Manipulation with pandas
+- Pandas: Selection & Filtering 
+- Data Aggregation: Groupby
+- Pandas: Transformation Data menggunakan map
+- Pandas: Data Transformation - Replacing Values
+- Pandas: Data Transformation - Discretization & Binning
+- Seaborn ==> Library untuk membuat grafik statistik di Python
+- Stripplot and Swarmplot with Seaborn
+Strip Plot ==> digunakan untuk menganalisis numerik v/s categorial data
+Swarm Plot ==> dapat digunakan melakukan analisis multivariat antara numerik v/s categorial v/s categorial
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Di akhir modul ini kita dapat :
+Pengertian Numpy dan penggunaanya
+Mempelajari dasar-dasar preprocessing data
+Mempelajari prosedur instalasi dan konsep dasar Pada pandas
+Memahami data import export, selection dan filtering dengan dataframes
+Data transformation menggunakan pandas
+
+Tue, 15 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali dan agak sedikit santai.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Data Visualization ==> Dapat digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts.
+- matplotlib ==> Salah satu paket python paling populer yang digunakan untuk visualisasi data.
+- Lineplot, Pie Chart, Working with Plats.
+- Module 3 Data Analytics with python- applieda analytics
+- Section Exploratory data analytics
+- Derived Variables
+- Analysis of Derived Variables
+- Exploratory Data Analysis
+- EDA with Data Visualization
+- Methods of Exploratory Data Analysis
+- Approaches and Techniques
+
+Sesi II :
+- Di Sesi II ini hanya Menjelaskan dan Memberi Contoh Codingan dari Analysis Data Visualization Menggunakan GoogleColab.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Pada akhir modul kita akan dapat :
+Memahami teknik visualisasi data dengan python.
+Memahami fungsi visualisasi dasar dengan matplotlib.
+Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie chart, box plots, strip plots, swarmplots dengan matplotlib dan seaborn.
+Membuat visualisasu untuk time series data.
+- Matplotlib Image Function --> Function : Imread, Imsave, Imshow.
+- Matplotlib Figure Functions --> Function : FigText, Figure, Show, Savefig, dan Close.
+
+Wed, 16 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali dan agak sedikit santai.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module 4 Supervised Machine Learning and Predictive Modelling
+- Section Linear Regression
+- Regression Technique
+- Regression in Real World
+- Regression Types : Linier dan Non-Linier
+- Linear Regression Types
+- Objectives of Linier Regression ==> Menganalisa relasi antara dua variable dan Memprediksi nilai baru yang mungkin.
+- What is Linear Regression? => Algoritma Supervised Learning yang belajar dari sekumpulan sampel data latih.
+- Univariate Linear Regression => Selama periode latih (training), garis regresi akan sampai pada kondisi "fit".
+- Linear Regression - Variables affecting Regression Equation
+- Linear Regression - Housing prices prediction
+- Linear Regression - Gradient Descent Algorithm
+
+Sesi II :
+- Module 4 Supervised Machine Learning and Predictive Modelling
+- Masih Section Linear Regression
+- Linear Regression - OLS
+- Linear Regression - R Squared
+- Linear Regression - Goodness of Fit (Contd.)
+- Cross Validation Types
+- K-Fold Cross Validation
+- Overfitting & Generalisation
+- Lasso (L1) Regression
+- Ridge (L2) Regression
+- Module 4 Supervised Machine Learning dan Predictive Modelling
+- Section Logistic Regression
+- What is Logistic Regression ==> Salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas 
+- Assumptions pada Logistic Regression
+- Objective of Logistic Regression - Binary Classification
+- Logistic Regression - Diabetes Dataset 
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Di Akhir modul ini akan dapat :
+Memahami lebih detil tentang teknik regression dan berbagai use case nya
+Melihat bagaimana konsep gradient descent di linier regression
+Menjelaskan fungsi dari cost function
+Melakukan training model untuk memahami konsep gradient descent
+Mendeskripsikan regularisasi pada regression seperti : Lasso dan Ridge Regression
+Mendefinisikan Generalized Linear Regression (GLM)
+- Analisa regression dapat digunakan :
+Untuk memprediksi nilai-nilai dari dependent variable Y, berdasarkan relasinya dengan nilai-nilai dari independent variable X (min 1)
+Untuk menjelaskan apa pengaruh dari perubahan dari perubahan pada sebuah independent variable terhadap dependent variable melalui estimasi nilai numerik dan hubungan yang ada.
+- Learning Objectives, Di Akhir modul ini akan dapat :
+Memahami Algoritma Logistic Regression
+Menjelaskan intuisi matematika dibalik logistic Regression
+Memahami Cost Function untuk Logistic Regression
+Memahami Maximum likehood estimation
+Melakukan analisa performa dari persoalan klasifikasi
+- Melakukan perbandingan terhadap Linear Probability  Model dengan Logistic Regression Model
+- Logistic Regression
+Binary Classification using Logistic Regression - Sigmoidal Functional
+Multinomial Classification using Logistic Regression - Softmax Function
+
+Thu, 17 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini agak sedikit santai.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Belajar Algoritma k-NN => algoritma supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori k-tetangga terdekat.
+- Machine Learning : Supervised Learning
+- Comparison Supervised Learning dan Unsupervised Learning
+- Himpunan Data (Dataset)
+- Pemisahan Dataset (Split Dataset), dibagi menjadi 3 : Training set, Validation set, Testing dataset/data yang tidak terlihat (unseen data).
+- Regresi ==> output nya berupa nilai kontinu dan Klasifikasi ==> output nya berupa nilai kategorik.
+- Penjelasan Kasus k-NN, K-Nearest Neighbor (k-NN), dan Contoh Kasus k-NN.
+- Instance Based Learning.
+- Curse of Dimensionality (Contd.)
+- K-Factor
+- Use Case of KNN
+
+Sesi II :
+- Module 5 Supervised Machine Learning and Predictive Modelling
+- Section Decision Tree
+- Decision Tree ==> merupakan algoritma supervised learning yang bekerja untuk data Input dan OUtput yang bersifat Categorial (Classification Tree) dan Continuous (Regression Tree)
+- Decision Tree Illustration using Sample Dataset.
+- Entropy (pi) ==> merupakan proporsi (dari jumlah observasi) dari i th kategori tertentu dari variable target.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Supervised Learning
+Mempunyai Label = Kelas (y) dan Feature = atribut (x)
+x := input fungsi dan independent variable 
+y := nilai aktual
+y_hat := output fungsi (prediksi, estimasi)
+f(x) := output fungsi
+y_hat := dependent variable
+- Penggunaan KNN Algorithm Pengerjaan
+Instance-based, Competitive Learning, dan Lazy Learning.
+- Learning Objectives, Di akhir modul kita akan dapat :
+Mendefinisikan Konsep-Konsep berikut : Decision Tree, Homogeinity, Gini Index, Entropy dan Information Gain, dan Truncation dan Pruning.
+Memahami Implementasi Decision Tree untuk persoalan regresi.
+Memahamin perbedaan dari beberapa pendekatan untuk mengimpelemantasikan Algoritma Decision Tree.
+- Karakter Decision Tree :
+Sebuah inner node mempresentasikan sebuah attribute.
+Sebuah edge mempresentasikan hubungan attribute tersebut dengan father node.
+Sebuha leaf node mempresentasikan salah satu kelas.
+
+Fri, 18 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini agak sedikit rumit.
+- Dan hari terakhir mengajar di minggu ini
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Memberitahukan Sesi Minggu depan yang akan datang yaitu Data Science, Computer Vision, Natural Language Processing, Reinforcement Learning, dan Technical.
+- Introduce to Programming - Neural Network
+- Neural Network ==> Jenis Machine Learning yang sering digabungkan dengan Deep Learning.
+- Activation Function ==> Function yang meniru apakah sebuah biological neuron aktif atau tidak berdasarkan input yang diterima.
+- Activation Function: Step Function
+- Loss Function/Cost Function ==> Algoritma yang mengukur/mengkalkulasi seberapa salah sebuah Model NN.
+- Loss Function: MSE
+- Optimizer
+- Optimizer: Gradient Descent
+
+Sesi II :
+- Optimizer: Gradient Descent
+- How To Train NN => NN dapat dilatih menggunakan algoritma backpropagation.
+- How To Train NN: Forward Pass => tahapan dimana kita memberikan input kedalam model NN.
+- How To Train NN: Backward Pass => tahapan mengupdate weight dan bias berdasarkan loss yang didapat dan optimizer yang digunakan.
+- How To Train NN: Backpropagation => sudut input dan update melalui Forward Pass dan Backward Pass
+- Backpropagation
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- ANN merupakan gabungan dari beberapa Artificial Neuron, disebut sebagai perceptron, yang disusun dalam beberapa lapisan (layer).
+- Bentuk NN yang paling kecil (minimal) hanya tersusun dari satu  percepton atau single percepton.
+- Fordward Pass
+1. Mengkalkulasi z
+2. Menentukan y (hasil prediksi model)
+3. Mengkalkulasi E (loss)
+- Backward Pass: Update Weight
+1. Mengupdate Weight (w) menggunakan Gradient Descent
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang dan rumit dan santai.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 4 Kali ini banyak sekali materi yang tertinggal hanya bisa melihat video yang sudah direkam pun masih kurang.
+
+- Senin, 14 Maret 2022
+Pengertian Numpy dan penggunaanya
+Mempelajari dasar-dasar preprocessing data
+Mempelajari prosedur instalasi dan konsep dasar Pada pandas
+Memahami data import export, selection dan filtering dengan dataframes
+Data transformation menggunakan pandas
+
+- Selasa, 15 Maret 2022
+Memahami teknik visualisasi data dengan python.
+Memahami fungsi visualisasi dasar dengan matplotlib.
+Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie chart, box plots, strip plots, swarmplots dengan matplotlib dan seaborn.
+Membuat visualisasu untuk time series data.
+Matplotlib Image Function --> Function : Imread, Imsave, Imshow.
+Matplotlib Figure Functions --> Function : FigText, Figure, Show, Savefig, dan Close.
+
+- Rabu, 16 Maret 2022
+Memahami lebih detil tentang teknik regression dan berbagai use case nya
+Melihat bagaimana konsep gradient descent di linier regression
+Menjelaskan fungsi dari cost function
+Melakukan training model untuk memahami konsep gradient descent
+Mendeskripsikan regularisasi pada regression seperti : Lasso dan Ridge Regression
+Mendefinisikan Generalized Linear Regression (GLM)
+Memprediksi nilai-nilai dari dependent variable Y, berdasarkan relasinya dengan nilai-nilai dari independent variable X (min 1)
+Menjelaskan apa pengaruh dari perubahan dari perubahan pada sebuah independent variable terhadap dependent variable melalui estimasi nilai numerik dan hubungan yang ada.
+Memahami Algoritma Logistic Regression
+Menjelaskan intuisi matematika dibalik logistic Regression
+Memahami Cost Function untuk Logistic Regression
+Memahami Maximum likehood estimation
+Melakukan analisa performa dari persoalan klasifikasi
+Melakukan perbandingan terhadap Linear Probability  Model dengan Logistic Regression Model
+Binary Classification using Logistic Regression - Sigmoidal Functional
+Multinomial Classification using Logistic Regression - Softmax Function
+
+- Kamis, 17 Maret 2022
+Instance-based, Competitive Learning, dan Lazy Learning.
+Mendefinisikan Konsep-Konsep berikut : Decision Tree, Homogeinity, Gini Index, Entropy dan Information Gain, dan Truncation dan Pruning.
+Memahami Implementasi Decision Tree untuk persoalan regresi.
+Memahamin perbedaan dari beberapa pendekatan untuk mengimpelemantasikan Algoritma Decision Tree.
+Sebuah inner node mempresentasikan sebuah attribute.
+Sebuah edge mempresentasikan hubungan attribute tersebut dengan father node.
+Sebuha leaf node mempresentasikan salah satu kelas.
+
+- Jum'at, 18 Maret 2022
+ANN merupakan gabungan dari beberapa Artificial Neuron, disebut sebagai perceptron, yang disusun dalam beberapa lapisan (layer).
+Bentuk NN yang paling kecil (minimal) hanya tersusun dari satu  percepton atau single percepton.
+Fordward Pass

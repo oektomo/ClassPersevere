@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+hari ini libuurr!!
+
+Tue, 1 Mar
+
+hari ini belajar kembali bersama mentor. belajar mengenai Tipe data phyton. kami juga mulai menulis code phyton terinspirasi oleh w3shoool di jupyter notebook. 
+
+Wed, 2 Mar
+
+Hari ini belajar mengenai operator-operator dalam phyton. di awal tadi juga belajar sedikit mengenai git dan github yang akan kami gunakan nantinya untuk pengumpulan tugas. selain operator, kami juga mempelajari control flow dari phyton.
+
+Thu, 3 Mar
+
+hari ini libur!!
+
+Fri, 4 Mar
+
+hari ini belajar mengenai python functions, iterators, string, dan file io.
+
+What did you learn this week?
+
+Di minggu kedua ini, materi kami masih tentang pemahaman basic python. dimulai dari menulis kode python melalui w3 school, kemudian kami belajar mengenai operatornya, functionsnya, tipe datanya, dan sedikit belajar mengenai git untuk metode pengumpulan tugas kami.

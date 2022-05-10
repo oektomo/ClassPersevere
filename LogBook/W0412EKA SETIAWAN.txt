@@ -1,0 +1,120 @@
+Mon, 14 Mar
+
+Kegiatan hari ini :
+1. Membahas Numpy
+2. Membahas Pandas
+3. Pandas Object
+4. Pandas Series and Dataframe
+5. Import, Export
+6. Pandas : Transformasi data menggunakan map
+7. Data visualization
+8. Matplotlib
+9. Matplotlib Function
+10. Seaborn
+11. Stripplot and Swarmplot with Seaborn
+12. Mempraktekkan materi ke python colab
+
+Tue, 15 Mar
+
+Kegiatan hari ini :
+1. Membahas Derived Variables atau Variabel Turunan
+2. Analysis of Derived Variables
+3. Exploratory Data Analysis
+4. Methods of Exploratory Data Analysis
+5. EDA with Data Visualization
+6. Approaches and Techniques
+7. Mempraktekkan di colab
+8. Memberi kesimpulan pada contoh
+9. Regression Technique
+10. Regression in Real World
+11. Linear Regression Types
+12. Objective of Linear Regression
+13. Apa itu Linear Regression
+14. Univariate Linear Regression
+15. Linear Regression - Housing Prices Productions
+16. Linear Regression - Gradient Descent Algoritme
+17. Linear Regression
+18. Limeae Rate - Ir
+19. Linear Regression - OLS
+20. Linear Regression - Rsquard
+21. Cross Validation Types
+22. Overifitting dan Generalization
+23. How to Minimize Overfitting
+24. Lasso (L1) Regression
+25. Ridge (L2) Regression
+
+Wed, 16 Mar
+
+Kegiatan hari ini :
+1. Apa itu Logistic Regression
+2. Assumptions
+3. Objective of Logistic Regression
+4. Logistic Regression
+5. Cost Function For Logistic Function
+6. Maximum Likelihood Estimation (MLE) 
+7. Confusion Matrix
+8. Accuracy
+9. F1 Score
+10. Decision Tree
+11. Continouse (Regression Tree)
+12. Karakter Decision Tree
+13. Entropy
+14. Algoritma to Create a Decision Tree
+15. Gini Index
+16. Lebih baik Entropy atau Gini?
+17. Regression Tree
+18. Step to Calculate Variance
+19. Truncation and Pruning
+20. Decision Tree
+21. Keuntungan Decision Tree
+
+Thu, 17 Mar
+
+Kegiatan pembelajaran hari ini :
+1. KNN Classification
+2. Kapan Menggunakan Algoritma KNN
+3. Curse of Dimensionality
+4. K - Factor
+5. Use Case of KNN
+6. Penjelasan Kasus KNN
+7. Kekurangan KNN
+8. Mempraktekkan KNN di Colab
+9. Perbedaan Deep Learning dan Machine Learning
+10. Image Captioning Menggunakan Deep Learning
+
+Fri, 18 Mar
+
+Kegiatan pembelajaran hari ini :
+1. Neural Network
+2. Element Neural Network
+3. Network Architecture
+4. Single Layer Feed - Forward
+5. Multi Layer Feed - Forward
+6. Reccurant Network
+7. Activation Function
+8. Type of Activation Function
+9. Sigmoid, TanH, ReLu, Leaky ReLu
+10. Gradient Descant Terminologies
+11. Gradient Descant
+12. Type of Gradient Descant
+13. Loss Function 
+14. Membahas Soal
+15. Deep Learning
+16. Keras
+17. DLMLC
+18. Define The Model, Compile The Model, Fit The Model, Evaluate The Model, Make Prediction
+19. Build Deep Learning : Hyperparameter, Dropout, Batch Normalization
+
+What did you learn this week?
+
+Pembelajaran minggu ini :
+- Senin
+Kegiatan hari ini : 1. Membahas Numpy 2. Membahas Pandas 3. Pandas Object 4. Pandas Series and Dataframe 5. Import, Export 6. Pandas : Transformasi data menggunakan map 7. Data visualization 8. Matplotlib 9. Matplotlib Function 10. Seaborn 11. Stripplot and Swarmplot with Seaborn 12. Mempraktekkan materi ke python colab 13. Mengerjakan Tugas
+- Selasa 
+Kegiatan hari ini : 1. Membahas Derived Variables atau Variabel Turunan 2. Analysis of Derived Variables 3. Exploratory Data Analysis 4. Methods of Exploratory Data Analysis 5. EDA with Data Visualization 6. Approaches and Techniques 7. Mempraktekkan di colab 8. Memberi kesimpulan pada contoh 9. Regression Technique 10. Regression in Real World 11. Linear Regression Types 12. Objective of Linear Regression 13. Apa itu Linear Regression 14. Univariate Linear Regression 15. Linear Regression - Housing Prices Productions 16. Linear Regression - Gradient Descent Algoritme 17. Linear Regression 18. Limeae Rate - Ir 19. Linear Regression - OLS 20. Linear Regression - Rsquard 21. Cross Validation Types 22. Overifitting dan Generalization 23. How to Minimize Overfitting 24. Lasso (L1) Regression 25. Ridge (L2) Regression
+- Rabu
+Kegiatan hari ini : 1. Apa itu Logistic Regression 2. Assumptions 3. Objective of Logistic Regression 4. Logistic Regression 5. Cost Function For Logistic Function 6. Maximum Likelihood Estimation (MLE) 7. Confusion Matrix 8. Accuracy 9. F1 Score 10. Decision Tree 11. Continouse (Regression Tree) 12. Karakter Decision Tree 13. Entropy 14. Algoritma to Create a Decision Tree 15. Gini Index 16. Lebih baik Entropy atau Gini? 17. Regression Tree 18. Step to Calculate Variance 19. Truncation and Pruning 20. Decision Tree 21. Keuntungan Decision Tree 22. Mempraktekkan materi di colab 23. Mengerjakan Tugas
+- Kamis
+Kegiatan pembelajaran hari ini : 1. KNN Classification 2. Kapan Menggunakan Algoritma KNN 3. Curse of Dimensionality 4. K - Factor 5. Use Case of KNN 6. Penjelasan Kasus KNN 7. Kekurangan KNN 8. Mempraktekkan KNN di Colab 9. Membahas Tugas 10. Perbedaan Deep Learning dan Machine Learning 11. Image Captioning Menggunakan Deep Learning 12. Apa yang tidak bisa kita lakukkan dengan Deep Learning 13. Computational Resource bagi Deep Learning 14. Deep Learning Network Strukture 15. Open Frameworks of Pre-Trained Models : Tensorflow dan pyTorch 16. Kemajuan terbaru dari Deep Learning
+- Jumat
+Kegiatan pembelajaran hari ini : 1. Neural Network 2. Element Neural Network 3. Network Architecture 4. Single Layer Feed - Forward 5. Multi Layer Feed - Forward 6. Reccurant Network 7. Activation Function 8. Type of Activation Function 9. Sigmoid, TanH, ReLu, Leaky ReLu 10. Gradient Descant Terminologies 11. Gradient Descant 12. Type of Gradient Descant 13. Loss Function 14. Membahas Soal 15. Deep Learning 16. Keras 17. DLMLC 18. Define The Model, Compile The Model, Fit The Model, Evaluate The Model, Make Prediction 19. Build Deep Learning : Hyperparameter, Dropout, Batch Normalization 20. Mempraktekkan ke Colab

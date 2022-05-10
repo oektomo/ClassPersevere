@@ -1,0 +1,393 @@
+Mon, 28 Feb
+
+Libur, memperingati Isra' Mi'raj 27 Rajab 1443 H/28 Februari 2022 M.
+
+Tue, 1 Mar
+
+Pada sesi I saya mempelajari apa itu AI. Seni menciptakan mesin yang melakukan fungsi yang membutuhkan kecerdasan ketika dilakukan oleh orang?, otomatisasi aktivitas yang kita lakukan dengan pemikiran manusia, seperti pengambilan keputusan, pembelajaran ...?, membuat komputer yang berpikir?. AI adalah simulasi dari kecerdasan yang dimiliki manusia yang dimodelkan di dalam mesin dan diprogram agar bisa berpikir seperti halnya manusia. Dengan kata lain AI merupakan sistem komputer yang bisa melakukan pekerjaan-pekerjaan yang umumnya memerlukan tenaga manusia atau kecerdasan manusia untuk menyelesaikan pekerjaan tersebut.
+Tes turing: menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan menginterogasinya bersama dengan rekan manusianya. Program lulus jika manusia tidak dapat membedakan antara jawaban dari program komputer dan jawaban subjek manusia.
+Konsep agen. Agen adalah segala sesuatu yang dapat dilihat sebagai memahami lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui aktuator. Agen manusia: mata, telinga, dan organ lain untuk sensor; tangan, kaki, mulut, dan bagian tubuh lainnya untuk aktuator. Agen robot: kamera dan pencari jangkauan inframerah untuk sensor; berbagai motor untuk aktuator.
+Apa itu python? Python adalah bahasa pemrograman open source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas. Python memiliki sintaks elegan yang alami untuk dibaca dan mudah untuk ditulis. Compiler v/s Interpreter. Banyak bahasa pemrograman mengharuskan untuk mengkompilasi (menerjemahkan) program ke dalam bentuk yang dimengerti mesin. Python merupakan bahasa yang langsung diinterpretasi/dimengerti oleh mesin tanpa kompilasi.
+
+Sesi II mempelajari tentang:
+-Python HOME
+print("Hello, World!")
+***Hello, World!
+
+-Python Intro
+
+-Python Get Started
+
+-Python Syntax
+if 5 > 2:
+    print("Five is greater than two!")
+***Five is greater than two!
+if 5 > 2:
+    print("Five is greater than two!")
+if 5 > 2:
+    print("Five is greater than two!")
+***Five is greater than two!
+***Five is greater than two!
+x = 5
+y = "Hello, World!"
+
+print(x)
+print(y)
+***5
+***Hello, World!
+
+-Python Comments
+#This is a comment.
+print("Hello, World!")
+***Hello, World!
+print("Hello, World!") #This is a comment
+***Hello, World!
+#print("Hello, World!")
+print("Cheers, Mate!")
+***Cheers, Mate!
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
+***Hello, World!
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+***Hello, World!
+
+-Python Variables
+x = 5
+y = "John"
+print(x)
+print(y)
+***5
+***John
+x = 4           # x is of type int
+x = " Sally"    # x is now of type str
+print(x)
+*** Sally
+x = str(3)     
+y = int(3)   
+z = float(3)   
+print(x)
+print(y)
+print(z)
+***3
+***3
+***3.0
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+***<class 'int'>
+***<class 'str'>
+x = "John"
+print(x)
+# is the same as
+x = 'John'
+print(x)
+***John
+***John
+a = 4
+A = "Sally"
+print(a)
+print(A)
+***4
+***Sally
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+***John
+***John
+***John
+***John
+***John
+***John
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+***Orange
+***Banana
+***Cherry
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+***Orange
+***Orange
+***Orange
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+***apple
+***banana
+***cherry
+x = "awesome"
+print("Python is " + x)
+***Python is awesome
+x = "Python is "
+y = "awesome"
+z = x + y
+print(z)
+***Python is awesome
+x = "awesome"
+
+def myfunc():
+    x = "fantastic"
+    print("Python is " + x)
+    
+myfunc()
+
+print("Python is " + x)
+***Python is fantastic
+***Python is awesome
+
+-Python Data Types
+x = complex(1j)
+print(x)
+print(type(x))
+***1j
+***<class 'complex'>
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x))
+***frozenset({'banana', 'cherry', 'apple'})
+***<class 'frozenset'>
+x = memoryview(bytes(5))
+print(x)
+print(type(x))
+***<memory at 0x000002767DBA7A00>
+***<class 'memoryview'>
+
+-Python Numbers
+x = 1
+y = 2.8
+z = 1j
+
+print(type(x))
+print(type(y))
+print(type(z))
+***<class 'int'>
+***<class 'float'>
+***<class 'complex'>
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+***<class 'int'>
+***<class 'int'>
+***<class 'int'>
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+***<class 'float'>
+***<class 'float'>
+***<class 'float'>
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+***<class 'complex'>
+***<class 'complex'>
+***<class 'complex'>
+
+-Python Casting
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+print(x)
+print(y)
+print(z)
+print(w)
+***1.0
+***2.8
+***3.0
+***4.2
+
+-Python Strings
+print("Hello")
+print('Hello')
+***Hello
+***Hello
+a = "Hello, World!"
+print(a.replace("H", "J"))
+***Jello, World!
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+***I want 3 pieces of item 567 for 49.95 dollars.
+txt = "\x48\x65\x6c\x6c\x6f"
+print(txt) 
+***Hello
+
+-Python Booleans
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+***True
+***False
+***False
+
+-Python Operators
+x = 5
+y = 3
+
+print(x * y)
+***15
+x = 5
+x%=3
+print(x)
+***2
+
+-Python Lists
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+***3
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+
+print(list1)
+print(list2)
+print(list3)
+***['apple', 'banana', 'cherry']
+***[1, 5, 7, 9, 3]
+***[True, False, False]
+
+-Python Tuples
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
+***('orange', 'kiwi', 'melon')
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+
+print(thistuple)
+***('apple', 'banana', 'cherry', 'orange')
+
+-Python Sets
+thisset = {"apple", "banana", "cherry", "apple"}
+
+print(thisset)
+***{'banana', 'cherry', 'apple'}
+thisset = {"apple", "banana", "cherry"}
+
+print("banana" in thisset)
+***True
+
+-Python Dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+***Ford
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"year": 2020})
+
+print(thisdict)
+***{'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+print(myfamily)
+***
+{'child1': {'name': 'Emil', 'year': 2004}, 'child2': {'name': 'Tobias', 'year': 2007}, 'child3': {'name': 'Linus', 'year': 2011}}
+
+Wed, 2 Mar
+
+Pada sesi I saya belajar menggunakan github, membuat repository melakukan forks, clone, dan mengumpulkan tugas yang telah dikerjakan pada hari selasa tanggal 01 Maret 2022 ke dalam github. Kemudian dilanjutkan dengan materi Python operators dan Control Flow. Mempelajari tentang arithmetic operators, comparison operators, logical operators, identity operators, membership operators, input function di python, dan bitwise operators.
+Sesi II lanjut tentang control flow if else, loop, for loop, built-in functions, while loop, break, pass, dan list comprehension. Kemudian ditutup dengan menonton video youtube bersama yang berjudul "We're Building Computers Wrong (for artificial intelligence).
+
+Thu, 3 Mar
+
+Libur Hari Raya Nyepi
+
+Fri, 4 Mar
+
+Pada sesi pertama saya belajar tentang functions di python yang terdiri dari user defined functions, built-in functions, dan lambda functions. String manipulation, dalam python string adalah array byte yang mewakili karakter unicode. String manipulation menggunakan operators + yang digunakan untuk operasi matematika dengan python, operators * digunakan untuk mengulang string beberapa kali, dan operators in digunakan untuk memeriksa apakah substring ada di dalam string atau tidak. String manipulation menggunakan built-in methods. Selain itu saya juga mempelajari file handling di python.
+Pada sesi kedua saya mempelajari fungsi generators. Generator adalah fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan ururtan nilai. Pada sesi ini saya juga mempelajari tentang lambda function. Fungsi lambda atau fungsi anonim adalah fungsi yang tidak memiliki nama. Fungsi lambda digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat. Selain itu saya juga mempelajari tentang python exception/error handling.
+
+What did you learn this week?
+
+•	SENIN 28 Feb 2022
+Libur, memperingati Isra' Mi'raj 27 Rajab 1443 H/28 Februari 2022 M.
+•	SELASA 01 Mar 2022
+Pada sesi I saya mempelajari apa itu AI. Seni menciptakan mesin yang melakukan fungsi yang membutuhkan kecerdasan ketika dilakukan oleh orang?, otomatisasi aktivitas yang kita lakukan dengan pemikiran manusia, seperti pengambilan keputusan, pembelajaran ...?, membuat komputer yang berpikir?. AI adalah simulasi dari kecerdasan yang dimiliki manusia yang dimodelkan di dalam mesin dan diprogram agar bisa berpikir seperti halnya manusia. Dengan kata lain AI merupakan sistem komputer yang bisa melakukan pekerjaan-pekerjaan yang umumnya memerlukan tenaga manusia atau kecerdasan manusia untuk menyelesaikan pekerjaan tersebut.
+Tes turing: menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan menginterogasinya bersama dengan rekan manusianya. Program lulus jika manusia tidak dapat membedakan antara jawaban dari program komputer dan jawaban subjek manusia.
+Konsep agen. Agen adalah segala sesuatu yang dapat dilihat sebagai memahami lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui aktuator. Agen manusia: mata, telinga, dan organ lain untuk sensor; tangan, kaki, mulut, dan bagian tubuh lainnya untuk aktuator. Agen robot: kamera dan pencari jangkauan inframerah untuk sensor; berbagai motor untuk aktuator.
+Apa itu python? Python adalah bahasa pemrograman open source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas. Python memiliki sintaks elegan yang alami untuk dibaca dan mudah untuk ditulis. Compiler v/s Interpreter. Banyak bahasa pemrograman mengharuskan untuk mengkompilasi (menerjemahkan) program ke dalam bentuk yang dimengerti mesin. Python merupakan bahasa yang langsung diinterpretasi/dimengerti oleh mesin tanpa kompilasi.
+Sesi II mempelajari tentang:
+-Python HOME
+-Python Intro
+-Python Get Started
+-Python Syntax
+-Python Comments
+-Python Data Types
+-Python Numbers
+-Python Casting
+-Python Strings
+-Python Booleans
+-Python Operators
+-Python Lists
+-Python Tuples
+-Python Sets
+-Python Dictionaries
+•	RABU 02 Mar 2022
+Pada sesi I saya belajar menggunakan github, membuat repository melakukan forks, clone, dan mengumpulkan tugas yang telah dikerjakan pada hari selasa tanggal 01 Maret 2022 ke dalam github. Kemudian dilanjutkan dengan materi Python operators dan Control Flow. Mempelajari tentang arithmetic operators, comparison operators, logical operators, identity operators, membership operators, input function di python, dan bitwise operators.
+Sesi II lanjut tentang control flow if else, loop, for loop, built-in functions, while loop, break, pass, dan list comprehension. Kemudian ditutup dengan menonton video youtube bersama yang berjudul "We're Building Computers Wrong (for artificial intelligence).
+•	KAMIS 03 Mar 2022
+Libur Hari Raya Nyepi.
+•	JUM’AT 04 Mar 2022
+Pada sesi pertama saya belajar tentang functions di python yang terdiri dari user defined functions, built-in functions, dan lambda functions. String manipulation, dalam python string adalah array byte yang mewakili karakter unicode. String manipulation menggunakan operators + yang digunakan untuk operasi matematika dengan python, operators * digunakan untuk mengulang string beberapa kali, dan operators in digunakan untuk memeriksa apakah substring ada di dalam string atau tidak. String manipulation menggunakan built-in methods. Selain itu saya juga mempelajari file handling di python. Pada sesi kedua saya mempelajari fungsi generators. Generator adalah fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan ururtan nilai. Pada sesi ini saya juga mempelajari tentang lambda function. Fungsi lambda atau fungsi anonim adalah fungsi yang tidak memiliki nama. Fungsi lambda digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat. Selain itu saya juga mempelajari tentang python exception/error handling.

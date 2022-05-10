@@ -1,0 +1,36 @@
+Mon, 11 Apr
+
+Memahami tentang arsitektur jaringan RNN, LSTM, GRU, serta melakukan time series forecasting menggunakan deep learning. Pendekatan time series yaitu AR models, ML models, DL models, Hybrid models, dan RL models sentiment analysis quantum finance. RNN, LSTM, dan GRU memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda. Untuk evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik.
+
+Tue, 12 Apr
+
+Mempelajari tentang apa itu autoencoder, properti pada autoencoder, arsitektur pada autoencoder, dan aplikasi dari autoencoder. Autoencoder adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, dan mempelajari data input dan berusaha untuk melakukan rekontruksi terhadap data input tersebut. Komponen dalam autoencoder yaitu encoder, code, dan decoder. Encoder adalah bagian yang bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation. Code adalah bagian jaringan yang mewakili input terkompresi yang diumpankan ke decoder. Dan decoder adalah bagian yang bertujuan untuk merekontruksi masukan dari the latent space representation.
+
+Wed, 13 Apr
+
+Memahami konsep transfer learning pada NLP, memahami batasan word embedding tradisional, memahami mekanisme self-attention pada arsitektur transformer, memahami arsitektur dan representasi input BERT, dan memahami cara melakukan fine-tuning menggunakan BERT. Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner). Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri). Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation). BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur transformer. Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+Thu, 14 Apr
+
+Membahas tentang pengenalan robotic, overview SARSA beserta implementasi pada robotic, implementasi Q learning pada robotic, dan implementasi Deep Q learning pada robotic.
+
+Fri, 15 Apr
+
+Self-study
+
+What did you learn this week?
+
+•	SENIN 11 Apr 2022
+Memahami tentang arsitektur jaringan RNN, LSTM, GRU, serta melakukan time series forecasting menggunakan deep learning. Pendekatan time series yaitu AR models, ML models, DL models, Hybrid models, dan RL models sentiment analysis quantum finance. RNN, LSTM, dan GRU memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda. Untuk evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik.
+
+•	SELASA 12 Apr 2022
+Mempelajari tentang apa itu autoencoder, properti pada autoencoder, arsitektur pada autoencoder, dan aplikasi dari autoencoder. Autoencoder adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, dan mempelajari data input dan berusaha untuk melakukan rekontruksi terhadap data input tersebut. Komponen dalam autoencoder yaitu encoder, code, dan decoder. Encoder adalah bagian yang bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation. Code adalah bagian jaringan yang mewakili input terkompresi yang diumpankan ke decoder. Dan decoder adalah bagian yang bertujuan untuk merekontruksi masukan dari the latent space representation.
+
+•	RABU 13 Apr 2022
+Memahami konsep transfer learning pada NLP, memahami batasan word embedding tradisional, memahami mekanisme self-attention pada arsitektur transformer, memahami arsitektur dan representasi input BERT, dan memahami cara melakukan fine-tuning menggunakan BERT. Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner). Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri). Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation). BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur transformer. Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+•	KAMIS 14 Apr 2022
+Membahas tentang pengenalan robotic, overview SARSA beserta implementasi pada robotic, implementasi Q learning pada robotic, dan implementasi Deep Q learning pada robotic.
+
+•	JUM’AT 15 Apr 2022
+Self-study

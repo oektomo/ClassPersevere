@@ -1,0 +1,595 @@
+Mon, 18 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang K-means Clustering. 
+   Clustering adalah sebuah proses untuk mengelompokkan data ke dalam beberapa Cluster/kelompok sehingga data dalam satu cluster memiliki tingkat kemiripan yang maksimum dan data antar cluster memiliki kemiripan yang minimum.
+   Clustering merupakan proses partisi satu set object data ke dalam himpunan bagian yang disebut cluster. 
+Teknik Clustering : K-Means, Hierarchical Clustering, DBSCAN, Fuzzy C Means, LDA Clustering for documents, dan Gaussian Mixture model. 
+K Means Clustering :
+• K-means merupakan salah satu metode clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster.
+• Clustering dimulai dari kelompok pertama centroid yang dipilih secara acak. Kelompok centroid ini digunakan sebagai titik awal untuk setiap cluster (kemudian dilakukan perhitungan berulang untuk mengoptimalkan posisi centroid).
+Proses perhitungan berhenti atau selesai ketika:
+• Centroid telah stabil atau tidak ada perubahan cluster (konvergen)
+• Jumlah iterasi yang ditentukan tercapai.
+K Means Clustering – Steps : 
+1. Tentukan jumlah cluster.
+2. Alokasikan data secara random ke cluster yang ada sesuai jarak terdekat.
+3. Hitung rata-rata setiap cluster dari data yang tergabung di dalamnya. Lalu, geser centroid ke means (M) yang baru
+4. Alokasikan kembali semua data ke cluster sesuai jarak terdekat.
+5. Ulang proses nomor 3, sampai tidak ada perubahan cluster (konvergen) atau sampai iterasi tertentu
+Kita dapat menghitung jarak tiap data dengan centroid menggunakan Euclidean Distance dan Manhattan Distance.
+K-Means Clustering – Contoh Kasus 
+K-Means Clustering – Penyelesaian Contoh Kasus :
+Langkah 1: Tentukan Jumlah Cluster (K) yang akan dibentuk. Pada contoh ini, kita akan meng-cluster-kan data ke dalam dua cluster. 
+Langkah 2: Tentukan Centroid awal tiap cluster.
+Langkah 3: Tentukan Centroid Terdekat untuk setiap record. Pada contoh ini, kita akan menggunakan persamaan Euclidean Distance. Selanjutnya, hasil perhitungan centroid, kita susun ke dalam tabel. Tentukan cluster tiap data dengan mengambil nilai centroid terkecil (terdekat). Sehingga, diperoleh cluster setiap record. 
+Langkah 4: Update Centroid. Selanjutnya nilai centroid harus dihitung ulang untuk menentukan jarak minimum yang baru.
+Langkah 5 :Tentukan Cluster dengan Centroid yang Baru. Hitung jarak minimumnya kembali dengan menggunakan centroid yang baru. Ulangi tahap 3 untuk melihat apakah terjadi perpindahan cluster dengan menggunakan centroid yang telah diupdate. Dari hasil perhitungan pada slide sebelumnya, diperoleh cluster baru. 
+Langkah 6: Update Centroid Baru (2). Selanjutnya nilai centroid harus dihitung ulang untuk menentukan jarak minimum yang baru. 
+Langkah 7: Tentukan Cluster dengan Centroid yang Baru (2). Hitung jarak minimumnya kembali dengan menggunakan centroid yang baru. Ulangi tahap 3 untuk melihat apakah terjadi perpindahan cluster dengan menggunakan centroid yang telah diupdate. Dari hasil perhitungan pada slide sebelumnya, diperoleh cluster baru. 
+Langkah 8: Clustering Selesai. Pada Cluster baru tidak terjadi perpindahan cluster pada setiap record, maka peng-clusteran sudah konvergen atau sudah optimal.
+Finding the best value of K : 
+   Metode Elbow merupakan suatu metode yang digunakan untuk menghasilkan informasi dalam menentukan jumlah cluster terbaik dengan cara melihat persentase hasil perbandingan antara jumlah cluster yang akan membentuk siku pada suatu titik. 
+Tahapan algoritma metode Elbow dalam menentukan nilai k pada K -Means:
+1. Menginisialisasi awal nilai k.
+2. Menaikan nilai k. 
+3. Menghitung hasil sum of square error dari tiap nilai k
+4. Analisis hasil sum of square error dari nilai k yang mengalami penurunan secara drastis
+5. Cari dan tetapkan nilai k yang berbentuk siku
+Matriks Evaluasi pada Clustering : 
+Beberapa metode yang dapat digunakan untuk mengukur performance dari clustering :
+• Silhouette Score
+• Rand Index
+• Adjusted Rand Index
+• Mutual Information
+• Calinski-Harabasz Index
+• Davies-Bouldin Index
+Silhouette Score (SC) : 
+   Untuk evaluasi cluster secara umum, kita bisa menggunakan Silhouette Coefficient (SC). SC menggunakan nilai Cohesion dan Separation :
+• Cohesion : mengukur seberapa dekat jarak antar objek di dalam cluster
+• Separation : mengukur seberapa terpisah jarak antar cluster
+Limitation & Application : 
+Limitation : 
+ - Jenis data mudah divisualisasikan sebagai data 2-D dan juga dalam bentuk ini K-Means dapat bekerja dengan baik. Dimana bentuk yang lebih kompleks seperti square atau sphere akan sulit bagi K-Means untuk bekerja dengan baik pada dataset tersebut. Bentuk 2-D sederhana akan diclusterkan dengan baik menggunakan algoritma K-Means.
+Application : 
+• Relatif efisien dan cepat, dengan hasil komputasinya O(tkn).
+• K-Means dapat diaplikasikan pada machine learning atau data mining
+• Digunakan untuk pemahaman data akustik dalam memahami
+ucapan untuk mengkonversi dari bentuk gelombang menjadi salah satu kategori.
+• Digunakan untuk memilih color palettes pada devices old
+fashioned graphical display dan image quantization.
+Kelebihan dan Kekurangan K-Means : 
+Kelebihan : 
+● Sederhana
+● Umum digunakan
+● Mudah diimplementasikan
+● Waktu training relatif cepat
+Kekurangan : 
+● Centroid di-inisialisasi secara random sehingga proses pencarian cluster dapat berbeda-beda (waktu dan kompleksitasnya)
+● Biaya komputasi cukup tinggi karena diperlukan perhitungan jarak dari tiap data ke centroid
+   Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Selain itu, di sesi domain Data Science, kita diberikan pre-post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya
+
+Tue, 19 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Image Segmentation using U-Net. 
+Computer Vision Landscape :
+- Single Object : Classification & Classification + Localization
+- Multiple Objects : Object Detection & Segmentation 
+Overview :
+   The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan gambar dengan menggambar garis di sekitar objek disebut Segmentasi. 
+Type of Segmentation :
+•Semantic Segmentation masks road, sheep and grass dapat mengidentifikasi objek yang berbeda.
+•Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+Application of Segmentation : 
+- Road identification in Satellite imagery
+- Activity Recognition
+- Crop Monitoring
+- Object Extraction
+- Autonomous Car
+Evaluation :
+   Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi.
+   Metrik IOU mengukur piksel yang umum antara target dan topeng yang diprediksi dibagi dengan jumlah total piksel yang ada di kedua topeng.
+Encoder decoder architecture : 
+• Lapisan encoder dan decoder berukuran sama.
+• Encoder digunakan untuk mengekstrak fitur.
+• Decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+Transpose Convolution Layer :
+   Konvolusi adalah proses untuk mendapatkan ukuran output yang lebih kecil. Deconvolution atau Transpose Convolution adalah proses dimana kita ingin upsample image untuk mendapatkan ukuran yang lebih besar.
+Deconvolution bekerja :
+• warna biru sebagai input, Warna Grey 3x3 filter, Warna Hijau merupakan outputnya. Stride is 1. Perhitungannya yang dilakukan sama dengan perhitungan konvolusi biasa.
+• jadi dengan input 2x2 dan kernel size 3x3, kita bisa mendapatkan ukuran gambar yang lebih besar menjadi 4x4 dengan stride = 1
+Maths behind deconvolution :
+   Cara mendapatkan gambar 4x4, yaitu ketika kami melakukan dekonvolusi pada gambar 2x2 dengan filter 3x3.
+U -Net Architecture :
+U- Net Training :
+- Soft-max
+- Cross-Entropy loss function
+- pixel-wise loss weight 
+Keuntungan vs Kerugian : 
+U-net advantages : 
+-  Fleksibel dan dapat digunakan untuk tugas rational image masking task
+- Akurasi tinggi (given proper training, dataset, and training time)
+- Tidak mengandung lapisan fully connected layers
+- Lebih cepat dari sliding-window (1-detik per image)
+- Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+- Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda.
+U-net disadvantages : 
+- Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+- Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+- Pre-trained models tidak tersedia secara luas (it's too task specific)
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Wed, 20 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Natural Language Processing (NLP) - Speech Recognition. 
+Speech Recognition : 
+• Speech Recognition atau yang biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+• Teknologi ini memungkinkan suatu perangkat untuk mengenali dan memahami kata-kata yang diucapkan dengan cara mengubah sinyal analog berupa gelombang suara menjadi sinyal digital dan mencocokkan sinyal digital tersebut dengan suatu pola tertentu yang tersimpan dalam suatu perangkat.
+Speech Recognition vs Voice Recognition : 
+• Pengenalan ucapan (Speech Recognition) digunakan untuk
+mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan.
+• Pengenalan suara (Voice Recognition) adalah teknologi untuk
+mengidentifikasi suara individu.
+Sejarah Speech Recognition.
+Beberapa frameworks open-source untuk Automatic Speech Recognition : 
+• CMU Sphinx
+• Kaldi 
+• ESPnet 
+Audio Processing : 
+Dua toolkit audio processing yang open-source untuk Automatic Speech Recognition :
+- SoX – Sound eXchange :
+  Toolkit dan library yang dapat digunakan untuk memanipulasi audio. Tools ini mengimplementasikan banyak format file dan dapat digunakan untuk memutar, mengonversi, dan memanipulasi file audio.
+- Librosa :
+   Library Python yang dapat digunakan untuk analisis audio, mengekstraksi fitur, dan pemrosesan sinyal digital (Digital Signal Processing, DSP).
+Speech Recognition Flow : 
+Sinyal Suara -> Ekstraksi Fitur -> Acoustic Model + Language Model -> Pola Klasifikasi
+Model dalam Speech Recognition : 
+- Model Akustik : Ini mewakili hubungan antara unit linguistik ucapan (phonem) dan sinyal audio.
+- Model Bahasa : Pada model ini suara dicocokkan dengan urutan kata untuk membedakan antara kata-kata yang mirip.
+   Algoritma pada Speech Recognition harus mampu memproses dan mengubah audio menjadi teks. Poin Penting pada SR yang perlu diperhatikan adalah sebagai berikut :
+• Gaya bicara
+• Bahasa
+• Dialek & Aksen
+• Perbedaan frasa
+Proses Speech Recognition :
+- Sinyal Analog ke Digital
+Sampling:
+Pulse Amplitude Modulation (PAM) yaitu sample dengan nilai diskrit pada amplitudo terhadap waktu.
+Sample rate – Jumlah frame persecond (Hz)
+Contoh standar sample rate:
+-Telepon 8 KHz
+-MP3 44 KHz
+-Bluray 1 MHz
+Quantizing :
+   Mengubah ke sinyal diskrit terhadap waktu sehingga mendapatkan nilai biner
+Contoh pada gambar 8 bit sehingga memiliki 256 level pada sinyal.
+   Terakhir, tahap Encoding : Memasukan nilai biner setiap frame berurut sesuai waktu
+Sehingga hasilnya urutan nilai biner 1 dan 0
+Feature Extraction : 
+Mel Frequency Cepstral Coefficient (MFCC) : 
+Pre Emphasis -> Framing dan Windowing -> FFT -> Mel Frequency Wrapping -> DCT -> Cepstral Liftering
+Pre Emphasis : Memperkuat energi pada frekuensi. Sehingga membuat informasi lebih jelas.
+Framing dan Windowing :
+   Framing proses untuk membagi sampel suara menjadi beberapa frame.
+   Windowing mengurangi discontinuitassinyal pada awal dan akhir bingkai setelah proses framing.
+   Ketika proses framing terjadi tumpang tindih, sehingga dilakukan windowing.
+Fast Fourier Transform (FFT) : Mengubah domain waktu menjadi domain frekuensi
+Mel Frequency Wrapping : Data dipetakan dalam Mel-scale menggunakan filter segitiga (triangular function) yang menghasilkan 12 vektor koefisien
+DCT : Mengkonversi melspectrum (domain frekuensi) ke dalam domain waktu
+Cepstral Liftering : Delta dan Double Deltas menambahkan koefisien MFCC menjadi double sehingga meningkatkan kualitas untuk Speech Recognition
+Pipeline Klasifikasi SR (Emotion SER) : 
+Dataset -> Feature Extraction MFCC -> Model CNN -> Evaluasi -> Deployment
+Markov Model :
+• Markov Chain (Markov Model) ditemukan oleh Andrey Markov. Ketika diberi inputan pada keadaan saat ini, maka keadaan yang akan datang dapat diprediksi
+Hidden Markov Model : 
+   Markov Model tetapi memiliki kondisi yang tidak dapat diamati atau observasi, oleh sebab itu disebut hidden. Walaupun keadaan atau kondisi yang tidak dapat diamati, HMM memiliki output yang dapat terlihat.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Thu, 21 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang RL - Review dan Forum Group Discussion. 
+Konsep RL : 
+Teori Dasar :
+- Algoritme RL mengehendaki pertukaran state - action - reward (st, at, rt) antara agent dan environment.
+- RL belajar dari interaksi agent dengan environment menggunakan proses eksploitasi/eksplorasi dan sistem reward, untuk memperkuat Action positif.
+- Eksploitasi dan eksplorasi perlu diatur hingga tujuan tercapai 
+- Eksploitasi adalah Action RL dalam menggunakan solusi terbaik sebelumnya.
+- Eksplorasi adalah Action RL dalam melakukan Action berbeda untuk mencari solusi yang lebih baik.
+- Algoritme RL yang lebih dominan eksploitasi, memungkinkan terlewatkan ya kemungkinan peluang solusi lain yang lebih baik 
+- Algoritme RL yang lebih dominan eksplorasi, memungkinkan agent RL tersebut akan mendapatkan banyak peluang solusi buruk
+- Istilah - istilah : agent, Environment, Action (A), Reward (R), State (S), Terminal state. 
+Interaksi Agent : 
+- Tujuan agent : memaksimalkan reward kumulatif, disebut return
+- Return merupakan penjumlahan dari reward-reward uang terdiskon
+- Dalam banyak kasus, Environment tidak dapet teramati seluruhnya oleh agent. Agent melakukan Action dan melihat bagaimana Environment bereaksi terhadap Action tersebut untuk mendapat informasi
+- Untuk berinteraksi dengan Environment (melakukan Action), agent dapat menggunakan policy, value function, atau model.
+Policy : 
+- Policy adalah algoritme / serangkaian aturan yang mendeskripsikan bagaimana agent mengambil keputusan-keputusan. 
+- Policy merupakan fungsi yang dinotasikan dengan 𝜋, yang memetakan state st ke sebuah action at (agent memilih sebuah action berdasarkan state saat ini)
+- Fungsi dapat berwujud apapun (tabel, grafik, atau Machine Learning) selama dapat menerima state sebagai input dan action sebagai output. 
+Value function : 
+- Value function berguna untuk mengevaluasi posisi agent, baik/buruk, pada state yang diketahui. 
+- Value function mengukur apakah state yang diberikan adalah yang diinginkan agent, yaitu kedekatannya dengan expected value. 
+- Value function mengambil sebuah state (dan action) sebagai input dengan mengikuti sebuah policy sebagai aturan, lalu menghasilkan nilai saklar yang merepresentasikan reward kumulatif (return) yang diinginkan
+Model : 
+- agent harus melakukan Action untuk mendapatkan informasi tentang Environment (model-free)
+- Agent dapat memakai model untuk memprediksi bagaimana Environment akan bereaksi terhadap action-Action yang dilakukan untuk state yang tersedia (model-based)
+- Model adalah sebuah fungsi yang memprediksi probabilitas dari state berikutnya jika diketahui state dan Action saat ini
+- Kerangka fundamental dari konsep RL disebut MDP
+MDP (Markov Decision Process) : 
+MDP adalah sebuah tuple (S, A, P, R, 𝛾) :
+- S adalah himpunan dari state-state
+- A adalah himpunan dari action-action
+- P adalah matriks probabilitas transisi dari state-state
+- R adalah fungsi reward
+- 𝛾 adalah faktor diskon
+   Arsitektur paling dasar dari MDP adalah Markov Process. 
+   Markov Process adalah Markov Chain yang memiliki Matriks Probabilitasi Transisi. 
+Persamaan Bellman : 
+-Formulasi 
+-Perhitungan : 
+- Perhitungan persamaan Bellman yang dikerjakan untuk mendekati nilai yang diharapkan (Bellman Expectation Value). 
+- Perlu perhitungan value function untuk menyelesaikan permasalahan RL yang berbasis MDP
+- Persamaan Bellman adalah persamaan linear
+- Perhitungan langsung (analitis) hanya mungkin untuk kasus RL yang sederhana/kecil. Sedangkan untuk mayoritas kasus RL yang berdimensi besar, perlu metode numeris/iteratif seperti DP, MC, TD (SARSA , QL) dan DQN.
+Algoritma Dynamic Programming :
+- Tujuan : menemukan optimal policy dengan cara menggunakan Bellman Equation of V state-value function, menghitung policy iteration dan value iteration.
+Monte Carlo : 
+- MC didefinisikan untuk jenis Episodic Environment 
+- Ide utama MC : value didapatkan dari rata-rata returns
+- Elemen Algoritma MC : Goal, Return,dan Value function
+- MC Control : Policy Evaluation dan Policy Improvement
+Temporal Difference Learning
+- TDL : mengestimasi reward pada setiap langkah (step). 
+MC vs TD
+TD Control : SARSA dan Q-Learning
+- SARSA : State - Action - Reward - State - Action
+- Q- Learning : pengembangan RL yang menggunakan Q-values / Action- values untuk meningkatkan kemampuan agent belajar agent berulang-ulang. 
+Algoritma SARSA (on-policy TD Control)
+Algoritma Q-Learning (off-policy TD Control)
+   Deep Q Learning : menggantikan Q-table menggunakan sebuah neural network yang disebut Deep Q Network / DQN.
+Deep Q Network : 
+- DQN adalah sebuah NN yang menerima states yang diberikan oleh Environment sebagai input, lalu menghasilkan output estimasi Q Values pada setiap actions yang diambil dari state tersebut.
+- Untuk minimize Loss, lalu setelah menghitung Loss bobot pada Network akan di update menggunakan Stochastic gradient descent dan backpropagation seperti NN pada umumnya
+Experience Replay dan Replay Memory 
+Algoritma DQN 
+Konsep RL untuk Robotics : 
+Pendekatan / Metode untuk mengajari robot :
+- Direct programming : program manual tentang bagaimana robot bergerak
+- Reinforcement Learning : robot bergerak sendiri dan gerakannya dievaluasi 
+   Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot.
+   Robot merupakan mesin yang beroperasi kan secara otomatis yang menggantikan usaha manusia. 
+   Contoh aplikasi robot : Desain balancing- robot 2 roda (segway), balancing while steering, ability of genting up autonomously from a fall. 
+RL for Robotics : 
+1.) Kinematics System : 
+- Manipulator robot 
+- Bipedal robot
+2.) Navigation System 
+3.) Optimal Control
+Implementasi RL pada Robotics : 
+- Q-Learning 
+- Deep Q Learning / DQN pada Turtlebot : Indoor Dynamic goals navigation menggunakan RL.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Selain itu, di sesi domain RL, kita diberikan pretest dan post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Fri, 22 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Web Development dengan Heroku. 
+Web Development and Deployment :
+   Website adalah kumpulan halaman web yang dapat diakses publik dan biasanya disebut juga dengan www (World Wide Web).
+   Development adalah kegiatan yang bertujuan untuk membuat suatu program atau pengembangan perangkat lunak.
+Cara penyebarannya (deployment) tergantung dari jenis aplikasinya : 
+-  Apabila memilih aplikasi Web, maka aplikasi akan dihosting pada server.
+- Sedangkan, aplikasi mobile, akan terdapat dua deployment, yakni deployment untuk aplikasi ke Playstore atau Appstore, dan deployment API (backend) ke server.
+   Web development atau pengembangan web adalah sebuah proses pembangunan dan pemeliharaan situs web.
+   Web deployment adalah proses menjalankan aplikasi web di server atau perangkat yang melibatkan packaging dan meletakkannya di production environment.
+   Python Web Development Framework : Pyramid, Quixote, Cubic Web, dll. 
+Heroku :
+   Heroku adalah adalah salah satu web hosting berbasis cloud, digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain - lain. 
+- Heroku termasuk ke dalam kriteria Platform As A Service (PaaS).
+- Heroku dapat memanage Sistem Operasi, RAM, hardisk dan sebagainya secara otomatis sehingga heroku dapat mendeteksi bahasapemrograman apa yang digunakan oleh sebuah aplikasi.
+- Heroku dapat deployment secara otomatis terhadap aplikasi yang kita upload melalui tool git.
+Topologi Deployment ke Heroku. 
+Project Deployment ke Heroku :
+Langkah-langkah cara deploy dah upload heroku melalui tool git :
+1. Install Git 
+2. Pastikan bahwa anda telah melakukan Git Clone 
+3. Buat akun di Heroku 
+4. Install Heroku CLI 
+5. Push Repository Local ke Heroku
+Gunicorn dan Github Student Package :
+   Gunicorn (Green Unicorn) adalah sebuah WSGI (Web Server Gateway Interface) HTTP Server untuk bahasa pemrograman Python.
+   WSGI merupakan application server yang bertanggungjawab untuk mengolah data dengan mengeksekusi kode yang ada di server.
+   Github Student Developer Pack : Microsoft Azure, netwise, Digital Ocean, Microsoft visual studio, dan New Relic.
+   Setelah pemberian materi, coach juga mengajarkan dan mencoba langsung di heroku. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Selain itu, kita juga diberikan tugas heroku oleh coach yang bersifat tidak wajib. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+What did you learn this week?
+
+   Pada hari Senin, 18 April 2022 di hari pertama dan di minggu ke sembilan, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang K-means Clustering. 
+   Clustering adalah sebuah proses untuk mengelompokkan data ke dalam beberapa Cluster/kelompok sehingga data dalam satu cluster memiliki tingkat kemiripan yang maksimum dan data antar cluster memiliki kemiripan yang minimum.
+   Clustering merupakan proses partisi satu set object data ke dalam himpunan bagian yang disebut cluster. 
+Teknik Clustering : K-Means, Hierarchical Clustering, DBSCAN, Fuzzy C Means, LDA Clustering for documents, dan Gaussian Mixture model. 
+K Means Clustering :
+• K-means merupakan salah satu metode clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster.
+• Clustering dimulai dari kelompok pertama centroid yang dipilih secara acak. Kelompok centroid ini digunakan sebagai titik awal untuk setiap cluster (kemudian dilakukan perhitungan berulang untuk mengoptimalkan posisi centroid).
+Proses perhitungan berhenti atau selesai ketika:
+• Centroid telah stabil atau tidak ada perubahan cluster (konvergen)
+• Jumlah iterasi yang ditentukan tercapai.
+K Means Clustering – Steps : 
+1. Tentukan jumlah cluster.
+2. Alokasikan data secara random ke cluster yang ada sesuai jarak terdekat.
+3. Hitung rata-rata setiap cluster dari data yang tergabung di dalamnya. Lalu, geser centroid ke means (M) yang baru
+4. Alokasikan kembali semua data ke cluster sesuai jarak terdekat.
+5. Ulang proses nomor 3, sampai tidak ada perubahan cluster (konvergen) atau sampai iterasi tertentu
+Kita dapat menghitung jarak tiap data dengan centroid menggunakan Euclidean Distance dan Manhattan Distance.
+K-Means Clustering – Contoh Kasus 
+K-Means Clustering – Penyelesaian Contoh Kasus :
+Langkah 1: Tentukan Jumlah Cluster (K) yang akan dibentuk. Pada contoh ini, kita akan meng-cluster-kan data ke dalam dua cluster. 
+Langkah 2: Tentukan Centroid awal tiap cluster.
+Langkah 3: Tentukan Centroid Terdekat untuk setiap record. Pada contoh ini, kita akan menggunakan persamaan Euclidean Distance. Selanjutnya, hasil perhitungan centroid, kita susun ke dalam tabel. Tentukan cluster tiap data dengan mengambil nilai centroid terkecil (terdekat). Sehingga, diperoleh cluster setiap record. 
+Langkah 4: Update Centroid. Selanjutnya nilai centroid harus dihitung ulang untuk menentukan jarak minimum yang baru.
+Langkah 5 :Tentukan Cluster dengan Centroid yang Baru. Hitung jarak minimumnya kembali dengan menggunakan centroid yang baru. Ulangi tahap 3 untuk melihat apakah terjadi perpindahan cluster dengan menggunakan centroid yang telah diupdate. Dari hasil perhitungan pada slide sebelumnya, diperoleh cluster baru. 
+Langkah 6: Update Centroid Baru (2). Selanjutnya nilai centroid harus dihitung ulang untuk menentukan jarak minimum yang baru. 
+Langkah 7: Tentukan Cluster dengan Centroid yang Baru (2). Hitung jarak minimumnya kembali dengan menggunakan centroid yang baru. Ulangi tahap 3 untuk melihat apakah terjadi perpindahan cluster dengan menggunakan centroid yang telah diupdate. Dari hasil perhitungan pada slide sebelumnya, diperoleh cluster baru. 
+Langkah 8: Clustering Selesai. Pada Cluster baru tidak terjadi perpindahan cluster pada setiap record, maka peng-clusteran sudah konvergen atau sudah optimal.
+Finding the best value of K : 
+   Metode Elbow merupakan suatu metode yang digunakan untuk menghasilkan informasi dalam menentukan jumlah cluster terbaik dengan cara melihat persentase hasil perbandingan antara jumlah cluster yang akan membentuk siku pada suatu titik. 
+Tahapan algoritma metode Elbow dalam menentukan nilai k pada K -Means:
+1. Menginisialisasi awal nilai k.
+2. Menaikan nilai k. 
+3. Menghitung hasil sum of square error dari tiap nilai k
+4. Analisis hasil sum of square error dari nilai k yang mengalami penurunan secara drastis
+5. Cari dan tetapkan nilai k yang berbentuk siku
+Matriks Evaluasi pada Clustering : 
+Beberapa metode yang dapat digunakan untuk mengukur performance dari clustering :
+• Silhouette Score
+• Rand Index
+• Adjusted Rand Index
+• Mutual Information
+• Calinski-Harabasz Index
+• Davies-Bouldin Index
+Silhouette Score (SC) : 
+   Untuk evaluasi cluster secara umum, kita bisa menggunakan Silhouette Coefficient (SC). SC menggunakan nilai Cohesion dan Separation :
+• Cohesion : mengukur seberapa dekat jarak antar objek di dalam cluster
+• Separation : mengukur seberapa terpisah jarak antar cluster
+Limitation & Application : 
+Limitation : 
+ - Jenis data mudah divisualisasikan sebagai data 2-D dan juga dalam bentuk ini K-Means dapat bekerja dengan baik. Dimana bentuk yang lebih kompleks seperti square atau sphere akan sulit bagi K-Means untuk bekerja dengan baik pada dataset tersebut. Bentuk 2-D sederhana akan diclusterkan dengan baik menggunakan algoritma K-Means.
+Application : 
+• Relatif efisien dan cepat, dengan hasil komputasinya O(tkn).
+• K-Means dapat diaplikasikan pada machine learning atau data mining
+• Digunakan untuk pemahaman data akustik dalam memahami
+ucapan untuk mengkonversi dari bentuk gelombang menjadi salah satu kategori.
+• Digunakan untuk memilih color palettes pada devices old
+fashioned graphical display dan image quantization.
+Kelebihan dan Kekurangan K-Means : 
+Kelebihan : 
+● Sederhana
+● Umum digunakan
+● Mudah diimplementasikan
+● Waktu training relatif cepat
+Kekurangan : 
+● Centroid di-inisialisasi secara random sehingga proses pencarian cluster dapat berbeda-beda (waktu dan kompleksitasnya)
+● Biaya komputasi cukup tinggi karena diperlukan perhitungan jarak dari tiap data ke centroid
+   Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Selain itu, di sesi domain Data Science, kita diberikan pre-post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+   Pada hari Selasa, 19 April 2022 di hari kedua dan di minggu ke sembilan, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Image Segmentation using U-Net. 
+Computer Vision Landscape :
+- Single Object : Classification & Classification + Localization
+- Multiple Objects : Object Detection & Segmentation 
+Overview :
+   The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan gambar dengan menggambar garis di sekitar objek disebut Segmentasi. 
+Type of Segmentation :
+•Semantic Segmentation masks road, sheep and grass dapat mengidentifikasi objek yang berbeda.
+•Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+Application of Segmentation : 
+- Road identification in Satellite imagery
+- Activity Recognition
+- Crop Monitoring
+- Object Extraction
+- Autonomous Car
+Evaluation :
+   Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi.
+   Metrik IOU mengukur piksel yang umum antara target dan topeng yang diprediksi dibagi dengan jumlah total piksel yang ada di kedua topeng.
+Encoder decoder architecture : 
+• Lapisan encoder dan decoder berukuran sama.
+• Encoder digunakan untuk mengekstrak fitur.
+• Decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+Transpose Convolution Layer :
+   Konvolusi adalah proses untuk mendapatkan ukuran output yang lebih kecil. Deconvolution atau Transpose Convolution adalah proses dimana kita ingin upsample image untuk mendapatkan ukuran yang lebih besar.
+Deconvolution bekerja :
+• warna biru sebagai input, Warna Grey 3x3 filter, Warna Hijau merupakan outputnya. Stride is 1. Perhitungannya yang dilakukan sama dengan perhitungan konvolusi biasa.
+• jadi dengan input 2x2 dan kernel size 3x3, kita bisa mendapatkan ukuran gambar yang lebih besar menjadi 4x4 dengan stride = 1
+Maths behind deconvolution :
+   Cara mendapatkan gambar 4x4, yaitu ketika kami melakukan dekonvolusi pada gambar 2x2 dengan filter 3x3.
+U -Net Architecture :
+U- Net Training :
+- Soft-max
+- Cross-Entropy loss function
+- pixel-wise loss weight 
+Keuntungan vs Kerugian : 
+U-net advantages : 
+-  Fleksibel dan dapat digunakan untuk tugas rational image masking task
+- Akurasi tinggi (given proper training, dataset, and training time)
+- Tidak mengandung lapisan fully connected layers
+- Lebih cepat dari sliding-window (1-detik per image)
+- Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+- Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda.
+U-net disadvantages : 
+- Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+- Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+- Pre-trained models tidak tersedia secara luas (it's too task specific)
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Rabu, 20 April 2022 di hari ketiga dan di minggu ke sembilan, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Natural Language Processing (NLP) - Speech Recognition. 
+Speech Recognition : 
+• Speech Recognition atau yang biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+• Teknologi ini memungkinkan suatu perangkat untuk mengenali dan memahami kata-kata yang diucapkan dengan cara mengubah sinyal analog berupa gelombang suara menjadi sinyal digital dan mencocokkan sinyal digital tersebut dengan suatu pola tertentu yang tersimpan dalam suatu perangkat.
+Speech Recognition vs Voice Recognition : 
+• Pengenalan ucapan (Speech Recognition) digunakan untuk
+mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan.
+• Pengenalan suara (Voice Recognition) adalah teknologi untuk
+mengidentifikasi suara individu.
+Sejarah Speech Recognition.
+Beberapa frameworks open-source untuk Automatic Speech Recognition : 
+• CMU Sphinx
+• Kaldi 
+• ESPnet 
+Audio Processing : 
+Dua toolkit audio processing yang open-source untuk Automatic Speech Recognition :
+- SoX – Sound eXchange :
+  Toolkit dan library yang dapat digunakan untuk memanipulasi audio. Tools ini mengimplementasikan banyak format file dan dapat digunakan untuk memutar, mengonversi, dan memanipulasi file audio.
+- Librosa :
+   Library Python yang dapat digunakan untuk analisis audio, mengekstraksi fitur, dan pemrosesan sinyal digital (Digital Signal Processing, DSP).
+Speech Recognition Flow : 
+Sinyal Suara -> Ekstraksi Fitur -> Acoustic Model + Language Model -> Pola Klasifikasi
+Model dalam Speech Recognition : 
+- Model Akustik : Ini mewakili hubungan antara unit linguistik ucapan (phonem) dan sinyal audio.
+- Model Bahasa : Pada model ini suara dicocokkan dengan urutan kata untuk membedakan antara kata-kata yang mirip.
+   Algoritma pada Speech Recognition harus mampu memproses dan mengubah audio menjadi teks. Poin Penting pada SR yang perlu diperhatikan adalah sebagai berikut :
+• Gaya bicara
+• Bahasa
+• Dialek & Aksen
+• Perbedaan frasa
+Proses Speech Recognition :
+- Sinyal Analog ke Digital
+Sampling:
+Pulse Amplitude Modulation (PAM) yaitu sample dengan nilai diskrit pada amplitudo terhadap waktu.
+Sample rate – Jumlah frame persecond (Hz)
+Contoh standar sample rate:
+-Telepon 8 KHz
+-MP3 44 KHz
+-Bluray 1 MHz
+Quantizing :
+   Mengubah ke sinyal diskrit terhadap waktu sehingga mendapatkan nilai biner
+Contoh pada gambar 8 bit sehingga memiliki 256 level pada sinyal.
+   Terakhir, tahap Encoding : Memasukan nilai biner setiap frame berurut sesuai waktu
+Sehingga hasilnya urutan nilai biner 1 dan 0
+Feature Extraction : 
+Mel Frequency Cepstral Coefficient (MFCC) : 
+Pre Emphasis -> Framing dan Windowing -> FFT -> Mel Frequency Wrapping -> DCT -> Cepstral Liftering
+Pre Emphasis : Memperkuat energi pada frekuensi. Sehingga membuat informasi lebih jelas.
+Framing dan Windowing :
+   Framing proses untuk membagi sampel suara menjadi beberapa frame.
+   Windowing mengurangi discontinuitassinyal pada awal dan akhir bingkai setelah proses framing.
+   Ketika proses framing terjadi tumpang tindih, sehingga dilakukan windowing.
+Fast Fourier Transform (FFT) : Mengubah domain waktu menjadi domain frekuensi
+Mel Frequency Wrapping : Data dipetakan dalam Mel-scale menggunakan filter segitiga (triangular function) yang menghasilkan 12 vektor koefisien
+DCT : Mengkonversi melspectrum (domain frekuensi) ke dalam domain waktu
+Cepstral Liftering : Delta dan Double Deltas menambahkan koefisien MFCC menjadi double sehingga meningkatkan kualitas untuk Speech Recognition
+Pipeline Klasifikasi SR (Emotion SER) : 
+Dataset -> Feature Extraction MFCC -> Model CNN -> Evaluasi -> Deployment
+Markov Model :
+• Markov Chain (Markov Model) ditemukan oleh Andrey Markov. Ketika diberi inputan pada keadaan saat ini, maka keadaan yang akan datang dapat diprediksi
+Hidden Markov Model : 
+   Markov Model tetapi memiliki kondisi yang tidak dapat diamati atau observasi, oleh sebab itu disebut hidden. Walaupun keadaan atau kondisi yang tidak dapat diamati, HMM memiliki output yang dapat terlihat.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Kamis, 21 April 2022 di hari keempat dan di minggu ke sembilan, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang RL - Review dan Forum Group Discussion. 
+Konsep RL : 
+Teori Dasar :
+- Algoritme RL mengehendaki pertukaran state - action - reward (st, at, rt) antara agent dan environment.
+- RL belajar dari interaksi agent dengan environment menggunakan proses eksploitasi/eksplorasi dan sistem reward, untuk memperkuat Action positif.
+- Eksploitasi dan eksplorasi perlu diatur hingga tujuan tercapai 
+- Eksploitasi adalah Action RL dalam menggunakan solusi terbaik sebelumnya.
+- Eksplorasi adalah Action RL dalam melakukan Action berbeda untuk mencari solusi yang lebih baik.
+- Algoritme RL yang lebih dominan eksploitasi, memungkinkan terlewatkan ya kemungkinan peluang solusi lain yang lebih baik 
+- Algoritme RL yang lebih dominan eksplorasi, memungkinkan agent RL tersebut akan mendapatkan banyak peluang solusi buruk
+- Istilah - istilah : agent, Environment, Action (A), Reward (R), State (S), Terminal state. 
+Interaksi Agent : 
+- Tujuan agent : memaksimalkan reward kumulatif, disebut return
+- Return merupakan penjumlahan dari reward-reward uang terdiskon
+- Dalam banyak kasus, Environment tidak dapet teramati seluruhnya oleh agent. Agent melakukan Action dan melihat bagaimana Environment bereaksi terhadap Action tersebut untuk mendapat informasi
+- Untuk berinteraksi dengan Environment (melakukan Action), agent dapat menggunakan policy, value function, atau model.
+Policy : 
+- Policy adalah algoritme / serangkaian aturan yang mendeskripsikan bagaimana agent mengambil keputusan-keputusan. 
+- Policy merupakan fungsi yang dinotasikan dengan 𝜋, yang memetakan state st ke sebuah action at (agent memilih sebuah action berdasarkan state saat ini)
+- Fungsi dapat berwujud apapun (tabel, grafik, atau Machine Learning) selama dapat menerima state sebagai input dan action sebagai output. 
+Value function : 
+- Value function berguna untuk mengevaluasi posisi agent, baik/buruk, pada state yang diketahui. 
+- Value function mengukur apakah state yang diberikan adalah yang diinginkan agent, yaitu kedekatannya dengan expected value. 
+- Value function mengambil sebuah state (dan action) sebagai input dengan mengikuti sebuah policy sebagai aturan, lalu menghasilkan nilai saklar yang merepresentasikan reward kumulatif (return) yang diinginkan
+Model : 
+- agent harus melakukan Action untuk mendapatkan informasi tentang Environment (model-free)
+- Agent dapat memakai model untuk memprediksi bagaimana Environment akan bereaksi terhadap action-Action yang dilakukan untuk state yang tersedia (model-based)
+- Model adalah sebuah fungsi yang memprediksi probabilitas dari state berikutnya jika diketahui state dan Action saat ini
+- Kerangka fundamental dari konsep RL disebut MDP
+MDP (Markov Decision Process) : 
+MDP adalah sebuah tuple (S, A, P, R, 𝛾) :
+- S adalah himpunan dari state-state
+- A adalah himpunan dari action-action
+- P adalah matriks probabilitas transisi dari state-state
+- R adalah fungsi reward
+- 𝛾 adalah faktor diskon
+   Arsitektur paling dasar dari MDP adalah Markov Process. 
+   Markov Process adalah Markov Chain yang memiliki Matriks Probabilitasi Transisi. 
+Persamaan Bellman : 
+-Formulasi 
+-Perhitungan : 
+- Perhitungan persamaan Bellman yang dikerjakan untuk mendekati nilai yang diharapkan (Bellman Expectation Value). 
+- Perlu perhitungan value function untuk menyelesaikan permasalahan RL yang berbasis MDP
+- Persamaan Bellman adalah persamaan linear
+- Perhitungan langsung (analitis) hanya mungkin untuk kasus RL yang sederhana/kecil. Sedangkan untuk mayoritas kasus RL yang berdimensi besar, perlu metode numeris/iteratif seperti DP, MC, TD (SARSA , QL) dan DQN.
+Algoritma Dynamic Programming :
+- Tujuan : menemukan optimal policy dengan cara menggunakan Bellman Equation of V state-value function, menghitung policy iteration dan value iteration.
+Monte Carlo : 
+- MC didefinisikan untuk jenis Episodic Environment 
+- Ide utama MC : value didapatkan dari rata-rata returns
+- Elemen Algoritma MC : Goal, Return,dan Value function
+- MC Control : Policy Evaluation dan Policy Improvement
+Temporal Difference Learning
+- TDL : mengestimasi reward pada setiap langkah (step). 
+MC vs TD
+TD Control : SARSA dan Q-Learning
+- SARSA : State - Action - Reward - State - Action
+- Q- Learning : pengembangan RL yang menggunakan Q-values / Action- values untuk meningkatkan kemampuan agent belajar agent berulang-ulang. 
+Algoritma SARSA (on-policy TD Control)
+Algoritma Q-Learning (off-policy TD Control)
+   Deep Q Learning : menggantikan Q-table menggunakan sebuah neural network yang disebut Deep Q Network / DQN.
+Deep Q Network : 
+- DQN adalah sebuah NN yang menerima states yang diberikan oleh Environment sebagai input, lalu menghasilkan output estimasi Q Values pada setiap actions yang diambil dari state tersebut.
+- Untuk minimize Loss, lalu setelah menghitung Loss bobot pada Network akan di update menggunakan Stochastic gradient descent dan backpropagation seperti NN pada umumnya
+Experience Replay dan Replay Memory 
+Algoritma DQN 
+Konsep RL untuk Robotics : 
+Pendekatan / Metode untuk mengajari robot :
+- Direct programming : program manual tentang bagaimana robot bergerak
+- Reinforcement Learning : robot bergerak sendiri dan gerakannya dievaluasi 
+   Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot.
+   Robot merupakan mesin yang beroperasi kan secara otomatis yang menggantikan usaha manusia. 
+   Contoh aplikasi robot : Desain balancing- robot 2 roda (segway), balancing while steering, ability of genting up autonomously from a fall. 
+RL for Robotics : 
+1.) Kinematics System : 
+- Manipulator robot 
+- Bipedal robot
+2.) Navigation System 
+3.) Optimal Control
+Implementasi RL pada Robotics : 
+- Q-Learning 
+- Deep Q Learning / DQN pada Turtlebot : Indoor Dynamic goals navigation menggunakan RL.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Selain itu, di sesi domain RL, kita diberikan pretest dan post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Jumat, 22 April 2022 di hari kelima dan di minggu ke sembilan, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Web Development dengan Heroku. 
+Web Development and Deployment :
+   Website adalah kumpulan halaman web yang dapat diakses publik dan biasanya disebut juga dengan www (World Wide Web).
+   Development adalah kegiatan yang bertujuan untuk membuat suatu program atau pengembangan perangkat lunak.
+Cara penyebarannya (deployment) tergantung dari jenis aplikasinya : 
+-  Apabila memilih aplikasi Web, maka aplikasi akan dihosting pada server.
+- Sedangkan, aplikasi mobile, akan terdapat dua deployment, yakni deployment untuk aplikasi ke Playstore atau Appstore, dan deployment API (backend) ke server.
+   Web development atau pengembangan web adalah sebuah proses pembangunan dan pemeliharaan situs web.
+   Web deployment adalah proses menjalankan aplikasi web di server atau perangkat yang melibatkan packaging dan meletakkannya di production environment.
+   Python Web Development Framework : Pyramid, Quixote, Cubic Web, dll. 
+Heroku :
+   Heroku adalah adalah salah satu web hosting berbasis cloud, digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain - lain. 
+- Heroku termasuk ke dalam kriteria Platform As A Service (PaaS).
+- Heroku dapat memanage Sistem Operasi, RAM, hardisk dan sebagainya secara otomatis sehingga heroku dapat mendeteksi bahasapemrograman apa yang digunakan oleh sebuah aplikasi.
+- Heroku dapat deployment secara otomatis terhadap aplikasi yang kita upload melalui tool git.
+Topologi Deployment ke Heroku. 
+Project Deployment ke Heroku :
+Langkah-langkah cara deploy dah upload heroku melalui tool git :
+1. Install Git 
+2. Pastikan bahwa anda telah melakukan Git Clone 
+3. Buat akun di Heroku 
+4. Install Heroku CLI 
+5. Push Repository Local ke Heroku
+Gunicorn dan Github Student Package :
+   Gunicorn (Green Unicorn) adalah sebuah WSGI (Web Server Gateway Interface) HTTP Server untuk bahasa pemrograman Python.
+   WSGI merupakan application server yang bertanggungjawab untuk mengolah data dengan mengeksekusi kode yang ada di server.
+   Github Student Developer Pack : Microsoft Azure, netwise, Digital Ocean, Microsoft visual studio, dan New Relic.
+   Setelah pemberian materi, coach juga mengajarkan dan mencoba langsung di heroku. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Selain itu, kita juga diberikan tugas heroku oleh coach yang bersifat tidak wajib. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 

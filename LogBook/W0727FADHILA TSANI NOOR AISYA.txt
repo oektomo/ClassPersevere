@@ -1,0 +1,521 @@
+Mon, 4 Apr
+
+   Kegiatanku di minggu ini dimulai hari ini berbeda lagi dengan minggu-minggu sebelumnya. Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang Time Series Statistical Approach. 
+   Data time series adalah suatu himpunan data pengamatan yang dibangun dalam urutan waktu. Model time series mengasumsikan bahwa kejadian di waktu t berhubungan dengan kejadian t-1,t-2, dst. Contoh : Data cuaca pada beberapa jam dan periode tertentu. 
+Data : 
+- Cross section : data tidak bergantung dengan waktu
+- Time series : variabel dependent (label) bergantung pada waktu
+- Longitudinal : variabel independent bergantung pada waktu. 
+   Split data time series tidak bisa dibagi secara acak namun pembagian datanya harus berurutan. 
+   Time series digunakan untuk membuat Forecasting, diantaranya : prediksi cuaca, prediksi jumlah penumpang, manajemen stok barang, prediksi harga barang, dsb. 
+Kegunaan data time series : 
+- metode efektif untuk meramalkan keputusan
+- Memprediksi masa depan yang tidak pasti untuk membantu organisasi 
+   Cross Validation adalah metode statistik untuk mengevaluasi kinerja model atau algoritma dimana data dibagi menjadi data training dan testing. 
+Contoh : K-fold Cross Validation 
+Teknik Cross Validation : 
+- Time series split cross Validation 
+- Blocked Cross Validation 
+Statistics Model : 
+2 jenis model di time series : 
+1.) Statistical Approach : Metode box-jenkins (ARIMA), model musiman, model trend, Vector autoregressive (VAR), Hidden Markov Model (HMM),dll. 
+2.) Machine Learning Approach : Recurrent Neural Network (RNN), Long short-term memory (LSTM), Wavenet, Multi-layer Perceptron, dll. 
+Time Series Patterns / Pola  : Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect. 
+Box-Jenkins : 
+   Metode ARIMA (Autotegressive Integrated Moving Average) ini dikenalkan oleh 2 statistikawan George Box dan Gwilym Jenkins yang mengembangkan metode pemilihan model dari melihat stasioneritasnya. 
+Langkah- langkah metode : 
+1. Uji Stasioneritas 
+Stasioner adalah kondisi dimana mean dan varians data tidak mengalami perubahan secara sistematik. 
+3 jenis uji stasioneritas : Plotting line graph of The data, Plotting rolling statistics, dan Dickey-fuller test. 
+2. Jika tidak stasioner, lakukan : 
+- Transformasi data (semua data dihitung jadi log(data))
+- Differencing adalah mengubah data 
+3. Uji ACF (Auto Correlation Function) dan PACF (Partial Auto Correlation Function)
+4. Pilih model ARIMA (p,d,q) yang tepat
+5. Evaluasi model dengan RSME dll
+6. Lakukan Forecasting
+   Analisis Box Jenkins ARIMA hanya berlaku pada data runtun waktu yang stasioner. Data runtun waktu yang tidak stasioner dapat ditransformasi menjadi runtun waktu yang stasioner sehingga ARIMA dapat digunakan untuk data runtun waktu yang tidak stasioner.
+Seasonal : 
+   Seasonal ARIMA (SARIMA) adalah model yang bisa dibentuk dari kombinasi ARIMA dan Musiman(Seasonal). 
+Kombinasi : 
+Ada 2 cara kombinasi model : 
+- Addictuve Decomposition : mengkombinasikan model ARIMA, trend, dan Seasonal dengan menjumlahkan y = base + trend + seasonality + residual
+- Multiplicative Decomposition : mengkombinasikan model ARIMA, trend, dan Seasonal dengan mengkalikan y = base x trend x seasonality x residual
+Trend : 
+Model Trend : 
+   Data trend terlihat kurvanya yang konsisten naik atau turun. 
+   Model trend diperoleh dengan regresi linier dengan waktu sebagai feature atau mengkombinasikan dengan SARIMA/ARIMA. 
+Evaluation Metrics : 
+Beberap Metrics untuk mengukur performance dari model time series : 
+1. Mean Absolute Error (MAE)
+2. Mean Absolute Percent Error (MAPE)
+3. Mean Squared Error (MSE)
+4. Root Mean Squared Error (RMSE)
+5. Lainnya : AIC, BIC, MAD, MSD, dll
+  Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+
+Tue, 5 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang Object Detection with YOLO. 
+   Classification : setiap Image memiliki satu objek, model melakukan prediksi satu label.
+   Object Detection : setiap Image mengandung banyak objek, model mengklasifikasikan objek dan mengidentifikasi lokasi. 
+Naive Approach : 
+1. Scan Image menggunakan sliding window
+2. Memasukkan Image ke model pengklasifikasi untuk memprediksi label untuk wilayah itu
+   Pendekatan ini lambat karena memeriksa banyak jendela yang tidak berisi apapun -> tidak bagus untuk penggunaan waktu nyata
+   Region-based Convolutional Neural Network (R-CNN) adalah pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN. 
+Object Detection Milestones : 
+- Traditional Detection Methods
+- Deep Learning based Detection Methods
+- One stage detector dan two stage detector
+One stage vs Two stage : 
+   Two stage detector, generate region proposal (e.g. Selective search). Setiap proposal dilakukan klasifikasi objek dan estimasi posisi. Kelebihan stage ini dalam hal akurasi. Contoh : R-CNN, Fast R-CNN, Faster R-CNN. 
+   One stage detector, klasifikasi objek dan regresi kotak pembatas dilakukan secara langsung tanpa menggunakan proposal wilayah yang dibuat sebelumnya (candidate object bounding boxes). Contoh : YOLO dan SSS. 
+Image Detection Algorithms : 
+- DPM V5 -> 0,07 FPS & 14 s/gambar
+- R-CNN -> 0,05 FPS & 20 s/gambar
+- Fast R-CNN -> 0,5 FPS & 2 s/gambar
+- Fastest R-CNN -> 7 FPS & 140 ms/gambar
+- YOLO -> 45 FPS & 22 ms/gambar 
+YOLO Steps :
+Step 1 : bagi gambar ke dalam beberapa Bella dengan ukuran S x S grid
+Step 2 : setiap cell memprediksi B bounding boxes 
+Step 3 : memproduksi bounding boxes dengan confidence value 
+Encoding Multiple Bounding Boxes 
+Measuring Performance IoU : 
+   Intersection over Union (IoU) mengukur tumpang tindih antara 2 boundary boxes. 
+Selama proses training, akan dihitung IoU antara kotak pembatas yang diprediksi dan kepastian prediksi (kotak pembatas berlabel yang akan diprediksi).
+Intersection over Union (IoU) : 
+- Calculating overlapping region 
+- Calculating combined region 
+Double Counting Objects (Non Max suppression) : 
+   Saat memprediksi lebih dari 2 kotak pembatas per sel, terkadang objek yang sama akan terdeteksi beberapa kali (kotak tumpang tindih dengan label yang sama)
+Step 1 : selecting bounding box with highest score
+Step 3 : Delete bounding box with high overlap
+Step 5 : Final output 
+   Loss Function in YOLO : Regression Loss, Confidence Loss, dan Classification Loss. 
+YOLO timeline : 
+YOLO (2015) -> YOLO-9000 YOLO-v2 (2018) -> YOLO-v3 (2018) -> YOLO-v4 (2019-2020) -> YOLO-v5 (2020)
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+
+Wed, 6 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Word Embedding dan Deep Learning for NLP. 
+Recall : Bag of Words dan TF-IDF 
+Kekurangan : 
+1. Sparse, setiap kata pada dictionary merupakan fitur
+2. Low semantics, tidak memiliki kemampuan lebih untuk menangkap makna
+3. Out of vocabulary, jika tidak ada di kamus, kata baru tidak memiliki fitur 
+Word Embedding : 
+- Hadir untuk menyelesaikan permasalahan sebelumnya -> BoW dan TF-IDF
+- Setiap kata direpresentasikan pada vektor space dalam dimensi tertentu. 
+- Kata yang memiliki konteks mirip saling berdekatan. 
+Karakteristik word embedding : 
+1. Ukuran fitur yang lebih pendek 
+2. Dense (tidak memiliki banyak nol)
+Zero Padding & Truncation : 
+   Zero padding memberi nilai nil pada kalimat yang kurang dari panjang kalimat yang telah diset. Sedangkan Truncation memotong kata pada kalimat yang ukurannya lebih dari panjang kalimat yang telah diset. Setiap token kata dijadikan vocabulary dan diakses dengan indeks. 
+Word2Vec : 
+Ide : Daripada menghitung kemunculan kata seperti BoW dan TF-IDF. Bagaimana memprediksi kemunculan kata-kata di sekitar suatu kata (kasus klasifikasi)
+Cara bekerja : 
+- Word2Vec diperoleh dengan melatih shallow neural Network. 
+- Shallow merujuk pada istilah pemanfaatan satu Hidden layer dari neural network
+Word2Vec - Skipgram : 
+Input - W - Projection - W’ - Output - Target
+Word2Vec - CBOW : 
+   CBOW atau Continuous Bag of Words : melakukan prediksi suatu kata dengan diberikannya kata-kata di sekitarnya. 
+Input - W - Projection - W’ - Output - Target
+Skipgram vs CBOW : 
+Skipgram : memprediksi semantik dari kata pada suatu kalimat
+CBOW : memprediksi satu kata dari semantik (input) pada suatu kalimat
+Word2Vec - Negative Sampling :
+   Negative sampling adalah mekanisme untuk mengurangi jumlah parameter yang akan diupdate ketika backpropagation. Negative sampling bekerja dengan memperhatikan target yang bernilai 1, dan mengabaikan target bernilai 0 dengan Rate tertentu. 
+Word2Vec - Embedding Matrix/table : 
+Hidden layer linear neurons - Output layer Softmax classifier
+Word2Vec - Semantic (Analogy) : 
+   Kita dapat mempresentasikan Embedding dalam bidang 2 dimensi dan memperoleh analogy di dalamnya. 
+   Fastext adalah word Embedding yang dihasilkan oleh facebook. Fastext dapat mengatasi OOV (Out of Vocabulary). 
+   Glove adalah word Embedding yang memperhatikan kemunculan kata pada korpus. 
+Recurrent Neural Network : 
+- Untuk memperoleh sentence Embedding yang lebih baik. 
+- RNN memanfaatkan looping setiap kata
+Long Dependency problem : 
+RNN memiliki kendala dimana kalimat yang panjang akan membuat RNN kita lupa.
+Long Short-Term Memory adalah 
+- Untuk mengatasi long dependency problems.
+- LSTM hanya menoerhatikan informasi yang relevan dan melupakan / filter kata yang tidak relevan
+- LSTM adalah modifikasi dari RNN
+- Pada LSTM terapat istilah cell state yang akan diteruskan ke setiap cell. 
+- Terjadi pula operasi Hadamard Product (elemen-wise Product) dan penjumlahan untuk melupakan kata tertentu dan memberikan informasi baru yang penting 
+- LSTM : Forget gate dan Input gate
+- Ide LSTM : cell state . Cell state akan terus membawa informasi yang telah diseleksi pada setiap cell. 
+- Walaupun LSTM menyelesaikan long dependency problem dan vinishing Gradient problem, LSTM juga dapat di improve menggunakan Bidirectional LSTM atau melakukan penumpukan LSTM (Stacking LSTM)
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Thu, 7 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Q-Learning dan Deep Q-Learning. 
+Monte Carlo vs TD Method (Recap) : 
+1.) TD method 
+- Biased
+- Low Variance
+2.) Monte Carlo  : 
+- Unbiased
+- High Variance
+Temporal Difference Learning (Recap) :
+TD Control : 
+1.) SARSA 
+- On policy : Sample policy sama dengan Learning policy (target policy). Contoh : SARSA dan policy gradient
+- State (S), Action (A), Reward (R), State (S’), Action (A’)
+- Terinspirasi dari policy iteration
+- Mengganti value function dengan Action-value function
+- Fokus pada state-action (S,A)
+2.) Q-Learning 
+- Off policy : Sample policy berbeda dengan Learning policy (target policy). Contoh : Q-Learning dan Deep Q Network (DQN)
+- Max Q (s,a)
+   Q-Learning merupakan pengembangan RL menggunakan Q-values (Action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang. 
+Konsep dasar Q-Learning : 
+- Terinspirasi dari value iteration 
+- Sample an Action 
+- Observe The reward and The next state 
+- Take The Action with The highest Q (Max Q)
+   Action dari setiap step dapet dihitung untuk menentukan Action terbaik (best action). Keperluan ini digunakan Q-Table. 
+   Tujuan Q- Learning : mencari policy yang optimal dan mencari optimal Q-values untuk setiap pasangan state-action
+Q Learning work : 
+Init reward and Q table -> Choose action -> Perform Action and get reward -> Update Q table. 
+Eksplorasi vs Eksploitasi : 
+   Eksplorasi adalah metode pemilihan action dimana agent akan melakukan pemilihan Action secara random untuk mengetahui informasi tentang Environment secara mendalam. 
+   Sedangkan Eksploitasi adalah metode pemilihan Action dengan memilih Action yang mempunyai return (Q-value) paling besar. 
+   Epsilon-greedy exploration : digunakan untuk menyeimbangkan antara eksplorasi dan eksploitasi menggunakan nilai epsilon atau rate eksplorasi. 
+Deep Q Learning : 
+   Pada Deep Q Learning kita akan menggantikan Q-Table menggunakan sebuah Neural Network biasa disebut dengan Deep Q Network (DQN). 
+   Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh Environment sebagai input lalu DQN akan menghasilkan output estimasi Q Values pada setiap Action yang dapat diambil pada state tersebut. Tujuan nya untuk menghasilkan aproksimasi Q function yang optimal. 
+   Loss pada NN ini dengan membandingkan antara Q-Values dari output dengan target Q-Values yang didapat dari persamaan optimal Q function. 
+   Goals pada NN ini untuk minimize Loss lalu setelah menghitung Loss bobot pada Network akan di update menggunakan Stochastic Gradient descent dan backpropagation seperti NN pada umumnya. 
+Experience Replay dan Replay Moment: 
+   Dalam proses training DQN, kita menggunakan sebuah teknik yang dinamakan experience replay. Dengan experience replay, kita menyimpan experience dari agent untuk setiap time step ke dalam wadah bernama replay memory. Kita mendefinisikan besaran experience yang dapat ditampung oleh Replay memory sebesar Na dan menyimpan N terakhir experience dari agent. 
+Train The DQN : 
+Init replay capacity -> Init NN -> Choose action for this state (exploration or exploitation) -> execute action and get reward and next state -> store experience to replay memory -> get sample random batch experience from replay memory -> pass The sample random batch to NN -> Calculate Loss -> update The weight. 
+Calculate Loss on DQN : Calculate the Max term 
+Loss : q* - Q(s,a)
+Rangkuman : 
+1. Q-learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy.
+2. Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action. 
+3. Pada Q-learning dilakukan iterasi:
+- Policy iteration 
+- Value iteration
+4. Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode. 
+5. Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table-nya.
+6. Q-table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+   Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri.Selain itu, di sesi domain RL hari ini, kita diberikan pretest dan post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya
+
+Fri, 8 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari ini diberikan materi tentang Flask RESTful API. 
+1. HTTP
+   HTTP (Hypertext Transfer Protocol) adalah Bahasa yang umum digunakan pada internet secara global. Web Browser, Server, dan aplikasi berbasis internet berkomunikasi melalui protokol ini.
+   Jenis data yang ada di internet seperti gambar, halaman web (html), text, json, audio, video dan sebagainya dapat dikirim melalui protokol HTTP. 
+   HTTP adalah standar protocol yang digunakan untuk bertransaksi data melalui internet.Transaksi data di internet dilakukan oleh server dan client. 
+A. Web Client dan Web Server
+   Konten website berada di dalam server, yaitu komputer yang terhubung dengan internet yang berfungsi untuk menyediakan data yang diminta oleh Client. Client dapat berupa Web Browser dan aplikasi lainnya yang membutuhkan koneksi internet dalam pengiriman data.
+   Client meminta data (request) kepada Server dengan format HTTP Request, lalu server akan memberikan data yang diminta (response) dengan format HTTP response.
+B. HTTP Message 
+   Pesan HTTP yang dikirim dari client ke server disebut dengan request message, sebaliknya disebut dengan response message.
+Pesan HTTP terdiri dari tiga bagian, yaitu.
+- Start line, bagian ini terdapat pada baris pertama. 
+- Header, terdapat pada baris kedua sampai batas baris kosong
+- Body, terdapat pada bagian setelah baris kosong hingga akhir. Untuk request message tidak memiliki body
+Request message : 
+Start line
+- Request method, yaitu metode yang digunakan untuk meminta data pada server.
+- url, lokasi data yang diminta.
+- Versi HTTP
+Header
+- Accept, kriteria file yang digunakan untuk request
+- Accept-Language, kriteria bahasa yang digunakan untuk request, dll
+Response message :
+Start line
+- Versi HTTP
+- Status code, kode status dari setiap response
+Header
+- Content-type, tipe file yang dikirim
+- Content-length, jumlah karakter dari file yang dikirim atau ukuran pixel gambar (bergantung dari tipe filenya), dll
+Contoh HTTP Request dan HTTP Response
+2. RESTful API
+   REST adalah arsitektur standar untuk bertukar data melalui Web yang dapat dioperasikan antar sistem komputer. Web service yang menerapkan arsitektur REST disebut RESTful web service atau RESTful API yang memungkinkan sistem untuk mengakses dan memanipulasi data. RESTful API adalah arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+HTTP Method pada RESTful API : GET, POST, PUT, DELETE, OPTIONS, HEAD, dan PATCH. 
+3. Flask Module 
+   Flask adalah microframework ringan yang dibangun menggunakan bahasa pemrograman python untuk membangun aplikasi berbasis web yang fleksibel, dukungan komunitas yang luas dan memiliki kemampuan scaling untuk melayani jutaan pengguna (client). Flask adalah module yang dapat digunakan untuk membangun RESTful API.
+Di dalam module Flask, terdapat beberapa dependency yang juga terinstall. Diantaranya yaitu :
+- Werkzeug, Standar antarmuka yang terdapat pada aplikasi dan server.
+- Jinja, template engine yang dapat melakukan render halaman website dalam sebuah aplikasi. template Jinja untuk menampilkan halaman website dengan file html.
+- MarkupSave, Modul keamanan untuk mencegah injeksi kode berbahaya dari form input.
+- ItsDangerous, Modul keamanan untuk memastikan integrasi data pada session dan cookies (untuk website yang membutuhkan sistem login).
+Flask Endpoint atau Router : 
+   Router atau Endpoint adalah tempat di mana lokasi resource berada menggunakan url tertentu. Resouce dalam hal ini merupakan dokumen yang dikirimkan oleh server kepada client. 
+Contoh tiga endpoint, yaitu:
+- Mengambil data semua mahasiswa menggunakan method GET
+- Mengambil satu data mahasiswa menggunakan method GET
+- Menambah data mahasiswa menggunakan method POST
+Menjalankan Server Flask : 
+terminal : python app.py
+Client (Web Browser), Python requests module - flask server
+Flask Template : 
+   Kita membutuhkan endpoint dan halaman web dengan format html. File html tersebut harus disimpan terlebih dahulu ke dalam folder templates. Untuk file statis seperti gambar, video dll. dapat disimpan ke dalam folder static.
+   Kemudian setelah selesai di domain Technical ini, kita diberikan tugas tentang flask. Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+What did you learn this week?
+
+   Kegiatanku di minggu ketujuh ini berbeda lagi dengan minggu sebelumnya. 
+   Pada hari Senin, 4 April 2021 di hari pertama dan di minggu ketujuh, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Time Series Statistical Approach. 
+   Data time series adalah suatu himpunan data pengamatan yang dibangun dalam urutan waktu. Model time series mengasumsikan bahwa kejadian di waktu t berhubungan dengan kejadian t-1,t-2, dst. Contoh : Data cuaca pada beberapa jam dan periode tertentu. 
+Data : 
+- Cross section : data tidak bergantung dengan waktu
+- Time series : variabel dependent (label) bergantung pada waktu
+- Longitudinal : variabel independent bergantung pada waktu. 
+   Split data time series tidak bisa dibagi secara acak namun pembagian datanya harus berurutan. 
+   Time series digunakan untuk membuat Forecasting, diantaranya : prediksi cuaca, prediksi jumlah penumpang, manajemen stok barang, prediksi harga barang, dsb. 
+Kegunaan data time series : 
+- metode efektif untuk meramalkan keputusan
+- Memprediksi masa depan yang tidak pasti untuk membantu organisasi 
+   Cross Validation adalah metode statistik untuk mengevaluasi kinerja model atau algoritma dimana data dibagi menjadi data training dan testing. 
+Contoh : K-fold Cross Validation 
+Teknik Cross Validation : 
+- Time series split cross Validation 
+- Blocked Cross Validation 
+Statistics Model : 
+2 jenis model di time series : 
+1.) Statistical Approach : Metode box-jenkins (ARIMA), model musiman, model trend, Vector autoregressive (VAR), Hidden Markov Model (HMM),dll. 
+2.) Machine Learning Approach : Recurrent Neural Network (RNN), Long short-term memory (LSTM), Wavenet, Multi-layer Perceptron, dll. 
+Time Series Patterns / Pola  : Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect. 
+Box-Jenkins : 
+   Metode ARIMA (Autotegressive Integrated Moving Average) ini dikenalkan oleh 2 statistikawan George Box dan Gwilym Jenkins yang mengembangkan metode pemilihan model dari melihat stasioneritasnya. 
+Langkah- langkah metode : 
+1. Uji Stasioneritas 
+Stasioner adalah kondisi dimana mean dan varians data tidak mengalami perubahan secara sistematik. 
+3 jenis uji stasioneritas : Plotting line graph of The data, Plotting rolling statistics, dan Dickey-fuller test. 
+2. Jika tidak stasioner, lakukan : 
+- Transformasi data (semua data dihitung jadi log(data))
+- Differencing adalah mengubah data 
+3. Uji ACF (Auto Correlation Function) dan PACF (Partial Auto Correlation Function)
+4. Pilih model ARIMA (p,d,q) yang tepat
+5. Evaluasi model dengan RSME dll
+6. Lakukan Forecasting
+   Analisis Box Jenkins ARIMA hanya berlaku pada data runtun waktu yang stasioner. Data runtun waktu yang tidak stasioner dapat ditransformasi menjadi runtun waktu yang stasioner sehingga ARIMA dapat digunakan untuk data runtun waktu yang tidak stasioner.
+Seasonal : 
+   Seasonal ARIMA (SARIMA) adalah model yang bisa dibentuk dari kombinasi ARIMA dan Musiman(Seasonal). 
+Kombinasi : 
+Ada 2 cara kombinasi model : 
+- Addictuve Decomposition : mengkombinasikan model ARIMA, trend, dan Seasonal dengan menjumlahkan y = base + trend + seasonality + residual
+- Multiplicative Decomposition : mengkombinasikan model ARIMA, trend, dan Seasonal dengan mengkalikan y = base x trend x seasonality x residual
+Trend : 
+Model Trend : 
+   Data trend terlihat kurvanya yang konsisten naik atau turun. 
+   Model trend diperoleh dengan regresi linier dengan waktu sebagai feature atau mengkombinasikan dengan SARIMA/ARIMA. 
+Evaluation Metrics : 
+Beberapa Metrics untuk mengukur performance dari model time series : 
+1. Mean Absolute Error (MAE)
+2. Mean Absolute Percent Error (MAPE)
+3. Mean Squared Error (MSE)
+4. Root Mean Squared Error (RMSE)
+5. Lainnya : AIC, BIC, MAD, MSD, dll
+  Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+   Pada hari Selasa, 5 April 2022 di hari kedua dan di minggu ketujuh, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Object Detection with YOLO. 
+   Classification : setiap Image memiliki satu objek, model melakukan prediksi satu label.
+   Object Detection : setiap Image mengandung banyak objek, model mengklasifikasikan objek dan mengidentifikasi lokasi. 
+Naive Approach : 
+1. Scan Image menggunakan sliding window
+2. Memasukkan Image ke model pengklasifikasi untuk memprediksi label untuk wilayah itu
+   Pendekatan ini lambat karena memeriksa banyak jendela yang tidak berisi apapun -> tidak bagus untuk penggunaan waktu nyata
+   Region-based Convolutional Neural Network (R-CNN) adalah pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN. 
+Object Detection Milestones : 
+- Traditional Detection Methods
+- Deep Learning based Detection Methods
+- One stage detector dan two stage detector
+One stage vs Two stage : 
+   Two stage detector, generate region proposal (e.g. Selective search). Setiap proposal dilakukan klasifikasi objek dan estimasi posisi. Kelebihan stage ini dalam hal akurasi. Contoh : R-CNN, Fast R-CNN, Faster R-CNN. 
+   One stage detector, klasifikasi objek dan regresi kotak pembatas dilakukan secara langsung tanpa menggunakan proposal wilayah yang dibuat sebelumnya (candidate object bounding boxes). Contoh : YOLO dan SSS. 
+Image Detection Algorithms : 
+- DPM V5 -> 0,07 FPS & 14 s/gambar
+- R-CNN -> 0,05 FPS & 20 s/gambar
+- Fast R-CNN -> 0,5 FPS & 2 s/gambar
+- Fastest R-CNN -> 7 FPS & 140 ms/gambar
+- YOLO -> 45 FPS & 22 ms/gambar 
+YOLO Steps :
+Step 1 : bagi gambar ke dalam beberapa Bella dengan ukuran S x S grid
+Step 2 : setiap cell memprediksi B bounding boxes 
+Step 3 : memproduksi bounding boxes dengan confidence value 
+Encoding Multiple Bounding Boxes 
+Measuring Performance IoU : 
+   Intersection over Union (IoU) mengukur tumpang tindih antara 2 boundary boxes. 
+Selama proses training, akan dihitung IoU antara kotak pembatas yang diprediksi dan kepastian prediksi (kotak pembatas berlabel yang akan diprediksi).
+Intersection over Union (IoU) : 
+- Calculating overlapping region 
+- Calculating combined region 
+Double Counting Objects (Non Max suppression) : 
+   Saat memprediksi lebih dari 2 kotak pembatas per sel, terkadang objek yang sama akan terdeteksi beberapa kali (kotak tumpang tindih dengan label yang sama)
+Step 1 : selecting bounding box with highest score
+Step 3 : Delete bounding box with high overlap
+Step 5 : Final output 
+   Loss Function in YOLO : Regression Loss, Confidence Loss, dan Classification Loss. 
+YOLO timeline : 
+YOLO (2015) -> YOLO-9000 YOLO-v2 (2018) -> YOLO-v3 (2018) -> YOLO-v4 (2019-2020) -> YOLO-v5 (2020)
+   Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+   Pada hari Rabu, 6 April 2022 di hari ketiga dan di minggu ketujuh, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Word Embedding dan Deep Learning for NLP. 
+Recall : Bag of Words dan TF-IDF 
+Kekurangan : 
+1. Sparse, setiap kata pada dictionary merupakan fitur
+2. Low semantics, tidak memiliki kemampuan lebih untuk menangkap makna
+3. Out of vocabulary, jika tidak ada di kamus, kata baru tidak memiliki fitur 
+Word Embedding : 
+- Hadir untuk menyelesaikan permasalahan sebelumnya -> BoW dan TF-IDF
+- Setiap kata direpresentasikan pada vektor space dalam dimensi tertentu. 
+- Kata yang memiliki konteks mirip saling berdekatan. 
+Karakteristik word embedding : 
+1. Ukuran fitur yang lebih pendek 
+2. Dense (tidak memiliki banyak nol)
+Zero Padding & Truncation : 
+   Zero padding memberi nilai nil pada kalimat yang kurang dari panjang kalimat yang telah diset. Sedangkan Truncation memotong kata pada kalimat yang ukurannya lebih dari panjang kalimat yang telah diset. Setiap token kata dijadikan vocabulary dan diakses dengan indeks. 
+Word2Vec : 
+Ide : Daripada menghitung kemunculan kata seperti BoW dan TF-IDF. Bagaimana memprediksi kemunculan kata-kata di sekitar suatu kata (kasus klasifikasi)
+Cara bekerja : 
+- Word2Vec diperoleh dengan melatih shallow neural Network. 
+- Shallow merujuk pada istilah pemanfaatan satu Hidden layer dari neural network
+Word2Vec - Skipgram : 
+Input - W - Projection - W’ - Output - Target
+Word2Vec - CBOW : 
+   CBOW atau Continuous Bag of Words : melakukan prediksi suatu kata dengan diberikannya kata-kata di sekitarnya. 
+Input - W - Projection - W’ - Output - Target
+Skipgram vs CBOW : 
+Skipgram : memprediksi semantik dari kata pada suatu kalimat
+CBOW : memprediksi satu kata dari semantik (input) pada suatu kalimat
+Word2Vec - Negative Sampling :
+   Negative sampling adalah mekanisme untuk mengurangi jumlah parameter yang akan diupdate ketika backpropagation. Negative sampling bekerja dengan memperhatikan target yang bernilai 1, dan mengabaikan target bernilai 0 dengan Rate tertentu. 
+Word2Vec - Embedding Matrix/table : 
+Hidden layer linear neurons - Output layer Softmax classifier
+Word2Vec - Semantic (Analogy) : 
+   Kita dapat mempresentasikan Embedding dalam bidang 2 dimensi dan memperoleh analogy di dalamnya. 
+   Fastext adalah word Embedding yang dihasilkan oleh facebook. Fastext dapat mengatasi OOV (Out of Vocabulary). 
+   Glove adalah word Embedding yang memperhatikan kemunculan kata pada korpus. 
+Recurrent Neural Network : 
+- Untuk memperoleh sentence Embedding yang lebih baik. 
+- RNN memanfaatkan looping setiap kata
+Long Dependency problem : 
+RNN memiliki kendala dimana kalimat yang panjang akan membuat RNN kita lupa.
+Long Short-Term Memory adalah 
+- Untuk mengatasi long dependency problems.
+- LSTM hanya menoerhatikan informasi yang relevan dan melupakan / filter kata yang tidak relevan
+- LSTM adalah modifikasi dari RNN
+- Pada LSTM terapat istilah cell state yang akan diteruskan ke setiap cell. 
+- Terjadi pula operasi Hadamard Product (elemen-wise Product) dan penjumlahan untuk melupakan kata tertentu dan memberikan informasi baru yang penting 
+- LSTM : Forget gate dan Input gate
+- Ide LSTM : cell state . Cell state akan terus membawa informasi yang telah diseleksi pada setiap cell. 
+- Walaupun LSTM menyelesaikan long dependency problem dan vinishing Gradient problem, LSTM juga dapat di improve menggunakan Bidirectional LSTM atau melakukan penumpukan LSTM (Stacking LSTM)
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Kamis, 7 April 2022 di hari keempat dan di minggu ketujuh, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Q-Learning dan Deep Q-Learning. 
+Monte Carlo vs TD Method (Recap) : 
+1.) TD method 
+- Biased
+- Low Variance
+2.) Monte Carlo  : 
+- Unbiased
+- High Variance
+Temporal Difference Learning (Recap) :
+TD Control : 
+1.) SARSA 
+- On policy : Sample policy sama dengan Learning policy (target policy). Contoh : SARSA dan policy gradient
+- State (S), Action (A), Reward (R), State (S’), Action (A’)
+- Terinspirasi dari policy iteration
+- Mengganti value function dengan Action-value function
+- Fokus pada state-action (S,A)
+2.) Q-Learning 
+- Off policy : Sample policy berbeda dengan Learning policy (target policy). Contoh : Q-Learning dan Deep Q Network (DQN)
+- Max Q (s,a)
+   Q-Learning merupakan pengembangan RL menggunakan Q-values (Action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang. 
+Konsep dasar Q-Learning : 
+- Terinspirasi dari value iteration 
+- Sample an Action 
+- Observe The reward and The next state 
+- Take The Action with The highest Q (Max Q)
+   Action dari setiap step dapet dihitung untuk menentukan Action terbaik (best action). Keperluan ini digunakan Q-Table. 
+   Tujuan Q- Learning : mencari policy yang optimal dan mencari optimal Q-values untuk setiap pasangan state-action
+Q Learning work : 
+Init reward and Q table -> Choose action -> Perform Action and get reward -> Update Q table. 
+Eksplorasi vs Eksploitasi : 
+   Eksplorasi adalah metode pemilihan action dimana agent akan melakukan pemilihan Action secara random untuk mengetahui informasi tentang Environment secara mendalam. 
+   Sedangkan Eksploitasi adalah metode pemilihan Action dengan memilih Action yang mempunyai return (Q-value) paling besar. 
+   Epsilon-greedy exploration : digunakan untuk menyeimbangkan antara eksplorasi dan eksploitasi menggunakan nilai epsilon atau rate eksplorasi. 
+Deep Q Learning : 
+   Pada Deep Q Learning kita akan menggantikan Q-Table menggunakan sebuah Neural Network biasa disebut dengan Deep Q Network (DQN). 
+   Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh Environment sebagai input lalu DQN akan menghasilkan output estimasi Q Values pada setiap Action yang dapat diambil pada state tersebut. Tujuan nya untuk menghasilkan aproksimasi Q function yang optimal. 
+   Loss pada NN ini dengan membandingkan antara Q-Values dari output dengan target Q-Values yang didapat dari persamaan optimal Q function. 
+   Goals pada NN ini untuk minimize Loss lalu setelah menghitung Loss bobot pada Network akan di update menggunakan Stochastic Gradient descent dan backpropagation seperti NN pada umumnya. 
+Experience Replay dan Replay Moment: 
+   Dalam proses training DQN, kita menggunakan sebuah teknik yang dinamakan experience replay. Dengan experience replay, kita menyimpan experience dari agent untuk setiap time step ke dalam wadah bernama replay memory. Kita mendefinisikan besaran experience yang dapat ditampung oleh Replay memory sebesar Na dan menyimpan N terakhir experience dari agent. 
+Train The DQN : 
+Init replay capacity -> Init NN -> Choose action for this state (exploration or exploitation) -> execute action and get reward and next state -> store experience to replay memory -> get sample random batch experience from replay memory -> pass The sample random batch to NN -> Calculate Loss -> update The weight. 
+Calculate Loss on DQN : Calculate the Max term 
+Loss : q* - Q(s,a)
+Rangkuman : 
+1. Q-learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy.
+2. Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action. 
+3. Pada Q-learning dilakukan iterasi:
+- Policy iteration 
+- Value iteration
+4. Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode. 
+5. Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table-nya.
+6. Q-table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+   Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Selain itu, di sesi domain RL hari ini, kita diberikan pretest dan post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya.
+   Pada hari Jumat, 8 April 2022 di hari kelima dan di minggu ketujuh, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Flask RESTful API. 
+1. HTTP
+   HTTP (Hypertext Transfer Protocol) adalah Bahasa yang umum digunakan pada internet secara global. Web Browser, Server, dan aplikasi berbasis internet berkomunikasi melalui protokol ini.
+   Jenis data yang ada di internet seperti gambar, halaman web (html), text, json, audio, video dan sebagainya dapat dikirim melalui protokol HTTP. 
+   HTTP adalah standar protocol yang digunakan untuk bertransaksi data melalui internet.Transaksi data di internet dilakukan oleh server dan client. 
+A. Web Client dan Web Server
+   Konten website berada di dalam server, yaitu komputer yang terhubung dengan internet yang berfungsi untuk menyediakan data yang diminta oleh Client. Client dapat berupa Web Browser dan aplikasi lainnya yang membutuhkan koneksi internet dalam pengiriman data.
+   Client meminta data (request) kepada Server dengan format HTTP Request, lalu server akan memberikan data yang diminta (response) dengan format HTTP response.
+B. HTTP Message 
+   Pesan HTTP yang dikirim dari client ke server disebut dengan request message, sebaliknya disebut dengan response message.
+Pesan HTTP terdiri dari tiga bagian, yaitu.
+- Start line, bagian ini terdapat pada baris pertama. 
+- Header, terdapat pada baris kedua sampai batas baris kosong
+- Body, terdapat pada bagian setelah baris kosong hingga akhir. Untuk request message tidak memiliki body
+Request message : 
+Start line
+- Request method, yaitu metode yang digunakan untuk meminta data pada server.
+- url, lokasi data yang diminta.
+- Versi HTTP
+Header
+- Accept, kriteria file yang digunakan untuk request
+- Accept-Language, kriteria bahasa yang digunakan untuk request, dll
+Response message :
+Start line
+- Versi HTTP
+- Status code, kode status dari setiap response
+Header
+- Content-type, tipe file yang dikirim
+- Content-length, jumlah karakter dari file yang dikirim atau ukuran pixel gambar (bergantung dari tipe filenya), dll
+Contoh HTTP Request dan HTTP Response
+2. RESTful API
+   REST adalah arsitektur standar untuk bertukar data melalui Web yang dapat dioperasikan antar sistem komputer. Web service yang menerapkan arsitektur REST disebut RESTful web service atau RESTful API yang memungkinkan sistem untuk mengakses dan memanipulasi data. RESTful API adalah arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+HTTP Method pada RESTful API : GET, POST, PUT, DELETE, OPTIONS, HEAD, dan PATCH. 
+3. Flask Module 
+   Flask adalah microframework ringan yang dibangun menggunakan bahasa pemrograman python untuk membangun aplikasi berbasis web yang fleksibel, dukungan komunitas yang luas dan memiliki kemampuan scaling untuk melayani jutaan pengguna (client). Flask adalah module yang dapat digunakan untuk membangun RESTful API.
+Di dalam module Flask, terdapat beberapa dependency yang juga terinstall. Diantaranya yaitu :
+- Werkzeug, Standar antarmuka yang terdapat pada aplikasi dan server.
+- Jinja, template engine yang dapat melakukan render halaman website dalam sebuah aplikasi. template Jinja untuk menampilkan halaman website dengan file html.
+- MarkupSave, Modul keamanan untuk mencegah injeksi kode berbahaya dari form input.
+- ItsDangerous, Modul keamanan untuk memastikan integrasi data pada session dan cookies (untuk website yang membutuhkan sistem login).
+Flask Endpoint atau Router : 
+   Router atau Endpoint adalah tempat di mana lokasi resource berada menggunakan url tertentu. Resouce dalam hal ini merupakan dokumen yang dikirimkan oleh server kepada client. 
+Contoh tiga endpoint, yaitu:
+- Mengambil data semua mahasiswa menggunakan method GET
+- Mengambil satu data mahasiswa menggunakan method GET
+- Menambah data mahasiswa menggunakan method POST
+Menjalankan Server Flask : 
+terminal : python app.py
+Client (Web Browser), Python requests module - flask server
+Flask Template : 
+   Kita membutuhkan endpoint dan halaman web dengan format html. File html tersebut harus disimpan terlebih dahulu ke dalam folder templates. Untuk file statis seperti gambar, video dll. dapat disimpan ke dalam folder static.
+   Kemudian setelah selesai di domain Technical ini, kita diberikan tugas tentang flask. 
+   Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.

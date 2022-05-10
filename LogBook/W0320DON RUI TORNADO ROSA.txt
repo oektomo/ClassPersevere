@@ -1,0 +1,23 @@
+Mon, 7 Mar
+
+Di hari ini kita belajar banyak hal tentang data dan AI. Ada bentuk data (struktur dan tidak terstruktur).  Kemudian dijelaskan pula 'subfields' dalam AI lainya seperti machine dan deep learning serta contoh implementasinya seperti dalam image processing (computer vision) dan data analystics (data science), text dan speech processing (NLP). Setelah itu kami juga mendapat penjelasan mengenai apa saja contoh-contoh lain dari bidang-bidang tersebut dan juga bidang tambahan seperti Reinforcement Learning. Kemudian kita belajar sedikit mengenai Machine learning mulai dari apa itu machine learning hingga aplikasinya.
+
+Tue, 8 Mar
+
+Pembelajaran hari ini cukup padat. Pertama kami mempelajari dasar matematika untuk AI. Cukup banyak bidang yang matematika yang diimplementasikan dalam AI. Contohnya konsep peluang, aljabar linier yang berbentuk matriks, vektor, dan vektor eigen. Serta kalkulus yang melibatkan turunan, optimisasi dan fungsi. Dipertemuan selanjutnya kita mempelajari Numpy, sebuah pustaka Python yang difokuskan untuk implementasi notasi dan operasi  matematika. Pembelajaran dengan Numpy difokuskan pengoprasian array pada awalnya namun juga dijelaskan sedikit mengenai fungsi-fungsi yang tersedia lainya.  Kemudian kami juga mempelajari sedikit tentang Machine learning dan juga segmentasi dalam machine learning.
+
+Wed, 9 Mar
+
+Di hari ini, kami melanjutkan topik kemarin mengenai Machine learning (ML) dan lanjut membahas deep learning (DL). Pertama dijelaskan workflow machine learning, perbedaan supervised, unsupervised dan juga reinforcement learning.  Kemudian dijelaskan juga perbedaan ML dan DL serta diperjelas kemiripan cara kerja DL dengan neuron yang disebut artificial neural network. Di sesi kedua kami lebih mendalami cara kerja DL khususnya neural network dengan membahas konsep seperti activation function.
+
+Thu, 10 Mar
+
+Hari ini kami mempelajari mengenai statistik pada AI. Materinya kurang lebih meliputi statistik dasar seperti mean, modus, median, varian , dll. Kemudian dilanjutkan tentang statistik lanjutan yang meliputi beberapa metode testing hipotesis. Dijelaskan juga tentang cara melihat normalitas data dan cara menguji hipotesis data.
+
+Fri, 11 Mar
+
+Di hari jumat, kami mempelajari OOP pada Python. Disini dijelaskan mengenai variabel dalam OOP dan juga beberapa konsep pada OOP seperti Inheritence, Polymorphism,  encaptulation dll. Selain itu ulasan singkat mengenai apa yang kita pelajari seperti penjelasan mengenai data, beda AI, ML dan DL.
+
+What did you learn this week?
+
+Di minggu ini, kami mempelajari lebih dalaam mengenai AI dan bidang-bidang yang lebih spesifik seperti machine learning dan deep learning. Untuk melengkapi teorinya, kita juga mempelajari statistika dasar dan juga matematika yang digunakan dalam AI seperti matrix, vektor, uji hipotesis dalam statistik, dll. Kita juga mempelajari modul matematika dalam Python seperti Numpy. Dilengkapi juga dengan OOP pada Python dan konsepnya

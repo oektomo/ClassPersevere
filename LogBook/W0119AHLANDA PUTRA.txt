@@ -1,0 +1,27 @@
+Mon, 21 Feb
+
+Mengenal Artificial Intelligence
+
+Tue, 22 Feb
+
+Mempelajari Python Fundamental, menginstall anaconda, jupyter notebook, dan memulainya
+
+Wed, 23 Feb
+
+Mengenal Python, jupyter notebook, Google Colab, selain itu juga mengenal apa itu program serta mengenal istilah high programming level
+
+Thu, 24 Feb
+
+Mengenal apa itu Data, Ethics, dan Bias. Kecerdasan butuh data. Data yang berkualitas menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” terlihat dari Keakuratan data, kelengkapan data, Sesuai atau relevan sesuai yang dibutuhkan, Data yang terbaru atau yang masih relevan, Konsistensi data. Lalu Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI. Kenapa Ethics itu penting, Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan. Sebagai pedoman dalam mengembangkan dan menggunakan teknologi AI
+
+Fri, 25 Feb
+
+Mengenal apa itu Anaconda dan Jupyter. Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Umumnya, program yang ditulis menggunakan Jupyter Notebook akan disimpan dalam file dengan format .ipynb. Tetapi, kita juga menyimpan program yang kita tulis dalam format .py apabila dibutuhkan.
+
+What did you learn this week?
+
+Apa itu Ai? Ai merupakan Kemampuan mesin untuk menirukan perilaku manusia yang cerdas.
+Apa itu Programming ? Programming adalah aktivitas menulis intruksi (code) untuk dijalankan
+oleh komputer. Salah satu bahasa pemograman ialah Python. Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai “glue language”. Nama ‘python’ berasal dari sebuah serial komedi BBC dari tahun 1970- an, yakni Monty Python’s Flying Circus. Guido menganggap nama ‘python’ adalah nama yang singkat, unik, dan sedikit misterius.
+Mengenal apa itu Data, Ethics, dan Bias. Kecerdasan butuh data. Data yang berkualitas menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” terlihat dari Keakuratan data, kelengkapan data, Sesuai atau relevan sesuai yang dibutuhkan, Data yang terbaru atau yang masih relevan, Konsistensi data. Lalu Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI. Kenapa Ethics itu penting, Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan. Sebagai pedoman dalam mengembangkan dan menggunakan teknologi AI.
+Mengenal apa itu Anaconda dan Jupyter. Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Umumnya, program yang ditulis menggunakan Jupyter Notebook akan disimpan dalam file dengan format .ipynb. Tetapi, kita juga menyimpan program yang kita tulis dalam format .py apabila dibutuhkan.

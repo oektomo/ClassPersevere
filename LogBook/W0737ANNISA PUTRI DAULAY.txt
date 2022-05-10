@@ -1,0 +1,134 @@
+Mon, 4 Apr
+
+Data Science : Data Time Series
+
+Data Time Series ada data yang bersinggungan dengan runtun waktu. 
+Time series digunakan untuk : 
+1. Prediksi Cuaca
+2. Prediksi jumlah penumpang di waktu tertentu
+3. Manajemen Stok Barang
+4. Prediksi harga barang
+
+Kegunaan time series : 
+Metode efektif untuk meramalkan keputusan
+Memprediksi masa depan yang tidak pasti untuk membantu organisasi
+
+Secara umum ada 2 jenis model di time series : 
+1. Statistical Approach
+2. Machine Learning Approach
+
+Tue, 5 Apr
+
+Computer Vision : Object Detection with Yolo
+
+Object Detection : 
+setiap image mengandung banyak objek -- contoh pada satu gambar terdapat 2 objek yaitu anjing dan kucing. 
+dalam beberapa literasi object detection digabungkan dengan localization. yaitu menentukan objek apa saja yang ada pada gambar dan menentukan lokasi dari objek pada gambar. 
+
+One Stage vs Two Stage 
+two stage : memiliki dua tahapan. identifikasi objek menggunakan sliding window atau selective search untuk bisa mendeteksi region proposal. 
+one stage: klasifikasi objek dilakukan secara langsung tanpa menggunakan bounding boxes.
+
+YOLO Steps : 
+1. Bagi gambar kedalam beberapa cells dengan ukuran S x S grid
+2. Setiap cell memprediksi B Bounding Boxes
+3. Memproduksi Bounding Boxes dengan confident value
+
+Wed, 6 Apr
+
+NLP : Word Embedding and Deep Learning for NLP
+
+Word Embedding hadir untuk menyelesaikan permasalahan TF IDF dan Bag of Words
+tujuannya : kata-kata yang mirip saling berdekatan.
+
+Zero Padding : memberikan nilai 0 pada kalimat yang kurang panjang dari kalimat yang telah ditentukan
+Turncation : proses  memotong kata pada suatu kalimat yang ukurannya lebih dari Panjang kalimat yang telah ditentukan
+
+Word2Vec : 
+diperoleh dengan melatih shallow neural network
+
+Terdapat dua cara paling umum untuk training data dengan Word2Vec:
+1. Skip-gram
+2. CBOW
+
+RNN : Recurrent Neural Network
+
+Thu, 7 Apr
+
+Reinforcement Learning :  Q Learning dan Deep Q Learning
+
+Contoh Q Learning terinspirasi oleh Value Iteration.
+Contoh Deep Q Learning terinspirasi oleh Gabungan Q Learning dengan Artificial Neural Network
+Perbedaan antara Control Q Learning dengan SARSA terletak pada Greedy Policy
+Q-value function memiliki input berupa state action
+Q-value function memiliki output berupa value
+melatih  Q-value pada Q-Learning dari hasil perhitungan reward dan Q-value state berikutnya
+cara mendapatkan Q-value pada DQ-Learning adalah dengan menggunakan ANN yang terlatih
+
+Fri, 8 Apr
+
+Technical : Flask API
+
+
+What did you learn this week?
+
+Data Science : Data Time Series
+
+Data Time Series ada data yang bersinggungan dengan runtun waktu. 
+Time series digunakan untuk : 
+1. Prediksi Cuaca
+2. Prediksi jumlah penumpang di waktu tertentu
+3. Manajemen Stok Barang
+4. Prediksi harga barang
+
+Kegunaan time series : 
+Metode efektif untuk meramalkan keputusan
+Memprediksi masa depan yang tidak pasti untuk membantu organisasi
+
+Secara umum ada 2 jenis model di time series : 
+1. Statistical Approach
+2. Machine Learning Approach
+
+Computer Vision : Object Detection with Yolo
+
+Object Detection : 
+setiap image mengandung banyak objek -- contoh pada satu gambar terdapat 2 objek yaitu anjing dan kucing. 
+dalam beberapa literasi object detection digabungkan dengan localization. yaitu menentukan objek apa saja yang ada pada gambar dan menentukan lokasi dari objek pada gambar. 
+
+One Stage vs Two Stage 
+two stage : memiliki dua tahapan. identifikasi objek menggunakan sliding window atau selective search untuk bisa mendeteksi region proposal. 
+one stage: klasifikasi objek dilakukan secara langsung tanpa menggunakan bounding boxes.
+
+YOLO Steps : 
+1. Bagi gambar kedalam beberapa cells dengan ukuran S x S grid
+2. Setiap cell memprediksi B Bounding Boxes
+3. Memproduksi Bounding Boxes dengan confident value
+
+NLP : Word Embedding and Deep Learning for NLP
+
+Word Embedding hadir untuk menyelesaikan permasalahan TF IDF dan Bag of Words
+tujuannya : kata-kata yang mirip saling berdekatan.
+
+Zero Padding : memberikan nilai 0 pada kalimat yang kurang panjang dari kalimat yang telah ditentukan
+Turncation : proses  memotong kata pada suatu kalimat yang ukurannya lebih dari Panjang kalimat yang telah ditentukan
+
+Word2Vec : 
+diperoleh dengan melatih shallow neural network
+
+Terdapat dua cara paling umum untuk training data dengan Word2Vec:
+1. Skip-gram
+2. CBOW
+
+RNN : Recurrent Neural Network
+
+Reinforcement Learning :  Q Learning dan Deep Q Learning
+
+Contoh Q Learning terinspirasi oleh Value Iteration.
+Contoh Deep Q Learning terinspirasi oleh Gabungan Q Learning dengan Artificial Neural Network
+Perbedaan antara Control Q Learning dengan SARSA terletak pada Greedy Policy
+Q-value function memiliki input berupa state action
+Q-value function memiliki output berupa value
+melatih  Q-value pada Q-Learning dari hasil perhitungan reward dan Q-value state berikutnya
+cara mendapatkan Q-value pada DQ-Learning adalah dengan menggunakan ANN yang terlatih
+
+Technical : Flask API

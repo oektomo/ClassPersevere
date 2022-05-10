@@ -1,0 +1,1229 @@
+Mon, 7 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi sedikit tentang Artificial Intelligence. 
+Data terbagi menjadi : 
+- Structured : Business data, Excel, Csv
+- Unstructured : Text, Image dan Speech
+Data : 
+- kumpulan fakta2 yang ada di sekitar kita
+- Bentuk jamak dari kata datum
+- Kumpulan fakta dan statistik dalam bentuk mentah atau tidak terorganisir
+- Kumpulan fakta dan statistik yang digunakan untuk referensi dan analisis
+Digital data : Informasi yang diproses atau disimpan oleh komputer dalam bentuk dokumen teks, gambar, audio, video,dll.
+Source of Data
+Common sources : 
+- Sensors/meters and activity records from electronic devices
+- Social interaktif a
+- Business transactions
+- Electronic files
+- Broadcastings
+AI Landscape : 
+- Artificial Intelligence : collection of algoritms used to build
+- Machine Learning : algorithms which use Data to build
+- Deep Learning : automated feature engineering
+Suatu bidang studi di luar kecerdasan buatan yaitu : 
+1. Bidang Data Science mencakup data analytics yang dipelajari para statistics, programmer dengan algoritma dan struktur data. Data analytics, terdiri dari statistics dan visualization, termasuk structured data. 
+2. Computer Vision mencakup Image processing. Image Processing terdiri dari Images dan Video, termasuk unstructured data.
+3. Natural Language Processing / NLP mencakup Text/ Speech Processing. Text/Speech Processing terdiri dari text atau audio, termasuk unstructured data.
+Contoh penggunaan setiap bidang keilmuan dalam Artificial Intelligence :
+1. Data Science
+         - Memprediksi harga Saham, harga rumah atau harga barang lainnya berdasarkan data historis
+         - Memprediksi apakah pelanggan akan membeli produk atau tidak, pelanggan akan churn atau tidak
+         - Mengklasifikasikan pelanggan dalam kelompok yang dikenal berbeda
+         - Prediksi risiko untuk transaksi keuangan.
+         - Deteksi Penipuan dari data transaksi
+         - Segmentasi pelanggan, stok, dan log server
+          - Memprediksi penerimaan kembali pasien ke rumah sakit
+          - Mendeteksi anomali dalam manajemen akses, kontrol data
+2. Computer Vision
+         - Face recognition/ Pengenalan wajah, Emotion recognition/ Pengenalan Emosi
+         - Pengenalan Karakter Optik
+         - Verifikasi dokumen, otentikasi
+         - Deteksi dan Klasifikasi Objek dari gambar
+         - Mengidentifikasi pemalsuan dalam gambar
+         - Plat nomor kendaraan, pengenalan tipe
+         - Mobil Mengemudi Sendiri - deteksi jalur, klasifikasi rambu lalu lintas, Kloning Perilaku
+         - Estimasi Gerak dari video
+         - Restorasi gambar, pewarnaan dan transfer pola
+         - Prediksi Aksi
+3. Natural Language Processing
+         - Klasifikasi teks/dokumen
+         - Text mining media sosial dan Analisis 
+         - Konversi Pidato ke Teks dan Teks ke Pidato
+         - Pembuatan teks
+         - Mesin penerjemah
+         - Analisis sentimen dari teks
+         - Chatbots
+         - Pengenalan pembicara
+         - Asisten Pribadi, Koreksi Kalimat
+         - Pembuatan Teks, Pencocokan Kesamaan, Pemodelan Topik
+4. Reinforcement Learning
+         - Bermain game 
+         - Mobil Mengemudi Sendiri
+         - Kontrol Lingkungan Matahari Buatan
+         - Kontrol Robot Gudang
+         - Pendidikan
+         - Media sosial
+         - Pemasaran dan Iklan
+Contoh game dalam AI : 
+- Game keterkaitan antara kata dan topik 
+- AI mengenali gambar yang digambar oleh seseorang
+- Moral Machine ( mobil self- driving)
+   Kemudian dilanjutkan pada sesi kedua, pemberian materi tentang machine learning. Machine Learning :
+- orang belajar dari pengalaman
+- Machine learning : membuat mesin belajar dari pengalaman alias data
+- Mesin mengikuti instruksi
+   Machine learning adalah sebuah bidang ilmu yang membuat komputer tadinya hanya dapat mengikuti perintah sekarang bisa belajar tanpa di program secara eksplisit. Di machine learning approach terdapat data dalam prosesnya, sedangkan di traditional approach tidak memiliki data. 
+Application of Machine Learning : 
+- Financial Predictions, Fraud Detections Loan Approval
+- Predictive Maintenance Ad plus user information
+- Churn Prediction, Customer Segmentation, Sales Forecasting
+- Data Mining - Web Click Data, Medical Records, Diagnosis
+- Computer Vision - Face Recognition, Self Driving Cars, OCR
+- Voice recognition, Chatbots, Sentiment Analysis, Machine Translation
+- Manufacturing - predictive maintenance, demand forecasting, etc 
+- Retail - predictive inventory planning, recomendation engines, etc
+- Financial services - risk analytics and regulation, costumer segmentation, etc
+- Travel and Hospitability - Aircraft schedulling, dynamic pricing, etc
+- Health care and life sciences - proactive health management, disease identification and risk stratification, etc
+- Energy, Feedback and Utility - power usage analytics, seismic data processing, etc
+Programming Languages : Python dan R
+Machine Learning Cloud Platforms :
+- Microsoft Azhar ML Studio
+- Amazon Machine Learning
+- SAP Leonardo Machine Learning
+- Google ML Platform
+- IBM Machine Learning
+What to learn in Machine Learning :
+- Programming and Tools : Python/R, spark, etc. (30%)
+- The Math begini Machine Learning : Probabilistic Theory, Statistics, and Linear Algebra. (70%)
+Proses mempelajari Machine Learning : 
+1. R/Python for machine learning
+2. Statistic for Data science
+3. Math behind machine learning algorithms
+4. Packages for machine learning : tensorflow, keras etc
+5. Practice / Latihan
+6. Optimization, Boosting techniques
+
+Tue, 8 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi tentang Matematika dasar untuk kecerdasan buatan.
+Math for AI :
+- Peluang 
+        Konsep dasar peluang, peluang bersyarat, teorema bayes
+- Aljabar Linier
+        Matriks, Vektor, Nilai dan Vektor Eigen
+- Kalkulus 
+        Fungsi, Turunan, optimasi 
+Aljabar Linier : Vektor
+- Vektor adalah besaran yang memiliki nilai dan arah. 
+- Dalam ilmu data, vektor adalah kumpulan nilai dari variabel tertentu. 
+- Skalar adalah konstanta atau besaran yang memiliki nilai. 
+- Vektor berdimensi sama dapat dioperasikan 
+- Penjumlahan vektor : 
+        a+b = (a1+b1,…,an+bn)
+- Perkalian saklar : 
+         ka = (ka1,…,kan)
+- Dot product
+         a.b = £ai.bi = a1.b1 + a2. b2+…+an.bn
+Jarak dan sudut antar vektor : 
+- Jarak Euclidean
+         d(a,b) = akar dari £(ai-bi)^2
+- Jarak Manhattan
+         d(a,b) = £|ai-bi|
+- Sudut antar vektor (cosine similarity)
+         Cos sudut = vektor a. vektor b / ||vektor a|| ||vektor b||
+Aljabar Linier : Matriks
+- Matriks adalah kumpulan nilai dari beberapa variabel yang disusun menjadi baris dan kolom. Matriks berukuran mxn memiliki m baris dan n kolom
+- A = [ a11 a12 … a1n
+                  am1 am2 … amn] , aij€R
+Operasi Matriks :
+- Penjumlahan matriks : A, B matriks berukuran mxn
+         A+B = (aij) + (bij) = (aij+bij)
+- Perkalian matriks dengan matriks : A matriks berukuran mxn, B matriks berukuran nxp, maka C=AxB matriks berukuran mxp
+Determinan dan Invers :
+- misal A matriks persegi, determinan dari A 
+         det(A) = |a b c 
+                         d e f
+                         g h i| = aei + bfg + cdh - ceg             - afh - bdi 
+- misal A matriks persegi, invers dari A adalah matriks persegi A^-1 dengan AA^-1 = A^-1A = I (matriks identitas)
+         A^-1 = 1 / det (A) . adj(A)
+Aljabar Linier : Nilai dan Vektor Eigen
+- Eigen berasal dari bahasa Jerman yang berarti karakteristik. Vektor Eigen adalah vektor yang menjadi karakteristik sebuah matriks dimana arahnya tidak berubah meski dilakukan transformasi
+- Sementara nilai eigen adalah bilangan yang berasosiasi dengan panjang vektor yang berubah setelah ditransformasi oleh matriks
+- A adalah matriks persegi, x adalah vektor eigen, dan A adalah nilai Eigen 
+         Ax = Ax
+         Ax -Ax = 0
+         Ax - AIx = 0
+         (A-AI)x = 0
+- Jika x bukan vektor 0, maka kita bisa menemukan nilai eigen dengan menghitung determinant matriks (A - XI). Lalu mensubtitusi nilai eigen tsb ke Ax = Ax untuk menemukan vektor eigennya 
+Kalkulus : Fungsi dan Gradient
+- Fungsi adalah aturan yang memetakan antara 2 himpunan
+- Gradient adalah besaran perubahan atau kemiringan
+- Gradient = change in Y / change in X
+- m = Y1-Y2 / X1-X2
+- Persamaan garis lurus :
+         y = mx + c
+         c = nilai y saat x =0
+Contoh penggunaan Gradient :
+- contoh penerapan di algoritma Support Vector Machine (SVM)
+- Menentukan garis pembatas antar 2 kelas
+Kalkulus: turunan & optimisasi
+- Turunan (differensial) merupakan pengembangan dari gradient. Turunan dari sebuah fungsi didefinisikan sebagai berikut :
+         df/dx:=lim h→0 (f(x+h)-f(x)) /h
+- Turunan sering digunakan untuk mencari nilai maksimum atau minimum
+- Titik maksimum/minimum ditemukan dengan menemukan x yang memenuhi f(x) =0
+- Nilai maksimum/minimum digunakan untuk memperkecil error atau memaksimalkan jarak 2 kelas yang berbeda.
+Peluang: konsep dasar Dalam Artificial Intelligence, kita perlu:
+1. Menghitung peluang suatu prediksi
+2. Menghitung peluang error atau kegagalan
+3. Memahami distribusi data 
+4. Memperkirakan pengaruh suatu variabel terhadap hasil prediksi
+5. Memperkirakan hal-hal lain yang berpotensi mempengaruhi performance program
+6. dsb
+Konsep dasar :
+- Ruang sample (S): himpunan dari semua kemungkinan dari suatu percobaan 
+- Peluang suatu kejadian A adalah banyaknya himpunan A dibagi banyaknya himpunanS.
+        P(A) = n(A)/n(S)
+Peluang Bersyarat : 
+- 2 kejadian A dan B dikatakan saling lepas jika AnB = 0, misalnya kejadian munculnya angka ganjil dan genap saat melempar 1 dadu. Pada kejadian ini P(An B) =0.
+- Jika kejadian A tidak mempengaruhi kejadian B (dan sebaliknya) maka A dan B dikatakan saling bebas. Peluang munculnya kejadian A dan B = P(ANB)=P(A) X P(B) Misalnya kejadian terjadinya kecelakaan dan hujan
+- Peluang kejadian A atau B = P(AUB)=P(A) + P(B) - P(ANB) 
+- Peluang terjadi suatu kejadian H bila diketahui bahwa kejadian X telah terjadi disebut peluang bersyarat yang dikenal dalam teorema bayes
+         P(H|X) = P(H n X) / P(X) =P(X|H) P(H) / P(X)
+   Kemudian pada sesi kedua pemberian materi tentang Operasi Matematika dan NumPy. 
+Numpy : Library python untuk membantu operasi matematika
+1) Contoh Penggunaan
+- Meng-import library NumPy: import numpy as np
+- Membuat 1D array (vektor) a = np.array([3, 1, 5, 6])
+- Membuat 2D array (matriks) A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+- begitupun 3D (tensor)
+2) Indexing & Slicing (Pemisahan)
+Index array NumPy dimulai dari 0
+• Array 1D (vektor)
+a = np.array([3, 1, 5, 6])
+a[0] = 3
+a[1] = 1
+a[2]=5
+a[3] = 6
+banyaknya entri → a.size : 4
+dimensi array→ a.ndim: 1 (menunjukkan vektor)
+ukuran array → a.shape : (4.)
+• Array 2D (matriks)
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+A[0][2] = 3
+A[0, 2] = 3
+A[2][0] = 7
+A[2, 0] = 7
+banyaknya entri → A.size : 9
+dimensi array → A.ndim : 2 (menunjukkan matriks)
+ukuran array → A.shape: (3,3)
+3) Operasi Matematika
+A) Penjumlahan/Pengurangan Array & Dot Product Vektor
+Misal:
+A = np.array([[1, 2],[7,8]])
+B = np.array([[3, 5],[1,6]])
+2*A: array([[2, 4], [14, 16]])
+2+A: array([[3, 4], [9, 10]])
+A+B: array([[ 4, 7], [ 8, 14]])
+A-B: array([[-2, -3], [ 6, 2]])
+Misalkan :
+C.D=1x3 + 2x5=13
+Perkalian dot product vektor : np.dot(C, D)
+B) Perkalian Matriks
+Perkalian antar entri :
+A*B: array([[ 3, 10], [ 7, 48]])
+Perkalian matriks A & B:
+np.matmul(A, B): array([[ 5, 17], [29, 83]])
+C) Operasi Matematika Lainnya
+- mean : np.mean(A)
+- median : np.median(A)
+- nilai maksimum : np.max(A)
+- sorting : np.sort(A)
+- transpose : np.transpose(A)
+- determinan : np.linalg.det(A)
+- invers : np.linalg.inv(A)
+- eigen value & vector : np.linalg.eig(A)
+- generate matriks yg entrinya 0 semua ukuran pxq : np.zeros(p,q) 
+- generate matriks identitas ukuran pxp : np.identity(p)
+   Setelah itu, dilanjutkan lagi dengan pemberian materi tentang Fundamental of Machine Learning (Supervised Learning).
+Paradigma Pemograman :
+- Traditional Programming : if , else , dll
+- Machine Learning Approach : 
+         1. Supervised Learning
+         2. Semi-supervised Learning
+         3. Unsupervised Learning
+         4. Reinforced Learning
+Perbedaan Traditional Programming dan Machine Learning Approach : 
+- Traditional Programming : ada penjelas/ detail, biasanya pake logika seperti if else, datanya dimasukkan ke dalam alur aturan dan menghasilkan jawaban
+- Machine Learning Approach : memasukkan data dan jawaban untuk mengetahui aturannya sepeti apa, dan ambil kesimpulan 
+Traditional Approach : 
+Experiment -> Data + Role -> Process -> Answer
+Machine Learning Approach :
+Experiment -> Data + Answer -> Process -> Role
+Family of AI Models :
+- Supervised Learning : menentukan hubungan melalui pelatihan
+- Unsupervised Learning : temukan pola baru
+- Reinforcement Learning : belajar dengan tindakan yang bermanfaat
+Machine Learning Models : 
+- Supervised Learning 
+- Unsupervised Learning
+Human vs Machine
+- Manusia : belajar dari pengalaman 
+- Mesin : hanya mengikuti instruksi yang diberikan
+Segmentasi ML: 
+1. Supervised Learning
+         - Estimation
+         - Prediction/Forecasting
+         - Classification
+2. Unsupervised Learning
+         - Clustering
+         - Association
+7 Langkah dalam ML :
+- Gathering Data
+- Preparing Data
+- Choosing a model
+- Training model
+- Evaluation
+- Turning hyperparameter
+- Prediction
+ML Life Cycle : 
+- Tentukan tujuan
+- Kumpulkan data
+- Siapkan data
+- Pilih algoritma
+- Latih model
+- Tes model
+- Integrasikan model
+   Lalu karena waktu pembelajaran dengan coach telah selesai, dilanjutkan dengan mahasiswa masing-masing belajar mandiri. Dan karena materi tentang Fundamental of Machine Learning belum selesai semuanya dijelaskan oleh coach, maka materi ini akan dilanjutkan lagi di pertemuan hari berikutnya. 
+
+Wed, 9 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi lanjutan pertemuan kemarin tentang fundamental of machine learning. 
+ML Workflow :
+Start -> Data -> Training Data -> Train the Machine Learning Algorithm -> Model -> Cek dengan input data yang baru -> Masukkan model ke yang sesi 2 -> Machine Learning Algorithm -> Prediction -> Cek prediksi nya dibandingkan dengan data tes -> Manual Validation by humans -> validasi bagus sudah selesai, tetapi jika validasi jelek harus melakukan training ulang. 
+Metrics Evaluation :
+1.) Regression
+- MSPE
+- MSAE
+- R Square
+- Adjusted R Square
+2.) Classification
+- Precision-Recall
+- ROC-AUC
+- Accuracy
+- Log-Loss
+3.) Unsupervised Models
+- Rand Index
+- Mutual Information
+4.) Others
+- CV Error
+- Heuristic methods to find K
+- BLEU Score (NLP)
+Kelebihan ML : 
+- Mudah dalam mengidentifikasi trend dan pola pada data
+- Tidak perlu campur tangan manusia
+- Pengembangan dapat dilakukan secara berkelanjutan
+- Mampu menangani data multidimensi dan multi-variasi
+- Aplikasi/implementasi yang luas
+Kekurangan ML : 
+- Rentan terhadap kesalahan
+- Akuisisi data
+- Waktu dan sumber daya
+- Hasil bersifat interpretasi (tafsiran)
+   Supervised Learning umumnya digunakan untuk menemukan pola dalam data masukan yang diberi label memungkinkan kita menghasilkan data keluaran yang benar secara efektif.
+Ciri-ciri : 
+- Data training telah diberi label
+- Algoritma memprediksi output dari input, contoh algoritma : klasifikasi (memetakan masukan ke label keluaran) dan regresi ( memetakan masukan ke keluaran berkelanjutan)
+Supervised Learning Workflow : 
+Labelled Data -> Algorithms (input dan output)-> Data dibagi menjadi Training data set dan Desired Output -> Process -> Output
+Supervised Learning Experiment : 
+1. Gather
+Unsupervised Learning umumnya digunakan untuk mempelajari struktur karakteristik data kita tanpa menggunakan label yang disediakan secara eksplisit.
+Ciri-ciri : 
+- Data training tidak berlabel 
+- Algoritma mempelajari struktur karakteristik dari data masukan, contoh algoritma : Clustering (mempelajari hubungan antara fitur individu) dan Dimensional Reduction (metode untuk mengurangi fitur)
+Unsupervised Learning Workflow :
+Raw Data -> Interpretation -> Algorithms -> Process -> Output
+Unsupervised Learning Experiment : Data suara dikumpulkan dan dikelompokkan mana suara yang mirip. 
+Reinforcement Learning Workflow : 
+Input Raw Data -> Environment & Agen -> Output 
+Reinforcement Learning Experiment : 
+- Game
+- Ragdol ( melatih robot berjalan)
+Konsep Machine Learning 
+The common ML Algorithms : 
+- Regression
+- Classification 
+- Clustering
+Review Concept : 
+- AI : Teknik apapun yang memungkinkan komputer meniru kecerdasan manusia
+- Machine Learning : Bagian dari AI yang memungkinkan mesin untuk mengerjakan tugas dengan lebih baik, dengan pengalaman
+- Deep Learning : Bagian dari ML yang memungkinkan software melatih dirinya sendiri untuk melakukan tugas dengan data dalam jumlah besar. 
+Machine Learning vs Deep Learning :
+- Machine Learning : Input -> Feature extraction -> Classification -> Output
+- Deep Learning : Input -> Feature extraction+Classification -> Output
+   Kemudian dilanjutkan dengan materi tentang Pengantar Artificial Neural Network.
+   Artificial Neural Network (ANN) adalah teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. 
+   Deep Learning adalah sebuah jaringan syaraf tiruan. 
+   NN dimulai dari kisah bahwa manusia berusaha untuk meniru cara neuron pada manusia bekerja. Dengan membuat tiruan yaitu ANN. Di kemudian hari ANN menjadi cikal bakal DL. 
+Pengenalan Deep Learning 
+Neural Network :
+Data -> Neural Network -> Output
+Bentuk anatomi nya yaitu sebuah sel syaraf terdapat inti sel (nucleus), dendrites, axon, cell body, dll. 
+Deep Learning : 
+Input (Text file) -> Preprocessing -> Dense Embedding -> Hidden Layer -> Output units -> Output
+Sejarah Deep Learning :
+1943 : Electronic Brain
+1957 : Perceptronn
+1960 : ADALINE
+1969 : XOR Problem
+1986 : Multi-layered Perceptron (Backpropagation)
+1995 : SVM
+2006 : Deep Neural Network (Pretraining)
+Perkembangan Deep Learning :
+Nvidia, Google, Amazon -> bikin libraries yang open source , bikin predictive model AI -> intuitif e GPUs
+Melatih Model Deep Learning
+Bergantung pada faktor seperti : 
+- perangkat keras yang tersedia
+- Pengoptimalan
+- Jumlah lapisan dalam jaringan saraf
+- Arsitektur neural network
+- Ukuran data set, dll
+Penggunaan Deep Learning : 
+- Ketika mempunyai data tak terstruktur yang sangat besar dan banyak
+- Neural network dapat mengolah data yang tidak memiliki label
+- Bekerja sangat baik dengan data berbentuk Speech, Images, dan video.
+Amdahl’s Law for Parallel Computing Accelerates :
+Persamaan untuk menghitung speed-up parallel computing menggunakan hukum amdahl : 
+Speedup = 1 / ((1-p) + p/N)
+Hukum ini banyak dipakai dalam bidang komputasi paralel untuk meramalkan peningkatan kecepatan maksimum pemrosesan data (secara teoritis) jika jumlah prosesor di dalam komputer paralel terus bertambah. 
+- GPU : throughput tinggi, latensi rendah
+- CPU : throughput rendah, latensi tinggi
+   Deep Learning sangat boros di komputasional. Deep Learning memproses data yang banyak dengan menggunakan GPU dan memakan waktu cukup lama. Akurasi yang sama atau lebih tinggi dari Machine Learning bisa dihasilkan bila Deep Learning nya dilatih dengan baik. 
+Kekurangan Deep Learning : 
+- jumlah data yang dibutuhkan dalam pelatihan cukup besar, sehingga membutuhkan akses ke komputer yang berkekuatan tinggi yang dilengkapi dengan GPU dan TPU. 
+- Sulit menentukan tuning terbaik karena menggunakan teknik Black Box dimana bobot akan di update di setiap layernya
+   Machine Learning as a service (MLaaS) adalah definisi umum bagi berbagai platform berbasis Cloud yang mencakup sebagian besar masalah infrastruktur seperti pra-pemrosesan data, pelatihan model, dan evaluasi model dengan prediksi lebih lanjut. Hasil prediksi dapat dijembatani dengan REST API. Contoh : AWS, Google Cloud, IBM Cloud, Microsoft azure.
+Contoh Deep Learning Framework : TensorFlow, Keras, Pytorch, DL4J, dll.
+   Kemudian pada sesi kedua pemberian materi tentang Artificial Neural Network.
+   Artificial Neural Network (ANN) atau Jaringan Syaraf Tiruan (JST) adalah paradigma pemrosesan informasi yang terinspirasi dari cara kerja sistem saraf (otak) manusia dalam memproses informasi. ANN terdiri dari sejumlah besar elemen pemrosesan (neuron) yang saling berhubungan dan bekerja sama untuk memecahkan nasalah. 
+Kelebihan neural network : 
+- kemampuannya berguna untuk robotika dan sistem pengenalan pola
+- Keluaran ANN tidak sepenuhnya dibatasi oleh masukan dan hasil yang diberikan kepada mereka pada awalnya oleh sistem pakar
+- JST memiliki potensi toleransi kesalahan yang tinggi
+- ANN mampu memperbaiki parameternya sendiri atau mampu mendebug/mendiagnosis jaringan sendiri 
+- Sistem non-linier yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal 
+Cara kerja ANN : 
+- Fase Pelatihan 
+- Fase pengujian 
+- Fase penggunaan 
+Logical Flow Neural Network : 
+Input Data X -> Neural Net Layers -> Predictions Y & Target Predictions Y -> Lisa function -> Loss score-> Optimizer -> Weight update -> Weight W
+Neuron
+Formula Matematis ANN : 
+Neural Network satu lapis disebut perceptron. Perceptron memberikan output tunggal. 
+- x0,x1,..x(n) mewakili berbagai masukan (variabe bebas). Masing-masing input dikalikan dengan bobok koneksi atau sinapsis. 
+- Bobot dipresentasikan sebagai w0,w1,…w(n). Bobot menunjukkan kekuatan mode tertentu. 
+- b adalah nilai bias yang memungkinkan untuk menggeser fungsi aktivitas ke atas atau ke bawah. 
+Perceptron 
+The Perceptron : Forward Propagation 
+Input -> Weights -> Sum -> Non- linearity -> output
+   Activation Function membantu menyelesaikan masalah yang bersifat non-trivial dalam suatu neural network dengan mengambil sebuah nilai dan melakukan operasi matematika. Fungsi matematika pada ANN adalah ReLu dan Sigmoid. Pentingnya activation function yaitu dapat memperkenalkan non linieritas ke dalam jaringan. 
+   Loss Function digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target. Loss / cost function merupakan fungsi yang menggambarkan kerugian yang terkait dengan semua kemungkinan yang dihasilkan oleh model.
+   Optomizer adalah fungsi pengoptimalan yang dapat digunakan untuk memperbarui weight network secara iteratif berdasarkan data training. Contohnya yaitu gradient descent, SGD, momentum, dan ADAM optimizer .
+   Back propagation adalah proses memperbaharui bobot dari network untuk mereduksi error dalam hasil prediksi. 
+   Gradient descent adalah proses menyesuaikan parameter model untuk turun melalui Loss function. 
+Deep Learning : Training and Testing
+- Training stage : input data -> Learning system -> Coreect output
+- Testing stage : New input data -> Learning system -> Best Guess
+The challenge of Deep Learning : Efficient Teaching + Efficient Learning
+- Artificial Intelligence : AI menangkap imajinasi dunia ( 1950-1980)
+- Machine Learning : ML mulai mendapatkan daya tarik ( 1980 - 2010) 
+- Deep Learning : DL berjaya di industri ( 2010 - 2040)
+Computer Vision is Machine Learning
+Images are Numbers 
+- Regression : variabel output mengambil nilai kontinu
+- Classification : variabel output mengambil label kelas
+Contoh Deep Learning : 
+- Digit Classification MNIST Dataset 
+- The fashion MNIST Dataset
+
+Thu, 10 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach yang berbeda di  zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi  tentang AI Project Cycle. 
+   System thingking merupakan cara dalam memandang sesuatu secara keseluruha n, dimana bagian-bagiannya saling berhubungan. Memandang secara keseluruhan tersebut berarti mempelaja ri untuk mema hami setiap bagian yang terkait dalam suatu sistem.
+   Algoritma merupakan metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik untuk menghitung sebuah fungsi.
+   Metode merupakan gambaran arus informasi yang diproses dari input menuju sebuah output. Fokus pada arus informasi, asal dan tujuan data, hingga bagaimana data itu tersimpan. Digunakan untuk menjelaskan atau menganalisis sebuah sistem informasi. 
+   System map merupakan sebuah diagram bertujuan untuk memahami masalah yang kompleks dengan faktor yang saling mempengaruhi. 
+AI Project Cycle : 
+Problem Scoping -> Data Acquisition -> Data Exploration -> Modelling -> Evaluation -> Deployment
+   Masalah didefinisikan sebagai sebuah pernyataan yang jelas menggambarkan keadaan awal dari masalah yang harus dipecahkan. Properti masalah seperti tugas yang harus diselesaikan, kinerja sistem yang ada saat ini dan pengalaman dengan sistem saat ini. 
+   Pada masalah tertentu selalu terkait dengan pekerjaan atau proses. Pemecahan masalah mengacu pada identifikasi masalah dan visi untuk memecahkannya. 
+The 4Ws of Problem Scoping : Who (siapa), What (apa), Where (Dimana), Why (Kenapa). 
+- Who adalah target user yang akan dibantu dengan teknologi AI.
+- What adalah apa permasalahan sebenarnya. Kita perlu mewawancarai calon user untuk mengungkapkan pengalaman, tantangan dan perasaan mereka menghadapi masalah. 
+- Where adalah tempat terjadi permasalahan itu
+- Why adalah penyebab terjadinya masalah
+Contoh Kasus : Keadilan untuk Disabilitas di Indonesia
+- who : penyandang disabilitas
+- what : disabilitas mendapatkan gambaran seseorang harus dikasihani atau mendapat ekspektasi tertentu
+- where : di setiap tempat umum 
+- why : berdasar data, 1 dari 10 warga Indonesia penyandang disabilitas 
+Problem Statement Template : 
+- Our (stakeholders) : who
+- Has a problem that (issue, problem, need) : what
+- when/while (context, situation) : where
+- An ideal solution would (benerin of solution for them) : why
+Perencanaan project :
+1. Project planning & data collection
+2. Design & training of the Machine Learning model
+3. Deployment & maintenance
+   Akuisisi data adalah serangkaian proses pengukuran, pengumpulan, dan validasi data yang dibutuhkan dalam suatu proyek AI. Proses ini bisa dilakukan dengan menggunakan tools atau alat tertentu seperti sensor, melalui observasi, atau mengambil data yang tersedia di internet atau lembaga. 
+Jika menggunakan alat pastikan :
+1. Validitas : alat mampu mengukur atau mengidentifikasi data yang dibutuhkan
+2. Reliabilitas : kekonsistenan alat, menghindari bias
+3. Sensivitas : seberapa sensitif alatnya
+Data sources : survey, web scraping, sensor, cameras, observation, API. 
+3 sistem akuisisi data : 
+1. Manual 
+2. Membuat pipeline untuk scraping atau membaca data
+3. Automated Data Acquisition
+Contoh Automated Data Acquisition System : Sensor -> DAQ Device -> Computer
+   Eksplorasi data digunakan untuk memahami tren, hubungan dan pola yang terkandung dalam data dan membantu untuk menentukan strategi model yang digunakan pada stage selanjutnya.
+   Eksplorasi data melalui visualisasi karena representasi visual lebih mudah untuk dipahami dan dikomunikasikan ke orang lain.
+Contoh visualisasi : hubungan antara jam belajar dengan nilai akhir
+Cara umum untuk memvisualisasikan data : Bar chart, Line chart, Scatterplot dan Tree Diagram.
+   Modelling adalah representasi masalah dalam bentuk lebih sederhana sehingga lebih jelas dan mudah dikerjakan. 
+   Pemodelan Machine Learning digunakan untuk memahami pola tertentu di data.
+Confusion Matrix :
+- Realita (yes) , Prediksi (yes) : True Positive (TP).
+- Realita (no), Prediksi (yes) : False Positive (FP).
+- Realita (yes), Prediksi (no) : False Negative (FN). 
+- Realita (no), Prediksi (no) : True Negative (TN). 
+   Akurasi adalah persentase prediksi yang benar dari semua kemungkinan
+Akurasi = (TP + TN) / (TP + FP + TN + FN) 
+              = Prediksi benar / Semua case
+   Presisi adalah persentase dari case yang diprediksi positif (TP + FP) yang ternyata positif (TP). 
+Presisi = (TP) / (TP + FP)
+            = True Positive / Total prediksi positif 
+   Recall mengukur pecahan kasus positif (TP + FN) yang diidentifikasi dengan benar (TP). 
+Recall = (TP) / (TP + FN)
+            = True Positive / Total aktual positif
+Model Selection
+Contoh proses memilih model terbaik :
+Input data coba -> Model (1,2,3) dievaluasi -> Model Metrics (1,2,3) -> Model terbaik (menjadi pertimbangan untuk memilih)
+   Kemudian dilanjutkan sesi kedua dengan pemberian materi tentang Data analytics with python - Basic statistics
+Jenis Data : 
+- Data Terstruktur : Sangat terorganisir dan mudah dicari dengan kueri atau algoritme
+         Contoh : tanggal, alamat
+         Aplikasi : transaksi penjualan, aktivitas ATM
+- Data Tidak Terstruktur : Tidak ada struktur yang dapat diidentifikasi untuk jenis data ini
+         Contoh : email, data sensor
+- Data Semi Terstruktur : Sering dijelaskan sebagai tanpa skema atau menggambarkan diri sendiri
+         Contoh : bahasa Markup SQL
+         Aplikasi : LinkedIn, aplikasi web
+   Noisy Data: Berisi sejumlah informasi yang tidak terlalu dibutuhkan, menyimpang, atau tidak diketahui kebenarannya
+Beberapa sumber Noisy Data:
+a) Random Noise, misalnya suara kebisingan yang terekam saat meeting
+online
+b) HumanError, misalnya kesalahan input data
+c) Outlier, suatu data yang sangat berbeda dari data umumnya
+Pengantar Statistika
+Statistika:
+• Ilmu yang berkaitan dengan pengumpulan, penataan, penyajian, analisis, dan interpretasi data menjadi informasi untuk membantu pengambilan keputusan yang efektif.
+Statistik:
+• Pengukuran dari data, seperti mean, median, modus, dll.
+• Penyajian data statistik dapat berbentuk tabel, grafik, diagram, deretan angka dan visualisasi angka
+Beberapa istilah penting : 
+• Populasi: Himpunan objek yang akan dianalisa.
+• Sensus: Ketika peneliti mengumpulkan data dari seluruh populasi. 
+• Sampel : Bagian dari populasi yang dianggap sudah cukup mewakili populasi.
+• Survey : Ketika peneliti mengumpulkan data dari Sampel saja
+Pembagian Statistik
+- Deskriptif : Mendeskripsikan dan menganalisis sampel data tanpa melakukan proses penarikan kesimpulan
+- Inferensial : Menganalisa sampel untuk mengestimasi dan membuat kesimpulan mengenai populasi
+   Ukuran pemusatan adalah metode yang umum digunakan untuk mengidentifikasi pusat kumpulan data. 
+Ukuran tendensi sentral :
+- Mean atau rata-rata : jumlah semua nilai dalam kumpulan data, dibagi dengan jumlah total nilai dalam kumpulan data.
+- Median adalah nilai tengah dari kumpulan data jika jumlah nilai adalah bilangan ganjil; rata-rata dari dua nilai tengah, jika jumlah nilai adalah bilangan genap.
+- Mode : Nilai yang paling sering muncul dalam kumpulan data, yaitu nilai sampel acak yang terjadi dengan frekuensi terbesar
+   Ukuran Penyebaran : Digunakan untuk mengetahui bagaimana data tersebar di sekitar mean
+Ukuran variabilitas : 
+- Range : Jarak antara nilai terkecil dan nilai terbesar dalam sebuah dataset.
+- Kuartil dan Inter-quartile range
+- Varians adalah ukuran seberapa menyebar set data
+- Standar deviasi : Jarak rata-rata semua nilai dari rata-rata keseluruhan.
+Jenis Variabel / Skala Pengukuran : 
+1.) Categorical
+- Skala Nominal : Data berupa kategorik, namun tidak berurutan. Pada data ini, statistik yang cocok adalah frekuensi dan modus 
+        Contoh : laki-laki dan perempuan 
+- Skala Ordinal : Data bersifat kategorik, namun memiliki makna urutan. Pada data ini, statistik yang cocok adalah frekuensi, modus, dan median
+        Contoh : tingkat pendidikan 
+2.) Numerical 
+- Skala Interval : Data numerik tanpa 0 mutlak. Statistik yang cocok untuk analisa datanya adalah frekuensi, mean, median, modus, varians
+        Contoh : data suhu
+- Skala Rasio : Data numerik dengan 0 mutlak.  Statistik yang cocok untuk analisa datanya adalah frekuensi, mean, median, modus, varians
+         Contoh : data kecepatan
+   Kovarians Adalah hubungan antara dua variabel dalam kumpulan data yang diberikan.
+   Korelasi adalah Adalah ukuran kekuatan hubungan antara dua variabel. 
+Koefisien korelasi adalah cara untuk memberi nilai pada hubungan. 
+   Kemudian pemberian materi selanjutnya tentang Data analytics with python- Advance statistics.
+   Statistik Inferensial terdiri dari pengujian hipotesis dan estimasi.
+   Hipotesis adalah pernyataan yang masih bernilai lemah dan perlu dibuktikan
+- Ho : hipotesis nol
+- Ha : hipotesis alternatif
+Kesalahan dalam Pengujian Hipotesis :
+- Kesalahan tipe I
+- Kesalahan tipe II
+P-value dan keputusan hipotesis
+   P-value adalah suatu nilai signifikansi untuk menguji hipotesis.
+   Distribusi Normal adalah distribusi data dimana nilai modus, mean,dan mediannya mendekati nilai yang sama. 
+   Uji beda (comparative analysis) adalah uji statistik untuk menguji pengaruh suatu perlakuan atau perbedaan dari beberapa populasi
+Statistik Parametrik – Uji-T
+• Uji-t digunakan untuk membandingkan 2 kelompok, terdapat 2 jenis kasus: 1. Sampel Berhubungan (Paired Sample T-Test)
+2. Sampel independent (Independent Sample T-Test)
+Statistik Parametrik – ANOVA
+• Analisis of Variance (ANOVA) digunakan untuk membandingkan lebih dari 2 kelompok
+Statistik non-parametrik 
+- Data : numerik , ordinal, dan nominal
+   Setelah sesi pembelajaran dengan coach selesai, dilanjut dengan belajar mandiri. Dalam belajar mandiri ini kita dapat mengerjakan tugas yang telah diberikan oleh coach. 
+
+Fri, 11 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi tentang OOPs. 
+Object oriented programming
+   Pemrograman berbasis objek adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual
+- prosedural : withdraw, deposit, transfer
+- Object oriented : customer, money, account
+   Class adalah kumpulan objek. Class berisi cetak biru atau prototipe dimana objek akan dibuat. Entitas logis yang berisi beberapa atribut dan metode.
+- Classes dibuat dengan keyword class
+- Attributes adalah variable yang dimiliki sebuah class
+- Attributes selalu bersifat public dan bisa diakses menggunakan operator dot(.)
+Syntax :
+class ClassName :
+#Statement-1
+#Statement-N
+OOPs terminology : Object, instance, method, constructor method, class variable, instance variable
+Python class dan objects :
+- keyword class digunakan untuk membuat sebuah class
+- Membuat objek dari class yang ada
+OOPs terminology : self keyword
+1. Self mewakili instance dari kelas
+2. Method dari sebuah class harus memiliki tambahan parameter dalam definisinya. Tidak harus memberikan nilai untuk parameter ini.
+3. Dapat mengakses atribut dan metode class dengan Python.
+4. Self mirip dengan pointer di C++ dan reference di Java.
+Methods inside the class :
+- methods yang didefinisikan di dalam class dengan keyword Self sebagai input 
+- Mengakses atribut class untuk dibagikan ke berbagai instance dari class yang sama
+   Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain yang sudah ada. Kelas yang baru terbentuk adalah kelas turunan / Child class. Kelas yang ada adalah kelas dasar / parent class.
+   Kemudian pembelajaran dilanjutkan pada sesi kedua. Di sesi kedua ini, coach memberikan review materi pada minggu ini tentang AI, ML, DL, Basic & Advance Statistics. Setelah itu, kita diberikan tugas mandiri lagi. Selanjutnya pada sesi belajar mandiri kita dapat melanjutkan belajar dan juga dapat mengerjakan tugas yang diberikan coach sebelumnya. 
+
+What did you learn this week?
+
+   Pada hari Senin, 7 Maret 2022 di hari pertama dan di minggu ketiga, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi sedikit tentang Artificial Intelligence. 
+Data terbagi menjadi : 
+- Structured : Business data, Excel, Csv
+- Unstructured : Text, Image dan Speech
+Data : 
+- kumpulan fakta2 yang ada di sekitar kita
+- Bentuk jamak dari kata datum
+- Kumpulan fakta dan statistik dalam bentuk mentah atau tidak terorganisir
+- Kumpulan fakta dan statistik yang digunakan untuk referensi dan analisis
+Digital data : Informasi yang diproses atau disimpan oleh komputer dalam bentuk dokumen teks, gambar, audio, video,dll.
+Source of Data
+Common sources : 
+- Sensors/meters and activity records from electronic devices
+- Social interaktif a
+- Business transactions
+- Electronic files
+- Broadcastings
+AI Landscape : 
+- Artificial Intelligence : collection of algoritms used to build
+- Machine Learning : algorithms which use Data to build
+- Deep Learning : automated feature engineering
+Suatu bidang studi di luar kecerdasan buatan yaitu : 
+1. Bidang Data Science mencakup data analytics yang dipelajari para statistics, programmer dengan algoritma dan struktur data. Data analytics, terdiri dari statistics dan visualization, termasuk structured data. 
+2. Computer Vision mencakup Image processing. Image Processing terdiri dari Images dan Video, termasuk unstructured data.
+3. Natural Language Processing / NLP mencakup Text/ Speech Processing. Text/Speech Processing terdiri dari text atau audio, termasuk unstructured data.
+Contoh penggunaan setiap bidang keilmuan dalam Artificial Intelligence :
+1. Data Science
+         - Memprediksi harga Saham, harga rumah atau harga barang lainnya berdasarkan data historis
+         - Memprediksi apakah pelanggan akan membeli produk atau tidak, pelanggan akan churn atau tidak
+         - Mengklasifikasikan pelanggan dalam kelompok yang dikenal berbeda
+         - Prediksi risiko untuk transaksi keuangan.
+         - Deteksi Penipuan dari data transaksi
+         - Segmentasi pelanggan, stok, dan log server
+          - Memprediksi penerimaan kembali pasien ke rumah sakit
+          - Mendeteksi anomali dalam manajemen akses, kontrol data
+2. Computer Vision
+         - Face recognition/ Pengenalan wajah, Emotion recognition/ Pengenalan Emosi
+         - Pengenalan Karakter Optik
+         - Verifikasi dokumen, otentikasi
+         - Deteksi dan Klasifikasi Objek dari gambar
+         - Mengidentifikasi pemalsuan dalam gambar
+         - Plat nomor kendaraan, pengenalan tipe
+         - Mobil Mengemudi Sendiri - deteksi jalur, klasifikasi rambu lalu lintas, Kloning Perilaku
+         - Estimasi Gerak dari video
+         - Restorasi gambar, pewarnaan dan transfer pola
+         - Prediksi Aksi
+3. Natural Language Processing
+         - Klasifikasi teks/dokumen
+         - Text mining media sosial dan Analisis 
+         - Konversi Pidato ke Teks dan Teks ke Pidato
+         - Pembuatan teks
+         - Mesin penerjemah
+         - Analisis sentimen dari teks
+         - Chatbots
+         - Pengenalan pembicara
+         - Asisten Pribadi, Koreksi Kalimat
+         - Pembuatan Teks, Pencocokan Kesamaan, Pemodelan Topik
+4. Reinforcement Learning
+         - Bermain game 
+         - Mobil Mengemudi Sendiri
+         - Kontrol Lingkungan Matahari Buatan
+         - Kontrol Robot Gudang
+         - Pendidikan
+         - Media sosial
+         - Pemasaran dan Iklan
+Contoh game dalam AI : 
+- Game keterkaitan antara kata dan topik 
+- AI mengenali gambar yang digambar oleh seseorang
+- Moral Machine ( mobil self- driving)
+   Kemudian dilanjutkan pada sesi kedua, pemberian materi tentang machine learning. Machine Learning :
+- orang belajar dari pengalaman
+- Machine learning : membuat mesin belajar dari pengalaman alias data
+- Mesin mengikuti instruksi
+   Machine learning adalah sebuah bidang ilmu yang membuat komputer tadinya hanya dapat mengikuti perintah sekarang bisa belajar tanpa di program secara eksplisit. Di machine learning approach terdapat data dalam prosesnya, sedangkan di traditional approach tidak memiliki data. 
+Application of Machine Learning : 
+- Financial Predictions, Fraud Detections Loan Approval
+- Predictive Maintenance Ad plus user information
+- Churn Prediction, Customer Segmentation, Sales Forecasting
+- Data Mining - Web Click Data, Medical Records, Diagnosis
+- Computer Vision - Face Recognition, Self Driving Cars, OCR
+- Voice recognition, Chatbots, Sentiment Analysis, Machine Translation
+- Manufacturing - predictive maintenance, demand forecasting, etc 
+- Retail - predictive inventory planning, recomendation engines, etc
+- Financial services - risk analytics and regulation, costumer segmentation, etc
+- Travel and Hospitability - Aircraft schedulling, dynamic pricing, etc
+- Health care and life sciences - proactive health management, disease identification and risk stratification, etc
+- Energy, Feedback and Utility - power usage analytics, seismic data processing, etc
+Programming Languages : Python dan R
+Machine Learning Cloud Platforms :
+- Microsoft Azhar ML Studio
+- Amazon Machine Learning
+- SAP Leonardo Machine Learning
+- Google ML Platform
+- IBM Machine Learning
+What to learn in Machine Learning :
+- Programming and Tools : Python/R, spark, etc. (30%)
+- The Math begini Machine Learning : Probabilistic Theory, Statistics, and Linear Algebra. (70%)
+Proses mempelajari Machine Learning : 
+1. R/Python for machine learning
+2. Statistic for Data science
+3. Math behind machine learning algorithms
+4. Packages for machine learning : tensorflow, keras etc
+5. Practice / Latihan
+6. Optimization, Boosting techniques
+   Pada hari Selasa, 8 Maret 2022 di hari kedua dan di minggu ketiga, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi tentang Matematika dasar untuk kecerdasan buatan.
+Math for AI :
+- Peluang 
+        Konsep dasar peluang, peluang bersyarat, teorema bayes
+- Aljabar Linier
+        Matriks, Vektor, Nilai dan Vektor Eigen
+- Kalkulus 
+        Fungsi, Turunan, optimasi 
+Aljabar Linier : Vektor
+- Vektor adalah besaran yang memiliki nilai dan arah. 
+- Dalam ilmu data, vektor adalah kumpulan nilai dari variabel tertentu. 
+- Skalar adalah konstanta atau besaran yang memiliki nilai. 
+- Vektor berdimensi sama dapat dioperasikan 
+- Penjumlahan vektor : 
+        a+b = (a1+b1,…,an+bn)
+- Perkalian saklar : 
+         ka = (ka1,…,kan)
+- Dot product
+         a.b = £ai.bi = a1.b1 + a2. b2+…+an.bn
+Jarak dan sudut antar vektor : 
+- Jarak Euclidean
+         d(a,b) = akar dari £(ai-bi)^2
+- Jarak Manhattan
+         d(a,b) = £|ai-bi|
+- Sudut antar vektor (cosine similarity)
+         Cos sudut = vektor a. vektor b / ||vektor a|| ||vektor b||
+Aljabar Linier : Matriks
+- Matriks adalah kumpulan nilai dari beberapa variabel yang disusun menjadi baris dan kolom. Matriks berukuran mxn memiliki m baris dan n kolom
+- A = [ a11 a12 … a1n
+                  am1 am2 … amn] , aij€R
+Operasi Matriks :
+- Penjumlahan matriks : A, B matriks berukuran mxn
+         A+B = (aij) + (bij) = (aij+bij)
+- Perkalian matriks dengan matriks : A matriks berukuran mxn, B matriks berukuran nxp, maka C=AxB matriks berukuran mxp
+Determinan dan Invers :
+- misal A matriks persegi, determinan dari A 
+         det(A) = |a b c 
+                         d e f
+                         g h i| = aei + bfg + cdh - ceg             - afh - bdi 
+- misal A matriks persegi, invers dari A adalah matriks persegi A^-1 dengan AA^-1 = A^-1A = I (matriks identitas)
+         A^-1 = 1 / det (A) . adj(A)
+Aljabar Linier : Nilai dan Vektor Eigen
+- Eigen berasal dari bahasa Jerman yang berarti karakteristik. Vektor Eigen adalah vektor yang menjadi karakteristik sebuah matriks dimana arahnya tidak berubah meski dilakukan transformasi
+- Sementara nilai eigen adalah bilangan yang berasosiasi dengan panjang vektor yang berubah setelah ditransformasi oleh matriks
+- A adalah matriks persegi, x adalah vektor eigen, dan A adalah nilai Eigen 
+         Ax = Ax
+         Ax -Ax = 0
+         Ax - AIx = 0
+         (A-AI)x = 0
+- Jika x bukan vektor 0, maka kita bisa menemukan nilai eigen dengan menghitung determinant matriks (A - XI). Lalu mensubtitusi nilai eigen tsb ke Ax = Ax untuk menemukan vektor eigennya 
+Kalkulus : Fungsi dan Gradient
+- Fungsi adalah aturan yang memetakan antara 2 himpunan
+- Gradient adalah besaran perubahan atau kemiringan
+- Gradient = change in Y / change in X
+- m = Y1-Y2 / X1-X2
+- Persamaan garis lurus :
+         y = mx + c
+         c = nilai y saat x =0
+Contoh penggunaan Gradient :
+- contoh penerapan di algoritma Support Vector Machine (SVM)
+- Menentukan garis pembatas antar 2 kelas
+Kalkulus: turunan & optimisasi
+- Turunan (differensial) merupakan pengembangan dari gradient. Turunan dari sebuah fungsi didefinisikan sebagai berikut :
+         df/dx:=lim h→0 (f(x+h)-f(x)) /h
+- Turunan sering digunakan untuk mencari nilai maksimum atau minimum
+- Titik maksimum/minimum ditemukan dengan menemukan x yang memenuhi f(x) =0
+- Nilai maksimum/minimum digunakan untuk memperkecil error atau memaksimalkan jarak 2 kelas yang berbeda.
+Peluang: konsep dasar Dalam Artificial Intelligence, kita perlu:
+1. Menghitung peluang suatu prediksi
+2. Menghitung peluang error atau kegagalan
+3. Memahami distribusi data 
+4. Memperkirakan pengaruh suatu variabel terhadap hasil prediksi
+5. Memperkirakan hal-hal lain yang berpotensi mempengaruhi performance program
+6. dsb
+Konsep dasar :
+- Ruang sample (S): himpunan dari semua kemungkinan dari suatu percobaan 
+- Peluang suatu kejadian A adalah banyaknya himpunan A dibagi banyaknya himpunanS.
+        P(A) = n(A)/n(S)
+Peluang Bersyarat : 
+- 2 kejadian A dan B dikatakan saling lepas jika AnB = 0, misalnya kejadian munculnya angka ganjil dan genap saat melempar 1 dadu. Pada kejadian ini P(An B) =0.
+- Jika kejadian A tidak mempengaruhi kejadian B (dan sebaliknya) maka A dan B dikatakan saling bebas. Peluang munculnya kejadian A dan B = P(ANB)=P(A) X P(B) Misalnya kejadian terjadinya kecelakaan dan hujan
+- Peluang kejadian A atau B = P(AUB)=P(A) + P(B) - P(ANB) 
+- Peluang terjadi suatu kejadian H bila diketahui bahwa kejadian X telah terjadi disebut peluang bersyarat yang dikenal dalam teorema bayes
+         P(H|X) = P(H n X) / P(X) =P(X|H) P(H) / P(X)
+   Kemudian pada sesi kedua pemberian materi tentang Operasi Matematika dan NumPy. 
+Numpy : Library python untuk membantu operasi matematika
+1) Contoh Penggunaan
+- Meng-import library NumPy: import numpy as np
+- Membuat 1D array (vektor) a = np.array([3, 1, 5, 6])
+- Membuat 2D array (matriks) A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+- begitupun 3D (tensor)
+2) Indexing & Slicing (Pemisahan)
+Index array NumPy dimulai dari 0
+• Array 1D (vektor)
+a = np.array([3, 1, 5, 6])
+a[0] = 3
+a[1] = 1
+a[2]=5
+a[3] = 6
+banyaknya entri → a.size : 4
+dimensi array→ a.ndim: 1 (menunjukkan vektor)
+ukuran array → a.shape : (4.)
+• Array 2D (matriks)
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+A[0][2] = 3
+A[0, 2] = 3
+A[2][0] = 7
+A[2, 0] = 7
+banyaknya entri → A.size : 9
+dimensi array → A.ndim : 2 (menunjukkan matriks)
+ukuran array → A.shape: (3,3)
+3) Operasi Matematika
+A) Penjumlahan/Pengurangan Array & Dot Product Vektor
+Misal:
+A = np.array([[1, 2],[7,8]])
+B = np.array([[3, 5],[1,6]])
+2*A: array([[2, 4], [14, 16]])
+2+A: array([[3, 4], [9, 10]])
+A+B: array([[ 4, 7], [ 8, 14]])
+A-B: array([[-2, -3], [ 6, 2]])
+Misalkan :
+C.D=1x3 + 2x5=13
+Perkalian dot product vektor : np.dot(C, D)
+B) Perkalian Matriks
+Perkalian antar entri :
+A*B: array([[ 3, 10], [ 7, 48]])
+Perkalian matriks A & B:
+np.matmul(A, B): array([[ 5, 17], [29, 83]])
+C) Operasi Matematika Lainnya
+- mean : np.mean(A)
+- median : np.median(A)
+- nilai maksimum : np.max(A)
+- sorting : np.sort(A)
+- transpose : np.transpose(A)
+- determinan : np.linalg.det(A)
+- invers : np.linalg.inv(A)
+- eigen value & vector : np.linalg.eig(A)
+- generate matriks yg entrinya 0 semua ukuran pxq : np.zeros(p,q) 
+- generate matriks identitas ukuran pxp : np.identity(p)
+   Setelah itu, dilanjutkan lagi dengan pemberian materi tentang Fundamental of Machine Learning (Supervised Learning).
+Paradigma Pemograman :
+- Traditional Programming : if , else , dll
+- Machine Learning Approach : 
+         1. Supervised Learning
+         2. Semi-supervised Learning
+         3. Unsupervised Learning
+         4. Reinforced Learning
+Perbedaan Traditional Programming dan Machine Learning Approach : 
+- Traditional Programming : ada penjelas/ detail, biasanya pake logika seperti if else, datanya dimasukkan ke dalam alur aturan dan menghasilkan jawaban
+- Machine Learning Approach : memasukkan data dan jawaban untuk mengetahui aturannya sepeti apa, dan ambil kesimpulan 
+Traditional Approach : 
+Experiment -> Data + Role -> Process -> Answer
+Machine Learning Approach :
+Experiment -> Data + Answer -> Process -> Role
+Family of AI Models :
+- Supervised Learning : menentukan hubungan melalui pelatihan
+- Unsupervised Learning : temukan pola baru
+- Reinforcement Learning : belajar dengan tindakan yang bermanfaat
+Machine Learning Models : 
+- Supervised Learning 
+- Unsupervised Learning
+Human vs Machine
+- Manusia : belajar dari pengalaman 
+- Mesin : hanya mengikuti instruksi yang diberikan
+Segmentasi ML: 
+1. Supervised Learning
+         - Estimation
+         - Prediction/Forecasting
+         - Classification
+2. Unsupervised Learning
+         - Clustering
+         - Association
+7 Langkah dalam ML :
+- Gathering Data
+- Preparing Data
+- Choosing a model
+- Training model
+- Evaluation
+- Turning hyperparameter
+- Prediction
+ML Life Cycle : 
+- Tentukan tujuan
+- Kumpulkan data
+- Siapkan data
+- Pilih algoritma
+- Latih model
+- Tes model
+- Integrasikan model
+   Lalu karena waktu pembelajaran dengan coach telah selesai, dilanjutkan dengan mahasiswa masing-masing belajar mandiri. Dan karena materi tentang Fundamental of Machine Learning belum selesai semuanya dijelaskan oleh coach, maka materi ini akan dilanjutkan lagi di pertemuan hari berikutnya. 
+   Pada hari Rabu, 9 Maret 2022 di hari ketiga dan di minggu ketiga, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi lanjutan pertemuan kemarin tentang fundamental of machine learning. 
+ML Workflow :
+Start -> Data -> Training Data -> Train the Machine Learning Algorithm -> Model -> Cek dengan input data yang baru -> Masukkan model ke yang sesi 2 -> Machine Learning Algorithm -> Prediction -> Cek prediksi nya dibandingkan dengan data tes -> Manual Validation by humans -> validasi bagus sudah selesai, tetapi jika validasi jelek harus melakukan training ulang. 
+Metrics Evaluation :
+1.) Regression
+- MSPE
+- MSAE
+- R Square
+- Adjusted R Square
+2.) Classification
+- Precision-Recall
+- ROC-AUC
+- Accuracy
+- Log-Loss
+3.) Unsupervised Models
+- Rand Index
+- Mutual Information
+4.) Others
+- CV Error
+- Heuristic methods to find K
+- BLEU Score (NLP)
+Kelebihan ML : 
+- Mudah dalam mengidentifikasi trend dan pola pada data
+- Tidak perlu campur tangan manusia
+- Pengembangan dapat dilakukan secara berkelanjutan
+- Mampu menangani data multidimensi dan multi-variasi
+- Aplikasi/implementasi yang luas
+Kekurangan ML : 
+- Rentan terhadap kesalahan
+- Akuisisi data
+- Waktu dan sumber daya
+- Hasil bersifat interpretasi (tafsiran)
+   Supervised Learning umumnya digunakan untuk menemukan pola dalam data masukan yang diberi label memungkinkan kita menghasilkan data keluaran yang benar secara efektif.
+Ciri-ciri : 
+- Data training telah diberi label
+- Algoritma memprediksi output dari input, contoh algoritma : klasifikasi (memetakan masukan ke label keluaran) dan regresi ( memetakan masukan ke keluaran berkelanjutan)
+Supervised Learning Workflow : 
+Labelled Data -> Algorithms (input dan output)-> Data dibagi menjadi Training data set dan Desired Output -> Process -> Output
+Supervised Learning Experiment : 
+1. Gather
+Unsupervised Learning umumnya digunakan untuk mempelajari struktur karakteristik data kita tanpa menggunakan label yang disediakan secara eksplisit.
+Ciri-ciri : 
+- Data training tidak berlabel 
+- Algoritma mempelajari struktur karakteristik dari data masukan, contoh algoritma : Clustering (mempelajari hubungan antara fitur individu) dan Dimensional Reduction (metode untuk mengurangi fitur)
+Unsupervised Learning Workflow :
+Raw Data -> Interpretation -> Algorithms -> Process -> Output
+Unsupervised Learning Experiment : Data suara dikumpulkan dan dikelompokkan mana suara yang mirip. 
+Reinforcement Learning Workflow : 
+Input Raw Data -> Environment & Agen -> Output 
+Reinforcement Learning Experiment : 
+- Game
+- Ragdol ( melatih robot berjalan)
+Konsep Machine Learning 
+The common ML Algorithms : 
+- Regression
+- Classification 
+- Clustering
+Review Concept : 
+- AI : Teknik apapun yang memungkinkan komputer meniru kecerdasan manusia
+- Machine Learning : Bagian dari AI yang memungkinkan mesin untuk mengerjakan tugas dengan lebih baik, dengan pengalaman
+- Deep Learning : Bagian dari ML yang memungkinkan software melatih dirinya sendiri untuk melakukan tugas dengan data dalam jumlah besar. 
+Machine Learning vs Deep Learning :
+- Machine Learning : Input -> Feature extraction -> Classification -> Output
+- Deep Learning : Input -> Feature extraction+Classification -> Output
+   Kemudian dilanjutkan dengan materi tentang Pengantar Artificial Neural Network.
+   Artificial Neural Network (ANN) adalah teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. 
+   Deep Learning adalah sebuah jaringan syaraf tiruan. 
+   NN dimulai dari kisah bahwa manusia berusaha untuk meniru cara neuron pada manusia bekerja. Dengan membuat tiruan yaitu ANN. Di kemudian hari ANN menjadi cikal bakal DL. 
+Pengenalan Deep Learning 
+Neural Network :
+Data -> Neural Network -> Output
+Bentuk anatomi nya yaitu sebuah sel syaraf terdapat inti sel (nucleus), dendrites, axon, cell body, dll. 
+Deep Learning : 
+Input (Text file) -> Preprocessing -> Dense Embedding -> Hidden Layer -> Output units -> Output
+Sejarah Deep Learning :
+1943 : Electronic Brain
+1957 : Perceptronn
+1960 : ADALINE
+1969 : XOR Problem
+1986 : Multi-layered Perceptron (Backpropagation)
+1995 : SVM
+2006 : Deep Neural Network (Pretraining)
+Perkembangan Deep Learning :
+Nvidia, Google, Amazon -> bikin libraries yang open source , bikin predictive model AI -> intuitif e GPUs
+Melatih Model Deep Learning
+Bergantung pada faktor seperti : 
+- perangkat keras yang tersedia
+- Pengoptimalan
+- Jumlah lapisan dalam jaringan saraf
+- Arsitektur neural network
+- Ukuran data set, dll
+Penggunaan Deep Learning : 
+- Ketika mempunyai data tak terstruktur yang sangat besar dan banyak
+- Neural network dapat mengolah data yang tidak memiliki label
+- Bekerja sangat baik dengan data berbentuk Speech, Images, dan video.
+Amdahl’s Law for Parallel Computing Accelerates :
+Persamaan untuk menghitung speed-up parallel computing menggunakan hukum amdahl : 
+Speedup = 1 / ((1-p) + p/N)
+Hukum ini banyak dipakai dalam bidang komputasi paralel untuk meramalkan peningkatan kecepatan maksimum pemrosesan data (secara teoritis) jika jumlah prosesor di dalam komputer paralel terus bertambah. 
+- GPU : throughput tinggi, latensi rendah
+- CPU : throughput rendah, latensi tinggi
+   Deep Learning sangat boros di komputasional. Deep Learning memproses data yang banyak dengan menggunakan GPU dan memakan waktu cukup lama. Akurasi yang sama atau lebih tinggi dari Machine Learning bisa dihasilkan bila Deep Learning nya dilatih dengan baik. 
+Kekurangan Deep Learning : 
+- jumlah data yang dibutuhkan dalam pelatihan cukup besar, sehingga membutuhkan akses ke komputer yang berkekuatan tinggi yang dilengkapi dengan GPU dan TPU. 
+- Sulit menentukan tuning terbaik karena menggunakan teknik Black Box dimana bobot akan di update di setiap layernya
+   Machine Learning as a service (MLaaS) adalah definisi umum bagi berbagai platform berbasis Cloud yang mencakup sebagian besar masalah infrastruktur seperti pra-pemrosesan data, pelatihan model, dan evaluasi model dengan prediksi lebih lanjut. Hasil prediksi dapat dijembatani dengan REST API. Contoh : AWS, Google Cloud, IBM Cloud, Microsoft azure.
+Contoh Deep Learning Framework : TensorFlow, Keras, Pytorch, DL4J, dll.
+   Kemudian pada sesi kedua pemberian materi tentang Artificial Neural Network.
+   Artificial Neural Network (ANN) atau Jaringan Syaraf Tiruan (JST) adalah paradigma pemrosesan informasi yang terinspirasi dari cara kerja sistem saraf (otak) manusia dalam memproses informasi. ANN terdiri dari sejumlah besar elemen pemrosesan (neuron) yang saling berhubungan dan bekerja sama untuk memecahkan nasalah. 
+Kelebihan neural network : 
+- kemampuannya berguna untuk robotika dan sistem pengenalan pola
+- Keluaran ANN tidak sepenuhnya dibatasi oleh masukan dan hasil yang diberikan kepada mereka pada awalnya oleh sistem pakar
+- JST memiliki potensi toleransi kesalahan yang tinggi
+- ANN mampu memperbaiki parameternya sendiri atau mampu mendebug/mendiagnosis jaringan sendiri 
+- Sistem non-linier yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal 
+Cara kerja ANN : 
+- Fase Pelatihan 
+- Fase pengujian 
+- Fase penggunaan 
+Logical Flow Neural Network : 
+Input Data X -> Neural Net Layers -> Predictions Y & Target Predictions Y -> Lisa function -> Loss score-> Optimizer -> Weight update -> Weight W
+Neuron
+Formula Matematis ANN : 
+Neural Network satu lapis disebut perceptron. Perceptron memberikan output tunggal. 
+- x0,x1,..x(n) mewakili berbagai masukan (variabe bebas). Masing-masing input dikalikan dengan bobok koneksi atau sinapsis. 
+- Bobot dipresentasikan sebagai w0,w1,…w(n). Bobot menunjukkan kekuatan mode tertentu. 
+- b adalah nilai bias yang memungkinkan untuk menggeser fungsi aktivitas ke atas atau ke bawah. 
+Perceptron 
+The Perceptron : Forward Propagation 
+Input -> Weights -> Sum -> Non- linearity -> output
+   Activation Function membantu menyelesaikan masalah yang bersifat non-trivial dalam suatu neural network dengan mengambil sebuah nilai dan melakukan operasi matematika. Fungsi matematika pada ANN adalah ReLu dan Sigmoid. Pentingnya activation function yaitu dapat memperkenalkan non linieritas ke dalam jaringan. 
+   Loss Function digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target. Loss / cost function merupakan fungsi yang menggambarkan kerugian yang terkait dengan semua kemungkinan yang dihasilkan oleh model.
+   Optomizer adalah fungsi pengoptimalan yang dapat digunakan untuk memperbarui weight network secara iteratif berdasarkan data training. Contohnya yaitu gradient descent, SGD, momentum, dan ADAM optimizer .
+   Back propagation adalah proses memperbaharui bobot dari network untuk mereduksi error dalam hasil prediksi. 
+   Gradient descent adalah proses menyesuaikan parameter model untuk turun melalui Loss function. 
+Deep Learning : Training and Testing
+- Training stage : input data -> Learning system -> Coreect output
+- Testing stage : New input data -> Learning system -> Best Guess
+The challenge of Deep Learning : Efficient Teaching + Efficient Learning
+- Artificial Intelligence : AI menangkap imajinasi dunia ( 1950-1980)
+- Machine Learning : ML mulai mendapatkan daya tarik ( 1980 - 2010) 
+- Deep Learning : DL berjaya di industri ( 2010 - 2040)
+Computer Vision is Machine Learning
+Images are Numbers 
+- Regression : variabel output mengambil nilai kontinu
+- Classification : variabel output mengambil label kelas
+Contoh Deep Learning : 
+- Digit Classification MNIST Dataset 
+- The fashion MNIST Dataset
+   Pada hari Kamis, 10 Maret 2022 di hari keempat dan di minggu ketiga, kegiatanku pada hari itu adalah belajar dengan coach yang berbeda di  zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi  tentang AI Project Cycle. 
+   System thingking merupakan cara dalam memandang sesuatu secara keseluruhan, dimana bagian-bagiannya saling berhubungan. Memandang secara keseluruhan tersebut berarti mempelaja ri untuk mema hami setiap bagian yang terkait dalam suatu sistem.
+   Algoritma merupakan metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik untuk menghitung sebuah fungsi.
+   Metode merupakan gambaran arus informasi yang diproses dari input menuju sebuah output. Fokus pada arus informasi, asal dan tujuan data, hingga bagaimana data itu tersimpan. Digunakan untuk menjelaskan atau menganalisis sebuah sistem informasi. 
+   System map merupakan sebuah diagram bertujuan untuk memahami masalah yang kompleks dengan faktor yang saling mempengaruhi. 
+AI Project Cycle : 
+Problem Scoping -> Data Acquisition -> Data Exploration -> Modelling -> Evaluation -> Deployment
+   Masalah didefinisikan sebagai sebuah pernyataan yang jelas menggambarkan keadaan awal dari masalah yang harus dipecahkan. Properti masalah seperti tugas yang harus diselesaikan, kinerja sistem yang ada saat ini dan pengalaman dengan sistem saat ini. 
+   Pada masalah tertentu selalu terkait dengan pekerjaan atau proses. Pemecahan masalah mengacu pada identifikasi masalah dan visi untuk memecahkannya. 
+The 4Ws of Problem Scoping : Who (siapa), What (apa), Where (Dimana), Why (Kenapa). 
+- Who adalah target user yang akan dibantu dengan teknologi AI.
+- What adalah apa permasalahan sebenarnya. Kita perlu mewawancarai calon user untuk mengungkapkan pengalaman, tantangan dan perasaan mereka menghadapi masalah. 
+- Where adalah tempat terjadi permasalahan itu
+- Why adalah penyebab terjadinya masalah
+Contoh Kasus : Keadilan untuk Disabilitas di Indonesia
+- who : penyandang disabilitas
+- what : disabilitas mendapatkan gambaran seseorang harus dikasihani atau mendapat ekspektasi tertentu
+- where : di setiap tempat umum 
+- why : berdasar data, 1 dari 10 warga Indonesia penyandang disabilitas 
+Problem Statement Template : 
+- Our (stakeholders) : who
+- Has a problem that (issue, problem, need) : what
+- when/while (context, situation) : where
+- An ideal solution would (benerin of solution for them) : why
+Perencanaan project :
+1. Project planning & data collection
+2. Design & training of the Machine Learning model
+3. Deployment & maintenance
+   Akuisisi data adalah serangkaian proses pengukuran, pengumpulan, dan validasi data yang dibutuhkan dalam suatu proyek AI. Proses ini bisa dilakukan dengan menggunakan tools atau alat tertentu seperti sensor, melalui observasi, atau mengambil data yang tersedia di internet atau lembaga. 
+Jika menggunakan alat pastikan :
+1. Validitas : alat mampu mengukur atau mengidentifikasi data yang dibutuhkan
+2. Reliabilitas : kekonsistenan alat, menghindari bias
+3. Sensivitas : seberapa sensitif alatnya
+Data sources : survey, web scraping, sensor, cameras, observation, API. 
+3 sistem akuisisi data : 
+1. Manual 
+2. Membuat pipeline untuk scraping atau membaca data
+3. Automated Data Acquisition
+Contoh Automated Data Acquisition System : Sensor -> DAQ Device -> Computer
+   Eksplorasi data digunakan untuk memahami tren, hubungan dan pola yang terkandung dalam data dan membantu untuk menentukan strategi model yang digunakan pada stage selanjutnya.
+   Eksplorasi data melalui visualisasi karena representasi visual lebih mudah untuk dipahami dan dikomunikasikan ke orang lain.
+Contoh visualisasi : hubungan antara jam belajar dengan nilai akhir
+Cara umum untuk memvisualisasikan data : Bar chart, Line chart, Scatterplot dan Tree Diagram.
+   Modelling adalah representasi masalah dalam bentuk lebih sederhana sehingga lebih jelas dan mudah dikerjakan. 
+   Pemodelan Machine Learning digunakan untuk memahami pola tertentu di data.
+Confusion Matrix :
+- Realita (yes) , Prediksi (yes) : True Positive (TP).
+- Realita (no), Prediksi (yes) : False Positive (FP).
+- Realita (yes), Prediksi (no) : False Negative (FN). 
+- Realita (no), Prediksi (no) : True Negative (TN). 
+   Akurasi adalah persentase prediksi yang benar dari semua kemungkinan
+Akurasi = (TP + TN) / (TP + FP + TN + FN) 
+              = Prediksi benar / Semua case
+   Presisi adalah persentase dari case yang diprediksi positif (TP + FP) yang ternyata positif (TP). 
+Presisi = (TP) / (TP + FP)
+            = True Positive / Total prediksi positif 
+   Recall mengukur pecahan kasus positif (TP + FN) yang diidentifikasi dengan benar (TP). 
+Recall = (TP) / (TP + FN)
+            = True Positive / Total aktual positif
+Model Selection
+Contoh proses memilih model terbaik :
+Input data coba -> Model (1,2,3) dievaluasi -> Model Metrics (1,2,3) -> Model terbaik (menjadi pertimbangan untuk memilih)
+   Kemudian dilanjutkan sesi kedua dengan pemberian materi tentang Data analytics with python - Basic statistics. 
+Jenis Data : 
+- Data Terstruktur : Sangat terorganisir dan mudah dicari dengan kueri atau algoritme
+         Contoh : tanggal, alamat
+         Aplikasi : transaksi penjualan, aktivitas ATM
+- Data Tidak Terstruktur : Tidak ada struktur yang dapat diidentifikasi untuk jenis data ini
+         Contoh : email, data sensor
+- Data Semi Terstruktur : Sering dijelaskan sebagai tanpa skema atau menggambarkan diri sendiri
+         Contoh : bahasa Markup SQL
+         Aplikasi : LinkedIn, aplikasi web
+   Noisy Data: Berisi sejumlah informasi yang tidak terlalu dibutuhkan, menyimpang, atau tidak diketahui kebenarannya
+Beberapa sumber Noisy Data:
+a) Random Noise, misalnya suara kebisingan yang terekam saat meeting
+online
+b) HumanError, misalnya kesalahan input data
+c) Outlier, suatu data yang sangat berbeda dari data umumnya
+Pengantar Statistika
+Statistika:
+• Ilmu yang berkaitan dengan pengumpulan, penataan, penyajian, analisis, dan interpretasi data menjadi informasi untuk membantu pengambilan keputusan yang efektif.
+Statistik:
+• Pengukuran dari data, seperti mean, median, modus, dll.
+• Penyajian data statistik dapat berbentuk tabel, grafik, diagram, deretan angka dan visualisasi angka
+Beberapa istilah penting : 
+• Populasi: Himpunan objek yang akan dianalisa.
+• Sensus: Ketika peneliti mengumpulkan data dari seluruh populasi. 
+• Sampel : Bagian dari populasi yang dianggap sudah cukup mewakili populasi.
+• Survey : Ketika peneliti mengumpulkan data dari Sampel saja
+Pembagian Statistik
+- Deskriptif : Mendeskripsikan dan menganalisis sampel data tanpa melakukan proses penarikan kesimpulan
+- Inferensial : Menganalisa sampel untuk mengestimasi dan membuat kesimpulan mengenai populasi
+   Ukuran pemusatan adalah metode yang umum digunakan untuk mengidentifikasi pusat kumpulan data. 
+Ukuran tendensi sentral :
+- Mean atau rata-rata : jumlah semua nilai dalam kumpulan data, dibagi dengan jumlah total nilai dalam kumpulan data.
+- Median adalah nilai tengah dari kumpulan data jika jumlah nilai adalah bilangan ganjil; rata-rata dari dua nilai tengah, jika jumlah nilai adalah bilangan genap.
+- Mode : Nilai yang paling sering muncul dalam kumpulan data, yaitu nilai sampel acak yang terjadi dengan frekuensi terbesar
+   Ukuran Penyebaran : Digunakan untuk mengetahui bagaimana data tersebar di sekitar mean
+Ukuran variabilitas : 
+- Range : Jarak antara nilai terkecil dan nilai terbesar dalam sebuah dataset.
+- Kuartil dan Inter-quartile range
+- Varians adalah ukuran seberapa menyebar set data
+- Standar deviasi : Jarak rata-rata semua nilai dari rata-rata keseluruhan.
+Jenis Variabel / Skala Pengukuran : 
+1.) Categorical
+- Skala Nominal : Data berupa kategorik, namun tidak berurutan. Pada data ini, statistik yang cocok adalah frekuensi dan modus 
+        Contoh : laki-laki dan perempuan 
+- Skala Ordinal : Data bersifat kategorik, namun memiliki makna urutan. Pada data ini, statistik yang cocok adalah frekuensi, modus, dan median
+        Contoh : tingkat pendidikan 
+2.) Numerical 
+- Skala Interval : Data numerik tanpa 0 mutlak. Statistik yang cocok untuk analisa datanya adalah frekuensi, mean, median, modus, varians
+        Contoh : data suhu
+- Skala Rasio : Data numerik dengan 0 mutlak.  Statistik yang cocok untuk analisa datanya adalah frekuensi, mean, median, modus, varians
+         Contoh : data kecepatan
+   Kovarians Adalah hubungan antara dua variabel dalam kumpulan data yang diberikan.
+   Korelasi adalah Adalah ukuran kekuatan hubungan antara dua variabel. 
+Koefisien korelasi adalah cara untuk memberi nilai pada hubungan. 
+   Kemudian pemberian materi selanjutnya tentang Data analytics with python- Advance statistics.
+   Statistik Inferensial terdiri dari pengujian hipotesis dan estimasi.
+   Hipotesis adalah pernyataan yang masih bernilai lemah dan perlu dibuktikan
+- Ho : hipotesis nol
+- Ha : hipotesis alternatif
+Kesalahan dalam Pengujian Hipotesis :
+- Kesalahan tipe I
+- Kesalahan tipe II
+P-value dan keputusan hipotesis
+   P-value adalah suatu nilai signifikansi untuk menguji hipotesis.
+   Distribusi Normal adalah distribusi data dimana nilai modus, mean,dan mediannya mendekati nilai yang sama. 
+   Uji beda (comparative analysis) adalah uji statistik untuk menguji pengaruh suatu perlakuan atau perbedaan dari beberapa populasi
+Statistik Parametrik – Uji-T
+• Uji-t digunakan untuk membandingkan 2 kelompok, terdapat 2 jenis kasus: 1. Sampel Berhubungan (Paired Sample T-Test)
+2. Sampel independent (Independent Sample T-Test)
+Statistik Parametrik – ANOVA
+• Analisis of Variance (ANOVA) digunakan untuk membandingkan lebih dari 2 kelompok
+Statistik non-parametrik 
+- Data : numerik , ordinal, dan nominal
+   Setelah sesi pembelajaran dengan coach selesai, dilanjut dengan belajar mandiri. Dalam belajar mandiri ini kita dapat mengerjakan tugas yang telah diberikan oleh coach. 
+   Pada hari Jumat, 11 Maret 2022 di hari kelima dan di minggu ketiga, kegiatanku pada hari itu adalah belajar dengan coach di zoom lalu belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi tentang OOPs. 
+Object oriented programming
+   Pemrograman berbasis objek adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual
+- prosedural : withdraw, deposit, transfer
+- Object oriented : customer, money, account
+   Class adalah kumpulan objek. Class berisi cetak biru atau prototipe dimana objek akan dibuat. Entitas logis yang berisi beberapa atribut dan metode.
+- Classes dibuat dengan keyword class
+- Attributes adalah variable yang dimiliki sebuah class
+- Attributes selalu bersifat public dan bisa diakses menggunakan operator dot(.)
+Syntax :
+class ClassName :
+#Statement-1
+#Statement-N
+OOPs terminology : Object, instance, method, constructor method, class variable, instance variable
+Python class dan objects :
+- keyword class digunakan untuk membuat sebuah class
+- Membuat objek dari class yang ada
+OOPs terminology : self keyword
+1. Self mewakili instance dari kelas
+2. Method dari sebuah class harus memiliki tambahan parameter dalam definisinya. Tidak harus memberikan nilai untuk parameter ini.
+3. Dapat mengakses atribut dan metode class dengan Python.
+4. Self mirip dengan pointer di C++ dan reference di Java.
+Methods inside the class :
+- methods yang didefinisikan di dalam class dengan keyword Self sebagai input 
+- Mengakses atribut class untuk dibagikan ke berbagai instance dari class yang sama
+   Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain yang sudah ada. Kelas yang baru terbentuk adalah kelas turunan / Child class. Kelas yang ada adalah kelas dasar / parent class.
+   Kemudian pembelajaran dilanjutkan pada sesi kedua. Di sesi kedua ini, coach memberikan review materi pada minggu ini tentang AI, ML, DL, Basic & Advance Statistics. Setelah itu, kita diberikan tugas mandiri lagi. Selanjutnya pada sesi belajar mandiri kita dapat melanjutkan belajar dan juga dapat mengerjakan tugas yang diberikan coach sebelumnya. 

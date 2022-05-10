@@ -1,0 +1,57 @@
+Mon, 21 Feb
+
+menyenangkan, saya sangat menantikan kegiatan ini karena program AI Mastery sangat menarik perhatian saya
+
+Tue, 22 Feb
+
+Ada beberapa perusahaan yang paling populer saat ini seperti AloDokter, Shopee, Gojek, Grab, Tokopedia dan lainnya. Beberapa perusahaan tersebut populer bukan tanpa sebab melainkan karena mereka mampu menawarkan solusi-solusi dari permasalahan yang ada di masyarakat. Contohnya adalah aplikasi gojek, gojek menawarkan kemudahan bagi penggunanya yang membutuhkan jasa ojek dengan cara menghubungkan pengguna dengan driver terdekatnya sehingga pengguna tidak repot mencari ojek lagi. Begitu pula dengan drivernya, driver tidak perlu kesulitan mencari penumpang karena semuanya sudah diproses oleh sistem.
+Saat ini, data merupakan sesuatu yang sangat berharga karena hanya dengan kita melakukan pengolahan data yang dapat menghasilkan suatu informasi, kita dapat menemukan banyak sekali kesempatan besar. Dengan data, kita bisa memprediksi apa yang terjadi kedepannya. Oleh karena itu, di era sekarang ini data sangat diperlukan dalam suatu perusahaan untuk membantu dalam pengambilan keputusan.
+Karena pentingnya data ini, akhirnya orang mulai mengumpulkan berbagai macam dan jenis data yang banyak sekali dan bisa jadi berantakan. Banyaknya dan keberagaman data ini bisa kita sebut juga dengan big data.Apabila kita bisa mengolah sekumpulan data tersebut, kita akan bisa menemukan kesempatan besar yang dapat menjadikan perusahaan berkembang.
+
+Wed, 23 Feb
+
+Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Menurut Springboard, python menempati urutan ke 2 sebagai bahasa pemrograman yang paling mudah dipelajari. Adapun beberapa perusahaan yang menggunakan bahasa pemrograman python diantaranya adalah Google, Facebook, Instagram dan Dropbox.
+Ada beberapa IDE yang dapat digunakan untuk menuliskan python yaitu Anaconda, Jupyter Notebook dan Google Colab.
+Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science.
+Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data
+science, yang berbasis web. IDE ini bersifat open sources.
+Sedangkan Google Colab adalah IDE yang hampir mirip dengan Jupyter Notebook hanya saja Jupyter Notebook tidak memerlukan koneksi internet sedangkan Google Colab memerlukan koneksi internet.
+
+Thu, 24 Feb
+
+Data dibagi menjadi dua yaitu data terstruktur dan data tidak terstruktur. Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain.
+Dalam membuat kecerdasan buatan, diperlukan data untuk proses pemebelajaran komputer. Menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management”
+kualitas data dilihat dari:
+● Accuracy → Keakuratan data/ seberapa besar data bisa dipertanggungjawabkan
+● Completeness → Kelengkapan data
+● Relevancy → Memuat informasi yang dibutuhkan untuk analisa
+● Timelines → Data mewakili informasi di waktu tersebut (jika membahas saat ini maka data harus yang terkini atau yang lama tapi masih relevan hingga saat ini)
+● Consistency → Adanya kekonsistensian (data yang merepresentasikan informasi yang sama meski disimpan di tempat yang berbeda tetaplah sama)
+Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah. AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+AI Ethics penting karena Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan dan Sebagai pedoman dalam mengembangkan dan menggunakan teknologi AI. 
+Prinsip AI Ethics ada 3 yaitu respect for persons, beneficence dan justice.
+
+Fri, 25 Feb
+
+Kecerdasan buatan sangat membawa dampak positif di berbagai sektor seperti pertanian, retail, otomotif dan lainnya. Oleh karena itu, kita perlu mempelajari kecerdasan buatan. Kecerdasan buatan bisa diterapkan menggunakan bahasa pemrograman python.
+Python adalah salah satu bahasa pemrograman yang sangat populer. Salah satu alasan yang membuat python menjadi bahasa pemrograman populer adalah karena python mudah untuk diaplikasikan. Python termasuk kedalam bahasa pemrograman tingkat tinggi yang artinya python memakai instruksi yang berasal dari unsur-unsur kata manusia seperti if-else.
+Guido van Rossum adalah orang dibalik bahasa pemrograman python. Python pertama kali dibuat di tahun 1990-an. Kemudian pada tahun 1995, python dikembangkan menjadi lebih kompatibel untuk digunakan. Kemudian di tahun 2000, python dikembangkan kembali hingga mencapai versi 3 atau python 3.
+
+What did you learn this week?
+
+Ada beberapa perusahaan yang paling populer saat ini seperti AloDokter, Shopee, Gojek, Grab, Tokopedia dan lainnya. Beberapa perusahaan tersebut populer bukan tanpa sebab melainkan karena mereka mampu menawarkan solusi-solusi dari permasalahan yang ada di masyarakat. Contohnya adalah aplikasi gojek, gojek menawarkan kemudahan bagi penggunanya yang membutuhkan jasa ojek dengan cara menghubungkan pengguna dengan driver terdekatnya sehingga pengguna tidak repot mencari ojek lagi. Begitu pula dengan drivernya, driver tidak perlu kesulitan mencari penumpang karena semuanya sudah diproses oleh sistem.
+Saat ini, data merupakan sesuatu yang sangat berharga karena hanya dengan kita melakukan pengolahan data yang dapat menghasilkan suatu informasi, kita dapat menemukan banyak sekali kesempatan besar. Dengan data, kita bisa memprediksi apa yang terjadi kedepannya. Oleh karena itu, di era sekarang ini data sangat diperlukan dalam suatu perusahaan untuk membantu dalam pengambilan keputusan.
+Karena pentingnya data ini, akhirnya orang mulai mengumpulkan berbagai macam dan jenis data yang banyak sekali dan bisa jadi berantakan. Banyaknya dan keberagaman data ini bisa kita sebut juga dengan big data.Apabila kita bisa mengolah sekumpulan data tersebut, kita akan bisa menemukan kesempatan besar yang dapat menjadikan perusahaan berkembang. 
+Data dibagi menjadi dua yaitu data terstruktur dan data tidak terstruktur. Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain.
+Dalam membuat kecerdasan buatan, diperlukan data untuk proses pemebelajaran komputer. Menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” kualitas data dilihat dari:
+● Accuracy → Keakuratan data/ seberapa besar data bisa dipertanggungjawabkan
+● Completeness → Kelengkapan data
+● Relevancy → Memuat informasi yang dibutuhkan untuk analisa
+● Timelines → Data mewakili informasi di waktu tersebut (jika membahas saat ini maka data harus yang terkini atau yang lama tapi masih relevan hingga saat ini)
+● Consistency → Adanya kekonsistensian (data yang merepresentasikan informasi yang sama meski disimpan di tempat yang berbeda tetaplah sama)
+Ethics / Etika adalah seperangkat prinsip moral membantu kita membedakan antara benar dan salah. AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+AI Ethics penting karena Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan dan Sebagai pedoman dalam mengembangkan dan menggunakan teknologi AI. Prinsip AI Ethics ada 3 yaitu respect for persons, beneficence dan justice. 
+Kecerdasan buatan atau AI sangat membawa dampak positif di berbagai sektor seperti pertanian, retail, otomotif dan lainnya. Oleh karena itu, kita perlu mempelajari kecerdasan buatan. Kecerdasan buatan bisa diterapkan menggunakan bahasa pemrograman python.
+Python adalah bahasa pemrograman tingkat tinggi yang populer, dinamis, serbaguna, dan mudah untuk dipelajari. Bahasa pemrograman tingkat tinggi artinya python memakai instruksi yang berasal dari unsur-unsur kata manusia seperti if-else. Menurut Springboard, python menempati urutan ke 2 sebagai bahasa pemrograman yang paling mudah dipelajari. Adapun beberapa perusahaan yang menggunakan bahasa pemrograman python diantaranya adalah Google, Facebook, Instagram dan Dropbox.
+Guido van Rossum adalah orang dibalik bahasa pemrograman python. Python pertama kali dibuat di tahun 1990-an. Kemudian pada tahun 1995, python dikembangkan menjadi lebih kompatibel untuk digunakan. Kemudian di tahun 2000, python dikembangkan kembali hingga mencapai versi 3 atau python 3.
+Ada beberapa IDE yang dapat digunakan untuk menuliskan python yaitu Anaconda, Jupyter Notebook dan Google Colab. Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Sedangkan Google Colab adalah IDE yang hampir mirip dengan Jupyter Notebook hanya saja Jupyter Notebook tidak memerlukan koneksi internet sedangkan Google Colab memerlukan koneksi internet. 

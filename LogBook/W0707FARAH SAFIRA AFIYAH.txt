@@ -1,0 +1,122 @@
+Mon, 4 Apr
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+Kelas Data Science:
+• Penjelasan mengenai data runtun waktu/time series yang merupakan suatu himpunan data pengamatan yang dibangun dalam urutan waktu. Untuk Split data time series tidak bisa dibagi secara acak (random) namun pembagian datanya harus berurutan.
+• Penjelasan mengenai pola data time series secara umum terdiri dari 4 jenis berupa stasioner, trend, seasonal, dan cyclic effect.
+• Penjelasan mengenai analisis Box Jenkins ARIMA yang berlaku pada data runtun waktu yang stasiuoner. Namun data runtun waktu yang stasioner dapat ditranformasi menjadi runtun waktu yang stasioner, sehingga ARIMA juga dapat digunakan untuk data runtun waktu yang tidak stasioner.
+
+Tue, 5 Apr
+
+Pembelajaran hari ini melalui zoom pada kelas Computer Vision dengan membahas tentang Object Detection with YOLO:
+•  Penjelasan mengenai Naïve Approach, memiliki pendekatan yang lambat karena memeriksa banyak jendela yang tidak berisi apapun dan tidak bagus untuk penggunaan waktu nyata. Terdapat Region-based Convolution Neural Network (R-CNN) merupakan pendekatan berbasis region yang strategis mengidentifikasi objek dan lokasi melalui CNN.
+• Penjelasan mengenai one stage Vs two stage, two stage detector memiliki kelebihan dalam hal akurasi dan one stage memiliki kelebihan dalam hal kecepatan. 
+• Penjelasan mengenai YOLO dan langkah-lagkah YOLO.
+• Penjelasan Measuring Performance IoU, Intersection over Union (IoU) mengukur tumoang tindih diantara dua boundary box. Selama proses training, akan dihitung IoU antara kotak pembatas yang diprediksi dan kepastian prediksi (kotak pembatas berlabel yang akan diprediksi)
+
+Wed, 6 Apr
+
+Pembelajaran hari ini melalui zoom pada kelas NLP dengan membahas Word Embedding and Deep Learning for NLP:
+• Penjelasan mengenai Recall: Bag of words dan TF-IDF, terdapata kekurangan pada Bag of words dan TF-IDF seperti:
+1.	Sparse , setiap kata pada kamus merupakan fitur dan hal ini bertambah apabila menggunakan biagram, trigram, dst.
+2.	Low Semantics, tidak memiliki kemampuan lebih untuk menangkap makna. Selain itu pada ekstraksi fitur, baik BoW dan TF-IDF tidak memperhatikan urutan.
+3.	Out of Vocabulary Problem, jika tidak terdapat pada kamus, kata baru tidak emmiliki fitur.
+• Word embedding menjawab kekurangan dari pendekatan sebelumnya, yakni data sparse, low semantics dan OOV (khususnya FastText
+• Penjelasan Word Embbedding untuk menyelesaikan permasalahan sebelumnya. Karakteristik word embedding yang diinginkan seperti ukuran fitur yang lebih pendek dan dense (tidak memiliki banyak nol )
+• Word embedding diperoleh dengan melatih shallow neural network (satu layer), weight yang dihasilkan dijadikan word embedding, contoh word embedding ialah Word2Vec, FastText dan Glove.
+• Word2Vec dapat dilatih dengan metode CBOW dan Skipgram. Negative sampling dibutuhkan untuk mereduksi besarnya parameter
+• Word embedding hanya dapat memperoleh semantic pada level kata, dibutuhkan pendekatan yang dapat memperoleh semantic dari kalimat
+• Kalimat tersusun dari kata sehingga untuk memperoleh semantic kalimat dapat dengan melakukan pelatihan setiap kata pada kalimat
+• RNN adalah pendekatan yang dapat memperoleh semantic kalimat, namun ia memiliki kelemahan yakni Long Dependecy Problem
+• Long Dependency Problem dapat diselesaikan dengan LSTM.
+• LSTM bekerja dengan memperhatikan informasi yang relevan dan melupakan informasi yang tidak relevan lagi.
+
+Thu, 7 Apr
+
+Pembelajaran hari ini melalui zoom pada kelas Reinforcement Learning dengan membahas:
+• Melakukan pretest
+• Penjelasan mengenai Q-Learning yang merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang. Q-Learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy. 
+• Penjelasan konsep dasar Q-learning:
+-	Terinspirasi dari value iteration
+-	Sample an action
+-	Observe the reward and the next state
+-	Take the action with the highest Q (Max Q)
+• Pada Q-Learning dilakukan iterasi:
+-	Policy iteration
+-	Value iteration
+•Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q -table akan di update sejalan dengan bertambahnya jumlah episode.
+• Secara prinsip semakin banyak iterasi episode akan semakin baik Q-tablenya.
+• Penjelasan Eksplorasi Vs Eksploitas, Eksplorasi merupakan suatu metode pemilihan action dimana agent akan melakukan pemilihan action secara random dengan tujuan ia bisa mengetahui informasi tentang environment secara mendalam. Sedangkan eksploitas adalah sebuah metode pemilihan action dengan memilih action yang mempunyai return (dalam hal ini Q-value) paling besar.
+• Penjelasan mengenai Deep Q learning, pada Deep Q Learning akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut Deep Q Network atau DQN. Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN adalah untuk menghasilkan aproksimasi Q function yang optimal. 
+
+Fri, 8 Apr
+
+Pembelajarn hari ini melalui zoom pada kelas Technical dengan membahas Flask RESTful API:
+• Penjelasan HTTP (hypertext Tranfer Protocol) merupakan bahasa yang umum digunakan pada internet secara global. Jenis data yang ada di internet sangat beragam seperti gambar halaman web (html, text json, audio;, video, dan sebagainya dapat dikirim melalui protocol HTTP.
+Pesan HTTP terdiri dari 3 bagian, yaitu:
+-	Start line, bagian ini terdapat pada baris pertama. 
+-	Header, terdapat pada baris kedua sampai batas baris kosong
+-	Body, terdapat pada bagian setelah baris kosong hingga akhir. Untuk request message tidak memiliki body
+• Penjelasan mengenai RESTful API, REST merupakan arsitektur standar untuk bertukar data melalui Web yang dapat dioperasikan antar sistem komputer. Web service yang menerapkan arsitektur REST disebut RESTful web service atau RESTful API yang memungkinkan sistem untuk mengakses dan memanipulasi data.
+• Penjelasan mengenai Flask Module, Flask adalah microframework ringan yang dibangun menggunakan bahasa pemrograman python untuk membangun aplikasi berbasis web yang fleksibel, dukungan komunitas yang luas dan memiliki kemampuan scaling untuk melayani jutaan pengguna (client)
+• Router atau Endpoint adalah tempat di mana lokasi resource berada menggunakan url tertentu. Resouce dalam hal ini merupakan dokumen yang dikirimkan oleh server kepada client. 
+
+What did you learn this week?
+
+SENIN:
+Hari ini pembelajaran melalui zoom dengan membahas:
+Kelas Data Science:
+• Penjelasan mengenai data runtun waktu/time series yang merupakan suatu himpunan data pengamatan yang dibangun dalam urutan waktu. Untuk Split data time series tidak bisa dibagi secara acak (random) namun pembagian datanya harus berurutan.
+• Penjelasan mengenai pola data time series secara umum terdiri dari 4 jenis berupa stasioner, trend, seasonal, dan cyclic effect.
+• Penjelasan mengenai analisis Box Jenkins ARIMA yang berlaku pada data runtun waktu yang stasiuoner. Namun data runtun waktu yang stasioner dapat ditranformasi menjadi runtun waktu yang stasioner, sehingga ARIMA juga dapat digunakan untuk data runtun waktu yang tidak stasioner.
+
+SELASA:
+Pembelajaran hari ini melalui zoom pada kelas Computer Vision dengan membahas tentang Object Detection with YOLO:
+•  Penjelasan mengenai Naïve Approach, memiliki pendekatan yang lambat karena memeriksa banyak jendela yang tidak berisi apapun dan tidak bagus untuk penggunaan waktu nyata. Terdapat Region-based Convolution Neural Network (R-CNN) merupakan pendekatan berbasis region yang strategis mengidentifikasi objek dan lokasi melalui CNN.
+• Penjelasan mengenai one stage Vs two stage, two stage detector memiliki kelebihan dalam hal akurasi dan one stage memiliki kelebihan dalam hal kecepatan. 
+• Penjelasan mengenai YOLO dan langkah-lagkah YOLO.
+• Penjelasan Measuring Performance IoU, Intersection over Union (IoU) mengukur tumoang tindih diantara dua boundary box. Selama proses training, akan dihitung IoU antara kotak pembatas yang diprediksi dan kepastian prediksi (kotak pembatas berlabel yang akan diprediksi)
+
+RABU:
+Pembelajaran hari ini melalui zoom pada kelas NLP dengan membahas Word Embedding and Deep Learning for NLP:
+• Penjelasan mengenai Recall: Bag of words dan TF-IDF, terdapata kekurangan pada Bag of words dan TF-IDF seperti:
+1.	Sparse , setiap kata pada kamus merupakan fitur dan hal ini bertambah apabila menggunakan biagram, trigram, dst.
+2.	Low Semantics, tidak memiliki kemampuan lebih untuk menangkap makna. Selain itu pada ekstraksi fitur, baik BoW dan TF-IDF tidak memperhatikan urutan.
+3.	Out of Vocabulary Problem, jika tidak terdapat pada kamus, kata baru tidak emmiliki fitur.
+• Word embedding menjawab kekurangan dari pendekatan sebelumnya, yakni data sparse, low semantics dan OOV (khususnya FastText
+• Penjelasan Word Embbedding untuk menyelesaikan permasalahan sebelumnya. Karakteristik word embedding yang diinginkan seperti ukuran fitur yang lebih pendek dan dense (tidak memiliki banyak nol )
+• Word embedding diperoleh dengan melatih shallow neural network (satu layer), weight yang dihasilkan dijadikan word embedding, contoh word embedding ialah Word2Vec, FastText dan Glove.
+• Word2Vec dapat dilatih dengan metode CBOW dan Skipgram. Negative sampling dibutuhkan untuk mereduksi besarnya parameter
+• Word embedding hanya dapat memperoleh semantic pada level kata, dibutuhkan pendekatan yang dapat memperoleh semantic dari kalimat
+• Kalimat tersusun dari kata sehingga untuk memperoleh semantic kalimat dapat dengan melakukan pelatihan setiap kata pada kalimat
+• RNN adalah pendekatan yang dapat memperoleh semantic kalimat, namun ia memiliki kelemahan yakni Long Dependecy Problem
+• Long Dependency Problem dapat diselesaikan dengan LSTM.
+• LSTM bekerja dengan memperhatikan informasi yang relevan dan melupakan informasi yang tidak relevan lagi.
+
+KAMIS:
+Pembelajaran hari ini melalui zoom pada kelas Reinforcement Learning dengan membahas:
+• Melakukan pretest
+• Penjelasan mengenai Q-Learning yang merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang. Q-Learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy. 
+• Penjelasan konsep dasar Q-learning:
+-	Terinspirasi dari value iteration
+-	Sample an action
+-	Observe the reward and the next state
+-	Take the action with the highest Q (Max Q)
+• Pada Q-Learning dilakukan iterasi:
+-	Policy iteration
+-	Value iteration
+•Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q -table akan di update sejalan dengan bertambahnya jumlah episode.
+• Secara prinsip semakin banyak iterasi episode akan semakin baik Q-tablenya.
+• Penjelasan Eksplorasi Vs Eksploitas, Eksplorasi merupakan suatu metode pemilihan action dimana agent akan melakukan pemilihan action secara random dengan tujuan ia bisa mengetahui informasi tentang environment secara mendalam. Sedangkan eksploitas adalah sebuah metode pemilihan action dengan memilih action yang mempunyai return (dalam hal ini Q-value) paling besar.
+• Penjelasan mengenai Deep Q learning, pada Deep Q Learning akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut Deep Q Network atau DQN. Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN adalah untuk menghasilkan aproksimasi Q function yang optimal. 
+
+JUMAT:
+Pembelajarn hari ini melalui zoom pada kelas Technical dengan membahas Flask RESTful API:
+• Penjelasan HTTP (hypertext Tranfer Protocol) merupakan bahasa yang umum digunakan pada internet secara global. Jenis data yang ada di internet sangat beragam seperti gambar halaman web (html, text json, audio;, video, dan sebagainya dapat dikirim melalui protocol HTTP.
+Pesan HTTP terdiri dari 3 bagian, yaitu:
+-	Start line, bagian ini terdapat pada baris pertama. 
+-	Header, terdapat pada baris kedua sampai batas baris kosong
+-	Body, terdapat pada bagian setelah baris kosong hingga akhir. Untuk request message tidak memiliki body
+• Penjelasan mengenai RESTful API, REST merupakan arsitektur standar untuk bertukar data melalui Web yang dapat dioperasikan antar sistem komputer. Web service yang menerapkan arsitektur REST disebut RESTful web service atau RESTful API yang memungkinkan sistem untuk mengakses dan memanipulasi data.
+• Penjelasan mengenai Flask Module, Flask adalah microframework ringan yang dibangun menggunakan bahasa pemrograman python untuk membangun aplikasi berbasis web yang fleksibel, dukungan komunitas yang luas dan memiliki kemampuan scaling untuk melayani jutaan pengguna (client)
+• Router atau Endpoint adalah tempat di mana lokasi resource berada menggunakan url tertentu. Resouce dalam hal ini merupakan dokumen yang dikirimkan oleh server kepada client. 

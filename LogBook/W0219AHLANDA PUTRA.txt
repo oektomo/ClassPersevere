@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+Libur Hari Raya Memperingati Isra Mikraj Nabi Muhammad SAW
+
+Tue, 1 Mar
+
+Belajar bahasa pemograman python melalui https://www.w3schools.com/python, untuk hari ini mengenal bagaimana cara memberi komentar, variabel, dan tipe data pada python
+
+Wed, 2 Mar
+
+Belajar bahasa pemograman python melalui https://www.w3schools.com/python, untuk hari ini mengenal python numbers,casting,boolean,operator
+
+Thu, 3 Mar
+
+Hari Raya Nyepi atau Tahun Baru Saka 1944
+
+Fri, 4 Mar
+
+Mengenal String formating dan Mengenal perbedaan variabel local dan variabel global pada Python, 
+
+What did you learn this week?
+
+Belajar bahasa pemograman python melalui https://www.w3schools.com/python, mengenal bagaimana cara memberi komentar, variabel, dan tipe data pada python, mengenal python numbers,casting,boolean,operator, Mengenal String formating dan Mengenal perbedaan variabel local dan variabel global pada Python, 

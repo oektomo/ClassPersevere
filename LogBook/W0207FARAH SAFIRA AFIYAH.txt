@@ -1,0 +1,110 @@
+Mon, 28 Feb
+
+Hari Libur Nasional memperingati Isra Miraj Nabi Muhammad SAW. Jadi kegiatan diliburkan
+
+Tue, 1 Mar
+
+Hari ini dilakukan meet melalui ms.teams membahas:
+• John McCarthy sebagai Father of AI yang berkontribusi dengan membuat sebuah bahasa pemprograman LISP dan termasuk bahasa pemprograman simbolik. 
+• Konsep Agen yang merupakan segala sesuatu yang dapat dilihat lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui actuator.
+• Python memiliki 4 tipe data primitive yang tidak dapat diubah yaitu integer, float, string dan Boolean
+• Python memiliki 4 tipe data non primitive yaitu List, Tuple, Dictionary dan Set
+• Tuple tidak dapet diubah sedangkan list, dictionary dan set dapat diubah
+• Pembelajaran Python dari W3schools : 
+Untuk membuat file Python harus menggunakan ekstensi file “.py”. untuk menampilkan dengan menggunakan “print” dan setelah selesai membuat code, ketik “exit()” untuk keluar dari antarmuka baris perintah. Untuk membuat sebuah komentar gunakan “#”. Pada assign multiple values menetapkan nilai ke beberapa variable => x,y,z = “Orange”, “Banana”, “Cherry” dan menetapkan nilai yang sama ke beberapa variable dalam satu baris => x = y= z = ”Orange”. “print” sering digunakan untuk mengeluarkan variable. Untuk menggabungkan teks dan variable menggunakan “+” atau digunakan untuk menambahkan variable ke variable lainnya. Untuk angka “+” digunakan untuk operator matematika dan akan memberikan kesalahan ketika menggabungkan string dan angka. Tipe numerik dalam python : int untuk bilangan bulat, float untuk bilangan desimal, complex untuk bilangan kompleks sebagai imajiner “j”.
+
+Wed, 2 Mar
+
+Hari ini pembelajaran melalui ms.teams membahas:
+• Pemberian tutorial dalam pemakaian github sebagai tempat pengumpulan tugas
+• Penjelasan mengenai Comparison Operators meliputi:
+-	(>) sebagai tanda lebih besar dari – True jika operand sisi kiri lebih besar dari sisi kanan
+-	(<) sebagai tanda kurang dari – True jika operand sisi kiri lebih kecil dari sisi kanan
+-	(==) sebagai tanda sama dengan – true jika kedua operand sama besar dan tidak sama dengan jika kedua operand tidak sama besar
+-	(>=) sebagai tanda lebih besar dari atau sama dengan – true jika operand sisi kiri lebih besar dari atau sama dengan operand sisi kanan
+-	(<=) sebagai tanda lebih kecil dari atau sama dengan – True jika operand sisi kiri lebih kecil atau sama dengan operand sisi kanan
+ • Penjelasan mengenai Logical Operators :
+-	(and) True jika kedua operand true
+-	(or) True jika salah satu operand true
+-	(not) True jika operand false
+• Penjelasan mengenai Membership Operators:
+-	(in) True jika value/variable ada di dalam sequence
+-	(not in) True jika value/variable tidak ada di dalam sequence
+• Penjelasan materi mengenai input() function yang digunakan untuk menerima input dari user
+• Penjelasan control flow: if else yang digunakan untuk mengeksekusi blok kode secara kondisional
+• Penjelasan tentang Loop yang merupakan blok kode yang dilakukan berulang kali dalam jumlah tertentu dan for loop yang digunakan untuk mengulangi urutan berupa list, tuple, dictionary, atau set.
+
+Thu, 3 Mar
+
+Hari ini peringatan hari raya nyepi jadi kegiatan diliburkan
+
+Fri, 4 Mar
+
+Hari ini pembelajaran melalui ms.teams dengan membahas:
+• Penjelasan mengenai learning objectives 
+-	sehingga dapat menggunakan built-in functions yang popular di Pyhton dan membuat user-defined function.
+-	Memahami generators, menggunakan map dan filter functions.
+-	Memahami string manipulation.
+-	Memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di Pyhton.
+• Penjelasan functions di Python:
+-	User defined functions yang memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+-	Built-in functions yang sudah tersedia sejak melakukan instalasi Python tanpa harus membuat fungsi lagi
+-	Lambda functions disebut fungsi anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana.
+• Penjelasan string manipulation yang ada dalam python string sendiri merupakan array byte yang mewakili karakter Unicode. String baring tunggal dibuat menggunakan tanda kutip, sedangkan string multiline menggunakan tanda kutip 3.
+• Penjelasan mengenai generator yang merupakan jenis fungsi khusus yang tidak mengembalikannilai tunggal, melainkan mengembalikan objek interior dengan urutan nilai. Dalam fungsi generator, yield statement biasanya digunakan daripada return statement.
+• Penjelasan lambda function disebut juga sebagai fungsi anonim yang merupakan fungsi tanpa nama. Fungsi ini digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat.
+• Penjelasan mengenai file handling di python. Fungsi open() menerima dua argument, nama file dan mode akses di mana file diakses. Fungsi juga mengembalikan objek file yang dapat digunakan untuk melakukan berbagai operasi seperti membaca, menulis, dll. 
+
+What did you learn this week?
+
+SENIN:
+Hari libur nasional memperingati Isra Miraj Nabi Muhammad SAW. Jadi kegiatan diliburkan
+
+SELASA:
+Hari ini dilakukan meet melalui ms.teams membahas:
+• John McCarthy sebagai Father of AI yang berkontribusi dengan membuat sebuah bahasa pemprograman LISP dan termasuk bahasa pemprograman simbolik. 
+• Konsep Agen yang merupakana segala sesuatu yang dapat dilihat lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui actuator.
+• Python memiliki 4 tipe data primitive yang tidak dapat diubah yaitu integer, float, string dan Boolean
+• Python memiliki 4 tipe data non primitive yaitu List, Tuple, Dictionary dan Set
+• Tuple tidak dapet diubah sedangkan list, dictionary dan set dapat diubah
+• Pembelajaran Python dari W3school : 
+Untuk membuat file Python harus menggunakan ekstensi file “.py”. untuk menampilkan dengan menggunakan “print” dan setelah selesai membuat code, ketik “exit()” untuk keluar dari antarmuka baris perintah. Untuk membuat sebuah komentar gunakan “#”. Pada assign multiple values menetapkan nilai ke beberapa variable => x,y,z = “Orange”, “Banana”, “Cherry” dan menetapkan nilai yang sama ke beberapa variable dalam satu baris => x = y= z = ”Orange”. “print” sering digunakan untuk mengeluarkan variable. Untuk menggabungkan teks dan variable menggunakan “+” atau digunakan untuk menambahkan variable ke variable lainnya. Untuk angka “+” digunakan untuk operator matematika dan akan memberikan kesalahan ketika menggabungkan string dan angka. Tipe numerik dalam python : int untuk bilangan bulat, float untuk bilangan desimal, complex untuk bilangan kompleks sebagai imajiner “j”.
+
+RABU:
+Hari ini pembelajaran melalui ms.teams membahas:
+• Pemberian tutorial dalam pemakaian github sebagai tempat pengumpulan tugas
+• Penjelasan mengenai Comparison Operators meliputi:
+-	(>) sebagai tanda lebih besar dari – True jika operand sisi kiri lebih besar dari sisi kanan
+-	(<) sebagai tanda kurang dari – True jika operand sisi kiri lebih kecil dari sisi kanan
+-	(==) sebagai tanda sama dengan – true jika kedua operand sama besar dan tidak sama dengan jika kedua operand tidak sama besar
+-	(>=) sebagai tanda lebih besar dari atau sama dengan – true jika operand sisi kiri lebih besar dari atau sama dengan operand sisi kanan
+-	(<=) sebagai tanda lebih kecil dari atau sama dengan – True jika operand sisi kiri lebih kecil atau sama dengan operand sisi kanan
+ • Penjelasan mengenai Logical Operators :
+-	(and) True jika kedua operand true
+-	(or) True jika salah satu operand true
+-	(not) True jika operand false
+• Penjelasan mengenai Membership Operators:
+-	(in) True jika value/variable ada di dalam sequence
+-	(not in) True jika value/variable tidak ada di dalam sequence
+• Penjelasan materi mengenai input() function yang digunakan untuk menerima input dari user
+• Penjelasan control flow: if else yang digunakan untuk mengeksekusi blok kode secara kondisional
+• Penjelasan tentang Loop yang merupakan blok kode yang dilakukan berulang kali dalam jumlah tertentu dan for loop yang digunakan untuk mengulangi urutan berupa list, tuple, dictionary, atau set.
+
+KAMIS:
+Hari ini peringatan hari raya nyepi jadi kegiatan diliburkan.
+
+JUMAT:
+Hari ini pembelajaran melalui ms.teams dengan membahas:
+• Penjelasan mengenai learning objectives 
+-	sehingga dapat menggunakan built-in functions yang popular di Pyhton dan membuat user-defined function.
+-	Memahami generators, menggunakan map dan filter functions.
+-	Memahami string manipulation.
+-	Memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di Pyhton.
+• Penjelasan functions di Python:
+-	User defined functions yang memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+-	Built-in functions yang sudah tersedia sejak melakukan instalasi Python tanpa harus membuat fungsi lagi
+-	Lambda functions disebut fungsi anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana.
+• Penjelasan string manipulation yang ada dalam python string sendiri merupakan array byte yang mewakili karakter Unicode. String baring tunggal dibuat menggunakan tanda kutip, sedangkan string multiline menggunakan tanda kutip 3.
+• Penjelasan mengenai generator yang merupakan jenis fungsi khusus yang tidak mengembalikannilai tunggal, melainkan mengembalikan objek interior dengan urutan nilai. Dalam fungsi generator, yield statement biasanya digunakan daripada return statement.
+• Penjelasan lambda function disebut juga sebagai fungsi anonim yang merupakan fungsi tanpa nama. Fungsi ini digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat.
+• Penjelasan mengenai file handling di python. Fungsi open() menerima dua argument, nama file dan mode akses di mana file diakses. Fungsi juga mengembalikan objek file yang dapat digunakan untuk melakukan berbagai operasi seperti membaca, menulis, dll. 

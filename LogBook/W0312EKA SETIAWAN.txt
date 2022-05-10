@@ -1,0 +1,94 @@
+Mon, 7 Mar
+
+Kegiatan hari ini membahas tentang apa itu data, ada tugas tentang Aplikasi AI dan contoh konkret dari aplikasi AI setiap bidangnya
+
+Tue, 8 Mar
+
+Kegiatan pada hari ini membahas tentang 
+1. Jarak sudut antar vektor 
+2. Aljabar Linier Matriks 
+3. Operasi Matriks
+4. Determinant & Invers
+5. Penerepan Invers 
+6. Nilai & vektor eigen 
+7. Kalkulus tentang fungsi gradient 
+8. Turunan
+9. Peluang 
+
+Wed, 9 Mar
+
+Kegiatan hari ini :
+1. Deep Learning
+2. Melatih Model Deep Learning
+3. Penggunaan Deep Learning 
+4. Contoh
+5. Kekurangan Deep Learning 
+6. Machine Learning as a Service (ML aa S)
+7. Deep Learning Framework
+8. Artificial Neural Network (ANN) Atau Jaringan Syarat Tiruan (JST)
+9. Kelebihan Neural Network
+10. Formula Matematika ANN
+11. Loss Function
+12. Optimizer
+13. Data Terstruktur
+
+Thu, 10 Mar
+
+Kegiatan pada hari ini membahas tentang 
+- Data 
+Data struktur & tidak struktur
+- Statistik 
+- Tugas tentang mencari masalah di lingkungan sosial 
+- Mencari Mean & Median
+
+Fri, 11 Mar
+
+Kegiatan hari ini : 
+1. Membahas Tugas
+2. Praktek 
+3. Deep Learning
+4. Machine Learning
+5. Regression dan Classification
+6. Visualisasi Vektor
+
+What did you learn this week?
+
+Kegiatan pada minggu ini 
+Senin : Kegiatan hari ini membahas tentang apa itu data, ada tugas tentang Aplikasi AI dan contoh konkret dari aplikasi AI setiap bidangnya
+Selasa : Kegiatan pada hari ini membahas tentang 
+1. Jarak sudut antar vektor 
+2. Aljabar Linier Matriks 
+3. Operasi Matriks
+4. Determinant & Invers
+5. Penerepan Invers 
+6. Nilai & vektor eigen 
+7. Kalkulus tentang fungsi gradient 
+8. Turunan
+9. Peluang 
+Rabu : Kegiatan hari ini :
+1. Deep Learning
+2. Melatih Model Deep Learning
+3. Penggunaan Deep Learning 
+4. Contoh
+5. Kekurangan Deep Learning 
+6. Machine Learning as a Service (ML aa S)
+7. Deep Learning Framework
+8. Artificial Neural Network (ANN) Atau Jaringan Syarat Tiruan (JST)
+9. Kelebihan Neural Network
+10. Formula Matematika ANN
+11. Loss Function
+12. Optimizer
+13. Data Terstruktur
+Kamis : Kegiatan pada hari ini membahas tentang 
+- Data 
+Data struktur & tidak struktur
+- Statistik 
+- Tugas tentang mencari masalah di lingkungan sosial 
+- Mencari Mean & Median
+Jumat : Kegiatan hari ini : 
+1. Membahas Tugas
+2. Praktek 
+3. Deep Learning
+4. Machine Learning
+5. Regression dan Classification
+6. Visualisasi Vektor

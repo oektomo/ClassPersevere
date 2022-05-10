@@ -1,0 +1,144 @@
+Mon, 28 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+Data Science:
+penjelasan mengenai Dimensionality reduction atau reduksi dimensi untuk mengurangi dimensi dataset dalam hal ini fitur data. Denga reduksi dimensi dapat mengurangi jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset.
+NLP:
+Penjelasan dan penerapan pada google colab tentang SMS spam classification
+Langkah-langkah yang diperlukan:
+1.	Akuisi data
+2.	Text Preprocessing
+1)	Case Folding
+2)	Word Normalization
+3)	Stopword removal
+4)	Stemming
+3.	Feature Engineering
+1)	Bag of Words
+2)	TF-IDF
+3)	Feature Selection-Chi Square
+4.	Modelling
+5.	Evaluasi
+6.	Deployment
+
+Tue, 29 Mar
+
+Computer Vision:
+Penjelasan dan penerapan program mengenai Segmentation yang digunakan untuk memisahkan object/region terhadap backgrounnya. Thresholding melakukan transformasi kedalam binary image(0-1). Dan penjelasan maupaun penerapan tentang image filtering/pemfilteran citra.
+RL:
+Membahas:
+• Melakukan Pretest
+• Menjelaskan mengenai Monte Carlo yang bekerja dengan penglaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model.
+• Penjelasan mengenai first-visit MC  dengan value function dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode dan every_visit MC dengan value function dihitung setiap mengunjungi state s dalam setiap episode.
+• Penjelasan on-policy MC dan off-policy MC
+• Melakukan Post test
+
+Wed, 30 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+Data Science:
+• Penjelasan mengenai recommender system yang digunakan berbagai aplikasi, seperti gojek, Instagram, dll. Recomemder system bekerja berdasarkan karakteristik user dan/atau item. Item yang memiliki karakter sama maka akan direkomendasikan.
+• menjelaskan mengenai teknik recommender system seperti market basket yang diterapkan untuk teknik marketing produk.
+NLP:
+• Penjelasan mengenai text classification sebuah proses pemberian tag atau kategori ke teks menurut isinya.
+• penjelasan machine learning approach merupakan proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks. Mampu menentukan polaritas sebuah teks/ sentiment baru learning. Memiliki kekurangan pada dimensi fitur yang tinggi, fitur noise, dan pelabelan data.
+• Penjelasan Lexicon-based approach merupakan proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya. Memiliki kelebihan tanpa pelabelan data dan proses komputasi lebih cepat. Terdapat kekurangannya seperti harus mendaftarkan semua kata dalam kamus kata. Jika belu terdaftar, sangat mempengaruhi perfoma klasifikasi.
+• Hands on implementasi text classification
+
+Thu, 31 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+Computer Vision:
+• Mempelajari mengenai implementasi CNN pada keras.
+• Mendeploy CNN klasifikasi menggunakan dataset CIFAR-10
+Technical:
+• Penjelasan mengenai visualisasi data yang merupakan representasi grafis dari informasi dan data. Jenis visualisasi data dapat berupa statis, beranimasi, dan interaktif.
+• Penjelasan mengenai dimensi merupakan atribut data seperti nama, tanggal dan waktu.
+•Penjelasan mengenai Metrik yang merupakan pengukuran kuantitatif seperti nilai, harga, dan total penjualan
+• Penjelasan Granularitas data yang merupakan tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+• Penjelasan mengenai google data studio sebagai tool gratis untuk visualisasi data interaktif dari google yang sepenuhnya dapat disesuaikan oleh pengguna dan mudah dibagikan kepada orang lain.
+
+
+Fri, 1 Apr
+
+Hari ini pembelajarn melalui zoom dengan membahas:
+Kelas Reinforcement Learning:
+• Penjelasan mengenai TDL yang memiliki idea dasar berupa kombinasi DP dan MC. TDL sendiri diaplikasikan pada model free dan melakukan update value state per state. TDL berisfat bootstapping dengan menggunakan metode trial dan error dalam explorasi lingkungan dan cepat dalam mencapai konvergensi. TD control menggunakan SARSA dan !-Learning, SARSA bekerja berdasarkan perubahan state-action (S.A). SARSA merupakan algoritma on policy dan pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy.
+Kelas Technical pembahasan tentang Web Scraping:
+• Penjelasan web scraping, scraping sendiri suatu kegiatan mengambil informasi dari situs web atau layer computer dan memasukannya ke dalam spreadsheet di computer. Jadi web scraping merupakan praktik pengumpulan data melalui cara apapun selai dari menggunakan program untuk berinteraksi denga API.
+• Pembahasan mengenai kegunaan web scraping seperti pada situs web E-commerce untuk mengumpulkan data yang terkait dengan produk tertentu dari berbagai situs web e-commerce untuk melakukan perbandingan. Pada marketing & sales untuk mendapatkan data seperti email, nomor telepon, dll. Untuk kampanye penjualan dan pemasaran serta iklan. Pada search engine optimization (SEO) untuk memberi tahu bisnis bagaiman peringkat mereka untuk kata kunci pencarian yang penting bagi pemilik bisnis. Dan pada Data untuk proyek ML sebagai pengambilan dataset untuk proyek pembelajaran mesin banyak bergantuk pada web scraping.
+• Penjelasan mengenai perbedaan Web Scraping Vs Web Crawling, salah satu perbebdaannya seperti pada web scraping mendapatkan informasi sepesifik, sedangkan pada web s=crawling mendapatkan informasi umum.
+• Penjelasan Beautiful soup merupakan library python yang dirancang untuk proyek web scraping.
+• Penjelasan Urlib3 merupakan library python lain yang dapat digunakan untuk mengambil data dari URL mirip dengan request library.
+• Penjelasan Scrapy sebagai kerangka kerja web crawling open-source yang cepat dan dibuat dengan python, digunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan XPath.
+• Penjelasan Selenium suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan platform.
+
+What did you learn this week?
+
+SENIN: 
+Hari ini pembelajaran melalui zoom dengan membahas:
+Data Science:
+penjelasan mengenai Dimensionality reduction atau reduksi dimensi untuk mengurangi dimensi dataset dalam hal ini fitur data. Denga reduksi dimensi dapat mengurangi jumlah fitur atau kolom tanpa menghilangkan informasi dari dataset.
+NLP:
+Penjelasan dan penerapan pada google colab tentang SMS spam classification
+Langkah-langkah yang diperlukan:
+1.	Akuisi data
+2.	Text Preprocessing
+1)	Case Folding
+2)	Word Normalization
+3)	Stopword removal
+4)	Stemming
+3.	Feature Engineering
+1)	Bag of Words
+2)	TF-IDF
+3)	Feature Selection-Chi Square
+4.	Modelling
+5.	Evaluasi
+6.	Deployment
+
+SELASA:
+Hari ini pembelajaran melalui Zoom dengan membahas:
+Computer Vision:
+Penjelasan dan penerapan program mengenai Segmentation yang digunakan untuk memisahkan object/region terhadap backgrounnya. Thresholding melakukan transformasi kedalam binary image(0-1). Dan penjelasan maupaun penerapan tentang image filtering/pemfilteran citra.
+RL:
+Membahas:
+• Melakukan Pretest
+• Menjelaskan mengenai Monte Carlo yang bekerja dengan penglaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model.
+• Penjelasan mengenai first-visit MC  dengan value function dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode dan every_visit MC dengan value function dihitung setiap mengunjungi state s dalam setiap episode.
+• Penjelasan on-policy MC dan off-policy MC
+• Melakukan Post test
+
+RABU:
+Hari ini pembelajaran melalui zoom dengan membahas:
+Data Science:
+• Penjelasan mengenai recommender system yang digunakan berbagai aplikasi, seperti gojek, Instagram, dll. Recomemder system bekerja berdasarkan karakteristik user dan/atau item. Item yang memiliki karakter sama maka akan direkomendasikan.
+• menjelaskan mengenai teknik recommender system seperti market basket yang diterapkan untuk teknik marketing produk.
+NLP:
+• Penjelasan mengenai text classification sebuah proses pemberian tag atau kategori ke teks menurut isinya.
+• penjelasan machine learning approach merupakan proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks. Mampu menentukan polaritas sebuah teks/ sentiment baru learning. Memiliki kekurangan pada dimensi fitur yang tinggi, fitur noise, dan pelabelan data.
+• Penjelasan Lexicon-based approach merupakan proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya. Memiliki kelebihan tanpa pelabelan data dan proses komputasi lebih cepat. Terdapat kekurangannya seperti harus mendaftarkan semua kata dalam kamus kata. Jika belu terdaftar, sangat mempengaruhi perfoma klasifikasi.
+• Hands on implementasi text classification
+
+KAMIS:
+Hari ini pembelajaran melalui zoom dengan membahas:
+Computer Vision:
+• Mempelajari mengenai implementasi CNN pada keras.
+• Mendeploy CNN klasifikasi menggunakan dataset CIFAR-10
+Technical:
+• Penjelasan mengenai visualisasi data yang merupakan representasi grafis dari informasi dan data. Jenis visualisasi data dapat berupa statis, beranimasi, dan interaktif.
+• Penjelasan mengenai dimensi merupakan atribut data seperti nama, tanggal dan waktu.
+•Penjelasan mengenai Metrik yang merupakan pengukuran kuantitatif seperti nilai, harga, dan total penjualan
+• Penjelasan Granularitas data yang merupakan tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+• Penjelasan mengenai google data studio sebagai tool gratis untuk visualisasi data interaktif dari google yang sepenuhnya dapat disesuaikan oleh pengguna dan mudah dibagikan kepada orang lain.
+
+JUMAT:
+Hari ini pembelajarn melalui zoom dengan membahas:
+Kelas Reinforcement Learning:
+• Penjelasan mengenai TDL yang memiliki idea dasar berupa kombinasi DP dan MC. TDL sendiri diaplikasikan pada model free dan melakukan update value state per state. TDL berisfat bootstapping dengan menggunakan metode trial dan error dalam explorasi lingkungan dan cepat dalam mencapai konvergensi. TD control menggunakan SARSA dan !-Learning, SARSA bekerja berdasarkan perubahan state-action (S.A). SARSA merupakan algoritma on policy dan pengambilan keputusan dari state-action SARSA berdasarkan epsilon-greedy policy.
+Kelas Technical pembahasan tentang Web Scraping:
+• Penjelasan web scraping, scraping sendiri suatu kegiatan mengambil informasi dari situs web atau layer computer dan memasukannya ke dalam spreadsheet di computer. Jadi web scraping merupakan praktik pengumpulan data melalui cara apapun selai dari menggunakan program untuk berinteraksi denga API.
+• Pembahasan mengenai kegunaan web scraping seperti pada situs web E-commerce untuk mengumpulkan data yang terkait dengan produk tertentu dari berbagai situs web e-commerce untuk melakukan perbandingan. Pada marketing & sales untuk mendapatkan data seperti email, nomor telepon, dll. Untuk kampanye penjualan dan pemasaran serta iklan. Pada search engine optimization (SEO) untuk memberi tahu bisnis bagaiman peringkat mereka untuk kata kunci pencarian yang penting bagi pemilik bisnis. Dan pada Data untuk proyek ML sebagai pengambilan dataset untuk proyek pembelajaran mesin banyak bergantuk pada web scraping.
+• Penjelasan mengenai perbedaan Web Scraping Vs Web Crawling, salah satu perbebdaannya seperti pada web scraping mendapatkan informasi sepesifik, sedangkan pada web s=crawling mendapatkan informasi umum.
+• Penjelasan Beautiful soup merupakan library python yang dirancang untuk proyek web scraping.
+• Penjelasan Urlib3 merupakan library python lain yang dapat digunakan untuk mengambil data dari URL mirip dengan request library.
+• Penjelasan Scrapy sebagai kerangka kerja web crawling open-source yang cepat dan dibuat dengan python, digunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan XPath.
+• Penjelasan Selenium suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan platform.

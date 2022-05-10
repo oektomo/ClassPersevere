@@ -1,0 +1,160 @@
+Mon, 21 Feb
+
+Kegiatan hari ini diawali dengan perkenalan dengan coach dan teman2 lainnya. Kemudian ada pretest satu jam untuk mengetest pengetahuan mahasiswa tentang AI. Lalu dilanjutkan dengan materi pengenalan tentang AI. Pertama, ada penjelasan mengenai pengertian AI. AI adalah kemampuan mesin untuk menirukan perilaku manusia yang cerdas. Kedua, ada penjelasan mengenai struktur sistem AI. AI diimplementasikan sebagai komputer/mesin dan intelligence/kecerdasan. Ketiga, penjelasan mengenai produk AI dalam keseharian. Kemudian terdapat penjelasan mengenai sejarah AI. 
+
+Tue, 22 Feb
+
+Kegiatanku hari ini adalah belajar mandiri dengan materi dan video yang telah diberikan oleh coach. Pertama, saya mempelajari dahulu materi dari coach. 
+Bab 1 tentang AI di Industri. Perusahaan Populer seperti gojek, tokopedia, dll umumnya disebut sebagai perusahaan start-up/ rintisan atau unicorn. Perusahaan tersebut memiliki kesamaan, yaitu memiliki aplikasi,beroperasi dengan mengandalkan internet, dan bukan perusahaan atau industri manufaktur. Yang mereka lakukan dalam menjalankan usaha cukup sederhana yaitu data processing. Lalu yang mereka tawarkan adalah insight atau solusi dari permasalahan costumer.
+Bab 2 tentang Data is the new oil. “Data adalah minyak baru. Ini berharga,tetapi jika tidak dimurnikan tidak dapat benar-benar digunakan. Itu harus diubah menjadi gas, plastik, bahan kimia, dll untuk menciptakan entitas berharga yang mendorong aktivitas yang menguntungkan; jadi harus data dipecah, dianalisis untuk memiliki nilai.”(Clive Humby,2006). Data seperti minyak mentah yaitu dapat berharga jika diproses menjadi insight/solusi. Contohnya seperti Gojek yang mampu mendapat profit dari hasil pemrosesan data penumpang dan pengemudi.
+Minyak mentah adalah sumber daya yang tidak dapat diperbaharui dan terus
+menipis. Data adalah sumber daya yang terus tumbuh dan bertambah sepanjang waktu (infinity). Intinya, kesempatan mendapat profit dari hasil pemrosesan data juga semakin tinggi karena sumber dayanya tidak akan habis
+Revolusi industri sudah dimulai cukup lama, yakni dari abad ke-17. 
+Contoh teknologi yang booming di Revolusi Industri 4.0, yakni:
+• Internet of Things (IoT): teknologi yang memungkinkan sebuah objek memiliki
+kemampuan untuk mentransmisikan atau mengirimkan data melalui jaringan (internet) tanpa bantuan manusia
+• Artificial Intelligence (AI): teknologi yang membuat mesin/komputer cerdas melalui data, sehingga mampu mengerjakan tugas manusia.
+ • Blockchain: teknologi penyimpanan sekaligus pengamanan data digital.
+Proprietary document of Orbit Future Academy, 2021 AI for Gen Y and AI for Start-Up
+• Big Data
+Teknologi-teknologi itu sangat erat kaitannya dengan data. Karena teknologi-teknologi yang muncul pada Revolusi Industri 4.0 sangat erat kaitannya dengan data, maka Revolusi 4.0 sering disebut juga sebagai “Era of Data” (Era Data).
+Bab 3 tentang Big Data. Big Data lahir dari data tidak terstruktur yang tumbuh dengan cepat. Big Data adalah sebuah istilah yang berkaitan dengan 3 sifat (3V), yakni: volume, velocity, dan variety.
+Kemudian dilanjutkan dengan menonton video penjelasan materi dari coach di web orbit guru. Pada video pertama terdapat penjelasan tentang Basic phyton.
+Phyton adalah salah satu jenis bahasa pemrograman yang saat ini populer untuk digunakan. Alasan phyton menjadi sangat populer yaitu mudah digunakan dan di aplikasikan, memiliki banyak library/pustaka, dan bersifat open source. Guido van Rossum adalah seseorang yang telah membuat dan mengembangkan bahasa pemrograman phyton pada tahun 1990 an. Kemudian versi pengembangan phyton yang lebih lanjut dilakukan pada tahun 1995 agar phyton lebih kompatibel untuk digunakan. Selanjutnya pada tahun 2000 phyton terus dilakukan pembaharuan hingga mencapai versi 3 atau phyton 3 sampai saat ini. Kemudian di video kedua pennjelasan tentang Python frame work. Phyton lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Phyton banyak diaplikasikan di berbagai bidang, salah satunya bidang AI. AI merupakan kecerdasan yang ditambahkan kepada suatu sistem sehingga memungkinkan sebuah mesin untuk melakukan tugas seperti manusia. Cara mendownload phyton dengan masuk ke link phyton.org dan disana terdapat berbagai macam versi. Versi phyton yang tersedia ada versi ke 2 dan 3.  Dan yang direkomendasikan adalah mendownload phyton versi 3. Selanjutnya, pada video ketiga penjelasan tentang Hello world phyton. Dalam belajar pemrograman kita akan menggunakan jupyter notebook. Sebelumnya kita akan menggunakan dan buka anaconda navigator. Anaconda merupakan distributor dari jupiter, dimana jupiter merupakan open source yang menggunakan bahasa pemrograman phyton dengan ekstensi ya Iphyton/ipynb. Project jupyter dimulai sekitar tahun 2014 dan terus berlanjut sampai sekarang. Di tahun 2018 Google mengadopsi ekstensi ipynb ke dalam sebuah open source milik mereka yang bernama Google Collaboratory atau Google Colab.
+
+Wed, 23 Feb
+
+Kegiatanku hari ini adalah belajar mandiri lagi dengan materi yang telah diberikan oleh coach. Pertama, saya mempelajari tentang phyton. Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai “glue language”. Berdasarkan survei yang dilakukan oleh wpengine, di USA, python menempati urutan ke-2 sebagai bahasa pemrograman paling mudah untuk dipelajari. Python juga masuk ke dalam Top 5-bahasa pemrograman yang paling mudah dipelajari menurut Springboard. Python merupakan bahasa pemrograman paling populer untuk penelitian akademis.
+Nama ‘python’ berasal dari sebuah serial komedi BBC dari tahun 1970- an, yakni Monty Python’s Flying Circus. Guido menganggap nama ‘python’ adalah nama yang singkat, unik, dan sedikit misterius. Beberapa perusahaan yang menggunakan phyton seperti Google, Facebook, Instagram, dan Dropbox. 
+Kedua, materi tentang anaconda. Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Populer phyton packages seperti Keras, Pandas, scikit-learn, TensorFlow, Numpy, dan Matplotlib.
+Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program Python, antara lain:
+1. Terminal
+2. Terminal + Text Editor
+3. IDE
+4. IDE untuk penelitian dan pengembangan
+Kemudian mempelajari tentang  Jupyter Notebook. Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Jupyter Notebook tidak hanya bekerja seperti IDE kabanyakan, namun juga mampu digunakan untuk presentasi dan edukasi. Jupyter Notebook mendukung markdown. Hal ini membuat kita dapat menambahkan heading, paragraph, table, dan image ke dalam program kita melalui komponen HTML. Umumnya, program yang ditulis menggunakan Jupyter Notebook akan disimpan dalam file dengan format .ipynb. Tetapi, kita juga menyimpan program yang kita tulis dalam format .py apabila dibutuhkan.
+Selanjutnya mempelajari tentang program dan programming. Program adalah urutan instruksi (code) yang menentukan bagaimana cara komputer melakukan komputasi.
+Komputasi di sini dapat berupa:
+• Sesuatu yang berhubungan dengan matematika • Komputasi simbolis
+Programming adalah aktivitas menulis intruksi (code) untuk dijalankan oleh komputer. Contoh instruksi seperti:
+• Mencetak “Hello World”
+• Mengambil data dari internet (scraping) 
+• Membaca isi file
+Code dapat ditulis menggunakan bahasa pemrograman (programming language.
+Programming language adalah alat/tools yang digunakan untuk menulis code. Programming language tersusun atas serangkaian simbol yang berfungsi menerjemahkan pikiran kita menjadi instruksi yang dapat dipahami komputer.
+Dahulu, programming sulit dilakukan, karena menggunakan bahasa pemrograman tingkat rendah (low-level programming language), seperti bahasa assembly.
+Code lebih dekat ke kode mesin (biner: 0 dan 1) ketika ditulis menggunakan low-level language.
+ Pada saat ini, umumnya code ditulis menggunakan bahasa pemrograman tingkat tinggi (high-level programming language), seperti Python, Java, C, C++, dll.
+Code lebih dekat ke bahasa manusia (English) ketika ditulis menggunakan high-level language.
+Programming language dibangun di atas abstraksi. Abstraksi adalah konsep untuk mengelola kompleksitas. Contoh:
+Ketika menulis program Python, kita tidak perlu tahu bagaimana cara Python berinteraksi dengan operating system (OS), bagaimana cara OS berinteraksi dengan hardware, dan bagaimana cara hardware mengeksekusi binary.
+Pada dasarnya, kita melakukan programming di atas beberapa layer abstraksi.
+Semakin tinggi level programming language, maka: 
+• semakin jauh dari kode mesin;
+• semakin banyak abstraksi di bawahnya; dan
+• semakin lambat berjalan.
+
+Thu, 24 Feb
+
+   Kegiatanku hari ini adalah belajar mandiri lagi dengan materi yang telah diberikan oleh coach. Materi pertama tentang data. Data bisa berupa banyak hal. Dengan Kecerdasan Buatan itu harus menjadi kumpulan fakta seperti data tipe nomor contohnya harga, angka, dan tanggal.
+   Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain”
+   Kecerdasan manusia membutuhkan data: Broker real estate membutuhkan data tentang rumah yang dijual untuk memperkirakan harga.
+   Kecerdasan buatan membutuhkan data: Program komputer juga membutuhkan data untuk memperkirakan harga.
+   Data kuantitatif adalah 14 meter, sedangkan data kualitatif adalah berdeskriptif seperti hal ini dingin. Menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” kualitas data dilihat dari accuracy, completeness, relevancy, timelines, consistency. 
+Cara Memperoleh Data : 
+Populasi adalah sekelompok individu yang menjadi
+objek pengamatan/penelitian.
+Sensus adalah aktivitas untuk mengumpulkan informasi tentang setiap individu dalam populasi. Namun kenyataannya, sensus sulit dilakukan karena membutuhkan waktu dan biaya, sehingga dilakukan pengambilan informasi dari sebagian anggota populasi namun dapat merepresentasikan keseluruhannya
+Sampel adalah himpunan bagian dari populasi yang cukup merepresentasikan keseluruhan populasi.
+Yang perlu diperhatikan dalam pengambilan sampel?
+1. Tujuan penelitian
+2. Kondisi populasi
+3. Biaya, waktu, dan tenaga yang
+ tersedia
+4. Metode analisa/pemodelan yang akan
+digunakan 
+Menentukan : ukuran sampel, kriteria sampel, dan teknik sampling. 
+Menyimpan Data
+   Data yang paling umum untuk dikumpulkan adalah Angka dan Pengukuran. Seringkali data disimpan dalam array yang mewakili hubungan antara nilai.
+Kemudian mempelajari materi tentang AI Ethics. Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah. AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+Why is AI Ethics Important?
+* ProyekAIyangtidakdidesaindenganbaikdapat mengakibatkan bias bahkan berpotensi membahayakan.
+* Sebagaipedomandalammengembangkandan menggunakan teknologi AI
+ AI Ethics Principles : Respect For Persons, Beneficence, Justice.
+
+Fri, 25 Feb
+
+   Kegiatanku hari ini adalah belajar mandiri lagi dengan menonton video-video penjelasan materi dari coach di web orbit guru. Kali ini saya akan mempelajari tentang Basic phyton. 
+   Video pertama yang saya tonton adalah penjelasan tentang apa itu phyton. Phyton adalah salah satu jenis bahasa pemrograman yang saat ini populer untuk digunakan. Alasan phyton menjadi sangat populer yaitu mudah digunakan dan di aplikasikan, memiliki banyak library/pustaka yang menjadikan bahasa ini jadi sangat efisien dan mudah untuk membuat Pemograman tingkat menengah hingga lanjutan, dan bersifat open source. Bahasa Pemograman ini didukung oleh program berorientasi objek dan juga bahasa Pemograman tingkat tinggi. Yang dimaksud dengan bahasa Pemograman tingkat tinggi adalah bahasa komputer yang memakai instruksi berasal dari unsur kata-kata manusia seperti if, else, dll dalam mengerjakan proses pengcodingannya. Guido van Rossum adalah seseorang yang telah membuat dan mengembangkan bahasa pemrograman phyton pada tahun 1990 an. Kemudian versi pengembangan phyton yang lebih lanjut dilakukan pada tahun 1995 agar phyton lebih kompatibel untuk digunakan. Selanjutnya pada tahun 2000 phyton terus dilakukan pembaharuan hingga mencapai versi 3 atau phyton 3 sampai saat ini.
+Konon inspirasi guido van rossum memberikan nama phyton berasal dari sebuah acara tv favorit nya yang bernama Mothy Phyton Flying Circus. 
+Phyton banyak diaplikasikan di industri dan perusahaan besar teknologi, seperti Google, NASA, Yahoo,dll. Banyak perusahaan di masa depan yang akan membutuhkan keterampilan pemograman khususnya phyton. Code editor berbasiskan phyton notebook yang akan digunakan yaitu Jupyter dan Google Colab.
+   Video kedua yang saya tonton adalah penjelasan tentang Phyton Framework Jupyter. Phyton lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Phyton banyak diaplikasikan di berbagai bidang, salah satunya bidang AI. AI merupakan kecerdasan yang ditambahkan kepada suatu sistem sehingga memungkinkan sebuah mesin untuk melakukan tugas seperti manusia. Cara mendownload phyton dengan masuk ke link phyton.org dan disana terdapat berbagai macam versi. Versi phyton yang tersedia ada versi ke 2 dan 3.  Dan yang direkomendasikan adalah mendownload phyton versi 3. 
+   Video ketiga yang saya tonton adalah penjelasan tentang Hello world phyton. Dalam belajar pemrograman kita akan menggunakan jupyter notebook. Sebelumnya kita akan menggunakan dan buka anaconda navigator. Anaconda merupakan distributor dari jupyter, dimana jupyter merupakan open source yang menggunakan bahasa pemrograman phyton dengan ekstensi ya Iphyton/ipynb. Project jupyter dimulai sekitar tahun 2014 dan terus berlanjut sampai sekarang. Di tahun 2018 Google mengadopsi ekstensi ipynb ke dalam sebuah open source milik mereka yang bernama Google Collaboratory atau Google Colab. Jupyter notebook atau yang lebih akrab dikenal sebagai notebook Jupyter klasik. Saat ini jupyter telah mengembangkan Jupyter Lab. Project baru atau Jupyter Next Generation yang dalam project jupyter lab memungkinkan kita untuk menggunakan bahasa Pemograman lain selai phyton dimana mulai ada yang bahasa Pemograman lain seperti Julia, ruby, C++ dan lainnya yang ditargetkan dapat masuk dalam jupyter lab. Komentar tidak akan di eksekusi dalam bahasa Pemograman python. Untuk menuliskan hello world pada python hanya menggunakan perintah print() untuk mencetak hello world. Contohnya print(“Hello World”). Istilah case sensitive dimana bahasa Pemograman python sangat memperhatikan penulisan karakter baik itu penulisan huruf kecil dan besar. 
+Variabel adalah tempat penyimpanan nilai (value) secara sementara. Di dalam jupyter dapat menampilkan frame di dalam frame.
+
+What did you learn this week?
+
+   Pada hari Senin, 21 Feb 2022 di hari pertama dan di minggu pertama dimulainya kegiatan ini diawali dengan perkenalan dengan coach dan teman2 lainnya. Kemudian ada pretest satu jam untuk mengetest pengetahuan mahasiswa tentang AI. Lalu dilanjutkan dengan materi pengenalan tentang AI. Pertama, ada penjelasan mengenai pengertian AI. AI adalah kemampuan mesin untuk menirukan perilaku manusia yang cerdas. Kedua, ada penjelasan mengenai struktur sistem AI. AI diimplementasikan sebagai komputer/mesin dan intelligence/kecerdasan. Ketiga, penjelasan mengenai produk AI dalam keseharian. Kemudian terdapat penjelasan mengenai sejarah AI. 
+   Pada hari Selasa, 22 Feb 2022 di hari kedua dan di minggu pertama, kegiatanku pada hari itu adalah belajar mandiri dengan materi dan video yang telah diberikan oleh coach. Pertama, saya mempelajari dahulu materi dari coach. Bab 1 tentang AI di Industri. Perusahaan Populer seperti gojek, tokopedia, dll umumnya disebut sebagai perusahaan start-up/ rintisan atau unicorn. Perusahaan tersebut memiliki kesamaan, yaitu memiliki aplikasi,beroperasi dengan mengandalkan internet, dan bukan perusahaan atau industri manufaktur. Yang mereka lakukan dalam menjalankan usaha cukup sederhana yaitu data processing. Lalu yang mereka tawarkan adalah insight atau solusi dari permasalahan costumer. Bab 2 tentang Data is the new oil. “Data adalah minyak baru. Ini berharga,tetapi jika tidak dimurnikan tidak dapat benar-benar digunakan. Itu harus diubah menjadi gas, plastik, bahan kimia, dll untuk menciptakan entitas berharga yang mendorong aktivitas yang menguntungkan; jadi harus data dipecah, dianalisis untuk memiliki nilai.”(Clive Humby,2006). Data seperti minyak mentah yaitu dapat berharga jika diproses menjadi insight/solusi. Contohnya seperti Gojek yang mampu mendapat profit dari hasil pemrosesan data penumpang dan pengemudi.Minyak mentah adalah sumber daya yang tidak dapat diperbaharui dan terus menipis. Data adalah sumber daya yang terus tumbuh dan bertambah sepanjang waktu (infinity). Intinya, kesempatan mendapat profit dari hasil pemrosesan data juga semakin tinggi karena sumber dayanya tidak akan habis
+Revolusi industri sudah dimulai cukup lama, yakni dari abad ke-17. 
+Contoh teknologi yang booming di Revolusi Industri 4.0, yakni:
+• Internet of Things (IoT): teknologi yang memungkinkan sebuah objek memiliki
+kemampuan untuk mentransmisikan atau mengirimkan data melalui jaringan (internet) tanpa bantuan manusia
+• Artificial Intelligence (AI): teknologi yang membuat mesin/komputer cerdas melalui data, sehingga mampu mengerjakan tugas manusia.
+ • Blockchain: teknologi penyimpanan sekaligus pengamanan data digital.
+Proprietary document of Orbit Future Academy, 2021 AI for Gen Y and AI for Start-Up
+• Big Data
+Teknologi-teknologi itu sangat erat kaitannya dengan data. Karena teknologi-teknologi yang muncul pada Revolusi Industri 4.0 sangat erat kaitannya dengan data, maka Revolusi 4.0 sering disebut juga sebagai “Era of Data” (Era Data).
+Bab 3 tentang Big Data. Big Data lahir dari data tidak terstruktur yang tumbuh dengan cepat. Big Data adalah sebuah istilah yang berkaitan dengan 3 sifat (3V), yakni: volume, velocity, dan variety.
+   Kemudian dilanjutkan dengan menonton video penjelasan materi dari coach di web orbit guru. Pada video pertama terdapat penjelasan tentang Basic phyton. Phyton adalah salah satu jenis bahasa pemrograman yang saat ini populer untuk digunakan. Alasan phyton menjadi sangat populer yaitu mudah digunakan dan di aplikasikan, memiliki banyak library/pustaka, dan bersifat open source. Guido van Rossum adalah seseorang yang telah membuat dan mengembangkan bahasa pemrograman phyton pada tahun 1990 an. Kemudian versi pengembangan phyton yang lebih lanjut dilakukan pada tahun 1995 agar phyton lebih kompatibel untuk digunakan. Selanjutnya pada tahun 2000 phyton terus dilakukan pembaharuan hingga mencapai versi 3 atau phyton 3 sampai saat ini. Kemudian di video kedua pennjelasan tentang Python frame work. Phyton lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Phyton banyak diaplikasikan di berbagai bidang, salah satunya bidang AI. AI merupakan kecerdasan yang ditambahkan kepada suatu sistem sehingga memungkinkan sebuah mesin untuk melakukan tugas seperti manusia. Cara mendownload phyton dengan masuk ke link phyton.org dan disana terdapat berbagai macam versi. Versi phyton yang tersedia ada versi ke 2 dan 3.  Dan yang direkomendasikan adalah mendownload phyton versi 3. Selanjutnya, pada video ketiga penjelasan tentang Hello world phyton. Dalam belajar pemrograman kita akan menggunakan jupyter notebook. Sebelumnya kita akan menggunakan dan buka anaconda navigator. Anaconda merupakan distributor dari jupiter, dimana jupiter merupakan open source yang menggunakan bahasa pemrograman phyton dengan ekstensi ya Iphyton/ipynb. Project jupyter dimulai sekitar tahun 2014 dan terus berlanjut sampai sekarang. Di tahun 2018 Google mengadopsi ekstensi ipynb ke dalam sebuah open source milik mereka yang bernama Google Collaboratory atau Google Colab.
+   Pada hari Rabu, 23 Feb 2022 di hari ketiga pada minggu pertama, kegiatanku pada hari ituadalah belajar mandiri lagi dengan materi yang telah diberikan oleh coach. Pertama, saya mempelajari tentang phyton. Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai “glue language”. Berdasarkan survei yang dilakukan oleh wpengine, di USA, python menempati urutan ke-2 sebagai bahasa pemrograman paling mudah untuk dipelajari. Python juga masuk ke dalam Top 5-bahasa pemrograman yang paling mudah dipelajari menurut Springboard. Python merupakan bahasa pemrograman paling populer untuk penelitian akademis. Nama ‘python’ berasal dari sebuah serial komedi BBC dari tahun 1970- an, yakni Monty Python’s Flying Circus. Guido menganggap nama ‘python’ adalah nama yang singkat, unik, dan sedikit misterius. Beberapa perusahaan yang menggunakan phyton seperti Google, Facebook, Instagram, dan Dropbox. 
+   Kedua, materi tentang anaconda. Anaconda adalah distribusi python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Populer phyton packages seperti Keras, Pandas, scikit-learn, TensorFlow, Numpy, dan Matplotlib. Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program Python, antara lain:
+1. Terminal
+2. Terminal + Text Editor
+3. IDE
+4. IDE untuk penelitian dan pengembangan
+   Kemudian mempelajari tentang  Jupyter Notebook. Jupyter Notebook adalah salah satu IDE untuk penelitian dan pengembangan, di bidang data science, yang berbasis web. IDE ini bersifat open sources. Jupyter Notebook tidak hanya bekerja seperti IDE kabanyakan, namun juga mampu digunakan untuk presentasi dan edukasi. Jupyter Notebook mendukung markdown. Hal ini membuat kita dapat menambahkan heading, paragraph, table, dan image ke dalam program kita melalui komponen HTML. Umumnya, program yang ditulis menggunakan Jupyter Notebook akan disimpan dalam file dengan format .ipynb. Tetapi, kita juga menyimpan program yang kita tulis dalam format .py apabila dibutuhkan.
+   Selanjutnya mempelajari tentang program dan programming. Program adalah urutan instruksi (code) yang menentukan bagaimana cara komputer melakukan komputasi. Komputasi di sini dapat berupa:
+• Sesuatu yang berhubungan dengan matematika • Komputasi simbolis
+Programming adalah aktivitas menulis intruksi (code) untuk dijalankan oleh komputer. Contoh instruksi seperti:
+• Mencetak “Hello World”
+• Mengambil data dari internet (scraping) 
+• Membaca isi file
+   Code dapat ditulis menggunakan bahasa pemrograman (programming language).
+Programming language adalah alat/tools yang digunakan untuk menulis code. Programming language tersusun atas serangkaian simbol yang berfungsi menerjemahkan pikiran kita menjadi instruksi yang dapat dipahami komputer. Dahulu, programming sulit dilakukan, karena menggunakan bahasa pemrograman tingkat rendah (low-level programming language), seperti bahasa assembly.
+Code lebih dekat ke kode mesin (biner: 0 dan 1) ketika ditulis menggunakan low-level language. Pada saat ini, umumnya code ditulis menggunakan bahasa pemrograman tingkat tinggi (high-level programming language), seperti Python, Java, C, C++, dll.
+Code lebih dekat ke bahasa manusia (English) ketika ditulis menggunakan high-level language. Programming language dibangun di atas abstraksi. Abstraksi adalah konsep untuk mengelola kompleksitas. Contoh: Ketika menulis program Python, kita tidak perlu tahu bagaimana cara Python berinteraksi dengan operating system (OS), bagaimana cara OS berinteraksi dengan hardware, dan bagaimana cara hardware mengeksekusi binary. Pada dasarnya, kita melakukan programming di atas beberapa layer abstraksi. Semakin tinggi level programming language, maka: 
+• semakin jauh dari kode mesin;
+• semakin banyak abstraksi di bawahnya; dan
+• semakin lambat berjalan.
+   Pada hari Kamis, 24 Feb 2022 di hari keempat pada minggu pertama, kegiatanku pada hari itu adalah belajar mandiri lagi dengan materi yang telah diberikan oleh coach. Materi pertama tentang data. Data bisa berupa banyak hal. Dengan Kecerdasan Buatan itu harus menjadi kumpulan fakta seperti data tipe nomor contohnya harga, angka, dan tanggal.
+   Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Sedangkan data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain”
+   Kecerdasan manusia membutuhkan data: Broker real estate membutuhkan data tentang rumah yang dijual untuk memperkirakan harga.
+   Kecerdasan buatan membutuhkan data: Program komputer juga membutuhkan data untuk memperkirakan harga.
+   Data kuantitatif adalah 14 meter, sedangkan data kualitatif adalah berdeskriptif seperti hal ini dingin. Menurut Mark Mosley (2008), dalam bukunya “Dictionary of Data Management” kualitas data dilihat dari accuracy, completeness, relevancy, timelines, consistency. 
+Cara Memperoleh Data : 
+Populasi adalah sekelompok individu yang menjadi objek pengamatan/penelitian.
+Sensus adalah aktivitas untuk mengumpulkan informasi tentang setiap individu dalam populasi. Namun kenyataannya, sensus sulit dilakukan karena membutuhkan waktu dan biaya, sehingga dilakukan pengambilan informasi dari sebagian anggota populasi namun dapat merepresentasikan keseluruhannya
+Sampel adalah himpunan bagian dari populasi yang cukup merepresentasikan keseluruhan populasi.
+Yang perlu diperhatikan dalam pengambilan sampel?
+1. Tujuan penelitian
+2. Kondisi populasi
+3. Biaya, waktu, dan tenaga yang
+ tersedia
+4. Metode analisa/pemodelan yang akan
+digunakan 
+Menentukan : ukuran sampel, kriteria sampel, dan teknik sampling. 
+Menyimpan Data
+   Data yang paling umum untuk dikumpulkan adalah Angka dan Pengukuran. Seringkali data disimpan dalam array yang mewakili hubungan antara nilai.
+Kemudian mempelajari materi tentang AI Ethics. Ethics / Etika adalah seperangkat prinsip moralmembantu kita membedakan antara benar dan salah. AI Ethics adalah prinsip dan teknik yang digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+Why is AI Ethics Important?
+* Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias bahkan berpotensi membahayakan.
+* Sebagai pedoman dalam mengembangkan dan menggunakan teknologi AI
+ AI Ethics Principles : Respect For Persons, Beneficence, Justice.
+Pada hari Jumat, 25 Feb 2022 di hari kelima pada minggu pertama, kegiatanku pada hari itu adalah belajar mandiri lagi dengan menonton video-video penjelasan materi dari coach di web orbit guru. Kali ini saya akan mempelajari tentang Basic phyton. 
+   Video pertama yang saya tonton adalah penjelasan tentang apa itu phyton. Phyton adalah salah satu jenis bahasa pemrograman yang saat ini populer untuk digunakan. Alasan phyton menjadi sangat populer yaitu mudah digunakan dan di aplikasikan, memiliki banyak library/pustaka yang menjadikan bahasa ini jadi sangat efisien dan mudah untuk membuat Pemograman tingkat menengah hingga lanjutan, dan bersifat open source. Bahasa Pemograman ini didukung oleh program berorientasi objek dan juga bahasa Pemograman tingkat tinggi. Yang dimaksud dengan bahasa Pemograman tingkat tinggi adalah bahasa komputer yang memakai instruksi berasal dari unsur kata-kata manusia seperti if, else, dll dalam mengerjakan proses pengcodingannya. Guido van Rossum adalah seseorang yang telah membuat dan mengembangkan bahasa pemrograman phyton pada tahun 1990 an. Kemudian versi pengembangan phyton yang lebih lanjut dilakukan pada tahun 1995 agar phyton lebih kompatibel untuk digunakan. Selanjutnya pada tahun 2000 phyton terus dilakukan pembaharuan hingga mencapai versi 3 atau phyton 3 sampai saat ini.
+Konon inspirasi guido van rossum memberikan nama phyton berasal dari sebuah acara tv favorit nya yang bernama Mothy Phyton Flying Circus. 
+Phyton banyak diaplikasikan di industri dan perusahaan besar teknologi, seperti Google, NASA, Yahoo,dll. Banyak perusahaan di masa depan yang akan membutuhkan keterampilan pemograman khususnya phyton. Code editor berbasiskan phyton notebook yang akan digunakan yaitu Jupyter dan Google Colab.
+   Video kedua yang saya tonton adalah penjelasan tentang Phyton Framework Jupyter. Phyton lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Phyton banyak diaplikasikan di berbagai bidang, salah satunya bidang AI. AI merupakan kecerdasan yang ditambahkan kepada suatu sistem sehingga memungkinkan sebuah mesin untuk melakukan tugas seperti manusia. Cara mendownload phyton dengan masuk ke link phyton.org dan disana terdapat berbagai macam versi. Versi phyton yang tersedia ada versi ke 2 dan 3.  Dan yang direkomendasikan adalah mendownload phyton versi 3. 
+   Video ketiga yang saya tonton adalah penjelasan tentang Hello world phyton. Dalam belajar pemrograman kita akan menggunakan jupyter notebook. Sebelumnya kita akan menggunakan dan buka anaconda navigator. Anaconda merupakan distributor dari jupyter, dimana jupyter merupakan open source yang menggunakan bahasa pemrograman phyton dengan ekstensi ya Iphyton/ipynb. Project jupyter dimulai sekitar tahun 2014 dan terus berlanjut sampai sekarang. Di tahun 2018 Google mengadopsi ekstensi ipynb ke dalam sebuah open source milik mereka yang bernama Google Collaboratory atau Google Colab. Jupyter notebook atau yang lebih akrab dikenal sebagai notebook Jupyter klasik. Saat ini jupyter telah mengembangkan Jupyter Lab. Project baru atau Jupyter Next Generation yang dalam project jupyter lab memungkinkan kita untuk menggunakan bahasa Pemograman lain selai phyton dimana mulai ada yang bahasa Pemograman lain seperti Julia, ruby, C++ dan lainnya yang ditargetkan dapat masuk dalam jupyter lab. Komentar tidak akan di eksekusi dalam bahasa Pemograman python. Untuk menuliskan hello world pada python hanya menggunakan perintah print() untuk mencetak hello world. Contohnya print(“Hello World”). Istilah case sensitive dimana bahasa Pemograman python sangat memperhatikan penulisan karakter baik itu penulisan huruf kecil dan besar. 
+Variabel adalah tempat penyimpanan nilai (value) secara sementara. Di dalam jupyter dapat menampilkan frame di dalam frame.

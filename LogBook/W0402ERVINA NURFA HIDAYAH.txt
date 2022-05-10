@@ -1,0 +1,280 @@
+Mon, 14 Mar
+
+Saya mengikuti Pembelajaran Data manipulation with Pandas
+ 1.	Pandas adalah library python open source yang banyak digunakan sebagai tools analisis data seperti persiapan data pada python.
+2.	Pandas menyediakan struktur data dan fungsi tingkat tinggi ->  tools,method, fungsi, yang beroperasi pada struktur data dasar.
+3.	Ada 3 struktur data dasar : indeks, series, dan data frame 
+4.	Pandas objek/ versi array tersruktur numpy yang dilengkapi baris dan kolom yang berbentuk label(string)
+5.	Menjalani prosedur instalasi dan konsep dasar pada pandas
+Caranya : Pip install pandas
+
+Mempelajari processing data
+1.	Melakukan Latihan menggunakan konsep dasar dan type data di Google Collab
+
+Belajar pengertian numpy dan penggunaannya
+1.	Gunanya numpy untuk mendukung lebih luas type data dibanding dengan python.
+2.	Didefinisikan oleh numpy.dtype class:
+>intc dan intp
+>int8, int16,int32,int64
+>float16,float32,float64
+>complex64,complex128
+>bool_, int_, float_,complex_ dan sebagainya
+3.	Type data imemudahkan, mengoperasikan matematika spt bilangan bulat, decimal, bilangan komplek(ril dan imajiner). 
+4.	Tipe data Numpy
+Type data guna memudahkan  mengoperasikan matematika spt bilangan bulat, decimal, bilangan komplek(ril dan imajiner). 
+
+Memahami import export, selection filtering, dengan data frames
+
+Data transformation menggunakan pandas 
+1.	Transformasi menggunankan map
+Data pada Dataframe dapat dimasukan ke dalam sebuah fungsi lalu proses data di setiap cellsnya, tetapi tidak perlu memasukan data nya satu-satu ke dalam fungsi. Masukin fungsinya ke dalam frame maka proses akan otomatis.
+Map dapat menambah kolom baru 
+2.	Transformasi mengganti nilai 
+Nilai yang ingin diganti menjadi nilai baru
+3.	Discrezation & binning
+Mengelompokkan data
+
+Chart and plots
+1.	Matplotlib for data visualization
+2.	Seaborn for data visualization
+Seaborn adalah library untuk membuat grafik statistic di phyton. Seaborn dibangun diatas matplotlib dan terintegrasi dengan stukture data di pandas.
+-	Strip plot : menganalisis numerik dan kategori data
+-	Swam plot : analisis multivariat ( numerical vs categorical vs categorical)
+
+Tue, 15 Mar
+
+Sesi 1 Saya mengikuti pembelajaran Data visualization in Python mathplotlib dan Seaborn
+-Kegunaan Data Visualization  untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna menggunakan grafik informasi seperti tables dan charts. Data vision membantu pengguna menganalisis sejumlah data yang besar dengan sederhana. 
+Dalam bisnis data visualization penting, karena visualisasi 1 gambar dapat merepresentsikan 1 jt lebih kata kata.
+
+ -memahami fungsi visualisasi dasar dengan mathplotlib
+Matplotlib merupakan salah satu paket yang terkenal dari python untuk menviusalisasikan data 
+Matplotlib ditulis dengan python menggunakan numpy, Ekstensi matematika numerik dari python.
+Matplotlib dibundle PyQt,WxPythonotTkinter.
+Fungsi gambar Mathplotlib :
+1.	Membaca dari file ke array
+2.	Menyimpan array seperti file gambar
+3.	Menampilkan gambar pada axes
+Fungsi angka Mathplotlib :
+1.	Menambahkan teks ke gambar
+2.	Membuat gambar baru
+3.	Menampilkan gambar 
+4.	Menyimpan gambar
+5.	Tutup jendela
+-Mempelajari Teknik Teknik Visualisasi dengan python 
+-membuat grafik dan visualisasi yang berbeda seperti lineplot, pie chart, box plots, strip plots,swarmplots dengan mathplotlib dan seaborn
+-perbedaan  boxplot dan violinplots
+	-violin memberikan data lebih banyak
+	-violin susah digambar 
+	-bloxplot  lebih mudah menggambar
+-membuat visualisasi untuk time series data
+
+Sesi 2
+-Saya mengikuti pembelajaran tentang Analisa data dan penjelajahan 
+-Tujuan belajar mempelajari Analisa data adalah untuk mengetahui sifat sifat data
+-variabel turunan (mean,median,modus)
+-variable bisa membuat kategori, rasio,persentase berdasarkan variable primer
+-Explonatory Data Analisis 
+ -Guna EDA untuk melihat pola, mendeteksi anomaly, menguji hipotesis ,validasi hipotesis dll
+-EDA untuk mengetahui data yang kita miliki diimplementasikan dengan ML
+
+-pendekatan dan Teknik Teknik
+	Categorical v/s continuous 
+1.	probality distribution analis – using displot(normal probability)
+2.	Swarm plot dan boxplot , violin
+3.	ANOVA- f_class
+
+Continous v/s continuous 
+1.	Scatterplot
+2.	Corelation analis
+3.	Anova-  f_regress
+
+Categoricall v/vs categorical 
+1.	Barplot – ratio of frequensi/count in multiple grup
+2.	Chi square
+3.	Histogram
+
+-Bank Churn Analisis
+	Churn : dapat dimplementasikan dibnayak tempat. Seperti bank
+	Tujuan mengambil feature terbaik dari dataset untuk model 
+1. Domain knowledge
+2. Data collection
+3. Data cleaning
+4. EDA
+	Data kategori : distribusi frekuensi menggunakan countplot
+	Data numerik :  continues frekuensi distribusi menggunankan Histogram dan displot
+	
+5. ANOVA ANALISIS
+6. DATA NUMERIK (unvaries analisis , bivariant analisis 
+	
+
+
+
+
+
+
+
+Wed, 16 Mar
+
+Saya telah mengikuti pembelajaran Linear Regression 
+
+Sesi 1
+-	Pengenalan Regresi => Regresi Linear merupakan Algoritma supervised learning yang belajar dari sekumpulan data latih
+-	Regresi Linear mengestimasi hubungan antara dependent variable(target/label) dan atau lebih independent variable(predictors)
+-	Mengetahui Tenik regresi mencakup pada linier dan non-linier
+-	Terdapat 2 variabel Regresi Linear( Variabel Tergantung dan Tidak Tergantung)
+-	Mengetahui Penerapan regresi linier di dunia nyata 
+=> regresi analisis adalah tools yang baik digunakan untuk menganalisa data numerik. 
+=> wajib mempunyai data numerik dalam bentuk tabel 
+=> dari tabel data numerik yang kita miliki kita mencari best fits
+-	Mengetahui Type pada regresi Linear ( Simple dan Multy Regression)
+-	Mengetahui Objek pada Regresi Linear untuk
+        => menganalisa relasi antara dua variable : relasi harga dan area/luas rumah, jumlah jam 
+          belajar dengan nilai yang didapat, pendapatan dan pengeluaran dsb
+         => memprediksi nilai baru
+ -Linear Regression – Variables affecting regression Equation
+ - Linear Regression – housing prices prediction
+ - Linear Regression – Gradient descent algorithm
+
+Sesi 2
+-	Supervised ML dan Predictive Modeling
+-	Mempelajari Section Linear Regression
+-	Mengetahui Linear Regression 
+          =>OLS
+          => R
+          => Goodness of fit
+ - mengetahui Cross Validation
+-  K-Fold Cross Validation
+ - Overfitting & Generalisation
+ - Lasso (L1) Regression dan Ridge (L2) Regression
+ - Regresi logistic , Asusumptions pada logistic, object
+
+
+
+Thu, 17 Mar
+
+ Sesi 1:
+- Algoritma k-NN => algoritma supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori k-tetangga terdekat.
+-Machine Learning : Supervised Learning
+-Curse of Dimensionality
+-Comparison Supervised Learning dan Unsupervised Learning
+-Himpunan Data (Dataset)
+-Pemisahan Dataset (Split Dataset), dibagi menjadi 3 : Training set, Validation set, Testing dataset/data yang tidak terlihat (unseen data).
+-Regresi,yaitu output nya berupa nilai kontinu dan Klasifikasi ==> output nya berupa nilai kategorik.
+-Kasus k-NN, K-Nearest Neighbor (k-NN), dan Contoh Kasus k-NN.
+-Instance Based Learning.
+-K-Factor
+-Use Case of KNN
+
+Sesi 2 saya telah mempelajari:
+- Module 5 Supervised Machine Learning and Predictive Modelling
+- Section Decision Tree
+- Decision Tree ==> merupakan algoritma supervised learning yang bekerja untuk data Input dan OUtput yang bersifat Categorial (Classification Tree) dan Continuous (Regression Tree)
+- Decision Tree Illustration using Sample Dataset.
+- Entropy (pi) ==> merupakan proporsi (dari jumlah observasi) dari i th kategori tertentu dari variable target.
+
+Fri, 18 Mar
+
+saya telah  Mempelajari
+Sesi 1:
+- Membahas bersama tentang  Neural network - introduction to Programming
+- Membahas Jadwal Pembelajaran dari Minggu ke 5 sampai sebelum hari raya Idul Fitri 
+- DS - Data Science
+- CV - Computer Vision
+- Nlp - Neural Language Processing
+- RL= Reinforcement Learning
+- Technical - Git dan Github ,SQL,
+- Bootstrap - Flask.
+- Membahas Perubahan Setiap Sesi 3 jam :2 jam ,30 istirahat, 1 jam. untuk minggu depan. 
+- Membahas bersama tentang penggabungan kelas di Minggu depan
+- Neural Network (artificial Neural Network) – Jenis machine learning yang sering digabungkan dengan deep learning
+- ANN  -  Gabungan dari beberapa Artificiall Neuron, disebut  sebagai perceptron yang disusun dalam beberapa lapisan (Layer)
+- Neutral Network dan Biological  Neuron dan Artificial Neuron (perceptron)
+- Neural Network tidak berguna jika berdiri sendiri
+- neural network ada 3 jenis, Input layer, hidden layer, dan output layer
+- loss function – cost function,yaitu algoritma yang mengukur/mengkalkulasi seberapa salah sebuah model NN.
+- loss , yaitu ukuran dari function pada loss function
+- ANN dikembangkan pada tahun 1940
+- Neural Network dilatih dengan cara menyesuaikan weight atau bias.
+- gradient dapat di analogikan seperti orang yang sedang menuruni gunung basecamp saat cuaca sedang berkabut
+
+Sesi 2 mempelajari
+-	Gradient Descent
+-	Salah satu contoh optimizer adalah Gradient Descent..
+-	Gradient Descent memanfaatkan hasil perhitungan turunan parsialpertama loss function dan learning rate untuk mengupdate
+-	How to train a NN: Forward Pass
+
+What did you learn this week?
+
+Saya telah mempelajari pengetahuan 
+-	Data manipulation with Pandas
+-	Mempelajari processing data
+-	numpy dan penggunaannya
+-	Memahami import export, selection filtering, dengan data frames
+-	Data transformation menggunakan pandas 
+-	Chart and plots
+-	Data visualization in Python mathplotlib dan Seaborn
+-	Kegunaan Data Visualization  
+-	fungsi visualisasi dasar dengan mathplotlib
+-	Teknik Teknik Visualisasi dengan python 
+-	membuat grafik dan visualisasi yang berbeda seperti lineplot, pie chart, box plots, strip plots,swarmplots dengan mathplotlib dan seaborn
+-	Analisa data dan penjelajahan 
+-	Explonatory Data Analisis
+-	pendekatan dan Teknik Teknik
+Categorical v/s continuous ( probality distribution analis – using displot(normal probability, Swarm plot dan boxplot , violin, ANOVA- f_class)
+Continous v/s continuous (Scatterplot, Corelation analis, Anova-  f_regress)
+Categoricall v/vs categorical ( Barplot – ratio of frequensi/count in multiple grup, Chi square, Histogram)
+-	Bank Churn Analisis
+1. Domain knowledge
+2. Data collection
+3. Data cleaning
+4. EDA
+5. ANOVA ANALISIS
+6. DATA NUMERIK
+-	Pengenalan Regresi => Regresi Linear merupakan Algoritma supervised learning yang belajar dari sekumpulan data latih
+-	Regresi Linear mengestimasi hubungan antara dependent variable(target/label) dan atau lebih independent variable(predictors)
+-	Mengetahui Tenik regresi mencakup pada linier dan non-linier
+-	Terdapat 2 variabel Regresi Linear( Variabel Tergantung dan Tidak Tergantung)
+-	Mengetahui Penerapan regresi linier di dunia nyata 
+=> regresi analisis adalah tools yang baik digunakan untuk menganalisa data numerik. 
+=> wajib mempunyai data numerik dalam bentuk tabel 
+=> dari tabel data numerik yang kita miliki kita mencari best fits
+-	Mengetahui Type pada regresi Linear ( Simple dan Multy Regression)
+-	Mengetahui Objek pada Regresi Linear untuk
+-	 => menganalisa relasi antara dua variable : relasi harga dan area/luas rumah, jumlah jam belajar dengan nilai yang didapat, pendapatan dan pengeluaran dsb
+=> memprediksi nilai baru
+       -Linear Regression – Variables affecting regression Equation
+       - Linear Regression – housing prices prediction
+       - Linear Regression – Gradient descent algorithm
+-	Supervised ML dan Predictive Modeling
+-	Mempelajari Section Linear Regression
+-	Mengetahui Linear Regression 
+=>OLS
+=> R
+=> Goodness of fit
+      - mengetahui Cross Validation
+      -K-Fold Cross Validation
+      - Overfitting & Generalisation
+      - Lasso (L1) Regression dan Ridge (L2) Regression
+      - Regresi logistic , Asusumptions pada logistic, object
+- Algoritma k-NN => algoritma supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori k-tetangga terdekat.
+-Machine Learning : Supervised Learning
+-Curse of Dimensionality
+-Comparison Supervised Learning dan Unsupervised Learning
+-Himpunan Data (Dataset)
+-Pemisahan Dataset (Split Dataset), dibagi menjadi 3 : Training set, Validation set, Testing dataset/data yang tidak terlihat (unseen data).
+-Regresi,yaitu output nya berupa nilai kontinu dan Klasifikasi ==> output nya berupa nilai kategorik.
+-Kasus k-NN, K-Nearest Neighbor (k-NN), dan Contoh Kasus k-NN.
+-Instance Based Learning.
+-K-Factor
+-Use Case of KNN
+- Module 5 Supervised Machine Learning and Predictive Modelling
+- Section Decision Tree
+- Decision Tree ==> merupakan algoritma supervised learning yang bekerja untuk data Input dan OUtput yang bersifat Categorial (Classification Tree) dan Continuous (Regression Tree)
+- Decision Tree Illustration using Sample Dataset.
+- Entropy (pi) ==> merupakan proporsi (dari jumlah observasi) dari i th kategori tertentu dari variable target.
+-Neural network - introduction to Programming
+- Neural Network (artificial Neural Network) – Jenis machine learning yang sering digabungkan dengan deep learning
+-Neutral Network dan Biological Neuron dan Artificial Neuron (perceptron)
+- Gradient Descent
+How to train a NN: Forward Pas

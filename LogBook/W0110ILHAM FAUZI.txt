@@ -1,0 +1,31 @@
+Mon, 21 Feb
+
+Pengenalan kegiatan di orbit, perkenalan siswa dan Fundamental AI
+
+Tue, 22 Feb
+
+basic python, install python dan jupyter notebook
+
+Wed, 23 Feb
+
+AI in indusrty, data and big data
+
+Thu, 24 Feb
+
+Pada hari ini ada self study, di beri modul yang berjudul python introduction yang menjelaskan tentang apa itu python, seberapa populernya python untuk bahasa pemrogramannya.
+
+Kemudian self study di beri modul yang berjudul modul data, ethnics, bias menjelaskan tentang apa itu data, cara cara memperoleh data ( populasi vs sampel dan sensus vs survei), kemudian di beri quiz tentang kedua modul tersebut. 
+
+Fri, 25 Feb
+
+Pada hari ini self study di website orbit guru, yang isinya materi tentang pemrograman python, framework jupyter, dan google colab. Saya mempelajari  tentang apa itu pemrograman python, menuliskan code hello world! pada python, selain itu juga mempelajari framework dari python yaitu jupyter ( Julia, Python, R) notebook.
+
+Google menyediakan code editor / framework sendiri kegunaannya mirip dengan jupyter notebook, yaitu google colaboratory atau disebut google colab.
+
+What did you learn this week?
+
+hari senin, pengenalan orbit future academy, kemudian perkenalan siswa orbit.
+hari selasa, belajar basic python, install python dan jupyter notebook.
+hari rabu, self study di beri modul AI in indusrty, data and big data.
+hari kamis, self study di beri modul  yang berjudul python introduction yang menjelaskan tentang apa itu python, seberapa populernya python untuk bahasa pemrogramannya. Kemudian self study di beri modul yang berjudul modul data, ethnics, bias menjelaskan tentang apa itu data, cara cara memperoleh data ( populasi vs sampel dan sensus vs survei), kemudian di beri quiz tentang kedua modul tersebut.
+hari jumat, self study di website orbit guru, yang isinya materi tentang pemrograman python, framework jupyter, dan google colab. Saya mempelajari tentang apa itu pemrograman python, menuliskan code hello world! pada python, selain itu juga mempelajari framework dari python yaitu jupyter ( Julia, Python, R) notebook. Google menyediakan code editor / framework sendiri kegunaannya mirip dengan jupyter notebook, yaitu google colaboratory atau disebut google colab.

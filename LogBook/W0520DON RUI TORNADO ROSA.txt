@@ -1,0 +1,29 @@
+Mon, 21 Mar
+
+Hari ini dimulai dengan mempelajari data science. Kita diberi penjelasan dan scope data science. Kita dijelaskan secara detil supaya dapat digunakan untuk menyelesaikan masalah. Untuk pertemuan sesi kedua adalah NLP. NLP dimulai dengan perkenalan seperti pipeline proses NLP dan juga contoh aplikasinya.
+
+Tue, 22 Mar
+
+Di sesi pertama kami mempelajari computer vision. Kita diperkenalkan dengan dasarnya seperti gambar yang direpresentasikan dengan sebuah 'tabel'(?). Pada sesi kedua kita mempelajari reinforcement learning yang dimulai dengan pre test untuk mengetahu kemampuan awal kita tentang topik ini. Kelas kemudian berjalan menjelaskan perkenalan mengenai domain ini.
+
+Wed, 23 Mar
+
+Hari ini dimulai dengan domain data science. Kami fokus mempelajari aplikasi visualisasi dan pengolahan no code untuk data bernama Tableu. Tableu tidak membutuhkan kode, tetapi memiliki banyak fungsionalitas untuk mengolah data mirip halnya dengan google data studio. Kita diberi contoh untuk memvisualisasikan data dari penyedia layanan film Netflix dengan visualisasi negara yang paling banyak memproduksi serial atau film di Netflix contohnya. Di akhir kelas, kita juga diberi tugas untuk memvisualisasikan data yang kita pilih. Kita memilih untuk visualisasi data COVID-19 yang berhasil kami dapatkan. Kami memvisualisasikan banyak kasus perdaerah, kematian dibanding angka sembuh, dll.
+
+Kita juga mempelajari NLP dan membahas metode ekstraksi fitur. Beberapa yang kami bahas adalah TF-IDF yang menggunakan bag of words atau pembobotan dari masing-masing kata pada dokumen. Kemudian kita juga belajar N-gram yang mencari probabilitas kata berikut yang mungkin muncul dari kata N-1 sebelumnya.
+
+Thu, 24 Mar
+
+Kami mempelajari Computer vision dan Technical pada hari ini. Computer vision fokus pada dasar bagaimana komputer membaca sebuah gambar, khususnya menggunakan data pixel yang menyimpan angka dan semakin tinggi angka, semakin terang dan sebaliknya. Kita juga mempelajari mengapa metode enhancement pada gambar dibutuhkan supaya mesin dapat melihat gambar dengan jelas. Banyak sekali yang perlu dipertimbangkan seperti brightness dan kontras. Kita juga mempelajari sedikit pengoprasian sebuah gambar menggunakan Python.
+
+Untuk kelas technical, kami mempelajari github. Mulai dari apa itu dan gunanya. Kami ditunjukan cara pengoprasian dasar seperti push ke repo, dll. Kita juga diberi tugas supaya terbiasa menggunakan github karena penting untuk pemrograman, khususnya untuk program yang besar atau berkelompok
+
+Fri, 25 Mar
+
+Hari ini dimulai dengan mempelajari reinforcement learning. Kita fokus pada MDP atau Markov Decission Process. MDP sendiri merupakan alat dalam matematika untuk memodelkan pemilihan keputusan menuju state berbeda yang dimana probabilitas juga memperngaruhi. Di RL, MDP sangat berguna memodelkan cara AI untuk mengambil sebuah keputusan untuk mendapat reward tertinggi. Kami juga diberi contoh bagaimana MDP bekerja secara umum.
+
+Kedua kami mempelajari sedikit tentang mengolah data SQL dengan Python di kelas technical. Kami belajar berbagai operator dan kegunaan lainya. SQL sendiri merupakan data tabular yang memiliki basis pengolahan yang relatif sederhana. Kami mempelajari cara mengakses tabel, menambah data ke tabel serta perintah untuk mencari data yang kita inginkan yang sederhana.
+
+What did you learn this week?
+
+Di minggu ini kami memulai untuk mempelajari dasar dasar dari masing-masing domain. Untuk data science kami mempelajari scope dan visualisasi data. NLP kami mempelajari pipeline dan tahapan awal memproses teks seperti ekstraksi fitur. Computer vision mempelajari cara komputer melihat gambar dan enhancement. RL mempelajari MDP sebagai pemodelan AI. Sementara kelas teknikal mempelajari Github sebagai platform kolaborasi kode dan juga SQL untuk operasi data pada database.

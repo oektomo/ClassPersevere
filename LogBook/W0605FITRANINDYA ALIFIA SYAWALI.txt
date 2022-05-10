@@ -1,0 +1,23 @@
+Mon, 28 Mar
+
+Kegiatan hariini belajar ttg Dimensionality Reduction , Reduction Data menggunakan zoom
+
+Tue, 29 Mar
+
+Hariini Kita Belajar ttg Monte Carlo menggunakan Zoom
+
+Wed, 30 Mar
+
+Hariini kami belajar mengenai Data Science (Recommender System  dalam AI, Market Basket Analysis, Association Rules Mining, Apriori Introduction) menggunakan platform zoom 
+
+Thu, 31 Mar
+
+hari ini kami belajar mengenai nlp text representation menggunakkan zoom
+
+Fri, 1 Apr
+
+Hariini kami belajar mengenai Reinforcement Learning yaitu Temporal-Difference Learning, Recap DP and MC menggunakan platform zoom
+
+What did you learn this week?
+
+selama seminggu ini kami belajar ttg Dimensionality Reduction , Reduction Data, Monte Carlo,Data Science (Recommender System  dalam AI, Market Basket Analysis, Association Rules Mining, Apriori Introduction) ,  nlp text representation ,dan i Reinforcement Learning yaitu Temporal-Difference Learning, Recap DP and MC

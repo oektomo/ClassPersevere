@@ -1,0 +1,105 @@
+Mon, 14 Mar
+
+Data Manipulation with pandas ▪ Pengertian numpy dan penggunaannya. ▪ Mempelajari dasar-dasar preprocessing data. ▪ Mempelajari prosedur instalasi dan konsep dasar pada Pandas. ▪ Memahami data import export, selection dan filtering dengan Pandas Visualisasi data di python dengan matplotlib dan seaborn ▪ Memahami teknik visualisasi data dengan python ▪ Memahami fungsi visualisasi dasar dengan matplotlib ▪ Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn ▪ Membuat visualisasi untuk time series data
+
+Tue, 15 Mar
+
+Linear Regression
+ Memahami lebih detil tentang teknik regression dan berbagai use case nya
+▪ Melihat bagaimana konsep gradient descent di linear regression
+▪ Menjelaskan fungsi dari cost function
+▪ Melakukan training model untuk memahami konsep gradient descent
+▪ Mendeskripsikan regularisasi pada regression seperti: Lasso dan Ridge 
+Regression
+▪ Mendefinisikan Generalized Linear Regression (GLM)
+
+Wed, 16 Mar
+
+Exploratory Data Analytics (EDA)
+▪ Menjelaskan derived variables/ variabel turunan dan metode yang digunakan
+untuk menganalisanya
+▪ Memahami overview dari exploratory data analysis (EDA) dan manfaatnya
+▪ Mengidentifikasi perbedaan metode yang tersedia di EDA dan 1 contohnya
+
+Logistic Regression
+▪ Memahami algoritma Logistic Regression
+▪ Menjelaskan intuisi matematika di balik Logistic Regression
+▪ Memahami Cost function untuk Logistic Regression
+▪ Memahami Maximum likelihood estimation
+▪ Melakukan analisa performa dari persoalan klasifika
+
+Thu, 17 Mar
+
+Decision Tree
+• Mendefinisikan konsep-konsep berikut
+-Decision tree
+- Homogeneity
+-Gini index
+- Entropy dan Information Gain
+- Truncation and Pruning
+• Memahami implementasi Decision Tree untuk persoalan regresi
+• Memahami perbedaan dari beberapa pendekatan untuk mengimplementasikan
+algoritma Decision Tree
+
+Fri, 18 Mar
+
+K Nearest Neighbors (KNN)
+▪ Menjelaskan konsep K Nearest Neighbor (KNN) untuk klasifikasi dan regresi
+▪ Memahami kapan kita menggunakan algoritma KNN
+▪ Implementasi KNN menggunakan Python
+
+Deep Learning Overview
+▪ Memahami konsep Deep Learning dan penerapannya.
+▪ Ketahui apa perbedaan antara deep learning dan machine learning.
+▪ Kenali berbagai opsi komputasi - BERBASIS CPU, GPU, dan cloud.
+▪ Kenali kerangka kerja populer untuk mendesain deep learning 
+solutions
+
+What did you learn this week?
+
+Data Manipulation with pandas ▪ Pengertian numpy dan penggunaannya. ▪ Mempelajari dasar-dasar preprocessing data. ▪ Mempelajari prosedur instalasi dan konsep dasar pada Pandas. ▪ Memahami data import export, selection dan filtering dengan Pandas Visualisasi data di python dengan matplotlib dan seaborn ▪ Memahami teknik visualisasi data dengan python ▪ Memahami fungsi visualisasi dasar dengan matplotlib ▪ Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn ▪ Membuat visualisasi untuk time series data
+
+Linear Regression
+ Memahami lebih detil tentang teknik regression dan berbagai use case nya
+▪ Melihat bagaimana konsep gradient descent di linear regression
+▪ Menjelaskan fungsi dari cost function
+▪ Melakukan training model untuk memahami konsep gradient descent
+▪ Mendeskripsikan regularisasi pada regression seperti: Lasso dan Ridge 
+Regression
+▪ Mendefinisikan Generalized Linear Regression (GLM)
+
+Exploratory Data Analytics (EDA)
+▪ Menjelaskan derived variables/ variabel turunan dan metode yang digunakan
+untuk menganalisanya
+▪ Memahami overview dari exploratory data analysis (EDA) dan manfaatnya
+▪ Mengidentifikasi perbedaan metode yang tersedia di EDA dan 1 contohnya
+
+Logistic Regression
+▪ Memahami algoritma Logistic Regression
+▪ Menjelaskan intuisi matematika di balik Logistic Regression
+▪ Memahami Cost function untuk Logistic Regression
+▪ Memahami Maximum likelihood estimation
+▪ Melakukan analisa performa dari persoalan klasifikasi
+
+Decision Tree
+• Mendefinisikan konsep-konsep berikut
+-Decision tree
+- Homogeneity
+-Gini index
+- Entropy dan Information Gain
+- Truncation and Pruning
+• Memahami implementasi Decision Tree untuk persoalan regresi
+• Memahami perbedaan dari beberapa pendekatan untuk mengimplementasikan
+algoritma Decision Tree
+
+K Nearest Neighbors (KNN)
+▪ Menjelaskan konsep K Nearest Neighbor (KNN) untuk klasifikasi dan regresi
+▪ Memahami kapan kita menggunakan algoritma KNN
+▪ Implementasi KNN menggunakan Python
+
+Deep Learning Overview
+▪ Memahami konsep Deep Learning dan penerapannya.
+▪ Ketahui apa perbedaan antara deep learning dan machine learning.
+▪ Kenali berbagai opsi komputasi - BERBASIS CPU, GPU, dan cloud.
+▪ Kenali kerangka kerja populer untuk mendesain deep learning 
+solutions

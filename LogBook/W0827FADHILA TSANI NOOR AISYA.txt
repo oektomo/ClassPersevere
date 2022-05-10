@@ -1,0 +1,489 @@
+Mon, 11 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang Time series Deep Learning Approach 
+Time series Patterns : Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect. 
+RNN, LSTM, GRU Introduction : 
+   Time Series Forecasting selalu menjadi area penelitian yang sangat penting di banyak domain karena berbagai jenis data disimpan dalam waktu time series.
+   Model Deep Learning hanya mempelajari fitur dan dinamika dari data langsung. 
+   Deep Learning dapat mempercepat proses data preparation dan dapat mempelajari pola data uang lebih komplek dengan ada yang lebih lengkap. 
+Timeline pendekatan model approaches time series : AR Models -> ML models -> DL Models -> Hybrid Models -> RL Models, Sentiment Analysis dan Quantum finance. 
+Statistical Approach vs Deep Learning Approach : 
+Statistical Approach : Memberikan hasil yang lebih precise dengan nilai evaluasi error yang kecil
+Deep Learning Approach : Lebih mudah diaplikasikan untuk tugas terkait time series forecasting, dan memberikan hasil yang hampir serupa dengan menggunakan statistical approach.
+   Deep Learning muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan. 
+Deep Learning architecture for time series : 
+Beberapa arsitektur deep learning untuk menganalisa data time series yaitu MLP, CNN, RNN, LSTM, dan GRU. 
+Operasi RNN, LSTM, GRU. 
+Operasi Element Wise Product :
+   Element Wise Product atau Hadamard product, entrywise product atau Schur product, adalah operasi perkalian dengan input 2 matriks berukuran sama dengan hasil operasinya menghasilkan matriks berukuran sama.
+Operasi Element Wise Addition : 
+   Element wise addition disebut juga matrix addition adalah operasi penjumlahan pada matriks.Pada paper, dan sering digunakan dalam machine learning. operasi ini sering menggunakan simbol ⊕. 
+Fungsi aktivasi sigmoid : akan menerima angka tunggal dan mengubah nilai x menjadi sebuah nilai yang memiliki range dari 0-1. 
+Fungsi aktivasi Tanh : mengubah nilai input x menjadi sebuah nilai yang memiliki range mulai dari -1 sampai dengan 1. 
+   Recurrent Neural Network yang disebut juga jaringan umpan balik adalah jenis jaringan pada NN dimana terdapat loop sebagai koneksi umpan balik dalam jaringan. 
+   RNN memiliki 3 lapisan yaitu layer input, layer tersembunyi yang berulang, dan layer output. 
+   Data sekuensial mempunyai karakteristik dimana sample di proses dengan suatu urutan dan sample dalam urutan mempunyai hubungan erat satu dengan yang lain. 
+Contoh data sekuensial dan aplikasinya: 
+- rangkaian kata-kata dalam penerjemah bahasa
+- Sinyal audio dalam pengenalan suara
+- Nada-nada dalam sintesis musik 
+- Deret DNA dalam pemrosesan rangkaian DNA
+- dll
+   Pemrosesan data sekuensial diatas tidak cocok dilakukan dengan model umpan maju (feed Forward), seperti model linear, multi-layer perceptron, dan CNN. 
+CNN vs RNN :
+1D CNN vs RNN unrolling (RNN by Contrast)
+CNN : Setiap sampelnya merupakan vektor yang terdiri dari beberapa variabel. vektor tersebut langsung diumpankan ke neuron pada layer berikutnya sebagai kombinasi linear dan dimasukan ke fungsi aktivasi.
+RNN : Setiap sampelnya terdiri dari data sekuensial yaitu data terurut yang tiap urutannya merupakan vektor yang terdiri dari beberapa variabel. vektor-vektor tersebut diumpankan ke tiap-tiap blok memori secara berurutan.
+Arsitektur pada RNN mirip dengan model Feed-Forward Network tetapi ada beberapa perbedaan yaitu : 
+- Pada RNN output state sebelumnya juga diikutkan, dan cocok untuk memproses data sekuensial
+- Ada vanishing gradiet, sehingga terbatas hanya bisa melihat beberapa step sebelumnya. 
+RNN with Vanishing Gradient Problem :
+The problem with Depth
+Gradient Descent Problem :
+Kelemahan RNN : pembelajaran jangka panjang dengan gradient descent bisa menghasilkan masalah menghilang atau meledakkan gradient. 
+- nilai gradient descent bisa “menghilang” bila memilih bobot yang lebih kecil dari 1 ( < 1) dikenal dengan vanishing gradient problem.
+- nilai gradient descent bisa “meledak” secara eksponensial bila memilih bobot lebih besar dari 1 ( > 1)
+LSTM dan GRU : 
+   Cara mengatasi masalah menghilang atau meledaknya gradien adalah memodifikasi arsitektur model dengan memasukkan unit gerbang yang dirancang khusus untuk menyimpan informasi selama waktu periode yang lama. Mekanisme
+gerbang yang paling dikenal saat ini adalah Long-Short Term Memory (LSTM) dan Gated Recurrent Unit (GRU).
+- LSTM mampu menangani penghafalan dan pengingatan kembali untuk jangka panjang, khususnya data yang sangat besar. LSTM pada prinsipnya dapat menggunakan unit memorinya untuk mengingat informasi yang jaraknya jauh danmelacak berbagai atribut teks yang sedang diproses pada penerapan NLP.
+- GRU memiliki parameter yang lebih sedikit dari LSTM, sehingga cocok untuk data yang sedikit, agar tidak terjadi overfitting. Selain itu, GRU memberikan konvergensi yang lebih cepat dan hasilnya bisa disandingkan dengan LSTM
+Deep Learning for Forecasting : 
+Misal kita memiliki data time series :
+   Untuk melakukan forecasting data tersebut, hal yang perlu dilakukan adalah menjadikan data tersebut menjadi data sub sekuensial menggunakan sliding window.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Tue, 12 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang Introduction of Autoencoder & Image Denoising. 
+Introduction of Autoencoders : 
+   An autoencoders neural network adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan  melakukan rekonstruksi terhadap data input tersebut.
+Components of Autoencoders :
+- Encoder : bagian jaringan ini bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation.
+- Code : bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder.
+- Decoder : Bagian ini bertujuan untuk merekonstruksi masukan dari the latent space representation.
+Properties ofAutoencoders :
+1. Data-specific: Autoencoder hanya dapat mengompresi data yang mirip dengan apa yang telah di latih.
+2. Lossy: Output dari autoencoder tidak akan sama persis dengan input, itu akan menjadi representasi yang hampir mendekati original input tetapi terdegradasi.
+3. Unsupervised: Untuk melatih autoencoder, kita tidak perlu melakukan sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+Hyperparameters of Autoencoders :
+• Code size, Ukuran yang lebih kecil menghasilkan lebih banyak
+kompresi
+• Number of layers, Autoencoder dapat memiliki banyak lapisan/layer
+• Loss function, Mean squared error atau binary cross entropy
+• Number of node per layers, Stacked autoencoders 
+Architecture of Autoencoders :
+- Bottleneck approach adalah pendekatan untuk memutuskan aspek mana dari data yang diamati yang merupakan informasi yang relevan dan aspek apa yang dapat dibuang
+- Encoder adalah jaringan saraf yang mengeluarkan representasi z dari data x
+- Decoder adalah neural net yang belajar merekonstruksi data x yang diberikan representasi z
+Latent Space Representation
+Loss function of Autoencoders 
+Denoising Autoencoders :
+original image -> noise -> noisy input -> encoder -> code -> decoder -> output
+hubungan antara data Input + Noise dan data Output
+Aplikasi autoencoder  :
+- Image Reconstruction
+- Image Coloring and Noise reduction
+- Feature Variation
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Wed, 13 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang Transfer Learning for NLP – Transformer & BERT. 
+   Transfer learning adalah melatih model pada tugas tertentu, lalu model tersebut dapat digunakan untuk tugas yang berbeda.
+Transfer Learning pada NLP :
+   Dalam paradigma transfer learning, pengurangan kebutuhan data dan komputasi dapat dicapai melalui berbagi knowledge. 
+Tipe Transfer Learning NLP :
+1. Transductive Transfer Learning :
+- Domain Adaption Learning 
+- Cross-Lingual Learning 
+2. Inductive Transfer Learning : 
+- Multi-Task Learning 
+- Sequential Transfer Learning 
+Sequential Transfer Learning :
+Large Corpus (Wikipedia, Book) - 01. Pretraining Step -> General Purpose Model (Language Model ,seperti : Word2Vec, FastText, Glove, dll) - 02.
+Adaption / Fine Tuning Step + Task Specific Dataset (e.g. SMS Spam) -> Final Model (Task Specific Model ,seperti : Spam Detection, Sentiment Analysis, Question Answering System, Chatbot, etc.)
+Language Model Pretraining : Belajar memprediksi Pϴ(teks) atau Pϴ(teks | teks lain)
+Kelebihan: self-supervised , Terdapat banyak bahasa, dan Serbaguna. 
+Alasan Menggunakan Transfer Learning :
+Batasan dari masalah NLP yang berbeda:
+1. Data latih terbatas atau tidak tersedia 
+2. Membutuhkan biaya tinggi untuk membuat anotasi (pelabelan) data pelatihan.
+3. Biaya komputasi yang tinggi untuk melatih model;
+4. Ketersediaan sumber data untuk bahasa selain bahasa Inggris. 
+Word Embedding : Teknik untuk memetakan kata (atau frasa) dari ruang input sparse berdimensi tinggi (BoW atau TF-IDF, dll) ke ruang vektor padat (dense) berdimensi lebih rendah (Word2Vec, FastText, GloVe, dll). Kata adalah representasi simbolis dari semantik.
+Word2Vec : Mampu menangkap struktur relasional dalam kalimat, kesamaan semantik dan sintaksis, hubungan dengan antar kata.
+Batasan Word2Vec :
+• Beberapa kata memiliki makna yang berbeda (homonim) atau memiliki lebih dari satu makna (polisemi).
+• Word2Vec diterapkan dengan cara context-free manner.
+ELMo: Deep Contextualized Word Representation : ELMo melihat seluruh kalimat sebelum menetapkan vektor embedding setiap kata.
+From words to words-in-context : Word Vectors, Sentence / Doc Vectors, dan Word-in-Context Vectors.
+Batasan Arsitektur RNN : 
+• Sulit untuk memparalelkan komputasi secara efisien;
+• Tidak dapat menangkap konteks kata pada kalimat secara utuh;
+• Kinerja menurun jika urutan kalimat lebih panjang (vanishing gradient).
+Global vs Local Attention :
+   Attention dapat ditafsirkan sebagai vektor bobot satu kata dengan memperkirakan seberapa kuat kata itu berkorelasi dengan kata lain (bahkan dengan kata itu sendiri).
+Arsitektur Transformer :
+   Model deep learning yang mengadopsi mekanisme attention. Mengganti seluruh lapisan RNN sehingga tidak harus memproses data secara berurutan.
+   Dirancang untuk machine translation (terdiri dari encoder & decoder).
+Mekanisme Self-Attention 
+Mekanisme Multi-Head Attention :
+   Mekanisme self-attention yang dihitung beberapa kali dalam arsitektur Transformer secara paralel dan independen.
+   Output dari independen self-attention kemudian digabungkan dan ditransformasikan secara linier ke dalam dimensi tertentu.
+𝑀𝑢𝑙𝑡𝑖𝐻𝑒𝑎𝑑 𝑄,𝐾, 𝑉 = [ℎ𝑒𝑎𝑑1, … , ℎ𝑒𝑎𝑑ℎ]W0
+Model Berbasis Transformer :
+   Model berbasis arsitektur Transformer adalah ‘rahasia’ di balik terobosan mutakhir pada bidang NLP.
+Beberapa model berbasis Transformer yang populer dan mencapai performa tinggi:
+• Bidirectional Encoder Representations from Transformers
+(BERT) oleh Google
+• Generative Pre-trained Transformer (GPT) oleh OpenAI
+• XLNet oleh Google
+BERT: Bidirectional Encoder Representations from Transformers :
+   BERT merupakan arsitektur deep learning yang truly bidirectional sehingga mampu membaca konteks dari kiri-ke-kanan dan kanan-ke-kiri dengan dipelajari oleh jaringan yang sama.
+Arsitektur BERT :
+   BERT terdiri dari tumpukan encoder dari arsitektur transformer (disebut transformer block). Pada paper aslinya, disediakan 2 ukuran model: BERTBASE dan BERTLARGE. 
+BERT Part :
+- Unsupervised Training (BERT Pre-Training)
+- Supervised Training (BERT Fine-Tuning)
+BERT Pre-Trained Model : BERt (original), PantentBERT (patents), CamemBERT (french), dll. 
+Indonesian BERT Pre-Trained Model : BERT Multilingual, IndoBERT Indo4B , IndoBERT - Indonesian Wikipedia, dan IndoBERTweet.
+BERT PreTraining: Masked Language Model : Tutupi (masking) 𝑘% dari kata-kata input secara acak, lalu model akan memprediksi kata-kata yang ditutupi. 
+BERT PreTraining: Next Sentence Prediction : Digunakan untuk mempelajari hubungan antar kalimat.
+BERT Tokenizer :
+• BERT menggunakan WordPiece tokenizer untuk menghasilkan dictionary. 
+• Kata asli dipecah menjadi sub-kata dan karakter yang lebih kecil.
+• Kata-kata yang tidak ada pada dictionary direpresentasikan sebagai subkata dan karakter. 
+BERT Cased vs Uncased :
+Cased → Teks tidak diubah sama sekali.
+Uncased → Teks diubah menjadi lowercase sebelum langkah tokenisasi menggunakan WordPiece. 
+BERT Special Tokens :
+   BERT mewajibkan penggunaan token khusus untuk dapat memahami input dengan benar, antara lain: Token [CLS], Token [SEP], Token [PAD], Token [MASK], dan Token [UNK] 
+Representasi Input BERT :
+- Token embedding menunjukkan id token pada dictionary yang dihasilkan pada proses Tokenizer.
+- Segment embedding menunjukkan urutan kalimat. 
+- Position embedding menunjukkan posisi kata dalam kalimat.
+• Kalimat dapat berupa rentang teks (kata).
+• Urutan (sequences) mengacu pada urutan token input.
+• Setiap token adalah jumlah dari tiga embeddings yang berbeda.
+BERT Fine Tuning
+   Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya untuk tugas yang berbeda. Sangat erat kaitannya dengan transfer learning.
+BERT Downstream Task : Merujuk pada supervised-learning task yang memanfaatkan pre-trained model.
+Downstream task pada area NLP meliputi:
+• Sequence (text) classification;
+• Question answering;
+• Text generation;
+• Named entity recognition (NER);
+• Summarization;
+• Machine translation.
+BERT Fine Tuning Procedure : 
+   Penulis menyarankan nilai hyperparameter untuk fine tuning. Nilai hyperparameter yang optimal adalah tergantung tugas yang diselesaikan.
+BERT Fine Tuning Scheme :
+Skema fine-tuning BERT untuk tugas klasifikasi dapat dilakukan mengikuti bagan berikut:
+Load Data ->Text Preprocessing -> Load Tokenizer -> Input Formatting -> Load PreTrained Model -> Fine Tuning -> Feed Forward NN -> Output
+Tools :
+Library yang dapat digunakan untuk implementasi arsitektur berbasis Transformer (termasuk BERT):
+- Transformers 
+- Simple Transformers 
+- Fast-Bert 
+Implementasi dapat menggunakan dua framework deep learning: TensorFlow maupun PyTorch.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Thu, 14 Apr
+
+   Kegiatanku hari ini adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach pertama di hari ini diberikan materi tentang RL - Robotics
+- TD Learning (Recap) : 
+         TD Control : SARSA dan Q-Learning
+- Robotics Overview 
+- ML for Robotics 
+- Turtlebot3 Navigation using DQN
+- SARSA Overview : 
+         SARSA (State - Action - Reward - State - Action)
+         Algoritma SARSA (on- policy TD Control)
+- SARSA Implementation : 
+         Contoh : memahami SARSA pada frozen lake
+- Q-Learning Overview : 
+         Q - Learning - Off policy TD Control
+         Algoritma Q-Learning (off-policy TD Control for estimating 𝜋 ~ 𝜋
+- Q-Learning Implementation 
+- Deep Q Learning Overview : 
+Pada Deep Q Learning kita akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut dengan Deep Q Network / DQN. 
+- Deep Q Learning Implementation : Penerapan DQL pada Cart-Pole 
+- Cart-Pole Environment
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+
+Fri, 15 Apr
+
+   Hari ini jum'at, 15 april 2022 libur dalam rangka hari wafat isa almasih. Jadi kegiatanku pada hari ini belajar mandiri di rumah. Belajar mandiri di hari ini belajar materi tentang Unit Testing, Refactoring, dan Debugging. 
+   Unit testing merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program. Untuk  melakukan  unit  testing, pengujian dapat dilakukan secara otomatis dengan menggunakan library tertentu atau API pihak ketiga tertentu. Teknik ini dinamakan dengan test automation.
+Beberapa manfaat dari automated unit testing adalah sebagai berikut:
+1. Mengurangi beban kerja dan memangkas waktu pengujian
+2. Automated unit testing memiliki hasil yang lebih akurat  dibandingkan dengan manual unit testing.
+3. Pemberitahuan awal terkait  dengan bug yang ada; saat  tools pengujian berhenti secara tiba-tiba karena terdapat error, maka bug logika akan terdeteksi
+1.) Penggunaan Docstrings untuk Unit Testing
+   Docstring  adalah  penggunaan  tipe  data  string  yang  ditentukan  dalam  modul  sumber  program. Penggunaan dari docstring adalah untuk mendokumentasikan segmen tertentu dari kode. 
+   flag -m  yaitu menggunakan library doctest dan flag -v atau verbose bertujuan untuk menampilkan semua log pengujian pada module.
+2.) Penggunaan Library unittest
+   Library unittest  merupakan  library  yang  tersedia  dalam  bahasa  pemrograman python  yang bertujuan  untuk  mempermudah unit testing. Unit test dapat dilakukan tanpa menggunakan unittest.main(). 
+   Test  fixtures  merupakan kumpulan langkah yang dilakukan sebelum dan setelah pengujian. setUpModule() dan tear DownModule() merupakan metode module-level fixtures.    setUpModule() dijalankan sebelum sebuah metode dalam modul pengujian. 
+tearDownModule() dijalankan setelah semua metode dalam modul pengujian dijalankan.
+   flag -q  yang memiliki arti quiet mode.
+3.) Membuat Test Packages
+   Dengan adanya test package, kita dapat menjalankan testing dari parent directory. 
+   Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak.Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari  baris kode yang telah dituliskan. Refactoring merupakan sebuah teknik  untuk  membuat  program  kita  semakin efisien  tanpa  mengubah efektifitas. 
+1. For-loop refactoring
+2. Multiple Assignment
+3. F-strings
+4. Fungsi
+   Debugging merupakan proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program.
+   Dalam Python, kita dapat menggunakan perintah “print” untuk mengetahui hasil dalam sebuah program. Namun, perintah “print” memililiki kekurangan, yaitu mengharuskan kita untuk menambahkan perubahan pada program dan harus menjalankan program berulang kali untuk mengetahui variabel, fungsi, atau perubahan-perubahan yang terjadi dalam program. 
+   Python memiliki library yang bernama “pdb”. Pdb merupakan perintah antarmuka sederhana yang dapat menjalankan fungsi.
+   Dalam  pdb,  terdapat  beberapa  perintah  untuk  menjalankan debugging. Berikut  contoh  dari perintah saat menjalankan pdb :
+1. list(l) 
+Berfungsi untuk menunjukkan baris dalam interpreter yang sedang aktif.
+2. up(p) and down(d)
+Berfungsi untuk menavigasi baris.
+3. step(s) and next(n)
+Berfungsi untuk melanjutkan eksekusi aplikasi baris demi baris.
+4. quit atau exit
+Berfungsi untuk keluar dari program.
+   Kemudian setelah selesai belajar mandiri di rumah, kita juga diberikan tugas assessment oleh coach. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+What did you learn this week?
+
+   Pada hari Senin, 11 April 2022 di hari pertama dan di minggu ke delapan, kegiatanku di hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Time series Deep Learning Approach. 
+Time series Patterns : Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect. 
+RNN, LSTM, GRU Introduction : 
+   Time Series Forecasting selalu menjadi area penelitian yang sangat penting di banyak domain karena berbagai jenis data disimpan dalam waktu time series.
+   Model Deep Learning hanya mempelajari fitur dan dinamika dari data langsung. 
+   Deep Learning dapat mempercepat proses data preparation dan dapat mempelajari pola data uang lebih komplek dengan ada yang lebih lengkap. 
+Timeline pendekatan model approaches time series : AR Models -> ML models -> DL Models -> Hybrid Models -> RL Models, Sentiment Analysis dan Quantum finance. 
+Statistical Approach vs Deep Learning Approach : 
+Statistical Approach : Memberikan hasil yang lebih precise dengan nilai evaluasi error yang kecil
+Deep Learning Approach : Lebih mudah diaplikasikan untuk tugas terkait time series forecasting, dan memberikan hasil yang hampir serupa dengan menggunakan statistical approach.
+   Deep Learning muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan. 
+Deep Learning architecture for time series : 
+Beberapa arsitektur deep learning untuk menganalisa data time series yaitu MLP, CNN, RNN, LSTM, dan GRU. 
+Operasi RNN, LSTM, GRU. 
+Operasi Element Wise Product :
+   Element Wise Product atau Hadamard product, entrywise product atau Schur product, adalah operasi perkalian dengan input 2 matriks berukuran sama dengan hasil operasinya menghasilkan matriks berukuran sama.
+Operasi Element Wise Addition : 
+   Element wise addition disebut juga matrix addition adalah operasi penjumlahan pada matriks.Pada paper, dan sering digunakan dalam machine learning. operasi ini sering menggunakan simbol ⊕. 
+Fungsi aktivasi sigmoid : akan menerima angka tunggal dan mengubah nilai x menjadi sebuah nilai yang memiliki range dari 0-1. 
+Fungsi aktivasi Tanh : mengubah nilai input x menjadi sebuah nilai yang memiliki range mulai dari -1 sampai dengan 1. 
+   Recurrent Neural Network yang disebut juga jaringan umpan balik adalah jenis jaringan pada NN dimana terdapat loop sebagai koneksi umpan balik dalam jaringan. 
+   RNN memiliki 3 lapisan yaitu layer input, layer tersembunyi yang berulang, dan layer output. 
+   Data sekuensial mempunyai karakteristik dimana sample di proses dengan suatu urutan dan sample dalam urutan mempunyai hubungan erat satu dengan yang lain. 
+Contoh data sekuensial dan aplikasinya: 
+- rangkaian kata-kata dalam penerjemah bahasa
+- Sinyal audio dalam pengenalan suara
+- Nada-nada dalam sintesis musik 
+- Deret DNA dalam pemrosesan rangkaian DNA
+- dll
+   Pemrosesan data sekuensial diatas tidak cocok dilakukan dengan model umpan maju (feed Forward), seperti model linear, multi-layer perceptron, dan CNN. 
+CNN vs RNN :
+1D CNN vs RNN unrolling (RNN by Contrast)
+CNN : Setiap sampelnya merupakan vektor yang terdiri dari beberapa variabel. vektor tersebut langsung diumpankan ke neuron pada layer berikutnya sebagai kombinasi linear dan dimasukan ke fungsi aktivasi.
+RNN : Setiap sampelnya terdiri dari data sekuensial yaitu data terurut yang tiap urutannya merupakan vektor yang terdiri dari beberapa variabel. vektor-vektor tersebut diumpankan ke tiap-tiap blok memori secara berurutan.
+Arsitektur pada RNN mirip dengan model Feed-Forward Network tetapi ada beberapa perbedaan yaitu : 
+- Pada RNN output state sebelumnya juga diikutkan, dan cocok untuk memproses data sekuensial
+- Ada vanishing gradiet, sehingga terbatas hanya bisa melihat beberapa step sebelumnya. 
+RNN with Vanishing Gradient Problem :
+The problem with Depth
+Gradient Descent Problem :
+Kelemahan RNN : pembelajaran jangka panjang dengan gradient descent bisa menghasilkan masalah menghilang atau meledakkan gradient. 
+- nilai gradient descent bisa “menghilang” bila memilih bobot yang lebih kecil dari 1 ( < 1) dikenal dengan vanishing gradient problem.
+- nilai gradient descent bisa “meledak” secara eksponensial bila memilih bobot lebih besar dari 1 ( > 1)
+LSTM dan GRU : 
+   Cara mengatasi masalah menghilang atau meledaknya gradien adalah memodifikasi arsitektur model dengan memasukkan unit gerbang yang dirancang khusus untuk menyimpan informasi selama waktu periode yang lama. Mekanisme
+gerbang yang paling dikenal saat ini adalah Long-Short Term Memory (LSTM) dan Gated Recurrent Unit (GRU).
+- LSTM mampu menangani penghafalan dan pengingatan kembali untuk jangka panjang, khususnya data yang sangat besar. LSTM pada prinsipnya dapat menggunakan unit memorinya untuk mengingat informasi yang jaraknya jauh danmelacak berbagai atribut teks yang sedang diproses pada penerapan NLP.
+- GRU memiliki parameter yang lebih sedikit dari LSTM, sehingga cocok untuk data yang sedikit, agar tidak terjadi overfitting. Selain itu, GRU memberikan konvergensi yang lebih cepat dan hasilnya bisa disandingkan dengan LSTM
+Deep Learning for Forecasting : 
+Misal kita memiliki data time series :
+   Untuk melakukan forecasting data tersebut, hal yang perlu dilakukan adalah menjadikan data tersebut menjadi data sub sekuensial menggunakan sliding window.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Selasa, 12 April 2022 di hari kedua dan di minggu ke delapan, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Introduction of Autoencoder & Image Denoising. 
+Introduction of Autoencoders : 
+   An autoencoders neural network adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan  melakukan rekonstruksi terhadap data input tersebut.
+Components of Autoencoders :
+- Encoder : bagian jaringan ini bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation.
+- Code : bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder.
+- Decoder : Bagian ini bertujuan untuk merekonstruksi masukan dari the latent space representation.
+Properties ofAutoencoders :
+1. Data-specific: Autoencoder hanya dapat mengompresi data yang mirip dengan apa yang telah di latih.
+2. Lossy: Output dari autoencoder tidak akan sama persis dengan input, itu akan menjadi representasi yang hampir mendekati original input tetapi terdegradasi.
+3. Unsupervised: Untuk melatih autoencoder, kita tidak perlu melakukan sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+Hyperparameters of Autoencoders :
+• Code size, Ukuran yang lebih kecil menghasilkan lebih banyak
+kompresi
+• Number of layers, Autoencoder dapat memiliki banyak lapisan/layer
+• Loss function, Mean squared error atau binary cross entropy
+• Number of node per layers, Stacked autoencoders 
+Architecture of Autoencoders :
+- Bottleneck approach adalah pendekatan untuk memutuskan aspek mana dari data yang diamati yang merupakan informasi yang relevan dan aspek apa yang dapat dibuang
+- Encoder adalah jaringan saraf yang mengeluarkan representasi z dari data x
+- Decoder adalah neural net yang belajar merekonstruksi data x yang diberikan representasi z
+Latent Space Representation
+Loss function of Autoencoders 
+Denoising Autoencoders :
+original image -> noise -> noisy input -> encoder -> code -> decoder -> output
+hubungan antara data Input + Noise dan data Output
+Aplikasi autoencoder  :
+- Image Reconstruction
+- Image Coloring and Noise reduction
+- Feature Variation
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Rabu, 13 April 2022 di hari ketiga dan di minggu ke delapan, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang Transfer Learning for NLP – Transformer & BERT. 
+   Transfer learning adalah melatih model pada tugas tertentu, lalu model tersebut dapat digunakan untuk tugas yang berbeda.
+Transfer Learning pada NLP :
+   Dalam paradigma transfer learning, pengurangan kebutuhan data dan komputasi dapat dicapai melalui berbagi knowledge. 
+Tipe Transfer Learning NLP :
+1. Transductive Transfer Learning :
+- Domain Adaption Learning 
+- Cross-Lingual Learning 
+2. Inductive Transfer Learning : 
+- Multi-Task Learning 
+- Sequential Transfer Learning 
+Sequential Transfer Learning :
+Large Corpus (Wikipedia, Book) - 01. Pretraining Step -> General Purpose Model (Language Model ,seperti : Word2Vec, FastText, Glove, dll) - 02.
+Adaption / Fine Tuning Step + Task Specific Dataset (e.g. SMS Spam) -> Final Model (Task Specific Model ,seperti : Spam Detection, Sentiment Analysis, Question Answering System, Chatbot, etc.)
+Language Model Pretraining : Belajar memprediksi Pϴ(teks) atau Pϴ(teks | teks lain)
+Kelebihan: self-supervised , Terdapat banyak bahasa, dan Serbaguna. 
+Alasan Menggunakan Transfer Learning :
+Batasan dari masalah NLP yang berbeda:
+1. Data latih terbatas atau tidak tersedia 
+2. Membutuhkan biaya tinggi untuk membuat anotasi (pelabelan) data pelatihan.
+3. Biaya komputasi yang tinggi untuk melatih model;
+4. Ketersediaan sumber data untuk bahasa selain bahasa Inggris. 
+Word Embedding : Teknik untuk memetakan kata (atau frasa) dari ruang input sparse berdimensi tinggi (BoW atau TF-IDF, dll) ke ruang vektor padat (dense) berdimensi lebih rendah (Word2Vec, FastText, GloVe, dll). Kata adalah representasi simbolis dari semantik.
+Word2Vec : Mampu menangkap struktur relasional dalam kalimat, kesamaan semantik dan sintaksis, hubungan dengan antar kata.
+Batasan Word2Vec :
+• Beberapa kata memiliki makna yang berbeda (homonim) atau memiliki lebih dari satu makna (polisemi).
+• Word2Vec diterapkan dengan cara context-free manner.
+ELMo: Deep Contextualized Word Representation : ELMo melihat seluruh kalimat sebelum menetapkan vektor embedding setiap kata.
+From words to words-in-context : Word Vectors, Sentence / Doc Vectors, dan Word-in-Context Vectors.
+Batasan Arsitektur RNN : 
+• Sulit untuk memparalelkan komputasi secara efisien;
+• Tidak dapat menangkap konteks kata pada kalimat secara utuh;
+• Kinerja menurun jika urutan kalimat lebih panjang (vanishing gradient).
+Global vs Local Attention :
+   Attention dapat ditafsirkan sebagai vektor bobot satu kata dengan memperkirakan seberapa kuat kata itu berkorelasi dengan kata lain (bahkan dengan kata itu sendiri).
+Arsitektur Transformer :
+   Model deep learning yang mengadopsi mekanisme attention. Mengganti seluruh lapisan RNN sehingga tidak harus memproses data secara berurutan.
+   Dirancang untuk machine translation (terdiri dari encoder & decoder).
+Mekanisme Self-Attention 
+Mekanisme Multi-Head Attention :
+   Mekanisme self-attention yang dihitung beberapa kali dalam arsitektur Transformer secara paralel dan independen.
+   Output dari independen self-attention kemudian digabungkan dan ditransformasikan secara linier ke dalam dimensi tertentu.
+𝑀𝑢𝑙𝑡𝑖𝐻𝑒𝑎𝑑 𝑄,𝐾, 𝑉 = [ℎ𝑒𝑎𝑑1, … , ℎ𝑒𝑎𝑑ℎ]W0
+Model Berbasis Transformer :
+   Model berbasis arsitektur Transformer adalah ‘rahasia’ di balik terobosan mutakhir pada bidang NLP.
+Beberapa model berbasis Transformer yang populer dan mencapai performa tinggi:
+• Bidirectional Encoder Representations from Transformers
+(BERT) oleh Google
+• Generative Pre-trained Transformer (GPT) oleh OpenAI
+• XLNet oleh Google
+BERT: Bidirectional Encoder Representations from Transformers :
+   BERT merupakan arsitektur deep learning yang truly bidirectional sehingga mampu membaca konteks dari kiri-ke-kanan dan kanan-ke-kiri dengan dipelajari oleh jaringan yang sama.
+Arsitektur BERT :
+   BERT terdiri dari tumpukan encoder dari arsitektur transformer (disebut transformer block). Pada paper aslinya, disediakan 2 ukuran model: BERTBASE dan BERTLARGE. 
+BERT Part :
+- Unsupervised Training (BERT Pre-Training)
+- Supervised Training (BERT Fine-Tuning)
+BERT Pre-Trained Model : BERt (original), PantentBERT (patents), CamemBERT (french), dll. 
+Indonesian BERT Pre-Trained Model : BERT Multilingual, IndoBERT Indo4B , IndoBERT - Indonesian Wikipedia, dan IndoBERTweet.
+BERT PreTraining: Masked Language Model : Tutupi (masking) 𝑘% dari kata-kata input secara acak, lalu model akan memprediksi kata-kata yang ditutupi. 
+BERT PreTraining: Next Sentence Prediction : Digunakan untuk mempelajari hubungan antar kalimat.
+BERT Tokenizer :
+• BERT menggunakan WordPiece tokenizer untuk menghasilkan dictionary. 
+• Kata asli dipecah menjadi sub-kata dan karakter yang lebih kecil.
+• Kata-kata yang tidak ada pada dictionary direpresentasikan sebagai subkata dan karakter. 
+BERT Cased vs Uncased :
+Cased → Teks tidak diubah sama sekali.
+Uncased → Teks diubah menjadi lowercase sebelum langkah tokenisasi menggunakan WordPiece. 
+BERT Special Tokens :
+   BERT mewajibkan penggunaan token khusus untuk dapat memahami input dengan benar, antara lain: Token [CLS], Token [SEP], Token [PAD], Token [MASK], dan Token [UNK] 
+Representasi Input BERT :
+- Token embedding menunjukkan id token pada dictionary yang dihasilkan pada proses Tokenizer.
+- Segment embedding menunjukkan urutan kalimat. 
+- Position embedding menunjukkan posisi kata dalam kalimat.
+• Kalimat dapat berupa rentang teks (kata).
+• Urutan (sequences) mengacu pada urutan token input.
+• Setiap token adalah jumlah dari tiga embeddings yang berbeda.
+BERT Fine Tuning :
+   Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya untuk tugas yang berbeda. Sangat erat kaitannya dengan transfer learning.
+BERT Downstream Task : Merujuk pada supervised-learning task yang memanfaatkan pre-trained model.
+Downstream task pada area NLP meliputi:
+• Sequence (text) classification;
+• Question answering;
+• Text generation;
+• Named entity recognition (NER);
+• Summarization;
+• Machine translation.
+BERT Fine Tuning Procedure : 
+   Penulis menyarankan nilai hyperparameter untuk fine tuning. Nilai hyperparameter yang optimal adalah tergantung tugas yang diselesaikan.
+BERT Fine Tuning Scheme :
+Skema fine-tuning BERT untuk tugas klasifikasi dapat dilakukan mengikuti bagan berikut:
+Load Data ->Text Preprocessing -> Load Tokenizer -> Input Formatting -> Load PreTrained Model -> Fine Tuning -> Feed Forward NN -> Output
+Tools :
+Library yang dapat digunakan untuk implementasi arsitektur berbasis Transformer (termasuk BERT):
+- Transformers 
+- Simple Transformers 
+- Fast-Bert 
+Implementasi dapat menggunakan dua framework deep learning: TensorFlow maupun PyTorch.
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Kemudian pada domain NLP, coach juga memberikan tugas resume. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Kamis, 14 April 2022 di hari keempat dan di minggu ke delapan, kegiatanku pada hari itu adalah belajar dengan coach di zoom hanya satu sesi saja lalu belajar mandiri. Belajar dengan coach di hari itu diberikan materi tentang RL - Robotics
+- TD Learning (Recap) : 
+         TD Control : SARSA dan Q-Learning
+- Robotics Overview 
+- ML for Robotics 
+- Turtlebot3 Navigation using DQN
+- SARSA Overview : 
+         SARSA (State - Action - Reward - State - Action)
+         Algoritma SARSA (on- policy TD Control)
+- SARSA Implementation : 
+         Contoh : memahami SARSA pada frozen lake
+- Q-Learning Overview : 
+         Q - Learning - Off policy TD Control
+         Algoritma Q-Learning (off-policy TD Control for estimating 𝜋 ~ 𝜋
+- Q-Learning Implementation 
+- Deep Q Learning Overview : 
+Pada Deep Q Learning kita akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut dengan Deep Q Network / DQN. 
+- Deep Q Learning Implementation : Penerapan DQL pada Cart-Pole 
+- Cart-Pole Environment
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach sebelumnya. 
+   Pada hari Jumat, 15 Apr 2022 di hari kelima dan di minggu kedelapan, libur dalam rangka hari wafat isa almasih. Jadi kegiatanku pada hari itu belajar mandiri di rumah. Belajar mandiri di hari itu belajar materi tentang Unit Testing, Refactoring, dan Debugging. 
+   Unit testing merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program. Untuk  melakukan  unit  testing, pengujian dapat dilakukan secara otomatis dengan menggunakan library tertentu atau API pihak ketiga tertentu. Teknik ini dinamakan dengan test automation.
+Beberapa manfaat dari automated unit testing adalah sebagai berikut:
+1. Mengurangi beban kerja dan memangkas waktu pengujian
+2. Automated unit testing memiliki hasil yang lebih akurat  dibandingkan dengan manual unit testing.
+3. Pemberitahuan awal terkait  dengan bug yang ada; saat  tools pengujian berhenti secara tiba-tiba karena terdapat error, maka bug logika akan terdeteksi
+1.) Penggunaan Docstrings untuk Unit Testing
+   Docstring  adalah  penggunaan  tipe  data  string  yang  ditentukan  dalam  modul  sumber  program. Penggunaan dari docstring adalah untuk mendokumentasikan segmen tertentu dari kode. 
+   flag -m  yaitu menggunakan library doctest dan flag -v atau verbose bertujuan untuk menampilkan semua log pengujian pada module.
+2.) Penggunaan Library unittest
+   Library unittest  merupakan  library  yang  tersedia  dalam  bahasa  pemrograman python  yang bertujuan  untuk  mempermudah unit testing. Unit test dapat dilakukan tanpa menggunakan unittest.main(). 
+   Test  fixtures  merupakan kumpulan langkah yang dilakukan sebelum dan setelah pengujian. setUpModule() dan tear DownModule() merupakan metode module-level fixtures.    setUpModule() dijalankan sebelum sebuah metode dalam modul pengujian. 
+tearDownModule() dijalankan setelah semua metode dalam modul pengujian dijalankan.
+   flag -q  yang memiliki arti quiet mode.
+3.) Membuat Test Packages
+   Dengan adanya test package, kita dapat menjalankan testing dari parent directory. 
+   Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak.Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari  baris kode yang telah dituliskan. Refactoring merupakan sebuah teknik  untuk  membuat  program  kita  semakin efisien  tanpa  mengubah efektifitas. 
+1. For-loop refactoring
+2. Multiple Assignment
+3. F-strings
+4. Fungsi
+   Debugging merupakan proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program.
+   Dalam Python, kita dapat menggunakan perintah “print” untuk mengetahui hasil dalam sebuah program. Namun, perintah “print” memililiki kekurangan, yaitu mengharuskan kita untuk menambahkan perubahan pada program dan harus menjalankan program berulang kali untuk mengetahui variabel, fungsi, atau perubahan-perubahan yang terjadi dalam program. 
+   Python memiliki library yang bernama “pdb”. Pdb merupakan perintah antarmuka sederhana yang dapat menjalankan fungsi.
+   Dalam  pdb,  terdapat  beberapa  perintah  untuk  menjalankan debugging. Berikut  contoh  dari perintah saat menjalankan pdb :
+1. list(l) 
+Berfungsi untuk menunjukkan baris dalam interpreter yang sedang aktif.
+2. up(p) and down(d)
+Berfungsi untuk menavigasi baris.
+3. step(s) and next(n)
+Berfungsi untuk melanjutkan eksekusi aplikasi baris demi baris.
+4. quit atau exit
+Berfungsi untuk keluar dari program.
+   Kemudian setelah selesai belajar mandiri di rumah, kita juga diberikan tugas assessment oleh coach. Lalu kita juga melanjutkan mengerjakan tugas yang diberikan oleh coach.

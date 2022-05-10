@@ -1,0 +1,99 @@
+Mon, 18 Apr
+
+Hari ini pembelajaran kelas Data Science melalui zoom dengan membahas K-Means Clustering:
+•Clustering hampir sama dengan klasifikasi, akan tetapi klasifikasi sudah diketahui variabel kelas/kategorinya, sedangkan clustering harus ditentukan sendiri dari data yang ada.
+• Cluster terbentuk berdasarkan data-data yang dekat dengan centroid cluster tersebut serta jauh dengan centroid dari cluster lainnya. 
+• Clustering akan bekerja dengan baik untuk data yang dapat divisualisasikan dengan bentuk 2-D. 
+• Semakin banyak data, cluster, serta iterasinya maka akan menyebabkan proses komputasi juga semakin besar.
+
+Tue, 19 Apr
+
+Hari ini pembelajaran kelas computer vision melalui zoom dengan membahas Image Segmentation using U-Net:
+• Penjelasan type of segmentation adalah Semantic Segmentation masks road, sheep and grass. dapat mengidentifikasi objek yang berbeda, Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+• Penjelasan mengenai evaluasi, Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar. The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi.
+• Penjelasan mengenai encoder decoder architecture. Lapisan encoder dan decoder berukuran sama, ncoder digunakan untuk mengekstrak fitur,  decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+• Penjelasan mengenai koncolusi yang merupakan proses untuk mendapatkan ukuran output yang lebih kecil. Deconvolution atau Transpose Convolution adalah proses dimana kita ingin upsample image untuk mendapatkan ukuran yang lebih besar.
+• keuntungan dari U-net:
+⮚ Fleksibel dan dapat digunakan untuk tugas rational image masking task
+⮚ Akurasi tinggi (given proper training, dataset, and training time)
+⮚ Tidak mengandung lapisan fully connected layers
+⮚ Lebih cepat dari sliding-window (1-detik per image)
+⮚ Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+⮚ Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda. Kerugian dari U-net:
+⮚ Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+⮚ Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+⮚ Pre-trained models tidak tersedia secara luas (it's too task specific)
+
+Wed, 20 Apr
+
+Hari ini pembelajaran kelas NLP melalui zoom dengan membahas Speech Recognition:
+• Penjelasan Speech Recognition atau yang biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+• Perbedaan speech recognition dengan voice recognition. Pengenalan ucapan (Speech Recognition) digunakan untuk mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan. Sedangkan pengenalan suara (Voice Recognition) adalah teknologi untuk mengidentifikasi suara individu.
+• Penjelasan Markov Model, ditemukan oleh Andrey Markov. Ketika diberi inputan pada keadaan saat ini, maka keadaan yang akan datang dapat diprediksi.
+• Algoritma pada Speech Recognition harus mampu memproses dan mengubah audio menjadi teks. Adapun poin penting yang perlu diperhatikan adalah gaya bicara, bahasa, dialek & Aksen, perbedaan frasa.
+
+Thu, 21 Apr
+
+Hari ini pembelajaran kelas RL melalui zoom membahas review dan forum group discussion:
+RL environment:
+• Penjelasan mengenai interaksi agent, memiliki tujuan dari agent untuk memaksimalkan reward kumulatif, disebut return. Return merupakan penjumlahan dari reward-reward yang terdiskon
+• Penjelasan mengenai policy  merupakan algoritme/serangkaian aturan yang mendeskripsikan bagaimana agent mengambil keputusan-keputusan.
+• Penjelasan mengenai value function, Value function berguna untuk mengevaluasi posisi agent, baik atau buruk, pada state yang diketahui. Misal dalam game FrozenLake, agent dapat mengetahui seberapa dekat dengan tujuan. Value function mengukur apakah state yang diberikan adalah yang diinginkan oleh agent, yaitu kedekatannya dengan expected value. 
+• Q-Learning merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang.v 
+• Penjelasan Deep Q Network adalah sebuah NN yang menerima states yg diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN ini adalah untuk menghasilkan aproksimasi Q Function yang optimal.
+• Penjelasan Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot, Robot merupalan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak menyerupai manusia dalam penampilan atau melakukan fungsi dengan cara yang mirip manusia.
+
+Fri, 22 Apr
+
+Hari ini pembelajaran kelas technical melalui zoom dengna membahas web development dengan Heroku:
+• Penjelasan mengenai Heroku yang merupakan salah satu web hosting berbasis cloud, biasanya heroku digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain - lain.
+• Penjelasan mengenai langkah-langkah deploy dan uploud ke Heroku melalui tool git.
+• Penjelasan Gunicorn (Green Unicorn) adalah sebuah WSGI (Web Server Gateway Interface) HTTP Server untuk bahasa pemrograman Python. WSGI merupakan application server yang bertanggungjawab untuk mengolah data dengan mengeksekusi kode yang ada di server.
+
+What did you learn this week?
+
+SENIN:
+Hari ini pembelajaran kelas Data Science melalui zoom dengan membahas K-Means Clustering:
+•Clustering hampir sama dengan klasifikasi, akan tetapi klasifikasi sudah diketahui variabel kelas/kategorinya, sedangkan clustering harus ditentukan sendiri dari data yang ada.
+• Cluster terbentuk berdasarkan data-data yang dekat dengan centroid cluster tersebut serta jauh dengan centroid dari cluster lainnya. 
+• Clustering akan bekerja dengan baik untuk data yang dapat divisualisasikan dengan bentuk 2-D. 
+• Semakin banyak data, cluster, serta iterasinya maka akan menyebabkan proses komputasi juga semakin besar.
+SELASA:
+Hari ini pembelajaran kelas computer vision melalui zoom dengan membahas Image Segmentation using U-Net:
+• Penjelasan type of segmentation adalah Semantic Segmentation masks road, sheep and grass. dapat mengidentifikasi objek yang berbeda, Instance Segmentation masks different sheep. dapat mengidentifikasi berbagai contoh objek.
+• Penjelasan mengenai evaluasi, Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar. The Intersection Over Union(IoU) adalah metrik yang memberi tahu nilai(persen) tumpang tindih antara target mask dan output yang di prediksi.
+• Penjelasan mengenai encoder decoder architecture. Lapisan encoder dan decoder berukuran sama, ncoder digunakan untuk mengekstrak fitur,  decoder akan menggunakan fitur yang sudah diektrak untuk membuat mask predict pada original picture.
+• Penjelasan mengenai koncolusi yang merupakan proses untuk mendapatkan ukuran output yang lebih kecil. Deconvolution atau Transpose Convolution adalah proses dimana kita ingin upsample image untuk mendapatkan ukuran yang lebih besar.
+• keuntungan dari U-net:
+⮚ Fleksibel dan dapat digunakan untuk tugas rational image masking task
+⮚ Akurasi tinggi (given proper training, dataset, and training time)
+⮚ Tidak mengandung lapisan fully connected layers
+⮚ Lebih cepat dari sliding-window (1-detik per image)
+⮚ Terbukti menjadi tool segmentasi yang sangat bagus dalam skenario dengan data terbatas
+⮚ Berhasil mencapai kinerja yang sangat baik pada aplikasi segmentasi biomedis yang berbeda. Kerugian dari U-net:
+⮚ Gambar yang lebih besar membutuhkan memori GPU yang tinggi.
+⮚ Membutuhkan banyak waktu untuk berlatih (relatively many layers)
+⮚ Pre-trained models tidak tersedia secara luas (it's too task specific)
+
+RABU:
+Hari ini pembelajaran kelas NLP melalui zoom dengan membahas Speech Recognition:
+• Penjelasan Speech Recognition atau yang biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+• Perbedaan speech recognition dengan voice recognition. Pengenalan ucapan (Speech Recognition) digunakan untuk mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan. Sedangkan pengenalan suara (Voice Recognition) adalah teknologi untuk mengidentifikasi suara individu.
+• Penjelasan Markov Model, ditemukan oleh Andrey Markov. Ketika diberi inputan pada keadaan saat ini, maka keadaan yang akan datang dapat diprediksi.
+• Algoritma pada Speech Recognition harus mampu memproses dan mengubah audio menjadi teks. Adapun poin penting yang perlu diperhatikan adalah gaya bicara, bahasa, dialek & Aksen, perbedaan frasa.
+
+KAMIS:
+Hari ini pembelajaran kelas RL melalui zoom membahas review dan forum group discussion:
+RL environment:
+• Penjelasan mengenai interaksi agent, memiliki tujuan dari agent untuk memaksimalkan reward kumulatif, disebut return. Return merupakan penjumlahan dari reward-reward yang terdiskon
+• Penjelasan mengenai policy  merupakan algoritme/serangkaian aturan yang mendeskripsikan bagaimana agent mengambil keputusan-keputusan.
+• Penjelasan mengenai value function, Value function berguna untuk mengevaluasi posisi agent, baik atau buruk, pada state yang diketahui. Misal dalam game FrozenLake, agent dapat mengetahui seberapa dekat dengan tujuan. Value function mengukur apakah state yang diberikan adalah yang diinginkan oleh agent, yaitu kedekatannya dengan expected value. 
+• Q-Learning merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang.v 
+• Penjelasan Deep Q Network adalah sebuah NN yang menerima states yg diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN ini adalah untuk menghasilkan aproksimasi Q Function yang optimal.
+• Penjelasan Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot, Robot merupalan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak menyerupai manusia dalam penampilan atau melakukan fungsi dengan cara yang mirip manusia.
+
+JUMAT:
+Hari ini pembelajaran kelas technical melalui zoom dengna membahas web development dengan Heroku:
+• Penjelasan mengenai Heroku yang merupakan salah satu web hosting berbasis cloud, biasanya heroku digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain - lain.
+• Penjelasan mengenai langkah-langkah deploy dan uploud ke Heroku melalui tool git.
+• Penjelasan Gunicorn (Green Unicorn) adalah sebuah WSGI (Web Server Gateway Interface) HTTP Server untuk bahasa pemrograman Python. WSGI merupakan application server yang bertanggungjawab untuk mengolah data dengan mengeksekusi kode yang ada di server.

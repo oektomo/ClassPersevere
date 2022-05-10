@@ -1,0 +1,45 @@
+Mon, 21 Mar
+
+Pada hari senin, 21 maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science, matematika for data science, tipe data, data cleaning, data transformation, data reduction, supervised learning dan unsupervised learning. Kemudian di tutup dengan Quiz.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing, sebelum masuk kemateri sesi dua di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang NLP. Kemudian masuk kemateri NLP tentang, introduction to NLP, text representation, text classification, text summarization, word embedding techniques, deep learning in NLP, transfor model, speech recognition, BERT dan GPT.
+
+Tue, 22 Mar
+
+Pada hari senin, 22  maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision sebelum masuk kemateri sesi pertama di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang CV. Kemudian masuk kemateri CV tentang introduction computer vision, memahami trend penggunaan computer vision, memahami dasar dasar pengolahan citra dengan Pustaka OpenCV, memahami representasi matrixs dan ruang warna citra, dan memahami perbaikan citra.
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Reinforcement Learning, sebelum masuk kemateri sesi dua di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang RL. Kemudian masuk kemateri RL tentang, introduction to RL, sejarah RL, algoritma RL, aplikasi RL dan elements dan environment dari RL.
+
+Wed, 23 Mar
+
+Pada hari Rabu, 23 Maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science mempelajari tentang data visualization with Tableau, apa itu visualisasi data, macam-macam grafik, apa itu tableau, demo tableau, latihan tableau.
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari tentang text representation memahami proses feature extraction menggunakan BoW/ count vectorizer dan TF-IDF, mengetahui jenis-jenis N-gram dan pengunaanya, mampu menggunakan feature filtering, mengetahui jenis-jenis feature selection, mampu menggunakan dan memanfaatkan word cloud.
+
+Thu, 24 Mar
+
+Kamis, 24 Maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision mempelajari tentang introduction of computer vision, penerapan computer vision dan hands on coding.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas Technical mempelajari tentang memahami apa itu Git dan Github, mengetahui konsep dasar source code management, mengetahui operasi SCM (Local dan Remote), membuat local dan remote repository untuk berkolaborasi dengan developer lain.
+
+Fri, 25 Mar
+
+Jumat, 25 Maret 2022 ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas Reinforcement Learning mempelajari tentang mengetahui Markov Decision Proses, bisa menyusun MDP dalam merumuskan RL secara formal, menentukan value sebuah policy, mencoba membuat dynamic programming tipe value iteration.
+
+Kemudian untuk sesi kedua pukul 13.00 - 15.00 Mini Workshop : Implementation of AI in Spatial Data kemudian di lanjutkan pukul 15.30 - 16.30 WIB membahas Technical mempelajari tentang memahami apa itu SQL, mengetahui penggunaan perintah Data Definition Language (DDL), mengetahui penggunaan perintah Data Manipulation Language (DML), dapat melakukan filtering dan subsetting data dengan beberapa operator, dapat melakukan pengurutan data dan pengelompokan data dengan perintah ORDER BY dan GROUP BY.
+
+What did you learn this week?
+
+Senin, 21 maret 2022 
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science, matematika for data science, tipe data, data cleaning, data transformation, data reduction, supervised learning dan unsupervised learning. Kemudian di tutup dengan Quiz. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing, sebelum masuk kemateri sesi dua di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang NLP. Kemudian masuk kemateri NLP tentang, introduction to NLP, text representation, text classification, text summarization, word embedding techniques, deep learning in NLP, transfor model, speech recognition, BERT dan GPT.
+Selasa, 22 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision sebelum masuk kemateri sesi pertama di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang CV. Kemudian masuk kemateri CV tentang introduction computer vision, memahami trend penggunaan computer vision, memahami dasar dasar pengolahan citra dengan Pustaka OpenCV, memahami representasi matrixs dan ruang warna citra, dan memahami perbaikan citra. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Reinforcement Learning, sebelum masuk kemateri sesi dua di beri pre-test untuk mengukur seberapa jauh pengetahuan tentang RL. Kemudian masuk kemateri RL tentang, introduction to RL, sejarah RL, algoritma RL, aplikasi RL dan elements dan environment dari RL.
+Rabu, 23  Maret 2022 
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science mempelajari tentang data visualization with Tableau, apa itu visualisasi data, macam-macam grafik, apa itu tableau, demo tableau, latihan tableau.
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari tentang text representation memahami proses feature extraction menggunakan BoW/ count vectorizer dan TF-IDF, mengetahui jenis-jenis N-gram dan pengunaanya, mampu menggunakan feature filtering, mengetahui jenis-jenis feature selection, mampu menggunakan dan memanfaatkan word cloud.
+Kamis, 24 Maret 2022 
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision mempelajari tentang introduction of computer vision, penerapan computer vision dan hands on coding.
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas Technical mempelajari tentang memahami apa itu Git dan Github, mengetahui konsep dasar source code management, mengetahui operasi SCM (Local dan Remote), membuat local dan remote repository untuk berkolaborasi dengan developer lain.
+Jumat, 25 Maret 2022 
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas Reinforcement Learning mempelajari tentang mengetahui Markov Decision Proses, bisa menyusun MDP dalam merumuskan RL secara formal, menentukan value sebuah policy, mencoba membuat dynamic programming tipe value iteration.
+Kemudian untuk sesi kedua pukul 13.00 - 15.00 Mini Workshop : Implementation of AI in Spatial Data kemudian di lanjutkan pukul 15.30 - 16.30 WIB membahas Technical mempelajari tentang memahami apa itu SQL, mengetahui penggunaan perintah Data Definition Language (DDL), mengetahui penggunaan perintah Data Manipulation Language (DML), dapat melakukan filtering dan subsetting data dengan beberapa operator, dapat melakukan pengurutan data dan pengelompokan data dengan perintah ORDER BY dan GROUP BY.

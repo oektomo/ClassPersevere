@@ -1,0 +1,231 @@
+Mon, 28 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang dan tenang.
+
+Apa yang dipelajari hari ini?
+- Tidak ada.
+Sekarang Hari Libur Nasional memperingati Isra Miraj Nabi Muhammad SAW dan Cuti Bersama Pada Tanggal 28 Februari 2022/27 Rajab.
+Dihari libur ini, Saya hanya melatih otak untuk menggunakan Python/Jupyter dan Seling waktu untuk bermain game supaya tetap fresh saat belajar lagi.
+
+Tue, 1 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Module I Introduction to Everything.
+- Materi tentang Python Introduction.
+- Apa itu Python? --> Bahasa Pemograman open-source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas.
+` Compiler v/s Interpreter -> banyak bahasa pemograman yang langsung diinterpretasi/dimengerti oleh mesin tanpa kompilasi.
+- Siapa yang Menggunakan Python? -> Youtube, Google, Dropbox, RoseberryPi, BitTorrent, NASA, NSA, NETFLIX.
+- Mengapa Python? --> Sederhana dan Elegan, Powerful, Free, Dukungan Komunitas.
+- Sesi 1 Kita Akan Belajar tentang Python di W3Schools dari Home hingga Dictionaries.
+- Saya menggunakan Jupyter untuk belajar Sesi 1 dan ada beberapa penjelasan juga.
+- Sejarah Python --> Diciptakan oleh Guido van Rossum awalnya diberi nama Monty Python bersifat Scallable, Object Oriented dan Functional. 
+- Python 2.x VS Python 3.x
+- Aplikasi-Aplikasi dari Python --> Web Development, Software Testing, Web Scraping, dan Data Analysis.
+- Distribusi Python --> Berisi penerjemah (Interpreter) dan pustaka standar (basic library) sebagai distribusi python.
+- Python IDEs(Integrated Development Environment) --> Editor kode yang dilengkapi beberapa fitur seperti  linting kode, debugging, dan pengujian.
+
+Link Tugas Mandiri W3Schools : 
+https://drive.google.com/drive/folders/1FKQ-I-tvb7gGDoN6li1x3AW9WOgmeyVa?usp=sharing
+
+Sesi II :
+- Struktur Data --> Cara untuk menyimpan data dalam bahasa pemograman
+- Python --> Memiliki 4 tipe data primitif yang tidak dapat diubah yaitu Integer, Float, String, dan Boolean.
+- Python memiliki 4 Tipe data non primitif yaitu List, Tuple, Dictionary, dan Set.
+- Tuple tidak dapat diubah sedangkan List, Dictonary dan Set dapat diubah.
+- Kita dapat mengetikan tipe data primitif dari satu ke yang lain.
+- Kuis Sesi II :
+Pertanyaan : 
+Saat mengembalikan aplikasi kita ingin agar data bisa diproses
+lebih cepat, dan membuat data hanya bisa dibaca saja, Tipe Data
+yang dipilih untuk menyimpan data tersebut?
+a. List
+b. Tuple
+c. Dictionary
+d. Set
+Jawaban : a. List
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives --> Diakhir  modul ini, kita akan dapat :
+Memahami kenapa bahasa pemograman Python itu popular.
+Memahami berbagai tools untuk bahasa pemograman Python.
+Mengenal Jupyter Notebooks.
+Mengenal sintaks umum di bahasa pemograman Python.
+- Python digunakan untuk:
+Pengembangan web (sisi server), Pengembangan perangkat lunak, Matematika, Skrip sistem.
+- Mayoritas distribusi python yang populer :
+Anaconda, Enthought Canopy, ActivePython, WinPython.
+- Ada beberapa editor kode dan IDE yang populer :
+Jupyter Notebook, Spyder, Pycharm, Atom, dan Google Colab.
+- Mengenal Jupyter Notebook
+Jupyter Notebook, Jupyter Notebook App, Kernel.
+
+Wed, 2 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+Mempelajari Github dan Inisialisasi Git ke Github.
+Cara Membuat Readme.md dan .gitignore.
+Cara Membuat Branch.
+git itu dibuat oleh Linus Torvald.
+tahukah anda mengapa Linus membuat git?
+tahukah anda perusahaan mana yang memiliki git? --> Git dimiliki oleh Microsoft.
+github itu Closed Source dan Open Source.
+- Module I Itroduction to Everything
+- Section Python operators & control flow
+- Python Operators --> Arithmetic Operator, Comparison Operator, Logical Operators, Identity Operators, Membership Operators.
+` Nominator dan Denominator adalah Operand.
+- Input Function--> untuk membuat sebuah inputan dan mengambil data dari user.
+- Python Bitwise Operators --> Beroperasi dengan adanya bilangan Binary.
+- Menonton video Orbit Guru di Minggu ke 2 :
+Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel.
+
+Sesi II :
+- Module I Itroduction to Everything
+- Masih di Section Python operators & control flow
+- Control Flow if/else
+- Control Loop: For Loop
+
+Inpirasi baru apa yang kamu dapat hari ini?
+Cara Update github di cmd.
+Flowchart Control Flow If/Else
+
+Thu, 3 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini sangat senang dan istirahat sejenak.
+
+Apa yang dipelajari hari ini?
+Tidak ada yang dipelajari hari ini.
+Libur tanggal merah Nyepi 3 Maret 2022,, hanya mengerjakan tugas yang diberikan coach.
+
+Fri, 4 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan saat ini sedang senang dan tenang.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- String manipulation menggunakan build-in methods.
+- Module 1 Introduction to Everything.
+- Section tentang Python Function, String Manipulation & File Handling.
+- Python functions --> blok kode terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan sebuah tindakan/action.
+- User defined functions --> Python memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+- Sekaligus belajar cara mengirim file dari Google Colab ke Github.
+- Built-in functions --> Fungsi Python yang sudah tersedia sejak melakukan instalasi Python tanpa harus membuat fungsi lagi.
+- String manipulation in python --> Dalam python, String adalah array byte yang mewakili karakter Unicode.
+- String Formating --> memungkinkan kita untuk menambahkan item ke dalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.
+
+Sesi II :
+- Module 1 Introduction to Everything.
+- Masih di Section tentang Python Function, String Manipulation & File Handling.
+- Menonton video Orbit Guru di Minggu ke 2 :
+Berkenalan lebih dekat dengan jupyter notebook, Berkenalan dengan google colab, Numbers Tipe Data, dan Variabel.
+- Generators --> Jenis fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan urutan nilai.
+- Map dan Filter --> 
+map akan membuat array baru dengan mengubah setiap elemen dalam array, secara terpisah. 
+filter membuat array baru dengan menghapus elemen yang bukan miliknya.
+- Lambda Functions --> Fungsi lambda juga bisa disebut anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana.
+- File Handling with python --> File Handling merupakan elemen penting dalam pemrograman termasuk di Python. Terkadang kita ingin membaca file untuk mengolah data atau menulis ke dalam file untuk menyimpan data.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, diakhir modul kita akan dapat :
+Menggunakan build in function yang populer di Python, juga membuat user-defined functions.
+Memahami generators, menggunakan map dan filter functions.
+Memahami string manipulation.
+Memahami bagaimana menggunakan mading, writing, dan appending data ke sebuah file di python.
+- Python Function
+Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.'
+- Build-in function
+ada 2 Cara dari Build function in Python : Standard dan Operasi Matematika.
+ada 2 Type Build Function : Type Conversation dan Utility based function.
+- User Defined Function
+Fungsi ini bekerja dari metode utama untuk menata kode dan dapat digunakan kembali dalam python.
+Blok pernyataan yang menerima beberapa argumen, melakukan beberapa fungsi, dan menyediakan output.
+Keyword def digunakan untuk membuat fungsi yang ditentukan pengguna dengan python.
+Hasil fungsi ini dinyatakan dengan return().
+- String Manipulation
+String baris tunggal  dapat dibuat menggunakan tanda kutip tunggal dan ganda, String multiline dapat dibuat menggunakan tanda kutip tiga.
+Python menyediakan banyak seperangkat operator, fungsi, dan metode untuk bekerja dengan string.
+- File Handling
+Python mempunyai fungi untuk menangani file seperti menulis, membaca, merubah dan menghapus file
+Fungsi awal untuk dapat melakukan operasi file adalah open() yang mempunyai 2 parameter yaitu filename dan mode.
+filename adalah nama file yang ingin diproses sedangkan mode adalah metode operasi yang ingin dilakukan. 
+Ada 3 jenis metode operasi dasar di Python yaitu :
+* r =	read - Untuk membaca file
+* a =	append - Untuk menambah data
+* w =	write - Untuk menulis data
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang dan santai.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 2 Kali ini banyak sekali yang belum dipahami dari materi sebelum-sebelumnya.
+
+- Senin, 28 Februari 2022
+Hari Libur Nasional memperingati Isra Miraj Nabi Muhammad SAW dan Cuti Bersama Pada Tanggal 28 Februari 2022/27 Rajab.
+Dihari libur Nasional, Saya hanya melatih otak untuk menggunakan Python/Jupyter dan Seling waktu untuk bermain game supaya tetap fresh saat belajar lagi.
+
+- Selasa, 1 Maret 2022
+1. Learning Objectives --> Diakhir  modul ini, kita akan dapat :
+Memahami kenapa bahasa pemograman Python itu popular.
+Memahami berbagai tools untuk bahasa pemograman Python.
+Mengenal Jupyter Notebooks.
+Mengenal sintaks umum di bahasa pemograman Python.
+2. Python digunakan untuk:
+Pengembangan web (sisi server), Pengembangan perangkat lunak, Matematika, Skrip sistem.
+Mayoritas distribusi python yang populer :
+Anaconda, Enthought Canopy, ActivePython, WinPython.
+3. Ada beberapa editor kode dan IDE yang populer :
+Jupyter Notebook, Spyder, Pycharm, Atom, dan Google Colab.
+4. Mengenal Jupyter Notebook
+Jupyter Notebook, Jupyter Notebook App, Kernel.
+
+- Rabu, 2 Maret 2022
+Cara Update github di cmd.
+Flowchart Control Flow If/Else
+
+- Kamis, 3 Maret 2022
+Libur tanggal merah Hari Nyepi 3 Maret 2022, hanya mengerjakan tugas yang diberikan coach.
+
+- Jum'at, 4 Maret 2022
+1.Learning Objectives, diakhir modul kita akan dapat :
+Menggunakan build in function yang populer di Python, juga membuat user-defined functions.
+Memahami generators, menggunakan map dan filter functions.
+Memahami string manipulation.
+Memahami bagaimana menggunakan mading, writing, dan appending data ke sebuah file di python.
+2. Python Function
+Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi.'
+3. Build-in function
+ada 2 Cara dari Build function in Python : Standard dan Operasi Matematika.
+ada 2 Type Build Function : Type Conversation dan Utility based function.
+4. User Defined Function
+Fungsi ini bekerja dari metode utama untuk menata kode dan dapat digunakan kembali dalam python.
+Blok pernyataan yang menerima beberapa argumen, melakukan beberapa fungsi, dan menyediakan output.
+Keyword def digunakan untuk membuat fungsi yang ditentukan pengguna dengan python.
+Hasil fungsi ini dinyatakan dengan return().
+5. String Manipulation
+String baris tunggal  dapat dibuat menggunakan tanda kutip tunggal dan ganda, String multiline dapat dibuat menggunakan tanda kutip tiga.
+Python menyediakan banyak seperangkat operator, fungsi, dan metode untuk bekerja dengan string.
+6. File Handling
+Python mempunyai fungi untuk menangani file seperti menulis, membaca, merubah dan menghapus file
+Fungsi awal untuk dapat melakukan operasi file adalah open() yang mempunyai 2 parameter yaitu filename dan mode.
+filename adalah nama file yang ingin diproses sedangkan mode adalah metode operasi yang ingin dilakukan. 
+Ada 3 jenis metode operasi dasar di Python yaitu :
+* r =	read - Untuk membaca file
+* a =	append - Untuk menambah data
+* w =	write - Untuk menulis data

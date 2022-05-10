@@ -1,0 +1,64 @@
+Mon, 11 Apr
+
+Senin, 11 April 2022 
+Hanya 1 sesi di mulai jam 08.00 -11.30 WIB. Membahas tentang Data Science mempelajari tentang Mempelajari Deep Learning Approach, pendekatan model time series, statistic approach vs deep learning approach, deep learning architecture, operasi RNN, LSTM, GRU, operasi Element Wise Product, operasi element wise addition, sigmoid activation function, tanh activation function,  recurrent neural network, convolution neural network, CNN vs RNN, RNN with Vanishing Gradient Problem, Gradient Descent Problem, LSTM & GRU, Deep Learning for Forecasting, Evaluation Metrics, dan melakukan live code dengan hands on yang diberikan.
+
+
+Tue, 12 Apr
+
+Selasa, 12 April 2022 
+Hanya 1 sesi di mulai jam 08.00 -11.30 WIB. Membahas tentang Computer Vision mempelajari tentang Introduction of Autoencoder & Image Denoising.
+Autoencoder Neural Network : Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+Component of Autoencoders terdapat 3 bagian Component yaitu 
+•	Encoder 
+•	Code
+•	Decoder
+Properties of Autoencoders terdapat 3 bagian Properti yaitu 
+•	Data-specific
+•	Lossy
+•	Unsupervised.
+Hyperparameters of Autoencoders dibagi mejadi 4 bagian yaitu
+•	Code Size 
+•	Number of Layers 
+•	Loss Function 
+•	Number of Node per Layers.
+ Arsitecture of Autoencoders.
+ Loss Function of Autoencoders.
+ Denoising Autoencoders.
+ Image Reconstruction, Coloring dan Noise Reduction.
+ Feature Variation.
+
+Wed, 13 Apr
+
+Rabu, 13 April 2022 
+Hanya 1 sesi di mulai jam 08.00 -11.30 WIB. Membahas tentang Natural Language Processing mempelajari tentang Section Transfer Learning for NLP - Tranformer & BERT
+•	Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+•	Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+•	Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+•	Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+•	BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+•	Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+•	Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+Thu, 14 Apr
+
+Kamis, 14 April 2022 
+Hanya 1 sesi di mulai jam 08.00 -11.30 WIB. Membahas tentang Reinforcement Learning mempelajari tentang Bagian Robotics.
+•	Implementasi tentang Cartpole.
+•	SARSA (State-Action-Reward-State-Action).
+•	Deep Q Learning.
+•	State yang tersedia dari env.
+•	Penerapan DQL pada Cart-Pole.
+•	Contoh Implementasi DQL.
+
+Fri, 15 Apr
+
+Libur memperingati kenaikan Isa Al-Masih, dan Self Learning Technical.
+
+What did you learn this week?
+
+Hari senin mempelajari deep learning approach 
+Hari selasa mempelajari introduction of autoencoder & image denoising
+Hari rabu mempelajari tentang tranformer & BERT
+Hari kamis mempelajari tentang bagian robotics 
+Hari jumat libur

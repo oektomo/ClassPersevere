@@ -1,0 +1,61 @@
+Mon, 7 Mar
+
+Hari ini belajar mengenai Artificial Intelligent, kemudian membahas apa itu machine learning, apa saja yang dipelajari di machine learning serta tools yang ada di machine learning.
+
+Tue, 8 Mar
+
+Hari ini belajar mengenai matematika untuk AI. adapun beberapa pokok materinya adalah Probabilitas atau peluang, matriks dan vektor
+
+Wed, 9 Mar
+
+Hari ini belajar Artificial Neural Networks atau Jaringan syaraf Tiruan. ANN adalah paradigma pemrorsesan informasi yang terinspirasi dari cara kerja sistem saraf (otak) manusia dalam memproses informasi. Kelebihan neural network diantaranya
+1. kemampuannya berguna untuk robotika dan sistem pengenalan pola
+2. JST memiliki potensi toleransi kesalahan yang tinggi
+3. Keluaran ANN tidak sepenuhnya dibatasi oleh masukkan dan hasil yang diberikan kepada mereka pada awalnya oleh sistem pakar
+4. ANN mampu mendebug atau mendiagnosis jaringan sendiri
+5. Sistem non linear yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal.
+
+Thu, 10 Mar
+
+Saya belajar mengenai data analisis. adapun beberapa pembahasannya mengenai :
+-Algoritma adalah metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik untuk menghitung sebuah fungsi.
+-Flow adalah gambaran arus yang diproses dari input menuju sebuah output tertentu. Fokus pada arus informasi, asal dan tujuan data, hingga bagaimana data tersebut disimpan.
+-System map adalah sebuah diagram yang bertujuan untuk memahami masalah yang kompleks, dengan berbagai faktor yang saling mempengaruhi.
+-AI project cycle : Problem scoping->data acqusition->data exploration->modelling->evaluation->deployment.
+
+Fri, 11 Mar
+
+Object oriented programming adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual. OOPs terminology :
+-Object : Instance untuk dari struktur data yang ditentukan oleh kelasnya. Terdiri dari anggota data dan  metode.
+-Instance : Objek individu dari kelas tertentu.
+-Method : Jenis fungsi khusus yang didefinisikan di dalam kelas.
+-Constructor method : init() adalah keyword untuk membuat constructor. Method yang selalu dijalankan ketika kelas dibuat.
+-Class variable : Variabel yang dibagikan oleh semua instance kelas. Didefinisikan di dalam kelas tetapi di luar metode kelas manapun.
+-Instance variable : Variabel yang didefinisikan di dalam methon dan hanya dimiliki oleh instance kelas saat ini. Biasanya diakses menggunakan keyword self.
+Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain.
+Python modules adalah file dengan ekstensi .py yang berisi kode python yang dapat diimpor ke dalam program python lain.
+
+What did you learn this week?
+
+Belajar mengenai Artificial Intelligent, kemudian membahas apa itu machine learning, apa saja yang dipelajari di machine learning serta tools yang ada di machine learning.
+Belajar mengenai matematika untuk AI. adapun beberapa pokok materinya adalah Probabilitas atau peluang, matriks dan vektor
+Belajar Artificial Neural Networks atau Jaringan syaraf Tiruan. ANN adalah paradigma pemrorsesan informasi yang terinspirasi dari cara kerja sistem saraf (otak) manusia dalam memproses informasi. Kelebihan neural network diantaranya
+1. kemampuannya berguna untuk robotika dan sistem pengenalan pola
+2. JST memiliki potensi toleransi kesalahan yang tinggi
+3. Keluaran ANN tidak sepenuhnya dibatasi oleh masukkan dan hasil yang diberikan kepada mereka pada awalnya oleh sistem pakar
+4. ANN mampu mendebug atau mendiagnosis jaringan sendiri
+5. Sistem non linear yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal.
+Belajar mengenai data analisis. adapun beberapa pembahasannya mengenai :
+-Algoritma adalah metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik untuk menghitung sebuah fungsi.
+-Flow adalah gambaran arus yang diproses dari input menuju sebuah output tertentu. Fokus pada arus informasi, asal dan tujuan data, hingga bagaimana data tersebut disimpan.
+-System map adalah sebuah diagram yang bertujuan untuk memahami masalah yang kompleks, dengan berbagai faktor yang saling mempengaruhi.
+-AI project cycle : Problem scoping->data aqusition->data exploration->modelling->evaluation->deployment.
+Object oriented programming adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual. OOPs terminology :
+-Object : Instance untuk dari struktur data yang ditentukan oleh kelasnya. Terdiri dari anggota data dan  metode.
+-Instance : Objek individu dari kelas tertentu.
+-Method : Jenis fungsi khusus yang didefinisikan di dalam kelas.
+-Constructor method : init() adalah keyword untuk membuat constructor. Method yang selalu dijalankan ketika kelas dibuat.
+-Class variable : Variabel yang dibagikan oleh semua instance kelas. Didefinisikan di dalam kelas tetapi di luar metode kelas manapun.
+-Instance variable : Variabel yang didefinisikan di dalam methon dan hanya dimiliki oleh instance kelas saat ini. Biasanya diakses menggunakan keyword self.
+Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas lain.
+Python modules adalah file dengan ekstensi .py yang berisi kode python yang dapat diimpor ke dalam program python lain.

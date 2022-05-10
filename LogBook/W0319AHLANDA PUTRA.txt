@@ -1,0 +1,34 @@
+Mon, 7 Mar
+
+Mengenal ML, Deep learning, Data science, NLP, Reinforcement learning, Cloud Computing untuk AI,
+
+Tue, 8 Mar
+
+Belajar Math for AI tentang Aljabar linier, Matriks, Vektor, Nilai dan Vektor eigen. 
+Vektor memiliki keduanya, besar dan arah, tetapi skalar hanya memiliki besaran. Persamaan vektor terjadi hanya jika besar dan arah dua vektor dari jenis yang sama adalah sama, tetapi dalam kasus skalar, persamaan besaran sudah cukup.
+Nilai Eigen () adalah nilai karakteristik dari suatu matriks berukuran n x n, sementara vektor Eigen adalah vektor kolom bukan nol yang bila dikalikan dengan suatu matriks berukuran n x n akan menghasilkan vektor lain yang memiliki nilai kelipatan dari vektor Eigen
+
+Wed, 9 Mar
+
+Mempelajari ML, kelebihan dan kekurangan . Konsep AI, ML, dan DL.
+Artifical Neural Network,mengadopsi mekanisme berpikir sebuah sistem atau aplikasi yang menyerupai otak manusia, baik untuk pemrosesan berbagai sinyal elemen yang diterima, toleransi terhadap kesalahan/ error, dan juga parallel processing. 
+
+Thu, 10 Mar
+
+Mengenal  AI project Cycle, Problem scoping, data acquisition, Data exploration, Modeling, Evaluation, Deployment. 
+AI Project Cycle adalah Siklus / urutan Proyek AI‎‎ yang mendefinisikan setiap langkah yang harus diambil organisasi untuk memanfaatkan / mendapatkan nilai (Moneter atau lainnya) dari Proyek AI itu untuk mendapatkan lebih banyak ROI (Return on Investment).
+
+Fri, 11 Mar
+
+Mengenal OOP dalam Python, object, instance, method, Construct method, Class variabel, Instance variabel.
+Pemrograman berorientasi objek, atau OOP singkatnya, adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga sifat dan perilaku digabungkan menjadi objek individual.
+
+What did you learn this week?
+
+Mengenal ML, Deep learning, Data science, NLP, Reinforcement learning, Cloud Computing untuk AI,
+Belajar Math for AI tentang Aljabar linier, Matriks, Vektor, Nilai dan Vektor eigen. 
+Mempelajari ML, kelebihan dan kekurangan . Konsep AI, ML, dan DL
+Mengenal  AI project Cycle, Problem scoping, data acquisition, Data exploration, Modeling, Evaluation, Deployment. 
+AI Project Cycle adalah Siklus / urutan Proyek AI‎‎ yang mendefinisikan setiap langkah yang harus diambil organisasi untuk memanfaatkan / mendapatkan nilai (Moneter atau lainnya) dari Proyek AI itu untuk mendapatkan lebih banyak ROI (Return on Investment).
+Mengenal OOP dalam Python, object, instance, method, Construct method, Class variabel, Instance variabel.
+Pemrograman berorientasi objek, atau OOP singkatnya, adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga sifat dan perilaku digabungkan menjadi objek individual.

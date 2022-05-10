@@ -1,0 +1,211 @@
+Mon, 21 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang sekali.
+
+Apa yang kalian pelajari hari ini?
+- Hanya perkenalan dari Orbit dan perkenalan kelas Persevere.
+- Module I Introduction to Everything
+- Materi tentang A Brief Introduction About Artificial Intelligence pada Section I
+Section I pada materi kali ini :
+a. Apa itu Orbit?
+b. Learning Objectives
+c. About the Program
+d. Jam Kerja Peserta Orbitian
+e. Statistic Data
+f. Apa itu Artificial Intelligence?
+g. Bagaimana mesin bisa menjadi cerdas dan mengalahkan manusia?
+h. Tujuan Khusus dan Tujuan Umum Mesin yang dikelola manusia
+
+Tue, 22 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini senang.
+
+Apa yang dipelajari hari ini?
+- Saya mempelajari tentang Course : Python Orbit Student.
+Course Video Minggu ke 1 : Apa itu Python part.01, Python Frame Work, Hello World Python, Introduction Fix, Tambahan 1.
+- Menginstall Python dan Jupyter melalui CMD.
+- Module I Introduction to Everything
+- Materi tentang AI in Industry
+` Perusahaan yang populer saat ini?
+` Persamaan dari perusahaan yang populer tersebut?
+` Apa yang mereka lakukan dan tawarkan?
+` Contoh perusahaan yang populer saat ini.
+` Menganalisis berbagai perusahaan yang populer.
+` Data dan Revolusi Industri.
+` Bahan Baku dan Sumber Industri 4.0?
+` Apa itu Big Data?
+` Quiz
+a. Kenapa data disebut sebagai minyak mentah yang baru?
+b. Apa perbedaan Data dengan Big Data?
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Dapat menggunakan python dengan jupyter.
+- Dapat mengetahui perusahaan-perusahaan yang populer untuk dijadikan analisis sistem kerja.
+- Dapat mengetahui Era data Dan Big Data dengan sumber data yang ada (Data Revolusi Industri).
+- Mengubah Derajat Celcius ke Fahrenheit melalui Aplikasi Jupyter.
+
+Jawaban Quiz
+a. Menurut Saya, Data tersebut merupakan catatan atau kumpulan fakta yang berasal dari berbagai sumber dan dianalis.
+dan Tantangan dalam penyimpanan data ini adalah proteksi data, pusat penyimpanan data dan akses terhadap data tersebut.
+b. Perbedaan antara Big Data dan Data 
+Big Data merupakan sejumlah besar data yang kompleks, sedangkan Data dapat diterapkan pada data besar untuk meningkatkan perolehan bisnis dan mengurangi risiko.
+
+Wed, 23 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Sangat Senang.
+- Banyak kerjaan yang saya ingin kerjakan dirumah maupun Orbit.
+
+Apa yang dipelajari hari ini?
+- Saya mempelajari kembali tentang Course : Python Orbit Student.
+Course Video Minggu ke 1 : Apa itu Python part.01, Python Frame Work.
+- Module I Introduction to Programming
+- Materi tentang Let's Start Coding With Python
+` What is Python?
+` "Python"?
+` What is Anaconda?
+` What is Jupyter Notebook?
+` Anaconda Installation.
+` Jupyter Notebook User Interface.
+` What is Colab?
+` Colab User Interface.
+` My First Program//Activity
+` What is Program?
+` What is Programming?
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Saya menggunakan Anaconda untuk kedua kalinya.
+- Ada beberapa sistem yang dimiliki anaconda seperti IDE, Terminal, Jupyter, DLL.
+- Yang membedakan di Aplikasi Python dan Anaconda, Kalau Python langsung menggunakan IDE dan Terminal untuk bisa menggunakan Jupyter 
+sedangkan Anaconda harus memasuki aplikasi nya terlebih dahulu dan Klik bagian sistem yang ingin dituju.
+
+Thu, 24 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Sangat Senang.
+- Walaupun dirumah banyak kerjaan.
+
+Apa yang dipelajari hari ini?
+- Saya mempelajari kembali tentang Course : Python Orbit Student.
+Course Video Minggu ke 1 : Hello World Python, Introduction Fix, Tambahan 1.
+- Module I Introduction to Everything
+- Materi tentang Data, Ethnics, and Bias
+` Apa itu Data? -> Data bisa berupa banyak hal dengan kecerdasan buatan yang harus menjadi sekumpulan fakta.
+Kecerdasan butuh Data -> yaitu yang mudah dipahami dan tertera untuk memperkirakan sejumlah data yang dibutuhkan. 
+ada 2 Kecerdasan yang dibutuhkan, yaitu : Kecerdasan manusia & Kecerdasan buatan.
+` What is Data? -> ada dua Data yaitu : Kuantitatif dan Kualitatif.
+Kualitas Data -> dapat dilihat dari : Accuracy, Completeness, Relevancy, Timelines, dan Consistency.
+Cara memperoleh Data -> yaitu melalui Populasi, Sensus, dan Sampel.
+Menyimpan data -> Data yang paling umum untuk dikumpulkan yaitu Angka dan Pengukuran.
+` Quiz
+a. Apa yang dimaksud dengan data yang terstruktur?
+b. Apa yang dimaksud dengan data yang tidak terstuktur?
+` What is AI ETHICS? -> AI ETHICS merupakan prinsip dan teknik yang dapat digunakan sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+` Why is AI ETHICS IMPORTANT? -> Proyek AI yang tidak didesain dengan baik dapat mengakibatkan bias dan Sebagai pedoman dalam pengembangan dan penggunaan teknologi AI.
+` AI ETHICS PRINCIPLES -> dapat dikatakan Respect For Reason, Benefincece, dan Justice.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Dapat mengetahui tentang Structured Data dan Unstructured Data.
+Data Terstuktur : dapat dijelaskan dalam skema yang jelas.
+Data Tidak Terstuktur : dapat dijelaskan dalam berbagai bentuk.
+- Dapat mengetahui apa saja yang perlu diperhatikan dalam pengambilan sampel?
+1. Tujuan Penelitian
+2. Kondisi Populasi
+3. Biaya, Waktu, dan Tenaga yang tersedia.
+4. Metode analisa/Pemodelan yang akan digunakan -> Ukuran Sampel, Kriteria Sampel, dan Teknik Sampling.
+
+Jawaban QUIZ
+a. Data Terstuktur dapat dikatakan Jenis data yang disimpan dalam bentuk tabel, baris dan kolom yang normalnya disimpan dalam excel atau spreadsheet, 
+dimana informasi pada data akan sangat terorganisir dan dapat dengan mudah diakses dari database dengan algoritma mesin pencari sederhana.
+b. Data Tidak Terstuktur dapat dikatakan Jenis data dengan bentuk yang tidak dikenal, harus disimpan dengan format khusus karena tidak memiliki struktur yang spesifik seperti jenis data struktur. 
+Raw data dari jenis data ini hanya dapat menghasilkan nilai setelah diproses dan dianalisa.
+
+Fri, 25 Feb
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Biasa Saja.
+
+Apa yang dipelajari hari ini?
+- Mempelajari Video Hallo World Python pada Minggu 1.
+Pada Video Hallo World Python :
+` Diakhir program akan ada sesi pembuatan Algoritma dan Flowchart.
+` Membuat Folder baru sebagai pembelajaran pertama menggunakan python di jupyter dan membuat file Python3.
+` Membuat tulisan Hello World.
+- Apa itu Variabel --> Variabel dapat didefinisikan sebagai tempat penyimpanan nilai (value) secara sementara.
+` Dari program Variabel ini kita mencoba membuat sebuah variabel a dan akan mencetak nilai a.
+` Membuat operasi matematika sederhana dengan c = a + b, dan mencetak nilai c.
+- Saatnya berkenalan dengan OFA (Orbit Future Academy)! --> OFA merupakan sebuah platform untuk kita berkembang
+khususnya membantu kita untuk mempelajari apa itu kecerdasan buatan atau artificial intelligence
+` Membuat sebuah OFA dengan jupyter atau Link, dimana perintah yang ada pada jupyter menampilkan Frame di dalam frame.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Pada Video tersebut bisa diakses melalui Anaconda maupun Python langsung,
+Jika ingin menggunakan Jupyter melalui Python tinggal memanggil Jupyter Notebook.
+- Jika penulisan dari salah satu karakter ada yang salah, typo, maupun besar maka
+bahasa pemograman akan sangat memperhatikan case sensitive pada python, dan kita cek kesalahan tersebut dan run kembali.
+- Jika kita membuat sebuah variabel a lama dengan nilai 10 maka nilai yang di input adalah 10,
+sedangkan kita membuat variabel a baru dengan nilai 50 maka nilai tersebut menjadi 50.
+Jadi kesimpulannya nilai variabel yang lama akan digantikan digantikan dengan nilai varibel yang baru.
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang dan biasa aja.
+- Kadang juga terlihat lemas saat mengerjakan tugas dan mengisi laporan harian karena banyak yang harus dikerjakan.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 1 Kali ini banyak sekali yang harus saya pahami mulai dari Video dari Orbit dan Materi yang diberi oleh mentor.
+
+- Senin, 21 Februari 2022
+Di Sesi ini Hanya perkenalan dari Orbit dan perkenalan kelas Persevere.
+Mempelajari Materi tentang A Brief Introduction About Artificial Intelligence pada Section I.
+
+- Selasa, 22 Februari 2022
+Mempelajari tentang Course : Python Orbit Student.
+Pada Course Video Minggu ke 1 : Apa itu Python part.01, Python Frame Work, Hello World Python, Introduction Fix, Tambahan 1.
+Saya Menginstall Python dan Jupyter melalui CMD.
+Mempelajari Materi tentang AI in Industry.
+Dapat menggunakan python dengan jupyter.
+Dapat mengetahui perusahaan-perusahaan yang populer untuk dijadikan analisis sistem kerja.
+Dapat mengetahui Era data Dan Big Data dengan sumber data yang ada (Data Revolusi Industri).
+Mengubah Derajat Celcius ke Fahrenheit melalui Aplikasi Jupyter.
+
+- Rabu, 23 Februari 2022
+Mempelajari kembali tentang Course : Python Orbit Student.
+Pada Course Video Minggu ke 1 : Apa itu Python part.01, Python Frame Work.
+Mempelajari Materi tentang Let's Start Coding With Python
+Dapat Menggunakan Anaconda untuk kedua kalinya.
+Ada beberapa sistem yang dimiliki anaconda seperti IDE, Terminal, Jupyter, DLL.
+Yang membedakan di Aplikasi Python dan Anaconda, Kalau Python langsung menggunakan IDE dan Terminal untuk bisa menggunakan Jupyter,
+sedangkan Anaconda harus memasuki aplikasi nya terlebih dahulu dan Klik bagian sistem yang ingin dituju.
+
+- Kamis, 24 Februari 2022
+Mempelajari kembali tentang Course : Python Orbit Student.
+Pada Course Video Minggu ke 1 : Hello World Python, Introduction Fix, Tambahan 1.
+Mempelajari Module I Introduction to Everything.
+Mempelajari Materi tentang Data, Ethnics, and Bias.
+Dapat mengetahui tentang Structured Data dan Unstructured Data.
+* Data Terstuktur : dapat dijelaskan dalam skema yang jelas.
+* Data Tidak Terstuktur : dapat dijelaskan dalam berbagai bentuk.
+Dapat mengetahui apa saja yang perlu diperhatikan dalam pengambilan sampel?
+1. Tujuan Penelitian
+2. Kondisi Populasi
+3. Biaya, Waktu, dan Tenaga yang tersedia.
+4. Metode analisa/Pemodelan yang akan digunakan -> Ukuran Sampel, Kriteria Sampel, dan Teknik Sampling.
+
+- Jum'at, 25 Februari 2022
+Mempelajari Video Hallo World Python pada Minggu 1.
+- Pada Video tersebut bisa diakses melalui Anaconda maupun Python langsung,
+Jika ingin menggunakan Jupyter melalui Python tinggal memanggil Jupyter Notebook.
+- Jika penulisan dari salah satu karakter ada yang salah, typo, maupun besar maka
+bahasa pemograman akan sangat memperhatikan case sensitive pada python, dan kita cek kesalahan tersebut dan run kembali.
+- Jika kita membuat sebuah variabel a lama dengan nilai 10 maka nilai yang di input adalah 10,
+sedangkan kita membuat variabel a baru dengan nilai 50 maka nilai tersebut menjadi 50.
+Jadi kesimpulannya nilai variabel yang lama akan digantikan digantikan dengan nilai varibel yang baru.

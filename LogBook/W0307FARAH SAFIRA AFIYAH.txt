@@ -1,0 +1,117 @@
+Mon, 7 Mar
+
+pembelajaran hari ini melalui ms.teams membahas mengenai AI atau kecerdasan buatan sehingga peserta dapat memahami mengenai AI atau kecerdasan buata, memahami hubungan antara AI, machine learning dan deep learning. Pembahasan tentang data science, computer vision dan NLP.
+
+Tue, 8 Mar
+
+Hari ini pembelajaran melalui ms.teams dengan membahas:
+- Matematika yang berhubungan dengan AI yaitu:
+1) peluang mencakup konsep dasar peluang, peluang bersyarat, teorema bayes.
+2) Aljabar Linier mencakup matriks, vektor, nilai & vektor eigen.
+3) Kalkulus mencakup fungsi,turunan,optimisasi.
+- Pembahasan mengenai operasi matematika & NumPy.
+- Penjelasan Machine Learning.
+
+Wed, 9 Mar
+
+Hari ini pembelajaran melalui ms.teams di sesi pagi dan menggunakan zoom pada sesi siang dengan membahas:
+• Segmentasi Machine Learning yang berisi : 
+	Supervised Learning:
+-	Estimation 
+-	Prediction/Forecasting
+-	Classification
+Supervised Learning umumnya digunakan untuk menemukan pola dalam data masukan yang diberi label sehingga memungkinkan menghasilkan data keluaran yang benar dan efektif.
+Unsupervised Learning:
+-	Clustering
+-	Association
+Unsupervised Learning umumnya digunakan untuk mempelajari struktur karakteristik data tanpa menggunakan label yang disediakan secara eksplisit.
+• Penjelasan mengenai Machine Learning yang merupakan bagian dari AI yang memungkinkan mesin untuk mengerjakan tugas dengan lebih baik, dengan pengalaman.
+• Penjelasan megenai Deep Learning yang merupakan bagian dari ML yang memungkinkan software melatih dirinya sendiri untuk melakukan tugas denga data dalam jumlah besar.
+• Penjelasan Artificial Neural Networks (ANN) sebagai teknologi AI yang meniru dan terinpirasi dari cara kerja neuron pada otak manusia.
+
+Thu, 10 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+• Penjelasan mengenai AI Project Cycle:
+-	Problem Scoping, masalah sendiri didefinisikan sebagai sebuah pernyataan yang jelas menggambarkan keadaan awal dari masalah yang harus dipecahkan.
+-	Data Acquisition, merupakan serangkaian proses pengukuran, pengumpulan , dan validasi data yang dibutuhkan dalam suatu proyek AI.
+-	Data Explortion, membantu dalam menentukan strategi model mana yang akan digunakan pada stage selanjutnya.
+-	Modeling, representasi suatu masalah dalam bentuk yang lebih sederhana sehingga lebih jelas dan mudah dikerjakan.
+-	Evaluation
+-	Deployment
+• Penjelasan mengenai Confusion Matrix dan cara menghitungnya:
+-	Akurasi = (Prediksi Benar) / (Semua Case)
+-	Presisi = (True Positive) / (Total Prediksi Positif)
+-	Recall = (True Positive) / (Total aktual positif)
+• Penjelasan Data terstruktur, Data tidak terstruktur, dan Data semi terstruktur
+• Penjelasan dan cara menghitung Statistika
+• Penjelasan p-value dan keputusan hipotesis, p-value sendiri suatu nilai signifikasnsi untuk menguji hipotesis.
+• Pejelasan dan Latihan soal tentang statistic nonparametrik
+
+Fri, 11 Mar
+
+Pembelajaran hari ini melalui zoom dengan membahas :
+• Object Oriented Programming (OOP) yang merupakan paradigma pemrograman menyediakan saran untuk Menyusun program sehingga property dan perilaku digabungkan ke dalam objek individual.
+• OOPs:class yang merupakan kumpulan objek.
+• Penjelasan OOPs terminology berisi object, instance, method, constructor method, class variable, instance variable.
+• Penjelasan OOPs terminology:self keyword.
+• Penjelasan Inheritance yang merupakan kemampuan satu kelas untuk memperoleh atau mewarisi property dari kelas lain (yang sudah ada)
+• Python modules yang merupakan file dengan ekstensi .py yang berisi kode python yang dapat diimpor ke dalam program python lain.  
+
+What did you learn this week?
+
+SENIN :
+pembelajaran hari ini melalui ms.teams membahas mengenai AI atau kecerdasan buatan sehingga peserta dapat memahami mengenai AI atau kecerdasan buata, memahami hubungan antara AI, machine learning dan deep learning. Pembahasan tentang data science, computer vision dan NLP.
+
+
+SELASA :
+Hari ini pembelajaran melalui ms.teams dengan membahas:
+ - Matematika yang berhubungan dengan AI yaitu: 
+1) peluang mencakup konsep dasar peluang, peluang bersyarat, teorema bayes. 
+2) Aljabar Linier mencakup matriks, vektor, nilai & vektor eigen. 
+3) Kalkulus mencakup fungsi,turunan,optimisasi. 
+- Pembahasan mengenai operasi matematika & NumPy. 
+- Penjelasan Machine Learning.
+
+RABU :
+Hari ini pembelajaran melalui ms.teams di sesi pagi dan menggunakan zoom pada sesi siang dengan membahas:
+• Segmentasi Machine Learning yang berisi : 
+	Supervised Learning:
+-	Estimation 
+-	Prediction/Forecasting
+-	Classification
+Supervised Learning umumnya digunakan untuk menemukan pola dalam data masukan yang diberi label sehingga memungkinkan menghasilkan data keluaran yang benar dan efektif.
+Unsupervised Learning:
+-	Clustering
+-	Association
+Unsupervised Learning umumnya digunakan untuk mempelajari struktur karakteristik data tanpa menggunakan label yang disediakan secara eksplisit.
+• Penjelasan mengenai Machine Learning yang merupakan bagian dari AI yang memungkinkan mesin untuk mengerjakan tugas dengan lebih baik, dengan pengalaman.
+• Penjelasan megenai Deep Learning yang merupakan bagian dari ML yang memungkinkan software melatih dirinya sendiri untuk melakukan tugas denga data dalam jumlah besar.
+• Penjelasan Artificial Neural Networks (ANN) sebagai teknologi AI yang meniru dan terinpirasi dari cara kerja neuron pada otak manusia.
+
+KAMIS:
+Hari ini pembelajaran melalui zoom dengan membahas:
+• Penjelasan mengenai AI Project Cycle:
+-	Problem Scoping, masalah sendiri didefinisikan sebagai sebuah pernyataan yang jelas menggambarkan keadaan awal dari masalah yang harus dipecahkan.
+-	Data Acquisition, merupakan serangkaian proses pengukuran, pengumpulan , dan validasi data yang dibutuhkan dalam suatu proyek AI.
+-	Data Explortion, membantu dalam menentukan strategi model mana yang akan digunakan pada stage selanjutnya.
+-	Modeling, representasi suatu masalah dalam bentuk yang lebih sederhana sehingga lebih jelas dan mudah dikerjakan.
+-	Evaluation
+-	Deployment
+• Penjelasan mengenai Confusion Matrix dan cara menghitungnya:
+-	Akurasi = (Prediksi Benar) / (Semua Case)
+-	Presisi = (True Positive) / (Total Prediksi Positif)
+-	Recall = (True Positive) / (Total aktual positif)
+• Penjelasan Data terstruktur, Data tidak terstruktur, dan Data semi terstruktur
+• Penjelasan dan cara menghitung Statistika
+• Penjelasan p-value dan keputusan hipotesis, p-value sendiri suatu nilai signifikasnsi untuk menguji hipotesis.
+• Pejelasan dan Latihan soal tentang statistic nonparametric
+
+JUMAT:
+Pembelajaran hari ini melalui zoom dengan membahas :
+• Object Oriented Programming (OOP) yang merupakan paradigma pemrograman menyediakan saran untuk Menyusun program sehingga property dan perilaku digabungkan ke dalam objek individual.
+• OOPs:class yang merupakan kumpulan objek.
+• Penjelasan OOPs terminology berisi object, instance, method, constructor method, class variable, instance variable.
+• Penjelasan OOPs terminology:self keyword.
+• Penjelasan Inheritance yang merupakan kemampuan satu kelas untuk memperoleh atau mewarisi property dari kelas lain (yang sudah ada)
+• Python modules yang merupakan file dengan ekstensi .py yang berisi kode python yang dapat diimpor ke dalam program python lain.  

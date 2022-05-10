@@ -1,0 +1,124 @@
+Mon, 28 Mar
+
+Kegiatan hari ini : 
+1. Reduksi dimensi
+2. Alasan, Tujuan Reduksi
+3. Nilai Eigen dan Vektor Eigen
+4. PCA proses
+5. LDA proses
+6. Persamaan dan Perbedaan PCA dan LDA
+7. Mempraktekkan PCA dan LDA dicolab
+8. Mempraktekkan Materi Hari Kamis dicolab
+9. Mengerjakaan Tugas
+
+Tue, 29 Mar
+
+Pagi 
+Mereview materi Image Filtering. Proses Konvolusi pada image filtering. Contoh Konvolusi. Filter Kernel Low pass filter (membuang frekuensi tinggi pada citra), High pass filter (membuang frekuensi rendah pada citra digunakan untuk deteksi tepi), Band stop filter (meloloskan frekuensi tertentu digunakan untuk efek sharpness). Melakukan Lave Coding. Deep Learning di Image. Convolution Neural Networks yaitu kategori Neural Network yang efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. Dapat mengidentifikasi wajah, objek, dan rambu lalu lintas, robot vision, self driving car, dan smart grid. Sejarah CNN diciptakan oleh Yann LeCunn, model CNN pertama disebut LeNet pada tahun 1988. Cars recognition, Self driving car, dll. Topologi CNN memiliki pebedaan dari ANN standard dimana neuron disusun menjadi 3 dimensi. Architecture CNN. Convolution Layer bertujuan untuk mengekstarak fitur dari citra masukan, mempertahankan hubungan special antara input dengan mempelajari fitur input. Stride yaitu parameter yang menentukan berapa jumlah pergeseran filter. Padding / zero padding yaitu parameter menentukan jumlah pixel yang berisi nilai 0 yang akan ditambahkan di setiap sisi dari input. Layer ReLU / Rectified Linear Unit merupakan tipe dari fungsi aktivasi. Layer Pooling yaitu mengurangi jumlah parameter ketika input terlalu besar. Jenis pooling : Max pooling, Average pooling, Sum pooling.
+
+Siang 
+Mengerjakan Pre-Test. Mereview materi minggu lalu mengenai MDP concept, DP Algorithm (mengaplikasikan algoritme DP dibutuhkan pengetahuan tentang model environment) DP -> Model-based algorithm. Solusi mengimplementasikan RL tanpa memodelkan environmentnya secara lengkap disebut Model free algorithm -> Monte Carlo. Konsep Monte Carlo (MC) contoh Dadu simetris (Outcome : 1, 2, 3, 4, 5, 6. Probability : 1/6, 1/6, 1/6, 1/6, 1/6, 1/6). Dadu tidak simetris (Outcome : 1, 2, 3, 4, 5, 6. Probability : n1/N, n2/N, n3/N, n4/N, n5/N, n6/N). MC tidak mengambil pengetahua lengkap dari environment, belajar dari experience, episode per episode. Elemen Algoritme MC ada Goal, Return, Value Function. First-visit MC yaitu dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode. Every-visit MC yaitu dihitung setiap mengunjungi state s dalam setiap episode. MC Estimation (karena model tidak tersedia, perlu untuk mengestimasi action juga, selain hanya mengestimasi statenya, pada MC action diperlukan dalam menentukan policy. Policy Evaluation Problem yaitu expected retrun mulai dari state, melakukan action, dan mengikuti policy). Forzen Lake Problem (satu episode berhenti ketika agent mencapai tujuan/ goal, agent mendapat reward 1 ketika mencapai tujuan dan 0 untuk kondisi yang lain). Melakukan Hands On MCForzenLake dan Mengerjakan Post Test.
+
+Wed, 30 Mar
+
+Kegiatan Pembelajaran Hari ini :
+1. Recommender System
+2. Content Based Filtering
+3. Collaborative Filtering
+4. Market Basket Analysis
+5. NLP Recap
+6. Text Classification 
+7. Machine Learning Aproach
+8. Lexicon Based Aproach
+9. Proses Text Classification
+10. Mengerjakan Tugas 
+
+Thu, 31 Mar
+
+Kegiatan Pembelajaran hari ini :
+1. Mempraktekkan Materi sebelumnya di Colab
+2. Visualisasi Data
+3. Jenis Visualisasi
+4. Dimensi Metrik
+5. Granularitas Data
+6. Fungsi Agresi
+7. Google Data Studio
+8. Komponen GDS
+9. Tipe Chart
+10. Mempraktekkan Visualisasi Data di Google Data Studio
+11. Mengerjakan Tugas
+
+Fri, 1 Apr
+
+Pada hari ini membahas tentang 
+Reinforcement Learning
+1. Temporal Difference Learning, mengestimasi reward pada setiap langkah (step)
+2. Model based vs model free methods
+3. Dynamic Programming : update per step menggunakan bootstrapping, membutuhkan model environment, computation 
+
+Technical
+1. Penjelasan web scrapping
+2. Kegunaan web scrapping
+3. Perbedaan web scrapping dan web crawling
+4. Etika web scrapping
+5. Urllib3 Module
+6. BeautifulSoap Module
+7. Scrapy Module
+
+What did you learn this week?
+
+Kegiatan pada minggu ini : 
+
+Senin
+1. Reduksi dimensi
+2. Alasan, Tujuan Reduksi
+3. Nilai Eigen dan Vektor Eigen
+4. PCA proses
+5. LDA proses
+6. Persamaan dan Perbedaan PCA dan LDA
+7. Mempraktekkan PCA dan LDA dicolab
+8. Mempraktekkan Materi Hari Kamis dicolab
+9. Mengerjakaan Tugas
+
+Selasa 
+Mereview materi Image Filtering. Proses Konvolusi pada image filtering. Contoh Konvolusi. Filter Kernel Low pass filter (membuang frekuensi tinggi pada citra), High pass filter (membuang frekuensi rendah pada citra digunakan untuk deteksi tepi), Band stop filter (meloloskan frekuensi tertentu digunakan untuk efek sharpness). Melakukan Lave Coding. Deep Learning di Image. Convolution Neural Networks yaitu kategori Neural Network yang efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. Dapat mengidentifikasi wajah, objek, dan rambu lalu lintas, robot vision, self driving car, dan smart grid. Sejarah CNN diciptakan oleh Yann LeCunn, model CNN pertama disebut LeNet pada tahun 1988. Cars recognition, Self driving car, dll. Topologi CNN memiliki pebedaan dari ANN standard dimana neuron disusun menjadi 3 dimensi. Architecture CNN.
+
+Rabu
+1. Recommender System
+2. Content Based Filtering
+3. Collaborative Filtering
+4. Market Basket Analysis
+5. NLP Recap
+6. Text Classification 
+7. Machine Learning Aproach
+8. Lexicon Based Aproach
+9. Proses Text Classification
+10. Mengerjakan Tugas
+
+Kamis 
+1. Mempraktekkan Materi sebelumnya di Colab
+2. Visualisasi Data
+3. Jenis Visualisasi
+4. Dimensi Metrik
+5. Granularitas Data
+6. Fungsi Agresi
+7. Google Data Studio
+8. Komponen GDS
+9. Tipe Chart
+10. Mempraktekkan Visualisasi Data di Google Data Studio
+11. Mengerjakan Tugas
+
+Jumat
+Pada hari ini membahas tentang 
+Reinforcement Learning
+1. Temporal Difference Learning, mengestimasi reward pada setiap langkah (step)
+2. Model based vs model free methods
+3. Dynamic Programming : update per step menggunakan bootstrapping, membutuhkan model environment, computation 
+Technical
+1. Penjelasan web scrapping
+2. Kegunaan web scrapping
+3. Perbedaan web scrapping dan web crawling
+4. Etika web scrapping
+5. Urllib3 Module
+6. BeautifulSoap Module
+7. Scrapy Module

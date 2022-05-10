@@ -1,0 +1,27 @@
+Mon, 21 Mar
+
+Mengenal Data Science
+
+Tue, 22 Mar
+
+Mengenal Computer Vision
+
+Wed, 23 Mar
+
+Belajar Reinforcement learning, Data Science, NLP
+
+Thu, 24 Mar
+
+BelajarComputer Vision, Technical tentang Github
+
+Fri, 25 Mar
+
+Belajar Reinforcement learning, Belajar technical
+
+What did you learn this week?
+
+Belajar mengenal DS,CV RL, NLP
+Data science adalah bidang yang mempelajari proses pengolahan data. Mulai dari penggalian hingga presentasi datanya.
+Computer vision merupakan proses otomatis yang mengintegrasikan sejumlah besar proses untuk persepsi visual, seperti akuisisi citra, pengolahan citra, pengenalan dan membuat keputusan.
+Reinforcement-learning didefinisikan sebagai metode machine learning yang berkaitan dengan bagaimana agent perangkat lunak harus mengambil action di dalam environment.
+NLP cabang dari kecerdasan buatan yang berhubungan dengan interaksi antara komputer dan manusia menggunakan bahasa alami

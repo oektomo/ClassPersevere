@@ -1,0 +1,49 @@
+Mon, 14 Mar
+
+Melakukan data manipulation dengan library pandas dan numpy.Pandas adalah sebuah library di Python yang berlisensi BSD dan open source yang menyediakan struktur data dan analisis data yang mudah digunakan. Pandas biasa digunakan untuk membuat tabel, mengubah dimensi data, mengecek data, dan lain sebagainya. Struktur data dasar pada Pandas dinamakan DataFrame, yang memudahkan kita untuk membaca sebuah file dengan banyak jenis format seperti file .txt, .csv, dan .tsv. Sedangkan Numpy adalah library Python yang fokus pada scientific computing. NumPy memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan list pada Python. Keunggulan NumPy array dibandingkan dengan list pada Python adalah konsumsi memory yang lebih kecil serta runtime yang lebih cepat. NumPy juga memudahkan kita pada Aljabar Linear, terutama operasi pada Vector (1-d array) dan Matrix (2-d array).
+
+Tue, 15 Mar
+
+Visualisasi data digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts. Data visualisasi ini dapat membantu pengguna dalam penganalisis sejumlah besar data dengan cara yang lebih sederhana. Hal tersebut tentu membuat data kompleks lebih mudah diakses, dimengerti, dan dapat digunakan.
+Salah satu paket python paling populer yang digunakan untuk visualisasi data adalah matplotlib. Matplotlib adalah cross-platform library untuk membuat 2D plots dari data di arrays. Matplotlib ditulis dengan python dan menggunakan numpy.
+
+Wed, 16 Mar
+
+Linear Regression (Regresi Linear) adalah suatu regresi linear yang digunakan untuk mengestimasi atau memprediksi hubungan antara dua variabel dalam penelitian kuantitatif. Dimana regresi linear ini mampu membuat satu asumsi tambahan yang mengkorelasikan antara variabel independen dan dependen melalui garis yang paling sesuai dari titik data garis lurus. Artinya, bukan kurva atau semacam faktor penelompokkan.
+
+Thu, 17 Mar
+
+Belajar mengenai KNN dengan studi kasus klasifikasi pelanggan yang dibagi menjadi 2 yaitu pelanggan aktif dan pelanggan yang sudah berhenti. langkah langkahnya adalah
+1. Memanggil library
+2. Load dataset
+3. feature set
+4. normalisasi data
+5. Pembagian Data Training dan Testing
+6. Training
+7. Predicting
+8. Perhitungan Akurasi
+9. mencari nilai terbaik
+10. menampilkan grafik
+
+Fri, 18 Mar
+
+Jaringan Syaraf Tiruan (JST) adalah sistem komputerisasi sebagai pemroses informasi yang memiliki karater mirip dengan jaringan syaraf biologi pada saat menangkap informasi dari ‘dunia luar’. JST berusaha membuat sebuah model sistem komputasi informasi yang dapat menirukan rangkaian cara kerja jaringan syaraf biologis.
+
+What did you learn this week?
+
+Melakukan data manipulation dengan library pandas dan numpy.Pandas adalah sebuah library di Python yang berlisensi BSD dan open source yang menyediakan struktur data dan analisis data yang mudah digunakan. Pandas biasa digunakan untuk membuat tabel, mengubah dimensi data, mengecek data, dan lain sebagainya. Struktur data dasar pada Pandas dinamakan DataFrame, yang memudahkan kita untuk membaca sebuah file dengan banyak jenis format seperti file .txt, .csv, dan .tsv. Sedangkan Numpy adalah library Python yang fokus pada scientific computing. NumPy memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan list pada Python. Keunggulan NumPy array dibandingkan dengan list pada Python adalah konsumsi memory yang lebih kecil serta runtime yang lebih cepat. NumPy juga memudahkan kita pada Aljabar Linear, terutama operasi pada Vector (1-d array) dan Matrix (2-d array).
+Visualisasi data digunakan untuk mengkomunikasikan informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts. Data visualisasi ini dapat membantu pengguna dalam penganalisis sejumlah besar data dengan cara yang lebih sederhana. Hal tersebut tentu membuat data kompleks lebih mudah diakses, dimengerti, dan dapat digunakan.
+Salah satu paket python paling populer yang digunakan untuk visualisasi data adalah matplotlib. Matplotlib adalah cross-platform library untuk membuat 2D plots dari data di arrays. Matplotlib ditulis dengan python dan menggunakan numpy.
+Linear Regression (Regresi Linear) adalah suatu regresi linear yang digunakan untuk mengestimasi atau memprediksi hubungan antara dua variabel dalam penelitian kuantitatif. Dimana regresi linear ini mampu membuat satu asumsi tambahan yang mengkorelasikan antara variabel independen dan dependen melalui garis yang paling sesuai dari titik data garis lurus. Artinya, bukan kurva atau semacam faktor penelompokkan.
+Belajar mengenai KNN dengan studi kasus klasifikasi pelanggan yang dibagi menjadi 2 yaitu pelanggan aktif dan pelanggan yang sudah berhenti. langkah langkahnya adalah
+1. Memanggil library
+2. Load dataset
+3. feature set
+4. normalisasi data
+5. Pembagian Data Training dan Testing
+6. Training
+7. Predicting
+8. Perhitungan Akurasi
+9. mencari nilai terbaik
+10. menampilkan grafik
+Jaringan Syaraf Tiruan (JST) adalah sistem komputerisasi sebagai pemroses informasi yang memiliki karater mirip dengan jaringan syaraf biologi pada saat menangkap informasi dari ‘dunia luar’. JST berusaha membuat sebuah model sistem komputasi informasi yang dapat menirukan rangkaian cara kerja jaringan syaraf biologis.

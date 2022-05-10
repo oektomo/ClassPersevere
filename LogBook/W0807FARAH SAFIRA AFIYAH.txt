@@ -1,0 +1,97 @@
+Mon, 11 Apr
+
+Hari ini pembelajaran di kelas Data Science melalui zoom dengan membahas tentang Time Series (Deep Learning Approach):
+• Penjelasan mengenai statistical approach yang mempunya kelebihan memberikan hasil yang lebih precise dengan nilai evaluasi error yang kecil dan kekurangan Membutuhkan pengetahuan terkait domain data saat mengaplikasikan (proses ini bisa mengambil waktu yang lama dan juga dapat terjadi kesalahan dalam mengambil asumsi). Sedangkan Deep learning Approach memiliki kelebihan Lebih mudah diaplikasikan untuk tugas terkait time series forecasting, Memberikan hasil yang hampir serupa dengan menggunakan statistical approach, Mampu menangani dataset yang besar, dan juga hasilnya dapat meningkat, sedangkan statistical approach cenderung tidak mengalami peningkatan jika datasetnya ditambah, Tidak membutuhkan pengetahuan tentang data domain. 
+• Deep Learning muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan, berupa : Bila ada missing value dapat mempengaruhi kinerja model, tidak mampu mengenali pola kompleks dalam data, biasanya bekerja dengan baik hanya dalam beberapa langkah forecasting, dan tidak dalam forecasting jangka panjang. Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU.
+• Penjelasan Element Wise Product atau Hadamard product, entrywise product atau Schur product yang merupakan operasi perkalian dengan input 2 matriks berukuran sama dengan hasil operasinya menghasilkan matriks berukuran sama. Element wise addition disebut juga matrix addition adalah operasi penjumlahan pada matriks.
+• Penjelasan mengenai Recurrent neural network (RNN) yang juga disebut jaringan umpan balik adalah jenis jaringan pada neural network dimana terdapat loop sebagai koneksi umpan balik dalam jaringan. RNN memiliki tiga lapisan yaitu layer input, layer tersembunyi yang berulang, dan layer output
+• Arsitektur dari RNN mirip dengan model Feed-Forward Network yang selama ini kita kenal. Tetapi ada beberapa perbedaan, yakni : pada RNN output state sebelumnya juga diikutkan, dan cocok untuk memproses data sekuensial,  ada vanishing gradient, sehingga terbatas hanya bisa melihat beberapa step sebelumnya.
+• Penjelasan gradient descent problem, salah satu kelemahan RNN adalah pembelajaran jangka panjang dengan gradient descent bisa menghasilkan masalah menghilang atau meledaknya gradien.
+• Salah satu cara mengatasi masalah menghilang atau meledaknya gradien adalah memodifikasi arsitektur model dengan memasukkan unit gerbang yang dirancang khusus untuk menyimpan informasi selama waktu periode yang lama. Mekanisme gerbang yang paling dikenal saat ini adalah Long-Short Term Memory (LSTM) dan Gated Recurrent Unit (GRU).
+
+Tue, 12 Apr
+
+Hari ini pembelajaran kelas computer vision melalui zoom dengan membahas tentang introduction of autoencoder & image denoising:
+• Autoencoders neural network adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+• penjelasan properties of autoencoders meliputi, data-specific: Autoencoder hanya dapat mengompresi data yang mirip dengan apa yang telah di latih. Lossy: Output dari autoencoder tidak akan sama persis dengan input, itu akan menjadi representasi yang hampir mendekati original input tetapi terdegradasi. Unsupervised: Untuk melatih autoencoder, kita tidak perlu melakukan sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+• Penjelasan Bottleneck approach adalah pendekatan untuk memutuskan aspek mana dari data yang diamati yang merupakan informasi yang relevan dan aspek apa yang dapat dibuang.
+
+
+Wed, 13 Apr
+
+Hari ini pembelajarn kelas NLP membahas tentang transfer learning for NLP-Transformasi & BERT:
+• Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+• Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+• Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+• Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+• BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+• Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+• Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+Thu, 14 Apr
+
+Hari ini pembelajaran kelas Reinforcement learning membahas tentang robotics:
+• Penjelasan mengenai robotics yang merupakan  suatu disiplin ilmu yang mempelajari tentang konsep suatu robot. Sedangkan Robot merupakan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak menyerupai manusia dalam penampilan atau melakukan fungsi dengan cara yang mirip manusia.
+• Penjelasan mengenai choose action, Eksplorasi adalah suatu metode pemilihan action dimana agent akan melakukan pemilihan action secara random dengan tujuan ia bisa mengetahui informasi tentang environment secara mendalam. Sedangkan Eksploitasi adalah sebuah metode pemilihan action dengan memilih action yang mempunyai return (dalam hal ini Q-Value) paling besar. 
+•Penjelasan mengenai Deep Q Network yang merupakan sebuah NN yang menerima states yg diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN ini adalah untuk menghasilkan aproksimasi Q Function yg optimal.
+
+Fri, 15 Apr
+
+Hari ini pembelajaran kelas Technical self learning karena hari libur nasional dengan mempelejari unit testing, refactoring, dan debugging:
+• Bagian 1 Unit Testing:
+Unit testing merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program. Untuk melakukan unit testing, pengujian dapat dilakukan secara otomatis dengan menggunakan library tertentu atau API pihak ketiga tertentu. Teknik ini dinamakan dengan test automation. Beberapa manfaat dari automated unit testing adalah sebagai berikut: 
+1. Mengurangi beban kerja dan memangkas waktu pengujian 
+2. Automated unit testing memiliki hasil yang lebih akurat dibandingkan dengan manual unit testing. 3. Pemberitahuan awal terkait dengan bug yang ada; saat tools pengujian berhenti secara tiba-tiba karena terdapat error, maka bug logika akan terdeteksi.
+Docstring adalah penggunaan tipe data string yang ditentukan dalam modul sumber program. Penggunaan dari docstring adalah untuk mendokumentasikan segmen tertentu dari kode. Library unittest merupakan library yang tersedia dalam bahasa pemrograman python yang bertujuan untuk mempermudah unit testing. Untuk melakukan unit testing dengan library unittest.
+• Bagian 2 refactoring:
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan. Sederhananya, refactoring merupakan sebuah teknik untuk membuat program kita semakin efisien tanpa mengubah efektifitas.
+• Bagian 3 Debugging:
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program.
+
+
+What did you learn this week?
+
+SENIN:
+Hari ini pembelajaran di kelas Data Science melalui zoom dengan membahas tentang Time Series (Deep Learning Approach):
+• Penjelasan mengenai statistical approach yang mempunya kelebihan memberikan hasil yang lebih precise dengan nilai evaluasi error yang kecil dan kekurangan Membutuhkan pengetahuan terkait domain data saat mengaplikasikan (proses ini bisa mengambil waktu yang lama dan juga dapat terjadi kesalahan dalam mengambil asumsi). Sedangkan Deep learning Approach memiliki kelebihan Lebih mudah diaplikasikan untuk tugas terkait time series forecasting, Memberikan hasil yang hampir serupa dengan menggunakan statistical approach, Mampu menangani dataset yang besar, dan juga hasilnya dapat meningkat, sedangkan statistical approach cenderung tidak mengalami peningkatan jika datasetnya ditambah, Tidak membutuhkan pengetahuan tentang data domain. 
+• Deep Learning muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan, berupa : Bila ada missing value dapat mempengaruhi kinerja model, tidak mampu mengenali pola kompleks dalam data, biasanya bekerja dengan baik hanya dalam beberapa langkah forecasting, dan tidak dalam forecasting jangka panjang. Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU.
+• Penjelasan Element Wise Product atau Hadamard product, entrywise product atau Schur product yang merupakan operasi perkalian dengan input 2 matriks berukuran sama dengan hasil operasinya menghasilkan matriks berukuran sama. Element wise addition disebut juga matrix addition adalah operasi penjumlahan pada matriks.
+• Penjelasan mengenai Recurrent neural network (RNN) yang juga disebut jaringan umpan balik adalah jenis jaringan pada neural network dimana terdapat loop sebagai koneksi umpan balik dalam jaringan. RNN memiliki tiga lapisan yaitu layer input, layer tersembunyi yang berulang, dan layer output
+• Arsitektur dari RNN mirip dengan model Feed-Forward Network yang selama ini kita kenal. Tetapi ada beberapa perbedaan, yakni : pada RNN output state sebelumnya juga diikutkan, dan cocok untuk memproses data sekuensial,  ada vanishing gradient, sehingga terbatas hanya bisa melihat beberapa step sebelumnya.
+• Penjelasan gradient descent problem, salah satu kelemahan RNN adalah pembelajaran jangka panjang dengan gradient descent bisa menghasilkan masalah menghilang atau meledaknya gradien.
+• Salah satu cara mengatasi masalah menghilang atau meledaknya gradien adalah memodifikasi arsitektur model dengan memasukkan unit gerbang yang dirancang khusus untuk menyimpan informasi selama waktu periode yang lama. Mekanisme gerbang yang paling dikenal saat ini adalah Long-Short Term Memory (LSTM) dan Gated Recurrent Unit (GRU).
+
+SELASA:
+Hari ini pembelajaran kelas computer vision melalui zoom dengan membahas tentang introduction of autoencoder & image denoising:
+• Autoencoders neural network adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+• penjelasan properties of autoencoders meliputi, data-specific: Autoencoder hanya dapat mengompresi data yang mirip dengan apa yang telah di latih. Lossy: Output dari autoencoder tidak akan sama persis dengan input, itu akan menjadi representasi yang hampir mendekati original input tetapi terdegradasi. Unsupervised: Untuk melatih autoencoder, kita tidak perlu melakukan sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+• Penjelasan Bottleneck approach adalah pendekatan untuk memutuskan aspek mana dari data yang diamati yang merupakan informasi yang relevan dan aspek apa yang dapat dibuang.
+
+RABU:
+Hari ini pembelajarn kelas NLP membahas tentang transfer learning for NLP-Transformasi & BERT:
+• Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+• Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+• Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+• Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+• BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+• Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+• Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token.
+
+KAMIS:
+Hari ini pembelajaran kelas Reinforcement learning membahas tentang robotics:
+• Penjelasan mengenai robotics yang merupakan  suatu disiplin ilmu yang mempelajari tentang konsep suatu robot. Sedangkan Robot merupakan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak menyerupai manusia dalam penampilan atau melakukan fungsi dengan cara yang mirip manusia.
+• Penjelasan mengenai choose action, Eksplorasi adalah suatu metode pemilihan action dimana agent akan melakukan pemilihan action secara random dengan tujuan ia bisa mengetahui informasi tentang environment secara mendalam. Sedangkan Eksploitasi adalah sebuah metode pemilihan action dengan memilih action yang mempunyai return (dalam hal ini Q-Value) paling besar. 
+•Penjelasan mengenai Deep Q Network yang merupakan sebuah NN yang menerima states yg diberikan oleh environment sebagai input, lalu DQN akan menghasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut. Tujuan dari NN ini adalah untuk menghasilkan aproksimasi Q Function yg optimal.
+
+
+JUMAT:
+Hari ini pembelajaran kelas Technical self learning karena hari libur nasional dengan mempelejari unit testing, refactoring, dan debugging:
+• Bagian 1 Unit Testing:
+Unit testing merupakan metode pengujian perangkat lunak untuk tiap komponen dalam program. Untuk melakukan unit testing, pengujian dapat dilakukan secara otomatis dengan menggunakan library tertentu atau API pihak ketiga tertentu. Teknik ini dinamakan dengan test automation. Beberapa manfaat dari automated unit testing adalah sebagai berikut: 
+1. Mengurangi beban kerja dan memangkas waktu pengujian 
+2. Automated unit testing memiliki hasil yang lebih akurat dibandingkan dengan manual unit testing. 3. Pemberitahuan awal terkait dengan bug yang ada; saat tools pengujian berhenti secara tiba-tiba karena terdapat error, maka bug logika akan terdeteksi.
+Docstring adalah penggunaan tipe data string yang ditentukan dalam modul sumber program. Penggunaan dari docstring adalah untuk mendokumentasikan segmen tertentu dari kode. Library unittest merupakan library yang tersedia dalam bahasa pemrograman python yang bertujuan untuk mempermudah unit testing. Untuk melakukan unit testing dengan library unittest.
+• Bagian 2 refactoring:
+Refactoring merupakan aktifitas yang krusial dalam pemeliharaan perangkat lunak. Aktivitas ini melibatkan mengubah baris kode tanpa mengubah sifat dari baris kode yang telah dituliskan. Sederhananya, refactoring merupakan sebuah teknik untuk membuat program kita semakin efisien tanpa mengubah efektifitas.
+• Bagian 3 Debugging:
+Debugging merupkana proses untuk mendeteksi dan menghilangkan potensi error pada baris program. Berbeda dengan refactoring, debugging hanya berfokus dalam menghilangkan potensi bug yang ada dalam baris program.

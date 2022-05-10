@@ -1,0 +1,35 @@
+Mon, 28 Feb
+
+Libur karena memperingati Isra' Mi'raj Nabi Muhammad SAW.
+
+Tue, 1 Mar
+
+Hari ini couch menerangkan di microsoft teams materinya yaitu  Introduction to Python (Membahas secara detail) dan Introduction to Artificial Intelligence (Membahas secara spesifik dan detail). 
+
+Saat sesi FGD ( Mandiri ) membuka website w3schools untuk belajar pemrograman basic python, di situ saya mempelajari dari python home, intro, get started, syntax, comments, variables, data types, dan numbers.
+
+Wed, 2 Mar
+
+Pada hari ini, ada pembelajaran tentang Introduction to Programming Python dan What is Data. setelah itu belajar mandiri pemrograman basic python di w3school
+
+Thu, 3 Mar
+
+Libur, karena hari raya nyepi atau tahun baru saka 1944
+
+Fri, 4 Mar
+
+Pada hari ini, ada  penjelasan tentang github, tutorial push dari google colab ke github, kemudian menjelaskan basic pemrograman python tentang user defined function, default value in function, generator dan file IO.
+
+What did you learn this week?
+
+Hari senin, 28  Februari 2022
+Libur karena memperingati Isra' Mi'raj Nabi Muhammad SAW.
+Hari selasa, 1  Maret 2022
+Hari ini couch menerangkan di microsoft teams materinya yaitu Introduction to Python (Membahas secara detail) dan Introduction to Artificial Intelligence (Membahas secara spesifik dan detail). 
+Saat sesi FGD ( Mandiri ) membuka website w3schools untuk belajar pemrograman basic python, di situ saya mempelajari dari python home, intro, get started, syntax, comments, variables, data types, dan numbers.
+Hari rabu, 2  maret 2022
+Pada hari ini, ada pembelajaran tentang Introduction to Programming Python dan What is Data. setelah itu belajar mandiri pemrograman basic python di w3school
+Hari kamis, 3  maret 2022
+Libur karena memperingati hari raya nyepi atau tahun baru saka 1944
+Hari jumat, 4  maret 2022
+Pada hari ini, ada penjelasan tentang github, tutorial push dari google colab ke github, kemudian menjelaskan basic pemrograman python tentang user defined function, default value in function, generator dan file IO.

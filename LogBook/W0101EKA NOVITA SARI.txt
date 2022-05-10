@@ -1,0 +1,109 @@
+Mon, 21 Feb
+
+Kegiatan saya diawal pertemuan ini yang pertama perkenalan diri yang dimulai oleh coach kemudian dilanjutkan dengan anggota kelas lain, kedua melakukan pre-test yang digunakan untuk mengukur seberapa jauh pengetahuan tentang AI, ketiga menjelaskan tentang aturan-aturan dan waktu keterlambatan dalam kehadiran dikelas, keempat penyampaian materi dan tanya jawab tentang apa itu AI, sejarah AI, dan pencetus AI, kelima mengkonfirmasi penggunaan orbit guru apakah ada kendala-kendala yang terjadi.
+
+Tue, 22 Feb
+
+Hari ini saya belajar mandiri dengan materi yang ada pada Orbit Guru pada Minggu Ke-1 yaitu tentang apa itu python, python frame work, dan hello world python. Disana dijelaskan bahwa python adalah bahasa pemrograman yang didukung oleh program berorientasi objek dan bahasa pemrograman tingkat tinggi. Tingkat tinggi disini yaitu bahasa komputer yang memakai instruksi dari unsur kata-kata manusia seperti if, else, dan lain sebagainya. Guido Van Rossum adalah pembuat dan pengembang bahasa pemrograman python pada tahun 1990-an. Versi pengembangan lebih lanjutnya dilakukan pada tahun 1995. Dan pada tahun 2000 python terus dilakukan pembaharuan hingga mencapai versi 3 atau python 3. Asal mula kata python sendiri berasal dari acara favorit Guido Van Rossum yang berjudul Mothy Python Flying Circus. Selain itu saya juga melakukan instalasi python dan jupyter notebook. Pada jupyter notebook saya belajar dan menjalankan sesuai dengan arahan yang ada di Orbit Guru pada Hello World Python.
+
+Dan di dalam grub kelas persevere saya mengikuti arahan yang diberikan oleh coach untuk bergabung kedalam Discord, di sana terdapat kuis yang dilakukan untuk menambah pengetahuan, dan kuis-kuis yang dilakukan untuk bersenang-senang.
+
+Wed, 23 Feb
+
+Hari ini saya mempelajari tentang AI in Industry dan Python Introduction.
+
+- MATERI 2 AI in Industry
+Starup unicorn Indonesia. Perusahaan dengan  nilai valuasi di atas US$1 miliar yang pertama ada Gojek [53 triliun], Traveloka [26,6 triliun], Tokopedia [15 triliun], dan Bukalapak [13,7 triliun].
+Persamaan dari perusahaan tersebut ialah:
+1. Sama-sama memiliki aplikasi masing-masing yang bisa di download dan di pakai secara gratis.
+2. Perusahaan tersebut beroperasi dengan mengandalkan internet.
+3. Bukan perusahaan atau industri manufaktur (tidak memproduksi sesuatu).
+Jadi, yang mereka lakukan adalah menjalankan usaha yang cukup sederhana, yaitu memproses data (data processing), dan mereka juga hanya menawarkan insight/solusi dari permasalahan customer.
+Sebagai contoh yaitu perusahaan Gojek, jika di analisis penumpang butuh kendaraan yang bisa mengantarkan mereka ke tujuan (butuh tumpangan) sedangkan pengemudi memiliki kendaraan tetapi tidak memiliki penumpang (butuh uang). Solusi yang ditawarkan oleh Gojek adalah mempertemukan penumpang dan pengemudi sehingga masalah keduanya bisa teratasi. Lalu yang dilakukan Gojek untuk mempertemukan keduanya dengan memproses data penumpang dan pengemudi, dengan cara:
+1. Gojek akan mengambil data penumpang yang memesan tumpangan yang berupa lokasi dan tujuan penumpang.
+2. Data-data tersebut akan diolah oleh Gojek sehingga menghasilkan tarif angkutan dan rute perjalanan terbaik.
+3. Jika penumpang setuju dengan tarif dan rute yang ditawarkan, Gojek akan membroadcast pesanan penumpang ke pengemudi terdekat.
+4. Terakhir, pengemudi yang tertarik akan menerima pesanan penumpang.
+Akhirnya penumpang dan pengemudi bisa dipertemukan dan masalah keduanya terselesaikan. Penumpang bisa sampai ke tujuan berkat pengemudi. Pengemudi bisa mendapat uang berkat penumpang.
+
+"Data is the new oil"
+Perbedaan yang mencolok antara data dan minyak mentah yaitu:
+1. Minyak mentah adalah sumber daya yang tidak dapat diperbaharui dan terus menipis.
+2. Data adalah sumber daya yang terus tumbuh dan bertambah sepanjang waktu (infinity). Kesempatan mendapatkan profit dari hasil pemrosesan data juga semakin tinggi karena sumber dayanya tidak akan habis.
+
+"Data dan Revolusi Industri"
+Contoh teknologi yang booming di Revolusi 4.0 yaitu:
+1. Internet of Things (IoT)
+2. Artificial Intelligence (AI)
+3. Blockchain
+4. Big Data
+Revolusi 4.0 sering disebut dengan Era Data (Era of Data).
+
+Big data lahir dari data tidak terstruktur yang tumbuh dengan cepat. Big data adalah sebuah istilah yang berkaitan dengan 3V, yakni Volume (ukuran), Velocity (kecepatan), dan Variety (keragaman).
+
+QUIZ
+1. Kenapa data disebut sebagai minyak mentah yang baru? karena di era teknologi ini data adalah hal yang sangat penting, dan juga memberikan manfaat bagi banyak orang. Dengan menguasai data, pengumpul data bisa melakukan apapun hingga mengendalikan pemilik data.
+2. Apa perbedaan data dan big data? data adalah hasil dari aktivitas internet yang sering dilakukan baik untuk tujuan pribadi maupun bisnis, seperti data nama, alamat, dan nomor telepon. Sedangkan big data adalah kumpulan data yang sangat besar, kompleks dan terus bertambah setiap waktu.
+
+
+- MATERI 3 Python Introduction
+Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai "glue language" (bahasa pemrograman yang dapat dengan mudah berinteraksi dengan bahasa pemrograman lain beserta library nya. Python merupakan bahasa pemrograman paling populer untuk penelitian akademis. Nama python berasal dari sebuah serial komedi BBC dari tahun 1970-an, yakni Monty Python's Flying Circus. Guido menganggap nama python adalah nama yang singkat, unik, dan sedikit misterius. Beberapa perusahaan besar yang menggunakan python diantaranya Google, Facebook, Instagram, dan Dropbox.
+
+Anaconda adalah distribusi Python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science.
+
+Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program python, antara lain:
+1. Terminal
+2. Terminal + Text Editor
+3. IDE
+4. IDE untuk penelitian dan pengembangan
+
+Jupyter notebook adalah salah satu IDE untuk penelitian dan pengembangan di bidang data science yang bersifat web. IDE ini bersifat open source.
+
+Jupyter notebook vs Colab
+
+Jupyter
+1. Tidak membutuhkan akses internet
+2. Hanya bisa di akses melalui komputer
+3. Tidak bisa share code untuk kolaborasi
+4. Perlu melakukan konfigurasi
+5. Terhubung dengan local storage komputer
+6. Sangat bergantung pada hardware komputer yang dimiliki
+
+Colab
+1. Membutuhkan akses internet
+2. Bisa di akses melalui berbagai device
+3. Bisa share code untuk kolaborasi
+4. Tidak perlu melakukan konfigurasi
+5. Terhubung dengan penyimpanan google drive
+6. Menggunakan hardware yang telah disediakan google
+
+Apa itu program?
+Program adalah urutan instruksi (code) yang menentukan bagaimana cara komputer melakukan komputasi. Komputasi disini berupa sesuatu yang berhubungan dengan matematika dan simbolis.
+
+Apa itu programming?
+Programming adalah aktivitas menulis instruksi (code) untuk dijalankan oleh komputer.
+
+Thu, 24 Feb
+
+Pada materi hari ini saya belajar tentang self study data ethics, apa sih itu data? data bisa berupa banyak hal, data juga terbagi dalam data terstruktur dan data tidak terstruktur, data kualitatif dan data kuantitatif. Selain itu saya juga belajar tentang kualitas data, cara memperoleh data dengan sampel dan populasi, serta hal-hal apa saja yang perlu diperhatikan dalam pengambilan sampel. Di materi kali ini juga terdapat 2 quiz yang berisi tentang apa yang dimaksud dengan data yang terstruktur? dan apa yang dimaksud dengan data tidak terstruktur?. Menurut saya data yang terstruktur itu adalah data yang mana data itu bisa disimpan, diproses, dan diambil dalam bentuk format yang tetap, selain itu data tersebut juga memiliki informasi yang lengkap dan sesuai dengan kriteria yang kita butuhkan dan itu membuat kita jadi lebih mudah untuk membaca dan mengolahnya, data terstruktur bisa ditampilkan dalam bentuk tabel. Sedangkan data tidak terstruktur merupakan data yang tidak bisa diolah ataupun dianalisis dengan alat ataupun metode jadi data yang tidak terstruktur harus disimpan dalam format aslinya, selain itu data tidak terstruktur ini tidak bisa ditampilkan dalam bentuk tabel.
+
+Selain materi yang diatas saya juga belajar melalui video pembelajaran yang ada di orbit guru yaitu tentang "berkenalan lebih dekat dengan jupyter notebook" dan "berkenalan dengan google colab".
+
+Fri, 25 Feb
+
+Hari ini saya mengulang pembelajaran python yang ada pada orbit guru. Pada video tersebut dijelaskan bahwa python adalah bahasa pemrograman yang didukung oleh program berorientasi objek dan bahasa pemrograman tingkat tinggi. Tingkat tinggi disini artinya bahasa komputer yang memakai instruksi dari unsur kata-kata manusia seperti if, else, dan lainnya. Pada video pembelajaran tersebut juga diberitahukan cara menampilkan hello word, fungsi dari komentar(#), fungsi print yang digunakan untuk mencetak, variabel sebagai tempat penyimpanan value (nilai) sementara, dan case sensitive yang sangat berpengaruh pada penulisan huruf besar dan huruf kecil.
+
+What did you learn this week?
+
+Yang saya pelajari 1 minggu ini yaitu:
+•	SENIN 21 Feb 2022
+Kegiatan saya diawal pertemuan ini yang pertama perkenalan diri yang dimulai oleh coach kemudian dilanjutkan dengan anggota kelas lain, kedua melakukan pre-test yang digunakan untuk mengukur seberapa jauh pengetahuan tentang AI, ketiga menjelaskan tentang aturan-aturan dan waktu keterlambatan dalam kehadiran dikelas, keempat penyampaian materi dan tanya jawab tentang apa itu AI, sejarah AI, dan pencetus AI, kelima mengkonfirmasi penggunaan orbit guru apakah ada kendala-kendala yang terjadi.
+•	SELASA 22 Feb 2022
+Hari ini saya belajar mandiri dengan materi yang ada pada Orbit Guru pada Minggu Ke-1 yaitu tentang apa itu python, python frame work, dan hello world python. Disana dijelaskan bahwa python adalah bahasa pemrograman yang didukung oleh program berorientasi objek dan bahasa pemrograman tingkat tinggi. Tingkat tinggi disini yaitu bahasa komputer yang memakai instruksi dari unsur kata-kata manusia seperti if, else, dan lain sebagainya. Guido Van Rossum adalah pembuat dan pengembang bahasa pemrograman python pada tahun 1990-an. Versi pengembangan lebih lanjutnya dilakukan pada tahun 1995. Dan pada tahun 2000 python terus dilakukan pembaharuan hingga mencapai versi 3 atau python 3. Asal mula kata python sendiri berasal dari acara favorit Guido Van Rossum yang berjudul Mothy Python Flying Circus. Selain itu saya juga melakukan instalasi python dan jupyter notebook. Pada jupyter notebook saya belajar dan menjalankan sesuai dengan arahan yang ada di Orbit Guru pada Hello World Python. 
+Dan di dalam grub kelas persevere saya mengikuti arahan yang diberikan oleh coach untuk bergabung kedalam Discord, di sana terdapat kuis yang dilakukan untuk menambah pengetahuan, dan kuis-kuis yang dilakukan untuk bersenang-senang.
+•	RABU 23 Feb 2022
+Hari ini saya mempelajari tentang AI in Industry dan Python Introduction. - MATERI 2 AI in Industry Starup unicorn Indonesia. Perusahaan dengan nilai valuasi di atas US$1 miliar yang pertama ada Gojek [53 triliun], Traveloka [26,6 triliun], Tokopedia [15 triliun], dan Bukalapak [13,7 triliun]. Persamaan dari perusahaan tersebut ialah: 1. Sama-sama memiliki aplikasi masing-masing yang bisa di download dan di pakai secara gratis. 2. Perusahaan tersebut beroperasi dengan mengandalkan internet. 3. Bukan perusahaan atau industri manufaktur (tidak memproduksi sesuatu). Jadi, yang mereka lakukan adalah menjalankan usaha yang cukup sederhana, yaitu memproses data (data processing), dan mereka juga hanya menawarkan insight/solusi dari permasalahan customer. Sebagai contoh yaitu perusahaan Gojek, jika di analisis penumpang butuh kendaraan yang bisa mengantarkan mereka ke tujuan (butuh tumpangan) sedangkan pengemudi memiliki kendaraan tetapi tidak memiliki penumpang (butuh uang). Solusi yang ditawarkan oleh Gojek adalah mempertemukan penumpang dan pengemudi sehingga masalah keduanya bisa teratasi. Lalu yang dilakukan Gojek untuk mempertemukan keduanya dengan memproses data penumpang dan pengemudi, dengan cara: 1. Gojek akan mengambil data penumpang yang memesan tumpangan yang berupa lokasi dan tujuan penumpang. 2. Data-data tersebut akan diolah oleh Gojek sehingga menghasilkan tarif angkutan dan rute perjalanan terbaik. 3. Jika penumpang setuju dengan tarif dan rute yang ditawarkan, Gojek akan membroadcast pesanan penumpang ke pengemudi terdekat. 4. Terakhir, pengemudi yang tertarik akan menerima pesanan penumpang. Akhirnya penumpang dan pengemudi bisa dipertemukan dan masalah keduanya terselesaikan. Penumpang bisa sampai ke tujuan berkat pengemudi. Pengemudi bisa mendapat uang berkat penumpang. "Data is the new oil" Perbedaan yang mencolok antara data dan minyak mentah yaitu: 1. Minyak mentah adalah sumber daya yang tidak dapat diperbaharui dan terus menipis. 2. Data adalah sumber daya yang terus tumbuh dan bertambah sepanjang waktu (infinity). Kesempatan mendapatkan profit dari hasil pemrosesan data juga semakin tinggi karena sumber dayanya tidak akan habis. "Data dan Revolusi Industri" Contoh teknologi yang booming di Revolusi 4.0 yaitu: 1. Internet of Things (IoT) 2. Artificial Intelligence (AI) 3. Blockchain 4. Big Data Revolusi 4.0 sering disebut dengan Era Data (Era of Data). Big data lahir dari data tidak terstruktur yang tumbuh dengan cepat. Big data adalah sebuah istilah yang berkaitan dengan 3V, yakni Volume (ukuran), Velocity (kecepatan), dan Variety (keragaman). QUIZ 1. Kenapa data disebut sebagai minyak mentah yang baru? karena di era teknologi ini data adalah hal yang sangat penting, dan juga memberikan manfaat bagi banyak orang. Dengan menguasai data, pengumpul data bisa melakukan apapun hingga mengendalikan pemilik data. 2. Apa perbedaan data dan big data? data adalah hasil dari aktivitas internet yang sering dilakukan baik untuk tujuan pribadi maupun bisnis, seperti data nama, alamat, dan nomor telepon. Sedangkan big data adalah kumpulan data yang sangat besar, kompleks dan terus bertambah setiap waktu. - MATERI 3 Python Introduction Python adalah bahasa pemrograman tingkat tinggi yang dinamis, serbaguna, dan mudah untuk dipelajari. Python juga dikenal sebagai "glue language" (bahasa pemrograman yang dapat dengan mudah berinteraksi dengan bahasa pemrograman lain beserta library nya. Python merupakan bahasa pemrograman paling populer untuk penelitian akademis. Nama python berasal dari sebuah serial komedi BBC dari tahun 1970-an, yakni Monty Python's Flying Circus. Guido menganggap nama python adalah nama yang singkat, unik, dan sedikit misterius. Beberapa perusahaan besar yang menggunakan python diantaranya Google, Facebook, Instagram, dan Dropbox. Anaconda adalah distribusi Python/R, kumpulan package open-source, package manager, dan environment manager yang dibangun untuk data science. Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program python, antara lain: 1. Terminal 2. Terminal + Text Editor 3. IDE 4. IDE untuk penelitian dan pengembangan Jupyter notebook adalah salah satu IDE untuk penelitian dan pengembangan di bidang data science yang bersifat web. IDE ini bersifat open source. Jupyter notebook vs Colab Jupyter 1. Tidak membutuhkan akses internet 2. Hanya bisa di akses melalui komputer 3. Tidak bisa share code untuk kolaborasi 4. Perlu melakukan konfigurasi 5. Terhubung dengan local storage komputer 6. Sangat bergantung pada hardware komputer yang dimiliki Colab 1. Membutuhkan akses internet 2. Bisa di akses melalui berbagai device 3. Bisa share code untuk kolaborasi 4. Tidak perlu melakukan konfigurasi 5. Terhubung dengan penyimpanan google drive 6. Menggunakan hardware yang telah disediakan google Apa itu program? Program adalah urutan instruksi (code) yang menentukan bagaimana cara komputer melakukan komputasi. Komputasi disini berupa sesuatu yang berhubungan dengan matematika dan simbolis. Apa itu programming? Programming adalah aktivitas menulis instruksi (code) untuk dijalankan oleh komputer.
+•	KAMIS 24 Feb 2022
+Pada materi hari ini saya belajar tentang self study data ethics, apa sih itu data? data bisa berupa banyak hal, data juga terbagi dalam data terstruktur dan data tidak terstruktur, data kualitatif dan data kuantitatif. Selain itu saya juga belajar tentang kualitas data, cara memperoleh data dengan sampel dan populasi, serta hal-hal apa saja yang perlu diperhatikan dalam pengambilan sampel. Di materi kali ini juga terdapat 2 quiz yang berisi tentang apa yang dimaksud dengan data yang terstruktur? dan apa yang dimaksud dengan data tidak terstruktur?. Menurut saya data yang terstruktur itu adalah data yang mana data itu bisa disimpan, diproses, dan diambil dalam bentuk format yang tetap, selain itu data tersebut juga memiliki informasi yang lengkap dan sesuai dengan kriteria yang kita butuhkan dan itu membuat kita jadi lebih mudah untuk membaca dan mengolahnya, data terstruktur bisa ditampilkan dalam bentuk tabel. Sedangkan data tidak terstruktur merupakan data yang tidak bisa diolah ataupun dianalisis dengan alat ataupun metode jadi data yang tidak terstruktur harus disimpan dalam format aslinya, selain itu data tidak terstruktur ini tidak bisa ditampilkan dalam bentuk tabel. Selain materi yang diatas saya juga belajar melalui video pembelajaran yang ada di orbit guru yaitu tentang "berkenalan lebih dekat dengan jupyter notebook" dan "berkenalan dengan google colab".
+•	JUM’AT 25 Feb 2022
+Hari ini saya mengulang pembelajaran python yang ada pada orbit guru. Pada video tersebut dijelaskan bahwa python adalah bahasa pemrograman yang didukung oleh program berorientasi objek dan bahasa pemrograman tingkat tinggi. Tingkat tinggi disini artinya bahasa komputer yang memakai instruksi dari unsur kata-kata manusia seperti if, else, dan lainnya. Pada video pembelajaran tersebut juga diberitahukan cara menampilkan hello word, fungsi dari komentar(#), fungsi print yang digunakan untuk mencetak, variabel sebagai tempat penyimpanan value (nilai) sementara, dan case sensitive yang sangat berpengaruh pada penulisan huruf besar dan huruf kecil.

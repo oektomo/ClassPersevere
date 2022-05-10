@@ -1,0 +1,86 @@
+Mon, 28 Mar
+
+Dimensionality Reduction
+Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan fitur tidak menghilangkan informasi yang dimuat pada data tersebut. Teknik yang digunakan ada 2, yakni PCA dan LDA. Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaiannya.
+
+Tue, 29 Mar
+
+Monte Carlo Prediction
+-	Mengetahui monte carlo prediction
+-	Mengetahui monte carlo estimation & control
+-	Mengetahui on-policy dan off-policy monte carlo
+-	Mengetahui dasar pemrograman monte carlo
+
+Wed, 30 Mar
+
+-	Memahami deep learning untuk computer vision
+-	Memahami struktur CNN
+-	Memahami implementasi CNN menggunakan Keras
+-	Mengetahui pengertian text classification
+-	Mengetahui area text classification
+-	Memahami konsep dasar proses text classification 
+-	Mengimplementasikan text classification dengan baik menggunakan bahasa pemrograman python
+-	Rekomendasi system dalam AI
+-	Market Basket Analysis
+-	Association Rules Mining
+-	Apriori Introduction
+
+Thu, 31 Mar
+
+Google Data Studio
+-	Memahami apa itu visualisasi data dan pentingnya visualisasi data
+-	Mengetahui jenis visualisasi data
+-	Mengetahui perbedaan dimensi dan metrik
+-	Mengenal google data studio sebagai salah satu alat untuk visualisasi data
+-	Mengetahui komponen di google data studio yang dapat digunakan untuk visualisasi data
+
+Fri, 1 Apr
+
+Web Scraping
+-	Memahami apa itu web scraping
+-	Mengetahui modul untuk web scraping pada python
+-	Mengetahui teknik melakukan web scraping
+-	Melakukan web scraping sederhana
+-	Menyimpan data hasil web scraping
+
+What did you learn this week?
+
+•	SENIN 28 Mar 2022
+Dimensionality Reduction
+Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan fitur tidak menghilangkan informasi yang dimuat pada data tersebut. Teknik yang digunakan ada 2, yakni PCA dan LDA. Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaiannya.
+
+•	SELASA 29 Mar 2022
+Monte Carlo Prediction
+-	Mengetahui monte carlo prediction
+-	Mengetahui monte carlo estimation & control
+-	Mengetahui on-policy dan off-policy monte carlo
+-	Mengetahui dasar pemrograman monte carlo
+
+•	RABU 30 Mar 2022
+-	Memahami deep learning untuk computer vision
+-	Memahami struktur CNN
+-	Memahami implementasi CNN menggunakan Keras
+-	Mengetahui pengertian text classification
+-	Mengetahui area text classification
+-	Memahami konsep dasar proses text classification 
+-	Mengimplementasikan text classification dengan baik menggunakan bahasa pemrograman python
+-	Rekomendasi system dalam AI
+-	Market Basket Analysis
+-	Association Rules Mining
+-	Apriori Introduction
+
+•	KAMIS 31 Mar 2022
+Google Data Studio
+-	Memahami apa itu visualisasi data dan pentingnya visualisasi data
+-	Mengetahui jenis visualisasi data
+-	Mengetahui perbedaan dimensi dan metrik
+-	Mengenal google data studio sebagai salah satu alat untuk visualisasi data
+-	Mengetahui komponen di google data studio yang dapat digunakan untuk visualisasi data
+
+•	JUM’AT 01 Apr 2022
+Web Scraping
+-	Memahami apa itu web scraping
+-	Mengetahui modul untuk web scraping pada python
+-	Mengetahui teknik melakukan web scraping
+-	Melakukan web scraping sederhana
+-	Menyimpan data hasil web scraping

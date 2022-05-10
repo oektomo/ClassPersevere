@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+Hari pertama dimulai dengan perkenalan sekelas. Selanjutnya disampaikan materi apa saja yang akan disampaikan selama program ini bersama dengan penjelasan singkat mengenai materi-materi tersebut. Ada juga tes awal untuk mengetahui seberapa dalam pengetahuan siswa dalam topik AI. Berikutnya, ada materi awal yang mempelajari apa itu AI. AI sendiri merupakan kemampuan mesin untuk mencontoh manusia. Berikutnya disampaikan juga contoh-contohnya seperti Siri di Iphone,mobil yang dikemudikan robot, dll. 
+
+Tue, 22 Feb
+
+Hari ini sesi self-learning. Saya menjadwalkan menyelesaikan course Intro to Python di minggu ini via LMS yang disediakan Orbit. Hari ini saya belajar sedikit detil mengenai Python dan AI. Untuk Python sendiri yang dipelajari berupa Hello World dan juga sedikit tentang variabel di Python.
+
+Wed, 23 Feb
+
+Di hari ini saya mempelajari  beberapa IDE Python yang ada seperti Jupyter dan Google Colab. Selain itu mempelajari sedikit lebih mendalam mengenai tipe data, variabel dan operator melalui LMS Orbit. Selain itu, terdapat juga modul untuk Python yang membahas apa itu Python, IDE yang ada serta perbandingan high level programming dengan low level programming.
+
+Thu, 24 Feb
+
+Hari kamis ini saya mempelajari mengenai Data, etika dan bias tentang data dari modul yang disediakan. Di modul ini dijelaskan lebih lanjut tentang data seperti bentuk-bentuk data dan jenisnya. Selain itu juga dijelaskan kualitas data dan cara memperoleh data serta etika dalam  AI.
+
+Fri, 25 Feb
+
+Jadi hari itu difokuskan untuk belajar sendiri Python lagi. Kali ini belajar tentang operator, string, list dan set Python. Operator berfokus pada operasi matematika umum seperti penambahan, pengurangan, perkalian, pembagian dan bilangan float. Operasi untuk memeriksa kesetaraan variabel dan lebih besar dari atau kurang dari juga diberikan sebagai bahan. String berfokus pada fundamentalnya dan memaparkannya sebagai sistem array. Dalam daftar, kami diajarkan operasi untuk daftar seperti menggabungkan daftar, menambahkan, dll. Set yang berfungsi seperti array tetapi lebih tidak terstruktur. Dapat menyimpan data, tetapi urutan data yang disimpan tidak selalu sama.
+
+What did you learn this week?
+
+Di minggu pertama ini, kami melakukan perkenalan dan juga belajar topik-topik yang general dan dasar seperti penjelasan mengenai AI, data, big data dan juga bahasa pemrograman Python beserta contoh-contohnya. Untuk Python sendiri kami belajar hal dasar seperti "Hello World", operasi matematika dalam Python, beberapa struktur data seperti list dan set, serta variabel. Dijelaskan pula mengenai IDE Python seperti Jupyter Notebook dan Google Collab.

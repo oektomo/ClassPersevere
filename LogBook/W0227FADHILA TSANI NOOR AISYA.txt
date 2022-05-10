@@ -1,0 +1,333 @@
+Mon, 28 Feb
+
+   Hari ini senin, 28 februari 2022 libur dalam rangka peringatan isra mi'raj. Jadi kegiatanku pada hari ini hanya dirumah saja merefresh otak. Selain itu, dirumah saya hanya tidur, makan, dan main hp. 
+
+Tue, 1 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi sedikit tentang AI. 
+   Apa itu AI? AI adalah ilmu dan rekayasa untuk membuat mesin cerdas, terutama program komputer cerdas. ini terkait dengan tugas serupa menggunakan komputer untuk memahami kecerdasan manusia, tetapi AI tidak harus membatasi dirinya pada metode yang dapat diamati secara biologis. 
+   Bertindak secara manusiawi. Tes turing adalah menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan menginterogasi nya bersama dengan rekan manusia nya (Alan Turing). 
+   Konsep Agen. Agen adalah segala sesuatu yang dapat dilihat sebagai memahami lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui aktuator. Program agen berjalan pada arsitektur fisik untuk menghasilkan f. Agen = arsitektur + program 
+   The main idea. Bagian manusia yang dapat belajar yaitu otak. Di dalam otak terdapat jaringan syaraf seperti axon, nucleus, dendrite,dll.  
+   Selanjutnya materi pengenalan tentang python. Apa itu python? Python adalah bahasa pemrograman open source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas. Python memiliki sintaks elegan yang alami untuk dibaca dan mudah untuk ditulis. Python merupakan bahasa yang langsung diinterpretasi atau dimengerti oleh mesin tanpa kompilasi. Python ini memiliki kumpulan perpustakaan yang lengkap, kuat dan portabel. Python saat ini digunakan untuk berbagai tugas, beberapa aplikasi yang populer termasuk analisis data, pembelajaran mesin, scrapping web, pengembangan aplikasi web, pengembangan layanan backend. Python 2.x adalah legacy, sedangkan python 3.x digunakan pada hari ini dan masa depan. 
+   Siapa yang menggunakan python? Perusahaan besar banyak yang menggunakan python seperti youtube, Google , NASA, Netflix,dll. 
+Mengapa python?
+- sederhana dan elegan
+- Powerful
+- Free
+- Dukungan komunitas
+   Sejarah python yaitu diciptakan pada 1980 an oleh Guido Van Rossum awal 90an di Belanda. Awalnya diberi nama Monty Python. Berbentuk open source sejak awal hadir. Sebagai bentuk scripting language dengan fitur kaya. Bersifat scalable, object oriented dan functional. Digunakan oleh beberapa organisasi seperti Google dan Facebook sejak awal berdiri. 
+   Python IDEs. IDE (Integrated Development Environment) adalah editor kode yang dilengkapi beberapa fitur seperti linting kode, debugging, dan pengujian. Ada beberapa editor kode dan IDE yang tersedia untuk python, beberapa diantaranya yang populer yaitu Jupyter Notebook, Spyder, Phycarm, Atom, Google Colab. 
+   Anaconda adalah distribusi python yang populer dengan editor kode seperti notebook Jupyter dan spyder IDE. Perbedaan jupyter notebook dan spyder yaitu jika jupyter notebook adalah tool berbasis interface yang dapat digunakan untuk menulis catatan serta melakukan analisis data dalam file yang sama sedangkan spyder adalah IDE untuk scientific programming di python. 
+   Mengenal Jupyter Notebook. Jupyter Notebook adalah dokumen berisi kode python serta elemen teks yang lengkap seperti teks judul, persamaan, gambar dan tautan. 
+Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai. 
+   Kemudian pada sesi kedua diberikan materi oleh coach tentang Python Data Types. Struktur data adalah cara untuk menyimpan data dalam bahasa pemrograman. 
+Struktur data dalam python :
+1. Tipe data primitive adalah struktur data dasar, blok bangunan untuk manipulasi data dan berisi nilai data yang murni dan sederhana. Terdiri dari Numbers (integer, float, complex), String, dan Boolean. 
+2. Tipe data Non primitive adalah berasal dari primitive data digunakan untuk menyimpan kumpulan nilai. Terdiri dari List, Tuple, Dictionary, dan Set. 
+Primitive Data Types
+- type() fungsi digunakan untuk mengetahui kelas mana yang dimiliki variabel atau nilai. 
+- Bilangan Kompleks ditulis dalam bentuk a+bj, a adalah bagian real dan b adalah bagian imajiner. 
+- String adalah teks diapit dengan tanda kutip tunggal atau ganda.
+- Boolean adalah berupa dua nilai benar atau salah. 
+Non Primitive Data Types 
+- List berisi item yang dipisahkan dengan koma dan diapit dalan tanda kurung siku. Pengindeksan pada list dimulai dari sisi kiri ke kanan. Namun python juga mendukung pengindeksan negatif (kanan ke kiri). List memiliki berbagai metode yang tersedia yang dapat digunakan untuk memanipulasi list itu sendiri seperti append(), insert(), remove(), extend(),  pop(), dll. 
+- Tuple berisi item yang dipisahkan dengan ka dan diapit salam tanda kurung. Tuple tidak mendukung modifikasi sehingga merupakan objek yang tidak dapat diubah.
+- Dictionary dideklarasi menggunakan simbol {}. Dictionary juga bisa berubah yaitu kita dapat memodifikasi baik menambahkan, mengurangi, ata mengubah elemen dictionary setelah pembuatan. 
+- Tuple tidak dapat diubah sedangkan list, dictionary , dan set dapat diubah. 
+   String merupakan primitive data types tapi mendukung banyak fungsi dari koleksi (list dan tuple). String adalah kumpulan abjad, kata atau karakter lainnya. String multi barus dilambangkan menggunakan tanda kutip tiga. String merupakan objek yang inmutable sehingga sekali di deklarasi kita tidak dapat mengubah String tersebut. 
+   Type conversion yaitu ada implicit dan explicit. Contoh fungsi type conversion yaitu int(x[,base]), long(x[,base]), float(x), complex(real[,imag]),str(x), eval(str), tuple(s), list(s), set(s), dict(s), frozenset(s), chr(x),dll. Type conversion data primitive yaitu kita dapet mengetikkan tipe data primitif dari satu ke yang lain. 
+   Setelah pemberian materi, kita diberikan tugas oleh coach untuk belajar mandiri yaitu mencoba-coba kode python yang ada di web https://www.w3schools.com/python/default.asp . Kita dapat mencoba-coba sendiri di jupyter notebook. Selain itu, kita dapat belajar sendiri untuk mengetahui dan mengembangkan pengetahuan kita tentang macam-macam tipe data pada python. 
+
+Wed, 2 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Pada sesi pertama diawali dengan materi tentang git/github. Git dibuat oleh Linus Torvard. Git adalah software source versioning. Svm juga merupakan source versioning. Github dimiliki oleh perusahaan Microsoft. Github bersifat close source sedangkan gitlab bersifat open source. 
+Kemudian dilanjutkan dengan pemberian materi tentang Python operators.
+Operator di Python : 
+1. Arithmetic operators
+         Contoh : +, -, , /, %, //, *
+2. Comparison operators
+         Contoh : >,<,==,!=,>=,<=
+3. Logical operators
+         Contoh : and, or, not
+4. Identity operators
+         Contoh : is, is not
+5. Membership operator
+         Contoh : in, not in
+6. Bitwise operators
+         Contoh : AND, OR, XOR, NOT,dll. 
+Selanjutnya pada sesi kedua pemberian materi tentang Python Controller Flow.
+Macam Flow Control : 
+-Conditional Statement
+1. If
+2. If-else 
+3. If-elif-else
+4. nested if-else
+-Transfer Statement
+1. break
+2. Continue
+3. Pass
+-Iterative Statement
+1. For
+2. While
+If else :
+- pernyataan bersyarat memutuskan aliran program berdasarkan beberapa aturan
+- Dilakukan dengan bantuan pernyataan : if - else
+- If digunakan untuk mengeksekusi blok kode secara kondisional
+- Jika pernyataan berisi ekspresi logis atau kondisi, tergantung pada keputusan yang dibuat
+3 hal dalam perulangan for :
+1. Inisialisasi variabel
+2. Increment/ counter variable
+3. Kondisi kapan mesti keluar perulangan
+Loop : for loop 
+- For loop digunakan untuk mengulangi urutan yang berupa list, tuple, dictionary, atau set. 
+- fungsi range() membuat urutan angka untuk diterasi
+- Dapat digunakan untuk membuat urutan penambahan/pengurangan
+Loop : while loop
+- while loop mengeksekusi blok kode didalamnya, hingga kondisi mengembalikan true dan keluar dari loop setelah kondisi mengembalikan false
+Loop : break
+- break Statement akan menghentikan proses loop dimana break berada
+Loop : Pass 
+- Digunakan untuk menulis loop kosong
+- Pass juga digunakan untuk pernyataan kontrol kosong, fungsi dan kelas. 
+List comprehension 
+- List comprehension menawarkan sintaks yang lebih pendek ketika membuat list baru berdasarkan nilai dari list yang sudah ada
+- Kita juga dapat menambahkan conditional Statements pada list comprehension
+   Setelah selesai pemberian semua materi oleh coach, kami diberikan tugas. Dan tugas ini dikumpulkan di git/github. Lalu setelah itu kami juga melakukan belajar mandiri dan menyelesaikan tugas itu. 
+
+Thu, 3 Mar
+
+   Hari ini kamis, 3 maret 2022 libur dalam rangka hari raya nyepi. Jadi kegiatanku pada hari ini belajar mandiri di rumah. Selain itu, di rumah saya juga mengerjakan tugas-tugas dari kampus dan orbit yang deadline nya sebentar lagi. 
+
+Fri, 4 Mar
+
+   Kegiatanku hari ini adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Pada sesi pertama diberikan materi tentang Phyton Functions. 
+Functions di Python : 
+- User defined functions
+Python memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+- Buit-in functions
+Fungsi python yang sudah tersedia sejak melakukan instalasi python tanpa harus membuat fungsi lagi
+- Lambda functions
+Fungsi lambda juga disebut fungsi anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana
+User defined functions in python
+- Fungsi adalah metode utama untuk menata kode dan dapat digunakan kembali dalam python
+- Blok pernyataan yang menerima beberapa argumen, melakukan beberapa fungsi dan menyediakan output
+- Def digunakan untuk membuat fungsi yang ditentukan pengguna Python 
+- Hasil dari fungsi dinyatakan dengan pernyataan return
+Built-in functions in Python 
+Standard
+- print()- Mencetak objek ke text stream file, dipisahkan oleh sep dan diikuti oleh akhir
+- len()-Mengembalikan panjang (jumlah item) dari suatu objek.
+- type()- Dengan satu argumen, kembalikan tipe objek. Id()- Mengembalikan "identitas" suatu objek.
+- Input()- Jika argumen prompt hadir, itu ditulis ke output standar tanpa tambahan baris baru. 
+- help()- Panggil sistem bantuan bawaan.
+Operasi Matematika
+- min()- Mengembalikan item terkecil dalam iterable atau terkecil dari dua atau lebih argumen
+- max()- Mengembalikan item terbesar dalam Iterable atau terbesar dari dua atau lebih argumen.
+- sum()- Menjumlahkan awal dan item dari iterable dari kiri ke kanan dan mengembalikan total. 
+- pow() - Kembalikan base ke power exp
+- round()- Mengembalikan angka yang dibulatkan ke presisi ndigit setelah titik desimal
+- abs()- Mengembalikan nilai absolut dari suatu angka.
+Type Conversion
+- Primitive type conversion: int(), float(), bool(), str(), complex()
+- Non-primitive type conversion: list(), tuple(), dict(), set()
+- Metode conversion lainnya: ascii(), bin(), bytes(), hex(), chr(). bytearray(), ord()
+Utility based functions
+- Sequence based functions: zip(), range(), map(), filter(). reversed(), enumerate(), iter(), sorted(), next()
+- OOPS related functions: hasattr(), getattr().setattr(), issubset(), isinstance(), object(). classmethod(), staticmethod(), super(), dir(),
+String Manipulation
+- Dalam Python, String adalah array byte yang mewakili karakter Unicode. Unicode adalah standar pengkodean karakter Internasional yang mencakup berbagai bahasa, skrip, dan simbol. Setiap huruf, angka atau simbol memiliki unicode yang unik. Unicode adalah perpanjangan dari ASCII yang memungkinkan lebih banyak karakter untuk diwakili.
+- String baris tunggal dapat dibuat menggunakan tanda kutip tunggal atau ganda. String multiline dapat dibuat menggunakan tanda kutip tiga.
+- Python menyediakan banyak seperangkat operator, fungsi, dan metode untuk bekerja dengan string.
+String manipulation menggunakan operators :
+- Operator + melakukan operasi matematika dengan Python. Cukup menulis dua literal string bersama-sama dan menggabungkannya.
+- Operator * dapat digunakan untuk mengulang string beberapa kali.
+- Operator "in" dapat digunakan untuk memeriksa apakah substring ada di dalam string atau tidak
+    Python mendukung penggunaan operator seperti +, *, "in" dan "not in untuk memanipulasi string, selain tu string python memiliki banyak metode bawaan yang dapat digunakan untuk memanipulasi string.
+String manipulation menggunakan built-in methods
+Contoh metode : capitalize(), count(), find(), index(), replace(), split(), strip(), dll.
+   Kemudian pada sesi kedua dilanjutkan lagi materi sebelumnya tentang pythoon funtions. Generators adalah jenis fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan urutan nilai. Dalam fungsi generator, yield statement biasanya digunakan daripada return statement. Python Generator membantu dalam menghemat memori dengan melakukan pemrosesan data secara efisien termasuk dalam melakukan perhitungan
+Syntax : 
+def generator function(arg1, arg2,…
+argN):
+<statements>
+yield value1
+yield value2
+Map and Filter
+Fungsi map dan filter dapat digunakan untuk melakukan transformasi dan pemfiteran data pado objek yang dapat diubah
+Lambda function
+Fungsi Lambda juga disebut sebagai fungsi anonim adalah fungsi yang tidak memiliki nama. Fungsi lambda digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat.
+Syntax : 
+lambda arguments: expression
+File handling di python 
+- fungsi open() menerima 4 dua argumen, nama file dan mode akses di mana file diakses
+- Fungsi mengembalikan objek file yang dapat digunakan untuk melakukan berbagai operasi seperti membaca, menulis, dit
+- Fungsi Python open() dapat digunakan untuk menangani file, membantu dalam membaca, menulis, menambahkan data ke file
+- Contoh : r, rb, w, wb, a, ab, dll. 
+   Setelah selesai materi pertama, dilanjutkan lagi pemberian materi kedua oleh coach tentang Python Exception / Error Handling. 
+Try-Except-Else-Finally
+- try : Code yang dapat mengandung besalahan
+- except: Code yang dieksekusi jika terdapat kesalahan 
+- else : Code yang dieksekusi Jika tidak terdapat kesalahan
+- finally : Code yang selalu akan dijalankan di akhir
+
+What did you learn this week?
+
+   Pada hari Senin, 28 februari 2022 di hari pertama dan di minggu kedua ini libur dalam rangka peringatan isra mi'raj. Jadi kegiatanku pada hari itu, hanya dirumah saja merefresh otak. Selain itu, dirumah saya hanya tidur, makan, dan main hp. 
+   Pada hari Selasa, 1 Maret 2022 di hari kedua dan di minggu kedua, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Sesi Pertama diawali dengan pemberian materi sedikit tentang AI. 
+   Apa itu AI? AI adalah ilmu dan rekayasa untuk membuat mesin cerdas, terutama program komputer cerdas. ini terkait dengan tugas serupa menggunakan komputer untuk memahami kecerdasan manusia, tetapi AI tidak harus membatasi dirinya pada metode yang dapat diamati secara biologis. 
+   Bertindak secara manusiawi. Tes turing adalah menentukan apakah suatu program memenuhi syarat sebagai kecerdasan buatan dengan menginterogasi nya bersama dengan rekan manusia nya (Alan Turing). 
+   Konsep Agen. Agen adalah segala sesuatu yang dapat dilihat sebagai memahami lingkungannya melalui sensor dan bertindak atas lingkungan itu melalui aktuator. Program agen berjalan pada arsitektur fisik untuk menghasilkan f. Agen = arsitektur + program 
+   The main idea. Bagian manusia yang dapat belajar yaitu otak. Di dalam otak terdapat jaringan syaraf seperti axon, nucleus, dendrite,dll.  
+   Selanjutnya materi pengenalan tentang python. Apa itu python? Python adalah bahasa pemrograman open source yang bersifat dinamis dengan keutamaan pada kesederhanaan dan produktivitas. Python memiliki sintaks elegan yang alami untuk dibaca dan mudah untuk ditulis. Python merupakan bahasa yang langsung diinterpretasi atau dimengerti oleh mesin tanpa kompilasi. Python ini memiliki kumpulan perpustakaan yang lengkap, kuat dan portabel. Python saat ini digunakan untuk berbagai tugas, beberapa aplikasi yang populer termasuk analisis data, pembelajaran mesin, scrapping web, pengembangan aplikasi web, pengembangan layanan backend. Python 2.x adalah legacy, sedangkan python 3.x digunakan pada hari ini dan masa depan. 
+   Siapa yang menggunakan python? Perusahaan besar banyak yang menggunakan python seperti youtube, Google , NASA, Netflix,dll. 
+Mengapa python?
+- sederhana dan elegan
+- Powerful
+- Free
+- Dukungan komunitas
+   Sejarah python yaitu diciptakan pada 1980 an oleh Guido Van Rossum awal 90an di Belanda. Awalnya diberi nama Monty Python. Berbentuk open source sejak awal hadir. Sebagai bentuk scripting language dengan fitur kaya. Bersifat scalable, object oriented dan functional. Digunakan oleh beberapa organisasi seperti Google dan Facebook sejak awal berdiri. 
+   Python IDEs. IDE (Integrated Development Environment) adalah editor kode yang dilengkapi beberapa fitur seperti linting kode, debugging, dan pengujian. Ada beberapa editor kode dan IDE yang tersedia untuk python, beberapa diantaranya yang populer yaitu Jupyter Notebook, Spyder, Phycarm, Atom, Google Colab. 
+   Anaconda adalah distribusi python yang populer dengan editor kode seperti notebook Jupyter dan spyder IDE. Perbedaan jupyter notebook dan spyder yaitu jika jupyter notebook adalah tool berbasis interface yang dapat digunakan untuk menulis catatan serta melakukan analisis data dalam file yang sama sedangkan spyder adalah IDE untuk scientific programming di python. 
+   Mengenal Jupyter Notebook. Jupyter Notebook adalah dokumen berisi kode python serta elemen teks yang lengkap seperti teks judul, persamaan, gambar dan tautan. 
+Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai. 
+   Kemudian pada sesi kedua diberikan materi oleh coach tentang Python Data Types. Struktur data adalah cara untuk menyimpan data dalam bahasa pemrograman. 
+Struktur data dalam python :
+1. Tipe data primitive adalah struktur data dasar, blok bangunan untuk manipulasi data dan berisi nilai data yang murni dan sederhana. Terdiri dari Numbers (integer, float, complex), String, dan Boolean. 
+2. Tipe data Non primitive adalah berasal dari primitive data digunakan untuk menyimpan kumpulan nilai. Terdiri dari List, Tuple, Dictionary, dan Set. 
+Primitive Data Types
+- type() fungsi digunakan untuk mengetahui kelas mana yang dimiliki variabel atau nilai. 
+- Bilangan Kompleks ditulis dalam bentuk a+bj, a adalah bagian real dan b adalah bagian imajiner. 
+- String adalah teks diapit dengan tanda kutip tunggal atau ganda.
+- Boolean adalah berupa dua nilai benar atau salah. 
+Non Primitive Data Types 
+- List berisi item yang dipisahkan dengan koma dan diapit dalan tanda kurung siku. Pengindeksan pada list dimulai dari sisi kiri ke kanan. Namun python juga mendukung pengindeksan negatif (kanan ke kiri). List memiliki berbagai metode yang tersedia yang dapat digunakan untuk memanipulasi list itu sendiri seperti append(), insert(), remove(), extend(),  pop(), dll. 
+- Tuple berisi item yang dipisahkan dengan ka dan diapit salam tanda kurung. Tuple tidak mendukung modifikasi sehingga merupakan objek yang tidak dapat diubah.
+- Dictionary dideklarasi menggunakan simbol {}. Dictionary juga bisa berubah yaitu kita dapat memodifikasi baik menambahkan, mengurangi, ata mengubah elemen dictionary setelah pembuatan. 
+- Tuple tidak dapat diubah sedangkan list, dictionary , dan set dapat diubah. 
+   String merupakan primitive data types tapi mendukung banyak fungsi dari koleksi (list dan tuple). String adalah kumpulan abjad, kata atau karakter lainnya. String multi barus dilambangkan menggunakan tanda kutip tiga. String merupakan objek yang inmutable sehingga sekali di deklarasi kita tidak dapat mengubah String tersebut. 
+   Type conversion yaitu ada implicit dan explicit. Contoh fungsi type conversion yaitu int(x[,base]), long(x[,base]), float(x), complex(real[,imag]),str(x), eval(str), tuple(s), list(s), set(s), dict(s), frozenset(s), chr(x),dll. Type conversion data primitive yaitu kita dapet mengetikkan tipe data primitif dari satu ke yang lain. 
+   Setelah pemberian materi, kita diberikan tugas oleh coach untuk belajar mandiri yaitu mencoba-coba kode python yang ada di web https://www.w3schools.com/python/default.asp . Kita dapat mencoba-coba sendiri di jupyter notebook. Selain itu, kita dapat belajar sendiri untuk mengetahui dan mengembangkan pengetahuan kita tentang macam-macam tipe data pada python. 
+   Pada hari Rabu, 2 Maret 2022 di hari ketiga dan di minggu kedua, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Pada sesi pertama diawali dengan materi tentang git/github. Git dibuat oleh Linus Torvard. Git adalah software source versioning. Svm juga merupakan source versioning. Github dimiliki oleh perusahaan Microsoft. Github bersifat close source sedangkan gitlab bersifat open source. 
+Kemudian dilanjutkan dengan pemberian materi tentang Python operators.
+Operator di Python : 
+1. Arithmetic operators
+         Contoh : +, -, , /, %, //, *
+2. Comparison operators
+         Contoh : >,<,==,!=,>=,<=
+3. Logical operators
+         Contoh : and, or, not
+4. Identity operators
+         Contoh : is, is not
+5. Membership operator
+         Contoh : in, not in
+6. Bitwise operators
+         Contoh : AND, OR, XOR, NOT,dll. 
+Selanjutnya pada sesi kedua pemberian materi tentang Python Controller Flow.
+Macam Flow Control : 
+-Conditional Statement
+1. If
+2. If-else 
+3. If-elif-else
+4. nested if-else
+-Transfer Statement
+1. break
+2. Continue
+3. Pass
+-Iterative Statement
+1. For
+2. While
+If else :
+- pernyataan bersyarat memutuskan aliran program berdasarkan beberapa aturan
+- Dilakukan dengan bantuan pernyataan : if - else
+- If digunakan untuk mengeksekusi blok kode secara kondisional
+- Jika pernyataan berisi ekspresi logis atau kondisi, tergantung pada keputusan yang dibuat
+3 hal dalam perulangan for :
+1. Inisialisasi variabel
+2. Increment/ counter variable
+3. Kondisi kapan mesti keluar perulangan
+Loop : for loop 
+- For loop digunakan untuk mengulangi urutan yang berupa list, tuple, dictionary, atau set. 
+- fungsi range() membuat urutan angka untuk diterasi
+- Dapat digunakan untuk membuat urutan penambahan/pengurangan
+Loop : while loop
+- while loop mengeksekusi blok kode didalamnya, hingga kondisi mengembalikan true dan keluar dari loop setelah kondisi mengembalikan false
+Loop : break
+- break Statement akan menghentikan proses loop dimana break berada
+Loop : Pass 
+- Digunakan untuk menulis loop kosong
+- Pass juga digunakan untuk pernyataan kontrol kosong, fungsi dan kelas. 
+List comprehension 
+- List comprehension menawarkan sintaks yang lebih pendek ketika membuat list baru berdasarkan nilai dari list yang sudah ada
+- Kita juga dapat menambahkan conditional Statements pada list comprehension
+   Setelah selesai pemberian semua materi oleh coach, kami diberikan tugas. Dan tugas ini dikumpulkan di git/github. Lalu setelah itu kami juga melakukan belajar mandiri dan menyelesaikan tugas itu. 
+   Pada hari ini Kamis, 3 Maret 2022 di hari keempat dan di minggu kedua ini libur dalam rangka hari raya nyepi. Jadi kegiatanku pada hari itu belajar mandiri di rumah. Selain itu, di rumah saya juga mengerjakan tugas-tugas dari kampus dan orbit yang deadline nya tidak lama lagi. 
+   Pada hari Jumat, 4 Mar 2022 di hari kelima dan di minggu kedua, kegiatanku pada hari itu adalah belajar dengan coach di microsoft teams dan belajar mandiri. Belajar dengan coach hari ini dibagi menjadi dua sesi. Pada sesi pertama diberikan materi tentang Phyton Functions. 
+Functions di Python : 
+- User defined functions
+Python memungkinkan pengguna untuk membuat fungsi yang ditentukan pengguna.
+- Buit-in functions
+Fungsi python yang sudah tersedia sejak melakukan instalasi python tanpa harus membuat fungsi lagi
+- Lambda functions
+Fungsi lambda juga disebut fungsi anonim atau tanpa nama, biasanya digunakan untuk mendefinisikan logika sederhana
+User defined functions in python
+- Fungsi adalah metode utama untuk menata kode dan dapat digunakan kembali dalam python
+- Blok pernyataan yang menerima beberapa argumen, melakukan beberapa fungsi dan menyediakan output
+- Def digunakan untuk membuat fungsi yang ditentukan pengguna Python 
+- Hasil dari fungsi dinyatakan dengan pernyataan return
+Built-in functions in Python 
+Standard
+- print()- Mencetak objek ke text stream file, dipisahkan oleh sep dan diikuti oleh akhir
+- len()-Mengembalikan panjang (jumlah item) dari suatu objek.
+- type()- Dengan satu argumen, kembalikan tipe objek. Id()- Mengembalikan "identitas" suatu objek.
+- Input()- Jika argumen prompt hadir, itu ditulis ke output standar tanpa tambahan baris baru. 
+- help()- Panggil sistem bantuan bawaan.
+Operasi Matematika
+- min()- Mengembalikan item terkecil dalam iterable atau terkecil dari dua atau lebih argumen
+- max()- Mengembalikan item terbesar dalam Iterable atau terbesar dari dua atau lebih argumen.
+- sum()- Menjumlahkan awal dan item dari iterable dari kiri ke kanan dan mengembalikan total. 
+- pow() - Kembalikan base ke power exp
+- round()- Mengembalikan angka yang dibulatkan ke presisi ndigit setelah titik desimal
+- abs()- Mengembalikan nilai absolut dari suatu angka.
+Type Conversion
+- Primitive type conversion: int(), float(), bool(), str(), complex()
+- Non-primitive type conversion: list(), tuple(), dict(), set()
+- Metode conversion lainnya: ascii(), bin(), bytes(), hex(), chr(). bytearray(), ord()
+Utility based functions
+- Sequence based functions: zip(), range(), map(), filter(). reversed(), enumerate(), iter(), sorted(), next()
+- OOPS related functions: hasattr(), getattr().setattr(), issubset(), isinstance(), object(). classmethod(), staticmethod(), super(), dir(),
+String Manipulation
+- Dalam Python, String adalah array byte yang mewakili karakter Unicode. Unicode adalah standar pengkodean karakter Internasional yang mencakup berbagai bahasa, skrip, dan simbol. Setiap huruf, angka atau simbol memiliki unicode yang unik. Unicode adalah perpanjangan dari ASCII yang memungkinkan lebih banyak karakter untuk diwakili.
+- String baris tunggal dapat dibuat menggunakan tanda kutip tunggal atau ganda. String multiline dapat dibuat menggunakan tanda kutip tiga.
+- Python menyediakan banyak seperangkat operator, fungsi, dan metode untuk bekerja dengan string.
+String manipulation menggunakan operators :
+- Operator + melakukan operasi matematika dengan Python. Cukup menulis dua literal string bersama-sama dan menggabungkannya.
+- Operator * dapat digunakan untuk mengulang string beberapa kali.
+- Operator "in" dapat digunakan untuk memeriksa apakah substring ada di dalam string atau tidak
+    Python mendukung penggunaan operator seperti +, *, "in" dan "not in untuk memanipulasi string, selain tu string python memiliki banyak metode bawaan yang dapat digunakan untuk memanipulasi string.
+String manipulation menggunakan built-in methods
+Contoh metode : capitalize(), count(), find(), index(), replace(), split(), strip(), dll.
+   Kemudian pada sesi kedua dilanjutkan lagi materi sebelumnya tentang pythoon funtions. Generators adalah jenis fungsi khusus yang tidak mengembalikan nilai tunggal, melainkan mengembalikan objek iterator dengan urutan nilai. Dalam fungsi generator, yield statement biasanya digunakan daripada return statement. Python Generator membantu dalam menghemat memori dengan melakukan pemrosesan data secara efisien termasuk dalam melakukan perhitungan
+Syntax : 
+def generator function(arg1, arg2,…
+argN):
+<statements>
+yield value1
+yield value2
+Map and Filter
+Fungsi map dan filter dapat digunakan untuk melakukan transformasi dan pemfiteran data pado objek yang dapat diubah
+Lambda function
+Fungsi Lambda juga disebut sebagai fungsi anonim adalah fungsi yang tidak memiliki nama. Fungsi lambda digunakan untuk merepresentasikan ekspresi pendek untuk waktu yang singkat.
+Syntax : 
+lambda arguments: expression
+File handling di python 
+- fungsi open() menerima 4 dua argumen, nama file dan mode akses di mana file diakses
+- Fungsi mengembalikan objek file yang dapat digunakan untuk melakukan berbagai operasi seperti membaca, menulis, dit
+- Fungsi Python open() dapat digunakan untuk menangani file, membantu dalam membaca, menulis, menambahkan data ke file
+- Contoh : r, rb, w, wb, a, ab, dll. 
+   Setelah selesai materi pertama, dilanjutkan lagi pemberian materi kedua oleh coach tentang Python Exception / Error Handling. 
+Try-Except-Else-Finally
+- try : Code yang dapat mengandung besalahan
+- except: Code yang dieksekusi jika terdapat kesalahan 
+- else : Code yang dieksekusi Jika tidak terdapat kesalahan
+- finally : Code yang selalu akan dijalankan di akhir

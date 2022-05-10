@@ -1,0 +1,682 @@
+Mon, 28 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Dimensionality Reduction. 
+   Reduksi dimensi adalah teknik untuk mengurangi dimensi Dataset dalam fitur data dan tanpa menghilangkan informasi dari Dataset tersebut. Reduksi dimensi pada prinsipnya sama dengan ketika mengkompres file yang berukuran besar menjadi zip file dengan membuatnya lebih sederhana dan tanpa menghilangkan informasi dalam file. 
+Alasan perlu reduksi dimensi : 
+- Banyak variabel input dapat menurunkan performa ML
+- Variabel input nya adalah kolom dan fiturnya
+- Jumlah fitur yang banyak mengakibatkan data point merepresentasikan sampel yang tidak representatif
+- Model jadi lebih kompleks dan meningkatkan overfitting
+Tujuan reduksi dimensi : untuk menghindari overfitting. 
+Ciri-ciri data yang perlu dilakukan reduksi data :
+- Data high dimention (data yang fitur nya banyak)
+- Data yang fiturnya > dari observasi 
+- Model mengalami overfitting 
+Dimensionality Reduction Technique : 
+1.) Feature Selection
+- Backward
+- Forward 
+- Etc.
+2.) Feature Extraction 
+- PCA (Principal Component Analysis)
+   PCA adalah teknik reduksi dimensi paling populer yang menggunakan operasi matriks sederhana dari aljabar linier dan statistik untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit. 
+PCA Process : 
+Import data frame -> Create n_component -> Generate fit PCA -> Modelling reduction data
+- LDA (Linear Discriminant Analysis)
+   LDA adalah algoritma ML untuk klasifikasi dan digunakan untuk reduksi dimensi. Cara kerjanya yaitu menghitung statistik ringkasan untu fitur input menurut label. 
+LDA Process : 
+Import Dataset -> convert Dataset to Pandas -> create DataFrame x,y label -> fit LDA model -> Evaluation model -> Visualization model 
+Persamaan PCA dan LDA : sama-sama menggunakan nilai Eigen dan vektor Eigen 
+Perbedaan PCA dan LDA : 
+- PCA merupakan Unsupervised Learning (tidak menggunakan label), sedangkan LDA merupakan Supervised Learning (menggunakan label)
+- PCA memaksimalkan variable di tiap Feature terbaru, sedangkan LDA Feature baru yang memaksimalkan jarak antar kelas
+   Kemudian dilanjutkan pada sesi kedua dengan coach yang kedua diberikan materi tentang Hands on atau mencoba langsung kode program NLP di Google Colab. 
+Case study : SMS Spam Classification 
+Langkah-langkah penyelesaian : 
+1.) Akuisisi Data : 
+- web scraping
+- Public dataset
+- Instansi pemerintah
+- Product invetion
+- Data augmentation
+2.) Text Cleaning : opsional, kalo kita mendapat data dari web scraping
+3.) Text preprocessing :
+- Case Folding
+- lowercase
+- Stopword removal (noisy data removal)
+- Word normalization
+- Tokenisasi
+- Lemitization & stemming
+- Filtering
+4.) Feature Engineering / Extraction 
+- Bag of words
+- TF-IDF,dll.
+5.) Feature Selection 
+- Chi-square
+6.)Modelling
+7.) Evaluasi performa model
+8.) Deployment / tahap produksi
+   Pada kasus ini menggunakan Dataset berbahasa Indonesia, sehingga membutuhkan library sastrawi untuk menyelesaikan permasalahan seperti stemming.
+   Kemudian pada sesi kedua ini di domain NLP, kita diberikan tugas student activities. Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+Tue, 29 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Image Thresholding, Filter, CNN
+   Segmentation adalah cara yang digunakan untuk memisahkan object/region terhadap background nya. 
+   Thresholding melakukan transformasi ke dalam Binary Image (0-1), kita melakukan setup thresholding yang diinginkan. 
+Fungsi threshold : cv2 (img, thresh_value, maxVal, style)
+1. cv2.THRESH_BINARY
+2. cv2.THRESH_BINARY_INV
+3. cv2.THRESH_TRUNC
+4. cv2.THRESH_TOZERO
+5. cv2.THRESH_TOZERO_INV
+Otsu binatization thresholding
+Citra : - Contrast /Brightness En
+            - Thresholding
+            - Image Filtering : teknik untuk memodifikasi / meningkatkan gambar. 
+            - Edge detection
+Image Filtering / Pemfikteran Citra : 
+- Prinsip Image Filtering : Y = H*X
+- Proses Konvolusi
+- Filter kernel : low pass filter, high pass filter, band stop filter 
+Edge Detection / Deteksi Tepi : 
+- Metode Robert
+- Metode Prewitt
+- Metode Sobel
+Deep Learning & CNN :
+   Convolutuonal Neural Network (CNN) adalah kategori Neural Network yang terbukti efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. CNN berhasil mengidentifikasi wajah,objek dan rambu lalu lintas lebih lanjut digunakan sebagai robot Vision dan Self driving car serta dalam aplikasi smart grid. 
+Yann LeCunn : pionir CNN. Pembuat model CNN pertama yang disebut LeNet tahun 1988 digunakan untuk mengenali karakter seperti membaca digit dan zip Code.
+CNN timeline : 
+CNN architectures over a timeline (1998-2019) : LeNet-5 (1998) - AlexNet (2000) - VGG-16 (2003) - Inception-v1 (2006) - Inception-v3 (2008) - ReaNet-50 (2011) - Xception (2013) - Inception-v4 (2015) - Inception ResNets (2017) - ResNExt-50 (2019)
+CNN overview : Input an Image - Process Image (CNN) - Output probability values
+Cara Kerja CNN : Input - Hidden layer (Convolutional + ReLu - Pooling) - Classification (Flatten - Fully Connected - Softmax)
+CNN vs Neural Network :
+- ANN standar dapat menyebabkan overfitting
+- Struktur CNN mirip dengan ANN
+- Topologi CNN memiliki perbedaan dari ANN standar 
+CNN Architecture : 
+3 jenis lapisan / layer : Convolutional Layer, Pooling layer, Fully Connected layer. 
+Tujuan utama konvolusi untuk mengekstrak fitur dari citra masukan. 
+Stride : parameter yang menentukan berapa jumlah pergeseran filter
+Padding : parameter menentukan jumlah pixel (berisi nilai 0) yang ditambahkan di setiap sisi dari input 
+Convolution setting : grid size, padding, stride, Depth, Pooling.
+3 jenis Pooling : Max Pooling, Average Pooling , Sum Pooling. 
+   The Loss Function dalam NN mengkuantifikasi antara hasil yang diharapkan dan hasil yang di hasilkan oleh model. 
+Loss function : Binary Classification, Multiclass Classification, Regression. 
+   Setelah pemberian materi, coach juga mengajarkan dan mencoba kode-kode program di google colab. Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang RL - Monte Carlo Prediction. 
+   Aplikasi DP dalam permasalahan riil : dibutuhkan pengetahuan tentang model Environment yang terkait matriks probabilitas transisi dan sistem reward nya. DP = model-based algorithm
+   Mengimplementasikan RL tanpa memodelkan Environment nya secara lengakap yaitu model free algorithm (Monte Carlo)
+Konsep Monte Carlo (MC) : 
+- MC didefinisikan untuk jenis eoisodic environment. 
+- Ide utama MC : value dapat dari rata-rata returns
+- Monte Carlo bekerja dengan pengalaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model
+Elemen Algorithm MC :
+- Goal : belajar V 𝜋 melalui episode experience yang patuh pada policy 𝜋
+- Return : total discounted reward
+- Value function : expected return
+N(s) : 
+- First-visit Mc : N(s) dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode
+- Every-visit Mc : N(s) dihitung setiap mengunjungi state s dalam setiap episode
+MC Estimation : 
+Maintaining Exploraton dilakukan dengan :
+- Episode-episode memulai dengan sebuah pasangan state-action. Mekanisme pertama dari exploring starts.
+- Setiap pasangan memiliki probabilitas yang tidak sama dengan 0 sebagai permulaan episode. Mekanisme kedua dari exploring starts
+- Semua pasangan state-Action memiliki probabilitas tidak dan dengan 0 untuk memilih semua Action pada setiap state
+MC Control : 
+Policy Evaluation : Episode-episode dikerjakan dengan explorating starts
+Policy improvement : untuk setiap Action-value function q,greedy policy nya, untuk setiap 𝑠 ∈ S, memilih sebuah Action yang merupakan action-value maksimal. 
+Konsep On-Policy MC :
+   On-Policy MC adalah algoritma Monte carlo yang melakukan evaluasi atau improvisasi dari policy untuk membuat keputusan. Pada On-Policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+Algoritma On-Policy MC
+Konsep On-Policy MC : 
+   Off-Policy MC adalah algoritma Monte Carlo yang melakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy nya sama. 
+- Target policy : policy yang dipelajari oleh agent. Target policy adalah greedy policy yang patuh pada Q. 
+- Behavior policy : policy menggenerate behavior. 
+Algoritma Off-Policy MC
+Pemrograman Monte Carlo (code)
+   Kemudian pada sesi kedua ini di domain R, kita diberikan tugas kelompok lagi. Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri.Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+Wed, 30 Mar
+
+  Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Data Science - Recommender System, MBA. 
+Recommender System : 
+- memberikan informasi berupa saran objek yang kemungkinan dibutuhkan pengguna 
+- Data input berupa profil atau riwayat aktivitas pengguna 
+- Tujuan : meningkatkan aktivitas pengguna dengan memberikan daftar item yang disarankan
+Metode Recommender System : 
+- Collaborative filtering recommendations
+- Content- based recommendation , dll
+A. Content Based Filtering
+- pendekatan ini menggunakan informasi tambahan tentang pengguna / item
+- Metode ini menggunakan fitur item untuk merekomendasi item lain yang serupa dengan yang disuka pengguna 
+Mengetahui kemiripan suatu user/item : 
+1. Membuat vektor yang melambangkan tiap item (item profile) dan vektor yang melambangkan user(user profile)
+2. Menghitung kemiripan tiap item profile dengan user profile. Beberapa metode : Cosine similarity, Euclidean Distance, dan pearson’s correlation
+3. Sorting item berdasarkan skor similarity nya
+B. Collaborative Filtering : merekomendasikan item berdasarkan feedback/rating masa lalu dari sekelompok pengguna 
+1. Memory based
+- item yang disarankan : item yang disukai / diberi rating tinggi oleh pengguna target atau yang mirip dengan item lain yang disukai pengguna target (similarity-based methods)
+Dibagi menjadi 2 kelas : 
+- User-based : metode yang merekomendasikan item dengan melihat kemiripan sekelompok pengguna dengan active user yang kita berikan rekomendasi
+- Item-based : metode rekomendasi yang didasari dengan melihat kesamaan antar item menggunakan rating oleh pengguna 
+2. Model based 
+- item yang disarankan : dipilih dari hasil model yang dilatih untuk mengidentifikasi pola pada data input (clustering, Dimensionality Reduction, diffusion-based methods) 
+- Singular Value Decomlosition / SVD : metode untuk membuat matriks terdekomposisi 3 matriks. SVD digunakan untuk mengkomposisi nilai matriks rating relative dengan penilaian 1 dan lainnya
+   Market Basket Analysis adalah pencarian pengetahuan dari transaksi data ketika kita tidak mengetahui pola spesifik apa yang dicari. Market Basket Analysis adalah suatu analisis atas perilaku konsumen secara spesifik dari suatu golongan/kelompok tertentu. Market basket analysis dimanfaatkan sebagai titik awal pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+   Proses market basket analysis dimulai dengan transaksi yang terdiri dari satu/lebih penawaran produk/jasa dan beberapa informasi dasar suatu transaksi. Kebutuhan MBA berawal dari keakuratan dan manfaat yang dihasilkan dalam wujud aturan association. Association rules adalah pola keterkaitan data dalam basis data. 
+   MBA : teknik yang digunakan pengecer besar untuk mengungkapkan hubungan antar item. Teknik ini mencari kombinasi item yang terjadi bersamaan dalam transaksi. 
+   Algoritma Apriori adalah suatu algoritma dasar yang diusulkan oleh Agrawal & Srikant pada tahun 1994 untuk penentuan frequent itemsets untuk aturan asosiasi boolean. Algoritma Apriori memberi kita sifat asosiatif dalam transaksi. Aturan asosiasi atau association rule adalah teknik untuk menemukan aturan asosiasi antara suatu kombinasi item. 
+Terdapat 3 metrik untuk mengukur ketepatan aturan, yaitu :
+1. Support : indikasi seberapa sering kumpulan item muncul pada dataset
+2. Confidence : suatu ukuran yang menunjukkan hubungan antar dua item secara conditional (berdasarkan suatu kondisi tertentu).
+3. Lift : mengacu pada bagaimana peluang kedua item dibeli ketika item pertama dibeli.
+Fungsi MBA : 
+Rules digunakan dalam marketing untuk membuat berbagai keputusan. 
+- Nilai Support : persentase dari semua transaksi yang terjadi yang mengandung itemset tersebut. 
+- Nilai Confidence : perbandingan nilai Support dari himpunan items di dalam file dan nilai Support himpunan items yang mendahuluinya. 
+- Nilai lift rasio : ukuran dalam mengetahui kekuatan aturan asosiasi. 
+   Kemudian dilanjutkan pada sesi kedua oleh coach kedua diberikan materi tentang NLP - Text Classification. 
+NLP Recap : 
+   Domain AI yang berhubungan interaksi antara mesin dan manusia menggunakan bahasa alami. NLP menggunakan data tidak terstruktur: tekstual maupun suara. 
+NLP Area Recap : Question Answering Systems (QAS), Summarization, Machine Translation, Speech Recognition, Text Classification
+   Text Classification adalah proses pemberian tag/kategori ke teks menurut isinya. Digunakan untuk mengatur, menyusun dan mengkategorikan semua hal. 
+Implementasi Text Classification : 
+- Email/SMS Classification : proses menentukan apakah email/sms tersebut spam atau non-spam
+- Sentiment Analysis : menentukan polaritas sebuah teks, bernilai positif atau negatif
+- Emotion Detection : menentukan emosi dari teks, teks berindikasi senang, sedih, marah, dll
+Pendekatan Text Classification : 
+- Machine Learning : proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks
+- Lexicon-based  : proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya
+Proses Text Classification : Dataset -> Pre-processing -> Feature Extraction -> Feature Selection -> Classification -> Validation & Evaluation -> Production
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Kemudian pada kedua sesi di hari ini kita diberikan tugas mandiri oleh coach. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang telah diberikan oleh coach.
+
+Thu, 31 Mar
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Implementasi CNN pada keras. 
+- Mendeploy CNN Klasifikasi menggunakan Dataset CIFAR-10 
+   Dataset CIFAR-10 (Canadian Institute for Advanced Research, 10 kelas) adalah subset dari dataset Tiny Images dan terdiri dari 60000 32x32 gambar berwarna.
+- Meningkatkan akurasi klasifikasi CIFAR-10 
+CNN : 
+Convolution Layer + Pooling Layer (Feature Ekstraksi) -> Flatten layer -> Fully Connected layer.
+y’ prediksi + y target -> Loss function -> Loss score -> Optimizer ( Gradient descent) -> weights 
+Overview : input -> Hidden -> output 
+Calculating error -> Loss function ( Mean Square Error (MSE) atau Cross Entropy (CE) )
+Gradient Descent : 
+Wx = Wx - a (aerror/aWx)
+   Kemudian mendemonstrasikan training simple menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan CIFAR images.
+Library : 
+- TensorFlow 
+- Numpy, matplotlib
+- Open CV
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Data visualization - Google Data Studio. 
+Data Visualization:
+Visualisasi data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data
+• Statis : Grafik tidak bergerak , User tidak dapat melakukan interaksi
+• Beranimasi : Grafik bergerak, User tidak dapat melakukan interaksi
+• Interaktif : Grafik dapat berubah, User dapat melakukan interaksi
+Dimensi atau Dimensions adalah atribut data.
+- Data kualitatif dapat menjadi dimensi
+- Tipe data kategorik (terutama nominal) dapat menjadi dimensi
+- Contoh Dimensi : Nama, Tanggal dan Waktu, Lokasi (Geolocation), Kota, Negara, Tipe Browser, Perangkat
+Metrik atau Metrics adalah pengukuran kuantitatif.
+- Metrik dapat berupa hasil agregasi
+- Contoh Metrik : Nilai, Harga, Total Penjualan, Jumlah Sesi, Jumlah Halaman, Jumlah Sesi per Halaman
+   Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan. Granularitas data dapat memberi tahu seberapa detail data. 
+Fungsi Agregasi : Sum, Average, Count, Count Distinct, Min, Max, Median, Standard Deviation, dan Variance
+   Google Data Studio adalah tool gratis dari Google yang dapat mengubah data menjadi dashboard atau laporan yang informatif, mudah dibaca, interaktif,
+mudah dibagikan, dan sepenuhnya dapat disesuaikan
+Keuntungan menggunakan Google Data Studio :
+• Gratis 
+• Mudah dihubungkan dengandata
+• Dashboard atau Report bisa dibagikan ke teman
+• Dapat berkolaborasi dengan rekan 
+• Tersedia template untuk mempercepat pembuatan Report
+Koneksi Sumber Data pada GDS : Databases, Google Marketing Platform, Google Consumer Products, Flat Files, dan Social Media Platforms. 
+Komponen pada Google Data Studio diantaranya adalah report, pages, charts, controls, text areas, lines, shapes, dan images. 
+Tipe Charts di GDS : Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge. 
+Controls di GDS : Filter Control, Date Range Control, dan Data Control.
+   Setelah pemberian materi, coach juga mengajarkan dengan mempraktekkannya langsung .Kemudian pada kedua sesi di hari ini kita diberikan tugas mandiri dan kelompok oleh coach. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang telah diberikan oleh coach.
+
+Fri, 1 Apr
+
+   Kegiatanku hari ini adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama hari ini diberikan materi tentang Temporal Difference Learning. 
+Recap DP dan MC :
+- Policy Function 
+DP dan MC are using Value Function = Expected Return namun menggunakan pendekatan berbeda. 
+- Return (Utility)
+- Control : DP (VI) , DP (PI), MC (ES) 
+Bootstraping Ch4 : 
+   Bootstraping dilakukan pada algoritma DP, sedangkan MC melakukan rata-rata terhadap return untuk memperbaharui value
+Temporal Difference Learning :
+TDL = mengestimasi reward pada setiap langkah. 
+- TD Learning merupakan kombinasi antara Monte Carlo dan Dynamic Programming
+- Model free learning
+- Melakukan update value state per step
+- Bootstraping
+Model Based vs Model Free methods : 
+Model free methods : value based methods dan policy based methods
+Model Free RL :
+- kelemahan model based RL : state dan Action terbatas dan mudah dijelaskan dengan transiton probability 
+Value based method : metode ini didasarkan pada temporal difference Learning (TD, SARSA, Q-Learning), value function. 
+Generalized policy iteration (GPI) adalah bagian penting RL. 
+Dynamic Programming : 
+- Update per step
+- Bootstraping
+- Membutuhkan model environment
+- Computation cost
+Monte Carlo Method: 
+- Update per episode
+- Tidak Bootstraping
+- Model free ( tidak membutuhkan model Environment )
+- Sulit diaplikasikan pada continuing task
+Temporal Difference Learning : 
+Dynamic programming :
+- model free (tidak membutuhkan model Environment )
+- Online Learning 
+- Better convergence time
+Contoh kasus : Driving Home
+TD Control menggunakan SARSA dan Q-Learning
+SARSA (State-Action-Reward-State-Action) :
+- Terinspirasi dari policy iteration
+- Mengganti value function dengan Action-value function
+- On policy 
+- Fokus pada state-action
+- Pengambilan keputusan dari state-Action SARSA berdasarkan epsilon-greedy policy
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Web Scraping. 
+   Scraping (Computing): kegiatan mengambil informasi dari situs web atau layar komputer dan memasukkannya ke dalam spreadsheet 
+   Web Scraping : praktik pengumpulan data dari situs web melalui cara apa pun selain dari menggunakan program untuk berinteraksi dengan API dan memasukan nya kedalam dokumen elektronik untuk mendapatkan informasi yang diinginkan.
+Sejarah Web Scraping :
+1989 (Kelahiran world wide web)
+1990 (Web browser pertama)
+1993 (Robot web pertama - world wide web wanderer)
+1993 (Mesin pencari web berbasis pertama - JumpStation)
+2004 (Python Beautiful Soup)
+2005-2006 (Visual web scraping software) 
+Kegunaan Web Scraping : 
+- Situs Web E-commerce
+- Marketing & Sales
+- Search Engine Optimization (SEO)
+- Data untuk Proyek ML
+Web Scraping vs Web Crawling : 
+   Web Scraping mengacu pada pengambilan data individu dari suatu situs web berdasarkan struktur tertentu situs tersebut, sedangkan Web Crawling mengacu pada proses memperoleh dan menyimpan konten berbagai situs web.
+Etika Web Scraping : 
+   Jika data digunakan secara personal, dan dalam penggunaan wajar undang-undang hak cipta, biasanya tidak ada masalah. Namun, jika digunakan untuk diterbitkan ulang, atau jika web scraping cukup agresif untuk mengganggu situs, atau jika kontennya memiliki hak cipta, maka ada permasalahan hukum untuk diperhatikan. 
+   Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+- Urllib3 Module : library Python lain yang dapat digunakan untuk mengambil data dari URL, mirip dengan requests library.
+- Beautiful Soup Module : library Python yang dirancang untuk proyek seperti web scraping. 
+- Scrapy Module : kerangka kerja web crawling open-source yang cepat dan dibuat dengan Python, digunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan XPath. Scrapy pertama kali dirilis pada 26 Juni 2008 dilisensikan di bawah BSD, dengan versi 1.0 dirilis pada Juni 2015. 
+- Selenium : suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan platform.
+Preparation
+Berikut adalah beberapa hal yang perlu dilakukan sebelum memulai web scraping:
+1. Analyzing robots.txt
+File robots.txt digunakan untuk menentukan bagian mana dari situs web yang diizinkan untuk dilakukan web scraping dan mana yang tidak. 
+2. Analyzing Sitemap files
+Situs web menyediakan file sitemap untuk membantu web crawler menemukan konten yang diperbarui tanpa harus mengecek setiap halaman. 
+3. Checking Website’s Size
+Dengan memanfaatkan search engine seperti Google sebagai crawler, kita dapat memiliki perkiraan ukuran situs web. Hasil dapat disaring dengan menggunakan kata kunci site:alamat_web saat melakukan pencarian.
+4. Analyzing Technology used in website
+Ada modul Python bernama builtwith yang dapat digunakan untuk mempelajari tentang teknologi yang digunakan oleh situs web.
+5. Knowing owner of website
+Protokol whois dapat digunakan untuk mengecek siapa pemilik website, dengan implementasi pada python dapat menginstall python-whois.
+6. Analyzing Web Page
+Untuk mengetahui bagian mana yang perlu kita gunakan dalam scraping, perlu menganalisis halaman web. Ini dapat dilakukan dengan klik kanan>inspect pada bagian yang kita ingin ketahui informasinya.
+Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+Static Web :
+   Statis menurut definisi berarti sesuatu yang tidak berubah. Halaman pertama di World Wide Web sebagian besar statis dan tidak berubah, memberikan informasi sama kepada siapa saja yang berkunjung.
+Dynamic Web
+Situs web ini bersifat dinamis jika :
+- Menggunakan JavaScripts 
+- Memiliki konten yang berbeda jika diakses dari perangkat satu dengan lainnya
+- Tidak mendapat hasil jika scrap berdasarkan html elements
+HTTP Response :
+   Kode status respons HTTP menunjukkan apakah permintaan HTTP tertentu berhasil diselesaikan atau tidak. HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+Tanggapan dibagi menjadi lima kategori:
+1. Informational responses (1xx)
+2. Successful responses (2xx)
+3. Redirection messages (3xx)
+4. Client error responses (4xx)
+5. Server error responses (5xx)
+Storing Data Media : 
+Menyimpan file media dengan dua cara utama: 
+1. By reference
+2. Mengunduh file
+Export Data Web Scraping :
+   Jika kita ingin menyimpan file langsung tanpa ribet melakukan formatting, dapat di ekspor menjadi format .txt saja.Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+   Kemudian pada sesi kedua ini di domain Technical, kita diberikan tugas untuk mencoba scraping dan tidak wajib. Setelah selesai pemberian materi pada hari ini oleh coach, kami melanjutkan dengan belajar mandiri.Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+
+What did you learn this week?
+
+   Kegiatanku di minggu keenam ini masih sama dengan minggu kelima yaitu pembelajaran dengan dua sesi dan dua domain. 
+   Pada hari Senin, 28 Maret 2022 di hari pertama dan di minggu keenam, kegiatanku di hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama diberikan materi tentang Dimensionality Reduction. 
+   Reduksi dimensi adalah teknik untuk mengurangi dimensi Dataset dalam fitur data dan tanpa menghilangkan informasi dari Dataset tersebut. Reduksi dimensi pada prinsipnya sama dengan ketika mengkompres file yang berukuran besar menjadi zip file dengan membuatnya lebih sederhana dan tanpa menghilangkan informasi dalam file. 
+Alasan perlu reduksi dimensi : 
+- Banyak variabel input dapat menurunkan performa ML
+- Variabel input nya adalah kolom dan fiturnya
+- Jumlah fitur yang banyak mengakibatkan data point merepresentasikan sampel yang tidak representatif
+- Model jadi lebih kompleks dan meningkatkan overfitting
+Tujuan reduksi dimensi : untuk menghindari overfitting. 
+Ciri-ciri data yang perlu dilakukan reduksi data :
+- Data high dimention (data yang fitur nya banyak)
+- Data yang fiturnya > dari observasi 
+- Model mengalami overfitting 
+Dimensionality Reduction Technique : 
+1.) Feature Selection
+- Backward
+- Forward 
+- Etc.
+2.) Feature Extraction 
+- PCA (Principal Component Analysis)
+   PCA adalah teknik reduksi dimensi paling populer yang menggunakan operasi matriks sederhana dari aljabar linier dan statistik untuk menghitung proyeksi dari data asli ke dalam dimensi dengan jumlah yang sama atau lebih sedikit. 
+PCA Process : 
+Import data frame -> Create n_component -> Generate fit PCA -> Modelling reduction data
+- LDA (Linear Discriminant Analysis)
+   LDA adalah algoritma ML untuk klasifikasi dan digunakan untuk reduksi dimensi. Cara kerjanya yaitu menghitung statistik ringkasan untu fitur input menurut label. 
+LDA Process : 
+Import Dataset -> convert Dataset to Pandas -> create DataFrame x,y label -> fit LDA model -> Evaluation model -> Visualization model 
+Persamaan PCA dan LDA : sama-sama menggunakan nilai Eigen dan vektor Eigen 
+Perbedaan PCA dan LDA : 
+- PCA merupakan Unsupervised Learning (tidak menggunakan label), sedangkan LDA merupakan Supervised Learning (menggunakan label)
+- PCA memaksimalkan variable di tiap Feature terbaru, sedangkan LDA Feature baru yang memaksimalkan jarak antar kelas
+   Kemudian dilanjutkan pada sesi kedua dengan coach yang kedua diberikan materi tentang Hands on atau mencoba langsung kode program NLP di Google Colab. 
+Case study : SMS Spam Classification 
+Langkah-langkah penyelesaian : 
+1.) Akuisisi Data : 
+- web scraping
+- Public dataset
+- Instansi pemerintah
+- Product invetion
+- Data augmentation
+2.) Text Cleaning : opsional, kalo kita mendapat data dari web scraping
+3.) Text preprocessing :
+- Case Folding
+- lowercase
+- Stopword removal (noisy data removal)
+- Word normalization
+- Tokenisasi
+- Lemitization & stemming
+- Filtering
+4.) Feature Engineering / Extraction 
+- Bag of words
+- TF-IDF,dll.
+5.) Feature Selection 
+- Chi-square
+6.)Modelling
+7.) Evaluasi performa model
+8.) Deployment / tahap produksi
+   Pada kasus ini menggunakan Dataset berbahasa Indonesia, sehingga membutuhkan library sastrawi untuk menyelesaikan permasalahan seperti stemming.
+   Kemudian pada sesi kedua di domain NLP, kita diberikan tugas student activities. Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+   Pada hari Selasa, 29 Maret 2022 di hari kedua dan di minggu keenam, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama diberikan materi tentang Image Thresholding, Filter, CNN
+   Segmentation adalah cara yang digunakan untuk memisahkan object/region terhadap background nya. 
+   Thresholding melakukan transformasi ke dalam Binary Image (0-1), kita melakukan setup thresholding yang diinginkan. 
+Fungsi threshold : cv2 (img, thresh_value, maxVal, style)
+1. cv2.THRESH_BINARY
+2. cv2.THRESH_BINARY_INV
+3. cv2.THRESH_TRUNC
+4. cv2.THRESH_TOZERO
+5. cv2.THRESH_TOZERO_INV
+Otsu binatization thresholding
+Citra : - Contrast /Brightness En
+            - Thresholding
+            - Image Filtering : teknik untuk memodifikasi / meningkatkan gambar. 
+            - Edge detection
+Image Filtering / Pemfikteran Citra : 
+- Prinsip Image Filtering : Y = H*X
+- Proses Konvolusi
+- Filter kernel : low pass filter, high pass filter, band stop filter 
+Edge Detection / Deteksi Tepi : 
+- Metode Robert
+- Metode Prewitt
+- Metode Sobel
+Deep Learning & CNN :
+   Convolutuonal Neural Network (CNN) adalah kategori Neural Network yang terbukti efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar. CNN berhasil mengidentifikasi wajah,objek dan rambu lalu lintas lebih lanjut digunakan sebagai robot Vision dan Self driving car serta dalam aplikasi smart grid. 
+Yann LeCunn : pionir CNN. Pembuat model CNN pertama yang disebut LeNet tahun 1988 digunakan untuk mengenali karakter seperti membaca digit dan zip Code.
+CNN timeline : 
+CNN architectures over a timeline (1998-2019) : LeNet-5 (1998) - AlexNet (2000) - VGG-16 (2003) - Inception-v1 (2006) - Inception-v3 (2008) - ReaNet-50 (2011) - Xception (2013) - Inception-v4 (2015) - Inception ResNets (2017) - ResNExt-50 (2019)
+CNN overview : Input an Image - Process Image (CNN) - Output probability values
+Cara Kerja CNN : Input - Hidden layer (Convolutional + ReLu - Pooling) - Classification (Flatten - Fully Connected - Softmax)
+CNN vs Neural Network :
+- ANN standar dapat menyebabkan overfitting
+- Struktur CNN mirip dengan ANN
+- Topologi CNN memiliki perbedaan dari ANN standar 
+CNN Architecture : 
+3 jenis lapisan / layer : Convolutional Layer, Pooling layer, Fully Connected layer. 
+Tujuan utama konvolusi untuk mengekstrak fitur dari citra masukan. 
+Stride : parameter yang menentukan berapa jumlah pergeseran filter
+Padding : parameter menentukan jumlah pixel (berisi nilai 0) yang ditambahkan di setiap sisi dari input 
+Convolution setting : grid size, padding, stride, Depth, Pooling.
+3 jenis Pooling : Max Pooling, Average Pooling , Sum Pooling. 
+   The Loss Function dalam NN mengkuantifikasi antara hasil yang diharapkan dan hasil yang di hasilkan oleh model. 
+Loss function : Binary Classification, Multiclass Classification, Regression. 
+   Setelah pemberian materi, coach juga mengajarkan dan mencoba kode-kode program di google colab. Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang RL - Monte Carlo Prediction. 
+   Aplikasi DP dalam permasalahan riil : dibutuhkan pengetahuan tentang model Environment yang terkait matriks probabilitas transisi dan sistem reward nya. DP = model-based algorithm
+   Mengimplementasikan RL tanpa memodelkan Environment nya secara lengakap yaitu model free algorithm (Monte Carlo)
+Konsep Monte Carlo (MC) : 
+- MC didefinisikan untuk jenis eoisodic environment. 
+- Ide utama MC : value dapat dari rata-rata returns
+- Monte Carlo bekerja dengan pengalaman dari sample dan menggunakannya untuk belajar secara langsung tanpa model
+Elemen Algorithm MC :
+- Goal : belajar V 𝜋 melalui episode experience yang patuh pada policy 𝜋
+- Return : total discounted reward
+- Value function : expected return
+N(s) : 
+- First-visit Mc : N(s) dihitung saat pertama kali mengunjungi state s pertama dalam setiap episode
+- Every-visit Mc : N(s) dihitung setiap mengunjungi state s dalam setiap episode
+MC Estimation : 
+Maintaining Exploraton dilakukan dengan :
+- Episode-episode memulai dengan sebuah pasangan state-action. Mekanisme pertama dari exploring starts.
+- Setiap pasangan memiliki probabilitas yang tidak sama dengan 0 sebagai permulaan episode. Mekanisme kedua dari exploring starts
+- Semua pasangan state-Action memiliki probabilitas tidak dan dengan 0 untuk memilih semua Action pada setiap state
+MC Control : 
+Policy Evaluation : Episode-episode dikerjakan dengan explorating starts
+Policy improvement : untuk setiap Action-value function q,greedy policy nya, untuk setiap 𝑠 ∈ S, memilih sebuah Action yang merupakan action-value maksimal. 
+Konsep On-Policy MC :
+   On-Policy MC adalah algoritma Monte carlo yang melakukan evaluasi atau improvisasi dari policy untuk membuat keputusan. Pada On-Policy MC, agent berkomitmen untuk selalu eksplorasi dan mencoba mencari policy terbaik.
+Algoritma On-Policy MC
+Konsep On-Policy MC : 
+   Off-Policy MC adalah algoritma Monte Carlo yang melakukan evaluasi atau improvisasi dari policy yang berbeda dalam meng-generate data (behavior policy), sedangkan target policy nya sama. 
+- Target policy : policy yang dipelajari oleh agent. Target policy adalah greedy policy yang patuh pada Q. 
+- Behavior policy : policy menggenerate behavior. 
+Algoritma Off-Policy MC
+Pemrograman Monte Carlo (code)
+   Kemudian pada sesi kedua di domain RL, kita diberikan tugas kelompok lagi. Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri.Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.
+   Pada hari Rabu, 30 Maret 2022 di hari ketiga dan di minggu keenam, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama diberikan materi tentang Data Science - Recommender System, MBA. 
+Recommender System : 
+- memberikan informasi berupa saran objek yang kemungkinan dibutuhkan pengguna 
+- Data input berupa profil atau riwayat aktivitas pengguna 
+- Tujuan : meningkatkan aktivitas pengguna dengan memberikan daftar item yang disarankan
+Metode Recommender System : 
+- Collaborative filtering recommendations
+- Content- based recommendation , dll
+A. Content Based Filtering
+- pendekatan ini menggunakan informasi tambahan tentang pengguna / item
+- Metode ini menggunakan fitur item untuk merekomendasi item lain yang serupa dengan yang disuka pengguna 
+Mengetahui kemiripan suatu user/item : 
+1. Membuat vektor yang melambangkan tiap item (item profile) dan vektor yang melambangkan user(user profile)
+2. Menghitung kemiripan tiap item profile dengan user profile. Beberapa metode : Cosine similarity, Euclidean Distance, dan pearson’s correlation
+3. Sorting item berdasarkan skor similarity nya
+B. Collaborative Filtering : merekomendasikan item berdasarkan feedback/rating masa lalu dari sekelompok pengguna 
+1. Memory based
+- item yang disarankan : item yang disukai / diberi rating tinggi oleh pengguna target atau yang mirip dengan item lain yang disukai pengguna target (similarity-based methods)
+Dibagi menjadi 2 kelas : 
+- User-based : metode yang merekomendasikan item dengan melihat kemiripan sekelompok pengguna dengan active user yang kita berikan rekomendasi
+- Item-based : metode rekomendasi yang didasari dengan melihat kesamaan antar item menggunakan rating oleh pengguna 
+2. Model based 
+- item yang disarankan : dipilih dari hasil model yang dilatih untuk mengidentifikasi pola pada data input (clustering, Dimensionality Reduction, diffusion-based methods) 
+- Singular Value Decomlosition / SVD : metode untuk membuat matriks terdekomposisi 3 matriks. SVD digunakan untuk mengkomposisi nilai matriks rating relative dengan penilaian 1 dan lainnya
+   Market Basket Analysis adalah pencarian pengetahuan dari transaksi data ketika kita tidak mengetahui pola spesifik apa yang dicari. Market Basket Analysis adalah suatu analisis atas perilaku konsumen secara spesifik dari suatu golongan/kelompok tertentu. Market basket analysis dimanfaatkan sebagai titik awal pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+   Proses market basket analysis dimulai dengan transaksi yang terdiri dari satu/lebih penawaran produk/jasa dan beberapa informasi dasar suatu transaksi. Kebutuhan MBA berawal dari keakuratan dan manfaat yang dihasilkan dalam wujud aturan association. Association rules adalah pola keterkaitan data dalam basis data. 
+   MBA : teknik yang digunakan pengecer besar untuk mengungkapkan hubungan antar item. Teknik ini mencari kombinasi item yang terjadi bersamaan dalam transaksi. 
+   Algoritma Apriori adalah suatu algoritma dasar yang diusulkan oleh Agrawal & Srikant pada tahun 1994 untuk penentuan frequent itemsets untuk aturan asosiasi boolean. Algoritma Apriori memberi kita sifat asosiatif dalam transaksi. Aturan asosiasi atau association rule adalah teknik untuk menemukan aturan asosiasi antara suatu kombinasi item. 
+Terdapat 3 metrik untuk mengukur ketepatan aturan, yaitu :
+1. Support : indikasi seberapa sering kumpulan item muncul pada dataset
+2. Confidence : suatu ukuran yang menunjukkan hubungan antar dua item secara conditional (berdasarkan suatu kondisi tertentu).
+3. Lift : mengacu pada bagaimana peluang kedua item dibeli ketika item pertama dibeli.
+Fungsi MBA : 
+Rules digunakan dalam marketing untuk membuat berbagai keputusan. 
+- Nilai Support : persentase dari semua transaksi yang terjadi yang mengandung itemset tersebut. 
+- Nilai Confidence : perbandingan nilai Support dari himpunan items di dalam file dan nilai Support himpunan items yang mendahuluinya. 
+- Nilai lift rasio : ukuran dalam mengetahui kekuatan aturan asosiasi. 
+   Kemudian dilanjutkan pada sesi kedua oleh coach kedua diberikan materi tentang NLP - Text Classification. 
+NLP Recap : 
+   Domain AI yang berhubungan interaksi antara mesin dan manusia menggunakan bahasa alami. NLP menggunakan data tidak terstruktur: tekstual maupun suara. 
+NLP Area Recap : Question Answering Systems (QAS), Summarization, Machine Translation, Speech Recognition, Text Classification
+   Text Classification adalah proses pemberian tag/kategori ke teks menurut isinya. Digunakan untuk mengatur, menyusun dan mengkategorikan semua hal. 
+Implementasi Text Classification : 
+- Email/SMS Classification : proses menentukan apakah email/sms tersebut spam atau non-spam
+- Sentiment Analysis : menentukan polaritas sebuah teks, bernilai positif atau negatif
+- Emotion Detection : menentukan emosi dari teks, teks berindikasi senang, sedih, marah, dll
+Pendekatan Text Classification : 
+- Machine Learning : proses klasifikasi teks dengan melatih mesin untuk mempelajari pola pada kumpulan teks
+- Lexicon-based  : proses klasifikasi teks dengan menggunakan kamus kata yang sudah didefinisikan sebelumnya
+Proses Text Classification : Dataset -> Pre-processing -> Feature Extraction -> Feature Selection -> Classification -> Validation & Evaluation -> Production
+   Setelah pemberian materi, coach juga mengajarkan langsung tentang kode program di google colab. Kemudian pada kedua sesi kedua, kita diberikan tugas mandiri oleh coach. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang telah diberikan oleh coach.
+   Pada hari Kamis, 31 Maret 2022 di hari keempat dan di minggu keenam, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama diberikan materi tentang Implementasi CNN pada keras. 
+- Mendeploy CNN Klasifikasi menggunakan Dataset CIFAR-10 
+   Dataset CIFAR-10 (Canadian Institute for Advanced Research, 10 kelas) adalah subset dari dataset Tiny Images dan terdiri dari 60000 32x32 gambar berwarna.
+- Meningkatkan akurasi klasifikasi CIFAR-10 
+CNN : 
+Convolution Layer + Pooling Layer (Feature Ekstraksi) -> Flatten layer -> Fully Connected layer.
+y’ prediksi + y target -> Loss function -> Loss score -> Optimizer ( Gradient descent) -> weights 
+Overview : input -> Hidden -> output 
+Calculating error -> Loss function ( Mean Square Error (MSE) atau Cross Entropy (CE) )
+Gradient Descent : 
+Wx = Wx - a (aerror/aWx)
+   Kemudian mendemonstrasikan training simple menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan CIFAR images.
+Library : 
+- TensorFlow 
+- Numpy, matplotlib
+- Open CV
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Data visualization - Google Data Studio. 
+Data Visualization:
+Visualisasi data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data
+• Statis : Grafik tidak bergerak , User tidak dapat melakukan interaksi
+• Beranimasi : Grafik bergerak, User tidak dapat melakukan interaksi
+• Interaktif : Grafik dapat berubah, User dapat melakukan interaksi
+Dimensi atau Dimensions adalah atribut data.
+- Data kualitatif dapat menjadi dimensi
+- Tipe data kategorik (terutama nominal) dapat menjadi dimensi
+- Contoh Dimensi : Nama, Tanggal dan Waktu, Lokasi (Geolocation), Kota, Negara, Tipe Browser, Perangkat
+Metrik atau Metrics adalah pengukuran kuantitatif.
+- Metrik dapat berupa hasil agregasi
+- Contoh Metrik : Nilai, Harga, Total Penjualan, Jumlah Sesi, Jumlah Halaman, Jumlah Sesi per Halaman
+   Granularitas Data adalah tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan. Granularitas data dapat memberi tahu seberapa detail data. 
+Fungsi Agregasi : Sum, Average, Count, Count Distinct, Min, Max, Median, Standard Deviation, dan Variance
+   Google Data Studio adalah tool gratis dari Google yang dapat mengubah data menjadi dashboard atau laporan yang informatif, mudah dibaca, interaktif,
+mudah dibagikan, dan sepenuhnya dapat disesuaikan
+Keuntungan menggunakan Google Data Studio :
+• Gratis 
+• Mudah dihubungkan dengandata
+• Dashboard atau Report bisa dibagikan ke teman
+• Dapat berkolaborasi dengan rekan 
+• Tersedia template untuk mempercepat pembuatan Report
+Koneksi Sumber Data pada GDS : Databases, Google Marketing Platform, Google Consumer Products, Flat Files, dan Social Media Platforms. 
+Komponen pada Google Data Studio diantaranya adalah report, pages, charts, controls, text areas, lines, shapes, dan images. 
+Tipe Charts di GDS : Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge. 
+Controls di GDS : Filter Control, Date Range Control, dan Data Control.
+   Setelah pemberian materi, coach juga mengajarkan dengan mempraktekkannya langsung .Kemudian pada kedua sesi, kita diberikan tugas mandiri dan kelompok oleh coach. Setelah selesai pembelajaran dengan coach, kami melanjutkan dengan belajar mandiri. Lalu kita juga melanjutkan mengerjakan tugas yang telah diberikan oleh coach.
+   Pada hari Jumat, 1 April 2022 di hari kelima dan di minggu keenam, kegiatanku pada hari itu adalah belajar dengan 2 coach yang berbeda di zoom dengan domain materi yang berbeda juga lalu belajar mandiri. Belajar dengan coach pertama di  sesi pertama diberikan materi tentang Temporal Difference Learning. 
+Recap DP dan MC :
+- Policy Function 
+DP dan MC are using Value Function = Expected Return namun menggunakan pendekatan berbeda. 
+- Return (Utility)
+- Control : DP (VI) , DP (PI), MC (ES) 
+Bootstraping Ch4 : 
+   Bootstraping dilakukan pada algoritma DP, sedangkan MC melakukan rata-rata terhadap return untuk memperbaharui value
+Temporal Difference Learning :
+TDL = mengestimasi reward pada setiap langkah. 
+- TD Learning merupakan kombinasi antara Monte Carlo dan Dynamic Programming
+- Model free learning
+- Melakukan update value state per step
+- Bootstraping
+Model Based vs Model Free methods : 
+Model free methods : value based methods dan policy based methods
+Model Free RL :
+- kelemahan model based RL : state dan Action terbatas dan mudah dijelaskan dengan transiton probability 
+Value based method : metode ini didasarkan pada temporal difference Learning (TD, SARSA, Q-Learning), value function. 
+Generalized policy iteration (GPI) adalah bagian penting RL. 
+Dynamic Programming : 
+- Update per step
+- Bootstraping
+- Membutuhkan model environment
+- Computation cost
+Monte Carlo Method: 
+- Update per episode
+- Tidak Bootstraping
+- Model free ( tidak membutuhkan model Environment )
+- Sulit diaplikasikan pada continuing task
+Temporal Difference Learning : 
+Dynamic programming :
+- model free (tidak membutuhkan model Environment )
+- Online Learning 
+- Better convergence time
+Contoh kasus : Driving Home
+TD Control menggunakan SARSA dan Q-Learning
+SARSA (State-Action-Reward-State-Action) :
+- Terinspirasi dari policy iteration
+- Mengganti value function dengan Action-value function
+- On policy 
+- Fokus pada state-action
+- Pengambilan keputusan dari state-Action SARSA berdasarkan epsilon-greedy policy
+   Kemudian dilanjutkan pada sesi kedua dengan coach kedua diberikan materi tentang Web Scraping. 
+   Scraping (Computing): kegiatan mengambil informasi dari situs web atau layar komputer dan memasukkannya ke dalam spreadsheet 
+   Web Scraping : praktik pengumpulan data dari situs web melalui cara apa pun selain dari menggunakan program untuk berinteraksi dengan API dan memasukan nya kedalam dokumen elektronik untuk mendapatkan informasi yang diinginkan.
+Sejarah Web Scraping :
+1989 (Kelahiran world wide web)
+1990 (Web browser pertama)
+1993 (Robot web pertama - world wide web wanderer)
+1993 (Mesin pencari web berbasis pertama - JumpStation)
+2004 (Python Beautiful Soup)
+2005-2006 (Visual web scraping software) 
+Kegunaan Web Scraping : 
+- Situs Web E-commerce
+- Marketing & Sales
+- Search Engine Optimization (SEO)
+- Data untuk Proyek ML
+Web Scraping vs Web Crawling : 
+   Web Scraping mengacu pada pengambilan data individu dari suatu situs web berdasarkan struktur tertentu situs tersebut, sedangkan Web Crawling mengacu pada proses memperoleh dan menyimpan konten berbagai situs web.
+Etika Web Scraping : 
+   Jika data digunakan secara personal, dan dalam penggunaan wajar undang-undang hak cipta, biasanya tidak ada masalah. Namun, jika digunakan untuk diterbitkan ulang, atau jika web scraping cukup agresif untuk mengganggu situs, atau jika kontennya memiliki hak cipta, maka ada permasalahan hukum untuk diperhatikan. 
+   Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+- Urllib3 Module : library Python lain yang dapat digunakan untuk mengambil data dari URL, mirip dengan requests library.
+- Beautiful Soup Module : library Python yang dirancang untuk proyek seperti web scraping. 
+- Scrapy Module : kerangka kerja web crawling open-source yang cepat dan dibuat dengan Python, digunakan untuk mengekstrak data dari halaman web dengan bantuan penyeleksi berdasarkan XPath. Scrapy pertama kali dirilis pada 26 Juni 2008 dilisensikan di bawah BSD, dengan versi 1.0 dirilis pada Juni 2015. 
+- Selenium : suatu kumpulan aplikasi open source untuk pengujian otomatis aplikasi web di berbagai browser dan platform.
+Preparation
+Berikut adalah beberapa hal yang perlu dilakukan sebelum memulai web scraping:
+1. Analyzing robots.txt
+File robots.txt digunakan untuk menentukan bagian mana dari situs web yang diizinkan untuk dilakukan web scraping dan mana yang tidak. 
+2. Analyzing Sitemap files
+Situs web menyediakan file sitemap untuk membantu web crawler menemukan konten yang diperbarui tanpa harus mengecek setiap halaman. 
+3. Checking Website’s Size
+Dengan memanfaatkan search engine seperti Google sebagai crawler, kita dapat memiliki perkiraan ukuran situs web. Hasil dapat disaring dengan menggunakan kata kunci site:alamat_web saat melakukan pencarian.
+4. Analyzing Technology used in website
+Ada modul Python bernama builtwith yang dapat digunakan untuk mempelajari tentang teknologi yang digunakan oleh situs web.
+5. Knowing owner of website
+Protokol whois dapat digunakan untuk mengecek siapa pemilik website, dengan implementasi pada python dapat menginstall python-whois.
+6. Analyzing Web Page
+Untuk mengetahui bagian mana yang perlu kita gunakan dalam scraping, perlu menganalisis halaman web. Ini dapat dilakukan dengan klik kanan>inspect pada bagian yang kita ingin ketahui informasinya.
+Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+Static Web :
+   Statis menurut definisi berarti sesuatu yang tidak berubah. Halaman pertama di World Wide Web sebagian besar statis dan tidak berubah, memberikan informasi sama kepada siapa saja yang berkunjung.
+Dynamic Web
+Situs web ini bersifat dinamis jika :
+- Menggunakan JavaScripts 
+- Memiliki konten yang berbeda jika diakses dari perangkat satu dengan lainnya
+- Tidak mendapat hasil jika scrap berdasarkan html elements
+HTTP Response :
+   Kode status respons HTTP menunjukkan apakah permintaan HTTP tertentu berhasil diselesaikan atau tidak. HTTP Response perlu diperhatikan dan diketahui saat melakukan scraping untuk mengetahui masalah yang mungkin terjadi.
+Tanggapan dibagi menjadi lima kategori:
+1. Informational responses (1xx)
+2. Successful responses (2xx)
+3. Redirection messages (3xx)
+4. Client error responses (4xx)
+5. Server error responses (5xx)
+Storing Data Media : 
+Menyimpan file media dengan dua cara utama: 
+1. By reference
+2. Mengunduh file
+Export Data Web Scraping :
+   Jika kita ingin menyimpan file langsung tanpa ribet melakukan formatting, dapat di ekspor menjadi format .txt saja.Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+   Kemudian pada sesi kedua di domain Technical, kita diberikan tugas untuk mencoba scraping dan tidak wajib. Setelah selesai pemberian materi oleh coach, kami melanjutkan dengan belajar mandiri.Selain itu, di setiap sesi kita juga diberikan pretest ataupun post test oleh coach untuk melatih pengetahuan dan kemampuan mahasiswa.  Lalu kita juga melanjutkan mengerjakan tugas lainnya yang diberikan oleh coach sebelumnya.

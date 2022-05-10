@@ -1,0 +1,80 @@
+Mon, 28 Feb
+
+Hari Raya Isro Mi'roj Nabi Muhammad SAW
+
+Tue, 1 Mar
+
+Pada kegiatan hari ini belajar tentang phyton, sejarah phyton dan mengerjakan quis sebanyak 25 soal
+1.	Apa sintaks yang benar untuk menampilkan "Hello World" dengan Python?
+Answer : print(“Hello World”)
+2.	Bagaimana Anda memasukkan KOMENTAR dalam kode Python?
+Answer : #This is a comment
+3.	Manakah yang BUKAN nama variabel legal?
+Answer : my-var
+4.	Bagaimana Anda membuat variabel dengan nilai numerik 5?
+Answer : x = int (5)
+5.	Apa ekstensi file yang benar untuk file Python?
+Answer : .py
+6.	Bagaimana Anda membuat variabel dengan angka mengambang 2.8?
+Answer : x = 2.8
+7.	Apa sintaks yang benar untuk menampilkan tipe variabel atau objek dengan Python?
+Answer : print(type(x))
+8.	Apa cara yang benar untuk membuat fungsi dengan Python?
+Answer : def myFunction():
+9.	Dalam Python, 'Helo', sama dengan "Helo"
+Answer : True
+10.	Apa sintaks yang benar untuk mengembalikan karakter pertama dalam sebuah string?
+Answer : x = “Hello”[0]
+11.	Metode mana yang dapat digunakan untuk menghapus spasi putih dari awal dan akhir string?
+Answer : strip()
+12.	Metode mana yang dapat digunakan untuk mengembalikan string dalam huruf besar?
+Answer : upper()
+13.	Metode mana yang dapat digunakan untuk mengganti bagian dari string?
+Answer : replace()
+14.	Operator apa yang digunakan untuk mengalikan angka?
+Answer : *
+15.	Operator mana yang dapat digunakan untuk membandingkan dua nilai?
+Answer : ==
+16.	Manakah dari koleksi berikut yang mendefinisikan LIST?
+Answer : [“apple”,”banana”,”cherry”]
+17.	Manakah dari koleksi ini yang mendefinisikan TUPLE?
+Answer : (“apple”,”banana”,”cherry”)
+18.	Manakah dari koleksi berikut yang mendefinisikan SET?
+Answer : {“apple”,”banana”,”cherry”}
+19.	Manakah dari koleksi berikut yang mendefinisikan KAMUS?
+Answer : {“name”:“apple”,”banana”,”cherry”}
+20.	Koleksi mana yang dipesan, dapat diubah, dan memungkinkan anggota duplikat?
+Answer : LIST
+21.	Koleksi mana yang tidak mengizinkan anggota duplikat?
+Answer : SET
+22.	Bagaimana Anda mulai menulis pernyataan if dengan Python?
+Answer : if x > y:
+23.	Bagaimana Anda mulai menulis while loop dengan Python?
+Answer : while x > y:
+24.	Bagaimana Anda mulai menulis for loop dengan Python?
+Answer : for x in y :
+25.	Pernyataan mana yang digunakan untuk menghentikan perulangan?
+Answer : break
+
+Wed, 2 Mar
+
+kegiatan pembelajaran hari ini mengenai :
+1. operasi python
+2. aritmatika python
+3. mengerjakan tugas python
+4. perulangan
+5. praktek python
+6. membahas soal
+
+Thu, 3 Mar
+
+Hari Raya Nyepi
+
+Fri, 4 Mar
+
+Pada kegiatan hari inu membahas tentang function pyhton
+
+What did you learn this week?
+
+Kegiatan pembelajaran pada minggu ini dimulai pada hari selasa dikarenakan pada hari senin adalah hari libur, hari raya isra miraj.
+Pada hari selasa kegiatan pembelakaran membahas mengenai : Membahas Python, Membahas Compiler, Mengapa Python, Sejarah Python, Versi Python, Aplikasi pada Python, Distribusi Python, Beberapa distribusi yang paling populer, Python IDEs  Anaconda, Mengenal Jupyter Notebook, Python - Coding Praktis , Data Struktures in Python, Primitive Data Types dan Non Primitive Data Types, List, Tuple, String, Dictionary, Set, Tipe Conversion, Mempraktekkan coding Python di Colab, Mengerjakan soal Colab, Mengerjakan Excercise di W3School. Lalu pada hari rabu kegiatan pembelajaran mengenai : operasi python, aritmatika python, mengerjakan tugas python, perulangan, praktek python, membahas soal, true false. Pada hari kamis Kegiatan pembelajaran tidak ada karena hari ini adalah tanggal merah dan libur. hari ini merupaka hari libur nyepi. Pada hari jumat kegiatan pembelajaran hari ini : Membahas Fungsi pada python , User Defined Function di Python beserta sintaknya, Memberikan contoh langsung atau mempraktekkannya di colab, Built in function di python, Membahas Type Conversion, Utility Based Function, Membahas apa itu generators dan sintaknya beserta contohnya, Generators Communicating with generators, Map, Filter, Lambda Function, String, String Manipulation Menggunakan Operator, String Manipulation Menggunakan Built In Methods, File Handling di Python, Membahas Soal, Mengerjakan Tugas di Jupyter Notebook

@@ -1,0 +1,135 @@
+Mon, 18 Apr
+
+Kegaiatan pembelajaran hari ini mengenai : 1. Clustering 2. Techniques 3. K Means 4. K Means Intro 5. Steps 6. Example 7. Nilai K Terbaik 8. Evaluasi Matriks 9. Aplication 10. Implementation 11. Advantages 11. Conclusion 12 Mengerjakan Latian Post Test
+
+Tue, 19 Apr
+
+Image Segmentation using U-Net. Segmentasi yaitu problem to classify the pixels dalam suatu gambar dan kemudian mengelompokan gambar dengan menggambar garis di sekitar objek. Tipe Segmentation ada Semantic Segmentation masks road, sheep and grass (dapat mengidentifikasi objek yang berbeda), Instance Segmentation masks different sheep (dapat mengidentifikasi berbagai contoh objek). Classification and Localization, Segmantic Segmentation, Instance Segmentation. Application : road identification Insatellite Imagery, Activity Recognition, Crop Monitoring, Object Extraction, Autonomous Car. Dalam Segmentasi bertujuan memperdiksi kelas setiap piksel dalam gambar. Intersection Over Union (IOU) adalah metrik yang memberi tahu nilai (persen) tumpang tindih antara target mask dan output yang di prediksi. Encoder decoder architecture (lapisan encoder dan decoder berukuran sama, encoder digunakan untuk mengekstrak fitur, decoder akan menggunakan fitur yang sudah diekstrak untuk membuat mask predict pada original picture). Konvolusi adalah proses untuk mendapatkan ukuran output yang lebih kecil. Decovolution atau Transpose Convolution adalah proses dimana ingin upsample image untuk mendapatkan ukuran yang lebih besar. U-Net Architecture. U-Net Training (Soft-max, Cross-Entropy loss function). Pixel-wise loss weight (jaringan untuk mempelajari batas pemisah kecil yang mereka perkenalkan diantara sel-sel yang bersentuhan). U-Net advantages : fleksibel dan dapat digunakan untuk tugas rational image masking task, tidak mengandung lapisan fully connected layers, lebih cepat dari sliding-window (1 -detik per image), dll.
+
+Wed, 20 Apr
+
+Pada hari ini membahas tentang:
+Speech Recognition
+- Pengertian SR
+- Sejarah SR 
+- Proses mengubah sinyal analog ke digital
+- Framework dan Tool
+- Model dalam SR
+- Extraksi fitur dengan MFCC
+- Analog ke digital 
+- MFCC 
+- Flow Speech Recognition 
+- Kuis
+- Menonton video pembelajaran
+
+Thu, 21 Apr
+
+Pada hari ini membahas tentang:
+RL Environment
+- Konsep RL
+- MDP
+- Persamaan Bellman
+Metode-metode RL
+- DP
+- MC
+- TD (SARSA)
+- QL
+- DQN
+RL untuk Robotics
+- Konsep RL untuk Robotics
+- Implementasi RL pada Robotics 
+FGD
+- RL Algorithm
+- RL Code
+- Menonton Video Pembelajaran
+- Mengerjakan Pre Test
+- Mengerjakan Post Test
+
+Fri, 22 Apr
+
+Pada hari ini membahas tentang:
+Web Development and Deployment
+- Menjelaskan tentang Web Development
+- Python Framework untuk Webdev
+- Menjelaskan tentang Deployment
+Heroku
+- Menjelaskan tentang Heroku
+- Topologi
+Deployment with Heroku 
+- Menjelaskan tentang langkah-langkah 
+Gunicorn and Github Student Package 
+- Penjelasan Gunicorn
+- Penjelasan Github Student Package
+- Mempraktekkan Heroku
+Disini kita dapat memahami apa itu deployment, mengetahui penggunaan heroku dan mampu melakukan konfigurasi terhadap aplikasi web untuk deployment
+
+What did you learn this week?
+
+Kegiatan pada minggu ini : 
+Senin
+1. Clustering 
+2. Techniques 
+3. K Means 
+4. K Means Intro 
+5. Steps 
+6. Example 
+7. Nilai K Terbaik 
+8. Evaluasi Matriks 
+9. Aplication 
+10. Implementation 
+11. Advantages Conclusion 
+12. Mengerjakan Latian Post Test
+
+Selasa 
+Image Segmentation using U-Net. Segmentasi yaitu problem to classify the pixels dalam suatu gambar dan kemudian mengelompokan gambar dengan menggambar garis di sekitar objek. Tipe Segmentation ada Semantic Segmentation masks road, sheep and grass (dapat mengidentifikasi objek yang berbeda), Instance Segmentation masks different sheep (dapat mengidentifikasi berbagai contoh objek). Classification and Localization, Segmantic Segmentation, Instance Segmentation. Application : road identification Insatellite Imagery, Activity Recognition, Crop Monitoring, Object Extraction, Autonomous Car. Dalam Segmentasi bertujuan memperdiksi kelas setiap piksel dalam gambar. Intersection Over Union (IOU) adalah metrik yang memberi tahu nilai (persen) tumpang tindih antara target mask dan output yang di prediksi. Encoder decoder architecture (lapisan encoder dan decoder berukuran sama, encoder digunakan untuk mengekstrak fitur, decoder akan menggunakan fitur yang sudah diekstrak untuk membuat mask predict pada original picture). Konvolusi adalah proses untuk mendapatkan ukuran output yang lebih kecil. Decovolution atau Transpose Convolution adalah proses dimana ingin upsample image untuk mendapatkan ukuran yang lebih besar. U-Net Architecture. U-Net Training (Soft-max, Cross-Entropy loss function). Pixel-wise loss weight (jaringan untuk mempelajari batas pemisah kecil yang mereka perkenalkan diantara sel-sel yang bersentuhan). U-Net advantages : fleksibel dan dapat digunakan untuk tugas rational image masking task, tidak mengandung lapisan fully connected layers, lebih cepat dari sliding-window (1 -detik per image), dll.
+
+Rabu 
+Speech Recognition
+- Pengertian SR
+- Sejarah SR 
+- Proses mengubah sinyal analog ke digital
+- Framework dan Tool
+- Model dalam SR
+- Extraksi fitur dengan MFCC
+- Analog ke digital 
+- MFCC 
+- Flow Speech Recognition 
+- Kuis
+- Menonton video pembelajaran
+
+Kamis 
+RL Environment
+- Konsep RL
+- MDP
+- Persamaan Bellman
+Metode-metode RL
+- DP
+- MC
+- TD (SARSA)
+- QL
+- DQN
+RL untuk Robotics
+- Konsep RL untuk Robotics
+- Implementasi RL pada Robotics 
+FGD
+- RL Algorithm
+- RL Code
+- Menonton Video Pembelajaran
+- Mengerjakan Pre Test
+- Mengerjakan Post Test
+
+Jumat
+Web Development and Deployment
+- Menjelaskan tentang Web Development
+- Python Framework untuk Webdev
+- Menjelaskan tentang Deployment
+Heroku
+- Menjelaskan tentang Heroku
+- Topologi
+Deployment with Heroku 
+- Menjelaskan tentang langkah-langkah 
+Gunicorn and Github Student Package 
+- Penjelasan Gunicorn
+- Penjelasan Github Student Package
+- Mempraktekkan Heroku
+Disini kita dapat memahami apa itu deployment, mengetahui penggunaan heroku dan mampu melakukan konfigurasi terhadap aplikasi web untuk deployment

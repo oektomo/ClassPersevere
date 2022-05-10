@@ -1,0 +1,69 @@
+Mon, 21 Feb
+
+Kegiatan hari ini diawali dengan perkenalan, peraturan yang harus dipatuhi selama pembelajaran. Lalu mentor memberikan sebuah pre-test kepada kita yang berjumlah 20 soal. Lalu kembali membahas materi mengenai dasar dari Artificial Intelligence. Mulai dari apa itu AI, pengertian AI, strukture sistem AI. Lalu diberikan contoh produk yang menggunakan AI. Lalu terdapat pengertian AI menurut beberapa ahli seperti Amy Stapleton, Mark Cuban, Waters Dave. Lalu kami juga diajarkan atau diberi contoh secara langsung mengenai AI, lalu dijelaskan bagaimana mesin bisa menjadi cerdas dan mengalahkan manusia, bagaimana AI bermula, dan perbedaan Artificial Intelligence dan Natural Intelligence. Lalu diberikan contoh skenario dari sebuah test mengenai sistem yang bertindak seperti manusia. Dijelaskan juga mengenai berpikir secara manusiawi. 
+
+Tue, 22 Feb
+
+Kegiatan hari ini dilakukkan kegiatan belajar mandiri. Kita diberikan sebuah materi melalui video pembelajaran yaitu mengenai Python dan AI. Materi yang saya dapatkan adalah mengenai python, alasan mengapa harus menggunakan python, penjelasan level bahasa pemrograman, pencipta dan pengembang Python, perbedaan Python dan Python Notebook. Lalu kami diajarkan cara menginstall aplikasi Python dan Jupyter Notebook. Lalu penjelasan mengenai mengaplikasikan Python pada kecerdasan bisnis atau AI, mempraktekkan secara langsng menggunakan aplikasi Python Jupyter Notebook mengenai mencetak Hello World di notebook, lalu variabel yang dapat didefinisikan sebagai tempat penyimpanan nilai atau value secara sementara, lalu diajarkan pljuga cara menampilkan frame website didalam jupyter notebook. Dan materi terakhir yang kami dapat dihari ini adalah mengenai gambaran AI.
+
+Wed, 23 Feb
+
+Kegiatan hari belajar mengenai materi python, anaconda, jupyter notebook, colab, program dan programming language. Materi python membahas mengenai apa itu python, dan arti python menurut penemu python, lalu penjelasan mengenai sejarah singkat python. Disebutkan juga beberapa perusahaan besar yang menggunakan python. Lalu penjelasan mengenai anaconda , paket python yang populer. Dijelaskan juga mengenai cara pemrograman yang terdiri dari 4 metode dalam python.  Lalu terdapat materi Jupyter Notebook, menjelaskan tentang apa itu jupyter notebook dan format dalam jupyter notebook. Lalu ada Colab, menjelaskan perbedaan antara jupyter notebook dengan colab. Lalu terdapat penjelasan programming dan contohnya. Penjelasan mengenai Programming Language. Level Language : Low - Level Programming Language dan High - Level Programming Language lalu terdapat penjelasan dari masing - masing level. Diberikan juga perbandingan codenya antara low - level programming Language dan high - level programming language. Dijelaskan juga tentang bagaimana bahasa pemrograman bekerja dan contohnya. Lalu penjelasan mengenai semakin tinggi level programming language.
+
+Thu, 24 Feb
+
+Kegiatan hari dilakukkan pembelajaran mengenai materi Data, Ethnics, dan Bias. Materi Data menjelaakan pengertian Data, Tipe dan dan contohnya. Penjelasan mengenai data terstrukture dan data tidak terstrukture serta contohnya. Perbedaan antara data terstrukture dan data tidak terstrukture. Kecerdasan butuh data menjelaskan mengenai kecerdasan manusia membutuhkan data dan kecerdasan buatan membutuhkan data. Menurut W. Edwards Deming, Tanpa data anda hanyalan orang lain yang memiliki opini. Lalu terdapat penjelasan mengenai perbedaan kuantitatif dan kualitatif. Kualitas data menurut Mark Mosley 2008 terdapat 5 kualitas. Terdapat penjelasan mengenai cara memperoleh data (populasi vs sampel) dan penjelasan mengenai cara memperoleh data (sensus vs survei) diberikan kelebihan dan kekurangannya. Dijelaskan pula mengenai hal yang perlu diperhatikan dalam pengambilan sampel. Penjelasan tentang ukuran sampel dan kriteria sampel. Dalam teknik sampling terdapat 2 jenis teknik yang sering digunakan. Penjelasan serta pengertian Etika, Etika AI, dan Kenapa etika AI itu penting. Dalam prinsip AI melalui laporan Beimont komisi nasional untuk perlindungan subjek penelitian biomedis dan perilaku manusia. Setelah materi, kita diberikan sebuah Quis.
+
+Soal Quis :
+1. Apa yang dimaksud dengan data terstruktur ?
+Data terstruktur merupakan data yang dipresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Contoh : Database SQL.
+2. Apa yang dimaksud dengan data tidak terstruktur ?
+Data tidak terstruktur merupakan data yang dipresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diinterogasikan dengan sumber data lain. Contoh : Gambar, Video, Suara, File.
+
+Fri, 25 Feb
+
+Kegiatan hari ini berupa pembelajaran melalui video yang berisikan materi mengenai python , AI, dan Jupyter Notebook. Point - point dalam video pembelajaran :
+- Apa itu Python
+- Alasan mengapa menggunakan Python
+- Penjelasan mengenai level bahasa pemrograman
+- Penemu dan pengembang Python
+- Perbedaan Python dan Python Notebook
+ Mempraktekkan coding untuk mencetak Hello Word di Notebook, variabel yang dapat didedinisikan sebagai tempar penyimpanan nilai atau value secara sementara, lalu coding menampilkan frame website didalam notebook.
+- Penjelasan mengenai gambar AI
+
+What did you learn this week?
+
+Kegiatan pembelajaran seminggu mulai dari hari senin hingga jumat. 
+1. Pada hari senin kegiatan ini diawali dengan perkenalan, peraturan yang harus dipatuhi selama pembelajaran, lalu membahas dasar dari Artificial Intelligence. Mulai dari apa itu AI, pengertian AI yang merupakan kemampuan mesin untui menirukan perilaku manusia yang cerdas. Lalu membahas mengenai strukture sistem AI yang terdiri dari Machine or Computers + Inteligence (berupa algoritma), saya dapat mengetahui bahwa mesin juga melakukkan proses pembelajaran. Lalu diberikan contoh produk yang menggunakan AI salah satunya Google Translate, Sirin, Google, dll. Lalu terdapat pengertian AI menurut beberapa ahli seperti Amy Stapleton, Mark Cuban, Waters Dave. Lalu kami juga diajarkan atau diberi contoh secara langsung mengenai AI, misal pada permainan batu gunting kertas secara online, bahwa AI akan melihat cara permainan kita dan dapat menirukanya atau mengetahuinya. Lalu dijelaskan bagaimana mesin bisa menjadi cerdas dan mengalahkan manusia yaitu dengan belajar, melakukkan hal baik akan memberikan reward, dan diajarkan. Dijelaskan juga mengenai bagaimana AI bermula, mulai dari AI yang memiliki sejarah panjang dan toko sejarah yang berkontribusi. Lalu dijelaskan juga mengenai perbedaan Artificial Intelligence dan Natural Intelligence. Lalu diberikan contoh skenario dari sebuah test mengenai sistem yang bertindak seperti manusia. Dijelaskan juga mengenai berpikir secara manusiawi. Lalu materi terakhir dijelaskan mengenai Revolusinya serta penjelasan tentang apa itu AI, ML, dan DL. Setelah itu mentor memberikan sebuah pre - test kepada kami yang berisikan soal -soal mengenai AI, Python dan sedikit matematika yang berisikan jumlah soal 20 soal. Lalu mentor juga memberikan kesempatan bagi kami yang ingin bertanya, dan mentor memberikan jawaban penjelasanya dengan sangat baik.
+2. Pada hari selasa kegiatan ini dilakukkan kegiatan belajar mandiri. Kita diberikan sebuah materi melalui ppt. Materi yang kita dapatkan adalah mengenai AI dan Data. Penjelasan mengenai AI di Industri, perusahaan yang populer saat ini salah satunya Tokopedia, RedDoorz, Shopee, yang umunya disebut sebagai perusahaan startup atau unicorn. Lalu dijelaskan juga mengenai Startup Unicorn Indonesia, perusahaan dengan nilai valuasi diatas US$1 miliar seperti Gojek, Traveloka, Tokopedia dan Bukalapak, dijelaskan juga persamaan dari perusahaan diatas dan apa yang mereka lakukan dan tawarkan. Memberikan contoh dan penjelasannya : menjelaskan mengenai Gojek mulai dari analisis, Insight atau solusi, dan yang gojek lakukkan serta kesimpulannya. Materi selanjutnya adalah data, Data adalah Minyak Baru, istilah yang dikatakan oleh Clive Humby 2006. Lalu ada penjelasan mengenai perbedaan Minyak Mentah dan Data, Data dan Revolusi Indrustri dan Contohnya. Materi selanjutnya adalah Era of Data, penjelasan mengenai perbedaan data sebelum era data dan sesudah era data. Lalu terdapat materi Big Data yang dijelaskan mengenai sifat dan karakteristiknya. Setelah itu terdapat Quiz didalam ppt yang kami kerjakan. Quis tersebut memiliki 2 soal.
+Soal Quis :
+1. Kenapa data disebut sebagai minyak mentah yang baru ? 
+Karena data akan berharga jika diproses menjadi insight atau solusi. Misalnya seperti Aplikasi Gojek yang mampu mendapatkan profit dari hasil pemrosessan data penumpang dan pengemudi.
+2. Apa perbedaan Data dan Big Data
+Data :
+a. Data diinput secara manual
+b. Berbentuk tabular
+c. Data lebih terstruktur
+d. Ukuran data kecil
+e. Pertumbuhan data lambat
+Big Data :
+a. Data dibuat oleh user
+b. Bentuknya beragam
+c. Data tidak terstrukture
+d. Ukuran data besar
+e. Pertumbuhan data cepat
+Lalu terdapat pula video pembelajaran mengenai Python, penjelasan apa itu python dan cara menginstall Python serta Python Jupyter Notebook.
+3. Pada hari rabu kegiatan Kegiatan ini dilakukkan kegiatan belajar mandiri. Kita diberikan sebuah materi melalui ppt. Materi yang kita dapatkan adalah mengenai python, anaconda, jupyter notebook, colab, program dan programming language. Materi python membahas mengenai apa itu python, dan arti python menurut penemu python, lalu penjelasan mengenai sejarah singkat python. Disebutkan juga beberapa perusahaan besar yang menggunakan python salah satunya adalah google, instagram, facebook dan dropbox. Lalu penjelasan mengenai anaconda , paket python yang populer terdiri dari pandas, scikit learn, keras, tensor flow, dan matplotlib. Dijelaskan juga mengenai cara pemrograman yang terdiri dari 4 metode dalam python yaitu terminal , terminal + text editor, IDE, IDE untuk penelitian dan pengembangan.  Lalu terdapat materi Jupyter Notebook, menjelaskan tentang apa itu jupyter notebook dan format dalam jupyter notebook. Lalu ada Colab, menjelaskan perbedaan antara jupyter notebook dengan colab. Lalu penjelasan mengenai program, dalam program komputer melakukkan komputasi yang berupa sesuatu yang berhubungan dengan matematika dan komputasi simbolis. Lalu terdapat penjelasan programming dan contohnya. Penjelasan mengenai Programming Language. Level Language : Low - Level Programming Language dan High - Level Programming Language lalu terdapat penjelasan dari masing - masing level. Diberikan juga perbandingan codenya antara low - level programming Language dan high - level programming language. Dijelaskan juga tentang bagaimana bahasa pemrograman bekerja dan contohnya. Dan materi terakhir tentang semakin tinggi level programming language.
+4. Pada hari kamis Kegiatan ini dilakukkan kegiatan belajar mandiri. Kita diberikan sebuah materi melalui ppt. Materi yang kita dapatkan adalah mengenai Data, Ethnics, dan Bias. Materi Data menjelaskan tentang pengertian Data, Tipe dan dan contohnya. Penjelasan mengenai data terstrukture dan data tidak terstrukture serta contohnya. Perbedaan antara data terstrukture dan data tidak terstrukture. Kecerdasan butuh data menjelaskan mengenai kecerdasan manusia membutuhkan data dan kecerdasan buatan membutuhkan data. Menurut W. Edwards Deming, Tanpa data anda hanyalan orang lain yang memiliki opini. Lalu terdapat penjelasan mengenai perbedaan kuantitatif dan kualitatif. Kualitas data menurut Mark Mosley 2008 dalam bukunya Dictionary of Data Management kualitas dapat diliat dari Acuuracy, Completeness, Relevancy, Timelines, Consistency. Terdapat penjelasan mengenai cara memperoleh data (populasi vs sampel) dan penjelasan mengenai cara memperoleh data (sensus vs survei) diberikan kelebihan dan kekurangannya. Dijelaskan pula mengenai hal yang perlu diperhatikan dalam pengambilan sampel. Penjelasan tentang ukuran sampel dan kriteria sampel. Dalam teknik sampling terdapat 2 jenis teknik yang sering digunakan yaitu sampel acak dan menyimpan data. Penjelasan serta pengertian Etika, Etika AI, dan Kenapa etika AI itu penting. Dalam prinsip AI melalui laporan Beimont komisi nasional untuk perlindungan subjek penelitian biomedis dan perilaku manusia, terdapat penjelasan a. Menghormati orang, b. Kemurahan hati, c. Keadilan. Setelah materi, kita diberikan sebuah Quis. Soal Quis :
+1. Apa yang dimaksud dengan data terstruktur ?
+Data terstruktur merupakan data yang dipresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan dengan data terstruktur lainnya. Contoh : Database SQL.
+2. Apa yang dimaksud dengan data tidak terstruktur ?
+Data tidak terstruktur merupakan data yang dipresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diinterogasikan dengan sumber data lain. Contoh : Gambar, Video, Suara, File. 
+5. Pada hari jumat Kegiatan ini berupa pembelajaran melalui video yang berisikan materi mengenai python , AI, dan Jupyter Notebook. Point - point dalam video pembelajaran :
+1. Apa itu Python
+2. Alasan mengapa menggunakan Python
+3. Penjelasan mengenai level bahasa pemrograman
+4. Penemu dan pengembang Python
+5. Perbedaan Python dan Python Notebook
+6. Mempraktekkan coding untuk mencetak Hello Word di Notebook, variabel yang dapat didedinisikan sebagai tempar penyimpanan nilai atau value secara sementara, lalu coding menampilkan frame website didalam notebook.
+7. Penjelasan mengenai gambar AI

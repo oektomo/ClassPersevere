@@ -1,0 +1,237 @@
+Mon, 28 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Dimensionality Reduction.
+- Introduction Reduksi dan Dimensionality Reduction atau Reduksi Dimensi.
+- Dimentionality Reduction Technique => Feature Selection dan Feature Extraction.
+- PCA (Principal Component Analysis) => teknik ini menggunakan operasi matriks sederhana dari aljabar linier dan statistik.
+- Implementasi dari Principal Component Analysis.
+- Mathematical Approach to PCA
+- LDA (Linear Discriminant Analysis) => yaitu seperti PCA, akan tetapi lebih fokus memaksimalkan jarak ke kategori.
+
+Sesi II :
+- Menjelaskan tugas minggu kemarin yang sudah dilalui dan prosesnya
+- Prosesnya => Akuisisi Data -> Text Cleaning -> Text Preprocessing -> Feature Engineering -> Modeling -> Evaluasi peforma model -> Deployment/Tahap produksi
+- Case Study: SMS Spam Classification.
+- Implementasi dari Case Study NLP yang diajarkan sebelumnya.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Di akhir modul ini kita akan memahami :
+Dimensionality Reduction di AI
+Tujuan dimensionality reduction
+Teknik dimensionality reduction
+- Ciri-Ciri umum data yang perlu dilakukan reduksi data
+Data High Dimention (Data fitur yang sangat banyak)
+Data yang Fiturnya > dari observasi
+Model mengalami overfitting
+- Persamaan dan Perbedaan LDA dan PCA
+Persamaan : Sama-sama menggunakan nilai eigen dan vektor eigen
+Perbedaan :
+PCA => Menggunakan Unsupervised Learning (tidak menggunakan label) dan Memaksimalkan variance di tiap feature terbaru.
+LDA => Menggunakan Supervised Learning (menggunakan label) dan feature baru yang memaksimalkan jarak antar kelas.
+
+Tue, 29 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Belajar Image Segmention.
+- Implementasi Image Thresholding.
+- Implementasi Image Segmention dengan menggunakan Image Filtering/Pemfilteran Citra.
+- Implementasi Image Segmention dengan menggunakan Edge Detection/Deteksi Tepi.
+
+Sesi II :
+- Konsep Monte Carlo (MC)
+- Elemen Algoritme MC
+- Algoritme MC (First-Visit)
+- Penyelesaian Every Visit: Calculating V(A)
+- Penyelesaian Every Visit: Calculating V(B)
+- MC Estimation
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir mdul kita akan dapat :
+Mengetahui Monte Carlo Prediction
+Mengetahui Monte Carlo Estimation & Control
+Mengetahui On-Policy Monte Carlo
+Mengetahui Off-Policy Monte Carlo
+Mengetahui Dasar Pemograman Monte Carlo
+
+Wed, 30 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Biasa Saja.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Recommender System => Memberikan informasi berupa saran objek yang kemungkinan diminati/dibutuhkan pengguna.
+- Metode Recommender System => Content-Based Filtering, Collaborative Filtering.
+- Market Basket Analysis => Pencarian pengetahuan dari suatu transaksi data ketika kita tidak mengetahui pola spesifik apa yang kita cari.
+- Implementasi Market Basket Analysis.
+
+Sesi II :
+- Module 10 Natural language Processing (NLP).
+- Section Text Classification.
+- NLP Recap => dimana Domain AI yang berhubungan dengan interaksi antara mesin dan manusia menggunakan bahasa alami.
+- Implementasi Text Classification => Sentiment Analysis, Emotion Detection.
+- Pendekatan Text Classification.
+- Machine Learning Approach.
+- Lexicon-Based Approach.
+- Implementasi tentang InSet (Indonesia Sentiment Lexicon) dan Vader Sentiment Analysis.
+- Proses Text Classification.
+- Implementasi Text Classification.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir modul kita akan memahami :
+Rekomendasi System dalam AI
+Market Basket Analysis
+Association Rules Mining
+Apriori Introduction
+- Terdapat berbagai metode di sistem rekomendasi :
+Collaborative filtering recommendations.
+Content-based recommedations.
+- Learning Objectives, Diakhir modul kita akan mendapatkan :
+Mengetahui pengertian Text Classification
+Mengetahui area Text Classification
+Memahami konsep dasar proses text classification (Text Classification Pipeline)
+Mampu mengimplementasikan Text Classification dengan baik menggunakan Bahasa Pemograman Python
+
+Thu, 31 Mar
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Agak lelah dengan tugas.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Implementasi Object Detection Using CNN.
+- Stacked CNN Architecture.
+
+Sesi II :
+- Data Visualization Technical Domain.
+- Data Visualization => representasi grafis dari informasi dan data.
+- Pentingnya visualisasi data.
+- Datasaurus Dataset.
+- Jenis Visualisasi data => statis, beranimasi dan interaktif.
+- Dimensi dan Metrik => Atribut data dan pengukuran kuantitatif.
+- Granularitas Data => tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan.
+- Google Data Studio => Koneksi Sumber Data pada GDS, Tampilan Awal GDS, Tampilan Editor GDS.
+- Tipe Charts di GDS => Table, Scorecard, Time Series, Bar, Pie, Google Maps, Geo Chart, Line, Area, Scatter, Pivot Table, Bullet, Treemap, dan Gauge.
+- Implemetasi Orbit Student Dataset.
+- Proposal Learning Plan - Technical AI Mastery
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning objectives :
+Memahami implementasi CNN pada keras
+Mendeploy CNN klasifikasi menggunakan dataset CIFAR-10
+Self Learning & Homework untuk meningkatkan akurasi klasifikasi CIFAR-10
+- Tujuan Pembelajaran, Setelah mengikuti pembelajaran sesi ini kita akan memahami :
+Memahami apa itu visualisasi data dan pentingnya visualisasi data
+Mengetahui jenis visualisasi data
+mengetahui perbedaan dimensi dan metrik
+Mengenal Google Data Studio sebagai salah satu alat untuk visualisasi data
+Mengetahui komponen di Google Data Studio yang dapat digunakan untuk visualisasi data
+
+Fri, 1 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Agak lelah dengan tugas.
+
+Apa yang dipelajari hari ini?
+Sesi I :
+- Perbedaan Kasus 1 dan 2 di Temporal Difference Learning (TDL).
+- TDL => Mengestimasi reward pada setiap Langkah (step).
+- Kelemahan Model Free RL => jumlah state dan action haruslah terbatas, dan mudah dijelaskan menggunakan transiton probability. 
+- Value-based method => Generalized Policy Iteration(GPI) merupakan bagian penting adri Reinforcement Learning.
+- Dynamic Programming.
+- Simple Monte Carlo.
+- Simplest TD Method.
+- Menghitung rata-rata secara bertahap dan Memperbaharui Value function MC.
+- SARSA => Algoritma on Policy.
+
+Sesi II :
+- Web Scraping - Technical Domain.
+- Web Scraping => praktik pengumpulan data melalui cara apa pun selain dari menggunakan program untuk berinteraksi dengan API.
+- Sejarah Web Scraping.
+- Kegunaan Web Scraping => Situs Web E-Commerce, Marketing & Sales, Search Engine Optimization (SEO), dan Data utuk proyek ML.
+- Etika Web Scraping.
+- Urllib3 Module => library python lain yang dapat digunakan untuk mengambil data dari URL, mirip dengan requests library.
+- BeautifulSoup Module => library Python yang dirancang untuk proyek seperti Web Scraping.
+- Scrapy Module.
+- Selenium => merupakan suatu kumpulan aplikasi openn source untuk menguji otomatis aplikasi web di berbagai browser dan platform.
+- Preparation => Analyzing robots.txt, Analyzing Sitemap files, Checking Website's Size, Analyzing Technology used in website, Knowing owner of website, dan Analyzing Web Page.
+- Static Web dan Dynamic Web.
+- Implementasi Web Scraping.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Model Based vs Model Free Methods. 
+Reinforcement Learning => Model-based methods, dan Model-free methods => Value-based methods dan Policy-based method.
+- Tujuan Pembelajaran, Setelah mengikuti pembelajaran sesi ini kita akan memahami :
+Memahami apa itu Web Scraping
+Mengetahui Modul untuk Web Scraping pada Python
+Mengetahui teknik melakukan Web Scraping
+Dapat melakukan Web Scraping sederhana
+Dapat menyimpan data hasil Web Scraping
+- Web Scraping vs Web Crawling
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang, dan sedikit cape.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 6 Kali ini banyak sekali kebingungan yang saya pikirkan apalagi ketika kerkom di beda kelas.
+
+- Senin, 28 Maret 2022
+Dimensionality Reduction di AI
+Tujuan dimensionality reduction
+Teknik dimensionality reduction
+Data High Dimention (Data fitur yang sangat banyak)
+Data yang Fiturnya > dari observasi
+Model mengalami overfitting
+
+- Selasa, 29 Maret 2022
+Mengetahui Monte Carlo Prediction
+Mengetahui Monte Carlo Estimation & Control
+Mengetahui On-Policy Monte Carlo
+Mengetahui Off-Policy Monte Carlo
+Mengetahui Dasar Pemograman Monte Carlo
+
+- Rabu, 30 Maret 2022
+Rekomendasi System dalam AI
+Market Basket Analysis
+Association Rules Mining
+Apriori Introduction
+Collaborative filtering recommendations.
+Content-based recommedations.
+Mengetahui pengertian Text Classification
+Mengetahui area Text Classification
+Memahami konsep dasar proses text classification (Text Classification Pipeline)
+Mampu mengimplementasikan Text Classification dengan baik menggunakan Bahasa Pemograman Python
+
+- Kamis, 31 Maret 2022
+Memahami implementasi CNN pada keras
+Mendeploy CNN klasifikasi menggunakan dataset CIFAR-10
+Self Learning & Homework untuk meningkatkan akurasi klasifikasi CIFAR-10
+Memahami apa itu visualisasi data dan pentingnya visualisasi data
+Mengetahui jenis visualisasi data
+mengetahui perbedaan dimensi dan metrik
+Mengenal Google Data Studio sebagai salah satu alat untuk visualisasi data
+Mengetahui komponen di Google Data Studio yang dapat digunakan untuk visualisasi data
+
+- Jum'at, 1 April 2022
+Reinforcement Learning => Model-based methods, dan Model-free methods => Value-based methods dan Policy-based method.
+Memahami apa itu Web Scraping
+Mengetahui Modul untuk Web Scraping pada Python
+Mengetahui teknik melakukan Web Scraping
+Dapat melakukan Web Scraping sederhana
+Dapat menyimpan data hasil Web Scraping

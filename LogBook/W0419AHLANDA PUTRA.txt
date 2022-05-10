@@ -1,0 +1,28 @@
+Mon, 14 Mar
+
+Belajar python numpy dan pandas. NumPy (Numerical Python) adalah library Python yang fokus pada scientific computing. NumPy Array memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan list pada Python. Pandas adalah sebuah library di Python yang bersifat open source dengan lisensi BSD pandas biasa digunakan untuk menganalisis data, manipulasi data, mengubah dimensi data, mengecek data dan masih banyak lagi.
+
+Tue, 15 Mar
+
+Memahami apa itu visualisasi data basic, memahami visualisasi data dengan python, belajar modul matplotlib pada python
+ 
+
+Wed, 16 Mar
+
+Belajar Supervised Machine Learning and and predictive learning : Linear regresion
+
+Thu, 17 Mar
+
+Belajar Supervised Machine Learning and and predictive learning : Algoritma K-NN
+
+Fri, 18 Mar
+
+Mengenal apa itu Neural Network
+
+What did you learn this week?
+
+NumPy (Numerical Python) adalah library Python yang fokus pada scientific computing. NumPy Array memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan list pada Python.
+Memahami apa itu visualisasi data basic, memahami visualisasi data dengan python, belajar modul matplotlib pada python
+Belajar Supervised Machine Learning and and predictive learning : Linear regresion
+Belajar Supervised Machine Learning and and predictive learning : Algoritma K-NN
+Mengenal apa itu Neural Network

@@ -1,0 +1,37 @@
+Mon, 28 Mar
+
+Hari ini dimulai dengan materi data science. Kami membahas tentang dimentionality reduction. Dimentionality reduction adalah teknik yg mengurangi dimensi dataset dalam hal ini fitur data. Teknik pertama dalam reduction adalah PCA (Principle Component Analysis). PCA merupakan metode mengambil kombinasi linear dari sebuah variabel supaya mengurangi dimensi data dan mengambil sumber utama dari varians.PCA berguna untuk data dengan banyak variabel terukur dan berhubungan, sehingga memungkinkan kita untuk mengurangi data dari dimensi tinggi ke rendah.
+
+Kita juga mempelajari materi mengenai nlp. Disini dalam NLP kita mempelajari cara membentuk model NLP menggunakan Python dari awal. Di hari ini kita fokus pada data exploratory dan preprocessing. Langkah-langkah yang kita lakukan antara lain akusisi data, text preprocessing (casefolding, normalisasi, stopword removal, stemming) dan feature engeneering dengan bag of words dan tfidf.
+
+Tue, 29 Mar
+
+Hari  ini dimulai dengan kelas reinforcement learning. Disini kita membahas algoritma monte carlo. Monte carlo yang merupakan an algoritma yang mengulang kembali episode berkali-kali untuk mendapat nilai awal yang nantinya digunakan untuk mengambil keputusan. kita juga ditunjukan contohnya dalam environtment frozen lake.
+
+Kemudian kami mempelajari computer vision yang mempelajari thresholding, filtering dan CNN. Thresholding melibatkan memodifikasi nilai pixel. Filter melibatkan merubah keseluruhan warna gambar supaya komputer dapat membedakan edges pada gambar. CNN menerima gambar sebagai input dan memberi weight dan bias pada sebuah aspek di gambar untuk membedakan satu gambar dengan lainya.
+
+
+Wed, 30 Mar
+
+Hari ini dimulai dengan belajar MBA atau market basket analysis di kelas data science. MBA berguna untuk mencari korelasi antar barang yang terjual dengan barang yang lain. Ada berapa nilai yang penting dicari, lift, support dan confedence. Kemudian kami mempelajari NLP dimana melanjutkan  model yang telah kita buat untuk deployment. Dari pelatih, model berupa pendeteksi sms spam. Sementara kita diminta untuk membangun model pemerkiraan rating suatu kalimat berdasar data review dari sebuah e-Commerce platform.
+
+Thu, 31 Mar
+
+Kami dimulai dengan mempelajari computer vision. Disini kita mulai menggabungkan CNN dengan CV. Kita menggunakan data dari cifar10 untuk deteksi objek. Kami juga diberi tugas untuk mencari cara memperbaiki akurasi klasifikasi.
+
+Kemudian kami mempelajari teknikal. Di sesi ini kita diperkenalkan dengan google data studio. GDS mirip dengan tableu. GDS memperbolehkan kita untuk menganalisis data dengan query data yang mirip dengan excel atau sql sekalipun. Disini kami diberi contoh untuk memvisualisasi data populasi dunia.
+
+Fri, 1 Apr
+
+Hari ini kami mempelajari temporal difference. TD berdasar dari gabungan dari DP dan MC dan diaplikasikan pada free model.
+TDL mengupdate state value setiap step dan bersifat bootstrap. TDL bekerja dengan trial & error untuk eksplorasi lingkungan.
+TDL dikenal cepat untuk mencapai konvergensi. Contoh kontrol TD memakai SARSA dan Q-Learning. SARSA bekersa berdasar perubahan
+State-Action (S,A). SARSA adalah algoritma on policy dimana pengambilan keputusan state actionya berdasar epsilon-
+greedy policy.
+
+Kemudian kita belajar tentang tentang webscraping. Webscraping hari ini mengimplementasikan beautiful soup. Kami diberi contoh scraping sederhana. Kami juga diminta untuk melakukan scarping sederhana pada website buku untuk mencari judul buku.
+
+
+What did you learn this week?
+
+Di minggu ini kami masuk ke tahap menengah masing-masing domain. Data science membahas pengurangan dimensi dan mencari korelasi antara variabel. NLP mempelajari membuat tahapan awal pada NLP yang mengandung teks preprocessing hingga pembuatan model hingga deployment. Computer vision membahas penggunaan CNN dan implementasinya dengan dataset CIFAR-10. RL mempelajari algoritma monte carlo dan temporal difference serta variansi nya. Kelas teknikal sendiri mempelajari menggunaan google data studio untuk visualisasi data dan webscraping dengan beautiful soup.

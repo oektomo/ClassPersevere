@@ -1,0 +1,173 @@
+Mon, 7 Mar
+
+1.	Apa aitu data? Data adalah sekumpulan fakta fakta yang belum diproses. Data yang sudah di proses akan menjadi informasi yang memiliki nilai value.
+2.	Data terbagi menjadi menjadi 2
+3.	data yang terstruktur yaitu database, excel, csv
+Data yang tidak terstruktur yaitu text, images dan speech
+Ada 3 bidang keilmuan dalam AI
+1.Data science
+2. computer vision
+3. natural laguange processing 
+4. Machine learning itu bidang ilmu yang membuat komputer yang tadinya hanya mengikuti    perintah menjadi belajar.
+5. Cloud computing itu penting sebab, penyimpanan berbasis cloud berguna untuk menyimpan dan juga mengakses file selama mempunyai jaringan intenet ketimbang menyimpan di hard drive
+
+Tue, 8 Mar
+
+Belajar mathematics for AI
+Ide dari setiap operasi matematika
+1.	Peluang
+2.	Aljabar linier
+3.	Kalkulus.
+
+A.	Peluang gunanya landasan membuat keputusan (Dession Support)
+selain itu Peluang merupakan ilmu untuk memberikan pendidikan kepada pendidik dan masih banyak lagi.
+peluang diikat sebagai prediksi.
+B.  Aljabar linier vector dan matriks
+1.vektor = besaran yang memiliki nilai & arah. Dalam ilmu data vector itu kumpulan nilai dari variable tertentu.
+2.skalar= besaran/konstanta yang memiliki nilai vector berdimensi dan dapat dioperasikan.
+Jarak terbagi menjadi 2
+1.jarak Euclidean(sederhana)
+2,jarak mainhattan(penjumlahan)
+
+Aljabar linier matriks
+-matriks merupakan kumpulan nilai dari beberapa variable yang disusun menjadi baris dan kolom. Matriks berukuran m x n memiliki m baris dan n kolom.
+biasanya perkalian matriks menggunakan numpy. Numpy adalah library tambahan yang digunakan untuk operasi matriks dan juga sebagai pemisahan
+C.  Kalkulus : fungsi & gradient
+Fungsi adalah aturan yang memetakan antara untuk himpunan X hanya sekali ke himpunan Y
+Gradient adalah besaran perubahan, mencari perubahan arah dan kecepatan dalam bidang skalar
+
+Wed, 9 Mar
+
+Belajar mengenai perbedaan machine learning dan programming
+Family of AI models
+1.supervised
+2.unsupervised
+3.receinforment
+Segmentasi machine learning 
+1.	Estimation
+2.	Prediction
+3.	Clasifikasi
+Metode machine learning dibandingkan tradisional
+1.	Ml dapat melihat pola
+2.	Tradisional tidak ada pola hanya bisa mngerjakan apa yang diperitahkan
+3.	ML tidak perlu campur  tangan manusia
+4.	Tetapi ML output nya selalu adda kesalahan
+5.	ML memerlukan data yang banyak
+Deeplearning
+Artificial neural network/ jaringan syaraf tiruan
+ merupakan paradigma pemrosesan informasi yang terinspirasidai cara kerja system saraf(otak)  manusia dalam memproses informasi. ANN sejumlah neuron yang saling berhubungan untuk memecahkan masalah/ mengkonversi dari input menjadi output.
+Kelebihan : melihat
+-Output dari ANN terbatas pada data nya bukan program yang dibuat oleh pemrogramnya.
+-ANN dapat memperbaiki parameternya sendiri menjadi lebih baik.
+Pentingnya sebuah fungsi aktivasi : menentukan kitab isa melakukan optimasi non linier
+-Loss function adalah fungsi yang mengganmbarkan kerugian terkait dengan kemungkinan yang dihasilkan oleh model
+-Optimizer/optimisasi gunanya memperbarui weight network 
+-Back propagation proses memperbarui bobot dari network untuk mereduksi error
+-gradient descent : menyesuaikan parameter mdek melalui loss function
+Deep learning training stage = input data – learning system – correct output
+Deep learning testing stage = new input data – learning system – best guess
+
+Recenforment learning yaitu model belajar untuk melihat situasi dan menentukan hasil terbaik
+
+Thu, 10 Mar
+
+Belajar mengenai AI project cycle
+cara untuk mencari sebuah solusi dengan mendefinisikan masalahnya. Ada beberapa cara untuk memecahkan solusi yaitu bisa dengan kalimat,peta,diagram dll.
+memecahkan masalah agar tidak berulang2
+-Algoritma :  instruksi instruksi atau urutan yang terdefinisi dengan baik
+-flow : arus informasi mengalir dalam algoritma
+-system map : diagram yang bertujuan memahami sebuauh  masalah yang komplek.
+Siklus projek dalam membuat AI
+1. Problem scoping : proses mencari tahu masalah yang perlu dipecahkan dengan 4ws who,where,when,why. 
+2.Data acquision : pengukur, mengumpulkan, validasi data yang dibutuhkam membuat AI. Dengan 3 alat yang digunakan validitas,realibilitas,sensitivitas.
+3. Data exploration : membantu menentukan strategi model yang akan digunakan pada stage berikutnya, memahami tren, hubungan, dan pola terkandung. Biasa nya menggunakan visualisasi karena lebih mudah dipahami.
+4. modelling : untuk mereprentasikan masalah ke dalam bentuk yang lebih sederhana sehingga lebih jelas dan mudah dikerjakan
+5. evaluation
+6. deployment
+
+Statistik inferensial 
+Statistik inferensial itu digunakan untuk melakukan estimasi atau uji hipotesis. Hipotesis adalah suatu pernyataan yang masih lemah
+Hipotesis 0/Ho= 0 disini yang berarti tidak ada pengaruh/tidak ada hubungan. Ho adalah klaim awal pada analisis sebelumnya
+Hipotesis alternatif/Ha = pernyataan untuk membuktikan suatu sampel.
+Jika data tidak berdistribusi normal mengunakan Wilcoxon(non parametrix) & jika data berdistribusi normal maka menggunakan parametrix. 
+p-value adalah signifikansi untuk menguji hipotesis
+jika p-value kurang dari a maka Ho ditolak
+jika p-value lebih besar dari a maka Ho diterima
+
+Berbagai uji komparansi dalam statistic 
+
+Fri, 11 Mar
+
+Saya belajar OOP dan common packages
+OOP paradigma pemrograman yang menyediakan sarana untuk menyusun program yang menyediakan sarana untuk menyusun program sehingga property danperilaku digabungkan ke dalam objek individual. 
+OOP metode pemrograman yang berorientasi pada objek
+Perbedaan procedural dan oop
+Procedural : algoritma
+Oop : struktur data, objek memiliki property
+Cara membuat objek -> dalam class dibuat keyword class dan ada atributnya.
+Perbedaan class dan objek
+Class adalah kumpulan dari beberapa object yang menampung variable sedangkan Objek adalah bagian dinamis dari class. Contoh dari sebuah class misalnya mawar yang terdapat objek yaitu mawar merah,mawar putih, mawar hitam dll. Class diawali huruf besar sedangkan objek diawali huruf kecil.
+Ciri ciri pemrograman berorientasi objek
+Inheritance = warisan/turunan
+Polymorphism = class anak/  dapat mengelola lebih dari satu bentuk
+Encapsulation = pengikatan data menjadi satu unit data
+
+Modul modul custom dan built dari python
+Python modul file dengan ekstensi .py yang berisi kode python 
+Modul custom modul yang membuat sendiri
+Custom modul digunakan ketika akan splitting codes
+Built in modul adalah modul bawaan python
+Keuntungan modul
+-reusability
+-Simplicity
+-scoping
+3 modul
+1.	System operasi 
+2.	Time
+3.	math
+
+What did you learn this week?
+
+Minggu ke 3 ini banyak yang saya pelajari dengan mengenal lebih dalam 
+1.	Data 
+Data sangat penting dalam artificial Intellegence, karena data yang sudah di proses akan memiliki nilai value dan berguna tentunya. Penggunaan bidang dalam AI ada 3 yaitu :
+a). data science
+b). computer vision
+c). NLP( natural laguange processing)
+2.	machine learning
+merupakan bidang ilmu yang membuat komputer yang tadinya hanya mengikuti perintah menjadi belajar.
+3.	deep learning
+subbidang Ml yang sebuah algoritma nya dari struktur otak manusia. Struktur tsb dinamakan Neural networks/ ANN/ jaringan syaraf tiruan. Gunanya untuk memecahkan masalah atau mengkonversi input menjadi output. Kelebihan dari ANN yaitu melihat terus dapat memperbaiki parameternya sendiri tetapi untuk output ANN itu terbatas pada datanya 
+4.	mathematics 
+ide dari setiap operasi matematika yang digunakan dalam AI
+1.	Peluang : yang berguna untuk membuat keputusan (dession support) dan digunakan sbg prediksi
+2.	Aljabar linier: pengelompokkan penyesuaian data,klasifikasi, validasi rekayasa. Ada 4 sturtur data utama dalam aljabar linear ini (scalar, vector, tensor dan matriks)
+a). vektor = besaran yang memiliki nilai & arah. Dalam ilmu data vector itu kumpulan nilai dari variable tertentu.(daftar angka yang disusun berurutan mengidentifkasi setiap elemen indeks)
+b). skalar= besaran/konstanta yang memiliki nilai vector berdimensi dan dapat dioperasikan.  Skalar hanya 1 nomor bisa berupa bilangan nyata/alami
+c).  matriks = kumpulan nilai dari beberapa variable yang disusun menjadi baris dan kolom. Matriks berukuran m x n memiliki m baris dan n kolom
+d). tensor = deretan angka yang disusun pada petak dengan sejumlah variabel
+3.	Kalkulus = Fungsi adalah aturan yang memetakan antara untuk himpunan X hanya sekali ke himpunan Y
+Gradient adalah besaran perubahan, mencari perubahan arah dan kecepatan dalam bidang skalar
+5.	AI project cycle ( urutan proyek AI untuk menentukan setiap Langkah yang harus diambil)
+1.	Problem scoping : proses mencari tahu masalah yang perlu dipecahkan dengan 4ws who,where,when,why. 
+2.	Data acquision : pengukur, mengumpulkan, validasi data yang dibutuhkam membuat AI. Dengan 3 alat yang digunakan validitas,realibilitas,sensitivitas.
+3.	Data exploration : membantu menentukan strategi model yang akan digunakan pada stage berikutnya, memahami tren, hubungan, dan pola terkandung. Biasa nya menggunakan visualisasi karena lebih mudah dipahami
+4.	modelling : untuk mereprentasikan masalah ke dalam bentuk yang lebih sederhana sehingga lebih jelas dan mudah dikerjakan. 
+2 pendekatan membuat model Machine learning 
+-pendekatan berbasis pembelajaran 
+1. Supervised ( pengawasan)
+2. unsupervised ( tanpa pengawasan)
+3. receinforment (Penguatan)
+
+-pendekatan berbasi aturan : dalam bentuk pernyataan if-else
+
+5.	Evaluasi = memahami evaluasi API pada keluaran yang diterima dengan memasukkan data kedalam model dan membandingkan output dengan jawaban sebenarnya
+6.	 Deployment = mengintegrasikan ML ke dalam lingkungan produksi dan membuat keputusan bisnis yang ada.
+ 
+6.	OOP
+OOP paradigma pemrograman yang menyediakan sarana untuk menyusun program yang menyediakan sarana untuk menyusun program sehingga property danperilaku digabungkan ke dalam objek individual.
+Class adalah kumpulan dari beberapa object yang menampung variable sedangkan Objek adalah bagian dinamis dari class. Contoh dari sebuah class misalnya mawar yang terdapat objek yaitu mawar merah,mawar putih, mawar hitam dll. Class diawali huruf besar sedangkan objek diawali huruf kecil.
+Ciri ciri pemrograman berorientasi objek
+Inheritance = warisan/turunan
+Polymorphism = class anak/  dapat mengelola lebih dari satu bentuk
+Encapsulation = pengikatan data menjadi satu unit data

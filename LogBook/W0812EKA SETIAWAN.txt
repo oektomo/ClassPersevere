@@ -1,0 +1,69 @@
+Mon, 11 Apr
+
+Kegiatan pembelajaran hari ini mengenai :
+1. Statistical Approach vs Deep Learning Approach
+2. Keterbatasan Deep Learning
+3. Arsitektur Deep Learning
+4. Sigmoid Activation Function
+5. Recurrent Neural Network (RNN)
+6. Layer RNN
+7. Perbedaan RNN dengan mode feed - forward Network
+8. LSTM dan GRU
+9. Mempraktekkan di Colab
+10. Mengerjakan Tugas
+
+Tue, 12 Apr
+
+Image senoising with Autoencoder. Autoencoder adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan propagasi balik, menyetel nilai target agar sama dengan input. Components Autoencoder ada Encoder, Code, Decoder. Encoder yaitu bagian jaringan memampatkan input menjadi latent space representation. Code yaitu bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke Decoder. Decoder yaitu bertujuan untuk merekonstruksi input dan Laten space representation. Properties Autoencoders ada Data-specific, Lossy, Unsupervised. Data-specific yaitu Autoencoder hanya mampu mengompresi data secara bermakna serupa dengan apa yang telah dilatih. Lossy yaitu output dari Autoencoder tidak akan sama persis dengan input, akan menjadi representasi yang dekat tetapi terdegradasi. Unsupervised yaitu untuk melatih Autoencoder tidak perlu melakukan sesuatu yang mewah, cukup melemparkan data input mentah. Hyperparameters Autoencoder ada Code size, Number of layers, Loss function, Number of node per layers. Architecture Autoencoder ada Input Imag (Encoder), Latent space Representation (Bottleneck), Reconstructed Image (Decoder). 
+
+Wed, 13 Apr
+
+kegiatan pembelajaran hari ini mengenai :
+1. Transfer Learning
+2. Language Model Pretraining
+3. Recall : Word Embedding
+4. Word2Vec
+5. Attetion
+6. Arsitektur Transformer
+7. Mekanisme Self Attetion
+8. Mekanisme Multi Head Attetion
+9. Model
+10. BERT
+11. Implementasi Materi di colab
+
+Thu, 14 Apr
+
+Pada hari ini membahas tentang:
+- Robotics Overview 
+- Machine Learning for Robotics
+- Turtlebot3 Navigation using DQN
+- SARSA Overview 
+- SARSA Implementation 
+- Q-Learning Overview 
+- Q-Learning Implementation 
+- Deep Q Learning Overview
+- Deep Q Learning Implementation
+- Menonton video tentang robotics
+
+Fri, 15 Apr
+
+Pembelajaran hari ini berupa self study atau belajar mandiri dikarenakan hari ini merupakan hari libur atau tanggal merah. kita diberikan materi berupa pdf pembelajaran, lalu kita diberikan assigment berupa pertanyaan.
+
+What did you learn this week?
+
+Kegiatan pembelajaran pada minggu ini adalah mengenai : 
+
+- Senin
+Kegiatan pembelajaran hari ini mengenai : 1. Statistical Approach vs Deep Learning Approach 2. Keterbatasan Deep Learning 3. Arsitektur Deep Learning 4. Sigmoid Activation Function 5. Recurrent Neural Network (RNN) 6. Layer RNN 7. Perbedaan RNN dengan mode feed - forward Network 8. LSTM dan GRU 9. Mempraktekkan di Colab 10. Mengerjakan Tugas 
+
+- Selasa 
+kegiatan pembelajaran hari ini : 1. Autoencoders 2. Encoder 4. Properties 5. Hyperparameters 6. Architecture 7. Image 8. Implementasi di colab 
+
+- Rabu
+kegiatan pembelajaran hari ini mengenai : 1. Transfer Learning 2. Language Model Pretraining 3. Recall : Word Embedding 4. Word2Vec 5. Attetion 6. Arsitektur Transformer 7. Mekanisme Self Attetion 8. Mekanisme Multi Head Attetion 9. Model 10. BERT 11. Implementasi Materi di colab 
+
+- Kamis
+Pembelajaran hari ini mengenai : 1. Robotics Overview 2. Machine Learning for Robotics 3. Turtlebot3 Navigation using DQN 4. SARSA Overview 5. SARSA Implementation 6. Q-Learning Overview 7. Q-Learning Implementation 8. Deep Q Learning Overview 9. Deep Q Learning Implementation 10. Menonton video tentang robotics 11. Mereview tugas 12. Mereview materi minggu kemaren 
+
+- Jumat
+Pembelajaran hari ini berupa self study atau belajar mandiri dikarenakan hari ini merupakan hari libur atau tanggal merah. kita diberikan materi berupa pdf pembelajaran, lalu kita diberikan assigment berupa pertanyaan.

@@ -1,0 +1,128 @@
+Mon, 4 Apr
+
+saya mengikuti pembelajaran Data Science
+
+-	Data time series, suatu himpunan data engatmatan yang dibangun dalam urutan waktu
+-	Cross Section, Data yang tidak bergantung pada waktu
+-	Time series, Variabel dependent (label) Bergantung pada waktu
+-	Longitudinal Data , Variabel Independent (feature) bergantung ada waktu.
+-	Metode ARIMA(Autoregressive integrated moving Average) / Box Jenkins, dikenallkan oleh 2 statistikawan George Box dan Gwilym Jenkins yang mengembangkan metode pemlihan model dari melihat stasioneritasnya.
+-	Stasioner , kondisi dimana mean dan varians data tidak mengalami perubahan secara sistematik.
+-	3 jenis uji stasioneritas  : plotting line graph of the data, plotting Rolling Statistics, Dickey Fuller Test.
+-	CrossValidation(CV),  metode statisktik yang dapat digunakan untuk mengevalusasi kinerja model atau algoritma dimana daa  dibagi menjadi data training dan testing,contohnya K-Fold Cross Validation.
+
+Tue, 5 Apr
+
+Saya mengikuti pembelajaran computer Vision 
+
+- Module 4 Computer Vision
+- Section Object Detection with YOLO
+- Classification => Setiap image memiliki satu objek dan Model melakukan prediksi satu label.
+- Object Detection => Setiap image mengandung banyak objek dan Model mengklasifikasikan objek dan mengindetifikasi lokasi.
+- Naive Approach
+- R-CNN GeeksforGeeks
+- YOLO Steps
+- Measuring Performance IoU => Intersection over Union (IoU) mengukur tumpang tindih antara dua boundary box.
+- Calculate IoU
+- Double Counting Objects (Non-Max Suppression)
+- Loss Function in YOLO => Melakukan Perbedaan Regression Loss, Confidence Loss dan Classification Loss.
+
+Wed, 6 Apr
+
+Saya  mengikuti pembelajaran Natural language Processing
+
+- Module 10 Natural Language Processing (NLP).
+- Section Word Embedding and Deep Learning for NLP.
+- Recall: Bag of words dan TF-IDF
+- Word Embedding => berguna menyelesaikan permaslahan sebelumnya yaitu Bow TF-IDF.
+- Word2Vec => dapat diperoleh dengan melatih shallow neural network.
+- Word2Vec - Skipgram => Memperhatikan kata disekitar.
+- Word2Vec - Negative Sampling => digunakan untuk mengurangi jumlah parameter yang akan diupdate ketika backpropagation.
+- Word2Vec - Embedding Matrix/table.
+- Word2Vec - Semantic (Analogy).
+- FastText => word embedding yang dihasilkan oleh facebook.
+- Long Short-Term Memory (LSTM) => terdapat istilah cell state yang akan diteruskan ke setiap cell.
+- Implementasi pada NLP 05 dan NLP 06.
+
+Thu, 7 Apr
+
+saya telah mengikuti pembelajaran
+ Reinforcement Learning Belajar dengan Penguatan
+
+- Bagian Q Learning dan Deep Q Learning
+- Q Learning => termasuk dalam kategori Model-Free RL Algorithm.
+- Q Learning => Agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulann action.
+- Pada Q Learning dilakukan 2 iterasi yaitu : Policy iteration dan Value iteration
+- Tahap Awal elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode.
+- Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table nya.
+- Q-table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+
+Fri, 8 Apr
+
+saya telah mengikuti pembelajaran  technical 
+
+- HTTP => Standar protocol yang digunakan untuk berinteraksi data melalui internet.
+- Transaksi Data di internet dilakukan Server dan Client.
+- RESTful API => arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+- Flask => module yang dapat digunakan untuk membangun RESTful API.
+
+What did you learn this week?
+
+minggu ini saya telah mengikuti pembelajaran 5 domain dengan 1 sesi perharinya
+
+saya mengikuti pembelajaran Data Science
+
+-	Data time series, suatu himpunan data engatmatan yang dibangun dalam urutan waktu
+-	Cross Section, Data yang tidak bergantung pada waktu
+-	Time series, Variabel dependent (label) Bergantung pada waktu
+-	Longitudinal Data , Variabel Independent (feature) bergantung ada waktu.
+-	Metode ARIMA(Autoregressive integrated moving Average) / Box Jenkins, dikenallkan oleh 2 statistikawan George Box dan Gwilym Jenkins yang mengembangkan metode pemlihan model dari melihat stasioneritasnya.
+-	Stasioner , kondisi dimana mean dan varians data tidak mengalami perubahan secara sistematik.
+-	3 jenis uji stasioneritas  : plotting line graph of the data, plotting Rolling Statistics, Dickey Fuller Test.
+-	CrossValidation(CV),  metode statisktik yang dapat digunakan untuk mengevalusasi kinerja model atau algoritma dimana daa  dibagi menjadi data training dan testing,contohnya K-Fold Cross Validation.
+
+Saya mengikuti pembelajaran computer Vision 
+
+- Module 4 Computer Vision
+- Section Object Detection with YOLO
+- Classification => Setiap image memiliki satu objek dan Model melakukan prediksi satu label.
+- Object Detection => Setiap image mengandung banyak objek dan Model mengklasifikasikan objek dan mengindetifikasi lokasi.
+- Naive Approach
+- R-CNN GeeksforGeeks
+- YOLO Steps
+- Measuring Performance IoU => Intersection over Union (IoU) mengukur tumpang tindih antara dua boundary box.
+- Calculate IoU
+- Double Counting Objects (Non-Max Suppression)
+- Loss Function in YOLO => Melakukan Perbedaan Regression Loss, Confidence Loss dan Classification Loss.
+
+Saya  mengikuti pembelajaran Natural language Processing
+
+- Module 10 Natural Language Processing (NLP).
+- Section Word Embedding and Deep Learning for NLP.
+- Recall: Bag of words dan TF-IDF
+- Word Embedding => berguna menyelesaikan permaslahan sebelumnya yaitu Bow TF-IDF.
+- Word2Vec => dapat diperoleh dengan melatih shallow neural network.
+- Word2Vec - Skipgram => Memperhatikan kata disekitar.
+- Word2Vec - Negative Sampling => digunakan untuk mengurangi jumlah parameter yang akan diupdate ketika backpropagation.
+- Word2Vec - Embedding Matrix/table.
+- Word2Vec - Semantic (Analogy).
+- FastText => word embedding yang dihasilkan oleh facebook.
+- Long Short-Term Memory (LSTM) => terdapat istilah cell state yang akan diteruskan ke setiap cell.
+- Implementasi pada NLP 05 dan NLP 06
+
+saya telah mengikuti pembelajaran Reinforcement Learning Belajar dengan Penguatan
+
+- Bagian Q Learning dan Deep Q Learning
+- Q Learning => termasuk dalam kategori Model-Free RL Algorithm.
+- Q Learning => Agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulann action.
+- Pada Q Learning dilakukan 2 iterasi yaitu : Policy iteration dan Value iteration
+- Tahap Awal elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode.
+- Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table nya.
+- Q-table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+
+saya telah mengikuti pembelajaran  technical 
+
+- HTTP => Standar protocol yang digunakan untuk berinteraksi data melalui internet.
+- Transaksi Data di internet dilakukan Server dan Client.
+- RESTful API => arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+- Flask => module yang dapat digunakan untuk membangun RESTful API

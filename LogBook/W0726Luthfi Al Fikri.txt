@@ -1,0 +1,166 @@
+Mon, 4 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali dan Nikmat berpuasa lebih leluasa dan enak untuk digunakan istirahat terlebih dahulu.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Data Science :
+- Module Data Science
+- Section Time Series (Statistical Approach)
+- Data Time Sreies => suatu himpunan data pengamatan yang dibangun dalam waktu urutan waktu.
+- Cross Calidation (CV) => metode statistik yang dapat digunakan untuk mengevaluasikan kinerja model atau algoritma dimana data dibagi menjadi data training dan testing.
+- Cross Calidation : K-Fold => berfungsi untuk mengevaluasikan kinerja proses sebuah metode algoritma dengan membagi sample data secara acak dan mengelompokan data sebanyak nilai K k-fold.
+- Statistics Model => Time Series Patterns -> Stationer, Trend Effect, Seasonal Effect, dan Cycling Effect.
+- Box-Jenkins/Metode ARIMA(Autoregressive Integrated Moving Average)
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Data => Cross Section, Time Series, dan Longitudinal Data.
+- Ada 2 Jenis model time series :
+Statistical Approach
+Machine Learning Approach
+- Multiplicative Seasonality vs Additive Seasonality
+
+Tue, 5 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Computer Vision :
+- Module 4 Computer Vision
+- Section Object Detection with YOLO
+- Classification => Setiap image memiliki satu objek dan Model melakukan prediksi satu label.
+- Object Detection => Setiap image mengandung banyak objek dan Model mengklasifikasikan objek dan mengindetifikasi lokasi.
+- Naive Approach
+- R-CNN GeeksforGeeks
+- YOLO Steps
+- Measuring Performance IoU => Intersection over Union (IoU) mengukur tumpang tindih antara dua boundary box.
+- Calculate IoU
+- Double Counting Objects (Non-Max Suppression)
+- Loss Function in YOLO => Melakukan Perbedaan Regression Loss, Confidence Loss dan Classification Loss.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objective :
+Memahami prinsip kerja object detection
+Memahami prinsip kerja YOLO (You Only Look Once)
+Implementasi YOLO
+- One Stage vs Two Stage
+
+Wed, 6 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Natural Language Processing :
+- Module 10 Natural Language Processing (NLP).
+- Section Word Embedding and Deep Learning for NLP.
+- Recall: Bag of words dan TF-IDF
+- Word Embedding => berguna menyelesaikan permaslahan sebelumnya yaitu Bow TF-IDF.
+- Word2Vec => dapat diperoleh dengan melatih shallow neural network.
+- Word2Vec - Skipgram => Memperhatikan kata disekitar.
+- Word2Vec - Negative Sampling => digunakan untuk mengurangi jumlah parameter yang akan diupdate ketika backpropagation.
+- Word2Vec - Embedding Matrix/table.
+- Word2Vec - Semantic (Analogy).
+- FastText => word embedding yang dihasilkan oleh facebook.
+- Long Short-Term Memory (LSTM) => terdapat istilah cell state yang akan diteruskan ke setiap cell.
+- Implementasi pada NLP 05 dan NLP 06.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir modul ini kita akan dapat :
+Dapat memahami ide dan alasan dibutuhkan word embedding
+Dapat memahami intuisi word2vec dengan metode skip gram dan CBOW
+Dapat memahami negative sampling pada Word2Vec
+Dapat memahami Recurrent Neural Network dan batasannya
+Dapat memahami Long short term memory (LSTM)
+Dapat mengimplementasikan setiap metode dengan python
+- Word2Vec - Skipgram vs CBOW
+Skipgram => memprediksi semantik dari kata pada suatu kalimat
+CBOW => memprediksi satu kata dari semantik (input) pada suatu kalimat
+
+Thu, 7 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali dan Agak Sedikit sedih.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Reinforcement Learning :
+- Modul Domain AI - Reinforcement Learning Belajar dengan Penguatan
+- Bagian Q Learning dan Deep Q Learning
+- Q Learning => termasuk dalam kategori Model-Free RL Algorithm.
+- Q Learning => Agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulann action.
+- Pada Q Learning dilakukan 2 iterasi yaitu : Policy iteration dan Value iteration
+- Tahap Awal elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan di update sejalan dengan bertambahnya jumlah episode.
+- Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table nya.
+- Q-table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path optimal berdasarkan nilai yang tertera pada Q-table.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir modul ini kita akan dapat :
+Mengetahui Q Learning
+Memahami bagaimana Q Learning Bekerja
+Mengetahui Deep Q Learning
+Memahami bagaimana Deep Q Learning Bekerja
+
+Fri, 8 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Technical Domain :
+- HTTP => Standar protocol yang digunakan untuk berinteraksi data melalui internet.
+- Transaksi Data di internet dilakukan Server dan Client.
+- RESTful API => arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+- Flask => module yang dapat digunakan untuk membangun RESTful API.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Tujuan Pembelajaran, setelah mengikuti materi ini kita akan memahami :
+Memahami HTTP request dan HTTP response
+Memahami apa itu RESTful API
+Mampu mendesain RESTful API Sederhana untuk project AI dan ML
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini ada senang, sangat senang, dan sedikit cape dan sedih juga.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 7 Kali ini banyak sekali kebingungan yang saya pikirkan apalagi ketika kerkom di beda kelas.
+
+- Senin, 4 April 2022
+Data => Cross Section, Time Series, dan Longitudinal Data.
+Ada 2 Jenis model time series : Statistical Approach dan Machine Learning Approach
+Multiplicative Seasonality vs Additive Seasonality
+
+- Selasa, 5 April 2022
+Memahami prinsip kerja object detection
+Memahami prinsip kerja YOLO (You Only Look Once)
+Implementasi YOLO
+One Stage vs Two Stage
+
+- Rabu, 6 April 2022
+Dapat memahami ide dan alasan dibutuhkan word embedding
+Dapat memahami intuisi word2vec dengan metode skip gram dan CBOW
+Dapat memahami negative sampling pada Word2Vec
+Dapat memahami Recurrent Neural Network dan batasannya
+Dapat memahami Long short term memory (LSTM)
+Dapat mengimplementasikan setiap metode dengan python
+Word2Vec - Skipgram vs CBOW
+Skipgram => memprediksi semantik dari kata pada suatu kalimat
+CBOW => memprediksi satu kata dari semantik (input) pada suatu kalimat
+
+- Kamis, 7 April 2022
+Mengetahui Q Learning
+Memahami bagaimana Q Learning Bekerja
+Mengetahui Deep Q Learning
+Memahami bagaimana Deep Q Learning Bekerja
+
+- Jum'at, 8 April 2022
+Memahami HTTP request dan HTTP response
+Memahami apa itu RESTful API
+Mampu mendesain RESTful API Sederhana untuk project AI dan ML

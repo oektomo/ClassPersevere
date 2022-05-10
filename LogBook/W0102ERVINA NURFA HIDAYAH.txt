@@ -1,0 +1,73 @@
+Mon, 21 Feb
+
+1. Untuk pertemuan hari pertama adalah pengenalan apa yang akan di pelajari di AI mastery periode 21 feb-22 july.
+2. Selain itu yang saya dapat dari pembelajaran tadi bahwa  belajar coding & matematika tidak perlu takut karena ada tahapnya apa saja? yaitu meniru, selanjutnya melakukan variasi dari latihan. 
+3. Apa itu Artificial intelligence, menurut saya artificial intelligence adalah sebuah program computer yang meniru kecerdasan manusia. seperti pengambilan keputusan, menyediakan jasa penalaran, dan karakteristik manusia lainnya untuk membantu dan menyelesaikan masalah pekerjaan manusia.
+4. Contoh penerapan AI yang dekat dengan keseharian kita adalah ;
+-face recognition/ pemindai wajah pada smartphone 
+-sidik jari
+-terjemah
+-dan masih banyak lagi
+5. Bapa terknologi Indonesia adalah Bacharuddin Jusuf Habibie, dengan adanya orbit bapa bj habibie ingin memajukan SDM indonesia
+
+
+Tue, 22 Feb
+
+Yang saya dapat pada pembelajaran hari ke 2 ini adalah 
+1.	Bahwa penerapan teknologi AI di Indonesia sudah lama dilakukan, beberapa bukti penerapan AI yang dekat dengan keseharian kita sangatlah banyak. 
+2.	Data yang sudah diolah akan menjadi informasi yang memiliki nilai value
+3.	Revolusi 4.0 merupakan upgrade besar-besaran dari revolusi teknologi sebelumnya. Karena revolusi ini terfokuskan pada perkembangan dunia digital seperti IOT (Internet of Things),Artificial intelligence,blokchain,Bigdata. Di revolusi ini kemajuaan teknologi dan SDMnya semakin pesat maka dari itu revolusi 4.0 sangat kaitannya dengan era of data.
+4.	Quiz1:  Data ini sangatlah berharga dibandingkan sebuah minyak mentah. Kedua nya sangat berharga jika diolah namun minyak mentah tidak dapat diperbaharui sedangkan data tidak akan pernah berhenti dan akan terus tumbuh sepanjang waktu, data berperan sangat penting dan merupakan kunci utama dalam pembangunan suatu  negara. Untuk itu data disebut kekayaan baru
+5.	Quis2: Big data adalah kumpulan data yang sangat besar, kompleks dan bertambah setiap waktu. Sedangkan data adalah informasi yang belum diolah
+
+Wed, 23 Feb
+
+saya belajar pengenalan aplikasi python dan cara instalasi nya
+Bahasa pemrograman python dirilis pertama kali oleh Guido van Rossum tahun 1991. Python merupakan bahasa pemrograman  high level, berjalan dengan system interpreted dan bisa dipakai untuk berbagai tujuan. Bahasa pemrograman ini mudah dipahami dan dipelajari dari bahasa pemrograman lainnya. sebenarnya dalam menggunakan python ada beberapa pilihan editor yang dapat digunakan namun kali ini saya akan menggunakan jupyter notebook sebagai text editor untuk menjalan kan perintah perintah python. Untuk memulai jupyter notebook adalah dengan menginstal anaconda. Anaconda adalah distribusi Python yang paling banyak digunakan dalam “Data Science” dan dilengkapi dengan semua perpustakaan dan alat yang paling popular. 
+Program yang ditulis menggunakan jupyter notebook akan disimpan dalam file format .ipynb. 
+tidak hanya membaca materi saya juga melakukan latihan mebuat kode python dasar yaitu Hallo Wolrd 
+
+Thu, 24 Feb
+
+Saya mempelajari tentang data,etika dan bias.
+-Data bisa merupakan banyak hal, data adalah suatu kumpulan yang terdiri dari fakta fakta untuk memberikan gambaran yang luas terkait dengan suatu keadaan. Tentunya sebuah kecerdasan mebutuhkan data untuk dijadikan pengetahuan,sama seperti manusia. Kecerdasan buatan membutuhkan pengalaman dan data agar kecerdasan buatannya bisa lebih baik lagi. Ada beberapa cara untuk memperoleh data yaitu populasi,sampel ,sensus dan survey.
+Perbedaan Data Terstruktur dan Data Tidak Terstruktur 
+Data terstruktur merupakan data yang dapat disimpan dan diambil dalam format yang tetap. Contohnya adalah data yang terstruktur yang ada dalam excel atau spreadsheet.
+Data tidak terstruktur merupakan data yang tidak dimiliki bentuk atau struktur khusus. Contohnya adalah data yang berformat foto/gambar, video atau suara. 
+-Etika Tentu saja dalam Artificial intelligence dibutuhkan etika, untuk dapat membangun system AI yang dapat membantu dan menyelesaikan masalah manusia.
+-Bias,  bias dalam AI adalah prasangka terselubung dalam data yang digunakan untuk melatih algoritme (seperangkat instruksi yang diformulasikan agar suatu tugas dapat dilakukan). Hal ini dapat mengakibatkan diskriminasi dan reaksi sosial lainnya ketika alat AI digunakan. 
+
+Fri, 25 Feb
+
+Memahami cara menggunakan python 
+1.	Kita buka aplikasi jupyter notebook maka akan otomatis masuk pada halaman dashboor notebook.  Untuk memulai menuliskan program kita harus membuat foldernya telebih dahulu caranya mengklik tombol drop-down “New” dikanan atas dan  pilih “python 3” atau bisa membuat nama folder baru lalu folder yang sudah kita buat dicek di local C users selanjutnya kita bisa mulai memasukan kode
+2.	Kode dasar python yang mudah adalah menuliskan hello world 
+Caranya : dengan menggunkan perintah  print, print adalah sebuah perintah untuk mencetak
+Contoh : print(“Hello Wolrld”) = Hello World
+	  Print(“Selamat Pagi Semuanya”) = Selamat pagi semuanya
+Note = bahasa pemrograman python berkaitan dengan istilah case sensitive, dimana bahasa pemrog sangat memperhatikan karakter huruf besar atau kecil. Dan jika ada perbedaan maka kode akan error
+3.	Variabel : variable dapat didefinisikan sebagai tempat penyimpanan nilai sementara
+Dimana kita mendefinisikan suatu nilai lalu kita menggantikan nilai divariabel tsb dengan yang baru 
+4.	Memberi nama pada notebook. file baru akan diberi nama .ipynb
+5.	Markdown untuk memformat teks biasa
+
+What did you learn this week?
+
+Artificial Intelligence, di definisikan sebagai program computer yang meniru kecerdasan manusia. Contoh penerapan AI yang dekat dengan keseharian kita ada banyak sekali seperti face recognition/ pemindai wajah pada smartphone , sidik jari, terjemah dan masih banyak lagi. Sebenarnya, penerapan teknologi AI di Indonesia sudah lama dilakukan, apa lagi sekarang kita berada pada revolusi 4.0. Revolusi 4.0 merupakan upgrade besar-besaran dari revolusi teknologi sebelumnya. Karena revolusi ini terfokuskan pada perkembangan dunia digital seperti IOT (Internet of Things),Artificial intelligence,blokchain,Bigdata. 
+Kemajuaan teknologi dan SDM saat ini  semakin pesat oleh karena itu revolusi 4.0 sangat ada kaitannya dengan era of data. kecerdasan buatan sangat  membutuhkan data, sebuah kecerdasan membutuhkan data untuk dijadikan pengetahuan,sama seperti manusia. Kecerdasan buatan membutuhkan pengalaman dan data agar kecerdasan buatannya bisa menjadi lebih baik. Data ini diibarat kan sebuah minyak mentah yang jika diolah akan memiliki harga/value. data ini sangatlah berharga dibandingkan sebuah minyak mentah karena minyak mentah akan habis dan tidak dapat diperbaharui sedangkan data tidak akan pernah berhenti dan akan terus tumbuh sepanjang waktu, untuk itu data berperan sangat penting dan merupakan kunci utama dalam pembangunan suatu  negara. Untuk itu data disebut kekayaan baru. Data tersebut bisa merupakan banyak hal, data adalah suatu kumpulan yang terdiri dari fakta fakta untuk memberikan gambaran yang luas terkait dengan suatu keadaan. Ada beberapa cara untuk memperoleh data yaitu populasi,sampel,sensus dan survey. 
+Perbedaan Data Terstruktur dan Data Tidak Terstruktur, Data terstruktur merupakan data yang dapat disimpan dan diambil dalam format yang tetap. Contohnya adalah data yang terstruktur yang ada dalam excel atau spreadsheet. Sedangkan Data tidak terstruktur merupakan data yang tidak dimiliki bentuk atau struktur khusus. Contohnya adalah data yang berformat foto/gambar, video atau suara. 
+Tidak hanya data, Artificial intelligence juga membutuhkan Etika untuk dapat membangun Sistem AI yang dapat membantu dan menyelesaikan masalah. Bias dalam AI merupakan prasangka terselubung dalam data yang digunakan untuk melatih algoritme (seperangkat instruksi yang di formulasikan agar suatu tugas dapat dilakukan).
+Mengenal bahasa pemrograman Python, Bahasa pemrograman python dirilis pertama kali oleh Guido van Rossum tahun 1991. Python merupakan bahasa pemrograman  high level, berjalan dengan system interpreted dan bisa dipakai untuk berbagai tujuan. Bahasa pemrograman ini mudah dipahami dan dipelajari dari bahasa pemrograman lainnya. sebenarnya dalam menggunakan python ada beberapa pilihan editor yang dapat digunakan namun kali ini saya menggunakan jupyter notebook sebagai text editor untuk menjalan kan perintah perintah python. Untuk memulai jupyter notebook adalah dengan menginstal anaconda. Anaconda adalah distribusi Python yang paling banyak digunakan dalam “Data Science” dan dilengkapi dengan semua perpustakaan dan alat yang paling popular. 
+Program yang ditulis menggunakan jupyter notebook akan disimpan dalam file format .ipynb. 
+
+Cara menggunakan phyton 
+1.	Kita buka aplikasi jupyter notebook maka akan otomatis masuk pada halaman dashboor notebook.  Untuk memulai menuliskan program kita harus membuat foldernya telebih dahulu caranya mengklik tombol drop-down “New” dikanan atas dan  pilih “python 3” atau bisa membuat nama folder baru lalu folder yang sudah kita buat dicek di local C users selanjutnya kita bisa mulai memasukan kode
+2.	Kode dasar python yang mudah adalah menuliskan hello world 
+Caranya : dengan menggunkan perintah  print, print adalah sebuah perintah untuk mencetak
+Contoh : print(“Hello Wolrld”) = Hello World
+	  Print(“Selamat Pagi Semuanya”) = Selamat pagi semuanya
+Note = bahasa pemrograman python berkaitan dengan istilah case sensitive, dimana bahasa pemrog sangat memperhatikan karakter huruf besar atau kecil. Dan jika ada perbedaan maka kode akan error
+3.	Variabel : variable dapat didefinisikan sebagai tempat penyimpanan nilai sementara
+Dimana kita mendefinisikan suatu nilai lalu kita menggantikan nilai divariabel tsb dengan yang baru 
+4.	Memberi nama pada notebook. file baru akan diberi nama .ipynb
+5.	Markdown untuk memformat teks biasa

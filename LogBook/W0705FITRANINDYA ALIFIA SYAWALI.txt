@@ -1,0 +1,50 @@
+Mon, 4 Apr
+
+Hariini kami belajar mengenai Data Science menggunakan platform zoom yaitu  :
+
+Time Series  ( Statistical Approach)
+-Data, 
+-Cross Validation
+
+Stat Model 
+-Box Jenkins
+-Seasonal
+-Trend
+-Kombinasi
+
+
+
+
+
+Tue, 5 Apr
+
+Hariini kami belajar mengenai Computer Vision yaitu Object Detection with YOLO menggunakan zoo
+
+Wed, 6 Apr
+
+Hariini Kami belajar mengenai  Word2Vec - Embedding Matrix/Table, Long Short Term Memory (LTSM), Recurrent Neural Network(RNN) , Skipgram vs CBOW menggunakan platform zoom
+
+Thu, 7 Apr
+
+Hari ini kami belajar mengenai Reinforcement Learning tetan Q Learning dan Deep Q Learning, lalu TDL(Recap) menggunakan zoom
+
+Fri, 8 Apr
+
+hari ini kami belajar Technical Domain yaitu Flask RESTful API menggunakan zoom
+
+What did you learn this week?
+
+selama seminggu ini kami belajar mengenaai data science, Time Series  ( Statistical Approach)
+-Data, 
+-Cross Validation
+
+Stat Model 
+-Box Jenkins
+-Seasonal
+-Trend
+-Kombinasi
+
+Computer Vision yaitu Object Detection with YOLO,  Word2Vec - Embedding Matrix/Table, Long Short Term Memory (LTSM), Recurrent Neural Network(RNN) , Skipgram vs CBOW, i Reinforcement Learning tetan Q Learning dan Deep Q Learning, lalu TDL(Recap)  Technical Domain yaitu Flask RESTful API
+
+
+

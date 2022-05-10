@@ -1,0 +1,102 @@
+Mon, 14 Mar
+
+Hari ini pembelajaran melalui zoom dengan memabahas :
+• Pengertian numpy dan penggunaannya.
+NumPy mendukung lebih luas berbagai type data jika dibandingkan dengan Python.
+• Mempelajari dasar-dasar preprocessing data.
+• Mempelajari prosedur instalasi dan konsep dasar pada pandas.
+Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analisis data pada Python. Pandas juga merupakan library Python ynag lebih baik dari NumPy dari sisi fungsionalitas, dan menyediakan implementasi DataFrame yang efisien.
+Objek Pandas adalah versi array terstruktur NumPy yang disempurnakan, di mana baris dan kolom diidentifikasi menggunakan label daripada indeks integer sederhana.
+• Memahami data import export, selection dan filtering dengan dataframes.
+DataFrames pada dasarnya adalah array multidimensi dengan label baris dan kolom.
+• Data transformation menggunakan pandas.
+-	Transformasi Data menggunakan map, teknik ini diterapkan jika perlu melakukan transformasi apapun berdasarkan nilai dalam array, seri, atau kolom dalam DataFrame. Map methodologi pada seri mengambil fungsi atau objek seperti dikte yang berisi pemetaan. Menggunakan map method adalah cara yang nyaman untuk melakukan transformasi elemen bijaksana dan operasi pembersihan data terkait lainnya.
+-	Transformasi Data menggati nilai, dapat mengganti nilai sentinel dengan NA menggunakan metode ganti yang akan menghasilkan seri baru. Untuk mengganti beberapa nilai sekaligus dapat melewati daftar dan kemudian nilaipengganti. Untuk menggunakan pengganti yang berbeda untuk setiap nilai, berikan daftar pengganti. Sebuah dikte juga dapat dilewatkan sebagai argumen. Metode data.replace berbeda dari data.str.replace ysng melakukan elemen substitusi string.
+-	Data Transformation replacing values
+-	Data Transformation discretization & binnging. Data kontinu umumnya di diskretisasi atau di pisahkan menjadi “bins” untuk analisis lebih lanjut.
+-	Untuk membagi data menjadi bins menggunakan cut function di pandas yang akan mengembalikan objek kategori khusus.
+• Penjelasan Seaborn yang merupakan library untuk membuat grafik statistic di Python. Seaborn dibangun di atas matplotlib dan terintegrasi dengan struktur data di Pandas.
+• Penjelasan Stripplot pada seaborn yang digunakan untuk menganalisis numerik v/s kategori data dan swarmplot pada seaborn dapat digunakan untuk melakukan analisis multivariat antara numerik v/s categorical v/s categorical.
+
+Tue, 15 Mar
+
+Hari ini pembelajaran melalui zoom :
+• Penjelasan mengenai teknik visualisasi data dengan python. Visualisasi Data digunakan untuk mengkomunikasi informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts
+• Penjelasan mengenai fungsi visualisasi dasar dengan matplotlib. Matplotlib adalah salah satu paket Pyhton paling popular yang digunakan untuk visualisasi data dan merupakan cross-platform library untuk membuat 2D plots dari data arrays. Matplotlib ditulis dengan python dan menggunakan NumPy, eksetensi matematika numerik dari python.
+• Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn.
+• Membuat visualisasi untuk time series data
+
+Wed, 16 Mar
+
+Hari ini pembelajaran melalui zoom dan sebelum pembelajaran dilakukan pretest terlebih dahulu mengenai materi yang telah diajarkan sebelumnya. Pembelajaran hari ini membahas :
+- Regression Technique, pada analisis ini digunakan untuk memprediksi nilai-nilai dari dependent variabel Y, berdasarkan relasinya dengan nilai-nilai dari independent variabel X dan analisis ini digunakan untuk menjelasakan apa pengaruh dari perubahan pada sebuah independent variabel terhadap dependent variabel melalui estimasi nilai numerik dafi hubungan yang ada.
+- Penjelasan mengenai Linear Regression yang merupakan algoritma supervised learning yang belajar dari sekumpulan sampel data latih dan Linear Regession mengestimasi hubungan antara dependent variabel dan 1 atau lebih independent variabel.
+- Penjelasan mengenai Learning Rate-Ir yang akan mengontrol seberapa besar update yang akan terjadi pada parametee weight
+- Penjelasan mengenai cross validation
+- Penjelasan mengenai Overfitting & Generalisation.
+- Penjelasan Logistic Regression yang merupakan salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas.
+
+Thu, 17 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas :
+• Penjelasan mengenai Supervised Learning yang menunjukan control terhadap algoritma sangat berpengaruh pada pembentukan model. Kontrol algoritma dilakukan dengan cara memberikan dataset(D).  
+•Penjelasan mengenai pemisahan dataset yang berisi training set, validation set, testing dataset/data yang tidka terllihat (unseen data)
+•Penjelasan K-Nearest Neighbor (K-NN) yang memiliki tujuan untuk mengkalsifikasikan objek baru berdasarkan atribut dan sample-sampel dari training data.
+•Penjelasan Decision Tree yang merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical dan continuous. Decision tree tampak seperti flow chart yang memiliki struktur if-else condition.
+
+Fri, 18 Mar
+
+Pembelajaran di hari Jumat menggunakan zoom dengan membahas:
+•Pemberitahuan mengenai Jadwal kelas di minggu depan
+• Penjelasan mengenai Neural Networks yang disebut juga dengan Artificial Neural Networks (ANN) merupakan jenis machine learning yang sering digabungkan dengan deep learning. ANN juga gabungan dari beberapa artificial neuron yang disebut perceptron yang disusun dalam beberapa lapisan.
+• Penjelasan tentang Activation Function, Loss Function atau disebut juga cost function merupakan algoritma yang mengukur seberapa salah sebuah model NN dan Optimizer digunakan untuk menyesuaikan weight dan bias. 
+
+What did you learn this week?
+
+SENIN :
+Hari ini pembelajaran melalui zoom dengan memabahas :
+• Pengertian numpy dan penggunaannya.
+NumPy mendukung lebih luas berbagai type data jika dibandingkan dengan Python.
+• Mempelajari dasar-dasar preprocessing data.
+• Mempelajari prosedur instalasi dan konsep dasar pada pandas.
+Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analisis data pada Python. Pandas juga merupakan library Python ynag lebih baik dari NumPy dari sisi fungsionalitas, dan menyediakan implementasi DataFrame yang efisien.
+Objek Pandas adalah versi array terstruktur NumPy yang disempurnakan, di mana baris dan kolom diidentifikasi menggunakan label daripada indeks integer sederhana.
+• Memahami data import export, selection dan filtering dengan dataframes.
+DataFrames pada dasarnya adalah array multidimensi dengan label baris dan kolom.
+• Data transformation menggunakan pandas.
+-	Transformasi Data menggunakan map, teknik ini diterapkan jika perlu melakukan transformasi apapun berdasarkan nilai dalam array, seri, atau kolom dalam DataFrame. Map methodologi pada seri mengambil fungsi atau objek seperti dikte yang berisi pemetaan. Menggunakan map method adalah cara yang nyaman untuk melakukan transformasi elemen bijaksana dan operasi pembersihan data terkait lainnya.
+-	Transformasi Data menggati nilai, dapat mengganti nilai sentinel dengan NA menggunakan metode ganti yang akan menghasilkan seri baru. Untuk mengganti beberapa nilai sekaligus dapat melewati daftar dan kemudian nilaipengganti. Untuk menggunakan pengganti yang berbeda untuk setiap nilai, berikan daftar pengganti. Sebuah dikte juga dapat dilewatkan sebagai argumen. Metode data.replace berbeda dari data.str.replace ysng melakukan elemen substitusi string.
+-	Data Transformation replacing values
+-	Data Transformation discretization & binnging. Data kontinu umumnya di diskretisasi atau di pisahkan menjadi “bins” untuk analisis lebih lanjut.
+-	Untuk membagi data menjadi bins menggunakan cut function di pandas yang akan mengembalikan objek kategori khusus.
+• Penjelasan Seaborn yang merupakan library untuk membuat grafik statistic di Python. Seaborn dibangun di atas matplotlib dan terintegrasi dengan struktur data di Pandas.
+• Penjelasan Stripplot pada seaborn yang digunakan untuk menganalisis numerik v/s kategori data dan swarmplot pada seaborn dapat digunakan untuk melakukan analisis multivariat antara numerik v/s categorical v/s categorical.
+
+SELASA :
+Hari ini pembelajaran melalui zoom :
+• Penjelasan mengenai teknik visualisasi data dengan python. Visualisasi Data digunakan untuk mengkomunikasi informasi dengan jelas dan efisien kepada pengguna dengan menggunakan grafik informasi seperti tables dan charts
+• Penjelasan mengenai fungsi visualisasi dasar dengan matplotlib. Matplotlib adalah salah satu paket Pyhton paling popular yang digunakan untuk visualisasi data dan merupakan cross-platform library untuk membuat 2D plots dari data arrays. Matplotlib ditulis dengan python dan menggunakan NumPy, eksetensi matematika numerik dari python.
+• Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plots, swarmplots dengan matplotlib dan seaborn.
+• Membuat visualisasi untuk time series data
+
+RABU:
+Hari ini pembelajaran melalui zoom dan sebelum pembelajaran dilakukan pretest terlebih dahulu mengenai materi yang telah diajarkan sebelumnya. Pembelajaran hari ini membahas :
+- Regression Technique, pada analisis ini digunakan untuk memprediksi nilai-nilai dari dependent variabel Y, berdasarkan relasinya dengan nilai-nilai dari independent variabel X dan analisis ini digunakan untuk menjelasakan apa pengaruh dari perubahan pada sebuah independent variabel terhadap dependent variabel melalui estimasi nilai numerik dafi hubungan yang ada.
+- Penjelasan mengenai Linear Regression yang merupakan algoritma supervised learning yang belajar dari sekumpulan sampel data latih dan Linear Regession mengestimasi hubungan antara dependent variabel dan 1 atau lebih independent variabel.
+- Penjelasan mengenai Learning Rate-Ir yang akan mengontrol seberapa besar update yang akan terjadi pada parametee weight
+- Penjelasan mengenai cross validation
+- Penjelasan mengenai Overfitting & Generalisation.
+- Penjelasan Logistic Regression yang merupakan salah satu kelas klasifikasi yang melakukan pemodelan terhadap probabilitas dari output kelas.
+
+KAMIS :
+Hari ini pembelajaran melalui zoom dengan membahas :
+• Penjelasan mengenai Supervised Learning yang menunjukan control terhadap algoritma sangat berpengaruh pada pembentukan model. Kontrol algoritma dilakukan dengan cara memberikan dataset(D).  
+•Penjelasan mengenai pemisahan dataset yang berisi training set, validation set, testing dataset/data yang tidka terllihat (unseen data)
+•Penjelasan K-Nearest Neighbor (K-NN) yang memiliki tujuan untuk mengkalsifikasikan objek baru berdasarkan atribut dan sample-sampel dari training data.
+•Penjelasan Decision Tree yang merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical dan continuous. Decision tree tampak seperti flow chart yang memiliki struktur if-else condition.
+
+JUMAT :
+Pembelajaran di hari Jumat menggunakan zoom dengan membahas:
+•Pemberitahuan mengenai Jadwal kelas di minggu depan
+• Penjelasan mengenai Neural Networks yang disebut juga dengan Artificial Neural Networks (ANN) merupakan jenis machine learning yang sering digabungkan dengan deep learning. ANN juga gabungan dari beberapa artificial neuron yang disebut perceptron yang disusun dalam beberapa lapisan.
+• Penjelasan tentang Activation Function, Loss Function atau disebut juga cost function merupakan algoritma yang mengukur seberapa salah sebuah model NN dan Optimizer digunakan untuk menyesuaikan weight dan bias. 

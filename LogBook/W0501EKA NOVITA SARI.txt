@@ -1,0 +1,142 @@
+Mon, 21 Mar
+
+- Memahami tentang data science.
+- Memahami data yang terdapat pada data science.
+- Memahami manfaat data science.
+- Memahami model/algoritma pada data science.
+
+- Memahami NLP dan evolusinya.
+- Memahami area aplikasi NLP dan penerapannya.
+- Memahami NLP pipeline secara umum dan teknik-tekniknya.
+- Memahami tantangan dan masa depan NLP.
+
+Tue, 22 Mar
+
+Introduction of CV
+Learning schedule: Learning objectives, learning outcome, learning timeline.
+Introduction to Reinforcement Learning
+-	Definisi RL
+-	Sejarah RL
+-	Algoritma Rl
+-	Ilustrasi, Implikasi, & Contoh
+-	Kategori implementasi
+-	Algoritma RL
+-	Elemen RL
+-	Environment RL
+-	AI of game
+-	Robotik
+-	Optimization
+
+Wed, 23 Mar
+
+Mempelajari visualization with tableau. Memahami apa itu visualisasi data dan betapa pentingnya proses visualisasi data untuk kebutuhan analisis dan pemodelan data menggunakan salah satu software visualisasi data tableau yang populer.
+
+-	Memahami proses feature extraction menggunakan BoW/count vectorizer dan TF-IDF
+-	Mengetahui jeni-jenis N-gram dan penggunaannya.
+-	Mengetahui penggunaan feature filtering.
+-	Mengetahui jeni-jenis feature selection.
+-	Mengetahui penggunaan dan pemanfaatan word cloud.
+
+Thu, 24 Mar
+
+Introduction of computer vision
+-	Apa itu computer vision?
+-	Penerapan computer vision
+
+Git & Github
+-	Apa itu git dan github
+-	Perbedaan git dan github
+-	Instalasi git
+-	Pembuatan akun github dan remote repository
+-	Commit
+-	Branch
+-	Merge
+-	Local environment
+-	Aktivitas lokal
+-	Aktivitas remote
+-	Summary
+
+Fri, 25 Mar
+
+Markov Decision Process (MDP) dan Dynamic Programming
+-	Mengetahui Markov Decision Proses
+-	Cara menyusun MDP dalam merumuskan RL secara formal
+-	Menentukan value sebuah policy
+-	Mencoba membuat Dynamic Programming tipe value iteration
+
+SQL
+-	Memahami apa itu SQL
+-	Mengetahui penggunaan perintah DDL
+-	Mengetahui penggunaan perintah DML
+-	Melakukan filtering dan subsetting data dengan beberapa operator
+-	Melakukan pengurutan data dan pengelompokkan data dengan perintah ORDER BY dan GROUP BY
+
+What did you learn this week?
+
+•	SENIN 21 Mar 2022
+- Memahami tentang data science.
+- Memahami data yang terdapat pada data science.
+- Memahami manfaat data science.
+- Memahami model/algoritma pada data science.
+
+- Memahami NLP dan evolusinya.
+- Memahami area aplikasi NLP dan penerapannya.
+- Memahami NLP pipeline secara umum dan teknik-tekniknya.
+- Memahami tantangan dan masa depan NLP.
+•	SELASA 22 Mar 2022
+Introduction of CV
+Learning schedule: Learning objectives, learning outcome, learning timeline.
+
+Introduction to Reinforcement Learning
+-	Definisi RL
+-	Sejarah RL
+-	Algoritma Rl
+-	Ilustrasi, Implikasi, & Contoh
+-	Kategori implementasi
+-	Algoritma RL
+-	Elemen RL
+-	Environment RL
+-	AI of game
+-	Robotik
+-	Optimization
+
+•	RABU 23 Mar 2022
+Mempelajari visualization with tableau. Memahami apa itu visualisasi data dan betapa pentingnya proses visualisasi data untuk kebutuhan analisis dan pemodelan data menggunakan salah satu software visualisasi data tableau yang populer.
+
+-	Memahami proses feature extraction menggunakan BoW/count vectorizer dan TF-IDF
+-	Mengetahui jeni-jenis N-gram dan penggunaannya.
+-	Mengetahui penggunaan feature filtering.
+-	Mengetahui jeni-jenis feature selection.
+-	Mengetahui penggunaan dan pemanfaatan word cloud.
+
+•	KAMIS 24 Mar 2022
+Introduction of computer vision
+-	Apa itu computer vision?
+-	Penerapan computer vision
+
+Git & Github
+-	Apa itu git dan github
+-	Perbedaan git dan github
+-	Instalasi git
+-	Pembuatan akun github dan remote repository
+-	Commit
+-	Branch
+-	Merge
+-	Local environment
+-	Aktivitas lokal
+-	Aktivitas remote
+-	Summary
+
+•	JUM’AT 25 Mar 2022
+Markov Decision Process (MDP) dan Dynamic Programming
+-	Mengetahui Markov Decision Proses
+-	Cara menyusun MDP dalam merumuskan RL secara formal
+-	Menentukan value sebuah policy
+-	Mencoba membuat Dynamic Programming tipe value iteration
+
+SQL
+-	Memahami apa itu SQL
+-	Mengetahui penggunaan perintah DDL
+-	Mengetahui penggunaan perintah DML
+-	Melakukan filtering dan subsetting data dengan beberapa operator
+-	Melakukan pengurutan data dan pengelompokkan data dengan perintah ORDER BY dan GROUP BY

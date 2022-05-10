@@ -1,0 +1,36 @@
+Mon, 14 Mar
+
+dimulai pagi hari dengan menggunakan platform zoom, dipandu dengan coach yg mengasyikkan dan membahas materi ttg python kurang lebih ttg fungsi numpy, pandas, matplotlib
+
+Tue, 15 Mar
+
+pada hari selasa, saya belajar dengan zoom, materi nya mengenai derived variable, dipandu dengan coach yg asyik dan menyenangkan
+
+Wed, 16 Mar
+
+hari ini saya masih belajar menggunakan zoom dan materinya tentang regresi linier pd python
+
+Thu, 17 Mar
+
+hariini belajar mengenai K-Nearest Neighbor dan k means clustering python menggunakan platform zoom
+
+Fri, 18 Mar
+
+kai belajar mengenai 
+
+1. Neural Network 
+-pengertian
+-cara kerja 
+
+2. Biological Neuron dan Artificial Neuron 
+3. Activation Function 
+4. Loss Function 
+5. Optimizer
+6. optimizer gradient descent
+7. Tata cara formard pass
+8. backward :update weight
+9. backpropogation
+
+What did you learn this week?
+
+saat seminggu kami belajar fungsi numpy, pandas, matplotlib, derived variable , K-Nearest Neighbor dan k means clustering python dan juga Neural Network (pengertian, cara kerja ), Biological Neuron dan Artificial Neuron , Activation Function , Loss Function, Optimizer, optimizer gradient descent, Tata cara formard pass,  backward :update weight,  backpropogation

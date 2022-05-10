@@ -1,0 +1,76 @@
+Mon, 4 Apr
+
+Time Series (Statistical Approach)
+-	Memahami pengertian data time series dan contoh data
+-	Memahami bagaimana membagi data time series menjadi data train dan data test
+-	Memahami pola data yang ada pada data time series
+-	Memahami syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Tue, 5 Apr
+
+Object Detection with YOLO
+-	Memahami prinsip kerja object detection
+-	Memahami prinsip kerja YOLO (You Only Look Once) algorithm
+-	Implementasi YOLO
+
+Wed, 6 Apr
+
+Word Embedding and Deep Learning for NLP
+-	Memahami ide dan alasan dibutuhkannya word embedding
+-	Memahami intuisi word2vec dengan metode skipgram dan CBOW
+-	Memahami negatif sampling pada word2vec
+-	Memahami recurrent neural network dan batasannya
+-	Memahami long short-term memory (LSTM)
+-	Mengimplementasikan setiap metode dengan python
+
+Thu, 7 Apr
+
+Q Learning dan Deep Q Learning
+-	Mengetahui Q learning
+-	Memahami bagaimana Q learning bekerja
+-	Mengetahui deep Q learning
+-	Memahami bagaimana deep Q learning bekerja
+
+Fri, 8 Apr
+
+Flask RESTful API
+-	Memahami HTTP request dan HTTP response
+-	Memahami apa itu RESTful API
+-	Mendesain RESTful API sederhana untuk project AI dan ML
+
+What did you learn this week?
+
+•	SENIN 04 Apr 2022
+Time Series (Statistical Approach)
+-	Memahami pengertian data time series dan contoh data
+-	Memahami bagaimana membagi data time series menjadi data train dan data test
+-	Memahami pola data yang ada pada data time series
+-	Memahami syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+•	SELASA 05 Apr 2022
+Object Detection with YOLO
+-	Memahami prinsip kerja object detection
+-	Memahami prinsip kerja YOLO (You Only Look Once) algorithm
+-	Implementasi YOLO
+
+•	RABU 06 Apr 2022
+Word Embedding and Deep Learning for NLP
+-	Memahami ide dan alasan dibutuhkannya word embedding
+-	Memahami intuisi word2vec dengan metode skipgram dan CBOW
+-	Memahami negatif sampling pada word2vec
+-	Memahami recurrent neural network dan batasannya
+-	Memahami long short-term memory (LSTM)
+-	Mengimplementasikan setiap metode dengan python
+
+•	KAMIS 07 Apr 2022
+Q Learning dan Deep Q Learning
+-	Mengetahui Q learning
+-	Memahami bagaimana Q learning bekerja
+-	Mengetahui deep Q learning
+-	Memahami bagaimana deep Q learning bekerja
+
+•	JUM’AT 08 Apr 2022
+Flask RESTful API
+-	Memahami HTTP request dan HTTP response
+-	Memahami apa itu RESTful API
+-	Mendesain RESTful API sederhana untuk project AI dan ML

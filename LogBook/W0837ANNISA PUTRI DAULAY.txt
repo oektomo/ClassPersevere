@@ -1,0 +1,115 @@
+Mon, 11 Apr
+
+Data Science : Data Time Series ( Deep Learning Approach)
+
+deep learning approach mampu menangani dataset yang besar dan juga hasilnya dapat meningkat, sedangkan statistical approach cenderung tidak mengalami peningkatan. 
+
+Arsitektur deep learning yang dapat digunakan untuk menganalisa data time series:
+- MLP -CNN -RNN -LSTM -GRU
+
+Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU
+Ketiga metode memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda
+
+Tue, 12 Apr
+
+Computer Vision : Introduction of Autoencoder & Image Denoising
+
+Autoencoders adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation. 
+
+Component Autoencoders : 
+1. Encoder 
+bagian ini bertujuan mengompres  dimensio. disimpan kedalam latentspace representation
+2. Code
+bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder
+3. Decoder
+bertujuan untuk merekonstruksi masukan dari the latent space representation
+
+Properties Autoencoder :
+1. Data-Spesific : hanya dapat mengompresi data yang mirip dengan apa yang dilatih
+2. Lossy : output tidak akan sama dengan input
+3. Unsupervised : Untuk melatih autoencoder, kita tidak perlu melakukan
+sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+
+Wed, 13 Apr
+
+NLP : Transfer Learning for NLP– Transformer & BERT
+
+1. Transfer learning mengacu pada melatih model kemudian menggunakan
+model tersebut untuk menyelesaian tugas lainnya.
+2. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada
+seluruh kalimat (context free manner).
+3. Attention mengacu pada pembobotan kata dengan melihat korelasi kata
+tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+4. Transformer merupakan model deep learning yang menggunakan
+mekanisme attention untuk mengganti seluruh lapisan berbasis RNN.
+Transformer terdiri dari encoder dan decoder (dirancang untuk machine
+translation)
+5. BERT merupakan model deep learning yang menggunakan tumpukan
+encoder dari arsitektur Transformer.
+6. Fine-tuning adalah proses melatih model menggunakan model yang sudah
+dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+7. Fine-tuning BERT membutuhkan input formatting dengan menambahkan
+special token.
+
+Thu, 14 Apr
+
+RL : Robotics 
+
+
+Fri, 15 Apr
+
+Technical : Unit Testing, Refactoring, dan Debugging
+
+
+What did you learn this week?
+
+Data Science : Data Time Series ( Deep Learning Approach)
+
+deep learning approach mampu menangani dataset yang besar dan juga hasilnya dapat meningkat, sedangkan statistical approach cenderung tidak mengalami peningkatan. 
+
+Arsitektur deep learning yang dapat digunakan untuk menganalisa data time series:
+- MLP -CNN -RNN -LSTM -GRU
+
+Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU
+Ketiga metode memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda
+
+Computer Vision : Introduction of Autoencoder & Image Denoising
+
+Autoencoders adalah algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation. 
+
+Component Autoencoders : 
+1. Encoder 
+bagian ini bertujuan mengompres  dimensio. disimpan kedalam latentspace representation
+2. Code
+bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder
+3. Decoder
+bertujuan untuk merekonstruksi masukan dari the latent space representation
+
+Properties Autoencoder :
+1. Data-Spesific : hanya dapat mengompresi data yang mirip dengan apa yang dilatih
+2. Lossy : output tidak akan sama dengan input
+3. Unsupervised : Untuk melatih autoencoder, kita tidak perlu melakukan
+sesuatu yang merepotkan, cukup lemparkan data input mentah ke model.
+
+NLP : Transfer Learning for NLP– Transformer & BERT
+
+1. Transfer learning mengacu pada melatih model kemudian menggunakan
+model tersebut untuk menyelesaian tugas lainnya.
+2. Word2Vec gagal menangkap informasi kontekstual yang terkandung pada
+seluruh kalimat (context free manner).
+3. Attention mengacu pada pembobotan kata dengan melihat korelasi kata
+tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+4. Transformer merupakan model deep learning yang menggunakan
+mekanisme attention untuk mengganti seluruh lapisan berbasis RNN.
+Transformer terdiri dari encoder dan decoder (dirancang untuk machine
+translation)
+5. BERT merupakan model deep learning yang menggunakan tumpukan
+encoder dari arsitektur Transformer.
+6. Fine-tuning adalah proses melatih model menggunakan model yang sudah
+dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+7. Fine-tuning BERT membutuhkan input formatting dengan menambahkan
+special token.
+
+RL : Robotics 
+
+Technical : Unit Testing, Refactoring, dan Debugging

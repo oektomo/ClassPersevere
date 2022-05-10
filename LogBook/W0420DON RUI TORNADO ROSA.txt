@@ -1,0 +1,23 @@
+Mon, 14 Mar
+
+Di hari ini kami mempelajari beberapa dasar dari modul-modul matematika / statistika di Python seperti Pandas, Matplotlib, dan Seaborn. Kami sempat mempelajari fungsi statistika dalam Pandas seperti untuk mencari mean, median, dll. Kami juga sempat belajar cara untuk mengolah data-data kecil dalam bentuk tabel berkolom dan juga pembuatan grafik dari data-data tersebut menggunakan Matplotlib dan Seaborn.
+
+Tue, 15 Mar
+
+Hari ini kita mempelajari exploratory data analysis dan data cleaning pada Python dengan menggunakan dataset. Data ini kita jelajahi dengan menggambarkan data dengan grafik yang berbeda-beda seperti barplot, scatterplot dan boxplot. Selain itu, kita juga mempelajari metode statistik seperti korelasi, ANOVA, Chi Square Test. Untuk melaksanakan semua ini, modul yang digunakan antara lain Pandas, Seaborn, Matplotlib.
+
+Wed, 16 Mar
+
+Hari ini, kami mempelajari linear regression. Khususnya linear regression yang menggunakan gradient decent. Selain itu, kita juga mempelajari apa artinya gradient decent dan juga arti rumus dalam linear regression. Kita juga diberi contoh lain seperti logistic regression, dll. Kita juga mendapat contoh singkat implementasi regresi pada Python.
+
+Thu, 17 Mar
+
+Hari ini , kami mempelajari K- Nearest Neighbor (KNN). KNN mengklasifikasi titik data ke titik tujuan dengan menghitung jarak euclidean antara 2 vektor titik data terdekat. Ada 2 jenis KNN, regresi yang mencoba menebak output dengan menggunakan mean lokal dan klasifikasi yang mencoba menebak lokasi kelas output dengan cara menghitung probabilitas lokal. Kemudian kita diberi tugas mengenai normalisasi data dan sedikit implementasi KNN. Kita juga belajar sedikit perkenalan ke decision tree.
+
+Fri, 18 Mar
+
+Hari ini kami mempelajari neural network, yakni kumpulan algoritma bertujuan mengikuti cara kerja otak manusia. Cara kerja spesifiknya, setiap layer akan dikalikan dengan bobot yang pada iterasinya terdapat proses/prediksi akan  di hitung errornya(MSE)  untuk sebagai feedback dalam mengubah nilai pada bobot.
+
+What did you learn this week?
+
+Di minggu ini kami sudah mulai melihat praktik langsung metode dasar AI yakni operasi statistika dan juga beberapa metode machine learning seperti linear regression, KNN dan juga neural network. Saat membahas masing-masing topik, kami mampu melihat beberapa implementasi secara kode dengan menggunakan beragam modul seperti Skcit Learn, Numpy, Scipy, dll. Kita juga mendalami teori dari masing-masing topik seperti membahas gradient decent dalam linear regression dan juga cara kerja KNN dengan melihat lebih lanjut cara kerja euclidean dan manhattan distance. Kita juga melihat cara perhitungan weights pada neural network.

@@ -1,0 +1,52 @@
+Mon, 28 Mar
+
+Senin, 28 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science mempelajari tentang Introduction Dimensionality reduction, PCA ( Principal Component Analysis ) dan LDA ( Linear Discriminant Analysis )
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari Hands on coding review pertemuan pertama dan pertemuan kedua.
+
+Tue, 29 Mar
+
+Selasa, 29 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision mempelajari tentang Deep Learning dan CNN.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Reinforcement Learning mempelajari sejarah RL, algoritma RL, elements & environment dari RL, dan aplikasi dari RL.
+
+Wed, 30 Mar
+
+Rabu, 30 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari text representation.
+
+Thu, 31 Mar
+
+Kamis, 31 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Technical mempelajari source code management.
+
+Fri, 1 Apr
+
+Jumat, 1 April 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Reinforcement Learning mempelajari mengetahui markov decision process, menyusun MDP dalam merumuskan RL secara formal, menentukan value sebuah policy, dan mencoba membuat dinamic programming tipe value iteration.
+
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Technical mempelajari Database - SQL.
+
+What did you learn this week?
+
+Senin, 28 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science mempelajari tentang Introduction Dimensionality reduction, PCA ( Principal Component Analysis ) dan LDA ( Linear Discriminant Analysis )
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari Hands on coding review pertemuan pertama dan pertemuan kedua.
+Selasa, 29 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision mempelajari tentang Deep Learning dan CNN. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Reinforcement Learning mempelajari sejarah RL, algoritma RL, elements & environment dari RL, dan aplikasi dari RL.
+Rabu, 30 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Data Science. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Natural Language Processing mempelajari text representation.
+Kamis, 31 Maret 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Computer Vision. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Technical mempelajari source code management.
+Jum’at, 1 April 2022
+Ada 2 sesi, untuk sesi pertama di mulai jam 08.00 -11.30 WIB. pada sesi pertama membahas tentang Reinforcement Learning mempelajari mengetahui markov decision process, menyusun MDP dalam merumuskan RL secara formal, menentukan value sebuah policy, dan mencoba membuat dinamic programming tipe value iteration. 
+Kemudian untuk sesi kedua pukul 13.00 - 16.30 WIB membahas tentang Technical mempelajari Database - SQL.

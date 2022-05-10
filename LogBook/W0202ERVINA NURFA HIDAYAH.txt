@@ -1,0 +1,75 @@
+Mon, 28 Feb
+
+Libur nasional
+
+Tue, 1 Mar
+
+Python adalah bahasa pemrograman open source dan menganut dynamic typing yang sebagian besar tipe datanya disesuaikan dengan nilainya.
+Mengapa python? Python Sederhana  & elegan , powerfull, free, dukumgan komunitas.
+editor kode dan IDE yang tersedia di python yaitu; jupython notebook,spyder,pycharm,atom, google collab
+Type data pada python terbagi menjadi 2 yaitu;
+-primitif(number(int,float,complex),string,boolean)
+-dan non primitive(list[],tuple(),dict{})
+belajar mandiri pada websitei w3schools.com 
+perintah untuk mecetak adalah print
+1.	In : print(“Hello world”)
+Out: Hello world
+2.	In : 5 > 2:
+Print(“Five is greater than  two!”)
+	Out: Five is greater than  two!
+3.	Komentar dimulai dengan #, komentar dapat disimpan juga di akhir baris
+In : #This is a comment
+       print (“Hello World!”)
+out: Hello World
+in : print (“Hello World!”) #This is a comment
+out : Hello World 
+4.	Variabel dibuat saat Anda pertama kali menetapkan nilai padanya
+In : x = 5
+      y = "john"
+      print(x)
+      print(y)
+out: 5
+       john
+
+
+
+Wed, 2 Mar
+
+Menginstal Git dan membuat akun Github
+melanjutkan materi Python : control flow
+Control flow itu adalah mengendalikan aliran program, ada 2 cara mengendalikan aliran program yaitu if else(percabangan) dan loop(perulangan, for while).
+ada 3 hal yang harus dipenuhi dalam loop for yaitu 
+1. Inisialisasi variable
+2. increment/countervariable
+3. kondisi kapan mesti keluar 
+
+Thu, 3 Mar
+
+Libur nasional
+
+Fri, 4 Mar
+
+saya belajar mengenai fungsi python, manipulasi strinig dan file handling
+bagaimana membuat fungsi
+fungsi itu apa saja
+bagaimana fungsijika ada default value
+global variabel dan local variabel
+belajar sedikit manipulasi string dan operator
+build dan method
+
+What did you learn this week?
+
+Mengenal lebih dekat Python, Python adalah bahasa pemrograman open source dan menganut dynamic typing yang sebagian besar tipe datanya disesuaikan dengan nilainya. Mengapa python? Python Sederhana & elegan , powerfull, free, dukumgan komunitas. editor kode dan IDE yang tersedia di python yaitu; jupython notebook,spyder,pycharm,atom, google collab .Type data pada python terbagi menjadi 2 yaitu;
+ -primitif(number(int,float,complex),string,boolean) 
+ -dan non primitive(list[],tuple(),dict{})
+Control flow itu adalah mengendalikan aliran program, ada 2 cara mengendalikan aliran  program yaitu if else(percabangan) dan loop(perulangan, for while). 
+ada 3 hal yang harus dipenuhi dalam loop for yaitu
+1. Inisialisasi variable 
+2. increment/countervariable 
+3. kondisi kapan mesti keluar.
+String manipulasi dalam python itu adalah array of bite (tabel yang isinya urutan karakter Unicode) Unicode itu sendiri adalah konvensi, lebih luas dari ASCII
+Google collab adalah open source untuk menulis dan mengeksekusi program d browser kita. Ada keunggulan di goole collab ini yaitu tidak memerlukan konfigurasi yang dimana kita tidak perlu menginstal, akses gpu gratis, dan berbagi dengan mudah.
+Bedanya variable dalam fungsi dan luar fungsi, fungsi terbagi 2 yaitu fungsi variable local dan diluar fungsi variabel global. Fungsi local itu jika fungsi sudah selesai maka variable akan dihapus sedangkan diluar fungsi variable global cara nya seperti memesan tempat memori selama variable itu tidak dihapus.
+Operasi matematika ada pow untuk pangkat, round,dan abs untuk nilai negative menjadi menjadi positif, positif menjadi positif.
+Lambda function itu digunakan fungsi yang dibuat dengan cepat seperti objek dan sebuah  variabelnya dibuat oleh fungsi.
+Generator cara membuatnya seperti fungsi, yang fungsi nya adalah melakukan operasi yang iterator dan setiap iterasi ditulis secara manual

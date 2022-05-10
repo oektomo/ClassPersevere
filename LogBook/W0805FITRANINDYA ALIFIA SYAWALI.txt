@@ -1,0 +1,23 @@
+Mon, 11 Apr
+
+hari ini kami hands on NLP, mengenai akuisisi data, web scrapping, public dataset, instansi pemerintah, product invetion, data augmentation, text cleaning dan text preprocessing menggunakan zoom
+
+Tue, 12 Apr
+
+kami belajar mengenai word embedding dan deep learning
+
+Wed, 13 Apr
+
+Hari ini kami belajar mengenai Arsitektur Transformer , mekanisme self attention. model berbasis transformer, BERT(Bidirectional Encoder Representations from Transformers
+
+Thu, 14 Apr
+
+Hari ini kami belajar mengenai Reonforcement Leearning tentang Robotics Overview, ML for robotics, Turtlebot3 Navigation using DQN, SARSA Overview, SARSA Implementation, Q Learning Overview, Implementation, Deep Q Learning Overview, Implementation menggunakan zoom
+
+Fri, 15 Apr
+
+Karena Hari ini libur nasional yaitu kenaikan isa almasih, maka kita melakukan self study tentang Unit testing, refactoring, dan debugging  dan diberikan assessment 
+
+What did you learn this week?
+
+selama seminggu ini kami belajar mengenai NLP, mengenai akuisisi data, web scrapping, public dataset, instansi pemerintah, product invetion, data augmentation, text cleaning dan text preprocessing, word embedding dan deep learning, rsitektur Transformer , mekanisme self attention. model berbasis transformer, BERT(Bidirectional Encoder Representations from Transformers, i Reonforcement Leearning tentang Robotics Overview, ML for robotics, Turtlebot3 Navigation using DQN, SARSA Overview, SARSA Implementation, Q Learning Overview, Implementation, Deep Q Learning Overview, Implementation, Unit testing, refactoring, dan debugging

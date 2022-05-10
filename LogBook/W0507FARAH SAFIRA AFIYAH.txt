@@ -1,0 +1,137 @@
+Mon, 21 Mar
+
+Pembelajaran hari ini menggunakan zoom pada sesi pagi dan sesi siang dengan membahas :
+• Pembahasan Jadwal baru
+• Memahami tentang data science dengan project cyclenya berupa Problem Scooping => Data Acquistion => Data Exploration => Modelling => Evaluation => Deployment.
+Pada data terdapat waktu pengumpulan yang berupa cross section time series, skala pengukuran yang berupa nominal ordinal rasio, dan teknik pengumpulan berupa primer sekunder. 
+• Penjelasan preprocessing yang terdiri dari data cleaning, data transformation, data reduction, data manipulation, data visualisasi.
+• Penjelasan mengenai Supervised yang berupa klasifikasi dan regresi, sedangkan Unsupervised berupa clustering.
+• Penjelasan regression yang merupakan hubungan dari suatu variable/case yang mempengaruhi variable/case yang lain.
+• Mengerjakan posttest pada sesi pagi
+• Mengerjakan test mengenai NLP pada sesi siang sebelum pembelajaran dimulai.
+• Penjelasan mengenai Natural Language Processing (NLP) merupakan kekuatan pendorong dibalik aplikasi yang umum digunakan saat ini.
+• Penjelasan Question Answering System (QAS) yang merupakan kemampuan computer untuk menjawab pertanyaan yang diberikan pengguna.
+• Penjelasan Information Retrieval yang berupa kemampuan computer mencari konten yang relevan berdasarkan query (kata kunci) yang diberikan pengguna.
+• Penjelasan Text Summarization yang berupa kemampuan computer untuk menerjemahkan konten dari satu bahasa ke bahasa lain secara otomatis.
+•Penjelasan Speech recognition berupa kemampuan computer untuk mengenali dan menerjemahkan bahasa lisan ke dalam teks secara otomatis.
+• Penjelasan mengenai Text Processing.
+
+Tue, 22 Mar
+
+Hari ini pembelajaran melalui zoom, untuk sesi pertama membahas:
+• Penjelasan seputar Computer Vision
+• Dilakukannya pretest tentang Computer Vision
+•Untuk sesi siang materi seputar Reinforcement Leraning (RL) 
+• Dilakukannya pretest tentang Reinforcement Learning (RL)
+
+Wed, 23 Mar
+
+Hari ini pembelajaran melalui zoom dengan memabahas:
+Kelas Data Science:
+• Penjelasan tentang Bar chart merupakan grafik yang menyediakan data kategorikal dalam bentuk batang dengan Panjang batang yang mewakili  nilainya.
+• Penjelasan tentang Line Chart  merupakan visualisasi data yang digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu.
+• Penjelasan tentang Pie Chart yang merupakan visualisasi data untuk menunjukan sebuah komposisi tertentu dari sebuah data.
+• Penjelasan tentang histogram merupakan grafik yang digunakan untuk menampilkan distribusi dari sebuah data.
+• Penjelasan tentang Scatter Plot yang merupakan grafik untuk melihat suatu pola hubungna antara 2 variabel numerik.
+• Penjelasan mengenai Tableu dan penggunaannya.
+Kelas NLP:
+• Penjelasan Feature Extraction yang merupakan proses mengubah kata menjadi bentuk vector agar bisa diproses oleh algoritma machine learning.
+•Penjelasan N-gram merupakan rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut
+•Penjelasan Feature Selection sebagai proses memilih kata-kata/fitur yang penting untuk diikutkan pada proses machine learning.
+• Penjelasan Word Cloud yang menunjukan ldaftar kata-kata yang digunakan dalam sebuah teks.
+
+Thu, 24 Mar
+
+Hari ini pembelajaran melalui Zoom dengan membahas:
+Computer Vision:
+• Menjelaskan mengenai pengolahan citra sebagai metode untuk melakukan beberapa operasi pada citra dengan tujuan untuk mendapatkan citra yang disempurnakan atau mengekstrak informasi yang berguna pada citra.
+ • Menjelaskan mengenai perbaikan citra sebagai tahapan yang dilakukan dalam pengolahan citra. Teknik perbaikan citra diantaranya spatial domain dan frequency domain.
+Technical:
+• Memperkenalkan Git dan Guthub.
+• Memberikan penjelasan cara menginstal Git dan Github
+• Diajarkan mengenai pembuatan repository dan melakukan clone repository ke local.
+• Penjelasan megenai Branch yang merupakan komponen utama code versioning dan marge merupakan aktivitas utamanya.
+•Penjelasan mengenai Stash sebagai aksi untuk menyimpan semua perubahan yang masih berada di unstaged area.
+• Penjelasan mengenai collaboration yang merupakan sebuah feature pada penyedia cloud repository sehingga pemilik repository dapat memberikan hak akses kepada temannya untuk berkolaborasi pada repository tersebut.
+
+Fri, 25 Mar
+
+Hari ini pembelajaran melalui zoom dengan membahas:
+Reinforcement Learning:
+- Dilakukan Pretest
+- Menjelaskan mengenai Markov Desicion Process
+- Penjelasan mengenai jalur (path) dalam MDP yang merupakan urutan state,action,reward yang dilalui oleh sebuah agents
+- Penjelasan mengenai return (utility) sebagai total reward yang didapatlan agents berdasarkan jalur yang dilalui
+- Penjelasan tentang value yang merupakan total reward yang didapatkam agents berdasarkan matriks probabilitas
+- Dilakukan posttest
+
+Technical:
+- Mengikuti miniworkshop
+- Menjelasan mengenai database dan cara menggunakannya
+
+What did you learn this week?
+
+SENIN : 
+Pembelajaran hari ini menggunakan zoom pada sesi pagi dan sesi siang dengan membahas :
+• Pembahasan Jadwal baru
+• Memahami tentang data science dengan project cyclenya berupa Problem Scooping => Data Acquistion => Data Exploration => Modelling => Evaluation => Deployment.
+Pada data terdapat waktu pengumpulan yang berupa cross section time series, skala pengukuran yang berupa nominal ordinal rasio, dan teknik pengumpulan berupa primer sekunder. 
+• Penjelasan preprocessing yang terdiri dari data cleaning, data transformation, data reduction, data manipulation, data visualisasi.
+• Penjelasan mengenai Supervised yang berupa klasifikasi dan regresi, sedangkan Unsupervised berupa clustering.
+• Penjelasan regression yang merupakan hubungan dari suatu variable/case yang mempengaruhi variable/case yang lain.
+• Mengerjakan posttest pada sesi pagi
+• Mengerjakan test mengenai NLP pada sesi siang sebelum pembelajaran dimulai.
+• Penjelasan mengenai Natural Language Processing (NLP) merupakan kekuatan pendorong dibalik aplikasi yang umum digunakan saat ini.
+• Penjelasan Question Answering System (QAS) yang merupakan kemampuan computer untuk menjawab pertanyaan yang diberikan pengguna.
+• Penjelasan Information Retrieval yang berupa kemampuan computer mencari konten yang relevan berdasarkan query (kata kunci) yang diberikan pengguna.
+• Penjelasan Text Summarization yang berupa kemampuan computer untuk menerjemahkan konten dari satu bahasa ke bahasa lain secara otomatis.
+•Penjelasan Speech recognition berupa kemampuan computer untuk mengenali dan menerjemahkan bahasa lisan ke dalam teks secara otomatis.
+• Penjelasan mengenai Text Processing.
+
+SELASA:
+Hari ini pembelajaran melalui zoom, untuk sesi pertama membahas:
+• Penjelasan mengenai Computer Vision
+• Dilakukannya pretest tentang Computer Vision
+•Untuk sesi siang materi mengenai Reinforcement Leraning (RL) 
+• Dilakukannya pretest tentang Reinforcement Learning (RL)
+
+RABU:
+Hari ini pembelajaran melalui zoom dengan memabahas:
+Kelas Data Science:
+• Penjelasan tentang Bar chart merupakan grafik yang menyediakan data kategorikal dalam bentuk batang dengan Panjang batang yang mewakili  nilainya.
+• Penjelasan tentang Line Chart  merupakan visualisasi data yang digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu.
+• Penjelasan tentang Pie Chart yang merupakan visualisasi data untuk menunjukan sebuah komposisi tertentu dari sebuah data.
+• Penjelasan tentang histogram merupakan grafik yang digunakan untuk menampilkan distribusi dari sebuah data.
+• Penjelasan tentang Scatter Plot yang merupakan grafik untuk melihat suatu pola hubungna antara 2 variabel numerik.
+• Penjelasan mengenai Tableu dan penggunaannya.
+Kelas NLP:
+• Penjelasan Feature Extraction yang merupakan proses mengubah kata menjadi bentuk vector agar bisa diproses oleh algoritma machine learning.
+•Penjelasan N-gram merupakan rangkaian kata atau token yang berkesinambungan dalam sebuah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut
+•Penjelasan Feature Selection sebagai proses memilih kata-kata/fitur yang penting untuk diikutkan pada proses machine learning.
+• Penjelasan Word Cloud yang menunjukan ldaftar kata-kata yang digunakan dalam sebuah teks.
+
+KAMIS:
+Hari ini pembelajaran melalui Zoom dengan membahas:
+Computer Vision:
+• Menjelaskan mengenai pengolahan citra sebagai metode untuk melakukan beberapa operasi pada citra dengan tujuan untuk mendapatkan citra yang disempurnakan atau mengekstrak informasi yang berguna pada citra.
+ • Menjelaskan mengenai perbaikan citra sebagai tahapan yang dilakukan dalam pengolahan citra. Teknik perbaikan citra diantaranya spatial domain dan frequency domain.
+Technical:
+• Memperkenalkan Git dan Guthub.
+• Memberikan penjelasan cara menginstal Git dan Github
+• Diajarkan mengenai pembuatan repository dan melakukan clone repository ke local.
+• Penjelasan megenai Branch yang merupakan komponen utama code versioning dan marge merupakan aktivitas utamanya.
+•Penjelasan mengenai Stash sebagai aksi untuk menyimpan semua perubahan yang masih berada di unstaged area.
+• Penjelasan mengenai collaboration yang merupakan sebuah feature pada penyedia cloud repository sehingga pemilik repository dapat memberikan hak akses kepada temannya untuk berkolaborasi pada repository tersebut.
+ JUMAT:
+Hari ini pembelajaran melalui zoom dengan membahas:
+Reinforcement Learning:
+- Dilakukan Pretest
+- Menjelaskan mengenai Markov Desicion Process
+- Penjelasan mengenai jalur (path) dalam MDP yang merupakan urutan state,action,reward yang dilalui oleh sebuah agents
+- Penjelasan mengenai return (utility) sebagai total reward yang didapatlan agents berdasarkan jalur yang dilalui
+- Penjelasan tentang value yang merupakan total reward yang didapatkam agents berdasarkan matriks probabilitas
+- Dilakukan posttest
+
+Technical:
+- Mengikuti miniworkshop
+- Menjelasan mengenai database dan cara menggunakannya

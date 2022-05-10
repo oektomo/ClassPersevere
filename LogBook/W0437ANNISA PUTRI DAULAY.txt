@@ -1,0 +1,39 @@
+Mon, 14 Mar
+
+manipulasi data dengan pandas
+
+Tue, 15 Mar
+
+data visualisasi dengan matplotlib.
+
+matplotlib digunakan untuk visualisasi data, dan ditulis dengan numpy.
+
+sesi 2 belajar mengenai EDA ( Exploratory Data Analytics) 
+
+EDA Dilakukan untuk memastikan bahwa data yang dimiliki bisa digunakan dengan menggunakan algoritma ML dan untuk menentukan algoritma mana yang cocok untuk digunakan dalam datasetnya.
+
+Wed, 16 Mar
+
+belajar mengenai Regresi Linier.
+
+Analisa Regresi digunakan untuk memprediksi nilai dari dependent variable Y, berdasarkan relasinya dengan nilai dari independent variable X.
+
+Tujuan dari regresi linier adalah 
+- menganalisa relasi antar dua variable
+- memprediksi nilai baru yang mungkin
+
+di Sesi 2 membahas mengenai K-FOLD
+
+Thu, 17 Mar
+
+belajar mengenai Supervised Learning dan Decision Tree
+
+Fri, 18 Mar
+
+Introduction to Neural Network. 
+
+Neural Network terinspirasi dan mencoba meniru cara kerja otak manusia yang dapat mengirim sinyal satu sama lain.
+
+What did you learn this week?
+
+Pada minggu ini belajar mengenai pendalaman AI dan DS. belajar mengenai pandas,  data visualization, EDA, Regresi Linier,Regresi Logistik, Supervised Learning, Decision Tree, dan Neural Network.  pembelajaran kali ini cukup berat dan membingungkan, namun  pelan-pelan akan dicoba untuk memahami.

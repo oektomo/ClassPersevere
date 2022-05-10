@@ -1,0 +1,123 @@
+Mon, 11 Apr
+
+saya telah mengikuti dan mempelajari data science
+
+Mempelajari Deep Learning Approach,
+pendekatan model time series, 
+statistic approach vs deep learning approach, 
+deep learning architecture, 
+operasi RNN, 
+LSTM, 
+GRU, 
+operasi Element Wise Product,
+operasi element wise addition,
+ sigmoid activation function, 
+tanh activation function, 
+recurrent neural network, 
+convolution neural network, 
+CNN vs RNN, 
+RNN with Vanishing Gradient Problem, Gradient Descent Problem, LSTM & GRU, Deep Learning for Forecasting, Evaluation Metrics, dan melakukan live code dengan hands on yang diberikan
+
+Tue, 12 Apr
+
+saya telah mengikuti pembelajaran computer vision
+
+- Module 4 Computer Vision
+- Introduction of Autoencoder & Image Denoising
+- Autoencoder Neural Network => Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+- Component of Autoencoders => Terdapat 3 bagian Component yaitu : Encoder, Code, dan Decoder.
+- Properties of Autoencoders => Terdapat 3 bagian Properti yaitu : Data-specific, Lossy, dan Unsupervised.
+- Hyperparameters of Autoencoders => Dibagi mejadi 4 bagian yaitu : Code Size, Number of Layers, Loss Function, dan Number of Node per Layers.
+- Arsitecture of Autoencoders.
+- Loss Function of Autoencoders.
+- Denoising Autoencoders.
+- Image Reconstruction, Coloring dan Noise Reduction.
+- Feature Variation.
+- Implementasi Autoencoder.
+
+Wed, 13 Apr
+
+saya telah mengikuti pembelajaran NLP
+
+- Section Transfer Learning for NLP - Tranformer & BERT
+- Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+- Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+- Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+- Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+- BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+- Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+- Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+Thu, 14 Apr
+
+saya telah mengikuti pembelajaran  Reinforcement Learning
+
+- Bagian Robotics.
+- Implementasi tentang Cartpole.
+- SARSA (State-Action-Reward-State-Action).
+- Deep Q Learning.
+- State yang tersedia dari env.
+- Penerapan DQL pada Cart-Pole.
+- Contoh Implementasi DQL.
+
+Fri, 15 Apr
+
+Libur nasional
+
+What did you learn this week?
+
+saya telah mengikuti pembelajaran 1 sesi setiap harinya 
+
+1. Data science 
+-Mempelajari Deep Learning Approach,
+-pendekatan model time series, 
+-statistic approach vs deep learning approach, 
+-deep learning architecture, 
+-operasi RNN, 
+-LSTM, 
+-GRU, 
+-operasi Element Wise Product,
+-operasi element wise addition,
+- sigmoid activation function, 
+-tanh activation function, 
+-recurrent neural network, 
+-convolution neural network, 
+-CNN vs RNN, 
+-RNN with Vanishing Gradient Problem, -Gradient Descent Problem, LSTM & GRU, -Deep Learning for Forecasting, Evaluation -Metrics, 
+-melakukan live code dengan hands on yang diberikan
+
+2. Computer vision
+- Module 4 Computer Vision
+- Introduction of Autoencoder & Image Denoising
+- Autoencoder Neural Network => Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+- Component of Autoencoders => Terdapat 3 bagian Component yaitu : Encoder, Code, dan Decoder.
+- Properties of Autoencoders => Terdapat 3 bagian Properti yaitu : Data-specific, Lossy, dan Unsupervised.
+- Hyperparameters of Autoencoders => Dibagi mejadi 4 bagian yaitu : Code Size, Number of Layers, Loss Function, dan Number of Node per Layers.
+- Arsitecture of Autoencoders.
+- Loss Function of Autoencoders.
+- Denoising Autoencoders.
+- Image Reconstruction, Coloring dan Noise Reduction.
+- Feature Variation.
+- Implementasi Autoencoder.
+
+3. Natural language processing 
+- Section Transfer Learning for NLP - Tranformer & BERT
+- Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+- Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+- Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+- Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+- BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+- Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+- Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+4. Reinforcement learning
+- Bagian Robotics.
+- Implementasi tentang Cartpole.
+- SARSA (State-Action-Reward-State-Action).
+- Deep Q Learning.
+- State yang tersedia dari env.
+- Penerapan DQL pada Cart-Pole.
+- Contoh Implementasi DQL.
+
+5. Teknik
+libur dan self learning

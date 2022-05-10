@@ -1,0 +1,385 @@
+Mon, 21 Mar
+
+Pilar kemampuan data science:
+• Memiliki kemampuan coding pada suatu bahasa pemrograman
+• Memiliki kemampuan analisa statistik /matematika
+• Memahami case yang sedang diamati
+
+Data Science Project Cycle : Problem Scoping->Data Acqusition->Data Exploration->Modelling->Evaluation->Deployment
+
+Preprocessing
+•Data Cleaning : proses memperbaiki / menghilangkan suatu data yang tidak sesuai dengan dataset
+•Data Transformation : proses mengubah data dari suatu format menjadi format lainnya
+•Data Reduction : proses mengurangi jumlah data untuk efisiensi storage
+
+Supervised learning :
+o Decision Tree
+o Naïve Bayes Classifiers
+o Support Vector Machine
+o K-Nearest Neighbors
+o Logistic Regression
+o Neural Network
+o Linear Regression
+o Lasso Regression
+o Ridge Regression
+
+Unsupervised learning :
+o K-Means Clustering
+o DBSCAN
+
+Regression adalah Representasi hubungan dari suatu variabel/fitur/case yang mempengaruhi variabel/fitur/case yang lain.
+Decision Tree
+• Decision tree merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical (classification tree) dan continuous (regression tree)
+• Berupa representasi grafis yang memudahkan dalam melakukan interpretasi dan membantu dalam membuat keputusan (decision making)
+• Decision tree juga tampak seperti flow chart yang memiliki struktur if-else condition 
+
+Boosting
+Boosting merupakan algoritme yang mengkonversi weak learners menjadi strong learners. Weak learners merupakan model yang memiliki performa sedikit lebih baik terlepas dari penyebaran data train nya. Pada boosting, prediksi dilakukan secara berurutan, dimana setiap prediksi selanjutnya akan memperhatikan eror yang dihasilkan prediksi sebelumnya.
+
+Stacking
+Stacking adalah proses learning yang menggabungkan beberapa model prediksi berdasar meta-predictor yang berupa ide sederhana. Stacking merupakan teknik:
+Training beberapa model learning sederhana menggabungkan model dengan model meta, yang diharapkan memberikan nilai akurasi yang lebih baik . MempertimbangkanT learners yang beragam dan menggabungkannya dengan melakukan training model meta untuk output prediksi berdasar prediksi weak learners.
+
+Contoh aplikasi data science
+• Anomaly Detection
+o Mendeteksi ketidaksesuaian (anomali) pada data perusahaan. Misal: deteksi penipuan, analitik pelanggan, keamanan siber, dan pemantauan sistem IT
+• Binary and Multiclass Classification
+o Klasifikasi Biner: Menentukan apakah sesuatu termasuk pada kategori tertentu (). Misal: mengidentifikasi kontrak atau faktur di antara dokumen menggunakan image recognation.
+o Klasifikasi Multikelas: Terdapat lebih dari dua kategori data. Misal: klasifikasi berita terdapat beberapa kategori seperti kelas nasional, politik, ekonomi, olaharaga ataupun kesehatan
+• Personalization
+o Misal: Rekomendasi film di Netflix berdasarkan riwayat use
+
+Tue, 22 Mar
+
+Karakteristik Reward dan Action
+• Reward: Sistem Reward dalam sebuah Lingkungan mungkin tidak langsung diberikan. (delayed reward). Reward bisa dilihat sebagai umpan balik terhadap Agent, karena beberapa reward mengalami penundaan maka umpan balik seringkali menjadi tertuda. Ada yang namanya “Delayed Gratification” dan seringkali memberikan total reward yang lebih besar.
+• Action: Pada contoh di atas Semua Tindakan yang mungkin telah diketahui 
+
+Environment (Lingkungan )
+• Aturan Reward dalam suatu Lingkungan Kadang dideskripsikan dengan jelas.
+• Ada Env yang perlu dipelajari karena tidak terdapat aturan yang jelas. (Trial and Error / Eksplorasi).
+• Dalam Dunia nyata, Improvisasi masih bisa terjadi meski sudah ada aturan
+
+Karakteristik dari RL
+• Tidak ada “kebenaran” pada proses pembelajaran (training) yang ada hanya hadiah (atau hukuman)
+• Data yang diperoleh (State dan Reward) tergantung dari Action yang diberikan oleh Agent.
+• Variabel waktu dan urut-urutan state yang dipilih oleh Agent melalui action memiliki pengaruh yang penting.
+
+Algoritme RL (cont’d)
+• Algoritme RL menghendaki pertukaran state-action-reward (st, at, rt) antara agent danenvironment. Proses ini dinamakan sequential decision-making process, dan (st, at, rt) dinamakan experience.
+• RL menghitung jumlah dari reward yang diterima oleh agent. Tujuan (objective) dari agent adalah memaksimalkan total reward.
+• RL belajar (learn) dari interaksi agent dengan environment menggunakan proses trial & error dan reward yang diperoleh agent, untuk memperkuat (reinforce) aksi positif.
+• Agent berinteraksi terhadap environment dengan melakukan sebuah aksi/tindakan dari satu kondisi ke kondisi yang lain.
+• Agent akan menerima reward berdasarkan aksinya.
+• Berdasarkan reward tersebut, agent akan memahami apakah aksinya baik atau buruk.
+• Jika aksinya baik, agent akan menerima reward positif, sehingga agent tersebut akan cenderung lebih memilih melakukan aksi yang serupa dengan aksi tersebut (exploitation), atau melakukan aksi lain yang dapat menghasilkan reward positif.
+
+Elemen pada Reinforcement Learning
+Di luar dari Agent dan Environment yang merupakan sebagai element utama, ada 4 sub elemen sebagai penyusun utama sistem Reinforcement Learning:
+Elemen utama:
+❑ Agent, yang dimaksud dengan agent adalah perangkat atau software (perangkat lunak) yang dapat belajar dari environment.
+❑ Environment, sedangkan yang dimaksud dengan environment adalah segala sesuatu yang ada di luar agent yang dimana sebagai tempat agent untuk melakukan exploration dan exploitation
+Sub Elemen utama:
+❑Policy, rules (aturan) atau strategi yang digunakan oleh agent untuk melakukan action (A) selanjutnya, berdasarkan state (S) saat ini.
+❑Reward (R) Signal, feedback atau umpan balik untuk agent. Reward dapat bernilai positif (berupa hadiah) atau negatif (berupa hukuman) dan juga nol (tidak ada tindakan apapun terhadap agent).
+❑ Value function (V) s, total nilai jangka panjang yang diharapkan (expected longterm return without discount) dari state saat ini di bawah policy 𝜋. Value ini adalah
+kebalikan dari short-term reward (R).
+• Optimal Value Function adalah sebuah fungsi yang memiliki nilai tertinggi untuk semua state dibandingkan dengan fungsi nilai lainnya.
+• Optimal Policy adalah policy (kebijakan) yang memiliki fungsi nilai optimal.
+❑ Model Environment, segala sesuatu yang meniru perilaku environment. Atau, secara umumnya, sebuah kesimpulan tentang bagaimana perilaku dari environment.
+Model Environment dibagi menjadi dua, yaitu:
+• Model Based RL
+• Model Free RL
+
+Model Based RL vs Model Free RL
+Dalam memecahkan persoalan yang berhubungan dengan Reinforcement Learning, ada dua metode yang dipakai, yaitu model base dan model free, keduanya didasarkan pada bagaimana lingkungannya yang dihadapi oleh agent.
+❖ Model Based RL, model ini adalah model dasar atau paling sederhana dan memiliki perencanaan terhadap tindakannya, atau dapat juga dimaknai sebagai agent mengeksploitasi informasi yang dipelajari sebelumnya untuk menyelesaikan tugasnya.
+❖ Model Free RL, sedangkan model ini adalah kebalikan dari model Model Based RL, karena agent belajar dari lingkungan melalui metode trial and error untuk memperoleh pengalamannya.
+
+Tipe-tipe Environment RL:
+❑ Deterministic environment
+❑ Stochastic environment
+❑ Fully observable environment
+❑ Partially observable environment
+❑ Discrete environment
+❑ Continuous environment
+❑ Episodic and non-episodic environment
+❑ Single and multi-agent environment
+
+Wed, 23 Mar
+
+Visualisasi data adalah representasi grafis dari informasi dan data. Dengan menggunakan elemen visual seperti bagan, grafik, dan peta, alat visualisasi data menyediakan cara yang dapat digunakan untuk melihat dan memahami tren, outlier, dan pola dalam data.
+Bar Chart
+Grafik yang menyajikan data kategorikal dalam bentuk batang dengan panjang batang yang mewakili nilainya
+Line Chart
+Visualisasi data yang digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu
+Pie Chart
+Visualisasi data untuk menunjukan sebuah komposisi tertentu dari sebuah data. Bagian yang ada di dalam pie chart menunjukan proporsi dari bagian data terhadap keseluruhan data.
+Histogram Chart
+Grafik yang biasa digunakan untuk menampilkan distribusi dari sebuah data. Biasa digunakan untuk melihat estimasi distribusi probabilitas dari variable yang kontinu
+Scatter Chart
+Grafik ini biasa digunakan untuk melihat suatu pola hubungan antara 2 variable numerik.
+
+Tableau memiliki banyak fitur dan fungsi yang bisa kamu manfaatkan. Terdapat 4 Fungsi Utama Tableau adalah sebagai berikut.
+• Menerjemahkan data menjadi bentuk visual
+• Mengelola metadata
+• Mengimpor berbagai ukuran dan range data
+• Membuat visualisasi data tanpa coding
+
+Kelebihan Tableau
+• Pilihan visual yang interaktif
+• User friendly
+• Dapat mengolah banyak sumber data
+• Dashboard mobile friendly
+• Terintegrasi dengan bahasa skrip
+
+Feature Extraction (Pembobotan kata)
+Pembobotan kata adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning. Ada dua pembobotan kata yang umum digunakan, yaitu:
+1. Bag of Word (BoW) /Count Vectorizer
+BoW merupakan sebuah model yang mempelajari kosa kata dari seluruh dokumen, kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata yang muncul 
+2. TF-IDF
+TF - IDF (Term Frequency — Inverse Document Frequency) Merupakan ukuran penilaian yang umumnya digunakan dalam pencarian informasi (IR) dan peringkasan teks. Skor TF-IDF menunjukkan seberapa penting atau relevan suatu istilah (kata) dalam dokumen tertentu. Jika kata tertentu muncul beberapa kali dalam sebuah dokumen, maka kata tersebut mungkin memiliki tingkat kepentingan yang lebih tinggi daripada kata lain yang muncul lebih sedikit (TF). Pada saat yang sama, jika kata tertentu muncul berkali-kali dalam sebuah dokumen, tetapi juga muncul berkali-kali di
+beberapa dokumen lain, maka mungkin kata itu sering muncul, jadi kita tidak dapat menganggapnya penting (IDF). 
+
+Feature Filtering
+Proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti HTML tag, URL, tanda baca , dll. 
+1. Menghapus string, seperti @username, website , picture , tanda baca , dan karakter
+2. Stop word removal, Proses mengapus kata-kata yangt tidak penting atau yang paling sering muncul pada sebuah kalimat, seperti kata penghubung Feature Selection (Seleksi Fitur)
+Proses memilih kata-kata/fitur yang penting untuk diikutkan pada proses machine learning. Terdapat 3 pendekatan yang biasa digunakan untuk proses seleksi fitur, yaitu: 
+Filter Method 
+Metode filter memberikan skor untuk setiap fitur, lalu fitur dengan skor tertinggi dipilih dan diberi peringkat. Metode filter bekerja secara terpisah dari algoritma machine learning.
+Wrapper Method
+Metode wrapper adalah metode yang memilih fitur penting menggunakan algoritma optimasi dengan algoritma machine learning. Metode wrapper berinteraksi langsung dengan classifier dan menggunakan fungsi fitness untuk mengevaluasi fitur yang dipilih berdasarkan akurasi klasifikasi
+Hybrid Method
+Metode hybrid adalah kombinasi dari metode filter dan wrapper. Pertama, metode filter dijalankan untuk mengurangi fitur dengan memilih fitur-fitur yang memiliki nilai tertinggi. Kemudian, metode wrapper digunakan untuk mencari fitur terbaik dari hasil seleksi metode filter
+
+Word Cloud
+Gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks, umumnya semakin banyak kata yang digunakan semakin besar ukuran kata tersebut dalam gambar.
+
+Penggunaan Word Cloud
+Visualisasi kata yang paling sering digunakan atau diperbincangkan pada suatu topik tertentu. Misal, pada domain sentiment analysis kita ingin melihat kata yang paling sering muncul ketika masyarakat memberikan opini positif ataupun negatif pada kasus omnibus law
+
+Thu, 24 Mar
+
+• Computer vision adalah bidang A.I yangdigunakan untuk memproses, menganalisa,dan memahami citra (images). 
+• Duplikat atau tiruan dari humanvision(penglihatan manusia). 
+• Data citra berasal dari banyaksumberseperti video, depth image, medical scanner, satellite sensor, danlain-lain
+
+Computer Vision methods
+• Image acquisition
+• Pre-processing
+• Feature extraction
+• Detection / segmentation
+• Recognition an interpretation
+
+Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber selama pengembangan perangkat lunak. Ini dirancang untuk mengkoordinasikan pekerjaan di antara programmer, tetapi dapat digunakan untuk melacak perubahan dalam kumpulan file apa pun. Sasarannya mencakup kecepatan, integritas data, dan dukungan untuk alur kerja non-linier terdistribusi. GitHub adalah layanan hosting repositori Git berbasis web, yang menawarkan semua fungsi kontrol revisi terdistribusi dan manajemen kode sumber (SCM) Git serta menambahkan fitur-fiturnya sendiri.
+
+Fri, 25 Mar
+
+Markov Decision Process merupakan sebuah tuple (S, A, P, R, γ). Dimana:
+•S merupakan state
+•A merupakan action
+•P merupakan state transition probability function (transition probability)
+•R merupakan reward function
+•γ merupakan discount factor (γ ϵ [0, 1])
+
+• Markov Decision Processes mendeskripsikan secara formal lingkungan untuk RL
+• Secara spesifik biasanya dibuat saat environment fully observable
+• Hampir semua RL problems dapat diformalisasi menggunakan MDP
+• Optimal Control
+• Partially Observable problems
+• Bandits problem
+
+Structured Query Language atau SQL adalah bahasa pemrograman yang menjadi standar untuk pengolahan data berbasis relasional atau bisa dikatakan digunakan pada Relational Database Management System (RDBMS). Structure Query Language Bahasa SQL pada umumnya digunakan untuk mengolah data terstruktur.
+Secara umum, terdapat dua kelompok penggunaan perintah SQL :
+• Data Definition Language (DDL) adalah perintah SQL yang digunakan untuk membuat dan memodifikasi objek database seperti tabel, indeks, dan pengguna.  Contoh : CREATE, ALTER, DROP, dan TRUNCATE
+• Data Manipulation Language (DML)  adalah perintah SQL yang digunakan untuk untuk menambah, menghapus, dan memodifikasi data dalam database. Contoh : SELECT, INSERT, UPDATE dan DELETE
+
+What did you learn this week?
+
+Pilar kemampuan data science:
+• Memiliki kemampuan coding pada suatu bahasa pemrograman
+• Memiliki kemampuan analisa statistik /matematika
+• Memahami case yang sedang diamati
+
+Data Science Project Cycle : Problem Scoping->Data Acqusition->Data Exploration->Modelling->Evaluation->Deployment
+
+Preprocessing
+•Data Cleaning : proses memperbaiki / menghilangkan suatu data yang tidak sesuai dengan dataset
+•Data Transformation : proses mengubah data dari suatu format menjadi format lainnya
+•Data Reduction : proses mengurangi jumlah data untuk efisiensi storage
+
+Supervised learning :
+o Decision Tree
+o Naïve Bayes Classifiers
+o Support Vector Machine
+o K-Nearest Neighbors
+o Logistic Regression
+o Neural Network
+o Linear Regression
+o Lasso Regression
+o Ridge Regression
+
+Unsupervised learning :
+o K-Means Clustering
+o DBSCAN
+
+Regression adalah Representasi hubungan dari suatu variabel/fitur/case yang mempengaruhi variabel/fitur/case yang lain.
+Decision Tree
+• Decision tree merupakan algoritma supervised learning yang bekerja untuk data input dan output yang bersifat categorical (classification tree) dan continuous (regression tree)
+• Berupa representasi grafis yang memudahkan dalam melakukan interpretasi dan membantu dalam membuat keputusan (decision making)
+• Decision tree juga tampak seperti flow chart yang memiliki struktur if-else condition 
+
+Boosting
+Boosting merupakan algoritme yang mengkonversi weak learners menjadi strong learners. Weak learners merupakan model yang memiliki performa sedikit lebih baik terlepas dari penyebaran data train nya. Pada boosting, prediksi dilakukan secara berurutan, dimana setiap prediksi selanjutnya akan memperhatikan eror yang dihasilkan prediksi sebelumnya.
+
+Stacking
+Stacking adalah proses learning yang menggabungkan beberapa model prediksi berdasar meta-predictor yang berupa ide sederhana. Stacking merupakan teknik:
+Training beberapa model learning sederhana menggabungkan model dengan model meta, yang diharapkan memberikan nilai akurasi yang lebih baik . MempertimbangkanT learners yang beragam dan menggabungkannya dengan melakukan training model meta untuk output prediksi berdasar prediksi weak learners.
+
+Contoh aplikasi data science
+• Anomaly Detection
+o Mendeteksi ketidaksesuaian (anomali) pada data perusahaan. Misal: deteksi penipuan, analitik pelanggan, keamanan siber, dan pemantauan sistem IT
+• Binary and Multiclass Classification
+o Klasifikasi Biner: Menentukan apakah sesuatu termasuk pada kategori tertentu (). Misal: mengidentifikasi kontrak atau faktur di antara dokumen menggunakan image recognation.
+o Klasifikasi Multikelas: Terdapat lebih dari dua kategori data. Misal: klasifikasi berita terdapat beberapa kategori seperti kelas nasional, politik, ekonomi, olaharaga ataupun kesehatan
+• Personalization
+o Misal: Rekomendasi film di Netflix berdasarkan riwayat use
+
+Karakteristik Reward dan Action
+• Reward: Sistem Reward dalam sebuah Lingkungan mungkin tidak langsung diberikan. (delayed reward). Reward bisa dilihat sebagai umpan balik terhadap Agent, karena beberapa reward mengalami penundaan maka umpan balik seringkali menjadi tertuda. Ada yang namanya “Delayed Gratification” dan seringkali memberikan total reward yang lebih besar.
+• Action: Pada contoh di atas Semua Tindakan yang mungkin telah diketahui 
+
+Environment (Lingkungan )
+• Aturan Reward dalam suatu Lingkungan Kadang dideskripsikan dengan jelas.
+• Ada Env yang perlu dipelajari karena tidak terdapat aturan yang jelas. (Trial and Error / Eksplorasi).
+• Dalam Dunia nyata, Improvisasi masih bisa terjadi meski sudah ada aturan
+
+Karakteristik dari RL
+• Tidak ada “kebenaran” pada proses pembelajaran (training) yang ada hanya hadiah (atau hukuman)
+• Data yang diperoleh (State dan Reward) tergantung dari Action yang diberikan oleh Agent.
+• Variabel waktu dan urut-urutan state yang dipilih oleh Agent melalui action memiliki pengaruh yang penting.
+
+Algoritme RL (cont’d)
+• Algoritme RL menghendaki pertukaran state-action-reward (st, at, rt) antara agent danenvironment. Proses ini dinamakan sequential decision-making process, dan (st, at, rt) dinamakan experience.
+• RL menghitung jumlah dari reward yang diterima oleh agent. Tujuan (objective) dari agent adalah memaksimalkan total reward.
+• RL belajar (learn) dari interaksi agent dengan environment menggunakan proses trial & error dan reward yang diperoleh agent, untuk memperkuat (reinforce) aksi positif.
+• Agent berinteraksi terhadap environment dengan melakukan sebuah aksi/tindakan dari satu kondisi ke kondisi yang lain.
+• Agent akan menerima reward berdasarkan aksinya.
+• Berdasarkan reward tersebut, agent akan memahami apakah aksinya baik atau buruk.
+• Jika aksinya baik, agent akan menerima reward positif, sehingga agent tersebut akan cenderung lebih memilih melakukan aksi yang serupa dengan aksi tersebut (exploitation), atau melakukan aksi lain yang dapat menghasilkan reward positif.
+
+Elemen pada Reinforcement Learning
+Di luar dari Agent dan Environment yang merupakan sebagai element utama, ada 4 sub elemen sebagai penyusun utama sistem Reinforcement Learning:
+Elemen utama:
+❑ Agent, yang dimaksud dengan agent adalah perangkat atau software (perangkat lunak) yang dapat belajar dari environment.
+❑ Environment, sedangkan yang dimaksud dengan environment adalah segala sesuatu yang ada di luar agent yang dimana sebagai tempat agent untuk melakukan exploration dan exploitation
+Sub Elemen utama:
+❑Policy, rules (aturan) atau strategi yang digunakan oleh agent untuk melakukan action (A) selanjutnya, berdasarkan state (S) saat ini.
+❑Reward (R) Signal, feedback atau umpan balik untuk agent. Reward dapat bernilai positif (berupa hadiah) atau negatif (berupa hukuman) dan juga nol (tidak ada tindakan apapun terhadap agent).
+❑ Value function (V) s, total nilai jangka panjang yang diharapkan (expected longterm return without discount) dari state saat ini di bawah policy 𝜋. Value ini adalah
+kebalikan dari short-term reward (R).
+• Optimal Value Function adalah sebuah fungsi yang memiliki nilai tertinggi untuk semua state dibandingkan dengan fungsi nilai lainnya.
+• Optimal Policy adalah policy (kebijakan) yang memiliki fungsi nilai optimal.
+❑ Model Environment, segala sesuatu yang meniru perilaku environment. Atau, secara umumnya, sebuah kesimpulan tentang bagaimana perilaku dari environment.
+Model Environment dibagi menjadi dua, yaitu:
+• Model Based RL
+• Model Free RL
+
+Model Based RL vs Model Free RL
+Dalam memecahkan persoalan yang berhubungan dengan Reinforcement Learning, ada dua metode yang dipakai, yaitu model base dan model free, keduanya didasarkan pada bagaimana lingkungannya yang dihadapi oleh agent.
+❖ Model Based RL, model ini adalah model dasar atau paling sederhana dan memiliki perencanaan terhadap tindakannya, atau dapat juga dimaknai sebagai agent mengeksploitasi informasi yang dipelajari sebelumnya untuk menyelesaikan tugasnya.
+❖ Model Free RL, sedangkan model ini adalah kebalikan dari model Model Based RL, karena agent belajar dari lingkungan melalui metode trial and error untuk memperoleh pengalamannya.
+
+Tipe-tipe Environment RL:
+❑ Deterministic environment
+❑ Stochastic environment
+❑ Fully observable environment
+❑ Partially observable environment
+❑ Discrete environment
+❑ Continuous environment
+❑ Episodic and non-episodic environment
+❑ Single and multi-agent environment
+
+Visualisasi data adalah representasi grafis dari informasi dan data. Dengan menggunakan elemen visual seperti bagan, grafik, dan peta, alat visualisasi data menyediakan cara yang dapat digunakan untuk melihat dan memahami tren, outlier, dan pola dalam data.
+Bar Chart
+Grafik yang menyajikan data kategorikal dalam bentuk batang dengan panjang batang yang mewakili nilainya
+Line Chart
+Visualisasi data yang digunakan untuk memperlihatkan perubahan kondisi dari waktu ke waktu
+Pie Chart
+Visualisasi data untuk menunjukan sebuah komposisi tertentu dari sebuah data. Bagian yang ada di dalam pie chart menunjukan proporsi dari bagian data terhadap keseluruhan data.
+Histogram Chart
+Grafik yang biasa digunakan untuk menampilkan distribusi dari sebuah data. Biasa digunakan untuk melihat estimasi distribusi probabilitas dari variable yang kontinu
+Scatter Chart
+Grafik ini biasa digunakan untuk melihat suatu pola hubungan antara 2 variable numerik.
+
+Tableau memiliki banyak fitur dan fungsi yang bisa kamu manfaatkan. Terdapat 4 Fungsi Utama Tableau adalah sebagai berikut.
+• Menerjemahkan data menjadi bentuk visual
+• Mengelola metadata
+• Mengimpor berbagai ukuran dan range data
+• Membuat visualisasi data tanpa coding
+
+Kelebihan Tableau
+• Pilihan visual yang interaktif
+• User friendly
+• Dapat mengolah banyak sumber data
+• Dashboard mobile friendly
+• Terintegrasi dengan bahasa skrip
+
+Feature Extraction (Pembobotan kata)
+Pembobotan kata adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning. Ada dua pembobotan kata yang umum digunakan, yaitu:
+1. Bag of Word (BoW) /Count Vectorizer
+BoW merupakan sebuah model yang mempelajari kosa kata dari seluruh dokumen, kemudian memodelkan tiap dokumen dengan menghitung jumlah setiap kata yang muncul 
+2. TF-IDF
+TF - IDF (Term Frequency — Inverse Document Frequency) Merupakan ukuran penilaian yang umumnya digunakan dalam pencarian informasi (IR) dan peringkasan teks. Skor TF-IDF menunjukkan seberapa penting atau relevan suatu istilah (kata) dalam dokumen tertentu. Jika kata tertentu muncul beberapa kali dalam sebuah dokumen, maka kata tersebut mungkin memiliki tingkat kepentingan yang lebih tinggi daripada kata lain yang muncul lebih sedikit (TF). Pada saat yang sama, jika kata tertentu muncul berkali-kali dalam sebuah dokumen, tetapi juga muncul berkali-kali di
+beberapa dokumen lain, maka mungkin kata itu sering muncul, jadi kita tidak dapat menganggapnya penting (IDF). 
+
+Feature Filtering
+Proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti HTML tag, URL, tanda baca , dll. 
+1. Menghapus string, seperti @username, website , picture , tanda baca , dan karakter
+2. Stop word removal, Proses mengapus kata-kata yangt tidak penting atau yang paling sering muncul pada sebuah kalimat, seperti kata penghubung Feature Selection (Seleksi Fitur)
+Proses memilih kata-kata/fitur yang penting untuk diikutkan pada proses machine learning. Terdapat 3 pendekatan yang biasa digunakan untuk proses seleksi fitur, yaitu: 
+Filter Method 
+Metode filter memberikan skor untuk setiap fitur, lalu fitur dengan skor tertinggi dipilih dan diberi peringkat. Metode filter bekerja secara terpisah dari algoritma machine learning.
+Wrapper Method
+Metode wrapper adalah metode yang memilih fitur penting menggunakan algoritma optimasi dengan algoritma machine learning. Metode wrapper berinteraksi langsung dengan classifier dan menggunakan fungsi fitness untuk mengevaluasi fitur yang dipilih berdasarkan akurasi klasifikasi
+Hybrid Method
+Metode hybrid adalah kombinasi dari metode filter dan wrapper. Pertama, metode filter dijalankan untuk mengurangi fitur dengan memilih fitur-fitur yang memiliki nilai tertinggi. Kemudian, metode wrapper digunakan untuk mencari fitur terbaik dari hasil seleksi metode filter
+
+Word Cloud
+Gambar yang menunjukkan daftar kata-kata yang digunakan dalam sebuah teks, umumnya semakin banyak kata yang digunakan semakin besar ukuran kata tersebut dalam gambar.
+
+Penggunaan Word Cloud
+Visualisasi kata yang paling sering digunakan atau diperbincangkan pada suatu topik tertentu. Misal, pada domain sentiment analysis kita ingin melihat kata yang paling sering muncul ketika masyarakat memberikan opini positif ataupun negatif pada kasus omnibus law
+
+• Computer vision adalah bidang A.I yangdigunakan untuk memproses, menganalisa,dan memahami citra (images). 
+• Duplikat atau tiruan dari humanvision(penglihatan manusia). 
+• Data citra berasal dari banyaksumberseperti video, depth image, medical scanner, satellite sensor, danlain-lain
+
+Computer Vision methods
+• Image acquisition
+• Pre-processing
+• Feature extraction
+• Detection / segmentation
+• Recognition an interpretation
+
+Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber selama pengembangan perangkat lunak. Ini dirancang untuk mengkoordinasikan pekerjaan di antara programmer, tetapi dapat digunakan untuk melacak perubahan dalam kumpulan file apa pun. Sasarannya mencakup kecepatan, integritas data, dan dukungan untuk alur kerja non-linier terdistribusi. GitHub adalah layanan hosting repositori Git berbasis web, yang menawarkan semua fungsi kontrol revisi terdistribusi dan manajemen kode sumber (SCM) Git serta menambahkan fitur-fiturnya sendiri.
+
+Markov Decision Process merupakan sebuah tuple (S, A, P, R, γ). Dimana:
+•S merupakan state
+•A merupakan action
+•P merupakan state transition probability function (transition probability)
+•R merupakan reward function
+•γ merupakan discount factor (γ ϵ [0, 1])
+
+• Markov Decision Processes mendeskripsikan secara formal lingkungan untuk RL
+• Secara spesifik biasanya dibuat saat environment fully observable
+• Hampir semua RL problems dapat diformalisasi menggunakan MDP
+• Optimal Control
+• Partially Observable problems
+• Bandits problem
+
+Structured Query Language atau SQL adalah bahasa pemrograman yang menjadi standar untuk pengolahan data berbasis relasional atau bisa dikatakan digunakan pada Relational Database Management System (RDBMS). Structure Query Language Bahasa SQL pada umumnya digunakan untuk mengolah data terstruktur.
+Secara umum, terdapat dua kelompok penggunaan perintah SQL :
+• Data Definition Language (DDL) adalah perintah SQL yang digunakan untuk membuat dan memodifikasi objek database seperti tabel, indeks, dan pengguna.  Contoh : CREATE, ALTER, DROP, dan TRUNCATE
+• Data Manipulation Language (DML)  adalah perintah SQL yang digunakan untuk untuk menambah, menghapus, dan memodifikasi data dalam database. Contoh : SELECT, INSERT, UPDATE dan DELETE

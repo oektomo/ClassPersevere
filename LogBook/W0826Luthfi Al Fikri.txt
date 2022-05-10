@@ -1,0 +1,144 @@
+Mon, 11 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang Sekali.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Data Science :
+- Time Series - Deep Learning Approach
+- Session I - RNN, LSTM, GRU Instroduction
+- Mengapa Deep Learning? => Karena Deep Learning akan muncul untuk mengatasi keterbatasan model Machine Learning tradisional yang memiliki keterbatasan.
+- Deep Learning Architecture for Time Series => Ada beberapa arsitektur deep learning yang dapat digunakan untuk menganalisa data time series, diantaranya : MLP, CNN, RNN, LSTM, dan GRU.
+- Recurrent Neural Network (RNN) / Jaringan Umpan balik => jenis jaringan pada neural network dimana terdapat loop sebagai koneksi umpan balik dalam jaringan.
+- Data Sekuensial (Sequence Data) => mempunyai karakteristik dimana sampel diproses dengan suatu urutan dan suatu sampel dalam urutan mempunyai hubungan erat satu dengan yang lain.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Time Series Patterns Terdapat 4 Patterns => Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect.
+- Statistical Approach vs Deep Learning Approach
+- Fungsi Aktivasi Sigmoid dan Tanh.
+- CNN vs RNN
+
+Tue, 12 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Computer Vision :
+- Module 4 Computer Vision
+- Introduction of Autoencoder & Image Denoising
+- Autoencoder Neural Network => Algoritme pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+- Component of Autoencoders => Terdapat 3 bagian Component yaitu : Encoder, Code, dan Decoder.
+- Properties of Autoencoders => Terdapat 3 bagian Properti yaitu : Data-specific, Lossy, dan Unsupervised.
+- Hyperparameters of Autoencoders => Dibagi mejadi 4 bagian yaitu : Code Size, Number of Layers, Loss Function, dan Number of Node per Layers.
+- Arsitecture of Autoencoders.
+- Loss Function of Autoencoders.
+- Denoising Autoencoders.
+- Image Reconstruction, Coloring dan Noise Reduction.
+- Feature Variation.
+- Implementasi Autoencoder.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Agenda :
+Apa itu Autoencoder?
+Properti pada Autoencoder
+Arsitektur pada Autoencoder
+Aplikasi dari Autoencoder
+
+Wed, 13 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Natural Language Processing :
+- Module 10 Natural Language Processing (NLP).
+- Section Transfer Learning for NLP - Tranformer & BERT
+- Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaian tugas lainnya.
+- Word2Vec gagal menangkap informasi kontekstual yang terkandung pada seluruh kalimat (context free manner).
+- Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+- Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN. Transformer terdiri dari encoder dan decoder (dirancang untuk machine translation)
+- BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+- Fine-tuning adalah proses melatih model menggunakan model yang sudah dilatih sebelumnya. Cara menerapkan konsep transfer learning.
+- Fine-tuning BERT membutuhkan input formatting dengan menambahkan special token
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Learning Objectives, Diakhir modul ini kita akan dapat :
+Memahami konsep Transfer
+Memahami batasan word embedding tradisional
+Memahami mekanisme self-attention pada arsitektur transformer
+Memahami arsitektur dan representasi input BERT
+Mampu melakukan fine-tuning menggunakan BERT
+
+Thu, 14 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali dan Agak Sedikit sedih.
+
+Apa yang dipelajari hari ini?
+Sesi Pagi - Reinforcement Learning :
+- Modul Domain AI - Reinforcement Learning
+- Bagian Robotics.
+- Implementasi tentang Cartpole.
+- SARSA (State-Action-Reward-State-Action).
+- Deep Q Learning.
+- State yang tersedia dari env.
+- Penerapan DQL pada Cart-Pole.
+- Contoh Implementasi DQL.
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Tidak ada
+
+Fri, 15 Apr
+
+Kegiatan hari ini,
+Bagaimana perasaan kalian hari ini?
+- Perasaan hari ini Senang sekali.
+
+Apa yang dipelajari hari ini?
+- Hari Libur Nasional (Wafat Isa Almasih/Jumat Agung).
+- Mengganti menjadi self-study atau pembelajaran mandiri. 
+
+Inpirasi baru apa yang kamu dapat hari ini?
+- Tidak Ada.
+
+What did you learn this week?
+
+Perasaan saya setelah melewati minggu ini?
+- Perasaan ku minggu ini sangat senang.
+
+Yang saya pelajari minggu ini adalah?
+Pertemuan Minggu 8 Kali ini banyak sekali yang Miss saat memahami materi.
+
+- Senin, 11 April 2022
+Time Series Patterns Terdapat 4 Patterns => Stationer, Trend Effect, Seasonal Effect, dan Cyclic Effect.
+Statistical Approach vs Deep Learning Approach
+Fungsi Aktivasi Sigmoid dan Tanh.
+CNN vs RNN
+
+- Selasa, 12 April 2022
+Apa itu Autoencoder?
+Properti pada Autoencoder
+Arsitektur pada Autoencoder
+Aplikasi dari Autoencoder
+
+- Rabu, 13 April 2022
+Memahami konsep Transfer
+Memahami batasan word embedding tradisional
+Memahami mekanisme self-attention pada arsitektur transformer
+Memahami arsitektur dan representasi input BERT
+Mampu melakukan fine-tuning menggunakan BERT
+
+- Kamis, 14 April 2022
+SARSA (State-Action-Reward-State-Action).
+Deep Q Learning.
+State yang tersedia dari env.
+Penerapan DQL pada Cart-Pole.
+
+- Jum'at, 15 April 2022
+Hari Libur Nasional (Wafat Isa Almasih/Jumat Agung).
+Mengganti menjadi self-study atau pembelajaran mandiri. 

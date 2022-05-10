@@ -1,0 +1,35 @@
+Mon, 7 Mar
+
+Pada hari ini mempelajari tentang apa itu data, data science, computer vision, dan natural language processing.
+
+Tue, 8 Mar
+
+Pada hari ini mempelajari tentang matematika yaitu aljabar linier, matrik, vektor, dan numpy
+
+Wed, 9 Mar
+
+Pada hari ini mempelajari tentang machine learning, supervised learning, unsupervised learning, reinforment learning, deep learning dan neural network. 
+
+Thu, 10 Mar
+
+Pada hari ini ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00, yang membahas mengenai statistika, kemudian di lanjutkan belajar secara individu.
+
+Fri, 11 Mar
+
+Pada hari ini ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00, yang menjelaskan mengenai Object Oriented Programing dan juga mengenai core modules dan third party modules di phython.
+
+What did you learn this week?
+
+Senin, 7 Maret 2022
+Pada hari ini mempelajari tentang apa itu data, data science, computer vision, dan natural language processing.
+Selasa, 8 Maret 2022
+Pada hari ini mempelajari tentang matematika yaitu aljabar linier, matrik, vektor, dan numpy
+Rabu, 9 Maret 2022
+Pada hari ini mempelajari tentang machine learning, supervised learning, unsupervised learning, reinforment learning, deep learning dan neural network.
+Kamis, 10 Maret 2022
+Pada hari ini ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00, yang membahas mengenai statistika, kemudian di lanjutkan belajar secara individu.
+Jumat, 11 Maret 2022
+Pada hari ini ada 2 sesi, yang pertama di mulai pukul 08.00 - 10.00, kemudian sesi selanjutnya di mulai pukul 13.00 - 15.00, yang menjelaskan mengenai Object Oriented Programing dan juga mengenai core modules dan third party modules di python.
+
+
+

@@ -1,0 +1,129 @@
+Mon, 4 Apr
+
+kegiatan pembelajaran hari ini :
+1. Data Time Series
+2. Jenis Data
+3. Contohnya
+4. Cros Validation
+5. Statistic Model
+6. Box - Jenkins
+7. Seasonal
+8. Trend
+9. Kombinasi
+10. Evaluation Matriks
+
+Tue, 5 Apr
+
+Pada hari ini tentang Computer Vision
+1. Object detection milestones
+2. One stage vs two stage 
+3. Selective search for object detection 
+4. Image detection algorithms
+5. YOLO You Look Only Once
+6. YOLO Steps
+7. Encoding Multiple Bounding boxes
+8. Measuring Performance IoU
+9. Intersection over Union IoU
+10. Double Counting object(non - max Suppresion) 
+11. Loss function in YOLO
+
+Wed, 6 Apr
+
+Kegiatan pembelajaran hari ini mengenai :
+1. Recall : Bag of words dan TF-IDF
+2. Word2Vec
+3. Word2Vec - Skipgram
+4. Word2Vec - CBOW
+5. Word2Vec - Negative Sampling
+6. Word2Vec - Embedding Matrix / Table
+7. Word2Vec -Semantik (analogy)
+8. Word Embedding
+9. FastText
+10. Glove
+11. Reccurent Neural Network 
+12. Long Short-Term Memory
+13. Mempraktekkan materi dicolab
+
+Thu, 7 Apr
+
+Pada hari ini membahas tentang:
+- Q-learning termasuk dalam kategori Model-free RL Algoritma menggunakan Belman Equation untuk perhitungan sehingga kita perlu belajar konsep dasar RL untuk mempelajari Q-Learning.
+- Pada Q Learning dilakukan literasi:
+Policy Iteration & Value Iteration 
+- Pada Matriks Q-table akan ditentukan bernilai 0 semuanya dan akan di update sejalan dengan bertambahnya jumlah episode.
+- Deep Q Network
+- Update Q Table 
+- Mengerjakan Pre-Test & Post-Test 
+
+Fri, 8 Apr
+
+Kegiatan pada hari ini
+1. Http 
+2. Web Client & Web Server 
+3. RESTful API 
+4. HTTP Method pada RESTful API 
+5. Flask Module 
+6. Flask Endpoint 
+7. Flask Tempalate
+
+What did you learn this week?
+
+Kegiatan pada minggu ini : 
+Senin
+1. Data Time Series
+2. Jenis Data
+3. Contohnya
+4. Cros Validation
+5. Statistic Model
+6. Box - Jenkins
+7. Seasonal
+8. Trend
+9. Kombinasi
+10. Evaluation Matriks
+
+Selasa 
+1. Object detection milestones
+2. One stage vs two stage 
+3. Selective search for object detection 
+4. Image detection algorithms
+5. YOLO You Look Only Once
+6. YOLO Steps
+7. Encoding Multiple Bounding boxes
+8. Measuring Performance IoU
+9. Intersection over Union IoU
+10. Double Counting object(non - max Suppresion) 
+11. Loss function in YOLO
+
+Rabu 
+1. Recall : Bag of words dan TF-IDF
+2. Word2Vec
+3. Word2Vec - Skipgram
+4. Word2Vec - CBOW
+5. Word2Vec - Negative Sampling
+6. Word2Vec - Embedding Matrix / Table
+7. Word2Vec -Semantik (analogy)
+8. Word Embedding
+9. FastText
+10. Glove
+11. Reccurent Neural Network 
+12. Long Short-Term Memory
+13. Mempraktekkan materi dicolab
+
+Kamis 
+- Q-learning termasuk dalam kategori Model-free RL Algoritma menggunakan Belman Equation untuk perhitungan sehingga kita perlu belajar konsep dasar RL untuk mempelajari Q-Learning.
+- Pada Q Learning dilakukan literasi:
+Policy Iteration & Value Iteration 
+- Pada Matriks Q-table akan ditentukan bernilai 0 semuanya dan akan di update sejalan dengan bertambahnya jumlah episode.
+- Deep Q Network
+- Update Q Table 
+- Mengerjakan Pre-Test & Post-Test
+
+Jumat 
+1. Http 
+2. Web Client & Web Server 
+3. RESTful API 
+4. HTTP Method pada RESTful API 
+5. Flask Module 
+6. Flask Endpoint 
+7. Flask Tempalate
+
