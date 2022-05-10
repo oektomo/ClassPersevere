@@ -1,0 +1,57 @@
+Mon, 28 Feb
+
+Python Introduction
+Belajar Python Dasar dan pengenalan bahasa pemrograman python. 
+Forum Group discussion seputar python, tanya jawab dan sharing pengalaman.
+
+Tue, 1 Mar
+
+Python Data Types
+Mengenal tipe-tipe data pada python seperti, int, float, string, list, tuple, dll
+FGD/Forum Group Discussion, sesi tanya jawab dan latihan.
+
+Wed, 2 Mar
+
+Memahami Python Operator
+Mengeksplorasi input function di python
+Memahami conditional programming dan loops
+Memahami bagaimana menggunakan list comprehension di python
+
+Thu, 3 Mar
+
+Menyusun Power Point presentasi kelompok
+Latihan soal dan pembahasan
+Video Materi
+Membuat built in function yang populer di python, juga membuat user defined function
+Memahami generators, menggunakan map dan filter kuncinya
+
+Fri, 4 Mar
+
+memahami string manipulation
+memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di python
+presentasi kelompok
+
+What did you learn this week?
+
+Python Introduction
+Belajar Python Dasar dan pengenalan bahasa pemrograman python. 
+Forum Group discussion seputar python, tanya jawab dan sharing pengalaman.
+
+Python Data Types
+Mengenal tipe-tipe data pada python seperti, int, float, string, list, tuple, dll
+FGD/Forum Group Discussion, sesi tanya jawab dan latihan.
+
+Penugasan
+
+Memahami Python Operator
+Mengeksplorasi input function di python
+Memahami conditional programming dan loops
+Memahami bagaimana menggunakan list comprehension di python
+Menyusun Power Point presentasi kelompok
+Latihan soal dan pembahasan
+Video Materi
+Membuat built in function yang populer di python, juga membuat user defined function
+Memahami generators, menggunakan map dan filter kuncinya
+memahami string manipulation
+memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di python
+presentasi kelompok

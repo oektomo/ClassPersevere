@@ -1,0 +1,39 @@
+Mon, 11 Apr
+
+Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU.
+Ketiga metode memiliki arsitektur model yang berbeda, sehingga kebaikan model yang dihasilkan akan berbeda.
+Untul evaluasi menggunakan teknik yang sama dengan metode pendekatan statistik.
+
+Tue, 12 Apr
+
+Autonencoders Neural Network adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autonencoders mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+Components dari Autonencoders:
+Encoder: bagian jaringan ini bertujuan mengompres atau reduce dimension disimpan kedalam latent space representation.
+Code: bagian dari jaringan yang mewakili input terkompresi yang diumpankan ke decoder.
+Decoder: bagian ini bertujuan untuk merekonstruksi masukan dari the latent space representation.
+
+Wed, 13 Apr
+
+Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya.
+Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+Transformer merupakan model deep learning yang menggunakan mekanisme attention untuk mengganti seluruh lapisan berbasis RNN.
+BERT merupakan model deep learning yang menggunakan tumpukan encoder dari arsitektur Transformer.
+
+Thu, 14 Apr
+
+Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot.
+Robot merupakan mesin yang beroperasikan secara otomatis yang menggantikan usaha manusia, meskipun mungkin tidak menyerupai manusia dalam penampilan atau melakukan fungsi dengan cara yang mirip manusia.
+Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh environment sebagai input, lalu DQN akan mengahasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut.
+
+Fri, 15 Apr
+
+Hari Libur
+
+What did you learn this week?
+
+Metode Deep Learning yang biasa digunakan untuk time series forecasting adalah RNN, LSTM, dan GRU.
+Autonencoders Neural Network adalah algoritma pembelajaran mesin tanpa pengawasan yang menerapkan backpropagation, Autonencoders mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+Transfer learning mengacu pada melatih model kemudian menggunakan model tersebut untuk menyelesaikan tugas lainnya.
+Attention mengacu pada pembobotan kata dengan melihat korelasi kata tersebut pada seluruh kalimat (bahkan kata itu sendiri).
+Robotics adalah suatu disiplin ilmu yang mempelajari tentang konsep suatu robot.
+Deep Q Network adalah sebuah NN yang menerima states yang diberikan oleh environment sebagai input, lalu DQN akan mengahasilkan output estimasi Q Values pada setiap actions yang dapat diambil pada state tersebut.

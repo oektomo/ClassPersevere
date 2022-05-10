@@ -1,0 +1,31 @@
+Mon, 14 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, yang membahas tentang numpy introduction, numpy array, pandas introduction, working with dataframe dan data import/export, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 melanjutkan membahas numpy dan pandas
+
+Tue, 15 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai data visualization in python using matplotlib & seaborn
+
+Wed, 16 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai Logistic Egression dan Decision Tree, kemudian dilanjutkan self-learning
+
+Thu, 17 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai KKN dan Deep Learning, kemudian dilanjutkan self-learning
+
+Fri, 18 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai Artificial Neural Network Basic dan Artificial Neural Network BackPropagation, kemudian dilanjutkan self-learning
+
+What did you learn this week?
+
+pada hari senin ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, yang membahas tentang numpy introduction, numpy array, pandas introduction, working with dataframe dan data import/export, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 melanjutkan membahas numpy dan pandas
+
+pada hari selasa ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai data visualization in python using matplotlib & seaborn
+
+pada hari rabu ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai Logistic Egression dan Decision Tree, kemudian dilanjutkan self-learning
+
+pada hari kamis ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai KKN dan Deep Learning, kemudian dilanjutkan self-learning
+
+pada hari jumat ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai Artificial Neural Network Basic dan Artificial Neural Network BackPropagation, kemudian dilanjutkan self-learning

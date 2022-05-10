@@ -1,0 +1,53 @@
+Mon, 28 Mar
+
+Data Science:
+membahas mengenai pengurangan dimensi / feature pada sebuah data untuk menghindari overfitting
+NLP:
+Data collection, Pre-processing ,Case Folding, Filtering Stopword Stemming
+Feature Extraction  BoW TF-IDF Feature Selection Chi-Square
+
+Tue, 29 Mar
+
+computer vision: deep learning menggunakan CNN
+RL: membahas mengenai monte carlo
+
+Wed, 30 Mar
+
+Data Science: Sistem rekomendasi dan market basket analysis
+NLP: Teks klasifikasi
+
+Thu, 31 Mar
+
+RL: Sejarah Reinforcement Learning (RL), Algoritma RL, Elements & Environment dari RL, Aplikasi dari RL
+teknikal: membuat GDS (google data studio)
+
+Fri, 1 Apr
+
+membuat web scraping  dan handson computer vision
+
+What did you learn this week?
+
+Senin 28 Mar 2022
+Data Science:
+membahas mengenai pengurangan dimensi / feature pada sebuah data untuk menghindari overfitting
+NLP:
+Data collection, Pre-processing ,Case Folding, Filtering Stopword Stemming
+Feature Extraction  BoW TF-IDF Feature Selection Chi-Square
+
+Selasa
+29 Mar 2022
+computer vision: deep learning menggunakan CNN
+RL: membahas mengenai monte carlo
+
+Rabu 30 Mar 2022
+Data Science: Sistem rekomendasi dan market basket analysis
+NLP: Teks klasifikasi
+
+Kamis 31 Mar 2022
+hands on computer vision
+teknikal: membuat GDS (google data studio)
+
+Jumat 1 Apr 2022
+RL: Sejarah Reinforcement Learning (RL), Algoritma RL, Elements & Environment dari RL, Aplikasi dari RL
+teknikal:
+membuat web scraping  

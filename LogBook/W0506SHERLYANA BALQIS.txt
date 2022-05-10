@@ -1,0 +1,72 @@
+Mon, 21 Mar
+
+NLP adalah cabang keilmuan dari kecerdasan buatan yang mempelajari interaksi antara komputer dan manusia menggunakan bahasa alami.
+NLP terdiri dari NLU ( kemampuan membaca) dan NLG (kemampuan menulis).
+Area aplikasi dari NLP: QAS, information retrieval, text summarization, text classification, machine translation.
+NLP pipeline merujuk pada langkah-langkah yang dilakukan untuk membangun sistem berbasis NLP. Secara umum terdiri dari akuisisi data, text cleaning, text processing, rekayasa fitur, pemodelan, evaluasi model, deployment dan monitoring.
+
+Tue, 22 Mar
+
+Elemen pada Reinforcement Learning
+Ada 4 sub elemen sebagai penyusun utama sistem Reinforcement Learning:
+1. Policy
+2. Reward signal
+3. Value function
+4. Model Environment (optional)
+
+Wed, 23 Mar
+
+Data Science merupakan proses memahami atau memperoleh informasi dari suatu data mentah yang selanjutnya dapat digunakan untuk prediksi atau menentukan kategori.
+Data yang bisa diproses pada data science adalah data yang berbentuk tabular, baik data dengan 1 kolom maupun multiple kolom.
+Data science bermanfaat untuk memberikan suatu informasi serta melakukan prediksi.
+Model atau algoritme pada data science diantaranya regresi, moving average, dan ensemble technique
+Feature Extraction adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning.
+Ada dua jenis contoh Feature Extraction yang bisa digunakan, yaitu BoW dan TF-IDF.
+N-gram adalah rangkaian kata atau token yang berkesinambungan dalam sebiah dokumen yang digunakan untuk proses pada machine learning yang biasanya dijadikan fitur/atribut.
+Feature Filtering adalah proses untuk menghapus kata-kata atau simbol yang tidak penting, seperti html tag, url, tanda baca.
+
+Thu, 24 Mar
+
+Sesi 1 : Perkenalan tentang computer vision adalah bidangA.I yangdigunakan untuk memproses, menganalisa,dan memahami citra (images) dan penerapannya. 
+
+Sesi 2 :
+● Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber
+● Github adalah sebuah platform untuk membuat repository remote sehingga antar developer bisaberkolaborasi satu sama lain
+● KomponenSCM terdiri dari developer, local environment, dan remote environment
+● OperasiSCM meliputi aktivitas lokal dan aktivitas remote
+● Commit, Checkout, Branching, dan Mergingmerupakan contoh aktivitas lokal
+● Push, Pull, Fetch, dan Clone merupakan contoh aktivitas remote
+
+Fri, 25 Mar
+
+Markov Decision Process merupakan sebuah tuple (S, A, P, R, y).
+MDP mendeskripsikan secara formal lingkungan untuk RL.
+Secara spesifik biasanya dibuat saat environment fully observable.
+Hampir semua RL problems dapat diformalisasi menggunakan MDP.
+SQL adalah bahasa standar yang digunakan pada database relasional.
+Kelompok perintah DDL digunakan untuk membuat/memodifikasi objek database seperti tabel dan alinnya.
+Filtering dan Subsetting data pada suatu tabel dapat dilakukan menggunakan SELECT dan WHERE beserta Operator.
+
+What did you learn this week?
+
+NLP adalah cabang keilmuan dari kecerdasan buatan yang mempelajari interaksi antara komputer dan manusia menggunakan bahasa alami.
+NLP terdiri dari NLU ( kemampuan membaca) dan NLG (kemampuan menulis).
+Area aplikasi dari NLP: QAS, information retrieval, text summarization, text classification, machine translation.
+Elemen pada Reinforcement Learning
+Ada 4 sub elemen sebagai penyusun utama sistem Reinforcement Learning:
+1. Policy
+2. Reward signal
+3. Value function
+4. Model Environment (optional)
+Data Science merupakan proses memahami atau memperoleh informasi dari suatu data mentah yang selanjutnya dapat digunakan untuk prediksi atau menentukan kategori.
+Data yang bisa diproses pada data science adalah data yang berbentuk tabular, baik data dengan 1 kolom maupun multiple kolom.
+eature Extraction adalah proses mengubah kata menjadi bentuk vektor agar bisa diproses oleh algoritme machine learning.
+Ada dua jenis contoh Feature Extraction yang bisa digunakan, yaitu BoW dan TF-IDF.
+Computer vision adalah bidang AI yang digunakan untuk memproses, menganalisa, dan memahami citra (images).
+Duplikat atau tiruan dari human vision (penglihatan manusia).
+GIt adalah sistem kontrol versi terdistribusi untuk melacak perubahan kode sumber.
+Github adalah sebuah paltform untuk membuat repository remote sehingga antar developer bisa berkolaborasi satu sama lain.
+MDP mendeskripsikan secara formal lingkungan untuk RL.
+Secara spesifik biasanya dibuat saat environment fully observable.
+SQL adalah bahasa standar yang digunakan pada database relasional.
+Kelompok perintah DDL digunakan untuk membuat/memodifikasi objek database seperti tabel dan alinnya

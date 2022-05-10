@@ -1,0 +1,52 @@
+Mon, 21 Mar
+
+Hal yang dipelajari Data Science pada hari ini adalah
+• Memahami tentang data science
+• Mengerti data yang terdapat pada data science
+• Mengerti manfaat data science
+• Memahami model / algoritme pada data science
+
+Tue, 22 Mar
+
+hari ini adalah pengenalan computer vision dan reinfocrment learning, 
+
+Wed, 23 Mar
+
+pada hari rabu, hal yang dipelajari adalah, data science dan NLP
+untuk data science adalah belajar mengeneai visualisasi data menggunakan tableau, kegiatan ini didiukung dengan tugas kelompok membuat visualisasi data
+untuk NLP, adalah membahas mengenai text reprentation
+
+Thu, 24 Mar
+
+hari kamis adalah teknikal dan computer vision, untuk teknikal hal yg dipelajari adalah  praktek mengenai git dan github, sedangkan cv hal yang dipelajari adalah image processing
+
+Fri, 25 Mar
+
+RL: hal yg dipelajari adalah MDP (makrov Decision Proses) dan dynamic programming,
+Teknikal: membuat database
+
+What did you learn this week?
+
+Senin 21 Mar 2022
+Hal yang dipelajari Data Science pada hari ini adalah
+• Memahami tentang data science
+• Mengerti data yang terdapat pada data science
+• Mengerti manfaat data science
+• Memahami model / algoritme pada data science
+
+Selasa
+
+22 Mar 2022
+hari ini adalah pengenalan computer vision dan reinfocrment learning, 
+
+Rabu 23 Mar 2022
+pada hari rabu, hal yang dipelajari adalah, data science dan NLP
+untuk data science adalah belajar mengeneai visualisasi data menggunakan tableau, kegiatan ini didiukung dengan tugas kelompok membuat visualisasi data
+untuk NLP, adalah membahas mengenai text reprentation
+
+Kamis 24 Mar 2022
+hari kamis adalah teknikal dan computer vision, untuk teknikal hal yg dipelajari adalah  praktek mengenai git dan github, sedangkan cv hal yang dipelajari adalah image processing
+
+Jumat 25 Mar 2022
+RL: hal yg dipelajari adalah MDP (makrov Decision Proses) dan dynamic programming,
+Teknikal: membuat database

@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+Hari ini libur tanggal merah
+
+Tue, 1 Mar
+
+Mempelajari apa itu python, fitur-fitur yang ada pada python dan aplikasi nya. Mengenal jupyter notenook dan melakukan isntallasi nya
+
+Wed, 2 Mar
+
+mengetahui operator pada python - python control flow : if else, for loop, dan while loop
+
+Thu, 3 Mar
+
+Libur nasional tanggal merah :)
+
+Fri, 4 Mar
+
+Mempelajari algoritma, jenis struktur dasar algoritma, flowchart, dan pemrograman, Basic data struktur dan algorithm
+
+What did you learn this week?
+
+Operator di Python digunakan untuk melakukan manipulasi data. Python control flow structure berupa - if else, for loop dan while loop. Loop digunakan untuk mengulang eksekusi kode yang ada.Python Generator membantu dalam menghemat memori dengan melakukan pemrosesan data secara efisien termasuk dalam melakukan perhitungan. Fungsi map dan filter dapat digunakan untuk melakukan transformasi dan pemfilteran data pada objek yang dapat diubah.

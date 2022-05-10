@@ -1,0 +1,45 @@
+Mon, 21 Mar
+
+08:00 - 12:00 WIB (Sesi1-DS: Intro to Data Science)
+-13:00 - 17:00 WIB (Sesi 2 - NLP: Intro to Natural m Language Processing)
+
+Tue, 22 Mar
+
+08:00 - 12:00 WIB (Sesi1- CV : Intro to Computer Vision)
+13:00 - 17:00 WIB (Sesi 2 -RL/Robotics : Intro to Reinforcement Learning)
+
+Wed, 23 Mar
+
+sesi pagi : Data Science.                                                                               sesi siang :  Natural Language Processing
+
+Thu, 24 Mar
+
+sesi pagi ( Computer Vision )                                                               sesi siang ( Reinforcement Learning/Robotics )
+
+Fri, 25 Mar
+
+Reinforcement Learning  08.00-11.30                   Technical  13.00 - 16.30
+
+What did you learn this week?
+
+senin                                                                                                                             08:00 - 12:00 WIB (Sesil-DS: Intro to Data
+Science)
+-13:00 - 17:00 WIB (Sesi 2 - NLP: Intro to Natural m
+Language Processing)
+Selasa
+22 Mar 2022
+08:00 - 12:00 WIB (Sesil- CV: Intro to Computer
+Vision)
+13:00 - 17:00 WIB (Sesi2 -RL/Robotics: Intro to
+Reinforcement Learning)
+Rabu
+23 Mar 2022
+sesi pagi : Data Science
+sesi sing : Natural Language Processing Kamis
+24 Mar 2022
+sesi pagi (Computer Vision)
+sesi sing (Reinforcement Learning/Robotics)
+Jumat
+25 Mar 2022
+Reinforcement Learning 08.00-11.30
+Technical 13.00-16.30

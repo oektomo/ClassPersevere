@@ -1,0 +1,417 @@
+Mon, 7 Mar
+
+Hari ini saya belajar tentang data(kumpulan fakta) yang tidak terlalu spesifik dan informasi (data yang sudah diolah) yang spesifik. Ada data terstruktur seperti file database, excel, csv dan data tidak terstruktur seperti gambar, suara, vide, dll. SUmber data ada banyak seperti social media, sinyal(sensor), transaksi bisnis dll.
+
+Berdasarkan diagram venn, Artificial Intelligence(Machine Learning(deep learning)), Didalam kecerdasan buatan ada machine learning(mesin yang belajar dari data). Lalu didalam machine learning ada deep learning(lebih mendalam. Diluar AI ini ada data analystics yang meliputi statistics dan visualisasiseperti melihat korelasi antara dua data dan untuk mengetahui seberapa baik machine belajar(cakupan data science) yang merupakan data terstruktur.  Untuk data tidak terstruktur seperti image processing (image, video dll)yang merupakan cakupan computer vision contohnya data dari social media dan Text/speech processing seperti mengconvert suara ke text ataupun sebaliknya yang merupakan cakupan NLP. lalu ada reinforcement learning. Contoh project sendiri seperti data science(prediksi stock, harga rumah, apakah customer akan membeli product atau tidak, mengkalsifikasikan customer, mendeteksi penipuan, dll). computer vision (face recognition, emotion recognition, documen verification, authentication, self driving cars, dll). NLP(test/document classification, social media text mining dan analysis, machine translation, cahtbots, personal assistant dll. Reinforcement learning(playing game, social media, education, self driving cars, marketing and ads, dll).
+Machine learning cloud platform seperti Microsoft Azure ML studio, Amazon Machine Learning, SAP Leonardo MAchine Learning, Google ML Platform dan IBM Machine Learning. Machine learning masih kesuliatan untuk melakukan deskriptif analisis.
+
+Tue, 8 Mar
+
+Hari ini saya belajar tentang Matematika untuk AI, yang saya ketahui antara lain, yaitu : 
+Peluang : konsep dasar peluang, peluang bersyarat, teorema bayes
+Aljabar linier(seperti 3x + 2y/beberapa variable) : matriks, vektor, nilai & vektor elgen
+Kalkulus: fungsi(f(x)), turunan, optimasi
+
+Aljabar linier : vektor
+vektor(kumpulan nilai dari variable tertentu) : besaran yang memeiliki nilai dan arah
+skalar : besaran yang memiliki nilai
+kecepatann dalam bahasa inggiri ada 2 yaitu speed, velocity
+
+perjumlahan vektor hanya dapat dilakukan saat vektor berhimpitan.
+dot product(resultan vektor a * resultan vektor b) mrnghasilkan nilai skalar.
+
+||vektor (a)|| = akar(a1^2, a2^2....an^2) --> generalisasi dari rumus pythagoras
+
+semakin banyak elemen semakin banyak komputasi. untuk mengurangi komputasi bisa menggunakan jarak manhattan.
+
+Matrix terdiri dari bari(m)s dan kolom(n) yang berukuran mxn. untuk perkalian matriks AxB maka kolom matriks A harus sama dengan baris matriks B. Jika determinan matrix bernilai 0, maka matrix tidak memiliki invers(matrix singular). Matrix yang mempunyai invers harus persegi dan ranknya penuh jadi determinan tidak sama dengan 0. matrik kA = Ak dengan k adalah konstanta(komutatif). matrik A(bc) = matriks (Ab)c (bersifat asosiatif). Jika matrix memiliki invers berarti matrix memiliki identitas.
+
+matrix x bisa berubah menjadi matrix b jika ditransformasikan oleh matrix lain(misalnya matrix A).
+
+eigen(bahasa jerman) : karakteristik.
+vektor eigen : vektor yang menjadi karakteristik sebuah matrix dimana arahnya tidak berubah meski dilakukan transformasi.
+
+matrix 2x2 akan memiliki 2 vektor eigen
+matrix 3x3 akan memiliki 3 vektor eigen
+penerapan eigenvalue dan eigenvektor pada AI 
+
+kombinasi liner : x+2y+3x jika dikali 2, 3, 4 dst
+
+kalkulus (dasarnya mulai dari limit) : fungsi(aturan yang memetakan antara 2 himpunan) & gradient(besaran perubahan/kemiringan).
+
+mengimport numpy : import numpy as np
+as = mengganti numpy menjadi np(*tidak harus np tetapi np lebih umum digunakan) biar lebih singkat dan mudah 
+
+Array 1D( vektor)
+a = np.array([3, 1, 5, 6])
+a[0] = 3, a[1] = 1, a[2] = 5, a[3] = 6
+membuat array 2D(matriks)
+A = np.array([[1,2,3], [4,5,6], [7,8,9]])
+banyak entri = a.size : 4
+dimensi array = a.ndim : 1
+ukuran array = a.shape : (4,)
+slicing
+a[1:] = array indeks ke 1 sampai terakhir
+a[1:3] = array indeks ke 1 sampai indeks ke (3-1)
+a[:3] = array indeks pertama(0) sampai indeks ke (3-1)
+
+untuk array 2 dimensi(array dalam array) bisa menggunaakn:
+A[0][2] = 3
+A[0, 2] = 3
+A[2][0] = 7
+A[2, 0] = 7
+slicing
+A[1] : array([4, 5, 6]) #semua baris di indeks ke 1
+A[1, 1:] : array([5, 6]) #baris di indeks ke 1 kolom indeks ke 1 hingga akhir
+A[:2] = array baris indeks ke 0 hingga indeks ke (2-1)
+
+perkalian dot vektor : np.dot(vektor1, vektor2)
+perkalian matrix : np.matmul(A,B)
+jika hanya A*B maka yang dikalian hanya antar entri
+Ada banyak operasi matematika lain dalam numpy seperti np.mean(), np.median(), np.sort(), dll.
+
+Supervised Learning : belajar yang diajari
+Unsupervised Learning : bagaimana komputer bisa mengelompokkan data
+Reinforced Learning : learning by doing(coba coba)
+
+supervides learning:
+estimasi -->korelasi
+perediksi/forecasting-->pola,linear, periodik
+classification-->menentukan/mengelompokkan
+
+unsupervised learning:
+clustering-->mengelompokkan berdasarkan properti
+association
+
+7 langkah dalam ML yaitu gathering data, preparing data, choosing model, training model, evaluasi, tuning hyperparameter dan prediction.
+
+Wed, 9 Mar
+
+Hari ini saya belajar tentag lanjutan Machine Learning dari modul kemarin dan Deep Learning, dengan beberapa hal yang saya catat sebagai berikut.
+
+Traditional programing : data sebagai input program yang dibuat dengan aturan-aturan agar program bisa berjalan
+
+ML Approach : data dan jawaban akan diolah sehingga menghasilkan aturan tertentu.
+
+Unsupervise learning : belajar tanpa diawasi
+
+Estimasi : mencoba memperkirakan sebuah parameter yang tidak dapat dihitung secara langsung
+
+Prediction/forecasting : 
+
+clustering : pengelompokkan dari ciri cirinya tanpa tau kebenarannya
+
+ML workflow : start(traning data
+Metrics Evaluation
+Regression(MSPE, MSAE, R Square, Adjust R Square)
+Classification(Precision-Recall, ROC-AUC, Accuracy, Log-loss)
+Unsuperviswd Models(Rand Index, Mutal Information)
+Others(CV error, Heuristic methods to find K, BLEU Score(NLP))
+
+Kelebihan ML
+-mudah dalam mengidentifikasi trend dan pola pada data
+-tidak perlu campur tangan manusia
+-pengembangan dapat dilakukan secara berkelanjutan
+-mampu menangani data multidimensi dan multi-variasi
+-aplikasi/implementasi yang luas
+
+kekurangan
+-rentan terhadap kesalahan
+-akuisisi data(memerlukan data yang sangat banyak)
+-hasil bersifat interpretasi
+
+Supervised learning
+ciri - ciri:
+-data training telah diberi label(*jika hasil tidak sesuai dengan label
+-algoritma memprediksi output dari input, ex. klasifikasi(memetakan masukan ke label keluaran) dan regresi(memetakan masukan ke keluaran berkelanjutan)
+
+Unsupervised Learning:
+-data training tidak berlabel
+-algoritma mempelajari struktur data dari masukan, ex. clustering(mempelajari hubungan antara fitur individu) dan dimensional reduction(metode untuk mengurangi fitur)
+
+AI(ML(Deep Learning))
+AI : teknik yang memungkinkan komputer meniru kecerdasan manusia
+ML (input->Feuture extraction ->Classification ->Output): bagian dari AI yang memungkinkan mesin untuk mengerjakan tugasnya dengan lebih baik berdasarkan pengalaman
+Deep learning(Input ->Feature extraction+classification -> output : bagian dar ml yang memungkinkan software untuk melatih dirinya sendiri untuk melakukan tugas dengan data dalam jumlah besar
+
+Artificial Neural Network(ANN) : teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. ANN merupakan cikal bakal dari Deep learning.
+contoh penerapan deep learning : face recognition, speech recognition, character recognition.
+
+Melatih model deep learning bergantung pada faktor-faktor seperti hardware, pengoptimalan, jumlah lapisan dalam jaringan sarad, arsitektur neural network, ukuran dataset, dll.
+
+kelemahan deep learning : boros di komputasional, memproses data yang banyak dengan GPU dan memakan waktu lama, hasil tidak seakurat ML jika data sedikit, jumlah data yang diperlukan sangat banyak dan memerlukan komputer dengan GPU atau TPU, sulit melakukan tuning terbaik karena bobot akan diupdate disetiap layernya.
+
+Contoh framework deep learning(Tensorflow, pytorch, DL4J, theani, keras, caffe, dll.)
+
+ANN terdiri dari sejumlah besar neuron yang saling berhubungan dan bekerja secara bersama untuk memecahkan masalah tertentu.
+
+Kelebihan ANN : berguna untuk robotika dan sistem pengenalan pola, keluarannya tidak sepenuhnya dibatasi oleh input dan hasil yang diberikan di awal oleh sistem pakar, memiliki potensi toleransi kesalahan yang tinggi, mampu mendebig/mendagnosus jaringan sendiri dan sistem nonlinear yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal.
+
+Activitastion function membantu menyelesaikan permasalah-permasalahan yang bersifat non-trivial dalam suatu neural network dengan cara mengambil sebuah nilai dan melakukan operasi matematika. Fungsi-fungsi matematika yang umum digunakan pada ANN adalah ReLu dan Sigmoid.
+
+Loss function/Cost function(fungsi yang menggabarkan kerugian) digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target.
+
+Optimizer adalah fungsi pengoptimalan yang dapat digunakan untuk memperbarui
+weight network secara iteratif berdasarkan data training.Ex. gradient descent, SGD, momentum,dan ADAM (Adaptive Moment Estimation) optimizer.
+
+Back-propagation–adalah proses memperbaharui bobot dari network untuk 
+mereduksi error dalam hasil prediksi
+Gradient descent, adalah proses menyesuaikan parameter model untuk turun melalui loss function
+
+sebuah gambar merupakan matriks [0, 255] = 8 bit = 1 byte.
+
+Thu, 10 Mar
+
+Hari ini saya belajar tentang Ai project cycle pada sesi pertama dan statistika pada sesi kedua.
+Sesi Pertama : 
+-untuk mencari solusi, harus mendefinsikan permasalahannya, dimana jika kita dapat mendefinisikan masalah dengan baik, maka penyelesaiannya sudah sampai setengah jalan.untuk menentukan model, harus menentukan pola terlebih dahulu. Kita dapat mendefinisikan masalah menggunakan 4W(Who, What, Where, Why)
+sumber data : tools/alat, observasi, data yang tersedia seperti surevys, ws, sensor, API dll.
+flow : menggambarkan bagaimana arus informasi mengalir dalam algoritma
+system map : memahami sebuah masalah yang komplex
+siklus project = problem scoping -> data acquisition(pengambilan data) -> data exploration(*cukup lama, dilakukan secara manual, semi manual, otomatis(scraping)) -> modelling -> evaluation -> deployment
+-tools yang digunakan untuk akuisisi data harus dipastikan validitas, reliabilitas dan sensitivitasnya.
+-eksplorasi data dilakukan untuk memahami tren,hubungan dan pola yang terkandung dalam data, yang bisanya direprentasikan menggunakan visual agar lebih mudah untuk dipahami.
+-Representasi data : akurasi, presisi, recall
+Sesi kedua:
+-Data terstruktur (tanggal, nomor telepon, alamat, nomor kartu kredit, dll)
+-Data tidak terstruktur(dibuat manusia(email, file text, media sosial, aplikasi bisnis, dll), dibuat mesin(gambar satelit, data ilmiah, pengawasan digital, sata sensor))
+-Data semi terstruktur(bahasa markup XML, JSON, NoSQL)
+-Noisy data(random noise(suara bising saat meet), human error(salah input data), outlier).
+-Statistika : ilmu yang berkaitan dengan pengukuran(ukuran tendensi sentral(mean, median modus), dll),pengumpulan, penataan, penyajian(tabel, grafik, diagram,dll), analisis,
+dan interpretasi data menjadi informasi untuk membantu pengambilan keputusan yang efektif.
+-Istilah penting : populasi, sensus, servey, sample
+-ukuran penyebaran : range, kuartil dan inter quartil, varians, standar deviasi.
+jenis variable : categorical(nominal,ordinal), numerical(interval, rasio)
+-status multivariat : kovarians, korelasi
+-Statistik inferemsial : pengujian hipotesis(Ho(klaim awal didasarakan pada analisis), Ha(digunakan untuk membuktikan kebenaran bedasarkan data sample), kesalahan tipe I dan II, distribusi normal
+-Ho diterima jika nilai p-value lebih besar dari alpha, jika tidak maka Ho ditolak
+-Uji hipotesis : uji T, tes Chi Square, ANOVA
+Hari ini saya juga belajar tentang bagaimana pengaplikasian statistika pada python menggunakan library numpy dan stats dari scipy.
+
+Fri, 11 Mar
+
+Hari ini saya belajar tentang OOP , seperti :
+Procedural : lebih susah untuk melakukan management saat code sudah terlalu complex(lebih ditekankan algoritmanya)
+Object Oriented : menekankan lebih ke struktur data dibandingkan algoritma yang membuat object oriented lebih gampang untuk dimanagemen.
+OOP terminilogi : object, instance, method(fungsi didalam object), constructor method, class variable, instance variable
+Code yang efisien sendiri bisa dilihat dari readability(mudah dibaca dan dimengerti), reusability(bisa digunakan berkali-kali), dan runtime
+super() : memanggil fungsi dari fungsi org tua
+Child bisa memanggil perintah pada parent tetapi parent tidak bisa memanggil perintah pada child.
+Biasanya dalam membuat class hruf pertamanya huruf besar sedangkan object huruf pertamanya huruf kecil.
+Ciri-ciri utama OOP : Inhetitance, polymoreh, encapsulation
+
+Custom modul(dibuat sendiri) yang disimpan menggunakan extention .py . Custom modul bisanya dibuat untuk splitting code agar code lebih mudah untuk dirawat dan dibaca.
+Untuk modul built in pada python biasanya dibuat oleh pihak ketiga menggunakan bahasa c.
+keuntungan dari modules : reusability, simplicity, scoping
+Saya juga menjalankan program sederhana untuk menyelesaikan permasalahan fisika seperti gerak lurus beraturan, gerak lurus berubah beraturan, dan gerak lurus berubah beraturan(numerik) menggunakan python.
+
+Selain itu, tadi kami kembali mereview materi materi sebelumnya, seperti:
+Ruang vektor : vektor dalam 2D, vektor dalam ruang 3D
+Machine learning : regression, dimensionally reduction, density estimation, classification
+AI, deep laerning, traditional programming(approach), machine larning approach, dll.
+
+What did you learn this week?
+
+Minggu ini saya belajar tentang
+-hari senin
+ data(kumpulan fakta) yang tidak terlalu spesifik dan informasi (data yang sudah diolah) yang spesifik. Ada data terstruktur seperti file database, excel, csv dan data tidak terstruktur seperti gambar, suara, vide, dll. SUmber data ada banyak seperti social media, sinyal(sensor), transaksi bisnis dll.
+
+Berdasarkan diagram venn, Artificial Intelligence(Machine Learning(deep learning)), Didalam kecerdasan buatan ada machine learning(mesin yang belajar dari data). Lalu didalam machine learning ada deep learning(lebih mendalam. Diluar AI ini ada data analystics yang meliputi statistics dan visualisasiseperti melihat korelasi antara dua data dan untuk mengetahui seberapa baik machine belajar(cakupan data science) yang merupakan data terstruktur.  Untuk data tidak terstruktur seperti image processing (image, video dll)yang merupakan cakupan computer vision contohnya data dari social media dan Text/speech processing seperti mengconvert suara ke text ataupun sebaliknya yang merupakan cakupan NLP. lalu ada reinforcement learning. Contoh project sendiri seperti data science(prediksi stock, harga rumah, apakah customer akan membeli product atau tidak, mengkalsifikasikan customer, mendeteksi penipuan, dll). computer vision (face recognition, emotion recognition, documen verification, authentication, self driving cars, dll). NLP(test/document classification, social media text mining dan analysis, machine translation, cahtbots, personal assistant dll. Reinforcement learning(playing game, social media, education, self driving cars, marketing and ads, dll).
+Machine learning cloud platform seperti Microsoft Azure ML studio, Amazon Machine Learning, SAP Leonardo MAchine Learning, Google ML Platform dan IBM Machine Learning. Machine learning masih kesuliatan untuk melakukan deskriptif analisis.
+
+-hari selasa
+saya belajar tentang Matematika untuk AI, yang saya ketahui antara lain, yaitu : 
+Peluang : konsep dasar peluang, peluang bersyarat, teorema bayes
+Aljabar linier(seperti 3x + 2y/beberapa variable) : matriks, vektor, nilai & vektor elgen
+Kalkulus: fungsi(f(x)), turunan, optimasi
+
+Aljabar linier : vektor
+vektor(kumpulan nilai dari variable tertentu) : besaran yang memeiliki nilai dan arah
+skalar : besaran yang memiliki nilai
+kecepatann dalam bahasa inggiri ada 2 yaitu speed, velocity
+
+perjumlahan vektor hanya dapat dilakukan saat vektor berhimpitan.
+dot product(resultan vektor a * resultan vektor b) mrnghasilkan nilai skalar.
+
+||vektor (a)|| = akar(a1^2, a2^2....an^2) --> generalisasi dari rumus pythagoras
+
+semakin banyak elemen semakin banyak komputasi. untuk mengurangi komputasi bisa menggunakan jarak manhattan.
+
+Matrix terdiri dari bari(m)s dan kolom(n) yang berukuran mxn. untuk perkalian matriks AxB maka kolom matriks A harus sama dengan baris matriks B. Jika determinan matrix bernilai 0, maka matrix tidak memiliki invers(matrix singular). Matrix yang mempunyai invers harus persegi dan ranknya penuh jadi determinan tidak sama dengan 0. matrik kA = Ak dengan k adalah konstanta(komutatif). matrik A(bc) = matriks (Ab)c (bersifat asosiatif). Jika matrix memiliki invers berarti matrix memiliki identitas.
+
+matrix x bisa berubah menjadi matrix b jika ditransformasikan oleh matrix lain(misalnya matrix A).
+
+eigen(bahasa jerman) : karakteristik.
+vektor eigen : vektor yang menjadi karakteristik sebuah matrix dimana arahnya tidak berubah meski dilakukan transformasi.
+
+matrix 2x2 akan memiliki 2 vektor eigen
+matrix 3x3 akan memiliki 3 vektor eigen
+penerapan eigenvalue dan eigenvektor pada AI 
+
+kombinasi liner : x+2y+3x jika dikali 2, 3, 4 dst
+
+kalkulus (dasarnya mulai dari limit) : fungsi(aturan yang memetakan antara 2 himpunan) & gradient(besaran perubahan/kemiringan).
+
+mengimport numpy : import numpy as np
+as = mengganti numpy menjadi np(*tidak harus np tetapi np lebih umum digunakan) biar lebih singkat dan mudah 
+
+Array 1D( vektor)
+a = np.array([3, 1, 5, 6])
+a[0] = 3, a[1] = 1, a[2] = 5, a[3] = 6
+membuat array 2D(matriks)
+A = np.array([[1,2,3], [4,5,6], [7,8,9]])
+banyak entri = a.size : 4
+dimensi array = a.ndim : 1
+ukuran array = a.shape : (4,)
+slicing
+a[1:] = array indeks ke 1 sampai terakhir
+a[1:3] = array indeks ke 1 sampai indeks ke (3-1)
+a[:3] = array indeks pertama(0) sampai indeks ke (3-1)
+
+untuk array 2 dimensi(array dalam array) bisa menggunaakn:
+A[0][2] = 3
+A[0, 2] = 3
+A[2][0] = 7
+A[2, 0] = 7
+slicing
+A[1] : array([4, 5, 6]) #semua baris di indeks ke 1
+A[1, 1:] : array([5, 6]) #baris di indeks ke 1 kolom indeks ke 1 hingga akhir
+A[:2] = array baris indeks ke 0 hingga indeks ke (2-1)
+
+perkalian dot vektor : np.dot(vektor1, vektor2)
+perkalian matrix : np.matmul(A,B)
+jika hanya A*B maka yang dikalian hanya antar entri
+Ada banyak operasi matematika lain dalam numpy seperti np.mean(), np.median(), np.sort(), dll.
+
+Supervised Learning : belajar yang diajari
+Unsupervised Learning : bagaimana komputer bisa mengelompokkan data
+Reinforced Learning : learning by doing(coba coba)
+
+supervides learning:
+estimasi -->korelasi
+perediksi/forecasting-->pola,linear, periodik
+classification-->menentukan/mengelompokkan
+
+unsupervised learning:
+clustering-->mengelompokkan berdasarkan properti
+association
+
+7 langkah dalam ML yaitu gathering data, preparing data, choosing model, training model, evaluasi, tuning hyperparameter dan prediction.
+
+-hari rabu
+Traditional programing : data sebagai input program yang dibuat dengan aturan-aturan agar program bisa berjalan
+
+ML Approach : data dan jawaban akan diolah sehingga menghasilkan aturan tertentu.
+
+Unsupervise learning : belajar tanpa diawasi
+
+Estimasi : mencoba memperkirakan sebuah parameter yang tidak dapat dihitung secara langsung
+
+Prediction/forecasting : 
+
+clustering : pengelompokkan dari ciri cirinya tanpa tau kebenarannya
+
+ML workflow : start(traning data
+Metrics Evaluation
+Regression(MSPE, MSAE, R Square, Adjust R Square)
+Classification(Precision-Recall, ROC-AUC, Accuracy, Log-loss)
+Unsuperviswd Models(Rand Index, Mutal Information)
+Others(CV error, Heuristic methods to find K, BLEU Score(NLP))
+
+Kelebihan ML
+-mudah dalam mengidentifikasi trend dan pola pada data
+-tidak perlu campur tangan manusia
+-pengembangan dapat dilakukan secara berkelanjutan
+-mampu menangani data multidimensi dan multi-variasi
+-aplikasi/implementasi yang luas
+
+kekurangan
+-rentan terhadap kesalahan
+-akuisisi data(memerlukan data yang sangat banyak)
+-hasil bersifat interpretasi
+
+Supervised learning
+ciri - ciri:
+-data training telah diberi label(*jika hasil tidak sesuai dengan label
+-algoritma memprediksi output dari input, ex. klasifikasi(memetakan masukan ke label keluaran) dan regresi(memetakan masukan ke keluaran berkelanjutan)
+
+Unsupervised Learning:
+-data training tidak berlabel
+-algoritma mempelajari struktur data dari masukan, ex. clustering(mempelajari hubungan antara fitur individu) dan dimensional reduction(metode untuk mengurangi fitur)
+
+AI(ML(Deep Learning))
+AI : teknik yang memungkinkan komputer meniru kecerdasan manusia
+ML (input->Feuture extraction ->Classification ->Output): bagian dari AI yang memungkinkan mesin untuk mengerjakan tugasnya dengan lebih baik berdasarkan pengalaman
+Deep learning(Input ->Feature extraction+classification -> output : bagian dar ml yang memungkinkan software untuk melatih dirinya sendiri untuk melakukan tugas dengan data dalam jumlah besar
+
+Artificial Neural Network(ANN) : teknologi AI yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. ANN merupakan cikal bakal dari Deep learning.
+contoh penerapan deep learning : face recognition, speech recognition, character recognition.
+
+Melatih model deep learning bergantung pada faktor-faktor seperti hardware, pengoptimalan, jumlah lapisan dalam jaringan sarad, arsitektur neural network, ukuran dataset, dll.
+
+kelemahan deep learning : boros di komputasional, memproses data yang banyak dengan GPU dan memakan waktu lama, hasil tidak seakurat ML jika data sedikit, jumlah data yang diperlukan sangat banyak dan memerlukan komputer dengan GPU atau TPU, sulit melakukan tuning terbaik karena bobot akan diupdate disetiap layernya.
+
+Contoh framework deep learning(Tensorflow, pytorch, DL4J, theani, keras, caffe, dll.)
+
+ANN terdiri dari sejumlah besar neuron yang saling berhubungan dan bekerja secara bersama untuk memecahkan masalah tertentu.
+
+Kelebihan ANN : berguna untuk robotika dan sistem pengenalan pola, keluarannya tidak sepenuhnya dibatasi oleh input dan hasil yang diberikan di awal oleh sistem pakar, memiliki potensi toleransi kesalahan yang tinggi, mampu mendebig/mendagnosus jaringan sendiri dan sistem nonlinear yang memiliki kemampuan untuk menemukan jalan pintas untuk mencapai solusi komputasi yang mahal.
+
+Activitastion function membantu menyelesaikan permasalah-permasalahan yang bersifat non-trivial dalam suatu neural network dengan cara mengambil sebuah nilai dan melakukan operasi matematika. Fungsi-fungsi matematika yang umum digunakan pada ANN adalah ReLu dan Sigmoid.
+
+Loss function/Cost function(fungsi yang menggabarkan kerugian) digunakan untuk mengukur seberapa bagus performa dari neural network dalam melakukan prediksi terhadap target.
+
+Optimizer adalah fungsi pengoptimalan yang dapat digunakan untuk memperbarui
+weight network secara iteratif berdasarkan data training.Ex. gradient descent, SGD, momentum,dan ADAM (Adaptive Moment Estimation) optimizer.
+
+Back-propagation–adalah proses memperbaharui bobot dari network untuk 
+mereduksi error dalam hasil prediksi
+Gradient descent, adalah proses menyesuaikan parameter model untuk turun melalui loss function
+
+sebuah gambar merupakan matriks [0, 255] = 8 bit = 1 byte.
+
+-hari kamis
+Sesi Pertama : 
+-untuk mencari solusi, harus mendefinsikan permasalahannya, dimana jika kita dapat mendefinisikan masalah dengan baik, maka penyelesaiannya sudah sampai setengah jalan.untuk menentukan model, harus menentukan pola terlebih dahulu. Kita dapat mendefinisikan masalah menggunakan 4W(Who, What, Where, Why)
+sumber data : tools/alat, observasi, data yang tersedia seperti surevys, ws, sensor, API dll.
+flow : menggambarkan bagaimana arus informasi mengalir dalam algoritma
+system map : memahami sebuah masalah yang komplex
+siklus project = problem scoping -> data acquisition(pengambilan data) -> data exploration(*cukup lama, dilakukan secara manual, semi manual, otomatis(scraping)) -> modelling -> evaluation -> deployment
+-tools yang digunakan untuk akuisisi data harus dipastikan validitas, reliabilitas dan sensitivitasnya.
+-eksplorasi data dilakukan untuk memahami tren,hubungan dan pola yang terkandung dalam data, yang bisanya direprentasikan menggunakan visual agar lebih mudah untuk dipahami.
+-Representasi data : akurasi, presisi, recall
+Sesi kedua:
+-Data terstruktur (tanggal, nomor telepon, alamat, nomor kartu kredit, dll)
+-Data tidak terstruktur(dibuat manusia(email, file text, media sosial, aplikasi bisnis, dll), dibuat mesin(gambar satelit, data ilmiah, pengawasan digital, sata sensor))
+-Data semi terstruktur(bahasa markup XML, JSON, NoSQL)
+-Noisy data(random noise(suara bising saat meet), human error(salah input data), outlier).
+-Statistika : ilmu yang berkaitan dengan pengukuran(ukuran tendensi sentral(mean, median modus), dll),pengumpulan, penataan, penyajian(tabel, grafik, diagram,dll), analisis,
+dan interpretasi data menjadi informasi untuk membantu pengambilan keputusan yang efektif.
+-Istilah penting : populasi, sensus, servey, sample
+-ukuran penyebaran : range, kuartil dan inter quartil, varians, standar deviasi.
+jenis variable : categorical(nominal,ordinal), numerical(interval, rasio)
+-status multivariat : kovarians, korelasi
+-Statistik inferemsial : pengujian hipotesis(Ho(klaim awal didasarakan pada analisis), Ha(digunakan untuk membuktikan kebenaran bedasarkan data sample), kesalahan tipe I dan II, distribusi normal
+-Ho diterima jika nilai p-value lebih besar dari alpha, jika tidak maka Ho ditolak
+-Uji hipotesis : uji T, tes Chi Square, ANOVA
+Hari ini saya juga belajar tentang bagaimana pengaplikasian statistika pada python menggunakan library numpy dan stats dari scipy.
+
+-hari jumat
+Procedural : lebih susah untuk melakukan management saat code sudah terlalu complex(lebih ditekankan algoritmanya)
+Object Oriented : menekankan lebih ke struktur data dibandingkan algoritma yang membuat object oriented lebih gampang untuk dimanagemen.
+OOP terminilogi : object, instance, method(fungsi didalam object), constructor method, class variable, instance variable
+Code yang efisien sendiri bisa dilihat dari readability(mudah dibaca dan dimengerti), reusability(bisa digunakan berkali-kali), dan runtime
+super() : memanggil fungsi dari fungsi org tua
+Child bisa memanggil perintah pada parent tetapi parent tidak bisa memanggil perintah pada child.
+Biasanya dalam membuat class hruf pertamanya huruf besar sedangkan object huruf pertamanya huruf kecil.
+Ciri-ciri utama OOP : Inhetitance, polymoreh, encapsulation
+
+Custom modul(dibuat sendiri) yang disimpan menggunakan extention .py . Custom modul bisanya dibuat untuk splitting code agar code lebih mudah untuk dirawat dan dibaca.
+Untuk modul built in pada python biasanya dibuat oleh pihak ketiga menggunakan bahasa c.
+keuntungan dari modules : reusability, simplicity, scoping
+Saya juga menjalankan program sederhana untuk menyelesaikan permasalahan fisika seperti gerak lurus beraturan, gerak lurus berubah beraturan, dan gerak lurus berubah beraturan(numerik) menggunakan python.
+
+Selain itu, tadi kami kembali mereview materi materi sebelumnya, seperti:
+Ruang vektor : vektor dalam 2D, vektor dalam ruang 3D
+Machine learning : regression, dimensionally reduction, density estimation, classification
+AI, deep laerning, traditional programming(approach), machine larning approach, dll.

@@ -1,0 +1,23 @@
+Mon, 28 Feb
+
+Libur nasional
+
+Tue, 1 Mar
+
+pada hari ini dijelaskan mengenai introduction for python dan introduction mengenai Artifical Intelegence. lalu selanjutnya belajar mengenai basic python secara individu di w3school seperti python home, intro, get started,  syntax, comments, variables, data types, numbers, casting, strings, booleans, dan python operators
+
+Wed, 2 Mar
+
+pada hari ini saya mengerjakan tugas mengenai python data types, python numbers, python casting, python string dan python boolean, kemudian setelah tugas selesai saya pull request ke branch upstream
+
+Thu, 3 Mar
+
+Libur nasional
+
+Fri, 4 Mar
+
+pada hari ini ada pertemuan 2 sesi, sesi pertama yaitu pukul 08.00 - 10.00 dan sesi ke 2 pukul 13.30 - 15.30, kemudian setelah itu saya mengerjakan tugas mengenai python operator, pengkondisian, dan perulangan, lalu setelah selesai saya kumpulkan di github
+
+What did you learn this week?
+
+pada hari selasa minggu inii dijelaskan mengenai introduction for python dan introduction mengenai Artifical Intelegence. lalu selanjutnya belajar mengenai basic python secara individu di w3school seperti python home, intro, get started,  syntax, comments, variables, data types, numbers, casting, strings, booleans, dan python operators. kemudian pada hari berikutnya saya mengerjakan tugas mengenai python data types, python numbers, python casting, python string dan python boolean, kemudian setelah tugas selesai saya pull request ke branch upstream, lalu pada hari jumat ada pertemuan 2 sesi, sesi pertama yaitu pukul 08.00 - 10.00 dan sesi ke 2 pukul 13.30 - 15.30, kemudian setelah itu saya mengerjakan tugas mengenai python operator, pengkondisian, dan perulangan, lalu setelah selesai saya kumpulkan di github

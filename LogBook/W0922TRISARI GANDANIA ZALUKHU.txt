@@ -1,0 +1,68 @@
+Mon, 18 Apr
+
+Data Science : K-Means Clustering
+
+Clustering adalah sebuah proses untuk mengelompokan data ke dalam
+beberapa cluster atau kelompok sehingga data dalam satu cluster memiliki
+tingkat kemiripan yang maksimum dan data antar cluster memiliki
+kemiripan yang minimum - Tan (2006).
+
+Perbedaan Teknik klasifikasi sudah diketahui variabel
+kelas/kategorinya, sedangkan clustering harus ditentukan sendiri
+dari data yang ada.
+Cluster terbentuk berdasarkan data-data yang dekat dengan
+centroid cluster tersebut serta jauh dengan centroid dari cluster
+lainnya.
+Clustering akan bekerja dengan baik untuk data yang dapat
+divisualisasikan dengan bentuk 2-D.
+Semakin banyak data, cluster, serta iterasinya maka akan
+menyebabkan proses komputasi juga semakin besar.
+
+
+Tue, 19 Apr
+
+Materi CV :  Segmentation
+Dalam Segmentasi bertujuan memprediksi kelas setiap piksel dalam gambar.
+The Intersection Over Union(loU) adalah metrik yang memberi tahu nilai(persen) tumpang
+tindin antara target mask dan output yang di prediksi.
+
+What is transpose convolution layer
+Konvolusi adalah proses untuk mendapatkan ukuran output yang lebin kecil.
+Deconvolution atau Transpose Convolution adalah proses dimana kita ingin upsample
+image untuk mendapatkan ukuran yang lebin besar.
+
+Wed, 20 Apr
+
+Materi NLP : Speech Recognition 
+Speech Recognition
+ Speech Recognition atau yang biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+Teknologi ini memungkinkan suatu perangkat untuk mengenali dan
+memahami kata-kata yang diucapkan dengan cara mengubah sinyal
+analog berupa gelombang suara menjadi sinyal digital dan mencocokkan
+sinyal digital tersebut dengan suatu pola tertentu yang tersimpan dalam
+suatu perangkat.
+. Memahami pengertian Speech Recognition
+. Proses mengubah sinyal analog ke digital
+. Ekstraksi Fitur dengan MFCC Flow Speech Recognition
+
+Thu, 21 Apr
+
+hari ini melanjutkan atau mengulang kembali materi Reiforcement Learning dari Coach dan melakukan preetest mengenai materi yang dipelajari. 
+lanjutan materi yang dipelajari yaitu tentang konsep RL untuk Robotics.
+dimana robotics merupakan mesin yang dibuat dengan kecerdasan buatan yang secara otomatis dapat menggantikan usaha manusia
+
+Fri, 22 Apr
+
+materi hari ini yang dijelaskan oleh coach technical yaitu tentang memahami apa itu web Memahami apa itu web deployment
+Mengetahui penggunaan Heroku sebagai service untuk deployment
+Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi
+web untuk deployment
+dimana web development merupakan suatu proses pengembangan suatu web yang kita miliki atau yang sudah kita buat
+serta melakukan hands on/praktek pada aplikasi Heroku. 
+
+What did you learn this week?
+
+dalam minggu ini kami mempelajari atau melanjutkan materi  minggu sebelumnya dari setiap domain setiap harinya, setiap hari hanya satu domain selama kurang lebih 3 jam dikarenakan mengingat bulan puasa
+
+pada pemaparan materi minggu ini yaitu tentang metode clustering, analisa data, mempredikdiksi suatu data, pembuatan website menggunakan heroku, image processing dan juga tentang robotics di domain reiinforcement learning.
+setiap domain akan melakukan hands-on di sesi terakhir agar lebih paham dalam menjalankan program. Terimakasih

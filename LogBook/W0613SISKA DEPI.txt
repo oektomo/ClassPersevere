@@ -1,0 +1,34 @@
+Mon, 28 Mar
+
+Data Science 08.00-11.30
+Natural Language Processing 13.00 - 16.30
+
+Tue, 29 Mar
+
+Computer Vision  08.00-11.30
+Reinforcement Learning  13.00 - 16.30
+
+Wed, 30 Mar
+
+Data Science  08.00-11.30
+Natural Language Processing  13.00 - 16.30
+
+Thu, 31 Mar
+
+Computer Vision 08.00-11.30
+Technical 13.00 - 16.30
+
+Fri, 1 Apr
+
+Reinforcement Learning  08.00-11.30
+Technical  13.00 - 16.30
+
+What did you learn this week?
+
+-Data Science 
+-Natural Language Processing Computer Vision 
+-Reinforcement Learning 
+-Data Science 
+-Natural Language Processing
+-Computer Vision
+-tecnikal

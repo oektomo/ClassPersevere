@@ -1,0 +1,24 @@
+Mon, 14 Mar
+
+kegiatan hari belajar tentang materi Numpy Data Types
+
+Tue, 15 Mar
+
+materi hari ini tentang analisis data
+
+Wed, 16 Mar
+
+mempelajari tentang pengolahan data
+
+Thu, 17 Mar
+
+materi tentang algoritma 
+
+Fri, 18 Mar
+
+materi hari ini mempelajari tentang Neural Network, penjelasan dari coach juga sangat baik dan jelas
+
+What did you learn this week?
+
+pada minggu ke tiga ini ada banyak sekali yang dipelajari, materi-materi baru yang mendukung pengimplemetasikan AI mulai dari OOP, Machine Learning, Deep Learning, Neural Network ada juga Basics matematika untuk AI dan lain sebagainya.
+coah yang memaparkan juga menjelaskan dengan baik dan diikuti dengan contoh. Terimakasih

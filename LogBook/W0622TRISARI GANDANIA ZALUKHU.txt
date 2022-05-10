@@ -1,0 +1,32 @@
+Mon, 28 Mar
+
+hari ini mempelajari tentang materi Data Science tentang  Principal Component Analysis dan Mathematical Approach to PCA, pemaparan materi sangat baik
+
+Tue, 29 Mar
+
+materi tentang computer vision dan Reinforcement Learning
+
+Wed, 30 Mar
+
+materi pago tentang data science yaitu coach menjelaskan tentang market basket analys  dan data data yang diperlukan saat menganalisis data
+
+materi siang yaitu Natural Language processing tentang Introduction to NLP
+ Text Representation
+ Text Classification
+pemaparan materi sangat baik dan seru ada kuis juga dari coach tentang materi yang dipelajari... Terimakasih
+
+Thu, 31 Mar
+
+kegiatan hari ini tentang computer vision yang dimana  mempelajari tentang tensorflow  yang merupakan suatu open source software library untuk data flow programming
+dan juga pada sesi siang yaitu technical mempelajari tentang google data studio yang merupakan tool gratis yang dapat mengubah data atau laporan agar mudah dibaca dan interaktif
+
+Fri, 1 Apr
+
+pada sesi pagi RL mempelajari tentang Temporal Difference yaitu  pendekatan untuk mempelajari cara memprediksi kuantitas yang bergantung pada nilai masa depan dari sinyal yang diberikan . Nama TD berasal dari penggunaan perubahan, atau perbedaan, dalam prediksi atas langkah-langkah waktu yang berurutan untuk mendorong proses pembelajaran
+
+pada sesi siang mempelajari Technical yaitu tentang web scraping yang merupakan pengumpulan data melalui apapun selain dari menggunakan program untuk berinteraksi dengan API
+
+What did you learn this week?
+
+pada minggu ini setiap hari masuk dengan domain yang berbeda yaitu Computer Vision, Data Science, NLP, RL dan Technical. 
+mempelajari tentang data analist, cara visualisasi data menggunakan GDS, cara melakukan Web Scraping , menganalisis data dan lain sebagainya

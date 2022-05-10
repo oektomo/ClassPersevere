@@ -1,0 +1,495 @@
+Mon, 14 Mar
+
+Hari ini, saya belajar tentang data manipulation with pandas
+Sesi I:
+Godfather of AI adalah Geoffrey Hinton
+pengertian numpy dan penggunaannya(dibahas kembali sedikit mengenai numpy introduction, numpy arrays)
+dasar dasar preprocessing data
+pandas(dataframe, data import export, statistical analysis, selection dan filtering pada dataframes,
+data transformation) : tools analisis
+visualisasi(matpolib, seaborn)
+int8 = 2^8 = 256(0-255 dalam basis 10) kemungkinan 
+uint8 = -128 s/d 127 (256 kemungkinan)
+standar menentukan negatif dan positif dapat menggunakan msb(penanda/sign dimaa 0 = + , 1 = -) dan lsb
+variance : untuk mengetahui sebaran data
+skweness : seberapa melenceng(kekiri positif, kekanan negatif)
+dataframe(array multidimensi dengan label baris dan kolom), data series
+np.matrix(2 dimensi)
+np.array(n dimensi)
+Pandas(array terstruktur numpy yang dilengkapi dengan baris dan kolom diindentifikasi dengan label berbentuk string) object(index, series(1D), dataframe(generally 2D)
+csv/sql = structured data
+json = semi structured data
+
+Sesi II :
+pandas : selection & filter(menggunakan dataframes bisa memilih data dengan kriteria yang kita inginkan pada satu kolom ataupun lebih sari satu kasus)
+pandas : data aggregation(selain bisa menjumlahkan 1 dataframe dengan dataframe lainnya, juga bisa melakukan pengelompokkan(groupby)), statistic analysis, data transformation(replacing value(ex. menggunakan replace), discretization & binning
+distribusi normal = (median, mode, mean berada ditengah dan bernilai sama)
+visualisasi menggunakan matpolib(plt(disambungin dari satu sample ke sample lain), piechart,bar chart,histrogram(samplenya jauh lebih banyak dibanding bar chart, bisa menenentukan jumlah bar yang diinginkan, tdk disambung, lebih ke distribusi))
+seaborn dibangun diatas matplotlib. jika menggunakan seaborn tetapi belum memliki matplotlib maka akan secara otomatis mendownload matplotlib.
+visualisasi menggunakan seaborn : stripplot(untuk menganalisis numerik vs categorical data), swarmplot(untuk menganalisis multivariant antara , numerik vs categorical), heatmap(bisa untuk melihat korelasi antar label, logistic regressin, untuk melihat label mana mana saja yang akan digunakan untuk membuat model)
+korelasi : semakin kecendurannya semakin sama, nilai korelasi semakin tinggi, begitupun sebaliknya.
+
+Tue, 15 Mar
+
+Hari ini saya belajar tentang :
+
+Sesi I :
+matplotlip playplot biasa disingkat menjadi plt
+seaborn biasa disingkat menjadi sns
+visualisasi dengan matplotlip dan seaborn : lineplot, pie chart, box plot, stripplot, swarmsplot, bar chart 
+visualisasi untuk time series data
+data visualisation memudahkan kita untuk mendapatkan insight dari data yang banyak
+matplotlip ditulis menggunakan numpy ataupun list biasa
+matplotlip memiliki beberapa flavor yaitu 
+python GUI toolkits : PyQt(cara baca : qyut), WxPythonotTkinter
+matplotlib bisa dipakai di Ipython shells, jupyter notebook dan serser aplikasi web.
+fungsi matplotlib : menampilkan data, mengubah data menjadi grafik, compressi/Imread/membaca gambar dari file kedalam array(ex. jpeg, png diconvert ke dalam bmp), decompressi/Imsave/menyimpan array seperti dalam file gambar, Imshow/menampilkan gambar pada axes, figtext, figure(membuat pallete), show, savefig, close
+numpy.random.rand : range -4 s/d 4
+boxplot, stripplot, violinplot
+numpy.arange(0.0, 5.0, 0.1)#range 0 s/d 5 dengan period/kelipatan 0.1
+e^(-t1) : mendekati 0 tetapi tidak menyentuh 0
+np.linespace(0, 15, 31)#range 0 s/d 15 sebanyak 31
+exploratory data analytics
+menjelaskan variable turunan(derived)(ex. mean, modu, median) dan metode yang digunakan untuk menganalisanya
+overview dari menjelajah data analisis dan kegunaannya
+derived variable(ex. ratio, percetages, indices, and rate) : dibuat dengan mengkalkulasi atau mengkategorikan variable yang ada pada dataset, mempunyai unexpected variable yang membutuhkan methods untuk menghandlenya
+data primer : data mentah
+data sekunder : data yang diolah ataupun diambil dari sumber lain
+analisa dari variable turunan bisa menggunakan metode koleksi dari pengukuran dan digabungkan menjadi sebuah summary feature.
+statistical methods(mean, modus) melakukan suatu 
+dari bentuk model atau prediksi yang menggunakan statistic method akan menghasilkan output nilai prediksi
+residual(selisih antara nilai prediksi dengan nilai actual atau observasi)
+: deviation from the sample mean(seberapa jauh dari prediksi), bagian yang tidak bisa diprediksi oleh model/ kesalahan prediksi yang berguna untuk mendiagnosa model dan menjadi landasan perbaikan model, bisa digunakan ntuk mengidentifikasi masalah.
+predicted value : output dari prediksi model yang bisa dianalisa hubungannya dengan variable lain yang ada didalam atau diluar model
+Exploratory data analysis(EDA) : digunakan untuk melihat pola, mendeteksi anomali, menguji hipotesis dan memvalidasi asumsi menggunakan teknik summary statistic dan visual representation.
+EDA : untuk mengetahui data yang kita miliki untuk mengetahui apakah bisa menggunakan algoritma tertentu, menentukan fitur mana yang mau digunakan kedalam algoritma machine learning
+jika populasi data terlalu banyak, maka dapat menggunakan sample yang mewakili populasi
+output inferensi adalah prediksi
+categori vs continue : probability distrubution analysis using displot, swarm plot dan boxplot, anova-f_classiif
+continue vs continuous : scatterplot, correlation analysis, anova-f_regress
+categorical vs categorical : barplot-ratio of frequency/count in multiple groups, chi square test, histogram/countplot
+sklearn(scikit-learn) : library machine learning yang digunakan untuk melakukan kalsifikasi, regressi, clustering
+
+Sesi II :
+df = dataframe
+head() = menampilkan 5 baris data teratas
+bank churn analysis(masalah : menganalisa churn rate dari customer bank) : domain knowledge
+churn rate(bisa diimplementasikan dibanyak tempat seperti finansial banking, retail) : seberapa sering pelanggan untuk berhenti berlangganan
+Tenure : sudah berapa lama menabung
+Numofproduct(reksadana, credit rumah, dll)
+EstimateSalary : kemungkinan gaji
+info() : mengecek informasi dari setiap kolom yang meliputi tipe data dan jumlah baris dan tidak null
+Dalam bank, database uang harus int karena float tidak presisi/presisi terbatas jadi jika uangnya banyak akan banyak operasi operasi yang tidak akurat(untuk mencegah kesalahan pembulatan saat melakukan operasi nilai moneter
+).
+unique() : data unik
+nunique() : jumlah data unik
+describe() : memberikan insigth/kesimpulan yang menampilkan statistik deskripstif(count, mean, std, min, q1, q2, q3, max) pada data numerik
+Data cleaning:
+duplicated().sum() : meluhat jumlah data yang duplikat
+df.drop(['namakolom1', 'namakolom2', 'namakolomn']) : menghapus kolom yng tidak diinginkan
+isnull().sum() : memeriksa jumlah null value
+EDA(Exploratory Data Analysis, dapat digunakan untuk mengambil keputusan):
+data kategori : discrete frequency distribution-countplot
+data numerik : continuous frequency distribution-histogram, displot
+df.columns : menampilkan kolom pada dataframe
+ANOVA Analysis(Data Numerik)
+Data kategorik
+Data Numerik : Univarient Analysis(1 kolom)
+histogram dan countplot memiliki cara pandang yang sama/mirip
+bivarient analysis : membandingkan 2 kolom, jika kedua kolom berdistribusi nrmal maka tidak dapat ditarik kesimpulan(tidak mempengaruhi)
+multivariate analysis(membandingkan lebih dari 2 kolom, ex. numerik vs numerik vs kategorik)
+polygon : bisa memplot beberapa grafik sekaligus
+
+
+Wed, 16 Mar
+
+Hari ini saya belajar tentang :
+
+Sesi I :
+Linear regresi : 2 variable:(Multiple Input Single Output)
+- output : Y-->  variable tergantung(dependent), biasanya 1
+- independent variable(X) : digunakan untuk menjelaskan dependent variable, biasanya banyak ex. a1, x1, a2, x2
+- coefficient : semakin besar berarti semakin kuat independent variable mempengaruhi dependent variable
+- residu(selisih antara nilai prediksi dengan nilai actual atau observasi) : besar jarak prediksi(dependent variable
+Teknik regressi : 
+-  linear(cenderung mudah : y = a1.x1+a2.x2+..+c)
+- nonlinear(bisa berubah-ubah(*bisa mengandung sin, cos, log, dll)):y = a0.x^0+a1.x^1+...+c untuk independent variable sebanyak 1, biasanya masih membuuhkan campurtangan manusia untuk menentukan orde(pangkat)
+- Tipe linear regression : simple regression, multiple regression
+- tujuan linear regressi : menganalisa relasi antara dua variabel, memprediksi nilai baru yang mungkin
+regressi linear mengestimasi hubungan antara dependent  variable(target/table) dan 1 atau lebih independent variable(predictors)
+- jumlah data latih lebih banyak dibanding data test
+- supervised learning (belajar dari sekumpulan data sample): x dan y diketahui
+- estimasi : memperkirakan benda yang ada atau sebuah nilai yang sering kali tidak real
+- prediksi : meramal masa depan
+- univariate linear regresi(1 input)
+- y topi = mx+c, dimana m dan c akan berubah setiap iterasi(m : gradien/kemiringan, c : konstanta/ketinggian)
+- jika minimize : modulus |y - y topi|  = 0, untuk semua y akan didapatkan sebuah model yang oke
+- lr : learning rate(hyper parameter)-->ditentukan oleh peneliti
+- w : parameter(coefficient & constant)--> ditentukan oleh GDA(Gradient Descent Algorithm)
+
+Sesi II :
+- Linier Regression - R squared : RSS(SSres), TSS(SStot), R-squared(R^2 = 1-(SSres/SStot))
+- Testing model using cross validation
+- K-Fold cross validation(mis k=5 --> subset 1-4 dijadikan training, subset 5 test, nantinya subset 5 akan dijadikan training juga)
+- Overfitting & Generalisation
+- slope : gradient, intercept : konstanta
+- Neural network(bisa dikatakan seperti linier regression yang super komplex) : memiliki fungsi aktivasi yang memungkin kita memiliki kemampuan untuk membuat sistem yang non linear
+- model(*objek) = LinnearRegression()[*kelas]
+- fit : membuat model dari data yang kita miliki(prosses fitting), ex. model.fit(x, y)
+- overfitting(model terlalu nemppel dengan data training) : dideteksi dengan melakukan perhitungan error, untuk menghindari overfittning bisa menggunakan lasso dan ridge
+- Lasso(L1) Regression : tergantung dari sebenrapa besar regulation strength, weights tertentu pada akhirnya bisa bernilai zero
+- Ridge Regression
+- Logistic Regression(outputnya klasifikasi) bisa mengestimasi pergerakan/relasi antara variable dependen dan independent dimana dependen variable bersifat categorical
+- ciri-ciri logistik regression : memiliki sedikit resiko overfitting, digunakan untuk menyelesaikan masalah klasifikasi, mengharapkan relasi nonlinear yang smooth dari predictors, menghasilkan probabilitas dari outcome yang bersifat diskrit(yes or no, 1 or 0)
+- Binary Logistic Regression mengharuskan dependent variable berbentuk binary, mempresentasikan output (yes or no, 1 or 0)
+- Tujuan logistic regression : Binary classification
+- Binary classification using logistic regression(sigmoid function)
+- Multinominal classsification using logistic regression(softmax function)
+
+Thu, 17 Mar
+
+Hari ini 17 Maret 2022, saya belajar tentang :
+
+Sesi I :
+
+- Supervised Learning : 
+ 1. memiliki label dalam bentuk kelas (y)
+ 2. memiliki feature/atribut (x)
+- KNN = k-Nearest Neighbor(termasuk supervised learning
+- x := input fungsi
+- x := independent variable
+- y := nilai aktual
+- y_hat := output fungsi (hasil prediksi, estimasi)
+- f(x) := output fungsi
+- y_hat := dependent variable
+- f(x1, c2, x3) := jika input lebih dari satu
+- supervised learning : 
+ 1. diberikan variable input dan output
+ 2. membutuhkan label
+ 3. lebih sederhana
+ 4. menggunakan data training untuk mempelajari hubungan antara input dan output
+- unsupervised learning :
+ 1. hanya data input
+ 2. tidak memerlukan label
+ 3. biasanya lebih kompleks, tergantung algoritmanya
+ 4. tidak menggunakan data output(hanya pattern)
+- K-Means(seperti KNN tetapi tidak memiliki label, unsupervsed learning
+- data temporal : data berulang berdasarkan waktu
+- KNN : outputnya kelas
+- Multiclass Logistic Regression : setiap kelas mendapatkan output berupa prediksi
+- Pemisahan dataset(split dataset) : training set, validation set, testing dataset/data yang tidak terlihat(unseen data)
+- pemisahan dataset berhubungan dengan underfitting dan overfitting
+- overfitting : bagus saat training teteapi buruk saat test
+- underfitting : buruk saat training tetapi bagus saat test
+- Supervised learning : 
+ 1. regresi(outputnya nilainumerik)  
+ 2. klasifikasi(outputnya nilai kategorik)
+- secara default, jumlah k pada k-NN adalah 5. Sebaiknya jumlah k ganjil.
+- data pencilan = data outlier/anomaly
+- untuk mengetahui tetangga terdekat maka dilakukan ranking yang bisa dihitung menggunakan euclidean distance
+- Instance Based Learning
+- KNN : bisa dibilang tidak ada proses belajar (*proses klasifikasinya ditentukan oleh data). KNN juga sering disebut "Lazy Learning"
+- KNN Classification(cara KNN bekerja):  
+ 1. Instance-based
+ 2. competitive learning(karna diranking)
+ 3. lazy learning(seperti langsung openbook saat mengerjakan soal ujian)
+- Curse of Dimensionality
+- K-Factor 
+- Use Case of KNN 
+- Implementasi KNN pada Python
+- Jika ada noice pada knn maka dapat meningkatkan nilai A
+- KNN : mengklasifikasikan data baru ke kelas-kelas yang sudah ada
+- standarscaler : menyamakan range yang berbeda agar tidak ada feature yang terlalu mendominasi jika belum yakin feature tersebut memang sangat berpengaruh
+
+Sesi II :
+- Contoh kasus dengan judu; Customer Churn using KNN untuk melihat pelanggan yang berhenti dan pelanggan yang aktif
+- map : digunakan agar data string menjadi data numerik
+- df.keys() : untuk melihat feature(label) yang ada
+- Normalisasi data agar tidak ada feature yang memiliki pengaruh terlalu besar dibanding yang lain
+- Pembagian data testing dan data training
+- KNN(menentukan nilai k, prediksi, melihat akurasi, mencari nilai terbaik, visualisasi untuk memudahkan membaca data)
+- Decision tree (seperti pohon yang kebalik): akarnya hanya satu, memiliki node dan leaf lebih dari satu. merupakan algoritma supervised learning yg memiliki data input dan output merupa categorical(classification tree) dan continuous(regression tree)
+- inner node dan root note merepresentasikan atribut
+- leaf note merepresentasikan kelas
+- edge : penghubung(merepresentasikan hubungan node dengan father node)
+- input : atribut
+- output : kelas
+
+Fri, 18 Mar
+
+Hari ini 18 Maret 2022 saya belajar tentang :
+
+Sesi I :
+- Neural Network (Artificial Neural Network/ANN) : jenis ML yang sering digabung dengan deep learning
+- ANN gabungan dari beberapa artificial neuron(persepton) yang disusun dalam beberpa layer(bisa 1 layer)
+- Biologic Neuron(Dendrit, Axon, Nukleus, synapse), Artificial Neuron/Perceptron(fungsi linear, fungsi aktivasi, input, output)
+- Multiple Layer Percepton(MLP)/feedforward neural network : input layer, hidden layer, output layer
+- Activation function, loss function, optimizer
+- Fungsi aktivasi(activation fuction) : linear, nonlinear(*sebaiknya nonlinear, secara komputasi lebih ringan)
+- step fuction(*contoh paling sederhana dari fungsi aktivasi) : jika z > 0 maka output perceptron adalah 1 dan jika j <= 0 maka output perceptron = 0
+- fungsi aktivasi : linear, sigmoid(*mirip step function/beda-beda dikit), ReLU
+- Loss function : mengukur seberapa salah sebuah model NN
+- Loss : ukuran dari fuction/error yang dihasilkan model. 
+- MSE(Mean Square Error) salah satu contoh dari loss function
+- Loss Fuction : Implementation (MSE : Regresision, Binary Cross Entropy : Binary Classification, Categorical Cross Entropy and Sparse Categorical Cross Entropy : Multiclass Classification)
+- NN dilatih dengan menyesuaikan nilai bobot or bias.
+- bobot atau bias yang tepat dapat menurunkan loss dan meningkatkan performa model
+- Optimizer : algoritma yang digunakan untuk menyesuaikan bobot(weight) dab bias
+- Gradient Descent(*salah satu contoh optimizer)
+- Optimizer : Keterangan (SGD : Stochastic Gradient Descent, Momentum : SGD with Momentum, RMSprop : Root Mean Squared Propagation, AdaDelta : Adaptive Data, AdaGrad : Adaptive Gradient Algorithm, Adam : Adaptive Moment Estimation)
+
+Sesi II : 
+- Optimizer : Gradient Descent (memanfaatkan hasil perhitungan turunan parsial pertama loss function dan learning rate untuk mengupdate bobot atau bias model NN)
+- Loss function : MSE
+- Forward Pass : tahapan saat memberikan input kedalam model NN(input diterima melalui input layer, diproses oleh hidden layer, dan hasil proses dikeluarkan melalui ouptput layer, lalu loss akan dikalkulasi berdasarkan t dan y menggunakan loss function)
+- How to train a NN : forwad pass (*contoh)
+- Forward pass : mengkalkulasi z, menentukan y(hasil prediksi model), mengkalkulasi E(loss)
+- Backward Pass : mengupdate weight(w) menggunakan gradient descent(*turunan parsial E terhadap w dapat diperoleh menggunakan chain rule), mengupdate bias(b) menggunakan gradient descent
+- Backpropogation
+Setelah menjelaskan module/ppt, coach kami membahas contoh kasus pada google colab yang berjudul10 Minutes to Building a Fully-Connected Image Classifier
+
+What did you learn this week?
+
+Minggu ini saya belajar tentang :
+
+1. Hari senin
+Hari ini, saya belajar tentang data manipulation with pandas
+Sesi I:
+Godfather of AI adalah Geoffrey Hinton
+pengertian numpy dan penggunaannya(dibahas kembali sedikit mengenai numpy introduction, numpy arrays)
+dasar dasar preprocessing data
+pandas(dataframe, data import export, statistical analysis, selection dan filtering pada dataframes,
+data transformation) : tools analisis
+visualisasi(matpolib, seaborn)
+int8 = 2^8 = 256(0-255 dalam basis 10) kemungkinan 
+uint8 = -128 s/d 127 (256 kemungkinan)
+standar menentukan negatif dan positif dapat menggunakan msb(penanda/sign dimaa 0 = + , 1 = -) dan lsb
+variance : untuk mengetahui sebaran data
+skweness : seberapa melenceng(kekiri positif, kekanan negatif)
+dataframe(array multidimensi dengan label baris dan kolom), data series
+np.matrix(2 dimensi)
+np.array(n dimensi)
+Pandas(array terstruktur numpy yang dilengkapi dengan baris dan kolom diindentifikasi dengan label berbentuk string) object(index, series(1D), dataframe(generally 2D)
+csv/sql = structured data
+json = semi structured data
+
+Sesi II :
+pandas : selection & filter(menggunakan dataframes bisa memilih data dengan kriteria yang kita inginkan pada satu kolom ataupun lebih sari satu kasus)
+pandas : data aggregation(selain bisa menjumlahkan 1 dataframe dengan dataframe lainnya, juga bisa melakukan pengelompokkan(groupby)), statistic analysis, data transformation(replacing value(ex. menggunakan replace), discretization & binning
+distribusi normal = (median, mode, mean berada ditengah dan bernilai sama)
+visualisasi menggunakan matpolib(plt(disambungin dari satu sample ke sample lain), piechart,bar chart,histrogram(samplenya jauh lebih banyak dibanding bar chart, bisa menenentukan jumlah bar yang diinginkan, tdk disambung, lebih ke distribusi))
+seaborn dibangun diatas matplotlib. jika menggunakan seaborn tetapi belum memliki matplotlib maka akan secara otomatis mendownload matplotlib.
+visualisasi menggunakan seaborn : stripplot(untuk menganalisis numerik vs categorical data), swarmplot(untuk menganalisis multivariant antara , numerik vs categorical), heatmap(bisa untuk melihat korelasi antar label, logistic regressin, untuk melihat label mana mana saja yang akan digunakan untuk membuat model)
+korelasi : semakin kecendurannya semakin sama, nilai korelasi semakin tinggi, begitupun sebaliknya.
+
+2. Hari selasa
+Hari ini saya belajar tentang :
+
+Sesi I :
+matplotlip playplot biasa disingkat menjadi plt
+seaborn biasa disingkat menjadi sns
+visualisasi dengan matplotlip dan seaborn : lineplot, pie chart, box plot, stripplot, swarmsplot, bar chart 
+visualisasi untuk time series data
+data visualisation memudahkan kita untuk mendapatkan insight dari data yang banyak
+matplotlip ditulis menggunakan numpy ataupun list biasa
+matplotlip memiliki beberapa flavor yaitu 
+python GUI toolkits : PyQt(cara baca : qyut), WxPythonotTkinter
+matplotlib bisa dipakai di Ipython shells, jupyter notebook dan serser aplikasi web.
+fungsi matplotlib : menampilkan data, mengubah data menjadi grafik, compressi/Imread/membaca gambar dari file kedalam array(ex. jpeg, png diconvert ke dalam bmp), decompressi/Imsave/menyimpan array seperti dalam file gambar, Imshow/menampilkan gambar pada axes, figtext, figure(membuat pallete), show, savefig, close
+numpy.random.rand : range -4 s/d 4
+boxplot, stripplot, violinplot
+numpy.arange(0.0, 5.0, 0.1)#range 0 s/d 5 dengan period/kelipatan 0.1
+e^(-t1) : mendekati 0 tetapi tidak menyentuh 0
+np.linespace(0, 15, 31)#range 0 s/d 15 sebanyak 31
+exploratory data analytics
+menjelaskan variable turunan(derived)(ex. mean, modu, median) dan metode yang digunakan untuk menganalisanya
+overview dari menjelajah data analisis dan kegunaannya
+derived variable(ex. ratio, percetages, indices, and rate) : dibuat dengan mengkalkulasi atau mengkategorikan variable yang ada pada dataset, mempunyai unexpected variable yang membutuhkan methods untuk menghandlenya
+data primer : data mentah
+data sekunder : data yang diolah ataupun diambil dari sumber lain
+analisa dari variable turunan bisa menggunakan metode koleksi dari pengukuran dan digabungkan menjadi sebuah summary feature.
+statistical methods(mean, modus) melakukan suatu 
+dari bentuk model atau prediksi yang menggunakan statistic method akan menghasilkan output nilai prediksi
+residual(selisih antara nilai prediksi dengan nilai actual atau observasi)
+: deviation from the sample mean(seberapa jauh dari prediksi), bagian yang tidak bisa diprediksi oleh model/ kesalahan prediksi yang berguna untuk mendiagnosa model dan menjadi landasan perbaikan model, bisa digunakan ntuk mengidentifikasi masalah.
+predicted value : output dari prediksi model yang bisa dianalisa hubungannya dengan variable lain yang ada didalam atau diluar model
+Exploratory data analysis(EDA) : digunakan untuk melihat pola, mendeteksi anomali, menguji hipotesis dan memvalidasi asumsi menggunakan teknik summary statistic dan visual representation.
+EDA : untuk mengetahui data yang kita miliki untuk mengetahui apakah bisa menggunakan algoritma tertentu, menentukan fitur mana yang mau digunakan kedalam algoritma machine learning
+jika populasi data terlalu banyak, maka dapat menggunakan sample yang mewakili populasi
+output inferensi adalah prediksi
+categori vs continue : probability distrubution analysis using displot, swarm plot dan boxplot, anova-f_classiif
+continue vs continuous : scatterplot, correlation analysis, anova-f_regress
+categorical vs categorical : barplot-ratio of frequency/count in multiple groups, chi square test, histogram/countplot
+sklearn(scikit-learn) : library machine learning yang digunakan untuk melakukan kalsifikasi, regressi, clustering
+
+Sesi II :
+df = dataframe
+head() = menampilkan 5 baris data teratas
+bank churn analysis(masalah : menganalisa churn rate dari customer bank) : domain knowledge
+churn rate(bisa diimplementasikan dibanyak tempat seperti finansial banking, retail) : seberapa sering pelanggan untuk berhenti berlangganan
+Tenure : sudah berapa lama menabung
+Numofproduct(reksadana, credit rumah, dll)
+EstimateSalary : kemungkinan gaji
+info() : mengecek informasi dari setiap kolom yang meliputi tipe data dan jumlah baris dan tidak null
+Dalam bank, database uang harus int karena float tidak presisi/presisi terbatas jadi jika uangnya banyak akan banyak operasi operasi yang tidak akurat(untuk mencegah kesalahan pembulatan saat melakukan operasi nilai moneter
+).
+unique() : data unik
+nunique() : jumlah data unik
+describe() : memberikan insigth/kesimpulan yang menampilkan statistik deskripstif(count, mean, std, min, q1, q2, q3, max) pada data numerik
+Data cleaning:
+duplicated().sum() : meluhat jumlah data yang duplikat
+df.drop(['namakolom1', 'namakolom2', 'namakolomn']) : menghapus kolom yng tidak diinginkan
+isnull().sum() : memeriksa jumlah null value
+EDA(Exploratory Data Analysis, dapat digunakan untuk mengambil keputusan):
+data kategori : discrete frequency distribution-countplot
+data numerik : continuous frequency distribution-histogram, displot
+df.columns : menampilkan kolom pada dataframe
+ANOVA Analysis(Data Numerik)
+Data kategorik
+Data Numerik : Univarient Analysis(1 kolom)
+histogram dan countplot memiliki cara pandang yang sama/mirip
+bivarient analysis : membandingkan 2 kolom, jika kedua kolom berdistribusi nrmal maka tidak dapat ditarik kesimpulan(tidak mempengaruhi)
+multivariate analysis(membandingkan lebih dari 2 kolom, ex. numerik vs numerik vs kategorik)
+polygon : bisa memplot beberapa grafik sekaligus
+
+3. Hari Rabu
+Hari ini saya belajar tentang :
+
+Sesi I :
+Linear regresi : 2 variable:(Multiple Input Single Output)
+- output : Y-->  variable tergantung(dependent), biasanya 1
+- independent variable(X) : digunakan untuk menjelaskan dependent variable, biasanya banyak ex. a1, x1, a2, x2
+- coefficient : semakin besar berarti semakin kuat independent variable mempengaruhi dependent variable
+- residu(selisih antara nilai prediksi dengan nilai actual atau observasi) : besar jarak prediksi(dependent variable
+Teknik regressi : 
+-  linear(cenderung mudah : y = a1.x1+a2.x2+..+c)
+- nonlinear(bisa berubah-ubah(*bisa mengandung sin, cos, log, dll)):y = a0.x^0+a1.x^1+...+c untuk independent variable sebanyak 1, biasanya masih membuuhkan campurtangan manusia untuk menentukan orde(pangkat)
+- Tipe linear regression : simple regression, multiple regression
+- tujuan linear regressi : menganalisa relasi antara dua variabel, memprediksi nilai baru yang mungkin
+regressi linear mengestimasi hubungan antara dependent  variable(target/table) dan 1 atau lebih independent variable(predictors)
+- jumlah data latih lebih banyak dibanding data test
+- supervised learning (belajar dari sekumpulan data sample): x dan y diketahui
+- estimasi : memperkirakan benda yang ada atau sebuah nilai yang sering kali tidak real
+- prediksi : meramal masa depan
+- univariate linear regresi(1 input)
+- y topi = mx+c, dimana m dan c akan berubah setiap iterasi(m : gradien/kemiringan, c : konstanta/ketinggian)
+- jika minimize : modulus |y - y topi|  = 0, untuk semua y akan didapatkan sebuah model yang oke
+- lr : learning rate(hyper parameter)-->ditentukan oleh peneliti
+- w : parameter(coefficient & constant)--> ditentukan oleh GDA(Gradient Descent Algorithm)
+
+Sesi II :
+- Linier Regression - R squared : RSS(SSres), TSS(SStot), R-squared(R^2 = 1-(SSres/SStot))
+- Testing model using cross validation
+- K-Fold cross validation(mis k=5 --> subset 1-4 dijadikan training, subset 5 test, nantinya subset 5 akan dijadikan training juga)
+- Overfitting & Generalisation
+- slope : gradient, intercept : konstanta
+- Neural network(bisa dikatakan seperti linier regression yang super komplex) : memiliki fungsi aktivasi yang memungkin kita memiliki kemampuan untuk membuat sistem yang non linear
+- model(*objek) = LinnearRegression()[*kelas]
+- fit : membuat model dari data yang kita miliki(prosses fitting), ex. model.fit(x, y)
+- overfitting(model terlalu nemppel dengan data training) : dideteksi dengan melakukan perhitungan error, untuk menghindari overfittning bisa menggunakan lasso dan ridge
+- Lasso(L1) Regression : tergantung dari sebenrapa besar regulation strength, weights tertentu pada akhirnya bisa bernilai zero
+- Ridge Regression
+- Logistic Regression(outputnya klasifikasi) bisa mengestimasi pergerakan/relasi antara variable dependen dan independent dimana dependen variable bersifat categorical
+- ciri-ciri logistik regression : memiliki sedikit resiko overfitting, digunakan untuk menyelesaikan masalah klasifikasi, mengharapkan relasi nonlinear yang smooth dari predictors, menghasilkan probabilitas dari outcome yang bersifat diskrit(yes or no, 1 or 0)
+- Binary Logistic Regression mengharuskan dependent variable berbentuk binary, mempresentasikan output (yes or no, 1 or 0)
+- Tujuan logistic regression : Binary classification
+- Binary classification using logistic regression(sigmoid function)
+- Multinominal classsification using logistic regression(softmax function)
+
+4. Hari Kamis
+Sesi I :
+
+- Supervised Learning : 
+ 1. memiliki label dalam bentuk kelas (y)
+ 2. memiliki feature/atribut (x)
+- KNN = k-Nearest Neighbor(termasuk supervised learning
+- x := input fungsi
+- x := independent variable
+- y := nilai aktual
+- y_hat := output fungsi (hasil prediksi, estimasi)
+- f(x) := output fungsi
+- y_hat := dependent variable
+- f(x1, c2, x3) := jika input lebih dari satu
+- supervised learning : 
+ 1. diberikan variable input dan output
+ 2. membutuhkan label
+ 3. lebih sederhana
+ 4. menggunakan data training untuk mempelajari hubungan antara input dan output
+- unsupervised learning :
+ 1. hanya data input
+ 2. tidak memerlukan label
+ 3. biasanya lebih kompleks, tergantung algoritmanya
+ 4. tidak menggunakan data output(hanya pattern)
+- K-Means(seperti KNN tetapi tidak memiliki label, unsupervsed learning
+- data temporal : data berulang berdasarkan waktu
+- KNN : outputnya kelas
+- Multiclass Logistic Regression : setiap kelas mendapatkan output berupa prediksi
+- Pemisahan dataset(split dataset) : training set, validation set, testing dataset/data yang tidak terlihat(unseen data)
+- pemisahan dataset berhubungan dengan underfitting dan overfitting
+- overfitting : bagus saat training teteapi buruk saat test
+- underfitting : buruk saat training tetapi bagus saat test
+- Supervised learning : 
+ 1. regresi(outputnya nilainumerik)  
+ 2. klasifikasi(outputnya nilai kategorik)
+- secara default, jumlah k pada k-NN adalah 5. Sebaiknya jumlah k ganjil.
+- data pencilan = data outlier/anomaly
+- untuk mengetahui tetangga terdekat maka dilakukan ranking yang bisa dihitung menggunakan euclidean distance
+- Instance Based Learning
+- KNN : bisa dibilang tidak ada proses belajar (*proses klasifikasinya ditentukan oleh data). KNN juga sering disebut "Lazy Learning"
+- KNN Classification(cara KNN bekerja):  
+ 1. Instance-based
+ 2. competitive learning(karna diranking)
+ 3. lazy learning(seperti langsung openbook saat mengerjakan soal ujian)
+- Curse of Dimensionality
+- K-Factor 
+- Use Case of KNN 
+- Implementasi KNN pada Python
+- Jika ada noice pada knn maka dapat meningkatkan nilai A
+- KNN : mengklasifikasikan data baru ke kelas-kelas yang sudah ada
+- standarscaler : menyamakan range yang berbeda agar tidak ada feature yang terlalu mendominasi jika belum yakin feature tersebut memang sangat berpengaruh
+
+Sesi II :
+- Contoh kasus dengan judu; Customer Churn using KNN untuk melihat pelanggan yang berhenti dan pelanggan yang aktif
+- map : digunakan agar data string menjadi data numerik
+- df.keys() : untuk melihat feature(label) yang ada
+- Normalisasi data agar tidak ada feature yang memiliki pengaruh terlalu besar dibanding yang lain
+- Pembagian data testing dan data training
+- KNN(menentukan nilai k, prediksi, melihat akurasi, mencari nilai terbaik, visualisasi untuk memudahkan membaca data)
+- Decision tree (seperti pohon yang kebalik): akarnya hanya satu, memiliki node dan leaf lebih dari satu. merupakan algoritma supervised learning yg memiliki data input dan output merupa categorical(classification tree) dan continuous(regression tree)
+- inner node dan root note merepresentasikan atribut
+- leaf note merepresentasikan kelas
+- edge : penghubung(merepresentasikan hubungan node dengan father node)
+- input : atribut
+- output : kelas
+
+5. Hari Jum'at
+Hari ini 18 Maret 2022 saya belajar tentang :
+
+Sesi I :
+- Neural Network (Artificial Neural Network/ANN) : jenis ML yang sering digabung dengan deep learning
+- ANN gabungan dari beberapa artificial neuron(persepton) yang disusun dalam beberpa layer(bisa 1 layer)
+- Biologic Neuron(Dendrit, Axon, Nukleus, synapse), Artificial Neuron/Perceptron(fungsi linear, fungsi aktivasi, input, output)
+- Multiple Layer Percepton(MLP)/feedforward neural network : input layer, hidden layer, output layer
+- Activation function, loss function, optimizer
+- Fungsi aktivasi(activation fuction) : linear, nonlinear(*sebaiknya nonlinear, secara komputasi lebih ringan)
+- step fuction(*contoh paling sederhana dari fungsi aktivasi) : jika z > 0 maka output perceptron adalah 1 dan jika j <= 0 maka output perceptron = 0
+- fungsi aktivasi : linear, sigmoid(*mirip step function/beda-beda dikit), ReLU
+- Loss function : mengukur seberapa salah sebuah model NN
+- Loss : ukuran dari fuction/error yang dihasilkan model. 
+- MSE(Mean Square Error) salah satu contoh dari loss function
+- Loss Fuction : Implementation (MSE : Regresision, Binary Cross Entropy : Binary Classification, Categorical Cross Entropy and Sparse Categorical Cross Entropy : Multiclass Classification)
+- NN dilatih dengan menyesuaikan nilai bobot or bias.
+- bobot atau bias yang tepat dapat menurunkan loss dan meningkatkan performa model
+- Optimizer : algoritma yang digunakan untuk menyesuaikan bobot(weight) dab bias
+- Gradient Descent(*salah satu contoh optimizer)
+- Optimizer : Keterangan (SGD : Stochastic Gradient Descent, Momentum : SGD with Momentum, RMSprop : Root Mean Squared Propagation, AdaDelta : Adaptive Data, AdaGrad : Adaptive Gradient Algorithm, Adam : Adaptive Moment Estimation)
+
+Sesi II : 
+- Optimizer : Gradient Descent (memanfaatkan hasil perhitungan turunan parsial pertama loss function dan learning rate untuk mengupdate bobot atau bias model NN)
+- Loss function : MSE
+- Forward Pass : tahapan saat memberikan input kedalam model NN(input diterima melalui input layer, diproses oleh hidden layer, dan hasil proses dikeluarkan melalui ouptput layer, lalu loss akan dikalkulasi berdasarkan t dan y menggunakan loss function)
+- How to train a NN : forwad pass (*contoh)
+- Forward pass : mengkalkulasi z, menentukan y(hasil prediksi model), mengkalkulasi E(loss)
+- Backward Pass : mengupdate weight(w) menggunakan gradient descent(*turunan parsial E terhadap w dapat diperoleh menggunakan chain rule), mengupdate bias(b) menggunakan gradient descent
+- Backpropogation
+Setelah menjelaskan module/ppt, coach kami membahas contoh kasus pada google colab yang berjudul10 Minutes to Building a Fully-Connected Image Classifier

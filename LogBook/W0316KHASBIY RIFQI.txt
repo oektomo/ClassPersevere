@@ -1,0 +1,126 @@
+Mon, 7 Mar
+
+mempelajari tentang perbedaaan data dan digital data. 
+Data
+- Kumpulan fakta-fakta yang ada disekitar kita
+- Bentuk jamak dari kata 'datum'
+- Kumupulan fakta dan statistik dalam bentuk mentah atau tidak terorganisir
+- Kumpulan fakta dan statistik yang digunakan untuk referensi dan analisis
+
+Digital data
+-Informasi yang diproses atau disimpan oleh komputer dalam bentuk dokumen teks, gambar, audio, video, dll.
+
+Tue, 8 Mar
+
+hari mempelajari math for ai
+-peluang
+konsep dasar peluang, peluang bersyarat, teorema bayes
+-aljabar linier
+matriks, vektor, nilai & vektor elgen
+-kalkulus
+fungsi, turunan, optimisasi
+
+Wed, 9 Mar
+
+Data analytics with python- Basic statistics
+• Sebutkan macam-macam data.
+• Menjelaskan konsep dasar statistika beserta klasifikasinya: statistik 
+deskriptif dan inferensial.
+• Memahami ukuran skala: skala nominal, ordinal, interval, dan rasio.
+• Jelaskan ukuran tendensi sentral: mean, median & modus.
+• Hitung ukuran variabilitas: jangkauan, kuartil dan jangkauan antarkuartil, 
+varians dan standar deviasi.
+• Jelaskan ukuran-ukuran bentuk: kemiringan dan kurtosis.
+• Memahami pengenalan dan definisi penting dari Teori Probabilitas.
+• Jelaskan kemungkinan bersyarat.
+• Memahami konsep Kovarians dan Korelasi.
+
+Thu, 10 Mar
+
+AI Project Cycle
+- Problem Scoping
+- Data Acquisition
+- Data Exploration
+- Modelling
+- Evaluation
+- Deployment
+
+Fri, 11 Mar
+
+Traditional Programming vs Machine Learning
+Machine Learn from Data
+Studi Kasus Ojek Online
+Traditional Programming vs Machine Learning Approach
+Machine Learning vs Deep Learning
+Deep Learning; Example
+Digit Classification MNIST 
+Dataset
+The Fashion MNIST Dataset
+
+What did you learn this week?
+
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya
+Memahami hubungan antara AI, Machine Learning and Deep Learning 
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI 
+Dapat memahami konsep dibalik machine learning Dapat memahami proses standar dari machine learning
+Matematika Dasar untuk kecerdasan buatan, aljabar, matrik. 
+Deep learning 
+Pengenalan Deep Learning 
+Neural Network
+
+Memahami mengenai AI atau kecerdasan buatan dan evolusinya
+Memahami hubungan antara AI, Machine Learning and Deep Learning
+Dapat menghubungkan bidang lain seperti Data Science, Computer Vision and NLP with AI
+Dapat memahami konsep dibalik machine learning
+Dapat memahami proses standar dari machine learning
+Matematika Dasar untuk kecerdasan buatan, aljabar, matrik.
+
+Deep learning
+Pengenalan Deep Learning
+Neural Network
+
+
+
+
+Machine Learning
+Kelebihan & Kekurangan Machine Learning
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Machine Learning vs
+ Deep Learning
+Artificial Neural Network
+
+
+Data analytics with python- Basic statistics
+• Sebutkan macam-macam data.
+• Menjelaskan konsep dasar statistika beserta klasifikasinya: statistik 
+deskriptif dan inferensial.
+• Memahami ukuran skala: skala nominal, ordinal, interval, dan rasio.
+• Jelaskan ukuran tendensi sentral: mean, median & modus.
+• Hitung ukuran variabilitas: jangkauan, kuartil dan jangkauan antarkuartil, 
+varians dan standar deviasi.
+• Jelaskan ukuran-ukuran bentuk: kemiringan dan kurtosis.
+• Memahami pengenalan dan definisi penting dari Teori Probabilitas.
+• Jelaskan kemungkinan bersyarat.
+• Memahami konsep Kovarians dan Korelasi.
+
+
+
+• Memahami teori peluang
+• Memahami peluang bersyarat dan teorema bayes
+• Menjelajahi aturan empiris dan teorema chevbeys
+• Menjelajahi skor z, uji z
+• Memahami ide logis dari uji t, uji t satu sampel dan uji t berpasangan
+• Menjelajahi ANOVA dan uji chi square
+
+
+Traditional Programming vs Machine Learning
+Machine Learn from Data
+Studi Kasus Ojek Online
+Traditional Programming vs Machine Learning Approach
+Machine Learning vs Deep Learning
+Deep Learning; Example
+Digit Classification MNIST 
+Dataset
+The Fashion MNIST Dataset

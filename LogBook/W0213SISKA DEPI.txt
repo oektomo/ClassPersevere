@@ -1,0 +1,43 @@
+Mon, 28 Feb
+
+libur hari raya
+
+Tue, 1 Mar
+
+Struktur data adalah cara untuk menvimpan data dalam bahasa pemrograman
+Python memiliki 4 tip, data primitif yang tidak dapat diubah Integer, Float, String dan Boolean
+Python memiliki 4 tipe data non primitif - List, Tuple, Dictionary,dan Set
+Tuple tidak dapat diubah sedangkan list, dictionary, dan set dapat diubah.
+Kita dapat mengetikkan tipe data primitif dari satu ke yang lain.
+
+Wed, 2 Mar
+
+hari belajar di mcteams dan mengerjakan tugas yang di berikan 
+
+Thu, 3 Mar
+
+belajar mandiri mengerjakan tugas dan bajar di orbit guru
+
+Fri, 4 Mar
+
+hari ini saya belajar melanjutkan materi yang sebelumnya tentang python, sesi pertama dan sesi kedua banyak mempelajari sintak- sintak dan banyak lagi. Python menyediakan banyak seperangkat operator,
+fungi, dan metode untuk bekerja dengan string.  juga banyak belajar di gcolab.
+
+What did you learn this week?
+
+Struktur data adalah cara untuk menvimpan data
+dalam bahasa pemrograman
+Python memiliki 4 tip, data primitif yang tidak
+dapat diubah Integer, Float, String dan Boolean
+Python memiliki 4 tipe data non primitif - List,
+Tuple, Dictionary,dan Set
+Tuple tidak dapat diubah sedangkan list,
+dictionary, dan set dapat diubah.
+Kita dapat mengetikkan tipe data primitif dari satu
+ke yang lain.
+hari belajar di mcteams dan mengerjakan tugas
+yang di berikan. belajar mandiri mengerjakan tugas dan bajar diorbit guru
+hai ini saya belajar melanjutkan materi yang
+sebelumnya tentang python, sesi pertama dan sesi
+kedua banyak mempelajari sintak- sintak dan
+banyaklagi.

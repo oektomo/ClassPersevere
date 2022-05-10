@@ -1,0 +1,65 @@
+Mon, 4 Apr
+
+hari ini hanya belajar mengenai data science, karena hari ini mulai puasa ramadan, maka 1 hari hanya 1 domain
+untuk materi data science hari ini yang dibahas adalah mengenai Time Series (Statistical Approach), pelajaran cukup sulit dimengerti namun seru untuk dibahas
+pelajaran tersebut antara lain 
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Tue, 5 Apr
+
+hari ini mempelajari domain computer vision 
+materi yang dipelajari adalah Object Detection with YOLO
+hal yg dipelajari adalah :
+Memahami prinsip kerja object detection
+• Memahami prinsip kerja YOLO (You Only Look Once)
+Algorithm
+• Implementasi YOLO (handson)
+
+Wed, 6 Apr
+
+hari ini adalah doimain NLP, pada domain nlp materi yang dibahas hari ini adalah: Word Embedding dan Deep Learning for NLP
+hal yang dipelajari adalah:
+word embedding, word2vec, RNN dan LSTM
+
+Thu, 7 Apr
+
+domain hari ini adalah RL, materi RL kali ini cukup sulit dimengerti, yaitu Q Learning dan Deep Q Learning
+
+Fri, 8 Apr
+
+Hari ini yang dipelajari di teknikal adalah tentang pengenalan restful API dan flask
+
+What did you learn this week?
+
+Senin 4 Apr 2022
+hari ini hanya belajar mengenai data science, karena hari ini mulai puasa ramadan, maka 1 hari hanya 1 domain
+untuk materi data science hari ini yang dibahas adalah mengenai Time Series (Statistical Approach), pelajaran cukup sulit dimengerti namun seru untuk dibahas
+pelajaran tersebut antara lain 
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Selasa 5 Apr 2022
+
+hari ini mempelajari domain computer vision 
+materi yang dipelajari adalah Object Detection with YOLO
+hal yg dipelajari adalah :
+Memahami prinsip kerja object detection
+• Memahami prinsip kerja YOLO (You Only Look Once)
+Algorithm
+• Implementasi YOLO (handson)
+
+Rabu 6 Apr 2022
+hari ini adalah doimain NLP, pada domain nlp materi yang dibahas hari ini adalah: Word Embedding dan Deep Learning for NLP
+hal yang dipelajari adalah:
+word embedding, word2vec, RNN dan LSTM
+
+Kamis 7 Apr 2022
+domain hari ini adalah RL, materi RL kali ini cukup sulit dimengerti, yaitu Q Learning dan Deep Q Learning
+
+Jumat 8 Apr 2022
+Hari ini yang dipelajari di teknikal adalah tentang pengenalan restful API dan flask

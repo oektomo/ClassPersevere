@@ -1,0 +1,47 @@
+Mon, 4 Apr
+
+Data runtun waktu/series adalah suatu himpunan data pengamatan yang dibangun dalam urutan waktu.
+Split Data time Series tidak bisa dibagi secara acak (random) namu pembagian datanya harus berurutan.
+Pola data time series secara umum ada 4 jenis: stasioner, trend, seasonal, dan cyclic effect.
+Analisis Box Jenkins ARIMA hanya berlaku pada data runtun waktu yang stasioner. Namun data runtun waktu yang tidak stasioner dapat ditransformasi menjadi runtun waktu yang stasioner, sehingga ARIMA juga dapat digunakan untuk data runtun waktu yang tidak stasioner.
+
+Tue, 5 Apr
+
+Classification: Setiap image memiliki satu objek, Model melakukan prediksi satu label.
+Object Detection: Setiap image mengandung banyak objek, Model mengklasifikasi objek dan mengidentifikasi lokasi.
+Naive Approach, pendekatan ini lambat karena memeriksa banyak jendela (window) yang tidak berisi apapun (tidak bagus untuk penggunaan waktunya/real time).
+Region-based Convolutional Neural Network (R-CNN) adalah pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN.
+YOLO (You Look Only Once) memproses seluruh gambar sekaligus ke CNN untuk memprediksi labels, bounding boxes, dan confidence probabilitas untuk setiap objek pada gambar.
+
+Wed, 6 Apr
+
+Word embedding menjawab kekurangan dari pendekatan sebelumnya, yakni data sparse, low swmantics dan OOV (khususnya FastText).
+Word embedding diperoleh dengan melatih shallow neural network (satu layer), weight yang dihasilkan dijadikan word embedding.
+RNN adalah pendekatan yang dapat memperoleh semantic kalimat, namun ia memiliki kelemahan yakni Long Dependecy Problem.
+LSTM bekerja dengan memperhatikan informasi yang relevan dan melupakan informasi yang tidak relevan lagi.
+
+Thu, 7 Apr
+
+Q-Learning termasuk dalam kategori Model-free RL algorithm.
+Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value learning dengan exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q-Learning.
+Pada Q-Learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action.
+
+Fri, 8 Apr
+
+HTTP adalah standar protocol yang digunakan untuk bertransaksi data melalui internet.
+Transaksi data internet dilakukan oleh server dan client.
+RESTful API adalah arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+Flask adalah module yang dapat digunakan untuk membangun RESTful API.
+
+What did you learn this week?
+
+Data runtun waktu/series adalah suatu himpunan data pengamatan yang dibangun dalam urutan waktu.
+Pola data time series secara umum ada 4 jenis: stasioner, trend, seasonal, dan cyclic effect.
+Region-based Convolutional Neural Network (R-CNN) adalah pendekatan berbasis region yang secara strategis mengidentifikasi objek dan lokasi melalui CNN.
+YOLO (You Look Only Once) memproses seluruh gambar sekaligus ke CNN untuk memprediksi labels, bounding boxes, dan confidence probabilitas untuk setiap objek pada gambar.
+Word embedding menjawab kekurangan dari pendekatan sebelumnya, yakni data sparse, low swmantics dan OOV (khususnya FastText).
+Word embedding diperoleh dengan melatih shallow neural network (satu layer), weight yang dihasilkan dijadikan word embedding.
+Q-Learning termasuk dalam kategori Model-free RL algorithm.
+Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value learning dengan exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q-Learning.
+HTTP adalah standar protocol yang digunakan untuk bertransaksi data melalui internet.
+RESTful API adalah arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.

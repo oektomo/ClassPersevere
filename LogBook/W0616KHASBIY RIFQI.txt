@@ -1,0 +1,103 @@
+Mon, 28 Mar
+
+DS
+• Dimensionality Reduction di AI
+• Tujuan dimensionality reduction
+• Teknik dimensionality reduction
+
+Tue, 29 Mar
+
+NLP
+Data collection
+ Pre-processing
+ Case Folding
+Filtering
+Stopword
+Stemming
+Feature Extraction
+ BoW
+TF-IDF
+Feature Selection
+Chi-Square
+
+Wed, 30 Mar
+
+CV
+Deep Learning & CNN (L.0 3)
+
+RL
+Sejarah Reinforcement Learning (RL)
+Algoritma RL
+Elements & Environment dari RL
+Aplikasi dari RL
+
+Thu, 31 Mar
+
+Data Sciene
+
+NLP
+Text representation
+
+Computer Vision
+
+Technical
+Source Code Management
+
+Fri, 1 Apr
+
+RL
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Technical
+Database - SQL
+
+What did you learn this week?
+
+DS
+• Dimensionality Reduction di AI
+• Tujuan dimensionality reduction
+• Teknik dimensionality reduction
+
+NLP
+Data collection
+ Pre-processing
+ Case Folding
+Filtering
+Stopword
+Stemming
+Feature Extraction
+ BoW
+TF-IDF
+Feature Selection
+Chi-Square
+
+CV
+Deep Learning & CNN (L.0 3)
+
+RL
+Sejarah Reinforcement Learning (RL)
+Algoritma RL
+Elements & Environment dari RL
+Aplikasi dari RL
+
+Data Sciene
+
+NLP
+Text representation
+
+Computer Vision
+
+Technical
+Source Code Management
+
+RL
+1. Mengetahui Markov Decision Proses,
+2. Bisa menyusun MDP dalam merumuskan RL secara formal
+3. Menentukan Value sebuah Policy.
+4. Mencoba membuat Dynamic Programming tipe Value Iteration
+
+Technical
+Database - SQL

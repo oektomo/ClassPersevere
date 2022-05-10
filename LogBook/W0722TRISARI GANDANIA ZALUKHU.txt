@@ -1,0 +1,47 @@
+Mon, 4 Apr
+
+kegiatan hari mempelajari dan sekalian praktek di google collab tentang analisa time series
+
+Tue, 5 Apr
+
+hari ini mempelajari tentang image detection algorithms, melakukan ngoding dengan google collab dan membuat cara deteksi orang yang menggunakan mask dan tidak menggunakan masker dengan tool Yolo.
+Yolo adalah algoritma yang diusulkan oleh Redmond et. al dalam artikel penelitian yang diterbitkan di IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) sebagai makalah konferensi, memenangkan OpenCV People's Choice Award.
+
+Wed, 6 Apr
+
+materi yang disampaikan hari ini adalah tentang tentang word embedding yang berguna untuk  menyelesaikan permasalahan sebelumnya, yang setiap kata dapat direpresentasikan pada vector space dalam dimensi tertentu
+
+Thu, 7 Apr
+
+materi hari ini adalah tentang Q-learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman
+Equation untuk perhitungan dan bersifat online action-value function learning dengan
+exploration policy. Sehingga kita perlu belajar konsep dasar RL sebelum mempelajari Q-
+learning.
+Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada
+
+sekumpulan state dan sekumpulan action.
+Pada Q-learning dilakukan iterasi:
+Policy iteration
+Value iteration
+Di tahap awal, elemen matrix Q-table akan ditentukan bernilai 0 semuanya. Q-table akan
+
+di update sejalan dengan bertambahnya jumlah episode.
+Secara prinsip semakin banyak iterasi episode akan semakin baik Q-table-nya.
+table ini dapat dianalogikan seperti 'memori' bagi agent. Agent dapat menentukan path
+optimal berdasarkan nilai yang tertera pada Q-table.
+
+Fri, 8 Apr
+
+materi hari ini adalah : 
+Memahami HTTP request dan HTTP response
+Memahami apa itu RESTful API Mampu mendesain RESTful API Sederhana untuk project Al dan ML
+
+HTTP (Hypertext Transfer Protocol) adalah Bahasa yang umum digunakan pada internet secara global. Web Browser, Server, dan aplikasi berbasis internet berkomunikasi melalui protokol ini.
+Jenis data yang ada di internet sangat beragam seperti gambar,
+halaman web (html), text, json, audio, video dan sebagainya dapat
+dikirim melalui protokol HTTP.
+
+What did you learn this week?
+
+materi yang dipelajari pada minggu ini adalah 
+tentang analisa time series, image detection algorithms,word embedding, Q-learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman dan HTTP (Hypertext Transfer Protocol) 

@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+pada hari ini ada sesi introduction yang menjelaskan mengenai orbit dan beberapa aturan maupun konsep pembelajaran yang akan dilaksanakan. lalu juga ada sesi perkenalan masing-masing mahasiswa
+
+Tue, 22 Feb
+
+pada hari ini ada self study, dan diberi modul yang berjudul AI for industry untuk dibaca masing2 mahasiswa, setelah itu saya mulai untuk menginstall python dan jupyter notebook di device yang saya gunakan
+
+Wed, 23 Feb
+
+pada hari ini ada self studi dan diberi modul yang berjudul python introduction yang menjelaskan tentang apa itu python, seberapa populernya python, perusahaan yang memakai python untuk bahasa pemrogramannya dan masih banyak lagi
+
+Thu, 24 Feb
+
+pada hari ini ada self studi dan diberi modul yang berjudul Data, Ethnics, and Bias yang menjelaskan tentang apa itu data, data terstruktur maupun tidak terstruktur, macam-macam data dan apa saja yang perlu diperhatikan dalam pengambilan sample data
+
+Fri, 25 Feb
+
+pada hari ini saya mengakses website orbit guru untuk menonton video tentang apa itu python, python adalah bahasa pemrograman yang bersifat opensource, python dibuat dan dikembangkan pada tahun 1990-an oleh Guido Van Rossum, python merupakan bahasa high level programming yang berarti adalah bahasa komputer yang sebagian besar instruksinya menggunakan istilah-istilah bahasa manusia
+
+What did you learn this week?
+
+pada hari pertama minggu ini ada sesi introduction yang menjelaskan mengenai orbit dan beberapa aturan maupun konsep pembelajaran yang akan dilaksanakan. lalu juga ada sesi perkenalan masing-masing mahasiswa. Kemudian pada hari selanjutnyai ini ada self study, dan diberi modul yang berjudul AI for industry untuk dibaca masing2 mahasiswa, setelah itu saya mulai untuk menginstall python dan jupyter notebook di device yang saya gunakan. pada hari rabu ada self studi dan diberi modul yang berjudul python introduction yang menjelaskan tentang apa itu python, seberapa populernya python, perusahaan yang memakai python untuk bahasa pemrogramannya dan masih banyak lagi, kemudian pada hari kamis ada self studi dan diberi modul yang berjudul Data, Ethnics, and Bias yang menjelaskan tentang apa itu data, data terstruktur maupun tidak terstruktur, macam-macam data dan apa saja yang perlu diperhatikan dalam pengambilan sample data. kemudian pada hari selanjutnya saya mengakses website orbit guru untuk menonton video tentang apa itu python, python adalah bahasa pemrograman yang bersifat opensource, python dibuat dan dikembangkan pada tahun 1990-an oleh Guido Van Rossum, python merupakan bahasa high level programming yang berarti adalah bahasa komputer yang sebagian besar instruksinya menggunakan istilah-istilah bahasa manusia

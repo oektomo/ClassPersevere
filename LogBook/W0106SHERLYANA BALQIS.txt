@@ -1,0 +1,23 @@
+Mon, 21 Feb
+
+Perkenalan dengan mentor, kontrak belajar dan penjelasan materi pembelajaran
+
+Tue, 22 Feb
+
+Pengenalan penggunaan data kecerdasan buatan pada industri. Semua yang dilakukan dengan memproses data (data processing), lalu mereka menawarkan solusi dari permasalahan customer. Sumber data sebelum era data dan setelah era data. Karakteristik big data
+
+Wed, 23 Feb
+
+Perkenalan untuk memprogram, Phyton bahasa pemrograman tingkat tinggi yang dinamis serbaguna dan mudah untuk dipelajari. Anaconda (distribusi python/R) kumpulan package open source, package manager dan environment manager yang dibangun untuk data science. Installasi python dan jupyter notebook.
+
+Thu, 24 Feb
+
+Penjelasan materi apa itu data, data terstruktur dan tidak terstruktur, data kuantitatif dan kualitatif, kualitas data, cara memperoleh data (sampel), hal yang perlu diperhatikan dalam pengambilan data (sampel), dan cara menyimpan data.
+
+Fri, 25 Feb
+
+Membuat program "Hello World" sederhana dengan menggunakan print() fungsi Python untuk menampilkan teks "Hello World" ke layar. 
+
+What did you learn this week?
+
+Apa itu artificial intelligence? artificial intelligence adalah kemampuan mesin untuk menirukan perilaku manusia yang cerdas. Lalu self study di hari selasa sampai hari jumat. Yang dipelajari adalah python yang merupakan salah satu bahasa pemrogramman tujuan umum ditafsirkan, tingkat tinggi. Terdapat 4 metode yang dapat digunakan untuk menulis dan menjalankan program Python. Data bisa berupa banyak hal, dengan kecerdasan buatan itu harus menjadi kumpulan fakta. Ethics atau biasa kita sebut Etika adalah seperangkat prinsip moral membantu kita membedakan antara benar dan salah. Untuk Operator pada Python terdapat beberapa macam yang didukung oleh Python diantaranya; Operator Aritmatika, Operator Perbandingan, serta Operator Penugasan.

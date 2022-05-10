@@ -1,0 +1,78 @@
+Mon, 4 Apr
+
+Hari ini saya mengikuti kelas dengan materi data science section time series, mempelajari antara lain :
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+Tue, 5 Apr
+
+Hari ini saya mengikuti kelas dengan materi computer vision section  Object Detection with YOLO, mempelajari antara lain :
+• Memahami prinsip kerja object detection 
+• Memahami prinsip kerja YOLO (You Only Look Once) Algorithm
+• Implementasi YOLO
+
+Wed, 6 Apr
+
+Hari ini saya mengikuti kelas dengan materi Natural Language Processing (NLP)  section Word Embedding and Deep Learning for NLP, mempelajari antara lain :
+▪ Dapat memahami ide dan alasan dibutuhkannya word embedding
+▪ Dapat memahami intuisi word2vec dengan metode skipgram dan 
+CBOW
+▪ Dapat memahami negative sampling pada Word2Vec
+▪ Dapat memahami Recurrent Neural Network dan batasannya
+▪ Dapat memahami Long short-term memory (LSTM)
+▪ Dapat mengimplementasikan setiap metode dengan python
+
+Thu, 7 Apr
+
+Hari ini saya mengikuti kelas dengan materi Reinforcement Learning Belajar dengan Penguatan section Q Learning dan Deep Q Learning, mempelajari antara lain :
+1. Mengetahui Q Learning, 
+2. Memahami bagaimana Q Learning bekerja
+3. Mengetahui Deep Q Learning.
+4. Memahami bagaimana Deep Q Learning Bekerja
+
+Fri, 8 Apr
+
+Hari ini saya mengikuti kelas dengan materi Flask RESTFull API, mempelajari antara lain :
+1. Memahami HTTP request dan HTTP response
+2. Memahami apa itu RESTful API
+3. Mampu mendesain RESTful API Sederhana untuk project AI dan ML
+
+What did you learn this week?
+
+04 April 2022
+Hari ini saya mengikuti kelas dengan materi data science section time series, mempelajari antara lain :
+➢Pengertian data time series dan contoh data
+➢Bagaimana membagi data time series menjadi data train dan data test
+➢Pola data yang ada pada data time series
+➢Syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series
+
+05 April 2022
+Hari ini saya mengikuti kelas dengan materi computer vision section  Object Detection with YOLO, mempelajari antara lain :
+• Memahami prinsip kerja object detection 
+• Memahami prinsip kerja YOLO (You Only Look Once) Algorithm
+• Implementasi YOLO
+
+06 April 2022
+Hari ini saya mengikuti kelas dengan materi Natural Language Processing (NLP)  section Word Embedding and Deep Learning for NLP, mempelajari antara lain :
+▪ Dapat memahami ide dan alasan dibutuhkannya word embedding
+▪ Dapat memahami intuisi word2vec dengan metode skipgram dan 
+CBOW
+▪ Dapat memahami negative sampling pada Word2Vec
+▪ Dapat memahami Recurrent Neural Network dan batasannya
+▪ Dapat memahami Long short-term memory (LSTM)
+▪ Dapat mengimplementasikan setiap metode dengan python
+
+07 April 2022
+Hari ini saya mengikuti kelas dengan materi Reinforcement Learning Belajar dengan Penguatan section Q Learning dan Deep Q Learning, mempelajari antara lain :
+1. Mengetahui Q Learning, 
+2. Memahami bagaimana Q Learning bekerja
+3. Mengetahui Deep Q Learning.
+4. Memahami bagaimana Deep Q Learning Bekerja
+
+08 April 2022
+Hari ini saya mengikuti kelas dengan materi Flask RESTFull API, mempelajari antara lain :
+1. Memahami HTTP request dan HTTP response
+2. Memahami apa itu RESTful API
+3. Mampu mendesain RESTful API Sederhana untuk project AI dan ML

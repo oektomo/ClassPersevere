@@ -1,0 +1,38 @@
+Mon, 18 Apr
+
+Clustering hampir sama dengan klasifikasi, akan tetapi klasifikasi sudah diketahui variabel kelas/kategorinya, sedangkan clustering harus ditentukan sendiri dari data yang ada.
+Cluster terbentuk berdasarkan data-data yang dekat dengan centroid cluster tersebut serta jauh dengan centroid dari cluster lainnya.
+Clustering akan bekerja dengan baik untuk data yang dapat divisualisasikan dengan 2-D.
+Semakin banyak data, cluster, serta iterasinya maka akan menyebabkan proses komputasi juga semakin besar.
+
+Tue, 19 Apr
+
+The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan gambar dengan gambar garis disekitar objek disebut segmentasi.
+The Intersection Over Union (IoU) adalah metrik yang memberi tahu nilai (persen) tumpang tindih antara target mask dan output yangdi prediksi.
+Lapisan encoder dan decoder berukuran sama.
+Encoder digunakan untuk mengekstrak fitur.
+Decoder akan menggunakan fitur yang sudah diekstrak untuk membuat mask predict pada original picture.
+
+Wed, 20 Apr
+
+Speech Recognition atau biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+Speech Recognition digunakan untuk mengidentifikasi kata-kata dalam bahasa lisan atau percakapan lisan.
+Voice Recognition adalah teknologi untuk mengidentifikasi suara individu.
+
+Thu, 21 Apr
+
+Algoritme RL menghendaki pertukaran state-action-reward (s, a, r) antara agent dan environment. RL belajar (learn) dari interaksi agent dengan environment menggunakan proses eksploitasi/eksploasi dan sistem reward, untuk memperkuat (reinforce) action positif.
+Eksplootasi dan eksplorasi perlu diatur sedemikian sehingga tujuan dapat tercapai.
+
+Fri, 22 Apr
+
+Website adalah kumpulan halaman web yang dapat diakses publik dan biasanya disebut juga dengan www (World Wide Web). Develpoment adalah kegiatan yang bertujuan unutk membuat suatu program atau pengembangan perangkat lunak.
+Web development atau pengembangan web adalah sebuah proses pembangunan dan pemeliharan situs web. Heroku adalah salah satu web hosting berbasis cloud, biasanya heroku digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain-lain.
+
+What did you learn this week?
+
+Clustering hampir sama dengan klasifikasi, akan tetapi klasifikasi sudah diketahui variabel kelas/kategorinya, sedangkan clustering harus ditentukan sendiri dari data yang ada.
+The problem to classify the pixels dalam suatu gambar dan kemudian mengelompokkan gambar dengan gambar garis disekitar objek disebut segmentasi.
+Speech Recognition atau biasa dikenal dengan Automatic Speech Recognition (ASR) merupakan suatu pengembangan teknik dan sistem yang memungkinkan komputer untuk menerima masukan berupa kata yang diucapkan.
+Algoritme RL menghendaki pertukaran state-action-reward (s, a, r) antara agent dan environment.
+Web development atau pengembangan web adalah sebuah proses pembangunan dan pemeliharan situs web. Heroku adalah salah satu web hosting berbasis cloud, biasanya heroku digunakan untuk mengembangkan aplikasi web dengan berbagai bahasa pemrograman seperti Java, Ruby, Python, Node JS, PHP dan lain-lain.

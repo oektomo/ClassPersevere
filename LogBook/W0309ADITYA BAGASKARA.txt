@@ -1,0 +1,31 @@
+Mon, 7 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas tentang apa itu data
+
+Tue, 8 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai matematika dan aljabar, kemudian dilanjutkan belajar secara individu
+
+Wed, 9 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai machine learning, supervised learning, unsupervised learning, reinforment learning, deep learning, dan juga neural network, kemudian dilanjutkan belajar secara individu
+
+Thu, 10 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00, yang membahas mengenai statitiska, kemudian dilanjutkan belajar secara individu
+
+Fri, 11 Mar
+
+pada hari ini ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00,  yang menjelaskan mengenai Object Oriented Programming di python dan juga menjelaskan mengenai core modules dan third party modules di python
+
+What did you learn this week?
+
+pada hari senin ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas tentang apa itu data
+
+pada hari selasa juga ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai matematika dan aljabar, kemudian dilanjutkan belajar secara individu
+
+pada hari rabu juga ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00 yang membahas mengenai machine learning, supervised learning, unsupervised learning, reinforment learning, deep learning, dan juga neural network, kemudian dilanjutkan belajar secara individu
+
+pada hari kamis juga ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.00-15.00, yang membahas mengenai statitiska, kemudian dilanjutkan belajar secara individu
+
+pada hari jumat ada 2 sesi, yang pertama dimulai pukul 08.00-10.00, kemudian sesi selanjutnya dimulai pukul 13.30-15.30,  yang menjelaskan mengenai Object Oriented Programming di python dan juga menjelaskan mengenai core modules dan third party modules di python

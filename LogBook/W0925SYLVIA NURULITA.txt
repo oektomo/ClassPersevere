@@ -1,0 +1,78 @@
+Mon, 18 Apr
+
+Hari ini saya mengikuti kelas dengan Clustering (K-Means), mempelajari antara lain :
+1. Memahami langkah dalam clustering
+2. Memahami teknik dalam menentukan banyak cluster
+3. Dapat mengimplementasikan clustering
+4. Mengetahui manfaat clustering
+
+Tue, 19 Apr
+
+Hari ini saya mengikuti kelas dengan Image Segmentation, mempelajari antara lain :
+• Memahami prinsip kerja segmentasi
+• Perbedaan antara instance dan semantic segmentation
+• U-Net untuk instance segmentation
+• Experiment
+
+Wed, 20 Apr
+
+Hari ini saya mengikuti kelas dengan Natural Language Processing (NLP) section Speech Recognition , mempelajari antara lain :
+▪ Memahami pengertian Speech Recognition
+▪ Proses mengubah sinyal analog ke digital
+▪ Ekstraksi Fitur dengan MFCC
+▪ Flow Speech Recognition
+▪ Hidden Markov Model
+
+Thu, 21 Apr
+
+Hari ini saya mengikuti kelas dengan Reinforcement Learning, mempelajari antara lain :
+• Mengetahui Dasar-Dasar RL (MDP, Bellman Eq.)
+• Mengetahui DP, MC, TD (SARSA), QL dan DQN
+• Mengetahui implementasi RL pada robotics
+• Dapat melakukan pemrograman RL dengan python
+
+Fri, 22 Apr
+
+Hari ini saya mengikuti kelas dengan Technical Domain, mempelajari antara lain :
+▪ Memahami apa itu web deployment
+▪ Mengetahui penggunaan Heroku sebagai service untuk deployment
+▪ Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi 
+web untuk deployment
+
+
+What did you learn this week?
+
+18 April 2022
+Hari ini saya mengikuti kelas dengan Clustering (K-Means), mempelajari antara lain :
+1. Memahami langkah dalam clustering
+2. Memahami teknik dalam menentukan banyak cluster
+3. Dapat mengimplementasikan clustering
+4. Mengetahui manfaat clustering
+
+19 April 2022
+Hari ini saya mengikuti kelas dengan Image Segmentation, mempelajari antara lain :
+• Memahami prinsip kerja segmentasi
+• Perbedaan antara instance dan semantic segmentation
+• U-Net untuk instance segmentation
+• Experiment
+
+20 April 2022
+Hari ini saya mengikuti kelas dengan Image Segmentation, mempelajari antara lain :
+• Memahami prinsip kerja segmentasi
+• Perbedaan antara instance dan semantic segmentation
+• U-Net untuk instance segmentation
+• Experiment
+
+21 April 2022
+Hari ini saya mengikuti kelas dengan Reinforcement Learning, mempelajari antara lain :
+• Mengetahui Dasar-Dasar RL (MDP, Bellman Eq.)
+• Mengetahui DP, MC, TD (SARSA), QL dan DQN
+• Mengetahui implementasi RL pada robotics
+• Dapat melakukan pemrograman RL dengan python
+
+22 April 2022
+Hari ini saya mengikuti kelas dengan Technical Domain, mempelajari antara lain :
+▪ Memahami apa itu web deployment
+▪ Mengetahui penggunaan Heroku sebagai service untuk deployment
+▪ Mampu melakukan pengaturan atau konfigurasi mandiri terhadap aplikasi 
+web untuk deployment

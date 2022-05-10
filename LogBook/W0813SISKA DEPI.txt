@@ -1,0 +1,31 @@
+Mon, 11 Apr
+
+kegiatan hari ini adalah data science, time
+series (deep learning approach)
+
+Tue, 12 Apr
+
+kegiatan har ini adalah computer vision
+introduction of auto encoder & image
+denoising
+
+Wed, 13 Apr
+
+kegiatan hari in adalah natural language
+processing (transfer learning)
+
+Thu, 14 Apr
+
+kegiatan hari in adalah reinforcement
+learning robotics
+
+Fri, 15 Apr
+
+libur nasional
+
+What did you learn this week?
+
+kegiatan minggu ini yaitu belajar data
+science,computer vision, natural language
+processing,reinforcement learning dan
+technical

@@ -1,0 +1,26 @@
+Mon, 4 Apr
+
+data science statistical approach
+
+Tue, 5 Apr
+
+ computer vision object detection with YOLO
+
+Wed, 6 Apr
+
+NP word embedding
+
+Thu, 7 Apr
+
+technical API using mask
+
+Fri, 8 Apr
+
+reinforcement learning Qlearning dan deep Qlearning
+
+What did you learn this week?
+
+kegiatan minggu ini adalah belajar domain
+data science, computer vision, natural
+language processing,reinforcement
+learning dan technical

@@ -1,0 +1,45 @@
+Mon, 28 Feb
+
+kegiatan studi pada hari Senin, 28 Feb 2022 adalah pembelajaran mandiri
+
+Tue, 1 Mar
+
+kegiatan studi hari Selasa, 1 Mar 2022 adalah pengenalan bahasa python dan penggunaan nya di jupyternotebook. materi python yang dipaparkan hari ini mengenai pengenalan sintak python dan macam macam tipe data pada python
+
+Wed, 2 Mar
+
+pada kegiatan studi hari rabu 2 maret 2022 ini, saya belajar mengenai operator pada python dan pengenalan github, penggunaanya serta cara mensubmit tugas ke github. 
+
+Thu, 3 Mar
+
+pada hari Kamis, 3 Mar 2022, materi pertemuan yang disampaikan mengenai sistem kontrol (IF ELSE). 
+
+Fri, 4 Mar
+
+pertemuan hari Jumat, 4 Mar 2022 membahas pemograman python dengan bab penggunaan fungsi, lambda
+
+What did you learn this week?
+
+Apa yang kamu pelajari minggu ini?
+Python Introduction
+Belajar Python Dasar dan pengenalan bahasa pemrograman python. 
+Forum Group discussion seputar python, tanya jawab dan sharing pengalaman.
+
+Python Data Types
+Mengenal tipe-tipe data pada python seperti, int, float, string, list, tuple, dll
+FGD/Forum Group Discussion, sesi tanya jawab dan latihan.
+
+Penugasan
+
+Memahami Python Operator
+Mengeksplorasi input function di python
+Memahami conditional programming dan loops
+Memahami bagaimana menggunakan list comprehension di python
+Menyusun Power Point presentasi kelompok
+Latihan soal dan pembahasan
+Video Materi
+Membuat built in function yang populer di python, juga membuat user defined function
+Memahami generators, menggunakan map dan filter kuncinya
+memahami string manipulation
+memahami bagaimana menggunakan reading, writing, dan appending data ke sebuah file di python
+presentasi kelompok

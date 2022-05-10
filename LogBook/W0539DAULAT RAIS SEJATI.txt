@@ -1,0 +1,114 @@
+Mon, 21 Mar
+
+21 Maret 2022
+Data Science :
+1.	Pengenalan data science
+2.	Matematika untuk data science : statistik dan teori probabilitas, terori optimisasi, aljabar linier, kalkulus
+3.	Preprocessing : data cleaning, data transformation, data reduction
+4.	Metode data science : supervised learning, unsupervised learning
+5.	Supervised learning : klasifikasi, regresi
+6.	Unsupervised learning : clustering
+
+Natural Language Processing
+1.	Pengenalan natural language processing
+2.	Evolusi dari NLP
+3.	Penerapan atau aplikasi NLP
+4.	NLP pipeline dan teknik-tekniknya
+5.	Tantangan dan masa depan NLP
+
+Tue, 22 Mar
+
+22 Maret 2022
+Computer Vision
+1.	Pengenalan computer vision
+2.	Cara kerja computer vision
+3.	Komponen-komponen dari computer vision
+4.	Sejarah computer vision
+5.	Matematika dalam computer vision
+6.	Aplikasi computer vision
+Reinforcement Learning
+1.	Sejarah reinforcement learning
+2.	Algoritma reinforcement learning
+3.	Element dan environment dari reinforcement learning
+4.	Aplikasi dari reinforcement learning
+5.	Mempelajari reward, state, action
+
+Wed, 23 Mar
+
+23 Maret 2022
+Data Science
+Pengenalan visualisasi data
+1.	Menggali data
+2.	Mencari insight dari data
+3.	Menginterpretasikan insight data
+Pengenalan tableau
+1.	Visualisasi data menggunakan tableau public
+2.	Mengerjakan tugas kelompok visualisasi data menggunakan tableau
+Natural Languange Processing
+1.	Extraction feature : bag of words, TF-IDF
+2.	Feature filtering
+3.	Feature selection : metode filter, metode wrapper, metode hyper
+4.	Mempelajari kelebihan dan kekurangan tiap metode fiture selection
+5.	Penggunaan Word Cloud
+
+Thu, 24 Mar
+
+24 Maret 2022
+Computer Vision :
+1.	Pengolahan Citra
+2.	Komponen pengolahan citra : low->mid->high (level process)
+3.	Jenis representasi bit pada citra : binary image, 8 bit color format, 16 bit color format
+4.	Perbaikan citra : operasi intensitas pada citra = log transformation, power law (gamma) transformation
+
+Technical :
+1.	Pengenalan Git & GitHub
+2.	Sejarah git
+3.	Perbedaan git dan github
+4.	Installasi git pada lokal
+5.	Membuat github repository
+6.	Scm concept
+
+Fri, 25 Mar
+
+25 Maret 2022
+Reinforcement Learning :
+1.	MDP Reinforcement Learning
+2.	Markov Property : “the future is independent of the past given the present”
+3.	Pengenalan MDP
+4.	Aplikasi RL dalam dunia nyata : robotik, alokasi sumber daya, pertanian
+5.	MDP pada permainan dadu
+6.	Mempelajari istilah-istilah yang terdapat pada MDP : rewards, probabilitas, poilicy, diskon, value
+Technical :
+1.	Mengikuti mini workshop : Implementation of AI in Spasial Data
+2.	Pengenalan SQL
+3.	Mempelajari penggunaan perintah Data Definitnion Language
+4.	Mempelajari penggunaan perintah Data Manipulation Language
+5.	Mempelajari penggunaan filtering dan susetting dengan beberapa operator
+6.	Melakukan pengurutan dan pengelompokan data dengan perintah ORDER BY dan GROUP BY
+
+What did you learn this week?
+
+Minggu ke-5 (21 - 25 Mar 2022)
+1.	Data Science
+a.	Pengenalan data science
+b.	Matematika untuk data science : statistik dan teori probabilitas, terori optimisasi, aljabar linier, kalkulus
+c.	Metode data science : supervised learning, unsupervised learning
+d.	Visualisasi data menggunakan tableu
+2.	Natural Languange Processing
+a.	Pengenalan natural language processing
+b.	Extraction feature : bag of words, TF-IDF 
+c.	Feature filtering 
+d.	Feature selection : metode filter, metode wrapper, metode hyper
+3.	Computer vision
+a.	Pengenalan computer vision
+b.	Aplikasi computer vision
+c.	Pengolahan Citra
+4.	Reinforcement learning
+a.	Pengenalan reinforcement learning
+b.	Mempelajari reward, state, action
+c.	MDP Reinforcement Learning
+d.	Mempelajari istilah-istilah yang terdapat pada MDP : rewards, probabilitas, poilicy, diskon, value
+5.	Teknikal
+a.	Pengenalan Git & GitHub
+b.	Perbedaan git dan github
+c.	Pengenalan SQL

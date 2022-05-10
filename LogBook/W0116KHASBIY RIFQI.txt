@@ -1,0 +1,32 @@
+Mon, 21 Feb
+
+yang saya pelajari hari ini yaitu tentang apa itu AI, sejarah AI, siapa saja orang yang berpengaruh dalam terciptanya AI ini 
+
+Tue, 22 Feb
+
+secara garis besar hari ini materinya tentang data. yang terdiri dari materi2 yaitu persamaan dan perbedaan data dengan minyak, kemudian tentang revolusi indsutri dan big data
+
+Wed, 23 Feb
+
+hari ini materi sudah masuk ke materi codingan. Di mulai dengan mempelajari Python, Anaconda, Jupiter Notebook, dan pemograman.
+
+Thu, 24 Feb
+
+hari ini saya belajar materi tentang Data, 
+quiz : 
+1. Apa yang dimaksud dengan data yang terstruktur
+jawab : Data terstruktur direpresentasikan dalam skema yang jelas sehingga mudah untuk dianalisa maupun diintegrasikan
+dengan data terstruktur lainnya
+2. Apa yang dimaksud dengan data yang tidak terstruktur
+jawab : data tidak terstruktur direpresentasikan dalam berbagai bentuk sehingga sangat sulit untuk dianalisis maupun diintegrasikan dengan sumber data lain.
+
+Fri, 25 Feb
+
+Mempelajari dan mengeksplorasi mengenai  pengenalan dasar dasar dan pemprograman python
+
+What did you learn this week?
+
+1.tentang apa itu AI, sejarah AI, siapa saja orang yang berpengaruh dalam terciptanya AI ini
+2.secara garis besar hari ini materinya tentang data. yang terdiri dari materi2 yaitu persamaan dan perbedaan data dengan minyak, kemudian tentang revolusi indsutri dan big data
+3.hari ini materi sudah masuk ke materi codingan. Di mulai dengan mempelajari Python, Anaconda, Jupiter Notebook, dan pemograman.
+4.Mempelajari dan mengeksplorasi mengenai  pengenalan dasar dasar dan pemprograman python

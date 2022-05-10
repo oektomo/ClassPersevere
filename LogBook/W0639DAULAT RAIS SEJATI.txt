@@ -1,0 +1,109 @@
+Mon, 28 Mar
+
+28 Maret 2022
+Data Science
+     1.	Dimensionality Reduction di AI 
+    2.	Tujuan dimensionality reduction 
+    3.	Teknik dimensionality reduction
+
+NLP
+Case Study : SMS Spam Classification :
+     1.	Akuisisi data
+    2.	Text preprocessing
+            a.	Case folding
+            b.	Word normalization
+            c.	Stopword removal
+            d.	Stemming
+    3.	Feature engineering
+            a.	Bag of words
+            b.	TF-IDF
+            c.	Feature Selection – Chi Square
+
+Tue, 29 Mar
+
+29 Maret 2022
+Computer Vision :
+1.	Melakukan image thresholding dengan bahasa python
+2.	Mempelajari image filtering pada image processing
+3.	Mempelajari edge detection : metode prewitt, metode sobel
+4.	Melakukan edge deteection dengan bahasa python
+5.	Deep learning pada gambar
+6.	Mempelajari CNN (Convolution Neural Network)
+7.	CNN arsitektur : Convolutional Layeer (ReLu activation), pooling layer, fully connected (dense layer)
+
+Reinforcement Learning :
+1.	Mempelajari metode monte carlo pada reinforcemnt learning
+2.	Mempelajari Monte Carlo Estimation & Control 
+3.	Mempelajari On-Policy dan Off-Policy Monte Carlo 
+4.	Mempelajari Dasar Pemrograman Monte Carlo
+
+Wed, 30 Mar
+
+30 Maret 2022
+Data Science :
+1.	Rekomendasi System dalam AI 
+2.	Market Basket Analysis 
+3.	Association Rules Mining 
+4.	Pengenalan algoritma apriori
+
+NLP
+1.	Mempelajari pengertian Text Classification 
+2.	Mempelajari area Text Classification 
+3.	Mempelajari konsep dasar proses text classification (Text Classification Pipeline)
+4.	Implementasi Text Classification menggunakan Bahasa Pemrograman Python.
+
+Thu, 31 Mar
+
+31 Maret 2022
+Computer Vision
+•	Mempelajari Deep Learning untuk Computer Vision 
+•	Mempelajari struktur CNN.
+Convolutional Neural Networks (CNNs) adalah kategori Neural Network yang telah terbukti sangat efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar.
+CNN memiliki tiga jenis lapisan (layer) untuk membangun arsitektur selain lapisan input: Convolutional Layer (with ReLu activation), Pooling Layer, Fully Connected or Dense Layers
+•	Mempelajari implementasi CNN menggunakan Keras
+
+Teknikal
+•	Mempelajari visualisasi data dan pentingnya visualisasi data. 
+Sebagai representasi grafis dari informasi dan data.
+•	Mempelajari konsep visualisasi data (jenis visualisasi data, dimensi & metrik, dan granulitas data). 
+Jenis visualisasi data dapat berupa statis, animasi dan interaktif. Dimensi merupakan atribut data. Metrik adalah pengukuran kuantitatif. Granulitas data merupakan tingkat ketelitian dalam sebuah model data atau proses pengambilan keputusan
+•	Pengenalan GDS (Google Data Studio). 
+GDS adalah tool gratis untuk visualisasi data interaktif dari Google, dapat sepenuhnya disesuaikan oleh pengguna dan mudah dibagikan ke orang lain.
+•	Mempelajari komponen GDS. 
+Diantaranya report, pages, charts, contros, text areas, lines, shapes, dan images.
+
+Fri, 1 Apr
+
+1 April 2021
+Reinforcement Learning
+•	Pengenalan dari TDL (Temporal Difference Learning). 
+Ide dasar dari TDL merupakan kombinasi dari DP dan MC. 
+Diaplikasikan pada model free. 
+Bersifat bootstraping. 
+Mempelajari ulang DP (Dynamic Programming), MC (Monte Carlo), Model Environment
+•	Mempelajari lebih dalam tentang apa itu TDL. 
+Mengenal perbedann dari MC dan Temporal Difference. 
+Membandingkan DP, MC dan TDL. 
+Mempelajari penerapan TDL pada suatu ilustrasi atau contoh kasus. 
+Mempelajari algoritma TD(0)
+•	Mempelajari TD Control. 
+Mempelajari SARSA (State-Action-Rewared-State-Action). 
+Merupakan metode yang terinspirasi dari policy iteration. 
+SARSA bekerja berdasarkan perubahan state-action. 
+Mengenal contoh kasus yang menggunakan metode SARSA .
+
+Teknikal
+•	Pengenalan Web Scrapping.
+Merupakan pengumpulan data dari situs web melalui cara apa pun selain dari menggunakan program untuk berinteraksi dengan API dan memasukan nya kedalam dokumen elektronik untuk mendapatkan informasi yang diinginkan. 
+Mempelajari perbedaan antara web scrapping dan web crawling.
+•	Mempelajari cara dalam melakukan scrapping.
+Mempelajari tools, persiapan, static web, dynamic web dan HTTP errors pada web scrapping. 
+Menggunakan library Urlib3 Module, BeautifulSoup Module, Scrapy Module.
+Persiapan Web Crapping : Analyzing robots.txt, Analyzing Sitemap files, Checking Website’s Size, Analyzing Technology used in website, Knowing owner of website, Analyzing Web Page.
+•	Mempelajari cara menyimpan data pada web scrapping.
+Dapat menggunakan referensi ataupun mendownload file secara langsung.
+Hasil scraping sebaiknya diekspor agar lebih mudah dicek kapanpun.
+
+What did you learn this week?
+
+Minggu ke-5 (21 - 25 Mar 2022)

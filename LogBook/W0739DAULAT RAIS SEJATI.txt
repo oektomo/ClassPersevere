@@ -1,0 +1,92 @@
+Mon, 4 Apr
+
+4 April 2022
+Data Science
+•	Pengenalan Data Time Series.
+Merupakan suatu himpunan data pengamatan yang dibangun dalam urutan waktu.
+Model time series mengasumsikan bahwa kejadian di waktu t berhubungan dengan kejadian di t-1, t-2, dst.
+•	Mempelajari bagaimana membagi data time series menjadi data train dan data test.
+Menggunakan teknik cross validation.
+•	Mempelajari pola data yang ada pada data time series.
+Pola data time series secara umum ada 4 jenis: stasioner, trend, seasonal, dan cyclic effect.
+•	Mempelajari syarat yang harus dipenuhi data untuk bisa dimodelkan secara time series.
+
+Tue, 5 Apr
+
+5 April 2022
+Computer Vision
+•	Mempelajari prinsip kerja object detection 
+Mempelajari perbedaan classification dan object detection.
+Model mengklasifikasi objek dan mengidentifikasi lokasi.
+Mempelajari perbedaan algoritma image detection.
+•	Mempelajari prinsip kerja YOLO (You Only Look Once) Algorithm
+Alih-alih membuat prediksi di banyak wilayah (region) gambar, YOLO memproses seluruh gambar sekaligus ke CNN untuk memprediksi labels, bounding boxes, dan confidence probabilitas untuk setiap objek pada gambar.
+•	Implementasi YOLO
+
+Wed, 6 Apr
+
+6 April 2022
+Natural Language Processing
+•	Mempelajari ide dan alasan dibutuhkannya word embedding
+Word embedding menjawab kekurangan dari pendekatan sebelumnya, yakni data sparse, low semantics dan OOV (khususnya FastText).
+Word embedding diperoleh dengan melatih shallow neural network (satu layer), weight yang dihasilkan dijadikan word embedding, contoh word embedding ialah Word2Vec, FastText dan Glove.
+•	Mempelajari intuisi word2vec dengan metode skipgram dan CBOW.
+Word2Vec dapat dilatih dengan metode CBOW dan Skipgram. Skipgram: memprediksi semantik dari kata pada suatu kalimat CBOW : memprediksi satu kata dari semantik (input) pada suatu kalimat.
+•	Mempelajari negative sampling pada Word2Vec.
+Negative sampling dibutuhkan untuk mereduksi besarnya parameter.
+•	Mempelajari Recurrent Neural Network dan batasannya.
+Guna memperoleh sentence embedding yang lebih baik. Dapat menggunakan RNN. Intuisinya ialah: kalimat terbentuk dari kata-kata, sehingga dengan memperhatikan suatu kata dengan kata lain akan membentuk satu gambaran utuh tentang kalimat.
+•	Mempelajari Long short-term memory (LSTM)
+Berguna mengatasi long dependency problem, kita dapat menggunakan LSTM. Pada LSTM kita hanya memperhatikan informasi yang relevan dan melupakan (filter) kata-kata yang tidak relevan.
+•	Mengimplementasikan setiap metode dengan python
+
+Thu, 7 Apr
+
+7 April 2022
+Reinforcement Learning
+•	Mengetahui Q Learning,
+Q-Learning merupakan pengembangan RL yang menggunakan Q-values (disebut juga action-values) untuk meningkatkan kemampuan agent belajar agent berulang-ulang.
+Q-learning termasuk dalam kategori Model-free RL algorithm. Menggunakan Bellman Equation untuk perhitungan dan bersifat online action-value function learning dengan exploration policy. 
+•	Memahami bagaimana Q Learning bekerja 
+Pada Q-learning, agent belajar menggunakan evaluation function yang bergantung pada sekumpulan state dan sekumpulan action.
+Konsep dasar Q-Learning: erinspirasi dari value iteration, Sample an action, Observe the reward and the next state, Take the action with the highest Q (Max Q).
+•	Mengetahui Deep Q Learning. 
+Pada Deep Q Learning kita akan menggantikan Q-Table menggunakan sebuah Neural Network yang biasa disebut dengan Deep Q Network atau DQN.
+•	Memahami bagaimana Deep Q Learning Bekerja.
+
+Fri, 8 Apr
+
+8 April 2022
+Teknikal
+•	Mempelajari HTTP request dan HTTP response
+HTTP adalah standar protocol yang digunakan untuk bertransaksi data melalui internet.
+Pesan HTTP yang dikirim dari client ke server disebut dengan request message, sebaliknya disebut dengan response message.
+•	Mempelajari apa itu RESTful API
+RESTful API adalah arsitektur yang digunakan untuk berkomunikasi antar aplikasi yang ada di dalam jaringan internet.
+Flask adalah module python yang dapat digunakan untuk membangun RESTful API.
+•	Mendesain RESTful API Sederhana untuk project AI dan ML
+
+What did you learn this week?
+
+Minggu ke-7 (04 - 08 Apr 2022)
+1.	Data Science
+a.	Pengenalan Data Time Series.
+b.	Mempelajari bagaimana membagi data time series menjadi data train dan data test
+c.	Mempelajari pola data yang ada pada data time series
+2.	Computer Vision
+a.	Mempelajari prinsip kerja object detection
+b.	Mempelajari prinsip kerja YOLO (You Only Look Once) Algorithm
+c.	Implementasi YOLO
+3.	Natural Language Processing
+a.	Mempelajari intuisi word2vec dengan metode skipgram dan CBOW
+b.	Mempelajari Recurrent Neural Network dan batasannya
+c.	Mempelajari negative sampling pada Word2Vec
+d.	Mempelajari Long short-term memory (LSTM)
+e.	Mempelajari intuisi word2vec dengan metode skipgram dan CBOW
+4.	Reinforcement Learning
+a.	Pengenalan Q-Learning dan Deep Q-Learning
+b.	Memahami bagaimana Q Learning dan Deep Q-Learning bekerja
+5.	Teknikal
+a.	Mempelajari HTTP request dan HTTP response
+b.	Mempelajari apa itu RESTful API
+c.	Mendesain RESTful API Sederhana untuk project AI dan ML

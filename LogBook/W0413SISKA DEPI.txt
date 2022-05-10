@@ -1,0 +1,64 @@
+Mon, 14 Mar
+
+hari ini lebih banyak belajar coding. Pandas adalah library Python bersifat open source yang banyak digunakan sebagai tools analisis data pada Python.
+Pandas adalah tools yang sangat coco untuk analisis dan pemodelan data.
+Pandas adalah Library Python yang lebih baik dari NumPy dari sisi fungsionalitas, dan menyediahan impiementasi DataFrame yang efisien.
+DataFrames pada dasarnya adalah array multidimensi dengan label baris «an kolom. "Stripplot and swarmplot with seaborn"                                                        Strip plot digunakan untuk menganalisis numerik v/s categorical data. Swarm plot dapat digunakan untuk melakukan analisis multivariat antara numerik v/s categorical V/s categorical
+
+Tue, 15 Mar
+
+Memahami teknik visualisasi data dengan python.
+Memahami fungi visualisasi dasar dengan matplotlib.
+Membuat grafik dan visualisasi yang berbeda seperti lineplot, pie charts, box plots, strip plats, swarmplots dengan matplotlib dan seaborn.
+Membuat visualisasi untuk time series data
+
+Wed, 16 Mar
+
+Hari ini kami belajara tentang Memahami lebih detil tentang teknik regression dan berbagai use case nya
+Melihat bagaimana konsep gradient descent di linear regressions dan fungsi dari cost function
+Melakukan training model untuk memahami konsep gradient descent
+Mendeskripsikan regularisasi pada regression seperti: Lasso dan Ridge Regression
+Mendefinisikan Generalized Linear Regression (GLM)
+
+Thu, 17 Mar
+
+hari belajar materi tentang Algoritma K-NN
+
+Fri, 18 Mar
+
+Neural Networks dan  cara kerja Neural Networks?
+
+What did you learn this week?
+
+hari ini lebih banyak belajar coding. Pandas adalah
+library Python bersifat open source yang banyak
+digunakan sebagai tools analisis data pada
+Python.
+Pandas adalah tools yang sangat coco untuk
+analisis dan pemodelan data.
+Pandas adalah Library Python yang lebih baik dari
+NumPy dari sisi fungsionalitas, dan menyediahan
+impiementasi DataFrame yang efisien.
+DataFrames pada dasarnya adalah array
+multidimensi dengan label baris «an kolom.
+"Stripplot and swarmplot with seaborn"
+Strip plot digunakan untuk menganalisis numerik
+v/s categorical data. Swarm plot dapat digunakan
+untuk melakukan analisis multivariat antara numerik
+v/s categorical V/s categorical. Memahami teknik visualisasi data dengan python.
+Memahami fungi visualisasi dasar dengan
+matplotlib.
+Membuat grafik dan visualisasiyang berbeda
+seperti lineplot, pie charts, box plots, strip plats,
+swarmplots dengan matplotlib dan seaborn.
+Membuat visualisasi untuk time series data. Hari ini kami belajara tentang Memahami lebih detil
+tentang teknik regression dan berbagai use case
+nya
+Melihat bagaimana konsep gradient descent di
+linear regressions dan fungsi dari cost function
+Melakukan training model untuk memahami
+konsep gradient descent
+Mendeskripsikan regularisasi pad regression
+seperti: Lasso dan Ridge Regression
+Mendefinisikan Generalized Linear Regression
+(GLM). Neural Networks dan cara kerja Neural Networks

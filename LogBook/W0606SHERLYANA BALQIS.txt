@@ -1,0 +1,41 @@
+Mon, 28 Mar
+
+Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan fitur tidak menghilangkan informasi yang dimuat pada data tersebut.
+Teknik yang digunakan ada 2, yakni: PCA dan LDA.
+Kedua teknik menggunakan nilai eigen dan vektor eigen dalam penyelesaian.
+
+Tue, 29 Mar
+
+Sakit
+
+Wed, 30 Mar
+
+Convolutional Neural Networks (CNN) adalah kategori Neural Network yang telah terbukti sangat efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar.
+CNN telah berhasil mengidentifikasi wajah, objek, dan rambu lalu lintas lebih lanjut dapat digunakan sebagai robot vision dan self driving car.
+CNN juga digunakan dalam aplikasi smart grid.
+Text Classification/klasifikasi teks adalah proses pemberian tag atau kategori ke teks menurut isinya, Klasifikasi teks dapat digunakan untuk mengatur, menyusun, dan mengkategori hampir semua hal.
+Macam-macam area implementasi Text Classification, seperti Deteksi Spam, analisis sentimen, deteksi/klasifikasi emosi.
+Dua pendekatan umum Teks Classification, yaitu Machine Learning dan Lexicon.
+
+Thu, 31 Mar
+
+Visualisasi Data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data dapat berupa statis, beranimasi, dan interaktif.
+Dimensi adalah atribut data. Conroh: nama, tanggal dan waktu, dan kota.
+Metrik adalah pengukuran kuantitatif. Contoh: nilai, harga, dan total penjualan.
+Google Data Studio adalah tool gratis untuk visualisasi data interaktif dari Google yang sepenuhnya dapat disesuaikan oleh pengguna dan mudah dibagikan kepada orang lain.
+
+Fri, 1 Apr
+
+Web Scraping adalah praktik pengumpulan data dari situs web untuk mendapatkan informasi yang diinginkan.
+Modul untuk web scraping yang bisa digunakan pada python antaranya: urllib3, requests, BeautifulSoup, Scrapy, Selenium.
+Dalam melakukan web scraping perlu persiapan dan teknik khusus untuk mengatasi web statis atau dinamis.
+
+What did you learn this week?
+
+Dimensionality reduction berfungsi untuk mengurangi fitur atau variabel predictor yang banyak menjadi beberapa fitur saja. Akan tetapi pengurangan fitur tidak menghilangkan informasi yang dimuat pada data tersebut.
+Convolutional Neural Networks (CNN) adalah kategori Neural Network yang telah terbukti sangat efektif di berbagai bidang seperti pengenalan dan klasifikasi gambar.
+Text Classification/klasifikasi teks adalah proses pemberian tag atau kategori ke teks menurut isinya, Klasifikasi teks dapat digunakan untuk mengatur, menyusun, dan mengkategori hampir semua hal.
+Visualisasi Data adalah representasi grafis dari informasi dan data.
+Jenis Visualisasi Data dapat berupa statis, beranimasi, dan interaktif.
+Web Scraping adalah praktik pengumpulan data dari situs web untuk mendapatkan informasi yang diinginkan.

@@ -1,0 +1,39 @@
+Mon, 14 Mar
+
+Numpy adalah paket python yang banyak digunakan untuk perhitungan matematis dengan python. Pandas dapat digunakan untuk melakukan data import, eksport, data cleaning, data wrangling, data aggregation. Series dan dataframes adalah primary data types dalam python.
+
+Tue, 15 Mar
+
+Variabel turunan dan bagaimana cara menganalisanya.
+EDA untuk menemukan suatu pola, mendeteksi anomali, hypothesis testing dan untuk memvalidasi asumsi menggunakan ringkasan statistik dan representasi visual juga digunakan untuk menentukan feature variabel yang dapat digunakan oleh machin learning.
+Ragam metode yang berbeda dan tersedia untuk EDA
+
+Wed, 16 Mar
+
+Logistic regression merupakan linear model yang digunakan untuk persoalan klasifikasi.
+Logistic regression bukan merupakan pilihan yang baik ketika data set yang ada memua feature yang memiliki relasi tidak linear dengan target.
+Logloss digunakan sebagai cost function untuk logistic regression.
+Accuracy, recal, precision dan f1 score digunakan untuk menilai performa dari model di persoalan klasifikasi.
+
+Thu, 17 Mar
+
+KNN yang merupakan singkatan dari K Nearest Neighbor adalah algoritma Supevised Machine Learning yang mengklasifikasi titik data baru ke dalam kelas target, mengandalkan fitur titik data tetangganya.
+Euclidean Jarak antara dua vektor, Kurangi satu dari yang lain, kuadrat perbedaan, jumlahkan mereka, dan mengambil akar kuadrat.
+KNN regresi mencoba memprediksi nilai variabel output dengan menggunakan rata-rata lokal.
+KNN classification mencoba untuk memprediksi class, dimana output variabel dengan menghitung local probality.
+
+Fri, 18 Mar
+
+Bobot dalam Neural Networks diperbarui menggunakan algoritma backpropagation.
+Neural Networks bekerja sangat baik pada data yang tidak terstruktur dan terstruktur.
+Overfitting dapat ditangani dengan menggunakan regularisasi, optimasi putus sekolah, augmentasi data dan model penyederhanaan.
+Underfitting dapat ditangani dengan mengumpulkan lebih banyak fitur, mengurangi putus sekolah dan regularisasi.
+
+What did you learn this week?
+
+Numpy adalah paket python yang banyak digunakan untuk perhitungan matematis dengan python.
+Pandas dapat digunakan untuk melakukan data import, eksport, data cleaning, data wrangling, data aggregation.
+EDA untuk menemukan suatu pola, mendeteksi anomali, hypothesis testing dan untuk memvalidasi asumsi menggunakan ringkasan statistik dan representasi visual juga digunakan untuk menentukan feature variabel yang dapat digunakan oleh machin learning.
+Logistic regression merupakan linear model yang digunakan untuk persoalan klasifikasi.
+KNN yang merupakan singkatan dari K Nearest Neighbor adalah algoritma Supevised Machine Learning yang mengklasifikasi titik data baru ke dalam kelas target, mengandalkan fitur titik data tetangganya.
+Bobot dalam Neural Networks diperbarui menggunakan algoritma backpropagation.

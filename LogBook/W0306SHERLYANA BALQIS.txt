@@ -1,0 +1,23 @@
+Mon, 7 Mar
+
+Object oriented programming memungkinkan pendekatan pemrograman modular dan struktural yang pada gilirannya meningkatkan kesederhanaan kode, memudahkan pemeliharaan kode. Python module adalah file .py yang berisi implementasi kelas, atribut, dan fungsi, dan dapat dimuat menggunakan keyword import. Python memiliki banyak modul bawaan yang berguna seperti matematika, os, time, statistics, dll. Python memiliki banyak built-in code exceptions yang dapat berguna dalam memprogram tindakan alternatif ketika pengecualian tertentu terjadi.
+
+Tue, 8 Mar
+
+Mempelajari matematika dasar aljabar linear : vektor, matriks, determinan dan invers. Operasi matematika dan numpy. Membahas apa itu machine learning, paradigma pemograman, segmentasi machine learning, kelebihan dan kekurangan nya. Perbedaan machine learning dengan deep learning.
+
+Wed, 9 Mar
+
+Mempelajati tipe data - data terstruktur, tidak Terstruktur, dan semi terstruktur. Data terstruktur, tidak terstruktur, dan semi struktur, organisasinya, contoh, kelebihan dan keterbatasannya. Pengantar statistik beserta klasifikasinya: statistik deskriptif dan inferensial. Empat ukuran skala: skala nominal, ordinal, interval dan rasio. Ukuran Tendensi Sentral: mean, median dan modus. Ukuran variabilitas: jangkauan, kuartil dan jangkauan interkuartil, varians dan standar deviasi. Konsep Kovarians dan Korelasi. Pengenalan itu deep learning, perkembangan nya, kelebihan dan kekurangan nya. Membahas apa itu Artificial Neural Network, kelebihan dan kekurangan nya dan cara kerja nya
+
+Thu, 10 Mar
+
+Data analytics with python advance statistics, pengujian hipotesis, kesalahan tipe I & II, distribusi normal, mengapa perlu distribusi normal, uji-T, ANOVA, statistik nonparametrik. Mempelajari apa itu system thingking, algo, flow, dan system map. AI Projek Cycle : problem scoping - data acquisitior - data exploration - modeling - evaluation - deployment
+
+Fri, 11 Mar
+
+Recap maths, basic dan advanced statistics. Recap Artificial Intelligence, machine learning dan deep learning
+
+What did you learn this week?
+
+Object oriented programming memungkinkan pendekatan pemrograman modular dan struktural yang pada gilirannya meningkatkan kesederhanaan kode, memudahkan pemeliharaan kode. Python modul adalah file .py yang berisi implementasi kelas, atribut, dan fungsi, dan dapat dimuat menggunakan keyword import. Python memiliki banyak modul bawaan yang berguna seperti matematika, os, time, statistics, dll. Python memiliki banyak built-in code exceptions yang dapat beruna dalam memprogram tindakan alternatif ketika pengecualian tertentu terjadi. Mempelajari matematika dasar aljabar linear : vektor, matriks, determinan dan invers. Operasi matematika dan numpy. Membahas apa itu machine learning, paradigma pemograman, segmentasi machine learning, kelebihan dan kekurangan nya. Perbedaan machine learning dengan deep learning. Mempelajati tipe data - data terstruktur, tidak Terstruktur, dan semi terstruktur. Data terstruktur, tidak terstruktur, dan semi struktur, organisasinya, contoh, kelebihan dan keterbatasannya. Pengantar statistik beserta klasifikasinya: statistik deskriptif dan inferensial. Empat ukuran skala: skala nominal, ordinal, interval dan rasio. Ukuran Tendensi Sentral: mean, median dan modus. Ukuran variabilitas: jangkauan, kuartil dan jangkauan interkuartil, varians dan standar deviasi. Konsep Kovarians dan Korelasi. Pengenalan itu deep learning, perkembangan nya, kelebihan dan kekurangan nya. Membahas apa itu Artificial Neural Network, kelebihan dan kekurangan nya dan cara kerja nya. Data analytics with python advance statistics, pengujian hipotesis, kesalahan tipe I & II, distribusi normal, mengapa perlu distribusi normal, uji-T, ANOVA, statistik nonparametrik. Mempelajari apa itu system thingking, algo, flow, dan system map. AI Projek Cycle : problem scoping - data acquisitior - data exploration - modeling - evaluation - deployment. Recap maths, basic dan advanced statistics. Recap Artificial Intelligence, machine learning dan deep learning.

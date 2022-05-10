@@ -1,0 +1,276 @@
+Tue, 1 Mar
+
+Hari ini, saya mempelajari tentang python, yaitu tentang:
+
+-Comment pada python bisa menggunakan syntax # dan """ ataupun ''' (*ps : tanda kutip dua (") dan kutip satu(') pada python dinilai sama) dimana # hanya untuk satu baris sedangkan """ dan ''' bisa lebih satu baris
+ contoh :
+ #this is a comment
+ #written in
+ #more than just one line
+
+ """
+ This is a comment
+ written in
+ more than just one line
+ """
+
+-Variabel merupakan tempat penyimpanan data. Pada python, variable tidak membutuhkan perintah untuk pendeklarasiannya
+ contoh:
+ x = 4
+ x = "Sally"
+ variable x terjadi overwrite nilai x jika print(x) akan menjadi Sally
+ 
+ python merupakan bahasa pemrograman case sensitive, jadi jika
+ a = 4
+ A = "Sally"
+ tidak akan terjadi overwrite
+
+ Untuk penamaan variable pada python harus diawali dengan huruf ataupun underscore, tidak boleh diawali dengan angka, hanya bisa mengandung alpha-numeric dan underscore dan bersifat sensitive case.
+ -Camel case yaitu setiap kata kecuali kata pertama diawali dengan huruf kapital, contohnya myVariableName = "John"
+ -Pascal case yaitu setiap kata diawalai dengan huruf kapital, contohnya MyVariableName = "John"
+ -Snake case yaitu setiap kata dipisahkan oleh underscore, contohnya my_variable_name = "John"
+ 
+ pada python dimungkinkan untuk mengekstrak nilai-nilai didalam list, tuple dan lainnya kedalam variable, menetapkan beberapa nilai variabel ataupun menetapkan satu nilai yang sama untuk beberapa variable pada satu baris syntax
+ contoh : 
+ x, y, z = "Orange", "Banana", "Cherry"
+ x = y = z = "Kiwi"
+ fruits = ["apple", "banana", "cherry"]
+ x, y, z = fruits
+
+-Tipe data
+ x = "Hello World" 				# str
+ x = 20            				# int
+ x = 20.5 					# float
+ x = ij						# complex
+ x = ["apple", "banana", "cherry"] 		# list
+ x = ("apple", "banana", "cherry")  		# tuple
+ x = range(6)					# range
+ x = {"name" : "Tays", "age" : 20}		# dictionary
+ x = {"apple", "banana", "cherry"}		# set
+ x = frozenset({"apple", "banana", "cherry"})	# frozenset
+ x = True					# boolean
+ x = b"Hello"					# bytes
+ x = bytearray(5)				# bytearray
+ x = memoryview(bytes(5)) 			# memoryview
+
+ untuk mengetahui tipe data dari suatu variable dapat menggunakan perintah type()
+ contoh:
+ x = 1
+ print(type(x))
+ 
+ tipe data float bisa mengandung angka dalam notasi ilmiah
+ contoh :
+ y = 12E4
+
+-Numbers, pada python ada 3 tipe numerik yaitu int, float, complex
+ contoh:
+ x = 1		# int
+ a = float(x)	# a bertipe float bernilai 1.0
+ b = complex(x) # b bertipe complex bernilai (1+0j)
+ y= 2.8 	# float
+ c = int(y)	# c bertipe int bernilai 2
+ z= ij		# complex
+
+ angka random 
+ contoh:
+ import random
+ print(random.randrange(1,10) #menghasilkan angka random antara angka 1 sampai 9
+
+-Casting dilakukan jika ingin memberikan tipe data yang spesifik pada variable
+ contoh:
+ x = str(3) yang berarti x adalah '3'
+ y = int(3) yang berarti y adalah 3
+ z = float(3) yang berarti z adalah 3.0
+
+-String pada python diapit oleh tanda petik dua ataupun petik satu untuk satu baris ataupun triple petik dua(""") ataupun triple petik 1(''') untuk lebih dari 1 baris
+ contoh:
+ melakukan perulangan pada string
+ for x in "banana":
+    print(x)
+ 
+ menghitung panjang string
+ print(len("Hello, World!")) #output 13
+
+ mengecek apakah substring ada dalam suatu string
+ a = "The best things in life are free!"
+ print("free" in txt)
+
+ mengecek apakah substring tidak ada dalam suatu string
+ a = "The best things in life are free!"
+ print("expensive" not in txt)
+
+ mengubah ke huruf besar dan kecil serta menghapus spasi yang ada diawal dan akhir string
+ a = "hai"
+ print(a.upper()) #HAI
+ b = "TYAS"
+ print(b.lower()) #tyas
+ c = " mehhh "
+ print(c.strip()) #mehhh
+
+ menggantikan karakter dengan karakter lain dan memisahkan string dengan pemisah tertentu menjadi sebuh list item
+ contoh:
+ a = "hai"
+ print(a.replace("i", "y")) #hay
+ b = "Hello, World!"
+ print(a.split(",")) #['Hello', 'World!']
+
+ menggabungkan string
+ a = "hai"
+ b = "tyas"
+ c = a + b #("haityas)
+ d = a + "justin" (haijustin)
+ 
+ umur = 20
+ tahun = 2022
+ kata = "saya akan berumur {1} pada tahun {0}
+ print(kata.format(tahun, umur))
+
+ slicing, untuk mendapatkan karakter dari range tertentu pada string
+ contoh :
+ b = "Hello, World!"
+ print(b[2:5])   #output llo (dimulai dari indeks 2 sampai indeks 5-1 yaitu 4
+ print(b[:5])    #output Hello (dimulai dari indeks 0 hingga indeks 5-1 yaitu 4
+ print(b[:2])    #output llo, World! (dimulai dari indeks 2 hingga akhir 
+ print(b[-5:-2]) #output orl (dimulai dari indeks -5 hingga indeks -2-1 yaitu -3
+
+-Boolean bernilai trus or false
+ x = "Hello"
+ y = 15
+ print(bool(x)) #true
+ print(bool(y)) #true
+ bool("abc")    #true
+ bool(123)	#true
+ bool(["apple", "cherry", "banana"]) #true
+
+ bool(False)	#false
+ bool(None)	#false
+ bool(0)	#false
+ bool("")	#false
+ bool(())	#false
+ bool([])	#false
+ bool({})	#false
+
+-Operator pada python dibagi menjadi beberapa yaitu arithmetic, assignment, comparison, logical, identity, membership, bitwise
+ contoh:
+ a = (10 + 5 / 10 * 1 - 4) % 2
+ b *= 3
+ a != b
+ a is not y
+
+-List dapat mengantung beberapa tipe data sekaligus
+ tuple tidak dapat diubah, berurut, dan memunginakan untuk diduplikasi
+ set merupakan kumpulan data yang tidak dapat diduplikasi, unordered, unchangeable(*dapat di remove ataupun add new items), and unindexed
+ dictionary digunakan untuk menyimpat data yang memiliki kata kunci  yang ordered, dapat diubah dan tidak dapat diduplikat
+ contoh:
+ list1 = ["abc", 34, True, 40, "male"]
+ thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+ print(len(thistuple)) #5
+
+ thisset = {"apple", "banana", "cherry"}
+ thisset = {"apple", "banana", "cherry"}
+ print(len(thisset)) #3
+ thisset = {1, 2, 3}
+ thisset.add(4) #{1, 2, 3, 4}
+ thisset.remove(3) # {1, 2, 4}
+ thisset.discard(3) #{1, 2,4}
+ ts = {5, 6}
+ thisset.update(ts) #{1, 2, 3, 5, 6}
+
+ thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+ }
+ print(thisdict["brand"]) #Ford
+ print(len(thisdict)) #3
+ x = thisdict.get("model")
+ print(x) #Mustang
+ print(thisdict.keys()) #dict_keys(['brand', 'model', 'year'])
+ print(thisdict.values()) #dict_values(['Ford', 'Mustang', 1964])
+
+ print(list1[1]) #34
+ print(list[-1]) #male
+ print(list1[2:4]) #[True, 40]
+ print(list[:2]) #['abc', 34]
+
+ list1[0] = "tyas" #["tyas", 34, True, 40, "male"]
+ list1.insert(2, False) #["abc", 34, False, True, 40, "male"]
+
+ lb = [2, 3, 4]
+ 
+ lb.append(5) #[2, 3, 4, 5]
+ lc = [5, 6]
+ lb.extend(lc) #[2, 3, 4, 5, 6]
+ lb.remove(3) #[2, 4]
+ lb.pop(1) #[2,4]
+ lb.pop() #[2, 3]
+ lb.clear() #[]
+
+ la = ["d", "t", "a"]
+ la.sort() #["a", "d", "t"]
+ la.sort(reverse = True) #["t", "d", "a"]
+ ld = la.copy() or ld = list(la) #["d", "t", "a"]
+
+Wed, 2 Mar
+
+Hari ini saya belajar tentang operation, percabangan dan perulangan pada python. Operator pada python dibagi menjadi beberapa bagian, yaitu Arithmetic operators ( +, -, *, /, %, //, **), Assignment operators(=, +=, -=, *=, /=, %=, //=, **=, &=, |=, <<=, >>=, ^=), Comparison operators(==, !=, <, >, <=, >=), Logical operators(and, or, not), Identity operators(is, is not), Membership operators(in, not in), Bitwise operators(&, |, >>, <<, ^, ~) . 
+Percabangan dalam python menggunakan syntax if, elif, dan else. Pada saat menggunakan syntax if ataupun elif biasanya akan diikuti dengan sebuah statement yang bernilai true ataupun false. 
+Perulangan pada python bisa menggunakan for loop ataupun while loop. Perulangan for loop biasanya digunakan untuk perulangan yang kita sudah mengetahui batasan jumlah perulangannya sedangkan untuk perulangan while loop biasanya digunakan untuk perulangan yang belum kita ketahui batasannya. Adapun semua case yang bisa diselesaikan menggunakam for loop bisa diselesaikan while loop, tetapi tidak semua case yang bisa diselesaikan menggunakan while loop bisa diselesaikan menggunakam for loop. Dalam perulamgan python ada break, continue dan pass. Saat perintah break dieksekusi, perulangan akan langsung diberhentikan sedangkan saat continue dieksekusi, iterasi tersebut akan diabaikan dan lanjut ke iterasi berikutnya. pass dalam Python digunakan ketika pernyataan diperlukan secara sintaksis tetapi tidak ingin perintah atau kode apa pun dijalankan seperti operasi nol, karena tidak akan terjadi apa-apa jika dijalankan.
+
+Contoh :
+a = 7 % 2 
+b = a ** 3
+
+If a >= b :
+   print("a bernilai lebih besar sama dengan b") 
+
+Mylist = ["tyas", "tays", "stay"]
+For i in range(len(Mylist)) :
+   print(i) 
+MyList = [ x**2 for x in range(len(Mylist))]
+
+Im
+
+
+
+i = 0
+while i < 10:
+  i += 1
+  if i % 3 != 1:
+     continue
+  elif i % 9 == 0:
+      break
+  print(i) 
+
+
+Thu, 3 Mar
+
+Libur hari raya nyepi....... 
+
+Fri, 4 Mar
+
+Hari ini saya belajar tentang python seperti tentang fungsi, lamda, try and catch dan lainnya. Pada pertemuan ini saya juga tahu bahwa kita bisa mengkonekkan google colab dengan github. Untuk fungsi pada python sendiri menggunakan syntax def. pada pungsi dipython kita dapat menggunakan parameter dan saya baru tahu tentang default parameter. Lalu pada python ada variable lokal dan global, dimana variable global dibuat diluar fungsi dan variable lokal dibuat didalam fungsi. jika ada case dimananama variable lokal dan global sama, mereka memiliki nilai yang berbeda, dimana saat code dalam fungsi dijalankan, maka nilai yang berlaku adalah nilai dari variabel lokal sedangkan diluar function tersebut, nilai yang berlaku adalah nilai dari variable global.
+ada beberapa bult-in function di python, seperti print() untuk mencetak output, len()menghitung panjang/jumlah item , type() untuk mengetahui tipe dari variable, dll untuk mewakili standar. Untuk mewakili angka ada pow() untuk pangkat, round() untuk pembulatan, min(), max() dll.
+Untuk string, kita dapat menggunakan double quote ataipun single quote. Kita dapat menggabungkan string menggunakan operator '+' seperti:
+a = "saya"
+b = "tyas"
+print(a+b)--> sayatyas
+print(a+" "+b) --> saya tyas
+untuk mengecek string
+cekstring = "t"
+print(cekstring in b) --> true
+print(cekstring in b) --> false
+#format string
+umur = 19
+tahun = 2002
+pesan = "saya lahir tahun {}, jadi umur saya {} tahun"
+print(pesan.format(tahun, umur))
+Pada fungsi jika menggunakan yield, maka fungsi hanya bisa di run sebanyak yield, jika tidak akan terjadi error, untuk menghindari errornya bisa menggunakan exeption handling(try, except, else).
+untuk perulangan for bisa menggunakan 1 parameter sepertinti fot i in range(6), 2 parameter(start,stop) for i in range(1, 10) ataupun 3 parameter seperti(-1, -1, -1)-->dari belakang. 
+File handeling jika menggunakan mode write maka akan meimpa file yang sudah ada tetapi jika menggunakan mode append maka tidak akan menimpa walau ada file yang sama. File handling yang sering digunakan adalah write, append dan read.
+
+What did you learn this week?
+
+Minggu ini saya belajar tentang Comment pada python bisa menggunakan syntax # dan """ ataupun ''' (*ps : tanda kutip dua (") dan kutip satu(') pada python dinilai sama) dimana # hanya untuk satu baris sedangkan """ dan ''' bisa lebih satu baris. Variabel yang merupakan tempat penyimpanan data. Pada python, variable tidak membutuhkan perintah untuk pendeklarasiannya. Casting yang dilakukan jika ingin memberikan tipe data yang spesifik pada variable.Saya juga belajar tentang Boolean, list, tuple, set dan dictionary. 
+Lalu saya juga belajar  tentang operation, percabangan dan perulangan pada python. Operator pada python dibagi menjadi beberapa bagian, yaitu Arithmetic operators ( +, -, *, /, %, //, **), Assignment operators(=, +=, -=, *=, /=, %=, //=, **=, &=, |=, <<=, >>=, ^=), Comparison operators(==, !=, <, >, <=, >=), Logical operators(and, or, not), Identity operators(is, is not), Membership operators(in, not in), Bitwise operators(&, |, >>, <<, ^, ~) . Percabangan dalam python menggunakan syntax if, elif, dan else. Pada saat menggunakan syntax if ataupun elif biasanya akan diikuti dengan sebuah statement yang bernilai true ataupun false. Perulangan pada python bisa menggunakan for loop ataupun while loop. Perulangan for loop biasanya digunakan untuk perulangan yang kita sudah mengetahui batasan jumlah perulangannya sedangkan untuk perulangan while loop biasanya digunakan untuk perulangan yang belum kita ketahui batasannya. Adapun semua case yang bisa diselesaikan menggunakam for loop bisa diselesaikan while loop, tetapi tidak semua case yang bisa diselesaikan menggunakan while loop bisa diselesaikan menggunakam for loop. Dalam perulamgan python ada break, continue dan pass. Saat perintah break dieksekusi, perulangan akan langsung diberhentikan sedangkan saat continue dieksekusi, iterasi tersebut akan diabaikan dan lanjut ke iterasi berikutnya. pass dalam Python digunakan ketika pernyataan diperlukan secara sintaksis tetapi tidak ingin perintah atau kode apa pun dijalankan seperti operasi nol, karena tidak akan terjadi apa-apa jika dijalankan. 
+Selain itu, saya belajar tentang fungsi, lamda, try and catch dan lainnya. Pada minggu ini saya juga tahu bahwa kita bisa mengkonekkan google colab dengan github. Untuk fungsi pada python sendiri menggunakan syntax def. pada pungsi dipython kita dapat menggunakan parameter dan saya baru tahu tentang default parameter. Lalu pada python ada variable lokal dan global, dimana variable global dibuat diluar fungsi dan variable lokal dibuat didalam fungsi. jika ada case dimananama variable lokal dan global sama, mereka memiliki nilai yang berbeda, dimana saat code dalam fungsi dijalankan, maka nilai yang berlaku adalah nilai dari variabel lokal sedangkan diluar function tersebut, nilai yang berlaku adalah nilai dari variable global. ada beberapa bult-in function di python, seperti print() untuk mencetak output, len()menghitung panjang/jumlah item , type() untuk mengetahui tipe dari variable, dll untuk mewakili standar. Untuk mewakili angka ada pow() untuk pangkat, round() untuk pembulatan, min(), max() dll. Untuk string, kita dapat menggunakan double quote ataipun single quote. Kita dapat menggabungkan string menggunakan operator '+' seperti: a = "saya" b = "tyas" print(a+b)--> sayatyas print(a+" "+b) --> saya tyas untuk mengecek string cekstring = "t" print(cekstring in b) --> true print(cekstring in b) --> false #format string umur = 19 tahun = 2002 pesan = "saya lahir tahun {}, jadi umur saya {} tahun" print(pesan.format(tahun, umur)) Pada fungsi jika menggunakan yield, maka fungsi hanya bisa di run sebanyak yield, jika tidak akan terjadi error, untuk menghindari errornya bisa menggunakan exeption handling(try, except, else). untuk perulangan for bisa menggunakan 1 parameter sepertinti fot i in range(6), 2 parameter(start,stop) for i in range(1, 10) ataupun 3 parameter seperti(-1, -1, -1)-->dari belakang. File handeling jika menggunakan mode write maka akan meimpa file yang sudah ada tetapi jika menggunakan mode append maka tidak akan menimpa walau ada file yang sama. File handling yang sering digunakan adalah write, append dan read.

@@ -1,0 +1,64 @@
+Mon, 11 Apr
+
+mempelajarai tentang RNN, LST, GRU Introduction
+dan Time series : Deep Learning Approach
+Time series Model Deep Learning hanya mempelajari fitur, dan dinamika dari data langsung (tanpa mempertimbangkan pengetahuan domain). Berkat ini, Deep learning dapat mempercepat proses data preparation dan dapat mempelajari pola data yang lebih kompleks dengan cara yang lebih lengkap.
+
+Tue, 12 Apr
+
+Introduction of Autoencoder and Image Denoising .
+Autoencoder adalah model neural network yang memiliki input dan output yang sama. Autoencoder mempelajari data input dan berusaha untuk melakukan rekonstruksi terhadap data input tersebut.
+
+ Image Denoising  adalah memperkirakan gambar asli dengan menekan noise dari versi gambar yang terkontaminasi noise
+
+Wed, 13 Apr
+
+Secara umum, transfer learning adalah melatih model pada tugas tertentu, lalu model tersebut dapat digunakan untuk tugas yang berbeda.
+
+• Memahami konsep transfer learning pada NLP.
+• Memahami batasan word embedding tradisional.
+• Memahami mekanisme self-attention pada arsitektur transformer. • Memahami arsitektur dan representasi input BERT.
+• Mampu melakukan fine-tuning menggunakan
+
+Thu, 14 Apr
+
+Robotics
+Dalam robotika, tujuan akhir pembelajaran penguatan adalah untuk memberi robot kemampuan untuk belajar, meningkatkan, beradaptasi, dan mereproduksi tugas dengan batasan yang berubah secara dinamis berdasarkan eksplorasi dan pembelajaran otonom
+
+Fri, 15 Apr
+
+Hari libur Nasional Wafat Isa Almasih kelas pertemuan diliburkan diganti dengan self study dan diberikan materi oleh coach
+
+What did you learn this week?
+
+Senin Data Science
+Time Series
+(Deep Learning Approach)
+memahami:
+• Arsitektur jaringan RNN, LSTM, GRU
+• Dapat melakukan time series forecasting
+menggunakan deep learning
+
+selasa : Computer Vision
+Introduction of Autoencoder & Image Denoising
+An autoencoders neural network adalah
+algoritme pembelajaran mesin tanpa
+pengawasan yang menerapkan
+backpropagation, Autoencoder
+mempelajari data input dan berusaha
+untuk melakukan rekonstruksi terhadap
+data input tersebut.
+
+Rabu : Natural Language Processing (NLP)
+Transfer Learning for NLP–Transformer & BERT
+▪Memahami konsep transfer learning pada NLP.
+▪ Memahami batasan word embedding tradisional.
+▪ Memahami mekanisme self-attention pada arsitektur transformer.
+▪ Memahami arsitektur dan representasi input BERT.
+▪ Mampu melakukan fine-tuning menggunakan BERT
+
+Kamis Reinforcement Learning 
+Q Learning dan Deep Q Learning menggunakan robot-karun,Untuk dapat menjalankan simulasi Q-Learning dan DQN dibutuhkan environment robot-karun. environment robot-karun terdapat pada directory environment. Adapun environment yang dibuat 
+
+jumat : Technical
+Libur Nasional Jumat Agung diganti menjadi self-study atau pembelajaran mandiri. 

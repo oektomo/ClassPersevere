@@ -1,0 +1,71 @@
+Mon, 7 Mar
+
+Data
+Kumpulan fakta-fakta yang ada disekitar kita
+Bentuk jamak dari kata "datum'
+Kumpulan fakta dan statistik dalam bentuk mentah atau tidak terorganisir
+Kumpulan fakta dan statistik yang digunakan untuk referensi dan analisis
+Digital data
+•Informasi yang diproses atau disimpan oleh komputer dalam
+bentuk dokumen teks, gambar, audio, video, dil.
+
+Tue, 8 Mar
+
+hari kami di berikan materi  Matematika Dasar untuk
+Kecerdasan Buatan yang mencakup tentang alajabar linear, kalkulus, peluang , operasi matematika dan numpy. dan masih banyak lagi.
+
+Wed, 9 Mar
+
+hari ini saya mempelajari banyak hal baru tentang apa itu segmentasi ML, Tradisional programming, kelebihan dan kekurangan ML dan masih banyak lagi tentang ML. Saya juga mempelajari tentang Artificial Neural Network (ANN) adalah teknologi Al yang meniru dan terinspirasi dari cara kerja neuron pada otak manusia. mentor juga menjelaskan kelebihannya, cara kerja, formula ANN dan banyak lagi materi lainya.
+
+Thu, 10 Mar
+
+hari ini mentor oetomo di ganti dengan mentor yang lain berhubung mentor oetomo sedang sakit. hari kami belajar tentang algortma, flow, system map, AI Project cycle (Problem Scoping, Data Acquisition, Data Exploration,Modelling, Evaluation, Deployment). contoh data terstruktur, pengantar statistika, statistik deskriptif, mean dan median dan banyak lagi. 
+
+Fri, 11 Mar
+
+Object oriented programming, Pemrograman berorientasi objek adalah paradigma pemrograman yang menyediakan sarana untuk menyusun program sehingga properti dan perilaku digabungkan ke dalam objek individual. OOPs:class, Class adalah kumpulan objek. Class berisi cetak biru atau prototipe di mana objek
+akan dibuat. Ini adalah entitas logis yang berisi beberapa atribut dan metode. Inheritance adalah kemampuan satu kelas untuk memperoleh atau mewarisi properti dari kelas mlain (yang sudah ada). saya juga belajar  Membuat Program Sederhana untuk Menyelesaikan Persoalan fisis (fisika), hari kami juga mempelajari apa itu Traditional Programming vs Machine Learning
+
+What did you learn this week?
+
+Data
+Kumpulan fakta-fakta yang ada disekitar kita
+Bentuk jamak dari kata "datum'
+Kumpulan fakta dan statistik dalam bentuk mentah
+atau tidak terorganisir
+Kumpulan fakta dan statistik yang digunakan untuk
+referensi dan analisis Digital data
+•Informasi yang diproses atau disimpan oleh komputer dalam bentuk dokumen teks, gambar, audio, video, dil. Matematika Dasar untuk
+Kecerdasan Buatan yang mencakup tentang
+alajabar linear, kalkulus, peluang, operasi
+matematika dan numpy. dan mash banyak lagi.  hari ini saya mempelajari banyak hal baru tentang
+apa itu segmentasi ML, Tradisional programming,
+kelebihan dan kekurangan ML dan mash banyak
+lagi tentang ML. Saya juga mempelajari tentang
+Artificial Neural Network (ANN) adalah teknologi Al
+yang meniru dan terinspirasi dari cara kerja neuron
+pada otak manusia. mentor juga menjelaskan
+kelebihannya, cara kerja, formula ANN dan banyak
+lagi materi lainya. hari ini mentor oetomo di ganti dengan mentor
+yang lain berhubung mentor oetomo sedang sakit.
+hari kami belajar tentang algortma, flow, system
+map, Al Project cycle (Problem Scoping, Data
+Acquisition, Data Exploration,Modelling,
+Evaluation, Deployment). contoh data terstruktur,
+pengantar statistika, statistik deskriptif, mean dan
+median dan banyaklagi. Object oriented programming, Pemrograman
+berorientasi objek adalah paradigma
+pemrograman yang menyediakan sarana untuk
+menyusun program sehingga properti dan perilaku
+digabungkan ke dalam objek individual.
+OOPs:class, Class adalah kumpulan objek. Class
+berisi cetak biru atau prototipe di mana objek
+akan dibuat. Ini adalah entitas logis yang berisi
+beberapa atribut dan metode. Inheritance adalah
+kemampuan satu kelas untuk memperoleh atau
+mewarisi properti dari kelas mlain (yang sudah
+ada), saya juga belajar Membuat Program
+Sederhana untuk Menyelesaikan Persoalan fisis
+(fisika), hari kami juga mempelajari apa itu
+Traditional Programming vs Machine Learning

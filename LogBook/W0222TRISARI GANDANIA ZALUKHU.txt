@@ -1,0 +1,25 @@
+Mon, 28 Feb
+
+Libur Hari Raya
+
+Tue, 1 Mar
+
+kegiatan hari ini materinya dijelaskan oleh coach sesi pagi tentang AI dan sesi siang tentang python melalui meet.  mempraktekkan sendiri atribut-atribut yang digunakan pada python mulai dari home nya, syntax,variables, string dan lain sebagainya melalui sebuah website
+
+Wed, 2 Mar
+
+kegiatan hari ini belajar tentang git dan github dan membuat akun di github sebagai tempat pengumpulan tugas-tugas. 
+dan melanjutkan menulis syntax atau code program pada Jupyter Notebook
+
+Thu, 3 Mar
+
+Hari libur nyepi 
+dan menggunakan waktu dengan baik yaitu mempelajari materi-materi dan mengerjakan tugas
+
+Fri, 4 Mar
+
+melanjutkan materi tentang python dan pengumpulan tugas pada github
+
+What did you learn this week?
+
+mempelajari tentang python dan AI serta cara menggunakan tools git dan github serta pengumpulan tugas pada git. Terimakasih
